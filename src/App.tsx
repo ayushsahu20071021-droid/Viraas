@@ -1,7 +1,16 @@
-import { lazy, Suspense } from 'react';
-import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
+import { lazy, Suspense, useEffect } from 'react';
+import { BrowserRouter, Routes, Route, Navigate, useLocation } from 'react-router-dom';
 import Header from './components/Header';
 import Footer from './components/Footer';
+import { trackPageView } from './utils/analytics';
+
+function PageViews() {
+  const location = useLocation();
+  useEffect(() => {
+    trackPageView(location.pathname + location.search);
+  }, [location.pathname, location.search]);
+  return null;
+}
 
 const Home = lazy(() => import('./pages/Home'));
 const CategoryPage = lazy(() => import('./pages/CategoryPage'));
@@ -36,6 +45,7 @@ function PageFallback() {
 export default function App() {
   return (
     <BrowserRouter>
+      <PageViews />
       <div className="min-h-screen bg-[#F6F0E6]" style={{ fontFamily: "'DM Sans', sans-serif" }}>
         <Header />
         <main>

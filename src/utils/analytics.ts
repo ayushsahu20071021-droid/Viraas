@@ -55,3 +55,11 @@ export const trackAffiliateClick = (productId: string, merchant: string, categor
 export const trackTryOn = (productId: string, success: boolean) => {
   trackEvent(success ? 'try_on_success' : 'try_on_error', { productId });
 };
+
+/** SPA route changes: GA is initialised with send_page_view:false, so we push these manually. */
+export const trackPageView = (path: string) => {
+  if (typeof window === 'undefined') return;
+  const w = window as unknown as { gtag?: (...a: unknown[]) => void; fbq?: (...a: unknown[]) => void };
+  if (w.gtag) w.gtag('event', 'page_view', { page_path: path });
+  if (w.fbq) w.fbq('track', 'PageView');
+};
