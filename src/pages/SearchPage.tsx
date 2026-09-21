@@ -19,7 +19,8 @@ export default function SearchPage() {
     ? allLooks.filter((l) => textMatchesQuery(`${l.title} ${l.occasions.join(' ')} ${l.mood} ${l.description}`, q)).slice(0, 6)
     : [];
   const suggestions = ['diwali saree', 'pre-draped', 'wedding guest men', 'chikankari kurti', 'navratri kediyu', 'ivory organza', 'jhumka', 'bandhgala', 'sangeet lehenga', 'under 1500 co-ord'];
-  const occGuess = q ? ['diwali', 'navratri', 'sangeet', 'reception', 'wedding', 'mehendi', 'college-fest'].find((id) => q.toLowerCase().includes(id.replace('-', ' ').split(' ')[0])) : undefined;
+  const occGuess = q ? ['garba', 'haldi', 'diwali', 'navratri', 'sangeet', 'reception', 'wedding', 'mehendi', 'college-fest'].find((id) => q.toLowerCase().includes(id.replace('-', ' ').split(' ')[0])) : undefined;
+  const coupleGuess = q ? /couple|his and hers|his & hers|matching outfits/.test(q.toLowerCase()) : false;
 
   const submit = (value: string) => {
     if (value.trim()) {
@@ -77,6 +78,11 @@ export default function SearchPage() {
                 Search covers {products.filter((p) => p.category !== 'couple-edit').length.toLocaleString('en-IN')} pieces, {allLooks.length} curated looks and every occasion edit. Try a colour (ivory, wine), a craft (chikankari, bandhani), an occasion or a silhouette (anarkali, bandhgala).
               </p>
               <div className="flex flex-wrap justify-center gap-3">
+                {coupleGuess && (
+                  <Link to="/couple-edit" className="px-6 py-3 bg-[#B7945A] text-white font-semibold rounded-full text-sm hover:bg-[#a3834e] transition-colors">
+                    Open the Couple Edit
+                  </Link>
+                )}
                 {occGuess && getOccasion(occGuess) && (
                   <Link to={`/occasions/${occGuess}`} className="px-6 py-3 bg-[#B7945A] text-white font-semibold rounded-full text-sm hover:bg-[#a3834e] transition-colors">
                     Open the {getOccasion(occGuess)!.title} edit
