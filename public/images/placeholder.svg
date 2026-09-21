@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800" width="600" height="800">
+  <title>VIRAAS — visual pending</title>
+  <rect width="600" height="800" fill="#F1EAD9"/>
+  <rect x="30" y="30" width="540" height="740" fill="none" stroke="#B7945A" stroke-opacity="0.5" stroke-width="1.5"/>
+  <g fill="none" stroke="#103C35" stroke-opacity="0.34" stroke-width="5" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M228 232 L300 196 L372 232 L418 292 L378 322 L368 300 L368 560 L232 560 L232 300 L222 322 L182 292 Z"/>
+  </g>
+  <text x="300" y="640" text-anchor="middle" font-family="Georgia, serif" font-size="21" letter-spacing="3.4" fill="#B7945A">VIRAAS</text>
+  <text x="300" y="672" text-anchor="middle" font-family="Georgia, serif" font-size="12.5" letter-spacing="2.2" fill="#103C35" opacity="0.55">VISUAL PENDING — CHECK / REPLACE</text>
+</svg>
