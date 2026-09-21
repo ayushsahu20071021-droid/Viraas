@@ -18,7 +18,7 @@
 // EarnKaro link. Deep merchantUrls point to the closest real retailer
 // category/search page — never a bare homepage. Never Amazon.
 // ─────────────────────────────────────────────────────────────────────────────
-import { mkdirSync, writeFileSync } from 'node:fs';
+import { mkdirSync, writeFileSync, readFileSync } from 'node:fs';
 import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { renderPlate, renderCouplePlate, COLOUR_HEX, hashStr } from './plates.mjs'
@@ -618,7 +618,7 @@ writeFileSync(join(OUT_DATA, 'couples.json'), JSON.stringify(coupleLooks, null, 
 // sitemap + robots — full route coverage, derived from the generated data
 const readSrc = (f) => { try { return readFileSync(join(ROOT, f), 'utf8') } catch { return '' } }
 const journalSlugs = [...readSrc('src/data/articles.ts').matchAll(/slug: '([^']+)'/g)].map((m) => `/journal/${m[1]}`)
-const occasionIds = [...new Set([...readSrc('src/data/occasions.ts').matchAll(/\{\s*id: '([^']+)'/g)].map((m) => m[1]))]
+const occasionIds = [...new Set([...readSrc('src/data/occasions.ts').matchAll(/O\(\s*'([^']+)'/g)].map((m) => m[1]))]
 const ROUTES = [
   '', '/women', '/men', '/accessories', '/occasions', '/journal', '/trending', '/couple-edit', '/couple', '/saved', '/search', '/about', '/contact', '/faq', '/try-on',
   '/ai-try-on-privacy', '/affiliate-disclosure', '/privacy', '/terms',
