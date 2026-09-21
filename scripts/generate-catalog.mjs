@@ -312,7 +312,7 @@ set('w-kurti-straight', 'Cotton Straight Kurti', 'straight-kurti', 5, ['Chikanka
 set('w-kurti-print', 'Printed Everyday Kurti', 'straight-kurti', 5, ['Block Print', 'Kalamkari', 'Ajrakh Print', 'Bagru Print'], [PALETTE.heirloom, PALETTE.warm], ['Cotton', 'Rayon'], ['casual', 'college', 'travel'], 'kurta-sets', [599, 1699], 'kurti', { gender: 'women', cat: 'kurta-sets' })
 set('w-kurti-chikan', 'Chikankari Kurti', 'straight-kurti', 6, ['Chikankari', 'Kamdani', 'Tone-on-Tone', 'Resham Threadwork', 'Pearl Detailing'], [PALETTE.neuters, PALETTE.pastels, PALETTE.warm], ['Cotton', 'Chanderi', 'Modal Blend', 'Viscose'], ['diwali', 'festive', 'family', 'workwear'], 'kurta-sets', [999, 2799], 'kurti', { gender: 'women', cat: 'kurta-sets' })
 set('w-kurti-east', 'East-Frame Asymmetric Kurti', 'kurta-aline', 3, ['Chikankari', 'Kutch Embroidery', 'Gotapatti'], [PALETTE.warm, PALETTE.pastels], ['Cotton', 'Modal Blend'], ['casual', 'college', 'workwear'], 'kurta-sets', [799, 1999], 'kurti', { gender: 'women', cat: 'kurta-sets' })
-set('w-kurti-highlow', 'High-Llow Cotton Kurti with Tiros', 'kurta-aline', 3, ['Aari', 'Mirror Work', 'Dried Flower Work'], [PALETTE.warm, PALETTE.heirloom], ['Cotton'], ['diwali', 'festive', 'navratri'], 'kurta-sets', [1299, 2799], 'kurti', { gender: 'women', cat: 'kurta-sets' })
+set('w-kurti-highlow', 'High-Low Cotton Kurti with Tiers', 'kurta-aline', 3, ['Aari', 'Mirror Work', 'Dried Flower Work'], [PALETTE.warm, PALETTE.heirloom], ['Cotton'], ['diwali', 'festive', 'navratri'], 'kurta-sets', [1299, 2799], 'kurti', { gender: 'women', cat: 'kurta-sets' })
 
 // ── men (136) ──
 set('m-kurtiset-cotton', 'Cotton Kurta Set', 'men-kurta', 8, ['Chikankari', 'Block Print', 'Thread Embroidery', 'None', 'Pearl Detailing', 'Tone-on-Tone', 'Aari'], [PALETTE.neuters, PALETTE.warm, PALETTE.mutedEarth], ['Cotton', 'Linen', 'Handloom Cotton', 'Khadi Cotton'], ['diwali', 'haldi', 'casual', 'puja', 'college', 'family'], 'ethnic-bottomwear', [899, 2499], 'kurtaMen', { gender: 'men', cat: 'men-kurta-sets' })
@@ -666,8 +666,9 @@ for (const p of products) {
   if (p.category === 'couple-edit') continue
   const fam = familyOfColour(p.colour)
   let key, kind
-  if (p.gender === 'men') { key = `men|${p.id}`; kind = 'men' }
-  else if (APPAREL_PHOTO_CATS.includes(p.category)) { key = `wapp|${WOMEN_FAMILY[p.silhouette] || slugify(p.category)}|${fam}`; kind = 'women-apparel' }
+  if (p.gender === 'men' && APPAREL_PHOTO_CATS.includes(p.category)) { key = `men|${slugify(p.subCategory)}|${fam}`; kind = 'men' }
+  else if (p.gender === 'men') { key = `men|${slugify(p.subCategory)}|${fam}`; kind = 'accessory' }
+  else if (APPAREL_PHOTO_CATS.includes(p.category)) { key = `wapp|${p.category}|${WOMEN_FAMILY[p.silhouette] || slugify(p.category)}|${fam}`; kind = 'women-apparel' }
   else { key = `acc|${slugify(p.subCategory)}|${fam}`; kind = 'accessory' }
   if (!photoGroups.has(key)) photoGroups.set(key, { key, kind, products: [] })
   photoGroups.get(key).products.push(p)
@@ -676,7 +677,9 @@ const slots = []
 const productToSlot = new Map()
 for (const g of [...photoGroups.values()].sort((a, b) => a.key.localeCompare(b.key))) {
   const n = g.products.length
-  const imgs = g.kind === 'men' ? n : g.kind === 'women-apparel' ? Math.ceil(n / 2) : Math.max(1, Math.ceil(n / 2.5))
+  // men get the most unique visuals (high-priority modernisation), women share
+  // within silhouette-family + colour family, accessories share most (close-ups)
+  const imgs = g.kind === 'men' ? Math.ceil(n / 2) : g.kind === 'women-apparel' ? Math.max(1, Math.ceil(n / 2.5)) : Math.max(1, Math.ceil(n / 3))
   const base = prevByKey.get(g.key)?.base || (g.kind === 'men' ? `m-${slugify(g.products[0].id)}` : `${g.kind === 'women-apparel' ? 'w' : 'a'}-${g.key.split('|').slice(1).join('-')}`)
   for (let i = 0; i < imgs; i++) {
     const members = g.products.filter((_, idx) => idx % imgs === i).map((p) => p.id)
@@ -886,7 +889,14 @@ for (const [cid, title, occ, mood, cols, scene] of COUPLES) {
   const price = items.reduce((s, p) => s + p.price, 0)
   const photo = `/images/couples/${cid}.jpg`
   const hasPhoto = photoOnDisk(photo)
-  const fab = (p) => (p.fabric && p.fabric !== 'None' && !p.subCategory.toLowerCase().startsWith(p.fabric.toLowerCase()) ? `${p.fabric.toLowerCase()} ` : '')
+  const fab = (p) => {
+    if (!p.fabric || p.fabric === 'None') return ''
+    const sub = p.subCategory.toLowerCase(), f = p.fabric.toLowerCase()
+    if (sub.includes(f)) return ''
+    const words = f.split(' ')
+    if (words.length > 1 && sub.includes(words[words.length - 1])) return `${words.slice(0, -1).join(' ')} `
+    return `${f} `
+  }
   if (!hasPhoto) {
     writeFileSync(join(OUT_COUPLE, `${cid}.svg`), renderCouplePlate({ her, his, title }))
     const garbaCue = /Garba|Navratri/.test(occ) ? ', dance-inspired movement' : ''
