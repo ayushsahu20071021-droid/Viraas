@@ -13,7 +13,7 @@
  * looks.json anchors inherit product imageUrls automatically.
  * Exit code is non-zero if a referenced file is missing afterwards.
  */
-import { existsSync, readdirSync, readFileSync, writeFileSync, unlinkSync } from 'node:fs'
+import { existsSync, readdirSync, readFileSync, writeFileSync, unlinkSync, renameSync } from 'node:fs'
 import { join, dirname } from 'node:path'
 import { fileURLToPath } from 'node:url'
 
@@ -50,6 +50,12 @@ for (const p of products) {
     // photo not generated yet — catalog must still point at existing files
     if (!existsSync(join(ROOT, 'public', p.imageUrl)) && p.category !== 'couple-edit') missing.push(`${p.id}: ${p.imageUrl}`)
   }
+}
+
+// occasion hero photos are delivered by the batch pipeline into products/; relocate to public/images
+const HERO_RE = /^occasion-(garba|haldi)\.jpg$/
+for (const f of readdirSync(IMG_DIR).filter((x) => HERO_RE.test(x))) {
+  renameSync(join(IMG_DIR, f), join(ROOT, 'public/images', f))
 }
 
 for (const c of couples) {
