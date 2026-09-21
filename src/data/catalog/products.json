@@ -70,7 +70,7 @@
   "colour": "Olive",
   "secondaryColour": "Antique Gold",
   "fabric": "Crepe",
-  "embroidery": "Sequit Work",
+  "embroidery": "Sequin Work",
   "silhouette": "Saree Drape",
   "occasions": [
    "Festive Party",
@@ -84,7 +84,8 @@
    "Indo-Western",
    "Festive",
    "Occasion",
-   "Modern Luxury"
+   "Modern Luxury",
+   "Statement"
   ],
   "description": "A olive Crepe saree with the pallor kept architectural: crisp edge, hand-set sequin-scattered that reads quietly luxe from a distance and richly up close. Blouse is fully lined with a side zip and hook-and-eye closure; petticoat and pallu pin included in the box.",
   "imageUrl": "/images/products/w-saree-drape-02.svg",
@@ -394,7 +395,7 @@
   "colour": "Rust",
   "secondaryColour": "Aubergine",
   "fabric": "Crepe",
-  "embroidery": "Sequit Work",
+  "embroidery": "Sequin Work",
   "silhouette": "Saree Drape",
   "occasions": [
    "Festive Party",
@@ -408,7 +409,8 @@
    "Indo-Western",
    "Festive",
    "Occasion",
-   "Modern Luxury"
+   "Modern Luxury",
+   "Statement"
   ],
   "description": "A rust Crepe saree with the pallor kept architectural: crisp edge, hand-set sequin-scattered that reads quietly luxe from a distance and richly up close. Blouse is fully lined with a side zip and hook-and-eye closure; petticoat and pallu pin included in the box.",
   "imageUrl": "/images/products/w-saree-drape-08.svg",
@@ -433,7 +435,7 @@
  },
  {
   "id": "w-saree-predrape-satin-01",
-  "title": "Deep Olive Pre-Draped Saree Gown (Satin)",
+  "title": "Deep Olive All-over Sequinned Pre-Draped Saree Gown (Satin)",
   "gender": "women",
   "category": "sarees",
   "subCategory": "Pre-Draped Saree Gown (Satin)",
@@ -448,6 +450,7 @@
   "colour": "Deep Olive",
   "secondaryColour": "Charcoal",
   "fabric": "Satin",
+  "embroidery": "Sequin All-Over",
   "silhouette": "Saree Predrape",
   "occasions": [
    "Reception",
@@ -461,9 +464,10 @@
    "Everyday",
    "Festive",
    "Occasion",
-   "Modern Luxury"
+   "Modern Luxury",
+   "Statement"
   ],
-  "description": "A pre-pleated, pre-stitched Satin drape in deep olive — six yards of behaviour, solved. The sequit all-over sits exactly where it should because the pleats are machine-tacked at the waist band; safety-strap loops and a hidden pocket in the waistband are sewn in. Comes with the peticoat shown; blouse is separate unless listed.",
+  "description": "A pre-pleated, pre-stitched Satin drape in deep olive — six yards of behaviour, solved. The all-over sequinned sits exactly where it should because the pleats are machine-tacked at the waist band; safety-strap loops and a hidden pocket in the waistband are sewn in. Comes with the peticoat shown; blouse is separate unless listed.",
   "imageUrl": "/images/products/w-saree-predrape-satin-01.svg",
   "gallery": [
    "/images/products/w-saree-predrape-satin-01-b.svg",
@@ -477,12 +481,12 @@
    "XL"
   ],
   "inHouseTryOn": true,
-  "merchantUrl": "https://www.myntra.com/sarees?search=Deep%20Olive%20Sequit%20All-Over%20Satin%20women",
+  "merchantUrl": "https://www.myntra.com/sarees?search=Deep%20Olive%20all-over%20sequinned%20Satin%20women",
   "merchantLabel": "Myntra",
   "status": "CHECK",
   "lastChecked": "2026-09-20",
   "notes": "Generated from VIRAAS editorial tables on 2026-09-20. Verify live price, seller and image on Myntra before publishing; wire EarnKaro affiliate link into affiliateUrl once generated.",
-  "imagePrompt": "luxury Indian editorial product photography for a women occasion outfit: Deep Olive Pre-Draped Saree Gown (Satin), Satin, in Deep Olive with Charcoal accents, on a faceless studio mannequin, soft warm window light, ivory or muted emerald backdrop, subtle festive styling props, no visible faces, no text, no logos, no watermark, high-end magazine quality"
+  "imagePrompt": "luxury Indian editorial product photography for a women occasion outfit: Deep Olive All-over Sequinned Pre-Draped Saree Gown (Satin), Satin, in Deep Olive with Charcoal accents, on a faceless studio mannequin, soft warm window light, ivory or muted emerald backdrop, subtle festive styling props, no visible faces, no text, no logos, no watermark, high-end magazine quality"
  },
  {
   "id": "w-saree-predrape-satin-02",
@@ -876,7 +880,7 @@
   "colour": "Mint",
   "secondaryColour": "Lilac",
   "fabric": "Tulle",
-  "embroidery": "Sequit Work",
+  "embroidery": "Sequin Work",
   "silhouette": "Saree Predrape",
   "occasions": [
    "Reception",
@@ -888,7 +892,8 @@
    "Indo-Western",
    "Festive",
    "Occasion",
-   "Modern Luxury"
+   "Modern Luxury",
+   "Statement"
   ],
   "description": "A pre-pleated, pre-stitched Tulle drape in mint — six yards of behaviour, solved. The sequin-scattered sits exactly where it should because the pleats are machine-tacked at the waist band; safety-strap loops and a hidden pocket in the waistband are sewn in. Comes with the peticoat shown; blouse is separate unless listed.",
   "imageUrl": "/images/products/w-saree-predrape-net-04.svg",
@@ -1659,7 +1664,7 @@
   "colour": "Vermeil Orange",
   "secondaryColour": "Bronze",
   "fabric": "Tissue",
-  "embroidery": "Sequit Work",
+  "embroidery": "Sequin Work",
   "silhouette": "Saree Silk",
   "occasions": [
    "Wedding",
@@ -1670,7 +1675,8 @@
   "styleTags": [
    "Traditional",
    "Occasion",
-   "Modern Luxury"
+   "Modern Luxury",
+   "Statement"
   ],
   "description": "A vermeil orange Tissue saree with the pallor kept architectural: crisp edge, hand-set sequin-scattered that reads quietly luxe from a distance and richly up close. Blouse is fully lined with a side zip and hook-and-eye closure; petticoat and pallu pin included in the box.",
   "imageUrl": "/images/products/w-saree-tissue-03.svg",
@@ -2269,7 +2275,7 @@
   "colour": "Antique Gold",
   "secondaryColour": "Deep Olive",
   "fabric": "Satin",
-  "embroidery": "Sequit Work",
+  "embroidery": "Sequin Work",
   "silhouette": "Saree Sheen",
   "occasions": [
    "Reception",
@@ -2280,7 +2286,8 @@
    "Traditional",
    "Everyday",
    "Occasion",
-   "Modern Luxury"
+   "Modern Luxury",
+   "Statement"
   ],
   "description": "A antique gold Satin saree with the pallor kept architectural: crisp edge, hand-set sequin-scattered that reads quietly luxe from a distance and richly up close. Blouse is fully lined with a side zip and hook-and-eye closure; petticoat and pallu pin included in the box.",
   "imageUrl": "/images/products/w-saree-satin-slip-03.svg",
@@ -3231,7 +3238,7 @@
   "colour": "Marigold",
   "secondaryColour": "Rose",
   "fabric": "Art Silk",
-  "embroidery": "Sequit Work",
+  "embroidery": "Sequin Work",
   "silhouette": "Saree Silk",
   "occasions": [
    "Wedding",
@@ -3243,7 +3250,8 @@
   "styleTags": [
    "Traditional",
    "Occasion",
-   "Modern Luxury"
+   "Modern Luxury",
+   "Statement"
   ],
   "description": "A marigold Art Silk saree with the pallor kept architectural: crisp edge, hand-set sequin-scattered that reads quietly luxe from a distance and richly up close. Blouse is fully lined with a side zip and hook-and-eye closure; petticoat and pallu pin included in the box.",
   "imageUrl": "/images/products/w-saree-banarasi-04.svg",
@@ -3588,7 +3596,7 @@
   "colour": "Antique Gold",
   "secondaryColour": "Rose Gold",
   "fabric": "Banarasi Silk",
-  "embroidery": "Sequit Work",
+  "embroidery": "Sequin Work",
   "silhouette": "Saree Predrape",
   "occasions": [
    "Reception",
@@ -3600,7 +3608,8 @@
    "Traditional",
    "Indo-Western",
    "Occasion",
-   "Modern Luxury"
+   "Modern Luxury",
+   "Statement"
   ],
   "description": "A pre-pleated, pre-stitched Banarasi Silk drape in antique gold — six yards of behaviour, solved. The sequin-scattered sits exactly where it should because the pleats are machine-tacked at the waist band; safety-strap loops and a hidden pocket in the waistband are sewn in. Comes with the peticoat shown; blouse is separate unless listed.",
   "imageUrl": "/images/products/w-predrape-banarasi-03.svg",
@@ -4084,7 +4093,7 @@
  },
  {
   "id": "w-saree-concept-1-02",
-  "title": "Charcoal Saree-Inspired Drape Gown",
+  "title": "Charcoal All-over Sequinned Saree-Inspired Drape Gown",
   "gender": "women",
   "category": "sarees",
   "subCategory": "Saree-Inspired Drape Gown",
@@ -4099,6 +4108,7 @@
   "colour": "Charcoal",
   "secondaryColour": "Onyx Black",
   "fabric": "Georgette",
+  "embroidery": "Sequin All-Over",
   "silhouette": "Saree Concept",
   "occasions": [
    "Sangeet",
@@ -4110,9 +4120,10 @@
    "Everyday",
    "Festive",
    "Occasion",
-   "Modern Luxury"
+   "Modern Luxury",
+   "Statement"
   ],
-  "description": "A conceptual piece: sequit all-over over georgette in charcoal, styled for the couple-edit generation — wear it traditionally with a waist-belt or open over a shirt as a drape. The weave holds pleats without starch; edges are picot-finished so the whole thing photographs clean from a meter away.",
+  "description": "A conceptual piece: all-over sequinned over georgette in charcoal, styled for the couple-edit generation — wear it traditionally with a waist-belt or open over a shirt as a drape. The weave holds pleats without starch; edges are picot-finished so the whole thing photographs clean from a meter away.",
   "imageUrl": "/images/products/w-saree-concept-1-02.svg",
   "gallery": [
    "/images/products/w-saree-concept-1-02-b.svg",
@@ -4126,12 +4137,12 @@
    "XL"
   ],
   "inHouseTryOn": true,
-  "merchantUrl": "https://www.nykaa.com/search/?query=Charcoal%20Sequit%20All-Over%20Georgette%20women",
+  "merchantUrl": "https://www.nykaa.com/search/?query=Charcoal%20all-over%20sequinned%20Georgette%20women",
   "merchantLabel": "Nykaa",
   "status": "CHECK",
   "lastChecked": "2026-09-20",
   "notes": "Generated from VIRAAS editorial tables on 2026-09-20. Verify live price, seller and image on Nykaa before publishing; wire EarnKaro affiliate link into affiliateUrl once generated.",
-  "imagePrompt": "luxury Indian editorial product photography for a women occasion outfit: Charcoal Saree-Inspired Drape Gown, Georgette, in Charcoal with Onyx Black accents, on a faceless studio mannequin, soft warm window light, ivory or muted emerald backdrop, subtle festive styling props, no visible faces, no text, no logos, no watermark, high-end magazine quality"
+  "imagePrompt": "luxury Indian editorial product photography for a women occasion outfit: Charcoal All-over Sequinned Saree-Inspired Drape Gown, Georgette, in Charcoal with Onyx Black accents, on a faceless studio mannequin, soft warm window light, ivory or muted emerald backdrop, subtle festive styling props, no visible faces, no text, no logos, no watermark, high-end magazine quality"
  },
  {
   "id": "w-saree-concept-1-03",
@@ -4493,7 +4504,7 @@
  },
  {
   "id": "w-saree-gown-01",
-  "title": "Plum Saree Drape Gown (Evening)",
+  "title": "Plum All-over Sequinned Saree Drape Gown (Evening)",
   "gender": "women",
   "category": "sarees",
   "subCategory": "Saree Drape Gown (Evening)",
@@ -4508,6 +4519,7 @@
   "colour": "Plum",
   "secondaryColour": "Antique Gold",
   "fabric": "Satin",
+  "embroidery": "Sequin All-Over",
   "silhouette": "Saree Gown",
   "occasions": [
    "Reception",
@@ -4518,9 +4530,10 @@
    "Indo-Western",
    "Everyday",
    "Occasion",
-   "Modern Luxury"
+   "Modern Luxury",
+   "Statement"
   ],
-  "description": "A conceptual piece: sequit all-over over satin in plum, styled for the couple-edit generation — wear it traditionally with a waist-belt or open over a shirt as a drape. The weave holds pleats without starch; edges are picot-finished so the whole thing photographs clean from a meter away.",
+  "description": "A conceptual piece: all-over sequinned over satin in plum, styled for the couple-edit generation — wear it traditionally with a waist-belt or open over a shirt as a drape. The weave holds pleats without starch; edges are picot-finished so the whole thing photographs clean from a meter away.",
   "imageUrl": "/images/products/w-saree-gown-01.svg",
   "gallery": [
    "/images/products/w-saree-gown-01-b.svg",
@@ -4534,12 +4547,12 @@
    "XL"
   ],
   "inHouseTryOn": true,
-  "merchantUrl": "https://www.myntra.com/sarees?search=Plum%20Sequit%20All-Over%20Satin%20women",
+  "merchantUrl": "https://www.myntra.com/sarees?search=Plum%20all-over%20sequinned%20Satin%20women",
   "merchantLabel": "Myntra",
   "status": "CHECK",
   "lastChecked": "2026-09-20",
   "notes": "Generated from VIRAAS editorial tables on 2026-09-20. Verify live price, seller and image on Myntra before publishing; wire EarnKaro affiliate link into affiliateUrl once generated.",
-  "imagePrompt": "luxury Indian editorial product photography for a women occasion outfit: Plum Saree Drape Gown (Evening), Satin, in Plum with Antique Gold accents, on a faceless studio mannequin, soft warm window light, ivory or muted emerald backdrop, subtle festive styling props, no visible faces, no text, no logos, no watermark, high-end magazine quality"
+  "imagePrompt": "luxury Indian editorial product photography for a women occasion outfit: Plum All-over Sequinned Saree Drape Gown (Evening), Satin, in Plum with Antique Gold accents, on a faceless studio mannequin, soft warm window light, ivory or muted emerald backdrop, subtle festive styling props, no visible faces, no text, no logos, no watermark, high-end magazine quality"
  },
  {
   "id": "w-saree-gown-02",
@@ -4932,7 +4945,7 @@
   "colour": "Olive",
   "secondaryColour": "Antique Gold",
   "fabric": "Chanderi",
-  "embroidery": "Sequit Work",
+  "embroidery": "Sequin Work",
   "silhouette": "Anarkali",
   "occasions": [
    "Sangeet",
@@ -4946,7 +4959,8 @@
    "Festive",
    "Occasion",
    "Handloom & Artisan",
-   "Modern Luxury"
+   "Modern Luxury",
+   "Statement"
   ],
   "description": "Floor-sweeping Chanderi anarkali in olive, yoked at the natural waist so the flare falls from there rather than the hip. Sequin-scattered concentrated on the yoke and hem; the inner lining is cotton-satin so it never clings during long events. Hidden side zip, adjustable waist ties, and a petticoat net that keeps the flare honest.",
   "imageUrl": "/images/products/w-kurtiset-anarkali-06.svg",
@@ -5040,7 +5054,7 @@
   "colour": "Copper",
   "secondaryColour": "Terracotta",
   "fabric": "Chanderi",
-  "embroidery": "Sequit Work",
+  "embroidery": "Sequin Work",
   "silhouette": "Sharara",
   "occasions": [
    "Sangeet",
@@ -5054,7 +5068,8 @@
    "Festive",
    "Occasion",
    "Handloom & Artisan",
-   "Modern Luxury"
+   "Modern Luxury",
+   "Statement"
   ],
   "description": "A copper Chanderi set cut for real Indian weather: dropped shoulder, side slits, and a sequin-scattered placed where a camera will find it. Includes bottom as listed; buttons are self-covered so nothing competes with the embroidery.",
   "imageUrl": "/images/products/w-kurtiset-sharara-02.svg",
@@ -7773,7 +7788,7 @@
   "colour": "Plum",
   "secondaryColour": "Antique Gold",
   "fabric": "Chiffon",
-  "embroidery": "Sequit Work",
+  "embroidery": "Sequin Work",
   "silhouette": "Kurta Set",
   "occasions": [
    "Sangeet",
@@ -7785,7 +7800,8 @@
    "Everyday",
    "Festive",
    "Occasion",
-   "Modern Luxury"
+   "Modern Luxury",
+   "Statement"
   ],
   "description": "A plum Chiffon set cut for real Indian weather: dropped shoulder, side slits, and a sequin-scattered placed where a camera will find it. Includes bottom as listed; buttons are self-covered so nothing competes with the embroidery.",
   "imageUrl": "/images/products/w-kurtiset-cape-01.svg",
@@ -8677,7 +8693,7 @@
   "colour": "Chocolate",
   "secondaryColour": "Greige",
   "fabric": "Viscose",
-  "embroidery": "Sequit Work",
+  "embroidery": "Sequin Work",
   "silhouette": "Co Ord",
   "occasions": [
    "Work-to-Dinner",
@@ -8688,7 +8704,8 @@
   "styleTags": [
    "Contemporary",
    "Everyday",
-   "Workwear"
+   "Workwear",
+   "Statement"
   ],
   "description": "A chocolate Viscose co-ord: cropped sequin-scattered-flecked top with an elastic back and a matching pull-on bottom that actually has real pockets. Made as one suit, but styled to separate — the top works over jeans, the bottom under an oversized shirt. Finished edges throughout; no raw seams to pill.",
   "imageUrl": "/images/products/w-coord-viscose-03.svg",
@@ -8884,7 +8901,7 @@
   "colour": "Butter Yellow",
   "secondaryColour": "Ivory",
   "fabric": "Satin",
-  "embroidery": "Sequit Work",
+  "embroidery": "Sequin Work",
   "silhouette": "Co Ord",
   "occasions": [
    "Reception",
@@ -8896,7 +8913,8 @@
    "Everyday",
    "Festive",
    "Occasion",
-   "Modern Luxury"
+   "Modern Luxury",
+   "Statement"
   ],
   "description": "A butter yellow Satin co-ord: cropped sequin-scattered-flecked top with an elastic back and a matching pull-on bottom that actually has real pockets. Made as one suit, but styled to separate — the top works over jeans, the bottom under an oversized shirt. Finished edges throughout; no raw seams to pill.",
   "imageUrl": "/images/products/w-coord-satin-03.svg",
@@ -9848,7 +9866,7 @@
   "colour": "Antique Gold",
   "secondaryColour": "Copper",
   "fabric": "Silk Blend",
-  "embroidery": "Sequit Work",
+  "embroidery": "Sequin Work",
   "silhouette": "Lehenga",
   "occasions": [
    "Sangeet",
@@ -9861,7 +9879,8 @@
    "Traditional",
    "Festive",
    "Occasion",
-   "Modern Luxury"
+   "Modern Luxury",
+   "Statement"
   ],
   "description": "Twelve-panel Silk Blend lehenga in antique gold with a graduated sequin-scattered border that widens toward the hem, so movement reads as one continuous line. Raw-cut, unfinished bottom lets you length-adjust; the choli is princess-seamed with back darts and padded bust, and the dupatta ships with a silk-organza underlay to keep the sequin-scattered visible in wind.",
   "imageUrl": "/images/products/w-leh-classic-02.svg",
@@ -10114,7 +10133,7 @@
   "colour": "Chocolate",
   "secondaryColour": "Midnight Navy",
   "fabric": "Net",
-  "embroidery": "Sequit Work",
+  "embroidery": "Sequin Work",
   "silhouette": "Lehenga",
   "occasions": [
    "Sangeet",
@@ -10374,7 +10393,7 @@
   "colour": "Rose Gold",
   "secondaryColour": "Champagne",
   "fabric": "Net",
-  "embroidery": "Sequit Work",
+  "embroidery": "Sequin Work",
   "silhouette": "Lehenga",
   "occasions": [
    "Sangeet",
@@ -10770,7 +10789,7 @@
  },
  {
   "id": "w-leh-sequin-01",
-  "title": "Sunflower Yellow Sequin Work Lehenga",
+  "title": "Sunflower Yellow All-over Sequinned Sequin Work Lehenga",
   "gender": "women",
   "category": "lehenga",
   "subCategory": "Sequin Work Lehenga",
@@ -10785,6 +10804,7 @@
   "colour": "Sunflower Yellow",
   "secondaryColour": "Vermeil Orange",
   "fabric": "Georgette",
+  "embroidery": "Sequin All-Over",
   "silhouette": "Lehenga",
   "occasions": [
    "Sangeet",
@@ -10798,7 +10818,7 @@
    "Modern Luxury",
    "Statement"
   ],
-  "description": "Twelve-panel Georgette lehenga in sunflower yellow with a graduated sequit all-over border that widens toward the hem, so movement reads as one continuous line. Raw-cut, unfinished bottom lets you length-adjust; the choli is princess-seamed with back darts and padded bust, and the dupatta ships with a silk-organza underlay to keep the sequit all-over visible in wind.",
+  "description": "Twelve-panel Georgette lehenga in sunflower yellow with a graduated all-over sequinned border that widens toward the hem, so movement reads as one continuous line. Raw-cut, unfinished bottom lets you length-adjust; the choli is princess-seamed with back darts and padded bust, and the dupatta ships with a silk-organza underlay to keep the all-over sequinned visible in wind.",
   "imageUrl": "/images/products/w-leh-sequin-01.svg",
   "gallery": [
    "/images/products/w-leh-sequin-01-b.svg",
@@ -10812,12 +10832,12 @@
    "XL"
   ],
   "inHouseTryOn": true,
-  "merchantUrl": "https://www.ajio.com/lehenga-choli-trending?search=Sunflower%20Yellow%20Sequit%20All-Over%20Georgette%20women",
+  "merchantUrl": "https://www.ajio.com/lehenga-choli-trending?search=Sunflower%20Yellow%20all-over%20sequinned%20Georgette%20women",
   "merchantLabel": "AJIO",
   "status": "CHECK",
   "lastChecked": "2026-09-20",
   "notes": "Generated from VIRAAS editorial tables on 2026-09-20. Verify live price, seller and image on AJIO before publishing; wire EarnKaro affiliate link into affiliateUrl once generated.",
-  "imagePrompt": "luxury Indian editorial product photography for a women occasion outfit: Sunflower Yellow Sequin Work Lehenga, Georgette, in Sunflower Yellow with Vermeil Orange accents, on a faceless studio mannequin, soft warm window light, ivory or muted emerald backdrop, subtle festive styling props, no visible faces, no text, no logos, no watermark, high-end magazine quality"
+  "imagePrompt": "luxury Indian editorial product photography for a women occasion outfit: Sunflower Yellow All-over Sequinned Sequin Work Lehenga, Georgette, in Sunflower Yellow with Vermeil Orange accents, on a faceless studio mannequin, soft warm window light, ivory or muted emerald backdrop, subtle festive styling props, no visible faces, no text, no logos, no watermark, high-end magazine quality"
  },
  {
   "id": "w-leh-sequin-02",
@@ -10977,7 +10997,7 @@
  },
  {
   "id": "w-leh-sequin-05",
-  "title": "Coral Sequin Work Lehenga",
+  "title": "Coral All-over Sequinned Sequin Work Lehenga",
   "gender": "women",
   "category": "lehenga",
   "subCategory": "Sequin Work Lehenga",
@@ -10992,6 +11012,7 @@
   "colour": "Coral",
   "secondaryColour": "Hot Pink",
   "fabric": "Georgette",
+  "embroidery": "Sequin All-Over",
   "silhouette": "Lehenga",
   "occasions": [
    "Sangeet",
@@ -11005,7 +11026,7 @@
    "Modern Luxury",
    "Statement"
   ],
-  "description": "Twelve-panel Georgette lehenga in coral with a graduated sequit all-over border that widens toward the hem, so movement reads as one continuous line. Raw-cut, unfinished bottom lets you length-adjust; the choli is princess-seamed with back darts and padded bust, and the dupatta ships with a silk-organza underlay to keep the sequit all-over visible in wind.",
+  "description": "Twelve-panel Georgette lehenga in coral with a graduated all-over sequinned border that widens toward the hem, so movement reads as one continuous line. Raw-cut, unfinished bottom lets you length-adjust; the choli is princess-seamed with back darts and padded bust, and the dupatta ships with a silk-organza underlay to keep the all-over sequinned visible in wind.",
   "imageUrl": "/images/products/w-leh-sequin-05.svg",
   "gallery": [
    "/images/products/w-leh-sequin-05-b.svg",
@@ -11019,12 +11040,12 @@
    "XL"
   ],
   "inHouseTryOn": true,
-  "merchantUrl": "https://www.nykaa.com/search/?query=Coral%20Sequit%20All-Over%20Georgette%20women",
+  "merchantUrl": "https://www.nykaa.com/search/?query=Coral%20all-over%20sequinned%20Georgette%20women",
   "merchantLabel": "Nykaa",
   "status": "CHECK",
   "lastChecked": "2026-09-20",
   "notes": "Generated from VIRAAS editorial tables on 2026-09-20. Verify live price, seller and image on Nykaa before publishing; wire EarnKaro affiliate link into affiliateUrl once generated.",
-  "imagePrompt": "luxury Indian editorial product photography for a women occasion outfit: Coral Sequin Work Lehenga, Georgette, in Coral with Hot Pink accents, on a faceless studio mannequin, soft warm window light, ivory or muted emerald backdrop, subtle festive styling props, no visible faces, no text, no logos, no watermark, high-end magazine quality"
+  "imagePrompt": "luxury Indian editorial product photography for a women occasion outfit: Coral All-over Sequinned Sequin Work Lehenga, Georgette, in Coral with Hot Pink accents, on a faceless studio mannequin, soft warm window light, ivory or muted emerald backdrop, subtle festive styling props, no visible faces, no text, no logos, no watermark, high-end magazine quality"
  },
  {
   "id": "w-leh-print-01",
@@ -11353,7 +11374,7 @@
   "colour": "Rust",
   "secondaryColour": "Aubergine",
   "fabric": "Raw Silk",
-  "embroidery": "Sequit Work",
+  "embroidery": "Sequin Work",
   "silhouette": "Lehenga Skirt",
   "occasions": [
    "Sangeet",
@@ -11364,7 +11385,8 @@
    "Traditional",
    "Indo-Western",
    "Everyday",
-   "Festive"
+   "Festive",
+   "Statement"
   ],
   "description": "Twelve-panel Raw Silk lehenga in rust with a graduated sequin-scattered border that widens toward the hem, so movement reads as one continuous line. Raw-cut, unfinished bottom lets you length-adjust; the choli is princess-seamed with back darts and padded bust, and the dupatta ships with a silk-organza underlay to keep the sequin-scattered visible in wind.",
   "imageUrl": "/images/products/w-leh-skirt-04.svg",
@@ -11389,7 +11411,7 @@
  },
  {
   "id": "w-leh-modern-01",
-  "title": "Plum Modern Mermaid Lehenga",
+  "title": "Plum All-over Sequinned Modern Mermaid Lehenga",
   "gender": "women",
   "category": "lehenga",
   "subCategory": "Modern Mermaid Lehenga",
@@ -11404,6 +11426,7 @@
   "colour": "Plum",
   "secondaryColour": "Antique Gold",
   "fabric": "Georgette",
+  "embroidery": "Sequin All-Over",
   "silhouette": "Lehenga Modern",
   "occasions": [
    "Sangeet",
@@ -11415,9 +11438,10 @@
    "Everyday",
    "Festive",
    "Occasion",
-   "Modern Luxury"
+   "Modern Luxury",
+   "Statement"
   ],
-  "description": "Twelve-panel Georgette lehenga in plum with a graduated sequit all-over border that widens toward the hem, so movement reads as one continuous line. Raw-cut, unfinished bottom lets you length-adjust; the choli is princess-seamed with back darts and padded bust, and the dupatta ships with a silk-organza underlay to keep the sequit all-over visible in wind.",
+  "description": "Twelve-panel Georgette lehenga in plum with a graduated all-over sequinned border that widens toward the hem, so movement reads as one continuous line. Raw-cut, unfinished bottom lets you length-adjust; the choli is princess-seamed with back darts and padded bust, and the dupatta ships with a silk-organza underlay to keep the all-over sequinned visible in wind.",
   "imageUrl": "/images/products/w-leh-modern-01.svg",
   "gallery": [
    "/images/products/w-leh-modern-01-b.svg",
@@ -11431,12 +11455,12 @@
    "XL"
   ],
   "inHouseTryOn": true,
-  "merchantUrl": "https://www.nykaa.com/search/?query=Plum%20Sequit%20All-Over%20Georgette%20women",
+  "merchantUrl": "https://www.nykaa.com/search/?query=Plum%20all-over%20sequinned%20Georgette%20women",
   "merchantLabel": "Nykaa",
   "status": "CHECK",
   "lastChecked": "2026-09-20",
   "notes": "Generated from VIRAAS editorial tables on 2026-09-20. Verify live price, seller and image on Nykaa before publishing; wire EarnKaro affiliate link into affiliateUrl once generated.",
-  "imagePrompt": "luxury Indian editorial product photography for a women occasion outfit: Plum Modern Mermaid Lehenga, Georgette, in Plum with Antique Gold accents, on a faceless studio mannequin, soft warm window light, ivory or muted emerald backdrop, subtle festive styling props, no visible faces, no text, no logos, no watermark, high-end magazine quality"
+  "imagePrompt": "luxury Indian editorial product photography for a women occasion outfit: Plum All-over Sequinned Modern Mermaid Lehenga, Georgette, in Plum with Antique Gold accents, on a faceless studio mannequin, soft warm window light, ivory or muted emerald backdrop, subtle festive styling props, no visible faces, no text, no logos, no watermark, high-end magazine quality"
  },
  {
   "id": "w-leh-modern-02",
@@ -11764,7 +11788,7 @@
   "colour": "Onyx Black",
   "secondaryColour": "Chocolate",
   "fabric": "Viscose",
-  "embroidery": "Sequit Work",
+  "embroidery": "Sequin Work",
   "silhouette": "Co Ord Dupatta",
   "occasions": [
    "Reception",
@@ -11775,7 +11799,8 @@
    "Contemporary",
    "Everyday",
    "Occasion",
-   "Modern Luxury"
+   "Modern Luxury",
+   "Statement"
   ],
   "description": "A onyx black Viscose set cut for real Indian weather: dropped shoulder, side slits, and a sequin-scattered placed where a camera will find it. Includes bottom as listed; buttons are self-covered so nothing competes with the embroidery.",
   "imageUrl": "/images/products/w-fusion-indowest-02.svg",
@@ -12266,7 +12291,7 @@
  },
  {
   "id": "w-fusion-gown-01",
-  "title": "Rose Festive Gown (Indo-Western)",
+  "title": "Rose All-over Sequinned Festive Gown (Indo-Western)",
   "gender": "women",
   "category": "indowestern",
   "subCategory": "Festive Gown (Indo-Western)",
@@ -12281,6 +12306,7 @@
   "colour": "Rose",
   "secondaryColour": "Ivory",
   "fabric": "Raw Mango",
+  "embroidery": "Sequin All-Over",
   "silhouette": "Saree Gown",
   "occasions": [
    "Sangeet",
@@ -12292,9 +12318,10 @@
    "Indo-Western",
    "Festive",
    "Occasion",
-   "Modern Luxury"
+   "Modern Luxury",
+   "Statement"
   ],
-  "description": "A pre-pleated, pre-stitched Raw Mango drape in rose — six yards of behaviour, solved. The sequit all-over sits exactly where it should because the pleats are machine-tacked at the waist band; safety-strap loops and a hidden pocket in the waistband are sewn in. Comes with the peticoat shown; blouse is separate unless listed.",
+  "description": "A pre-pleated, pre-stitched Raw Mango drape in rose — six yards of behaviour, solved. The all-over sequinned sits exactly where it should because the pleats are machine-tacked at the waist band; safety-strap loops and a hidden pocket in the waistband are sewn in. Comes with the peticoat shown; blouse is separate unless listed.",
   "imageUrl": "/images/products/w-fusion-gown-01.svg",
   "gallery": [
    "/images/products/w-fusion-gown-01-b.svg",
@@ -12308,12 +12335,12 @@
    "XL"
   ],
   "inHouseTryOn": true,
-  "merchantUrl": "https://www.myntra.com/gowns-and-dresses?search=Rose%20Sequit%20All-Over%20Raw%20Mango%20women",
+  "merchantUrl": "https://www.myntra.com/gowns-and-dresses?search=Rose%20all-over%20sequinned%20Raw%20Mango%20women",
   "merchantLabel": "Myntra",
   "status": "CHECK",
   "lastChecked": "2026-09-20",
   "notes": "Generated from VIRAAS editorial tables on 2026-09-20. Verify live price, seller and image on Myntra before publishing; wire EarnKaro affiliate link into affiliateUrl once generated.",
-  "imagePrompt": "luxury Indian editorial product photography for a women occasion outfit: Rose Festive Gown (Indo-Western), Raw Mango, in Rose with Ivory accents, on a faceless studio mannequin, soft warm window light, ivory or muted emerald backdrop, subtle festive styling props, no visible faces, no text, no logos, no watermark, high-end magazine quality"
+  "imagePrompt": "luxury Indian editorial product photography for a women occasion outfit: Rose All-over Sequinned Festive Gown (Indo-Western), Raw Mango, in Rose with Ivory accents, on a faceless studio mannequin, soft warm window light, ivory or muted emerald backdrop, subtle festive styling props, no visible faces, no text, no logos, no watermark, high-end magazine quality"
  },
  {
   "id": "w-fusion-gown-02",
@@ -12855,7 +12882,7 @@
   "colour": "Forest Green",
   "secondaryColour": "Royal Blue",
   "fabric": "Cotton",
-  "embroidery": "Sequit Work",
+  "embroidery": "Sequin Work",
   "silhouette": "Dhoti Skirt",
   "occasions": [
    "Garba & Dandiya",
@@ -12867,7 +12894,8 @@
    "Traditional",
    "Indo-Western",
    "Everyday",
-   "Festive"
+   "Festive",
+   "Statement"
   ],
   "description": "A forest green Cotton set cut for real Indian weather: dropped shoulder, side slits, and a sequin-scattered placed where a camera will find it. Includes bottom as listed; buttons are self-covered so nothing competes with the embroidery.",
   "imageUrl": "/images/products/w-fusion-dhoti-03.svg",
@@ -13206,7 +13234,7 @@
   "colour": "Chocolate",
   "secondaryColour": "Midnight Navy",
   "fabric": "Georgette",
-  "embroidery": "Sequit Work",
+  "embroidery": "Sequin Work",
   "silhouette": "Kurta Set",
   "occasions": [
    "Reception",
@@ -13219,7 +13247,8 @@
    "Everyday",
    "Festive",
    "Occasion",
-   "Modern Luxury"
+   "Modern Luxury",
+   "Statement"
   ],
   "description": "A chocolate Georgette set cut for real Indian weather: dropped shoulder, side slits, and a sequin-scattered placed where a camera will find it. Includes bottom as listed; buttons are self-covered so nothing competes with the embroidery.",
   "imageUrl": "/images/products/w-fusion-jacket-02.svg",
@@ -16265,7 +16294,7 @@
   "colour": "Deep Olive",
   "secondaryColour": "Charcoal",
   "fabric": "Brocade",
-  "embroidery": "Sequit Work",
+  "embroidery": "Sequin Work",
   "silhouette": "Men Kurta",
   "occasions": [
    "Sangeet",
@@ -16276,7 +16305,8 @@
    "Traditional",
    "Festive",
    "Occasion",
-   "Modern Luxury"
+   "Modern Luxury",
+   "Statement"
   ],
   "description": "A deep olive Brocade kurta with a sequin-scattered placket that stops below the chest, so it reads refined under a jacket and complete on its own. Straight grain cut to fall without flare; side slits with bar-tacked tops; mother-of-pearl-look buttons on a hidden placket. Includes matching bottom as listed.",
   "imageUrl": "/images/products/m-kurt-set-brocade-02.svg",
@@ -17199,7 +17229,7 @@
   "colour": "Bronze",
   "secondaryColour": "Silver",
   "fabric": "Raw Silk",
-  "embroidery": "Sequit Work",
+  "embroidery": "Sequin Work",
   "silhouette": "Men Jacket",
   "occasions": [
    "Wedding",
@@ -17211,7 +17241,8 @@
    "Contemporary",
    "Festive",
    "Occasion",
-   "Modern Luxury"
+   "Modern Luxury",
+   "Statement"
   ],
   "description": "A structured Raw Silk jacket in bronze with a sequin-scattered treatment along the front placket and cuffs — the piece that turns any plain kurta set into an occasion look. Fully canvassed chest, functioning sleeve vents, interior pocket; cut closer to the body than a blazer so it stays Indian with jodhpurs or jeans.",
   "imageUrl": "/images/products/m-jacket-brocade-03.svg",
@@ -17726,11 +17757,8 @@
    "Modern Luxury"
   ],
   "description": "Closed-neck Silk Blend bandhgala in deep maroon, four-button mandarin placket and a zardozi-embroidered jaal that catches light only at angles. The shoulder is roped like a western jacket but the body is straight like a sherwani, so it works with churidar or trousers. Half-canvas front, side pockets, ventless hem for a clean drape.",
-  "imageUrl": "/images/products/m-bandhgala-silk-01.svg",
-  "gallery": [
-   "/images/products/m-bandhgala-silk-01-b.svg",
-   "/images/products/m-bandhgala-silk-01-c.svg"
-  ],
+  "imageUrl": "/images/photos/m-m-bandhgala-silk-01.jpg",
+  "gallery": [],
   "sizes": [
    "S",
    "M",
@@ -17744,7 +17772,7 @@
   "status": "CHECK",
   "lastChecked": "2026-09-20",
   "notes": "Generated from VIRAAS editorial tables on 2026-09-20. Verify live price, seller and image on Nykaa before publishing; wire EarnKaro affiliate link into affiliateUrl once generated.",
-  "imagePrompt": "luxury Indian editorial product photography for a men occasion outfit: Deep Maroon Zardozi-embroidered Silk Bandhgala Jacket, Silk Blend, in Deep Maroon with Wine accents, on a faceless studio mannequin, soft warm window light, ivory or muted emerald backdrop, subtle festive styling props, no visible faces, no text, no logos, no watermark, high-end magazine quality"
+  "imagePrompt": "Luxury Indian fashion editorial photograph, full-body young Indian man wearing a deep maroon silk bandhgala jacket with zardozi, contemporary bandhgala with minimal hardware, tailored silhouette, styled for reception, contemporary Indian fashion for young adults, realistic textile texture, natural garment drape, premium editorial photography, cinematic soft lighting, a warm evening celebration venue with lanterns, complete outfit visible head to toe, vertical 3:4 portrait, no text, no logos, no watermark"
  },
  {
   "id": "m-bandhgala-silk-02",
@@ -17777,11 +17805,8 @@
    "Modern Luxury"
   ],
   "description": "Closed-neck Raw Silk bandhgala in aubergine, four-button mandarin placket and a gotapatti-appliquéd jaal that catches light only at angles. The shoulder is roped like a western jacket but the body is straight like a sherwani, so it works with churidar or trousers. Half-canvas front, side pockets, ventless hem for a clean drape.",
-  "imageUrl": "/images/products/m-bandhgala-silk-02.svg",
-  "gallery": [
-   "/images/products/m-bandhgala-silk-02-b.svg",
-   "/images/products/m-bandhgala-silk-02-c.svg"
-  ],
+  "imageUrl": "/images/photos/m-m-bandhgala-silk-02.jpg",
+  "gallery": [],
   "sizes": [
    "S",
    "M",
@@ -17795,7 +17820,7 @@
   "status": "CHECK",
   "lastChecked": "2026-09-20",
   "notes": "Generated from VIRAAS editorial tables on 2026-09-20. Verify live price, seller and image on Myntra before publishing; wire EarnKaro affiliate link into affiliateUrl once generated.",
-  "imagePrompt": "luxury Indian editorial product photography for a men occasion outfit: Aubergine Gotapatti-appliquéd Silk Bandhgala Jacket, Raw Silk, in Aubergine with Bottle Green accents, on a faceless studio mannequin, soft warm window light, ivory or muted emerald backdrop, subtle festive styling props, no visible faces, no text, no logos, no watermark, high-end magazine quality"
+  "imagePrompt": "Luxury Indian fashion editorial photograph, full-body young Indian man wearing an aubergine silk bandhgala jacket with gotapatti, contemporary bandhgala with minimal hardware, tailored silhouette, styled for reception, contemporary Indian fashion for young adults, realistic textile texture, natural garment drape, premium editorial photography, cinematic soft lighting, a softly blurred heritage haveli courtyard, complete outfit visible head to toe, vertical 3:4 portrait, no text, no logos, no watermark"
  },
  {
   "id": "m-bandhgala-silk-03",
@@ -17814,7 +17839,7 @@
   "colour": "Champagne",
   "secondaryColour": "Antique Gold",
   "fabric": "Silk Blend",
-  "embroidery": "Sequit Work",
+  "embroidery": "Sequin Work",
   "silhouette": "Men Bandhgala",
   "occasions": [
    "Reception",
@@ -17825,14 +17850,12 @@
    "Traditional",
    "Festive",
    "Occasion",
-   "Modern Luxury"
+   "Modern Luxury",
+   "Statement"
   ],
   "description": "Closed-neck Silk Blend bandhgala in champagne, four-button mandarin placket and a sequin-scattered jaal that catches light only at angles. The shoulder is roped like a western jacket but the body is straight like a sherwani, so it works with churidar or trousers. Half-canvas front, side pockets, ventless hem for a clean drape.",
-  "imageUrl": "/images/products/m-bandhgala-silk-03.svg",
-  "gallery": [
-   "/images/products/m-bandhgala-silk-03-b.svg",
-   "/images/products/m-bandhgala-silk-03-c.svg"
-  ],
+  "imageUrl": "/images/photos/m-m-bandhgala-silk-03.jpg",
+  "gallery": [],
   "sizes": [
    "S",
    "M",
@@ -17846,7 +17869,7 @@
   "status": "CHECK",
   "lastChecked": "2026-09-20",
   "notes": "Generated from VIRAAS editorial tables on 2026-09-20. Verify live price, seller and image on Myntra before publishing; wire EarnKaro affiliate link into affiliateUrl once generated.",
-  "imagePrompt": "luxury Indian editorial product photography for a men occasion outfit: Champagne Sequin-scattered Silk Bandhgala Jacket, Silk Blend, in Champagne with Antique Gold accents, on a faceless studio mannequin, soft warm window light, ivory or muted emerald backdrop, subtle festive styling props, no visible faces, no text, no logos, no watermark, high-end magazine quality"
+  "imagePrompt": "Luxury Indian fashion editorial photograph, full-body young Indian man wearing a champagne silk bandhgala jacket with sequin work, contemporary bandhgala with minimal hardware, tailored silhouette, styled for reception, contemporary Indian fashion for young adults, realistic textile texture, natural garment drape, premium editorial photography, cinematic soft lighting, a luxury Indian studio backdrop with soft ivory light, complete outfit visible head to toe, vertical 3:4 portrait, no text, no logos, no watermark"
  },
  {
   "id": "m-bandhgala-silk-04",
@@ -17879,11 +17902,8 @@
    "Modern Luxury"
   ],
   "description": "Closed-neck Raw Silk bandhgala in peacock teal, four-button mandarin placket and a resham-threadworked jaal that catches light only at angles. The shoulder is roped like a western jacket but the body is straight like a sherwani, so it works with churidar or trousers. Half-canvas front, side pockets, ventless hem for a clean drape.",
-  "imageUrl": "/images/products/m-bandhgala-silk-04.svg",
-  "gallery": [
-   "/images/products/m-bandhgala-silk-04-b.svg",
-   "/images/products/m-bandhgala-silk-04-c.svg"
-  ],
+  "imageUrl": "/images/photos/m-m-bandhgala-silk-04.jpg",
+  "gallery": [],
   "sizes": [
    "S",
    "M",
@@ -17897,7 +17917,7 @@
   "status": "CHECK",
   "lastChecked": "2026-09-20",
   "notes": "Generated from VIRAAS editorial tables on 2026-09-20. Verify live price, seller and image on AJIO before publishing; wire EarnKaro affiliate link into affiliateUrl once generated.",
-  "imagePrompt": "luxury Indian editorial product photography for a men occasion outfit: Peacock Teal Resham-threadworked Silk Bandhgala Jacket, Raw Silk, in Peacock Teal with Forest Green accents, on a faceless studio mannequin, soft warm window light, ivory or muted emerald backdrop, subtle festive styling props, no visible faces, no text, no logos, no watermark, high-end magazine quality"
+  "imagePrompt": "Luxury Indian fashion editorial photograph, full-body young Indian man wearing a peacock teal silk bandhgala jacket with resham threadwork, contemporary bandhgala with minimal hardware, tailored silhouette, styled for reception, contemporary Indian fashion for young adults, realistic textile texture, natural garment drape, premium editorial photography, cinematic soft lighting, contemporary Indian architecture with warm stone, complete outfit visible head to toe, vertical 3:4 portrait, no text, no logos, no watermark"
  },
  {
   "id": "m-bandhgala-silk-05",
@@ -17930,11 +17950,8 @@
    "Modern Luxury"
   ],
   "description": "Closed-neck Silk Blend bandhgala in terracotta, four-button mandarin placket and a dabka-embellished jaal that catches light only at angles. The shoulder is roped like a western jacket but the body is straight like a sherwani, so it works with churidar or trousers. Half-canvas front, side pockets, ventless hem for a clean drape.",
-  "imageUrl": "/images/products/m-bandhgala-silk-05.svg",
-  "gallery": [
-   "/images/products/m-bandhgala-silk-05-b.svg",
-   "/images/products/m-bandhgala-silk-05-c.svg"
-  ],
+  "imageUrl": "/images/photos/m-m-bandhgala-silk-05.jpg",
+  "gallery": [],
   "sizes": [
    "S",
    "M",
@@ -17948,7 +17965,7 @@
   "status": "CHECK",
   "lastChecked": "2026-09-20",
   "notes": "Generated from VIRAAS editorial tables on 2026-09-20. Verify live price, seller and image on AJIO before publishing; wire EarnKaro affiliate link into affiliateUrl once generated.",
-  "imagePrompt": "luxury Indian editorial product photography for a men occasion outfit: Terracotta Dabka-embellished Silk Bandhgala Jacket, Silk Blend, in Terracotta with Olive accents, on a faceless studio mannequin, soft warm window light, ivory or muted emerald backdrop, subtle festive styling props, no visible faces, no text, no logos, no watermark, high-end magazine quality"
+  "imagePrompt": "Luxury Indian fashion editorial photograph, full-body young Indian man wearing a terracotta silk bandhgala jacket with dabka, contemporary bandhgala with minimal hardware, tailored silhouette, styled for reception, contemporary Indian fashion for young adults, realistic textile texture, natural garment drape, premium editorial photography, cinematic soft lighting, a refined rooftop terrace at dusk, complete outfit visible head to toe, vertical 3:4 portrait, no text, no logos, no watermark"
  },
  {
   "id": "m-bandhgala-silk-06",
@@ -17981,11 +17998,8 @@
    "Modern Luxury"
   ],
   "description": "Closed-neck Raw Silk bandhgala in antique gold, four-button mandarin placket and a zardozi-embroidered jaal that catches light only at angles. The shoulder is roped like a western jacket but the body is straight like a sherwani, so it works with churidar or trousers. Half-canvas front, side pockets, ventless hem for a clean drape.",
-  "imageUrl": "/images/products/m-bandhgala-silk-06.svg",
-  "gallery": [
-   "/images/products/m-bandhgala-silk-06-b.svg",
-   "/images/products/m-bandhgala-silk-06-c.svg"
-  ],
+  "imageUrl": "/images/photos/m-m-bandhgala-silk-03.jpg",
+  "gallery": [],
   "sizes": [
    "S",
    "M",
@@ -17999,7 +18013,7 @@
   "status": "CHECK",
   "lastChecked": "2026-09-20",
   "notes": "Generated from VIRAAS editorial tables on 2026-09-20. Verify live price, seller and image on Myntra before publishing; wire EarnKaro affiliate link into affiliateUrl once generated.",
-  "imagePrompt": "luxury Indian editorial product photography for a men occasion outfit: Antique Gold Zardozi-embroidered Silk Bandhgala Jacket, Raw Silk, in Antique Gold with Rose Gold accents, on a faceless studio mannequin, soft warm window light, ivory or muted emerald backdrop, subtle festive styling props, no visible faces, no text, no logos, no watermark, high-end magazine quality"
+  "imagePrompt": "Luxury Indian fashion editorial photograph, full-body young Indian man wearing a champagne silk bandhgala jacket with sequin work, contemporary bandhgala with minimal hardware, tailored silhouette, styled for reception, contemporary Indian fashion for young adults, realistic textile texture, natural garment drape, premium editorial photography, cinematic soft lighting, a luxury Indian studio backdrop with soft ivory light, complete outfit visible head to toe, vertical 3:4 portrait, no text, no logos, no watermark"
  },
  {
   "id": "m-sherwani-01",
@@ -18677,7 +18691,7 @@
   "colour": "Terracotta",
   "secondaryColour": "Olive",
   "fabric": "Georgette",
-  "embroidery": "Sequit Work",
+  "embroidery": "Sequin Work",
   "silhouette": "Men Kurta",
   "occasions": [
    "Sangeet",
@@ -18687,7 +18701,8 @@
   "styleTags": [
    "Traditional",
    "Everyday",
-   "Festive"
+   "Festive",
+   "Statement"
   ],
   "description": "A terracotta Georgette kurta with a sequin-scattered placket that stops below the chest, so it reads refined under a jacket and complete on its own. Straight grain cut to fall without flare; side slits with bar-tacked tops; mother-of-pearl-look buttons on a hidden placket. Includes matching bottom as listed.",
   "imageUrl": "/images/products/m-indowest-drape-04.svg",
@@ -18830,7 +18845,7 @@
   "colour": "Peach",
   "secondaryColour": "Terracotta",
   "fabric": "Kerala Kasavu",
-  "embroidery": "Sequit Work",
+  "embroidery": "Sequin Work",
   "silhouette": "Men Kurta",
   "occasions": [
    "Festive Party",
@@ -18841,7 +18856,8 @@
   "styleTags": [
    "Traditional",
    "Festive",
-   "Occasion"
+   "Occasion",
+   "Statement"
   ],
   "description": "A peach Kerala Kasavu kurta with a sequin-scattered placket that stops below the chest, so it reads refined under a jacket and complete on its own. Straight grain cut to fall without flare; side slits with bar-tacked tops; mother-of-pearl-look buttons on a hidden placket. Includes matching bottom as listed.",
   "imageUrl": "/images/products/m-indowest-skirt-03.svg",
@@ -19997,7 +20013,7 @@
   "colour": "Rust",
   "secondaryColour": "Aubergine",
   "fabric": "Wool Blend",
-  "embroidery": "Sequit Work",
+  "embroidery": "Sequin Work",
   "silhouette": "Men Sherwani",
   "occasions": [
    "Daywear",
@@ -20008,7 +20024,8 @@
    "Traditional",
    "Everyday",
    "Occasion",
-   "Modern Luxury"
+   "Modern Luxury",
+   "Statement"
   ],
   "description": "A rust Wool Blend kurta with a sequin-scattered placket that stops below the chest, so it reads refined under a jacket and complete on its own. Straight grain cut to fall without flare; side slits with bar-tacked tops; mother-of-pearl-look buttons on a hidden placket. Includes matching bottom as listed.",
   "imageUrl": "/images/products/m-coat-set-02.svg",
@@ -20112,11 +20129,8 @@
    "Festive"
   ],
   "description": "A parrot green Modal co-ord: cropped thread-embroidered-flecked top with an elastic back and a matching pull-on bottom that actually has real pockets. Made as one suit, but styled to separate — the top works over jeans, the bottom under an oversized shirt. Finished edges throughout; no raw seams to pill.",
-  "imageUrl": "/images/products/m-asym-coord-01.svg",
-  "gallery": [
-   "/images/products/m-asym-coord-01-b.svg",
-   "/images/products/m-asym-coord-01-c.svg"
-  ],
+  "imageUrl": "/images/photos/m-m-asym-coord-01.jpg",
+  "gallery": [],
   "sizes": [
    "S",
    "M",
@@ -20130,7 +20144,7 @@
   "status": "CHECK",
   "lastChecked": "2026-09-20",
   "notes": "Generated from VIRAAS editorial tables on 2026-09-20. Verify live price, seller and image on Myntra before publishing; wire EarnKaro affiliate link into affiliateUrl once generated.",
-  "imagePrompt": "luxury Indian editorial product photography for a men occasion outfit: Parrot Green Thread-embroidered Asymmetric Co-ord with Stole, Modal, in Parrot Green with Sunflower Yellow accents, on a faceless studio mannequin, soft warm window light, ivory or muted emerald backdrop, subtle festive styling props, no visible faces, no text, no logos, no watermark, high-end magazine quality"
+  "imagePrompt": "Luxury Indian fashion editorial photograph, full-body young Indian man wearing a parrot green modal asymmetric co-ord with stole with thread embroidery, modern festive co-ord set with clean lines, styled for sangeet, contemporary Indian fashion for young adults, realistic textile texture, natural garment drape, premium editorial photography, cinematic soft lighting, a luxury Indian studio backdrop with soft ivory light, complete outfit visible head to toe, vertical 3:4 portrait, no text, no logos, no watermark"
  },
  {
   "id": "m-asym-coord-02",
@@ -20162,11 +20176,8 @@
    "Festive"
   ],
   "description": "A champagne Linen co-ord: cropped block-printed-flecked top with an elastic back and a matching pull-on bottom that actually has real pockets. Made as one suit, but styled to separate — the top works over jeans, the bottom under an oversized shirt. Finished edges throughout; no raw seams to pill.",
-  "imageUrl": "/images/products/m-asym-coord-02.svg",
-  "gallery": [
-   "/images/products/m-asym-coord-02-b.svg",
-   "/images/products/m-asym-coord-02-c.svg"
-  ],
+  "imageUrl": "/images/photos/m-m-asym-coord-02.jpg",
+  "gallery": [],
   "sizes": [
    "S",
    "M",
@@ -20180,7 +20191,7 @@
   "status": "CHECK",
   "lastChecked": "2026-09-20",
   "notes": "Generated from VIRAAS editorial tables on 2026-09-20. Verify live price, seller and image on AJIO before publishing; wire EarnKaro affiliate link into affiliateUrl once generated.",
-  "imagePrompt": "luxury Indian editorial product photography for a men occasion outfit: Champagne Block-printed Asymmetric Co-ord with Stole, Linen, in Champagne with Antique Gold accents, on a faceless studio mannequin, soft warm window light, ivory or muted emerald backdrop, subtle festive styling props, no visible faces, no text, no logos, no watermark, high-end magazine quality"
+  "imagePrompt": "Luxury Indian fashion editorial photograph, full-body young Indian man wearing a champagne linen asymmetric co-ord with stole with block print, modern festive co-ord set with clean lines, styled for sangeet, contemporary Indian fashion for young adults, realistic textile texture, natural garment drape, premium editorial photography, cinematic soft lighting, an elegant Indian home interior with brass accents, complete outfit visible head to toe, vertical 3:4 portrait, no text, no logos, no watermark"
  },
  {
   "id": "m-asym-coord-03",
@@ -20212,11 +20223,8 @@
    "Festive"
   ],
   "description": "A tangerine Modal co-ord: cropped tone-on-tone-flecked top with an elastic back and a matching pull-on bottom that actually has real pockets. Made as one suit, but styled to separate — the top works over jeans, the bottom under an oversized shirt. Finished edges throughout; no raw seams to pill.",
-  "imageUrl": "/images/products/m-asym-coord-03.svg",
-  "gallery": [
-   "/images/products/m-asym-coord-03-b.svg",
-   "/images/products/m-asym-coord-03-c.svg"
-  ],
+  "imageUrl": "/images/photos/m-m-asym-coord-03.jpg",
+  "gallery": [],
   "sizes": [
    "S",
    "M",
@@ -20230,7 +20238,7 @@
   "status": "CHECK",
   "lastChecked": "2026-09-20",
   "notes": "Generated from VIRAAS editorial tables on 2026-09-20. Verify live price, seller and image on AJIO before publishing; wire EarnKaro affiliate link into affiliateUrl once generated.",
-  "imagePrompt": "luxury Indian editorial product photography for a men occasion outfit: Tangerine Tone-on-tone Asymmetric Co-ord with Stole, Modal, in Tangerine with Coral accents, on a faceless studio mannequin, soft warm window light, ivory or muted emerald backdrop, subtle festive styling props, no visible faces, no text, no logos, no watermark, high-end magazine quality"
+  "imagePrompt": "Luxury Indian fashion editorial photograph, full-body young Indian man wearing a tangerine modal asymmetric co-ord with stole with tone-on-tone, modern festive co-ord set with clean lines, styled for sangeet, contemporary Indian fashion for young adults, realistic textile texture, natural garment drape, premium editorial photography, cinematic soft lighting, a warm evening celebration venue with lanterns, complete outfit visible head to toe, vertical 3:4 portrait, no text, no logos, no watermark"
  },
  {
   "id": "m-asym-coord-04",
@@ -20262,11 +20270,8 @@
    "Festive"
   ],
   "description": "A champagne Linen co-ord: cropped thread-embroidered-flecked top with an elastic back and a matching pull-on bottom that actually has real pockets. Made as one suit, but styled to separate — the top works over jeans, the bottom under an oversized shirt. Finished edges throughout; no raw seams to pill.",
-  "imageUrl": "/images/products/m-asym-coord-04.svg",
-  "gallery": [
-   "/images/products/m-asym-coord-04-b.svg",
-   "/images/products/m-asym-coord-04-c.svg"
-  ],
+  "imageUrl": "/images/photos/m-m-asym-coord-02.jpg",
+  "gallery": [],
   "sizes": [
    "S",
    "M",
@@ -20280,7 +20285,7 @@
   "status": "CHECK",
   "lastChecked": "2026-09-20",
   "notes": "Generated from VIRAAS editorial tables on 2026-09-20. Verify live price, seller and image on Myntra before publishing; wire EarnKaro affiliate link into affiliateUrl once generated.",
-  "imagePrompt": "luxury Indian editorial product photography for a men occasion outfit: Champagne Thread-embroidered Asymmetric Co-ord with Stole, Linen, in Champagne with Antique Gold accents, on a faceless studio mannequin, soft warm window light, ivory or muted emerald backdrop, subtle festive styling props, no visible faces, no text, no logos, no watermark, high-end magazine quality"
+  "imagePrompt": "Luxury Indian fashion editorial photograph, full-body young Indian man wearing a champagne linen asymmetric co-ord with stole with block print, modern festive co-ord set with clean lines, styled for sangeet, contemporary Indian fashion for young adults, realistic textile texture, natural garment drape, premium editorial photography, cinematic soft lighting, an elegant Indian home interior with brass accents, complete outfit visible head to toe, vertical 3:4 portrait, no text, no logos, no watermark"
  },
  {
   "id": "m-fusion-set-01",
@@ -21118,7 +21123,7 @@
   "colour": "Coral",
   "secondaryColour": "Hot Pink",
   "fabric": "Cotton",
-  "embroidery": "Sequit Work",
+  "embroidery": "Sequin Work",
   "silhouette": "Men Kurta Garba",
   "occasions": [
    "Garba & Dandiya",
@@ -21126,7 +21131,8 @@
   ],
   "styleTags": [
    "Traditional",
-   "Festive"
+   "Festive",
+   "Statement"
   ],
   "description": "A coral Cotton kurta with a sequin-scattered placket that stops below the chest, so it reads refined under a jacket and complete on its own. Straight grain cut to fall without flare; side slits with bar-tacked tops; mother-of-pearl-look buttons on a hidden placket. Includes matching bottom as listed.",
   "imageUrl": "/images/products/m-garba-vest-03.svg",
@@ -21462,7 +21468,7 @@
   "colour": "Copper",
   "secondaryColour": "Terracotta",
   "fabric": "Cotton",
-  "embroidery": "Sequit Work",
+  "embroidery": "Sequin Work",
   "silhouette": "Men Co Ord",
   "occasions": [
    "College Fest",
@@ -21470,7 +21476,8 @@
   ],
   "styleTags": [
    "Contemporary",
-   "Everyday"
+   "Everyday",
+   "Statement"
   ],
   "description": "A copper Cotton co-ord: cropped sequin-scattered-flecked top with an elastic back and a matching pull-on bottom that actually has real pockets. Made as one suit, but styled to separate — the top works over jeans, the bottom under an oversized shirt. Finished edges throughout; no raw seams to pill.",
   "imageUrl": "/images/products/m-coord-cotton-03.svg",
@@ -21706,7 +21713,7 @@
   "colour": "Ivory",
   "secondaryColour": "Greige",
   "fabric": "Cotton Silk",
-  "embroidery": "Sequit Work",
+  "embroidery": "Sequin Work",
   "silhouette": "Men Dhoti",
   "occasions": [
    "Festive Party",
@@ -21714,7 +21721,8 @@
    "Family Function"
   ],
   "styleTags": [
-   "Traditional"
+   "Traditional",
+   "Statement"
   ],
   "description": "A ivory Cotton Silk kurta with a sequin-scattered placket that stops below the chest, so it reads refined under a jacket and complete on its own. Straight grain cut to fall without flare; side slits with bar-tacked tops; mother-of-pearl-look buttons on a hidden placket. Includes matching bottom as listed.",
   "imageUrl": "/images/products/m-dhoti-kurta-03.svg",
@@ -24546,7 +24554,7 @@
   "colour": "Emerald",
   "secondaryColour": "Deep Maroon",
   "fabric": "Velvet",
-  "embroidery": "Sequit Work",
+  "embroidery": "Sequin Work",
   "silhouette": "Potli",
   "occasions": [
    "Sangeet",
@@ -24557,7 +24565,8 @@
   "styleTags": [
    "Festive",
    "Occasion",
-   "Modern Luxury"
+   "Modern Luxury",
+   "Statement"
   ],
   "description": "A emerald Velvet bag sized for the occasion: phone, lipstick, keys, and a folded prayer book without bulging. Sequin-scattered across the flap, satin-lined interior with one zip pocket, and a detachable strap for shoulder or cross-body.",
   "imageUrl": "/images/products/w-potli-03.svg",
@@ -29567,7 +29576,7 @@
   "imageUrl": "/images/couples/ivory-gold.jpg",
   "gallery": [
    "/images/products/w-coord-silk-02.svg",
-   "/images/products/m-bandhgala-silk-06.svg"
+   "/images/photos/m-m-bandhgala-silk-03.jpg"
   ],
   "sizes": [
    "Her M",
@@ -29867,7 +29876,7 @@
   "imageUrl": "/images/couples/navratri-neon.jpg",
   "gallery": [
    "/images/products/w-leh-sequin-03.svg",
-   "/images/products/m-asym-coord-01.svg"
+   "/images/photos/m-m-asym-coord-01.jpg"
   ],
   "sizes": [
    "Her M",
@@ -30062,7 +30071,7 @@
    "Everyday"
   ],
   "description": "Shop the pair: Bottle Green Cotton Co-ord Set for her and Oat Melange Stone-set Ivory Dinner Jacket Set for him, chosen to sit in the same Bottle Green-and-Oat Melange frame. Each half is styled exactly as photographed in the edit above.",
-  "imageUrl": "/images/couple-plates/winter-wedding.svg",
+  "imageUrl": "/images/couples/winter-wedding.jpg",
   "gallery": [
    "/images/products/w-coord-cotton-03.svg",
    "/images/products/m-formal-dinner-01.svg"
