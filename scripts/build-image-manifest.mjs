@@ -118,7 +118,7 @@ function accessoryPrompt(p) {
   const framing = isBeauty
     ? 'premium beauty product editorial, item in sharp focus, packaging clean and unbranded'
     : 'premium product editorial, hero item in sharp focus with a shallow secondary prop'
-  return `Luxury Indian festive ${p.category === 'beauty' ? 'beauty' : 'accessory'} product photograph: ${p.title.toLowerCase()} in ${p.colour.toLowerCase()}${craft}, ${material}, presented in ${env}. ${framing}, ${light}, realistic material texture — ${/leather/i.test(material) ? 'grained leather surface' : /silk|satin|brocade/i.test(material) ? 'woven sheen' : /metal|brass|silver|gold|steel|plated/i.test(material + craft) ? 'polished metal with fine detailing' : 'true-to-life finish'}. Styled for ${occOf(p)}, modern 2026 Indian festive context, high-end campaign quality, no people, no face, no text, no logos, no watermark. ${NEGATIVE}`
+  return `Luxury Indian festive ${p.category === 'beauty' ? 'beauty' : 'accessory'} product photograph: ${p.title.toLowerCase()} in ${p.colour.toLowerCase()}${craft}, ${material}, presented in ${env}. ${framing}, ${light}, realistic material texture — ${/leather/i.test(material) ? 'grained leather surface' : /silk|satin|brocade/i.test(material) ? 'woven sheen' : /metal|brass|silver|gold|steel|plated/i.test(material + craft) ? 'polished metal with fine detailing' : 'true-to-life finish'}. Tall vertical portrait 3:4 composition with the hero product centred in frame and generous negative space above and below. Styled for ${occOf(p)}, modern 2026 Indian festive context, high-end campaign quality, no people, no face, no text, no logos, no watermark. ${NEGATIVE}`
 }
 
 function couplePrompt(c) {
