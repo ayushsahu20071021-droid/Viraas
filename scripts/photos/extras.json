@@ -1,0 +1,16 @@
+[
+ {
+  "slot": "occasion-haldi",
+  "file": "/images/occasion-haldi.jpg",
+  "kind": "extra",
+  "prompt": "Luxury Indian fashion editorial photograph, joyful haldi ceremony scene, young Indian woman in a mustard cotton sharara set and young man in an ivory cotton kurta mid-turmeric-toss, marigold flowers everywhere, bright daylight, candid laughter, both people visible with complete outfits, festive Indian venue, premium editorial photography, cinematic soft lighting, vertical 3:4 portrait, no text, no logos, no watermark",
+  "colourHex": "#C69C6D"
+ },
+ {
+  "slot": "occasion-garba",
+  "file": "/images/occasion-garba.jpg",
+  "kind": "extra",
+  "prompt": "Luxury Indian fashion editorial photograph, contemporary garba night celebration, young Indian woman in a hot pink printed chaniya choli with mirror work mid-twirl and young man in a parrot green modern kediyu with tapered trousers dancing beside her, string lights and dandiya energy, movement-filled composition, both people visible with complete outfits, premium editorial photography, cinematic lighting, vertical 3:4 portrait, no text, no logos, no watermark",
+  "colourHex": "#E2574C"
+ }
+]
