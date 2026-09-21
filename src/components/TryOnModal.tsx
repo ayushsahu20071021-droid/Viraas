@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import { type Product } from '../data/products';
 import { trackEvent, trackTryOn } from '../utils/analytics';
 import { trackAffiliateClick } from '../utils/analytics';
+import { formatPrice } from '../utils/format';
 
 interface Props {
   product: Product | null;
@@ -150,7 +151,7 @@ export default function TryOnModal({ product, onClose }: Props) {
           />
           <div>
             <p className="text-sm font-medium text-[#171918] line-clamp-1">{product.title}</p>
-            <p className="text-xs text-[#AEB8A0]">₹{product.price.toLocaleString('en-IN')}</p>
+            <p className="text-xs text-[#AEB8A0]">{formatPrice(product.price)}</p>
           </div>
         </div>
 

@@ -8,6 +8,7 @@ import { occasions } from '../data/occasions';
 import { articles } from '../data/articles';
 import ProductCard from '../components/ProductCard';
 import TryOnModal from '../components/TryOnModal';
+import { formatPrice } from '../utils/format';
 
 const WHATSAPP_NUMBER = '919644424865';
 const WHATSAPP_MESSAGE = encodeURIComponent('Hi VIRAAS, I need help finding a festive outfit.');
@@ -350,7 +351,7 @@ export default function Home() {
                 <div>
                   <p className="text-[10px] font-semibold tracking-widest text-[#B7945A] uppercase mb-1">Your hero piece</p>
                   <p className="font-playfair text-lg text-[#171918] leading-snug mb-1">{anchor.title}</p>
-                  <p className="text-sm text-[#103C35] font-semibold">₹{anchor.price.toLocaleString('en-IN')}</p>
+                  <p className="text-sm text-[#103C35] font-semibold">{formatPrice(anchor.price)}</p>
                   <Link to={`/product/${anchor.id}`} className="inline-flex items-center gap-1 text-xs text-[#D95E3F] font-semibold mt-2">View piece <ArrowRight size={12} /></Link>
                 </div>
               </div>

@@ -6,6 +6,7 @@ import { getProductsByOccasion, products, type Product } from '../data/products'
 import { looksForOccasion } from '../data/looks';
 import ProductCard from '../components/ProductCard';
 import TryOnModal from '../components/TryOnModal';
+import { formatPrice } from '../utils/format';
 
 export default function OccasionsPage() {
   const { id } = useParams<{ id?: string }>();
@@ -113,7 +114,7 @@ export default function OccasionsPage() {
                       <div className="absolute bottom-0 p-4">
                         <p className="text-[10px] text-[#B7945A] font-semibold tracking-widest uppercase">{l.gender === 'couple' ? 'Couple' : l.gender}</p>
                         <p className="font-playfair text-white text-base leading-tight">{l.title}</p>
-                        <p className="text-[#AEB8A0] text-[11px] mt-0.5">₹{l.price.toLocaleString('en-IN')}</p>
+                        <p className="text-[#AEB8A0] text-[11px] mt-0.5">{formatPrice(l.price)}</p>
                       </div>
                     </Link>
                   ))}

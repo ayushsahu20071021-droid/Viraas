@@ -7,6 +7,7 @@ import { toggleSavedLook, isLookSaved } from '../utils/savedLooks';
 import { trackAffiliateClick, trackEvent } from '../utils/analytics';
 import TryOnModal from '../components/TryOnModal';
 import ProductCard from '../components/ProductCard';
+import { formatPrice, isMoney } from '../utils/format';
 
 const titleCase = (s: string) => s.replace(/-/g, ' ').replace(/\b\w/g, (l) => l.toUpperCase());
 
@@ -143,10 +144,12 @@ export default function ProductPage() {
             <h1 className="font-playfair text-3xl lg:text-4xl text-[#171918] mb-4 leading-tight">{product.title}</h1>
 
             <div className="flex items-center gap-3 mb-2">
-              <span className="text-3xl font-bold text-[#103C35]">₹{product.price.toLocaleString('en-IN')}</span>
-              {product.originalPrice && product.originalPrice > product.price && (
+              <span className={isMoney(product.price) ? 'text-3xl font-bold text-[#103C35]' : 'text-sm font-medium text-[#AEB8A0] italic'}>
+                {formatPrice(product.price)}
+              </span>
+              {isMoney(product.price) && isMoney(product.originalPrice) && product.originalPrice > product.price && (
                 <>
-                  <span className="text-lg text-[#AEB8A0] line-through">₹{product.originalPrice.toLocaleString('en-IN')}</span>
+                  <span className="text-lg text-[#AEB8A0] line-through">{formatPrice(product.originalPrice)}</span>
                   <span className="px-2 py-1 bg-[#D95E3F] text-white text-xs font-semibold rounded-full">
                     {Math.round((1 - product.price / product.originalPrice) * 100)}% off
                   </span>
@@ -201,7 +204,7 @@ export default function ProductPage() {
                       <img src={p.imageUrl} alt={p.title} className="w-12 h-16 object-cover object-top rounded-lg bg-[#E9E1D4]" loading="lazy" />
                       <span className="min-w-0">
                         <span className="block text-xs font-medium text-[#171918] truncate">{p.title}</span>
-                        <span className="block text-xs text-[#103C35] font-semibold">₹{p.price.toLocaleString('en-IN')}</span>
+                        <span className="block text-xs text-[#103C35] font-semibold">{formatPrice(p.price)}</span>
                       </span>
                     </Link>
                   ))}
@@ -277,7 +280,7 @@ export default function ProductPage() {
                   {looks.slice(0, 3).map((l) => (
                     <Link key={l.id} to={`/look/${l.id}`} className="flex items-center justify-between gap-3 py-2 border-b border-[#F6F0E6] last:border-0 hover:opacity-70 transition-opacity">
                       <span className="text-sm text-[#171918]">{l.title}</span>
-                      <span className="text-xs text-[#103C35] font-semibold tabular-nums shrink-0">₹{l.price.toLocaleString('en-IN')}</span>
+                      <span className="text-xs text-[#103C35] font-semibold tabular-nums shrink-0">{formatPrice(l.price)}</span>
                     </Link>
                   ))}
                 </div>
