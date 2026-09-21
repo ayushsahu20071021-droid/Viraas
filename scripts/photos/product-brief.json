@@ -1458,33 +1458,6 @@
   "prompt": "Luxury Indian fashion editorial photograph, full-body young Indian man wearing an oat melange cotton chikankari kurta set with chikankari, straight-cut kurta with tailored trousers, youthful modern fit, styled for diwali party, contemporary Indian fashion for young adults, realistic textile texture, natural garment drape, premium editorial photography, cinematic soft lighting, contemporary Indian architecture with warm stone, complete outfit visible head to toe, vertical 3:4 portrait, no text, no logos, no watermark"
  },
  {
-  "key": "men|cotton-casual-co-ord-men|mustard",
-  "kind": "men",
-  "base": "m-m-coord-cotton-01",
-  "slot": "m-m-coord-cotton-01",
-  "file": "/images/photos/m-m-coord-cotton-01.jpg",
-  "productIds": [
-   "m-coord-cotton-01",
-   "m-coord-cotton-02"
-  ],
-  "colour": "Mustard",
-  "colourHex": "#D8A21F",
-  "prompt": "Luxury Indian fashion editorial photograph, full-body young Indian man wearing a mustard cotton casual co-ord (men) with pearl detailing, modern festive co-ord set with clean lines, styled for college fest, contemporary Indian fashion for young adults, realistic textile texture, natural garment drape, premium editorial photography, cinematic soft lighting, a festive courtyard strung with warm fairy lights, complete outfit visible head to toe, vertical 3:4 portrait, no text, no logos, no watermark"
- },
- {
-  "key": "men|cotton-casual-co-ord-men|rust",
-  "kind": "men",
-  "base": "m-m-coord-cotton-03",
-  "slot": "m-m-coord-cotton-03",
-  "file": "/images/photos/m-m-coord-cotton-03.jpg",
-  "productIds": [
-   "m-coord-cotton-03"
-  ],
-  "colour": "Copper",
-  "colourHex": "#B4632A",
-  "prompt": "Luxury Indian fashion editorial photograph, full-body young Indian man wearing a copper cotton casual co-ord (men) with sequin work, modern festive co-ord set with clean lines, styled for college fest, contemporary Indian fashion for young adults, realistic textile texture, natural garment drape, premium editorial photography, cinematic soft lighting, contemporary Indian architecture with warm stone, complete outfit visible head to toe, vertical 3:4 portrait, no text, no logos, no watermark"
- },
- {
   "key": "men|cotton-kurta-set|blush",
   "kind": "men",
   "base": "m-m-kurtiset-cotton-08",
@@ -2454,84 +2427,6 @@
   "prompt": "Premium product photograph of an ivory woven stole, elegantly draped, wool blend material with ikat weave, macro editorial close-up, realistic materials and realistic texture, warm studio lighting, soft shadows, clean luxurious composition on a warm ivory surface, shallow depth of field, vertical 3:4 framing, no text, no logos, no watermark, not a vector illustration"
  },
  {
-  "key": "men|linen-summer-co-ord-men|ivory",
-  "kind": "men",
-  "base": "m-m-coord-linen-01",
-  "slot": "m-m-coord-linen-01",
-  "file": "/images/photos/m-m-coord-linen-01.jpg",
-  "productIds": [
-   "m-coord-linen-01"
-  ],
-  "colour": "Ivory",
-  "colourHex": "#F1E8D6",
-  "prompt": "Luxury Indian fashion editorial photograph, full-body young Indian man wearing an ivory linen summer co-ord (men) with tone-on-tone, modern festive co-ord set with clean lines, styled for work-to-dinner, contemporary Indian fashion for young adults, realistic textile texture, natural garment drape, premium editorial photography, cinematic soft lighting, a luxury Indian studio backdrop with soft ivory light, complete outfit visible head to toe, vertical 3:4 portrait, no text, no logos, no watermark"
- },
- {
-  "key": "men|linen-summer-co-ord-men|powder",
-  "kind": "men",
-  "base": "m-m-coord-linen-02",
-  "slot": "m-m-coord-linen-02",
-  "file": "/images/photos/m-m-coord-linen-02.jpg",
-  "productIds": [
-   "m-coord-linen-02"
-  ],
-  "colour": "Powder Blue",
-  "colourHex": "#A9C4D4",
-  "prompt": "Luxury Indian fashion editorial photograph, full-body young Indian man wearing a powder blue linen summer co-ord (men) with aari, modern festive co-ord set with clean lines, styled for work-to-dinner, contemporary Indian fashion for young adults, realistic textile texture, natural garment drape, premium editorial photography, cinematic soft lighting, an elegant Indian home interior with brass accents, complete outfit visible head to toe, vertical 3:4 portrait, no text, no logos, no watermark"
- },
- {
-  "key": "men|linen-summer-co-ord-men|sand",
-  "kind": "men",
-  "base": "m-m-coord-linen-03",
-  "slot": "m-m-coord-linen-03",
-  "file": "/images/photos/m-m-coord-linen-03.jpg",
-  "productIds": [
-   "m-coord-linen-03"
-  ],
-  "colour": "Stone Grey",
-  "colourHex": "#9A968C",
-  "prompt": "Luxury Indian fashion editorial photograph, full-body young Indian man wearing a stone grey linen summer co-ord (men) with block print, modern festive co-ord set with clean lines, styled for work-to-dinner, contemporary Indian fashion for young adults, realistic textile texture, natural garment drape, premium editorial photography, cinematic soft lighting, a warm evening celebration venue with lanterns, complete outfit visible head to toe, vertical 3:4 portrait, no text, no logos, no watermark"
- },
- {
-  "key": "men|long-coat-kurta-set|olive",
-  "kind": "men",
-  "base": "m-m-coat-set-01",
-  "slot": "m-m-coat-set-01",
-  "file": "/images/photos/m-m-coat-set-01.jpg",
-  "productIds": [
-   "m-coat-set-01"
-  ],
-  "colour": "Olive",
-  "colourHex": "#7B7A42",
-  "prompt": "Luxury Indian fashion editorial photograph, full-body young Indian man wearing an olive linen long coat kurta set with pearl detailing, modern slim achkan-style silhouette, restrained embroidery, styled for daywear, contemporary Indian fashion for young adults, realistic textile texture, natural garment drape, premium editorial photography, cinematic soft lighting, a sunlit colonnade with arches, complete outfit visible head to toe, vertical 3:4 portrait, no text, no logos, no watermark"
- },
- {
-  "key": "men|long-coat-kurta-set|rust",
-  "kind": "men",
-  "base": "m-m-coat-set-02",
-  "slot": "m-m-coat-set-02",
-  "file": "/images/photos/m-m-coat-set-02.jpg",
-  "productIds": [
-   "m-coat-set-02"
-  ],
-  "colour": "Rust",
-  "colourHex": "#A85A32",
-  "prompt": "Luxury Indian fashion editorial photograph, full-body young Indian man wearing a rust wool blend long coat kurta set with sequin work, modern slim achkan-style silhouette, restrained embroidery, styled for daywear, contemporary Indian fashion for young adults, realistic textile texture, natural garment drape, premium editorial photography, cinematic soft lighting, contemporary Indian architecture with warm stone, complete outfit visible head to toe, vertical 3:4 portrait, no text, no logos, no watermark"
- },
- {
-  "key": "men|long-coat-kurta-set|sand",
-  "kind": "men",
-  "base": "m-m-coat-set-03",
-  "slot": "m-m-coat-set-03",
-  "file": "/images/photos/m-m-coat-set-03.jpg",
-  "productIds": [
-   "m-coat-set-03"
-  ],
-  "colour": "Stone Grey",
-  "colourHex": "#9A968C",
-  "prompt": "Luxury Indian fashion editorial photograph, full-body young Indian man wearing a stone grey linen long coat kurta set with dabka, modern slim achkan-style silhouette, restrained embroidery, styled for daywear, contemporary Indian fashion for young adults, realistic textile texture, natural garment drape, premium editorial photography, cinematic soft lighting, a refined rooftop terrace at dusk, complete outfit visible head to toe, vertical 3:4 portrait, no text, no logos, no watermark"
- },
- {
   "key": "men|marwari-safa-turban|fuchsia",
   "kind": "accessory",
   "base": "a-marwari-safa-turban-fuchsia",
@@ -2927,32 +2822,6 @@
   "colour": "Antique Gold",
   "colourHex": "#C4A052",
   "prompt": "Premium product photograph of an antique gold signet ring, oxidised silver material with stone work, macro editorial close-up, realistic materials and realistic texture, warm studio lighting, soft shadows, clean luxurious composition on a warm ivory surface, shallow depth of field, vertical 3:4 framing, no text, no logos, no watermark, not a vector illustration"
- },
- {
-  "key": "men|silk-formal-co-ord-men|gold",
-  "kind": "men",
-  "base": "m-m-coord-silk-02",
-  "slot": "m-m-coord-silk-02",
-  "file": "/images/photos/m-m-coord-silk-02.jpg",
-  "productIds": [
-   "m-coord-silk-02"
-  ],
-  "colour": "Antique Gold",
-  "colourHex": "#C4A052",
-  "prompt": "Luxury Indian fashion editorial photograph, full-body young Indian man wearing an antique gold silk formal co-ord (men) with pearl detailing, modern festive co-ord set with clean lines, styled for wedding, contemporary Indian fashion for young adults, realistic textile texture, natural garment drape, premium editorial photography, cinematic soft lighting, a sunlit colonnade with arches, complete outfit visible head to toe, vertical 3:4 portrait, no text, no logos, no watermark"
- },
- {
-  "key": "men|silk-formal-co-ord-men|navy",
-  "kind": "men",
-  "base": "m-m-coord-silk-01",
-  "slot": "m-m-coord-silk-01",
-  "file": "/images/photos/m-m-coord-silk-01.jpg",
-  "productIds": [
-   "m-coord-silk-01"
-  ],
-  "colour": "Royal Blue",
-  "colourHex": "#27457E",
-  "prompt": "Luxury Indian fashion editorial photograph, full-body young Indian man wearing a royal blue silk formal co-ord (men) with dabka, modern festive co-ord set with clean lines, styled for wedding, contemporary Indian fashion for young adults, realistic textile texture, natural garment drape, premium editorial photography, cinematic soft lighting, contemporary Indian architecture with warm stone, complete outfit visible head to toe, vertical 3:4 portrait, no text, no logos, no watermark"
  },
  {
   "key": "men|silk-kurta-set|emerald",
