@@ -84,8 +84,9 @@ const stat = (label, n, target) => {
   return n >= target
 }
 
-console.log('── production image counts (final queue: 490) ──')
+console.log('── production image counts (final queue: 653) ──')
 const premiumOf = (pred) => products.filter((p) => pred(p) && p.imageUrl.endsWith('.jpg')).length
+const poolOf = (pred) => products.filter((p) => pred(p)).length
 const couplePhotos = couples.filter((c) => c.imageUrl.endsWith('.jpg')).length
 const heroPhotos = readdirSync(join(ROOT, 'public/images')).filter((f) => /^occasion-(garba|haldi)\.jpg$/.test(f)).length
 const menP = premiumOf((p) => p.gender === 'men' && APPAREL.includes(p.category))
@@ -93,12 +94,12 @@ const womenP = premiumOf((p) => p.gender === 'women' && APPAREL.includes(p.categ
 const accP = premiumOf((p) => ACC.includes(p.category))
 const total = couplePhotos + heroPhotos + menP + womenP + accP
 
-stat('Couple Edit', couplePhotos, 60)
+stat('Couple Edit', couplePhotos, couples.length)
 stat('Occasion heroes (garba+haldi)', heroPhotos, 2)
-stat('Men apparel', menP, 123)
-stat('Women apparel', womenP, 166)
-stat('Accessories & Beauty', accP, 139)
-console.log(`  ── TOTAL premium assets: ${total}/490`)
+stat('Men apparel', menP, poolOf((p) => p.gender === 'men' && APPAREL.includes(p.category)))
+stat('Women apparel', womenP, poolOf((p) => p.gender === 'women' && APPAREL.includes(p.category)))
+stat('Accessories & Beauty', accP, poolOf((p) => ACC.includes(p.category)))
+console.log(`  ── TOTAL premium assets: ${total}/${60 + 2 + poolOf((p) => p.gender === 'men' && APPAREL.includes(p.category)) + poolOf((p) => p.gender === 'women' && APPAREL.includes(p.category)) + poolOf((p) => ACC.includes(p.category))}`)
 
 // duplicate-photo guard: one photo shared by products with conflicting colours
 const byFile = new Map()

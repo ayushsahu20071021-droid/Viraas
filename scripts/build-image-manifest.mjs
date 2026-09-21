@@ -206,11 +206,11 @@ for (const c of couples) {
   slots.push({ kind: 'couple', id: c.id, out: `public/images/couple-plates/${c.coupleId}.jpg`, w: 1200, h: 1600, prompt })
 }
 // 2) men
-for (const p of pickMen(123)) slots.push({ kind: 'men', id: p.id, out: `public/images/products/${p.id}.jpg`, w: 1024, h: 1365, prompt: apparelPrompt(p) })
+for (const p of pickMen(Infinity)) slots.push({ kind: 'men', id: p.id, out: `public/images/products/${p.id}.jpg`, w: 1024, h: 1365, prompt: apparelPrompt(p) })
 // 3) women
-for (const p of pickWomen(166)) slots.push({ kind: 'women', id: p.id, out: `public/images/products/${p.id}.jpg`, w: 1024, h: 1365, prompt: apparelPrompt(p) })
+for (const p of pickWomen(Infinity)) slots.push({ kind: 'women', id: p.id, out: `public/images/products/${p.id}.jpg`, w: 1024, h: 1365, prompt: apparelPrompt(p) })
 // 4) accessories & beauty
-for (const p of pickAcc(139)) slots.push({ kind: 'acc', id: p.id, out: `public/images/products/${p.id}.jpg`, w: 1024, h: 1365, prompt: accessoryPrompt(p) })
+for (const p of pickAcc(Infinity)) slots.push({ kind: 'acc', id: p.id, out: `public/images/products/${p.id}.jpg`, w: 1024, h: 1365, prompt: accessoryPrompt(p) })
 // 5) occasion heroes
 slots.push({
   kind: 'hero', id: 'occasion-garba', out: 'public/images/occasion-garba.jpg', w: 1600, h: 1000,
