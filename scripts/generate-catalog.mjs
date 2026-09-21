@@ -575,12 +575,18 @@ const slugify = (s) => s.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-+|
 
 // environment rotation — keeps editorial backgrounds varied across the grid
 const PHOTO_ENVS = [
-  'a softly blurred heritage haveli courtyard', 'a warm evening celebration venue with lanterns',
-  'contemporary Indian architecture with warm stone', 'a luxury Indian studio backdrop with soft ivory light',
-  'a festive courtyard strung with warm fairy lights', 'a refined rooftop terrace at dusk',
-  'an elegant Indian home interior with brass accents', 'a sunlit colonnade with arches',
+  'a luxury minimal studio backdrop', 'a warm modern Indian interior',
+  'contemporary Indian architecture with clean lines', 'an elegant rooftop terrace',
+  'a modern celebration venue interior', 'a refined garden setting',
+  'a festive courtyard with soft string lights', 'a tasteful café setting',
+  'an upscale hotel lounge', 'a clean editorial backdrop in warm ivory',
+]
+const PHOTO_LIGHTS = [
+  'clean editorial studio lighting', 'soft daylight', 'warm golden hour light',
+  'blue hour dusk light', 'elegant warm evening light', 'subtle flash editorial lighting',
 ]
 const envFor = (key) => PHOTO_ENVS[Math.abs(hashStr(key)) % PHOTO_ENVS.length]
+const lightFor = (key) => PHOTO_LIGHTS[Math.abs(hashStr(key + '~l')) % PHOTO_LIGHTS.length]
 
 // styling notes that keep silhouettes modern, young and wearable
 const MEN_STYLE = [
@@ -659,7 +665,7 @@ function photoPrompt(p) {
   if (APPAREL_PHOTO_CATS.includes(p.category)) {
     const style = p.gender === 'men' ? menStyleNote(p) : womenStyleNote(p)
     const who = p.gender === 'men' ? 'man' : 'woman'
-    return `Luxury Indian fashion editorial photograph, full-body young Indian ${who} wearing ${anArticle(colour + fabric + ' ' + p.subCategory.toLowerCase())}${craft ? ` with ${craft}` : ''}, ${style}, styled for ${occ}, contemporary Indian fashion for young adults, realistic textile texture, natural garment drape, premium editorial photography, cinematic soft lighting, ${envFor(p.id)}, complete outfit visible head to toe, vertical 3:4 portrait, no text, no logos, no watermark`
+    return `Luxury contemporary Indian fashion editorial photograph, premium faceless identity-neutral 3D fashion mannequin wearing ${anArticle(colour + fabric + ' ' + p.subCategory.toLowerCase())}${craft ? ` with ${craft}` : ''}, ${style}, styled for ${occ}, 2026 Indian fashion aesthetic for young adults, realistic textile texture, natural garment drape, detailed stitching, sophisticated proportions, realistic three-dimensional garment construction, ${envFor(p.id)}, ${lightFor(p.id)}, full outfit visible head to toe with footwear, original composition, vertical 3:4 portrait, no face, no text, no logos, no watermark, not a plastic retail mannequin, not a flat vector illustration, no distorted anatomy, no cropped feet`
   }
   return `Premium product photograph of ${anArticle(articleFor(p))}${fabric ? `, ${p.fabric.toLowerCase()} material` : ''}${craft ? ` with ${craft}` : ''}, macro editorial close-up, realistic materials and realistic texture, warm studio lighting, soft shadows, clean luxurious composition on a warm ivory surface, shallow depth of field, vertical 3:4 framing, no text, no logos, no watermark, not a vector illustration`
 }
@@ -849,6 +855,54 @@ const hisAccPools = {
   accessories: products.filter((p) => p.gender === 'men' && p.category === 'accessories'),
 }
 const coupleLooks = []
+// couple editorial vocabulary — dynamic mannequin body language, modern environments.
+// first 6 poses are dance/festive (garba couples), the rest are general editorial.
+const COUPLE_POSES = [
+  'a dance-inspired garba posture mid-motion', 'one mannequin holding dandiya sticks',
+  'a playful dandiya moment between the two', 'moving together through a festive crowd',
+  'spinning with fabric flaring in the turn', 'a rhythmic side-step with lifted heels',
+  'walking together mid-stride', 'a slight turn toward each other',
+  'one adjusting the other’s drape and stole', 'standing at different depths in an editorial composition',
+  'a relaxed side-by-side fashion pose', 'an elegant seated composition',
+  'a subtle leaning pose', 'walking into a celebration',
+  'both looking in the same direction', 'an asymmetrical editorial composition',
+]
+const COUPLE_ENVS = [
+  'an urban festival ground strung with lights', 'a night market glowing with lanterns',
+  'a festive courtyard with string lights and motion around them', 'a contemporary celebration venue in full swing',
+  'a luxury minimal studio backdrop', 'a modern rooftop with the city behind',
+  'a contemporary art gallery interior', 'a stylish hotel terrace',
+  'an upscale café setting', 'a refined garden at dusk',
+  'a luxury apartment balcony', 'a minimal editorial backdrop in warm ivory',
+]
+const HER_MODERN = (p) => {
+  const s = p.subCategory + ' ' + p.silhouette
+  if (/Chaniya|Garba|Kediyu/.test(s)) return 'as a modern chaniya choli with refined mirror work'
+  if (/Pre-Draped|Predrape|Ready-to-Wear/.test(s)) return 'as a sleek pre-draped saree with a contemporary blouse'
+  if (/Saree|Kasavu/.test(s)) return 'draped sleek and modern with a contemporary blouse'
+  if (/Lehenga/.test(s)) return 'as a minimal contemporary lehenga silhouette'
+  if (/Sharara|Gharara/.test(s)) return 'as a sharara set with a modern fitted top'
+  if (/Anarkali/.test(s)) return 'as a contemporary anarkali with clean lines'
+  if (/Co-ord|Coord|Co-Ord/.test(s)) return 'as a modern festive co-ord'
+  if (/Kurta Set/.test(s)) return 'as a modern straight kurta set'
+  if (/Kurti/.test(s)) return 'as a contemporary kurti'
+  if (/Gown|Drape|Dress/i.test(s)) return 'as a sleek indo-western drape'
+  return 'styled with modern proportions'
+}
+const HIS_MODERN = (p) => {
+  const s = p.subCategory + ' ' + p.silhouette
+  if (/Long Coat/.test(s)) return 'as a modern achkan-style long coat with restrained detailing'
+  if (/Sherwani/.test(s)) return 'as a minimal contemporary sherwani with restrained embroidery'
+  if (/Bandhgala/.test(s)) return 'as a clean contemporary bandhgala with minimal hardware'
+  if (/Kediyu/.test(s)) return 'as a lightweight contemporary kediyu with tapered trousers'
+  if (/Jacket-over-Shirt|Kurta with Jacket|Waistcoat|Nehru/.test(s)) return 'as a textured jacket layered over a clean kurta'
+  if (/Pathani/.test(s)) return 'as a relaxed pathani set with a modern drape'
+  if (/Suit|Tuxedo|Blazer|Three-Piece|Dinner Jacket/i.test(s)) return 'as sharp minimal tailoring worn open-collar'
+  if (/Co-ord|Coord/.test(s)) return 'as a modern festive co-ord'
+  if (/Dhoti/.test(s)) return 'as contemporary dhoti-style trousers with a structured kurta'
+  if (/Kurta/.test(s)) return 'as a relaxed straight kurta with tailored trousers'
+  return 'styled with modern proportions'
+}
 const couplePhotoBrief = []
 for (const [cid, title, occ, mood, cols, scene] of COUPLES) {
   const [herCol, hisCol] = cols
@@ -907,11 +961,18 @@ for (const [cid, title, occ, mood, cols, scene] of COUPLES) {
   }
   if (!hasPhoto) {
     writeFileSync(join(OUT_COUPLE, `${cid}.svg`), renderCouplePlate({ her, his, title }))
-    const garbaCue = /Garba|Navratri/.test(occ) ? ', dance-inspired movement' : ''
+    const garba = /Garba|Navratri/.test(occ)
+    const pose = garba
+      ? COUPLE_POSES[Math.abs(hashStr(cid + '~p')) % 6]
+      : COUPLE_POSES[(6 + (Math.abs(hashStr(cid + '~p')) % (COUPLE_POSES.length - 6)))]
+    const env = garba
+      ? COUPLE_ENVS[Math.abs(hashStr(cid + '~e')) % 4]
+      : COUPLE_ENVS[(4 + (Math.abs(hashStr(cid + '~e')) % (COUPLE_ENVS.length - 4)))]
+    const light = PHOTO_LIGHTS[Math.abs(hashStr(cid + '~l')) % PHOTO_LIGHTS.length]
     couplePhotoBrief.push({
       cid, file: photo, title, occasion: occ, herColour: herCol, hisColour: hisCol,
       scene, her: her.title, his: his.title,
-      prompt: `Premium Indian couple fashion editorial photograph, ${scene}, she wearing ${anArticle(her.colour.toLowerCase() + ' ' + fab(her) + her.subCategory.toLowerCase())}, he wearing ${anArticle(his.colour.toLowerCase() + ' ' + fab(his) + his.subCategory.toLowerCase())}, ${her.colour} and ${his.colour} complementary colour story${garbaCue}, both people fully visible head to toe with complete outfits and footwear, realistic textile texture, festive Indian venue atmosphere, warm cinematic lighting, candid youthful chemistry, coordinated but not identical outfits, vertical 3:4 portrait, no text, no logos, no watermark, no stiff poses`,
+      prompt: `Premium contemporary Indian fashion editorial photograph featuring two sophisticated faceless identity-neutral 3D fashion mannequins, one styled in ${anArticle(her.colour.toLowerCase() + ' ' + fab(her) + her.subCategory.toLowerCase())} ${HER_MODERN(her)} and one styled in ${anArticle(his.colour.toLowerCase() + ' ' + fab(his) + his.subCategory.toLowerCase())} ${HIS_MODERN(his)}, ${her.colour} and ${his.colour} complementary colour story, ${pose}, ${env}, ${light}, modern traditional styling, realistic textile texture, natural garment drape, sophisticated proportions, complementary but non-matching outfits, full-body composition with complete outfits and footwear visible, original editorial composition, 2026 Indian fashion aesthetic, vertical 3:4 portrait, no faces, no text, no logos, no watermark, not plastic retail mannequins, not stiff display poses, not an old wedding catalogue`,
     })
   }
   coupleLooks.push({
