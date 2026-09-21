@@ -51,7 +51,7 @@ const familyHexes = (family) => Object.entries(COLOUR_FAMILY).filter(([, f]) => 
 
 // expected colour per slot, from the briefs
 const briefs = []
-for (const f of ['product-brief.json', 'couple-brief.json']) {
+for (const f of ['product-brief.json', 'couple-brief.json', 'extras.json']) {
   const p = join(ROOT, 'scripts/photos', f)
   if (existsSync(p)) briefs.push(...JSON.parse(readFileSync(p, 'utf8')))
 }
