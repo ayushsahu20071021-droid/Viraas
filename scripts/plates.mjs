@@ -435,10 +435,18 @@ OUTFITS['men-kurta-trouser'] = (c) => {
   ${shoes(c, 1058, '#171918')}`;
 };
 OUTFITS['men-kurta-jacket'] = (c) => `${OUTFITS['men-kurta'](c)}
-  ${cloth(c, `M318 300 Q374 284 402 296 L392 760 Q348 756 322 744 Z`, { tone: 'dark' })}
-  ${cloth(c, `M582 300 Q526 284 498 296 L508 760 Q552 756 578 744 Z`, { tone: 'dark' })}
-  ${trim(c, `M402 296 L392 756`, 5)}${trim(c, `M498 296 L508 756`, 5)}
-  ${motif(c, `M330 320 L394 320 L388 720 L330 700 Z`, 20)}${motif(c, `M570 320 L506 320 L512 720 L570 700 Z`, 20)}`;
+  <!-- structured statement Nehru jacket with clean contemporary lapel lines -->
+  ${cloth(c, `M316 296 Q374 280 404 294 L394 776 Q348 770 318 756 Z`, { tone: 'dark' })}
+  ${cloth(c, `M584 296 Q526 280 496 294 L506 776 Q552 770 582 756 Z`, { tone: 'dark' })}
+  <!-- modern mandarin collar band -->
+  <path d="M410 292 q40 -6 80 0 v16 q-40 -4 -80 0z" fill="${c.cloth.dark}" stroke="${c.cloth.dark}" stroke-width="1.2"/>
+  <!-- front facing button placket & pocket square -->
+  ${trim(c, `M404 294 L394 772`, 5, c.accentHex)}${trim(c, `M496 294 L506 772`, 5, c.accentHex)}
+  <!-- pocket welt with silk pocket square -->
+  <path d="M336 410 h46" stroke="${c.accentHex}" stroke-width="3.5" stroke-linecap="round"/>
+  <path d="M352 410 l8 -16 l10 16z" fill="${c.accentHex}" opacity="0.95"/>
+  <g>${Array.from({ length: 5 }, (_, i) => `<circle cx="498" cy="${num(350 + i * 56)}" r="3.4" fill="${c.accentHex}"/>`).join('')}</g>
+  ${motif(c, `M328 320 L394 320 L390 730 L326 710 Z`, 20)}${motif(c, `M572 320 L506 320 L510 730 L574 710 Z`, 20)}`;
 OUTFITS['men-jacket'] = OUTFITS['men-kurta-jacket'];
 OUTFITS['men-waistcoat'] = (c) => {
   c.topY = 296;
@@ -489,14 +497,23 @@ OUTFITS['men-dhoti'] = (c) => {
 };
 OUTFITS['men-kurta-garba'] = (c) => {
   c.topY = 296;
-  return `${body(c, { top: 296, shoulder: 186, waist: 138, hip: 158 })}
-  ${cloth(c, `M330 296 Q450 270 570 296 L584 600 Q450 626 316 600 Z`)}
-  <g>${Array.from({ length: 10 }, (_, i) => `<path d="M${num(340 + i * 24)} 320 l10 12 -10 12 -10 -12z" fill="${c.accentHex}" opacity="${num(0.5 + (i % 3) * 0.18)}"/>`).join('')}</g>
-  ${mirrorRows(c)}
-  ${cloth(c, `M316 600 Q450 626 584 600 L640 860 Q450 894 260 860 Z`)}
-  ${trim(c, `M268 848 Q450 884 632 848`, 10)}
-  <g stroke="${c.tone}" stroke-width="15" opacity="0.5">${Array.from({ length: 5 }, (_, i) => `<path d="M${num(370 + i * 40)} 870 l${num(-6 + i * 3)} 176" fill="none"/>`).join('')}</g>
-  ${legs(c, 880, 1050)}${shoes(c, 1060)}${jewelleryPiece(c, 'head') && ''}`;
+  return `${body(c, { top: 296, shoulder: 188, waist: 136, hip: 152 })}
+  <!-- modern youth Navratri silhouette: flared short angrakha kediyu jacket + slim tailored ankle trousers -->
+  ${cloth(c, `M326 296 Q450 270 574 296 L592 560 Q450 584 308 560 Z`)}
+  <!-- asymmetric crossover angrakha overlap with mirror & border detailing -->
+  ${trim(c, `M372 296 Q440 380 472 560`, 7, c.accentHex)}
+  <g>${Array.from({ length: 8 }, (_, i) => `<circle cx="${num(370 + i * 28)}" cy="${num(350 + i * 26)}" r="5.5" fill="#EBF2F5" stroke="${c.accentHex}" stroke-width="1.8"/>`).join('')}</g>
+  ${motif(c, `M330 310 Q450 286 570 310 L560 420 Q450 440 340 420 Z`, 22)}
+  <!-- flared pleated peplum skirt with metallic/mirror edge -->
+  ${cloth(c, `M308 560 Q450 584 592 560 L650 780 Q450 812 250 780 Z`, { tone: 'light' })}
+  ${trim(c, `M254 772 Q450 806 646 772`, 12, c.accentHex)}
+  <!-- fine mirror fringe along the hem -->
+  <g>${Array.from({ length: 14 }, (_, i) => `<circle cx="${num(276 + i * 27)}" cy="${num(762 + (i % 2) * 5)}" r="4.2" fill="#F4F8FA" stroke="${c.accentHex}" stroke-width="1.4"/>`).join('')}</g>
+  <!-- sleek tapered black trousers with contemporary tailored lines -->
+  ${cloth(c, `M346 778 q-10 140 2 272 l68 0 q6 -140 8 -264z`, { tone: 'dark' })}
+  ${cloth(c, `M554 778 q10 140 -2 272 l-68 0 q-6 -140 -8 -264z`, { tone: 'dark' })}
+  <g stroke="#171918" stroke-width="1.6" opacity="0.4" fill="none"><path d="M450 790 V1048"/></g>
+  ${shoes(c, 1060, '#171918')}${jewelleryPiece(c, 'watch') || ''}`;
 };
 function mirrorRows(c) {
   return `<g>${Array.from({ length: 12 }, (_, i) => `<circle cx="${num(340 + (i % 6) * 44)}" cy="${num(430 + Math.floor(i / 6) * 40)}" r="7" fill="#E9EEF0" stroke="${c.accentHex}" stroke-width="1.6"/>`).join('')}</g>`;

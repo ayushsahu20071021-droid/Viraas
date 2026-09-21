@@ -142,7 +142,12 @@ export interface FacetGroup {
   options: { value: string; label: string; count: number }[]
 }
 
-const tokens = (q: string) => q.toLowerCase().split(/[^a-z0-9₹&]+/i).filter((t) => t.length > 1)
+const STOP_WORDS = new Set(['outfit', 'outfits', 'wear', 'look', 'looks', 'clothes', 'dress', 'set', 'sets']);
+const tokens = (q: string) =>
+  q
+    .toLowerCase()
+    .split(/[^a-z0-9₹&]+/i)
+    .filter((t) => t.length > 1 && !STOP_WORDS.has(t));
 
 function matchesQuery(p: Product, q?: string): boolean {
   if (!q || !q.trim()) return true

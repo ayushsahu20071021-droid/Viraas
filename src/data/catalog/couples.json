@@ -302,5 +302,309 @@
   "description": "A matched-but-not-matchy festive pair for the family calendar. She wears olive sequin-scattered georgette saree with woven border; he wears champagne zari-woven brocade kurta set with rose gold stone-set ethnic-dial watch. Harmonised in Champagne and Olive so the photos stay timeless.",
   "imageUrl": "/images/couple-plates/festive-brass.svg",
   "coupleId": "festive-brass"
+ },
+ {
+  "id": "couple-garba-black-gold",
+  "title": "Midnight Mirror Garba Night",
+  "mood": "contemporary",
+  "occasions": [
+   "Garba"
+  ],
+  "herProductIds": [
+   "w-saree-satin-slip-03"
+  ],
+  "hisProductIds": [
+   "m-kurt-set-short-03",
+   "m-watch-01"
+  ],
+  "price": 6597,
+  "description": "A matched-but-not-matchy festive pair for the garba calendar. She wears antique gold sequin-scattered satin slip saree; he wears antique gold aari-stitched short kurta with trouser with rose gold stone-set ethnic-dial watch. Harmonised in Black and Antique Gold so the photos stay timeless.",
+  "imageUrl": "/images/couple-plates/garba-black-gold.svg",
+  "coupleId": "garba-black-gold"
+ },
+ {
+  "id": "couple-diwali-wine-ivory",
+  "title": "Royal Wine & Ivory Diwali Edit",
+  "mood": "festive",
+  "occasions": [
+   "Diwali"
+  ],
+  "herProductIds": [
+   "w-saree-drape-01"
+  ],
+  "hisProductIds": [
+   "m-kurtiset-cotton-02",
+   "m-watch-01"
+  ],
+  "price": 5597,
+  "description": "A matched-but-not-matchy festive pair for the diwali calendar. She wears wine zari-woven georgette saree with woven border; he wears ivory block-printed cotton kurta set with rose gold stone-set ethnic-dial watch. Harmonised in Wine and Ivory so the photos stay timeless.",
+  "imageUrl": "/images/couple-plates/diwali-wine-ivory.svg",
+  "coupleId": "diwali-wine-ivory"
+ },
+ {
+  "id": "couple-sangeet-emerald-cream",
+  "title": "Emerald & Cream Sangeet Romance",
+  "mood": "luxe",
+  "occasions": [
+   "Sangeet"
+  ],
+  "herProductIds": [
+   "w-saree-banarasi-01"
+  ],
+  "hisProductIds": [
+   "m-kurt-set-jamawar-02",
+   "m-watch-01"
+  ],
+  "price": 12497,
+  "description": "A matched-but-not-matchy festive pair for the sangeet calendar. She wears emerald banarasi-woven banarasi silk saree; he wears emerald jamawar shawl kurta set with rose gold stone-set ethnic-dial watch. Harmonised in Emerald and Cream so the photos stay timeless.",
+  "imageUrl": "/images/couple-plates/sangeet-emerald-cream.svg",
+  "coupleId": "sangeet-emerald-cream"
+ },
+ {
+  "id": "couple-wedding-maroon-champagne",
+  "title": "Heritage Maroon & Champagne Wedding",
+  "mood": "royal",
+  "occasions": [
+   "Wedding"
+  ],
+  "herProductIds": [
+   "w-saree-predrape-satin-05"
+  ],
+  "hisProductIds": [
+   "m-kurt-set-brocade-01",
+   "m-watch-01"
+  ],
+  "price": 8897,
+  "description": "A matched-but-not-matchy festive pair for the wedding calendar. She wears champagne mirror-work pre-draped saree gown (satin); he wears champagne zari-woven brocade kurta set with rose gold stone-set ethnic-dial watch. Harmonised in Maroon and Champagne so the photos stay timeless.",
+  "imageUrl": "/images/couple-plates/wedding-maroon-champagne.svg",
+  "coupleId": "wedding-maroon-champagne"
+ },
+ {
+  "id": "couple-haldi-mustard-ivory",
+  "title": "Sunlit Mustard & Ivory Haldi Pair",
+  "mood": "vibrant",
+  "occasions": [
+   "Haldi"
+  ],
+  "herProductIds": [
+   "w-saree-organza-02"
+  ],
+  "hisProductIds": [
+   "m-kurtiset-cotton-02",
+   "m-watch-01"
+  ],
+  "price": 4497,
+  "description": "A matched-but-not-matchy festive pair for the haldi calendar. She wears ivory chikankari-worked organza saree with hand-embroidered buti; he wears ivory block-printed cotton kurta set with rose gold stone-set ethnic-dial watch. Harmonised in Mustard and Ivory so the photos stay timeless.",
+  "imageUrl": "/images/couple-plates/haldi-mustard-ivory.svg",
+  "coupleId": "haldi-mustard-ivory"
+ },
+ {
+  "id": "couple-cocktail-charcoal-rose",
+  "title": "Charcoal & Dusty Rose Evening Soiree",
+  "mood": "modern",
+  "occasions": [
+   "Reception"
+  ],
+  "herProductIds": [
+   "w-saree-linen-03"
+  ],
+  "hisProductIds": [
+   "m-kurtiset-chikankari-02",
+   "m-watch-01"
+  ],
+  "price": 6897,
+  "description": "A matched-but-not-matchy festive pair for the reception calendar. She wears rose block-printed linen saree with woven check; he wears rose kamdani-fine weave chikankari kurta set with rose gold stone-set ethnic-dial watch. Harmonised in Charcoal and Rose so the photos stay timeless.",
+  "imageUrl": "/images/couple-plates/cocktail-charcoal-rose.svg",
+  "coupleId": "cocktail-charcoal-rose"
+ },
+ {
+  "id": "couple-navratri-rust-cream",
+  "title": "Chaniya & Kurta Rust Festive Rhythm",
+  "mood": "festive",
+  "occasions": [
+   "Garba"
+  ],
+  "herProductIds": [
+   "w-saree-drape-08"
+  ],
+  "hisProductIds": [
+   "m-waistcoat-set-02",
+   "m-watch-01"
+  ],
+  "price": 7197,
+  "description": "A matched-but-not-matchy festive pair for the garba calendar. She wears rust sequin-scattered georgette saree with woven border; he wears rust resham-threadworked waistcoat with straight kurta with rose gold stone-set ethnic-dial watch. Harmonised in Rust and Cream so the photos stay timeless.",
+  "imageUrl": "/images/couple-plates/navratri-rust-cream.svg",
+  "coupleId": "navratri-rust-cream"
+ },
+ {
+  "id": "couple-reception-navy-peach",
+  "title": "Midnight Navy & Peach Reception Pair",
+  "mood": "elegant",
+  "occasions": [
+   "Reception"
+  ],
+  "herProductIds": [
+   "w-saree-silk-04"
+  ],
+  "hisProductIds": [
+   "m-kurtiset-cotton-08",
+   "m-watch-01"
+  ],
+  "price": 14897,
+  "description": "A matched-but-not-matchy festive pair for the reception calendar. She wears peach jaal-lattice mulberry silk saree; he wears peach chikankari-worked cotton kurta set with rose gold stone-set ethnic-dial watch. Harmonised in Navy and Peach so the photos stay timeless.",
+  "imageUrl": "/images/couple-plates/reception-navy-peach.svg",
+  "coupleId": "reception-navy-peach"
+ },
+ {
+  "id": "couple-college-fest-sage-ivory",
+  "title": "Campus Traditional Sage & Ivory Duo",
+  "mood": "youthful",
+  "occasions": [
+   "College"
+  ],
+  "herProductIds": [
+   "w-saree-organza-02"
+  ],
+  "hisProductIds": [
+   "m-kurtiset-cotton-02",
+   "m-watch-01"
+  ],
+  "price": 4497,
+  "description": "A matched-but-not-matchy festive pair for the college calendar. She wears ivory chikankari-worked organza saree with hand-embroidered buti; he wears ivory block-printed cotton kurta set with rose gold stone-set ethnic-dial watch. Harmonised in Sage and Ivory so the photos stay timeless.",
+  "imageUrl": "/images/couple-plates/college-fest-sage-ivory.svg",
+  "coupleId": "college-fest-sage-ivory"
+ },
+ {
+  "id": "couple-mehendi-forest-rose",
+  "title": "Forest Green & Soft Rose Mehendi",
+  "mood": "fresh",
+  "occasions": [
+   "Mehendi"
+  ],
+  "herProductIds": [
+   "w-saree-drape-04"
+  ],
+  "hisProductIds": [
+   "m-kurtiset-silk-03",
+   "m-watch-01"
+  ],
+  "price": 7997,
+  "description": "A matched-but-not-matchy festive pair for the mehendi calendar. She wears forest green resham-threadworked georgette saree with woven border; he wears forest green kamdani-fine weave silk kurta set with rose gold stone-set ethnic-dial watch. Harmonised in Forest Green and Blush Pink so the photos stay timeless.",
+  "imageUrl": "/images/couple-plates/mehendi-forest-rose.svg",
+  "coupleId": "mehendi-forest-rose"
+ },
+ {
+  "id": "couple-engagement-powder-ivory",
+  "title": "Powder Blue & Ivory Courtyard Engagement",
+  "mood": "serene",
+  "occasions": [
+   "Engagement"
+  ],
+  "herProductIds": [
+   "w-saree-organza-01"
+  ],
+  "hisProductIds": [
+   "m-kurtiset-cotton-02",
+   "m-watch-01"
+  ],
+  "price": 5597,
+  "description": "A matched-but-not-matchy festive pair for the engagement calendar. She wears powder blue kamdani-fine weave organza saree with hand-embroidered buti; he wears ivory block-printed cotton kurta set with rose gold stone-set ethnic-dial watch. Harmonised in Powder Blue and Ivory so the photos stay timeless.",
+  "imageUrl": "/images/couple-plates/engagement-powder-ivory.svg",
+  "coupleId": "engagement-powder-ivory"
+ },
+ {
+  "id": "couple-puja-terracotta-cream",
+  "title": "Terracotta & Ivory Dawn Puja Harmony",
+  "mood": "devotional",
+  "occasions": [
+   "Puja & Temple"
+  ],
+  "herProductIds": [
+   "w-saree-georgette-soft-01"
+  ],
+  "hisProductIds": [
+   "m-kurtiset-printed-05",
+   "m-watch-01"
+  ],
+  "price": 3997,
+  "description": "A matched-but-not-matchy festive pair for the puja & temple calendar. She wears terracotta block-printed soft georgette everyday saree; he wears terracotta printed kurta set with rose gold stone-set ethnic-dial watch. Harmonised in Terracotta and Cream so the photos stay timeless.",
+  "imageUrl": "/images/couple-plates/puja-terracotta-cream.svg",
+  "coupleId": "puja-terracotta-cream"
+ },
+ {
+  "id": "couple-festive-plum-blush",
+  "title": "Plum & Blush Twilight Festive Pairing",
+  "mood": "contemporary",
+  "occasions": [
+   "Festive Party"
+  ],
+  "herProductIds": [
+   "w-saree-predrape-satin-04"
+  ],
+  "hisProductIds": [
+   "m-kurt-set-jacket-01",
+   "m-watch-01"
+  ],
+  "price": 11797,
+  "description": "A matched-but-not-matchy festive pair for the festive party calendar. She wears plum stone-set pre-draped saree gown (satin); he wears plum zardozi-embroidered kurta set with nehru jacket with rose gold stone-set ethnic-dial watch. Harmonised in Plum and Blush so the photos stay timeless.",
+  "imageUrl": "/images/couple-plates/festive-plum-blush.svg",
+  "coupleId": "festive-plum-blush"
+ },
+ {
+  "id": "couple-wedding-guest-deepgreen-sand",
+  "title": "Deep Green & Sand Heritage Guest Duo",
+  "mood": "understated",
+  "occasions": [
+   "Wedding Guest"
+  ],
+  "herProductIds": [
+   "w-saree-drape-03"
+  ],
+  "hisProductIds": [
+   "m-kurtiset-cotton-01",
+   "m-watch-01"
+  ],
+  "price": 7797,
+  "description": "A matched-but-not-matchy festive pair for the wedding guest calendar. She wears sand gotapatti-appliquéd georgette saree with woven border; he wears sand chikankari-worked cotton kurta set with rose gold stone-set ethnic-dial watch. Harmonised in Deep Green and Sand so the photos stay timeless.",
+  "imageUrl": "/images/couple-plates/wedding-guest-deepgreen-sand.svg",
+  "coupleId": "wedding-guest-deepgreen-sand"
+ },
+ {
+  "id": "couple-winter-burgundy-ivory",
+  "title": "Velvet Burgundy & Warm Ivory Winter Sangeet",
+  "mood": "rich",
+  "occasions": [
+   "Winter"
+  ],
+  "herProductIds": [
+   "w-saree-organza-02"
+  ],
+  "hisProductIds": [
+   "m-kurtiset-cotton-02",
+   "m-watch-01"
+  ],
+  "price": 4497,
+  "description": "A matched-but-not-matchy festive pair for the winter calendar. She wears ivory chikankari-worked organza saree with hand-embroidered buti; he wears ivory block-printed cotton kurta set with rose gold stone-set ethnic-dial watch. Harmonised in Deep Maroon and Ivory so the photos stay timeless.",
+  "imageUrl": "/images/couple-plates/winter-burgundy-ivory.svg",
+  "coupleId": "winter-burgundy-ivory"
+ },
+ {
+  "id": "couple-date-night-chocolate-cream",
+  "title": "Contemporary Chocolate & Cream Date Edit",
+  "mood": "intimate",
+  "occasions": [
+   "Date Night"
+  ],
+  "herProductIds": [
+   "w-saree-velvet-02"
+  ],
+  "hisProductIds": [
+   "m-kurtiset-silk-04",
+   "m-watch-01"
+  ],
+  "price": 9697,
+  "description": "A matched-but-not-matchy festive pair for the date night calendar. She wears chocolate dabka-embellished velvet saree with zardozi pallu; he wears chocolate aari-stitched silk kurta set with rose gold stone-set ethnic-dial watch. Harmonised in Chocolate and Cream so the photos stay timeless.",
+  "imageUrl": "/images/couple-plates/date-night-chocolate-cream.svg",
+  "coupleId": "date-night-chocolate-cream"
  }
 ]
