@@ -17,12 +17,13 @@ export default function SearchPage() {
   const results = q ? searchProducts(q, 60) : [];
   const matchedLooks = q
     ? allLooks.filter((l) => {
-        const hay = `${l.title} ${l.occasions.join(' ')} ${l.mood} ${l.description}`.toLowerCase();
-        return q.toLowerCase().split(/\s+/).filter((t) => t.length > 1).every((t) => hay.includes(t));
+        const hay = `${l.title} ${l.id} ${l.occasions.join(' ')} ${l.mood} ${l.description}`.toLowerCase();
+        const stop = new Set(['outfit', 'outfits', 'wear', 'look', 'looks', 'dress', 'set', 'sets', 'clothes']);
+        return q.toLowerCase().split(/\s+/).filter((t) => t.length > 1 && !stop.has(t)).every((t) => hay.includes(t));
       }).slice(0, 6)
     : [];
-  const suggestions = ['diwali saree', 'pre-draped', 'wedding guest men', 'chikankari kurti', 'navratri kediyu', 'ivory organza', 'jhumka', 'bandhgala', 'sangeet lehenga', 'under 1500 co-ord'];
-  const occGuess = q ? ['diwali', 'navratri', 'sangeet', 'reception', 'wedding', 'mehendi', 'college-fest'].find((id) => q.toLowerCase().includes(id.replace('-', ' ').split(' ')[0])) : undefined;
+  const suggestions = ['diwali outfit', 'pre draped saree', 'wedding guest', 'garba', 'jhumka', 'kurta jacket', 'black festive jacket', 'navratri men', 'couple outfit', 'wedding formals', 'green kurta', 'chikankari kurti', 'bandhgala', 'sangeet lehenga'];
+  const occGuess = q ? ['diwali', 'navratri', 'garba', 'haldi', 'sangeet', 'reception', 'wedding', 'mehendi', 'college-fest'].find((id) => q.toLowerCase().includes(id.replace('-', ' ').split(' ')[0])) : undefined;
 
   const submit = (value: string) => {
     if (value.trim()) {

@@ -49,7 +49,7 @@ export const products: Product[] = catalog as unknown as Product[]
 const byId = new Map(products.map((p) => [p.id, p]))
 export const getProductById = (id: string): Product | undefined => byId.get(id)
 
-export const APPAREL_CATEGORIES = ['sarees', 'kurta-sets', 'co-ord-sets', 'lehenga', 'garba', 'jackets', 'indowestern']
+export const APPAREL_CATEGORIES = ['sarees', 'kurta-sets', 'co-ord-sets', 'lehenga', 'garba', 'jackets', 'indowestern', 'formals']
 export const isApparel = (p: Product) => APPAREL_CATEGORIES.includes(p.category)
 export const isCouple = (p: Product) => p.category === 'couple-edit'
 
@@ -68,7 +68,7 @@ export const getProductsByOccasion = (occasionTag: string): Product[] =>
 export const CATEGORY_LABELS: Record<string, string> = {
   sarees: 'Sarees', 'kurta-sets': 'Kurta & Anarkali Sets', 'co-ord-sets': 'Co-ord Sets',
   lehenga: 'Lehenga & Chaniya', garba: 'Garba & Navratri', jackets: 'Jackets & Bandhgala',
-  indowestern: 'Indo-Western & Fusion', jewellery: 'Jewellery', bags: 'Bags & Clutches',
+  indowestern: 'Indo-Western & Fusion', formals: 'Wedding Formals', jewellery: 'Jewellery', bags: 'Bags & Clutches',
   footwear: 'Footwear', watches: 'Watches', accessories: 'Grooming & Carry',
   beauty: 'Beauty', 'couple-edit': 'Couple Sets',
 }
@@ -84,7 +84,7 @@ export function categoriesForGender(gender: Gender | 'accessories'): { key: stri
 }
 
 export const OCCASION_TAGS = [
-  'Wedding', 'Sangeet', 'Reception', 'Mehendi', 'Festive Party', 'Diwali Party', 'Navratri',
+  'Wedding', 'Sangeet', 'Reception', 'Mehendi', 'Haldi', 'Festive Party', 'Diwali Party', 'Navratri', 'Garba & Dandiya',
   'College Fest', 'Work-to-Dinner', 'Night Out', 'Destination Wedding', 'Daywear', 'Puja & Temple',
   'Engagement', 'Wedding Guest', 'Family Function', 'Date Night', 'Winter Festive',
 ] as const
@@ -151,8 +151,9 @@ const tokens = (q: string) =>
 
 function matchesQuery(p: Product, q?: string): boolean {
   if (!q || !q.trim()) return true
-  const hay = `${p.title} ${p.brand} ${p.category} ${p.subCategory} ${p.colour} ${p.fabric} ${p.embroidery || ''} ${p.pattern || ''} ${p.weave || ''} ${p.occasions.join(' ')} ${p.styleTags.join(' ')} ${p.silhouette}`.toLowerCase()
-  return tokens(q).every((t) => hay.includes(t))
+  const hay = `${p.title} ${p.brand} ${p.category} ${p.subCategory} ${p.colour} ${p.fabric} ${p.gender} ${p.embroidery || ''} ${p.pattern || ''} ${p.weave || ''} ${p.occasions.join(' ')} ${p.styleTags.join(' ')} ${p.silhouette}`.toLowerCase()
+  // word-boundary match so the token 'men' never matches inside 'women'
+  return tokens(q).every((t) => new RegExp(`(?:^|[^a-z])${t.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}`).test(hay))
 }
 
 function matches(p: Product, f: FilterParams, curatedIds?: ReadonlySet<string>, skip?: FilterParams['scope'] | string): boolean {
@@ -258,7 +259,7 @@ export const OCCASION_TAG_BY_ID: Record<string, string> = {
   'college-fest': 'College Fest', workwear: 'Work-to-Dinner', 'night-out': 'Night Out',
   'destination-wedding': 'Destination Wedding', daywear: 'Daywear', puja: 'Puja & Temple',
   engagement: 'Engagement', 'wedding-guest': 'Wedding Guest', 'family-function': 'Family Function',
-  'date-night': 'Date Night', winter: 'Winter Festive',
+  'date-night': 'Date Night', winter: 'Winter Festive', haldi: 'Haldi', garba: 'Garba & Dandiya',
 }
 
 // ── search across products, looks & couple edits ─────────────────────────────
@@ -269,15 +270,16 @@ export function searchProducts(q: string, limit = 60): Product[] {
     .filter((p) => !isCouple(p))
     .map((p) => {
       const title = p.title.toLowerCase(), brand = p.brand.toLowerCase(), cat = `${p.category} ${p.subCategory}`.toLowerCase()
-      const hay = `${title} ${brand} ${cat} ${p.colour} ${p.fabric} ${p.occasions.join(' ')} ${p.styleTags.join(' ')} ${p.embroidery || ''} ${p.pattern || ''} ${p.weave || ''} ${p.description.toLowerCase()}`
+      const hay = `${title} ${brand} ${cat} ${p.colour} ${p.fabric} ${p.gender} ${p.occasions.join(' ')} ${p.styleTags.join(' ')} ${p.embroidery || ''} ${p.pattern || ''} ${p.weave || ''} ${p.description}`.toLowerCase()
       let score = 0
+      const wordHit = (t: string) => new RegExp(`(?:^|[^a-z])${t.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}`).test(hay)
       for (const t of toks) {
         if (title.includes(t)) score += 6
         if (brand === t) score += 4
         if (cat.includes(t)) score += 3
         if (hay.includes(t)) score += 1
       }
-      return { p, score, hit: toks.every((t) => hay.includes(t)) }
+      return { p, score, hit: toks.every((t) => wordHit(t)) }
     })
     .filter((x) => x.hit)
     .sort((a, b) => b.score - a.score)

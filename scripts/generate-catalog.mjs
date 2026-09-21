@@ -139,7 +139,7 @@ const AJIO_TRENDING = {
   'flats-men': 'footwear-trending', 'stoles': 'scarves-trending', 'belts': 'belts-and-suspenders-trending',
   'wallets': 'wallets-trending', 'eyewear': 'eyewear-trending', 'safa': 'ethnic-accessories-trending',
   watch: 'watches-trending', beauty: 'beauty-trending', kajal: 'beauty-trending', 'lipstick': 'beauty-trending',
-  perfume: 'fragrance-trending', skincare: 'beauty-trending',
+  perfume: 'fragrance-trending', skincare: 'beauty-trending', 'men-formals': 'men-clothing-trending',
 }
 const NYKAA_SEARCH = {
   beauty: 'search', 'lipstick': 'lipstick', kajal: 'kajal', 'perfume': 'perfume', skincare: 'face-serum',
@@ -178,7 +178,7 @@ const pickPrice = (rnd, lo, hi) => {
   return Number.isFinite(picked) && picked > 0 ? picked : band[0]
 }
 
-const OCC_TAG = { wedding: 'Wedding', sangeet: 'Sangeet', reception: 'Reception', mehendi: 'Mehendi', festive: 'Festive Party', diwali: 'Diwali Party', navratri: 'Navratri', college: 'College Fest', workwear: 'Work-to-Dinner', party: 'Night Out', travel: 'Destination Wedding', casual: 'Daywear', puja: 'Puja & Temple', engagement: 'Engagement', guest: 'Wedding Guest', family: 'Family Function', date: 'Date Night', winter: 'Winter Festive' }
+const OCC_TAG = { wedding: 'Wedding', sangeet: 'Sangeet', reception: 'Reception', mehendi: 'Mehendi', festive: 'Festive Party', diwali: 'Diwali Party', navratri: 'Navratri', garba: 'Garba & Dandiya', haldi: 'Haldi', college: 'College Fest', workwear: 'Work-to-Dinner', party: 'Night Out', travel: 'Destination Wedding', casual: 'Daywear', puja: 'Puja & Temple', engagement: 'Engagement', guest: 'Wedding Guest', family: 'Family Function', date: 'Date Night', winter: 'Winter Festive' }
 
 const AGE_BY_OCC = { college: [16, 17, 18, 20, 21, 22, 24], garba: [16, 17, 18, 20, 21, 22, 24, 25], party: [18, 20, 21, 22, 24], casual: [16, 17, 18, 20, 21, 22, 24], workwear: [20, 21, 22, 24, 25], travel: [20, 21, 22, 24, 25], date: [18, 20, 21, 22, 24, 25], puja: [16, 17, 18, 20, 21, 22, 24, 25], family: [16, 17, 18, 20, 21, 22, 24, 25], sangeet: [16, 17, 18, 20, 21, 22, 24, 25], mehendi: [16, 17, 18, 20, 21, 22, 24], festive: [18, 20, 21, 22, 24, 25, 30, 35], diwali: [18, 20, 21, 22, 24, 25, 30, 35], navratri: [16, 17, 18, 20, 21, 22, 24, 25], wedding: [18, 20, 21, 22, 24, 25, 30, 35, 40], reception: [20, 21, 22, 24, 25, 30, 35], engagement: [18, 20, 21, 22, 24, 25, 30], guest: [20, 21, 22, 24, 25, 30, 35, 40], winter: [18, 20, 21, 22, 24, 25, 30, 35] }
 function ageFor(rnd, sub) {
@@ -201,7 +201,7 @@ function styleFor(sub, craft) {
   if (/sequin|glam|mirror|stone|pearl/.test(sub.name.toLowerCase() + craft.toLowerCase())) s.push('Statement')
   return [...new Set(s)]
 }
-const OCC_LABEL = { wedding: 'Wedding', sangeet: 'Sangeet', reception: 'Reception', mehendi: 'Mehendi', festive: 'Festive', diwali: 'Diwali', navratri: 'Navratri', garba: 'Garba & Dandiya', college: 'College Fest', workwear: 'Workwear', party: 'Night Out', travel: 'Destination', casual: 'Casual', puja: 'Puja & Temple', engagement: 'Engagement', guest: 'Wedding Guest', family: 'Family Function', date: 'Date Night', winter: 'Winter' }
+const OCC_LABEL = { wedding: 'Wedding', sangeet: 'Sangeet', reception: 'Reception', mehendi: 'Mehendi', festive: 'Festive', diwali: 'Diwali', navratri: 'Navratri', garba: 'Garba & Dandiya', haldi: 'Haldi', college: 'College Fest', workwear: 'Workwear', party: 'Night Out', travel: 'Destination', casual: 'Casual', puja: 'Puja & Temple', engagement: 'Engagement', guest: 'Wedding Guest', family: 'Family Function', date: 'Date Night', winter: 'Winter' }
 const priceHint = (sub) => sub.price[1]
 
 const DESC = {
@@ -218,6 +218,7 @@ const DESC = {
   kurtaMen: (f, c, col) => `A ${col.toLowerCase()} ${f} kurta with a ${c.toLowerCase()} placket that stops below the chest, so it reads refined under a jacket and complete on its own. Straight grain cut to fall without flare; side slits with bar-tacked tops; mother-of-pearl-look buttons on a hidden placket. Includes matching bottom as listed.`,
   drape: (f, c, col) => `A pre-pleated, pre-stitched ${f} drape in ${col.toLowerCase()} — six yards of behaviour, solved. The ${c.toLowerCase()} sits exactly where it should because the pleats are machine-tacked at the waist band; safety-strap loops and a hidden pocket in the waistband are sewn in. Comes with the peticoat shown; blouse is separate unless listed.`,
   footwear: (f, c, col) => `Hand-finished ${f} ${/heel|wedge/.test(f) ? 'shoes' : 'shoes/jutti'} in ${col.toLowerCase()}, with ${c.toLowerCase()} on the vamp and a padded leather-look footbed that survives eight-hour events. Anti-skid sole, reinforced heel counter; the ${/jutti|mojari|kolhapuri/.test(f) ? 'turn-down topline prevents blisters' : 'straps are backed so they do not cut'}.`,
+  formals: (f, c, col) => `A ${col.toLowerCase()} ${f} reception-weight suit, cut for the wedding functions where ethnic is optional and tailoring is the statement. Half-canvassed front, functioning cuff buttons, and trousers finished with a clean break; the ${c.toLowerCase()} detail stays at the lapel and pocket edges so it reads formal, never costume. Sized to be tailored in one sitting.`,
   jewellery: (f, c, col) => `${titleCase(c)} ${f} jewellery in ${col.toLowerCase()} tones, ${/kundan|polki|pearl/.test(f + c) ? 'unclosed-back setting for that antique glow' : 'light enough to wear through a full event'}. Brass base with durable plating, skin-friendly finish, and secure clasps; every earring post is tested against tugging. Presentation box included for gifting.`,
   bag: (f, c, col) => `A ${col.toLowerCase()} ${f} bag sized for the occasion: phone, lipstick, keys, and a folded prayer book without bulging. ${titleCase(c)} across the flap, satin-lined interior with one zip pocket, and a ${/potli/.test(f) ? 'drawstring gathered by a tassel you can actually tighten' : 'detachable strap for shoulder or cross-body'}.`,
   beauty: (f, c, col) => `A ${col.toLowerCase()} ${f} ${/lipstick/.test(f) ? 'in a transfer-resistant, non-drying bullet' : /kajal/.test(f) ? 'with a smudge-but-stay wand' : 'built for a festive skin barrier'} — ${c.toLowerCase()} finish, dermat-tested claims kept to what the brand states. Shade shown swatched on medium-Indian skin; patch test before the event, not the morning of.`,
@@ -262,7 +263,7 @@ womenSaree('w-saree-concept-3', 'Draped Saree with Pant', 'saree-predrape', 3, [
 womenSaree('w-saree-gown', 'Saree Drape Gown (Evening)', 'saree-gown', 3, ['Sequit All-Over', 'Aari', 'Stone Work'], [PALETTE.evening], ['Satin'], ['reception', 'date'], 'sarees', [3499, 8499], 'sareeConcept', { cat: 'indowestern-sets' })
 // ── women · kurta sets (60) ──
 set('w-kurtiset-anarkali', 'Anarkali Kurta Set', 'anarkali', 6, ['Chikankari', 'Kashmiri Embroidery', 'Aari', 'Mirror Work', 'Tone-on-Tone', 'Sequit Work'], [PALETTE.festiveJewel, PALETTE.heirloom, PALETTE.warm, PALETTE.pastels], ['Georgette', 'Chanderi', 'Rayon', 'Satin'], ['sangeet', 'festive', 'diwali', 'wedding', 'family'], 'kurta-sets', [1799, 5999], 'anarkali')
-set('w-kurtiset-sharara', 'Sharara Set', 'sharara', 4, ['Kamdani', 'Sequit Work', 'Gotapatti', 'Chikankari'], [PALETTE.warm, PALETTE.heirloom], ['Chanderi'], ['sangeet', 'mehendi', 'reception', 'family'], 'kurta-sets', [1999, 5499], 'kurta')
+set('w-kurtiset-sharara', 'Sharara Set', 'sharara', 4, ['Kamdani', 'Sequit Work', 'Gotapatti', 'Chikankari'], [PALETTE.warm, PALETTE.heirloom], ['Chanderi'], ['sangeet', 'mehendi', 'haldi', 'reception', 'family'], 'kurta-sets', [1999, 5499], 'kurta')
 set('w-kurtiset-gharara', 'Gharara Set', 'gharara', 3, ['Kamdani', 'Chikankari', 'Block Print'], [PALETTE.heirloom, PALETTE.metal, PALETTE.pastels], ['Georgette'], ['sangeet', 'mehendi', 'family'], 'kurta-sets', [1799, 4999], 'kurta')
 set('w-kurtiset-palazzo', 'Palazzo Kurta Set', 'palazzo-set', 5, ['Chikankari', 'Block Print', 'Resham Threadwork', 'Aari', 'Bagru Print'], [PALETTE.pastels, PALETTE.heirloom, PALETTE.mutedEarth], ['Cotton', 'Rayon', 'Khadi Cotton', 'Chanderi', 'Handloom Cotton', 'Chanderi Silk'], ['college', 'casual', 'workwear', 'diwali', 'festive'], 'kurta-sets', [1199, 3499], 'kurta')
 set('w-kurtiset-silk', 'Silk Kurta Set', 'kurta-set', 4, ['Zari', 'Buti Motifs', 'Tone-on-Tone', 'Dabka'], [PALETTE.festiveJewel], ['Art Silk', 'Cotton Silk', 'Tussar Silk', 'Kerala Kasavu'], ['diwali', 'wedding', 'reception', 'puja'], 'kurta-sets', [2499, 6499], 'kurta')
@@ -314,15 +315,15 @@ set('w-kurti-east', 'East-Frame Asymmetric Kurti', 'kurta-aline', 3, ['Chikankar
 set('w-kurti-highlow', 'High-Llow Cotton Kurti with Tiros', 'kurta-aline', 3, ['Aari', 'Mirror Work', 'Dried Flower Work'], [PALETTE.warm, PALETTE.heirloom], ['Cotton'], ['diwali', 'festive', 'navratri'], 'kurta-sets', [1299, 2799], 'kurti', { gender: 'women', cat: 'kurta-sets' })
 
 // ── men (136) ──
-set('m-kurtiset-cotton', 'Cotton Kurta Set', 'men-kurta', 8, ['Chikankari', 'Block Print', 'Thread Embroidery', 'None', 'Pearl Detailing', 'Tone-on-Tone', 'Aari'], [PALETTE.neuters, PALETTE.warm, PALETTE.mutedEarth], ['Cotton', 'Linen', 'Handloom Cotton', 'Khadi Cotton'], ['diwali', 'casual', 'puja', 'college', 'family'], 'ethnic-bottomwear', [899, 2499], 'kurtaMen', { gender: 'men', cat: 'men-kurta-sets' })
+set('m-kurtiset-cotton', 'Cotton Kurta Set', 'men-kurta', 8, ['Chikankari', 'Block Print', 'Thread Embroidery', 'None', 'Pearl Detailing', 'Tone-on-Tone', 'Aari'], [PALETTE.neuters, PALETTE.warm, PALETTE.mutedEarth], ['Cotton', 'Linen', 'Handloom Cotton', 'Khadi Cotton'], ['diwali', 'haldi', 'casual', 'puja', 'college', 'family'], 'ethnic-bottomwear', [899, 2499], 'kurtaMen', { gender: 'men', cat: 'men-kurta-sets' })
 set('m-kurtiset-silk', 'Silk Kurta Set', 'men-kurta', 6, ['Zari', 'Buti Motifs', 'Kamdani', 'Aari', 'Tone-on-Tone', 'None'], [PALETTE.festiveJewel, PALETTE.evening], ['Art Silk', 'Cotton Silk', 'Raw Silk', 'Kerala Kasavu'], ['diwali', 'wedding', 'festive', 'reception'], 'ethnic-bottomwear', [1999, 4999], 'kurtaMen', { gender: 'men', cat: 'men-kurta-sets' })
 set('m-kurtiset-chikankari', 'Chikankari Kurta Set', 'men-kurta', 5, ['Chikankari', 'Kamdani', 'Resham Threadwork', 'Pearl Detailing', 'Tone-on-Tone'], [PALETTE.neuters, PALETTE.warm, PALETTE.evening], ['Cotton', 'Chanderi', 'Modal Blend'], ['diwali', 'festive', 'reception', 'family'], 'men-kurtas-sets', [1499, 3499], 'kurtaMen', { gender: 'men', cat: 'men-kurta-sets' })
 set('m-kurtiset-printed', 'Printed Kurta Set', 'men-kurta-print', 5, ['Block Print', 'Ajrakh Print', 'Kalamkari', 'Bagru Print', 'Paisley Print'], [PALETTE.warm, PALETTE.heirloom, PALETTE.brights], ['Rayon', 'Modal Blend', 'Viscose'], ['college', 'casual', 'travel', 'festive'], 'men-kurtas-sets', [999, 2499], 'kurtaMen', { gender: 'men', cat: 'men-kurta-sets' })
 set('m-kurtiset-pathani', 'Pathani Suit Set', 'men-kurta', 4, ['Thread Embroidery', 'Pearl Detailing', 'None', 'Aari'], [PALETTE.warm, PALETTE.evening, PALETTE.neuters], ['Cotton', 'Linen'], ['casual', 'family', 'festive'], 'men-kurtas-sets', [1299, 2999], 'kurtaMen', { gender: 'men', cat: 'men-kurta-sets' })
 set('m-kurtiset-linen', 'Linen Kurta with Drawstring Pant', 'men-kurta', 4, ['None', 'Tone-on-Tone', 'Block Print', 'Aari', 'Thread Embroidery'], [PALETTE.neuters, PALETTE.warm, PALETTE.mutedEarth], ['Linen'], ['casual', 'travel', 'college', 'family'], 'men-kurtas-sets', [1499, 3299], 'kurtaMen', { gender: 'men', cat: 'men-kurta-sets' })
 set('m-kurt-set-jamawar', 'Jamawar Shawl Kurta Set', 'men-kurta', 3, ['Jaal Lattice', 'Paisley Print', 'Tone-on-Tone'], [PALETTE.festiveJewel], ['Pashmina', 'Wool Blend'], ['reception', 'winter', 'diwali'], 'men-kurtas-sets', [3499, 7999], 'kurtaMen', { gender: 'men', cat: 'men-kurta-sets' })
-set('m-kurt-set-brocade', 'Brocade Kurta Set', 'men-kurta', 3, ['Zari', 'Sequit Work', 'Dabka', 'Jacquard Weave'], [PALETTE.metal, PALETTE.evening], ['Brocade'], ['sangeet', 'reception', 'winter'], 'men-kurtas-sets', [2999, 6999], 'kurtaMen', { gender: 'men', cat: 'men-kurta-sets' })
-set('m-kurt-set-jacket', 'Kurta Set with Nehru Jacket', 'men-kurta-jacket', 5, ['Zardozi', 'Gotapatti', 'Chikankari', 'Stone Work', 'Tone-on-Tone'], [PALETTE.evening, PALETTE.festiveJewel], ['Raw Silk', 'Cotton Silk', 'Georgette'], ['reception', 'sangeet', 'diwali', 'family', 'winter'], 'men-kurtas-sets', [2999, 7499], 'jacket', { gender: 'men', cat: 'men-kurtas-sets' })
+set('m-kurt-set-brocade', 'Brocade Kurta Set', 'men-kurta', 3, ['Zari', 'Sequit Work', 'Dabka', 'Jacquard Weave'], [PALETTE.metal, PALETTE.evening], ['Brocade'], ['sangeet', 'reception', 'winter'], 'men-kurtas-sets', [2999, 6999], 'kurtaMen', { gender: 'men', cat: 'men-kurtas-sets' })
+set('m-kurt-set-jacket', 'Kurta Set with Nehru Jacket', 'men-kurta-jacket', 5, ['Zardozi', 'Gotapatti', 'Chikankari', 'Stone Work', 'Tone-on-Tone'], [PALETTE.evening, PALETTE.festiveJewel], ['Raw Silk', 'Cotton Silk', 'Georgette'], ['reception', 'sangeet', 'diwali', 'festive', 'family', 'winter'], 'men-kurtas-sets', [2999, 7499], 'jacket', { gender: 'men', cat: 'men-kurtas-sets' })
 set('m-kurt-set-dupatta', 'Kurta Set with Dupatta & Stole', 'men-kurta', 5, ['Zari', 'Gotapatti', 'Chikankari', 'Thread Embroidery', 'Mirror Work'], [PALETTE.warm, PALETTE.heirloom], ['Cotton Silk', 'Georgette'], ['festive', 'wedding', 'reception'], 'men-kurtas-sets', [1999, 4999], 'kurtaMen', { gender: 'men', cat: 'men-kurtas-sets' })
 set('m-kurt-set-short', 'Short Kurta with Trouser', 'men-short-kurta', 4, ['Chikankari', 'Block Print', 'Aari', 'Pearl Detailing'], [PALETTE.warm, PALETTE.pastels, PALETTE.evening], ['Modal', 'Linen', 'Cotton'], ['casual', 'college', 'date'], 'men-kurtas-sets', [999, 2499], 'kurtaMen', { gender: 'men', cat: 'men-kurta-sets' })
 set('m-jacket-brocade', 'Nehru Jacket (Brocade)', 'men-jacket', 5, ['Zari', 'Buti Motifs', 'Sequit Work', 'Jaal Lattice', 'None'], [PALETTE.metal, PALETTE.festiveJewel], ['Raw Silk', 'Brocade'], ['wedding', 'reception', 'sangeet', 'diwali'], 'men-jackets', [2499, 5999], 'jacket', { gender: 'men', cat: 'men-jackets' })
@@ -428,6 +429,19 @@ acc('b-kit-brush', 'Brush Set (12-Piece)', 'kit', 2, ['beauty'], [PALETTE.neuter
 acc('b-stick-lip', 'Satin Lipstick', 'lipstick', 3, ['beauty'], [PALETTE.brights, PALETTE.metal], ['Balmy Wax'], ['reception', 'date', 'college'], 'lipstick', [249, 899], 'beauty', { gender: 'women', cat: 'beauty', fabrics: ['Satin Wax'], crafts: ['Embossed Pan'] })
 acc('b-palette-compact', 'Highlighter & Blush Compact', 'palette', 2, ['beauty'], [PALETTE.metal], ['Baked Powder'], ['sangeet', 'party'], 'beauty', [399, 1299], 'beauty', { gender: 'women', cat: 'beauty', fabrics: ['Baked Powder'], crafts: ['Embossed Pan'] })
 
+// ── men · wedding formals (12) — a subcategory, never the main direction ─────
+// Wedding Formals exists for the reception-side functions where a young man
+// wears tailoring instead of ethnic. It is deliberately small: traditional
+// Indian fashion remains the primary identity of VIRAAS.
+function formal(id, name, sil, n, crafts, palettes, fabrics, occ, linkCat, price, extra = {}) { SUBS.push({ gender: 'men', cat: 'men-formals', id, name, sil, n, crafts, palettes, fabrics, occ, linkCat, price, descKey: 'formals', ...extra }) }
+formal('m-formal-suit', 'Tailored Two-Piece Suit', 'formal-suit', 3, ['Tone-on-Tone', 'None', 'Kamdani'], [PALETTE.evening, PALETTE.neuters], ['Wool Blend', 'Art Silk', 'Cotton Silk'], ['wedding', 'reception', 'guest', 'party'], 'men-formals', [4999, 12999])
+formal('m-formal-tux', 'Tuxedo Jacket Evening Set', 'tuxedo-set', 2, ['Tone-on-Tone', 'Pearl Detailing'], [PALETTE.evening], ['Wool Blend', 'Satin'], ['reception', 'party', 'festive', 'wedding'], 'men-formals', [6499, 13999])
+formal('m-formal-dinner', 'Ivory Dinner Jacket Set', 'dinner-jacket', 1, ['Stone Work', 'Pearl Detailing'], [PALETTE.neuters, PALETTE.metal], ['Satin', 'Art Silk'], ['reception', 'engagement', 'party'], 'men-formals', [5499, 9999])
+formal('m-formal-blazer', 'Structured Blazer with Formal Trouser', 'blazer-trouser', 2, ['Tone-on-Tone', 'None'], [PALETTE.jewelDeep, PALETTE.mutedEarth], ['Wool Blend', 'Cotton Silk'], ['wedding', 'guest', 'engagement', 'workwear'], 'men-formals', [3999, 8499])
+formal('m-formal-shirt', 'Formal Shirt & Trouser Set', 'shirt-trouser', 2, ['None'], [PALETTE.neuters, PALETTE.pastels], ['Cotton', 'Linen'], ['wedding', 'guest', 'reception'], 'men-formals', [2499, 4999])
+formal('m-formal-3piece', 'Three-Piece Reception Suit', 'three-piece-suit', 1, ['Tone-on-Tone', 'Kamdani'], [PALETTE.jewelDeep], ['Wool Blend'], ['reception', 'wedding'], 'men-formals', [7499, 13999])
+formal('m-formal-bandhgala', 'Bandhgala-Collar Formal Suit', 'bandhgala-suit', 1, ['Kamdani', 'Zari'], [PALETTE.evening], ['Art Silk', 'Wool Blend'], ['wedding', 'reception', 'festive', 'engagement'], 'men-formals', [5999, 11999])
+
 const ALL = SUBS
 const humanSub = (s) => titleCase(s.replace(/-/g, ' '))
 // canonical on-site category taxonomy (merchant-specific linkCat stays separate)
@@ -437,6 +451,7 @@ function catNorm(sub) {
   if (/kajal|lipstick|perfume|skincare/.test(lc)) return 'beauty'
   if (lc === 'beauty') return 'beauty'
   if (g === 'men') {
+    if (lc === 'men-formals') return 'formals'
     if (/watch/.test(lc)) return 'watches'
     if (/footwear|flats-men|sandals-men|jutti|kolhapuri/.test(lc)) return 'footwear'
     if (/jacket|sherwani/.test(lc)) return 'jackets'
@@ -511,12 +526,193 @@ for (const sub of ALL) {
   }
 }
 
-// ── SVG plates ────────────────────────────────────────────────────────────────
+// ── photographic editorial visuals ───────────────────────────────────────────
+// VIRAAS ships original AI-shot editorial photography for every product and
+// every couple look. Images live in public/images/photos/<slot>.jpg (products)
+// and public/images/couples/<cid>.jpg (couple looks). The slot map is computed
+// deterministically, committed at scripts/photos/slots.json, and re-applied on
+// every run — regenerating the catalog never loses an assignment. A product
+// whose photo is not on disk yet falls back to its SVG plate (which is then
+// written), so the generator is always runnable.
+const PHOTOS_DIR = join(ROOT, 'public/images/photos')
+const COUPLES_PHOTO_DIR = join(ROOT, 'public/images/couples')
+const PHOTOS_SCRIPT_DIR = join(ROOT, 'scripts/photos')
+const SLOTS_PATH = join(ROOT, 'scripts/photos/slots.json')
+mkdirSync(PHOTOS_DIR, { recursive: true })
+mkdirSync(COUPLES_PHOTO_DIR, { recursive: true })
+mkdirSync(PHOTOS_SCRIPT_DIR, { recursive: true })
+const photoOnDisk = (file) => existsSync(join(ROOT, 'public', file))
+
+const COLOUR_FAMILY = {
+  'Ivory': 'ivory', 'Cream': 'ivory', 'White': 'ivory', 'Sand': 'sand', 'Greige': 'sand', 'Stone Grey': 'sand', 'Oat Melange': 'sand',
+  'Black': 'black', 'Onyx Black': 'black', 'Charcoal': 'black',
+  'Wine': 'wine', 'Maroon': 'wine', 'Deep Maroon': 'wine',
+  'Terracotta': 'rust', 'Rust': 'rust', 'Copper': 'rust', 'Vermeil Orange': 'rust', 'Chocolate': 'rust',
+  'Coral': 'coral', 'Tangerine': 'coral', 'Mustard': 'mustard', 'Marigold': 'mustard',
+  'Butter Yellow': 'yellow', 'Sunflower Yellow': 'yellow',
+  'Blush Pink': 'blush', 'Rose': 'blush', 'Dusty Rose': 'blush', 'Peach': 'blush',
+  'Hot Pink': 'fuchsia', 'Fuchsia': 'fuchsia', 'Rani Pink': 'fuchsia',
+  'Plum': 'plum', 'Aubergine': 'plum', 'Lilac': 'plum',
+  'Navy': 'navy', 'Midnight Navy': 'navy', 'Royal Blue': 'navy',
+  'Powder Blue': 'powder', 'Sea Blue': 'powder', 'Peacock Teal': 'teal',
+  'Emerald': 'emerald', 'Deep Green': 'emerald', 'Forest Green': 'emerald', 'Bottle Green': 'emerald', 'Jade': 'emerald',
+  'Sage': 'sage', 'Mint': 'sage', 'Olive': 'olive', 'Deep Olive': 'olive', 'Parrot Green': 'parrot',
+  'Antique Gold': 'gold', 'Champagne': 'gold', 'Bronze': 'gold', 'Rose Gold': 'gold',
+}
+const familyOfColour = (c) => COLOUR_FAMILY[c] || 'other'
+// women apparel silhouette → coarse visual family (photo-sharing granularity)
+const WOMEN_FAMILY = {
+  'Saree Drape': 'saree', 'Saree Predrape': 'saree-gown', 'Saree Concept': 'saree-gown', 'Saree Gown': 'saree-gown',
+  'Saree Silk': 'saree-silk', 'Saree Sheer': 'saree-sheer', 'Saree Sheen': 'saree-sheer',
+  'Anarkali': 'anarkali', 'Sharara': 'sharara', 'Gharara': 'sharara',
+  'Palazzo Set': 'straight', 'Kurta Straight': 'straight', 'Kurta Set': 'straight', 'Kurta Set Dupatta': 'straight', 'Kurta Aline': 'straight', 'Straight Kurti': 'straight',
+  'Co Ord': 'coord', 'Co Ord Print': 'coord', 'Co Ord Dupatta': 'coord',
+  'Dhoti Skirt': 'dhoti', 'Lehenga': 'lehenga', 'Lehenga Print': 'lehenga', 'Lehenga Modern': 'lehenga', 'Lehenga Skirt': 'lehenga', 'Lehenga Separate': 'lehenga',
+  'Drape': 'gown', 'Kurta Jeans': 'kurti-jeans',
+}
+const APPAREL_PHOTO_CATS = ['sarees', 'kurta-sets', 'co-ord-sets', 'lehenga', 'garba', 'jackets', 'indowestern', 'formals']
+const slugify = (s) => s.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '')
+
+// environment rotation — keeps editorial backgrounds varied across the grid
+const PHOTO_ENVS = [
+  'a softly blurred heritage haveli courtyard', 'a warm evening celebration venue with lanterns',
+  'contemporary Indian architecture with warm stone', 'a luxury Indian studio backdrop with soft ivory light',
+  'a festive courtyard strung with warm fairy lights', 'a refined rooftop terrace at dusk',
+  'an elegant Indian home interior with brass accents', 'a sunlit colonnade with arches',
+]
+const envFor = (key) => PHOTO_ENVS[Math.abs(hashStr(key)) % PHOTO_ENVS.length]
+
+// styling notes that keep silhouettes modern, young and wearable
+const MEN_STYLE = [
+  [/Short Kurta|Ethnic Shirt/, 'short kurta over straight tailored trousers, contemporary relaxed fit'],
+  [/Nehru Jacket|Garba Vest|Waistcoat/, 'layered jacket over a clean kurta, modern proportions'],
+  [/Bandhgala/, 'contemporary bandhgala with minimal hardware, tailored silhouette'],
+  [/Sherwani|Long Coat/, 'modern slim achkan-style silhouette, restrained embroidery'],
+  [/Dhoti/, 'contemporary dhoti-style trousers with a structured kurta'],
+  [/Pathani/, 'relaxed pathani suit with a modern drape'],
+  [/Kediyu|Kafni|Dance/, 'contemporary festive kediyu with tapered trousers, selective mirror work, dance-ready movement'],
+  [/Co-ord|Coord/, 'modern festive co-ord set with clean lines'],
+  [/Jeans|Denim/, 'kurti styled over denim, campus-cool balance'],
+  [/Kurta/, 'straight-cut kurta with tailored trousers, youthful modern fit'],
+]
+const WOMEN_STYLE = [
+  [/Predrape|Concept|Gown/, 'pre-draped saree gown with a sculptural modern drape'],
+  [/Saree/, 'saree with neatly set pleats and the pallu draped over the shoulder'],
+  [/Anarkali/, 'floor-length anarkali with flare falling from the natural waist'],
+  [/Sharara|Gharara/, 'sharara set with flared pants and a short fitted kurti'],
+  [/Dhoti/, 'dhoti-drape separates with modern styling'],
+  [/Co-?ord/, 'ethnic co-ord set with contemporary proportions'],
+  [/Lehenga/, 'lehenga with a fitted choli and floating dupatta'],
+  [/Jeans/, 'kurti styled over jeans, festive-casual balance'],
+  [/Kurti|Kurta/, 'straight kurta set with palazzo trousers'],
+]
+const menStyleNote = (p) => { const hit = MEN_STYLE.find(([re]) => re.test(p.subCategory + ' ' + p.silhouette)); return hit ? hit[1] : 'modern Indian festive outfit, clean contemporary fit' }
+const womenStyleNote = (p) => { const hit = WOMEN_STYLE.find(([re]) => re.test(p.subCategory + ' ' + p.silhouette)); return hit ? hit[1] : 'contemporary Indian festive outfit' }
+
+const articleFor = (p) => {
+  const s = p.subCategory + ' ' + p.silhouette
+  if (/Jhumka|Earring|Ear Cuff|Climber/.test(s)) return `pair of ${p.colour.toLowerCase()} ${(p.embroidery || p.pattern || p.weave || '').toLowerCase()} ${p.subCategory.toLowerCase()}`
+  if (/Necklace|Choker|Collar|Rani-Patta|Coin/.test(s)) return `${p.colour.toLowerCase()} ${p.subCategory.toLowerCase()}`
+  if (/Ring|Cufflink/.test(s)) return `${p.colour.toLowerCase()} ${p.subCategory.toLowerCase()}`
+  if (/Bangle|Kada|Bracelet/.test(s)) return `set of ${p.colour.toLowerCase()} ${p.subCategory.toLowerCase()}`
+  if (/Tikka|Passa|Patti|Headpiece/.test(s)) return `${p.colour.toLowerCase()} ${p.subCategory.toLowerCase()}`
+  if (/Hairpin|Hair Chain/.test(s)) return `set of ${p.colour.toLowerCase()} ${p.subCategory.toLowerCase()}`
+  if (/Brooch/.test(s)) return `${p.colour.toLowerCase()} ${p.subCategory.toLowerCase()}`
+  if (/Waist/.test(s)) return `${p.colour.toLowerCase()} kamarbandh waist belt`
+  if (/Potli/.test(s)) return `${p.colour.toLowerCase()} embroidered potli bag`
+  if (/Clutch|Handbag|Day Bag|Evening Bag/.test(s)) return `${p.colour.toLowerCase()} ${p.subCategory.toLowerCase()}`
+  if (/Sling/.test(s)) return `${p.colour.toLowerCase()} embroidered sling bag`
+  if (/Jutti|Mojari/.test(s)) return `pair of ${p.colour.toLowerCase()} handcrafted juttis`
+  if (/Kolhapuri/.test(s)) return `pair of ${p.colour.toLowerCase()} Kolhapuri chappals`
+  if (/Loafer/.test(s)) return `pair of ${p.colour.toLowerCase()} loafers`
+  if (/Sandal/.test(s)) return `pair of ${p.colour.toLowerCase()} festive sandals`
+  if (/Pump|Heel/.test(s)) return `pair of ${p.colour.toLowerCase()} embellished heels`
+  if (/Wedge/.test(s)) return `pair of ${p.colour.toLowerCase()} wedge sandals`
+  if (/Mule/.test(s)) return `pair of ${p.colour.toLowerCase()} beaded mules`
+  if (/Watch/.test(s)) return `${p.colour.toLowerCase()}-accented wrist watch`
+  if (/Stole|Scarf/.test(s)) return `${p.colour.toLowerCase()} woven stole, elegantly draped`
+  if (/Belt/.test(s)) return `${p.colour.toLowerCase()} leather belt with brass buckle`
+  if (/Wallet/.test(s)) return `${p.colour.toLowerCase()} leather wallet`
+  if (/Sunglasses/.test(s)) return `pair of ${p.colour.toLowerCase()} retro square sunglasses`
+  if (/Safa|Pagdi/.test(s)) return `${p.colour.toLowerCase()} ceremonial safa turban`
+  if (/Gifting Kit/.test(s)) return `${p.colour.toLowerCase()} groom gifting kit`
+  if (/Palette|Compact/.test(s)) return `${p.colour.toLowerCase()} festive makeup palette, swatches visible`
+  if (/Kajal/.test(s)) return `${p.colour.toLowerCase()} kajal stick with applicator`
+  if (/Lipstick|Tint/.test(s)) return `${p.colour.toLowerCase()} lipstick with a visible swatch`
+  if (/Brush/.test(s)) return `brush set arranged on a clean surface`
+  if (/Bottle|Mist|Oil|Roll-On|Drops|Spray/.test(s)) return `${p.colour.toLowerCase()}-packaged beauty bottle with soft light refraction`
+  return `${p.colour.toLowerCase()} ${p.subCategory.toLowerCase()}`
+}
+
+const anArticle = (w) => (/^[aeiou]/.test(w) ? `an ${w}` : `a ${w}`)
+function photoPrompt(p) {
+  const colour = p.colour.toLowerCase()
+  const fabric = p.fabric && p.fabric !== 'None' ? ` ${p.fabric.toLowerCase()}` : ''
+  const craft = (p.embroidery || p.pattern || p.weave || '').toLowerCase()
+  const occ = (p.occasions[0] || 'festive').toLowerCase()
+  if (APPAREL_PHOTO_CATS.includes(p.category)) {
+    const style = p.gender === 'men' ? menStyleNote(p) : womenStyleNote(p)
+    const who = p.gender === 'men' ? 'man' : 'woman'
+    return `Luxury Indian fashion editorial photograph, full-body young Indian ${who} wearing ${anArticle(colour + fabric + ' ' + p.subCategory.toLowerCase())}${craft ? ` with ${craft}` : ''}, ${style}, styled for ${occ}, contemporary Indian fashion for young adults, realistic textile texture, natural garment drape, premium editorial photography, cinematic soft lighting, ${envFor(p.id)} softly blurred, complete outfit visible head to toe, vertical 3:4 portrait, no text, no logos, no watermark`
+  }
+  return `Premium product photograph of ${anArticle(articleFor(p))}${fabric ? `, ${p.fabric.toLowerCase()} material` : ''}${craft ? ` with ${craft}` : ''}, macro editorial close-up, realistic materials and realistic texture, warm studio lighting, soft shadows, clean luxurious composition on a warm ivory surface, shallow depth of field, vertical 3:4 framing, no text, no logos, no watermark, not a vector illustration`
+}
+
+// group products into stable photo slots
+const prevSlots = existsSync(SLOTS_PATH) ? JSON.parse(readFileSync(SLOTS_PATH, 'utf8')) : { slots: [] }
+const prevByKey = new Map(prevSlots.slots.map((s) => [s.key, s]))
+const photoGroups = new Map()
 for (const p of products) {
+  if (p.category === 'couple-edit') continue
+  const fam = familyOfColour(p.colour)
+  let key, kind
+  if (p.gender === 'men') { key = `men|${p.id}`; kind = 'men' }
+  else if (APPAREL_PHOTO_CATS.includes(p.category)) { key = `wapp|${WOMEN_FAMILY[p.silhouette] || slugify(p.category)}|${fam}`; kind = 'women-apparel' }
+  else { key = `acc|${slugify(p.subCategory)}|${fam}`; kind = 'accessory' }
+  if (!photoGroups.has(key)) photoGroups.set(key, { key, kind, products: [] })
+  photoGroups.get(key).products.push(p)
+}
+const slots = []
+const productToSlot = new Map()
+for (const g of [...photoGroups.values()].sort((a, b) => a.key.localeCompare(b.key))) {
+  const n = g.products.length
+  const imgs = g.kind === 'men' ? n : g.kind === 'women-apparel' ? Math.ceil(n / 2) : Math.max(1, Math.ceil(n / 2.5))
+  const base = prevByKey.get(g.key)?.base || (g.kind === 'men' ? `m-${slugify(g.products[0].id)}` : `${g.kind === 'women-apparel' ? 'w' : 'a'}-${g.key.split('|').slice(1).join('-')}`)
+  for (let i = 0; i < imgs; i++) {
+    const members = g.products.filter((_, idx) => idx % imgs === i).map((p) => p.id)
+    const slotName = imgs === 1 ? base : `${base}-${i + 1}`
+    const anchor = g.products.find((p) => p.id === members[0])
+    const file = `/images/photos/${slotName}.jpg`
+    const slot = { key: g.key, kind: g.kind, base, slot: slotName, file, productIds: members, colour: anchor.colour, colourHex: COLOUR_HEX[anchor.colour] || '#888888', prompt: photoPrompt(anchor), present: photoOnDisk(file) }
+    slots.push(slot)
+    for (const id of members) productToSlot.set(id, slot)
+  }
+}
+// apply photos that exist on disk
+let photosApplied = 0
+for (const p of products) {
+  const slot = productToSlot.get(p.id)
+  if (slot && slot.present) {
+    p.imageUrl = slot.file
+    p.gallery = []
+    p.imagePrompt = slot.prompt
+    photosApplied++
+  }
+}
+writeFileSync(SLOTS_PATH, JSON.stringify({ generated: TODAY, slots: slots.map(({ present, ...rest }) => rest) }, null, 1))
+// brief for every photo still missing — this is the generation worklist
+const pendingProductPhotos = slots.filter((s) => !s.present).map(({ present, ...rest }) => rest)
+writeFileSync(join(PHOTOS_SCRIPT_DIR, 'product-brief.json'), JSON.stringify(pendingProductPhotos, null, 1))
+
+// ── SVG plates (fallback only — written solely for products without a photo) ─
+let platesWritten = 0
+for (const p of products) {
+  if (productToSlot.get(p.id)?.present) continue
   for (const view of ['a', 'b', 'c']) {
     const svg = renderPlate(p, view)
     const fname = view === 'a' ? `${p.id}.svg` : `${p.id}-${view}.svg`
     writeFileSync(join(OUT_IMG, fname), svg)
+    platesWritten++
   }
 }
 
@@ -558,58 +754,157 @@ for (const occ of OCC_LOOKS) {
 // occasion-bridging looks + cross-gender couple looks happen in couples.json
 
 // ── couple looks + couple-set products ───────────────────────────────────────
+// 60 unique couple stories. Each pairs real catalog pieces (her outfit +
+// jewellery + footwear/bag, his outfit + footwear/watch), carries its own
+// editorial scene and colour story, and renders as an original two-person
+// editorial photograph at public/images/couples/<cid>.jpg (SVG plate is only
+// a fallback while a photo is missing). Coordinate — never match.
 const COUPLES = [
-  ['sage-silk', 'Sage Silk Sangeet', 'Sangeet', 'sage', ['Sage', 'Emerald']],
-  ['ivory-gold', 'Ivory & Gold Reception', 'Reception', 'luxe', ['Ivory', 'Antique Gold']],
-  ['terracotta-fiesta', 'Terracotta Mehendi Fiesta', 'Mehendi', 'warm', ['Terracotta', 'Mustard']],
-  ['midnight-velvet', 'Midnight Velvet Evening', 'Evening', 'evening', ['Midnight Navy', 'Plum']],
-  ['marigold-day', 'Marigold Day Wedding', 'Wedding', 'warm', ['Marigold', 'Rust']],
-  ['monsoon-pastel', 'Monsoon Pastel Engagement', 'Engagement', 'pastel', ['Powder Blue', 'Mint']],
-  ['diwali-heirloom', 'Diwali Heirloom Puja', 'Diwali', 'heirloom', ['Mustard', 'Rust']],
-  ['navratri-neon', 'Navratri Floor Neon', 'Garba', 'bold', ['Hot Pink', 'Parrot Green']],
-  ['destination-white', 'Destination White Reception', 'Travel', 'luxury', ['White', 'Sand']],
-  ['college-duo', 'College Fest Duo', 'College', 'youthful', ['Butter Yellow', 'Stone Grey']],
-  ['wedding-guest-olive', 'Wedding Guest in Olive', 'Guest', 'minimal', ['Olive', 'Greige']],
-  ['winter-wedding', 'Winter Wedding Warmth', 'Winter', 'luxe', ['Bottle Green', 'Oat Melange']],
-  ['family-function', 'Family Function Soft Sheen', 'Family', 'minimal', ['Blush Pink', 'Sand']],
-  ['date-evening', 'Date Night in Wine', 'Date', 'bold', ['Wine', 'Chocolate']],
-  ['mehendi-mint', 'Mehendi Morning in Mint', 'Mehendi', 'fresh', ['Mint', 'Peach']],
-  ['festive-brass', 'Festive Family Brass & Ivory', 'Family', 'minimal', ['Champagne', 'Olive']],
-  ['garba-black-gold', 'Midnight Mirror Garba Night', 'Garba', 'contemporary', ['Black', 'Antique Gold']],
-  ['diwali-wine-ivory', 'Royal Wine & Ivory Diwali Edit', 'Diwali', 'festive', ['Wine', 'Ivory']],
-  ['sangeet-emerald-cream', 'Emerald & Cream Sangeet Romance', 'Sangeet', 'luxe', ['Emerald', 'Cream']],
-  ['wedding-maroon-champagne', 'Heritage Maroon & Champagne Wedding', 'Wedding', 'royal', ['Maroon', 'Champagne']],
-  ['haldi-mustard-ivory', 'Sunlit Mustard & Ivory Haldi Pair', 'Haldi', 'vibrant', ['Mustard', 'Ivory']],
-  ['cocktail-charcoal-rose', 'Charcoal & Dusty Rose Evening Soiree', 'Reception', 'modern', ['Charcoal', 'Rose']],
-  ['navratri-rust-cream', 'Chaniya & Kurta Rust Festive Rhythm', 'Garba', 'festive', ['Rust', 'Cream']],
-  ['reception-navy-peach', 'Midnight Navy & Peach Reception Pair', 'Reception', 'elegant', ['Navy', 'Peach']],
-  ['college-fest-sage-ivory', 'Campus Traditional Sage & Ivory Duo', 'College', 'youthful', ['Sage', 'Ivory']],
-  ['mehendi-forest-rose', 'Forest Green & Soft Rose Mehendi', 'Mehendi', 'fresh', ['Forest Green', 'Blush Pink']],
-  ['engagement-powder-ivory', 'Powder Blue & Ivory Courtyard Engagement', 'Engagement', 'serene', ['Powder Blue', 'Ivory']],
-  ['puja-terracotta-cream', 'Terracotta & Ivory Dawn Puja Harmony', 'Puja & Temple', 'devotional', ['Terracotta', 'Cream']],
-  ['festive-plum-blush', 'Plum & Blush Twilight Festive Pairing', 'Festive Party', 'contemporary', ['Plum', 'Blush']],
-  ['wedding-guest-deepgreen-sand', 'Deep Green & Sand Heritage Guest Duo', 'Wedding Guest', 'understated', ['Deep Green', 'Sand']],
-  ['winter-burgundy-ivory', 'Velvet Burgundy & Warm Ivory Winter Sangeet', 'Winter', 'rich', ['Deep Maroon', 'Ivory']],
-  ['date-night-chocolate-cream', 'Contemporary Chocolate & Cream Date Edit', 'Date Night', 'intimate', ['Chocolate', 'Cream']]
+  // [cid, title, occasionTag, mood, [herColour, hisColour], scene]
+  ['sage-silk', 'Sage Silk Sangeet', 'Sangeet', 'sage', ['Sage', 'Emerald'], 'walking through a candle-lit sangeet lawn, she mid-laugh as he turns toward her'],
+  ['ivory-gold', 'Ivory & Gold Reception', 'Reception', 'luxe', ['Ivory', 'Antique Gold'], 'poised together on a marble reception staircase in warm evening light'],
+  ['terracotta-fiesta', 'Terracotta Mehendi Fiesta', 'Mehendi', 'warm', ['Terracotta', 'Mustard'], 'seated on floor cushions at a marigold-drenched mehendi, henna cones between them'],
+  ['midnight-velvet', 'Midnight Velvet Evening', 'Reception', 'evening', ['Midnight Navy', 'Plum'], 'walking into a velvet-draped evening venue with city lights glowing behind'],
+  ['marigold-day', 'Marigold Day Wedding', 'Wedding', 'warm', ['Marigold', 'Rust'], 'morning wedding courtyard under banana stems and garlands, caught mid-conversation'],
+  ['monsoon-pastel', 'Monsoon Pastel Engagement', 'Engagement', 'pastel', ['Powder Blue', 'Mint'], 'intimate ring ceremony by a rain-washed window, standing close'],
+  ['diwali-heirloom', 'Diwali Heirloom Puja', 'Diwali Party', 'heirloom', ['Mustard', 'Rust'], 'evening aarti behind rows of lit diyas, warm lamplight catching the zari'],
+  ['navratri-neon', 'Navratri Floor Neon', 'Garba & Dandiya', 'bold', ['Hot Pink', 'Parrot Green'], 'mid-garba circle under string lights, dandiya in hand, full motion energy'],
+  ['destination-white', 'Destination White Reception', 'Destination Wedding', 'luxury', ['White', 'Sand'], 'beachside mandap at dusk, breeze lifting her dupatta and his linen'],
+  ['college-duo', 'College Fest Duo', 'College Fest', 'youthful', ['Butter Yellow', 'Stone Grey'], 'campus fest stage-side, candid walk with friends blurring past behind'],
+  ['wedding-guest-olive', 'Wedding Guest in Olive', 'Wedding Guest', 'minimal', ['Olive', 'Greige'], 'hotel-corridor portrait before the function, refined and relaxed'],
+  ['winter-wedding', 'Winter Wedding Warmth', 'Winter Festive', 'luxe', ['Bottle Green', 'Oat Melange'], 'shawl-wrapped on a winter wedding lawn at dusk, braziers glowing'],
+  ['family-function', 'Family Function Soft Sheen', 'Family Function', 'minimal', ['Blush Pink', 'Sand'], 'greeting elders in a warm home interior, a thali balanced in her hands'],
+  ['date-evening', 'Date Night in Wine', 'Date Night', 'bold', ['Wine', 'Chocolate'], 'rooftop dinner under string lights, leaning toward each other across the table'],
+  ['mehendi-mint', 'Mehendi Morning in Mint', 'Mehendi', 'fresh', ['Mint', 'Peach'], 'sunlit mehendi brunch on a low diwan, floral jewellery and fresh orange juice'],
+  ['festive-brass', 'Festive Family Brass & Ivory', 'Family Function', 'minimal', ['Champagne', 'Olive'], 'festival lunch in a heritage home dining room, brass thalis and warm daylight'],
+  ['garba-black-gold', 'Midnight Mirror Garba Night', 'Garba & Dandiya', 'contemporary', ['Black', 'Antique Gold'], 'garba ground at night, mirror work catching the lights mid-twirl'],
+  ['diwali-wine-ivory', 'Royal Wine & Ivory Diwali Edit', 'Diwali Party', 'festive', ['Wine', 'Ivory'], 'diwali party balcony with lanterns, both turning toward each other'],
+  ['sangeet-emerald-cream', 'Emerald & Cream Sangeet Romance', 'Sangeet', 'luxe', ['Emerald', 'Cream'], 'sangeet stage-side as he offers his hand for a dance'],
+  ['wedding-maroon-champagne', 'Heritage Maroon & Champagne Wedding', 'Wedding', 'royal', ['Deep Maroon', 'Champagne'], 'heritage palace corridor in the evening, baraat energy in the air'],
+  ['haldi-mustard-ivory', 'Sunlit Mustard & Ivory Haldi Pair', 'Haldi', 'vibrant', ['Mustard', 'Ivory'], 'haldi ceremony mid-toss, turmeric-stained joy and marigolds everywhere'],
+  ['cocktail-charcoal-rose', 'Charcoal & Dusty Rose Evening Soiree', 'Reception', 'modern', ['Charcoal', 'Rose'], 'cocktail hour by a poolside bar in low golden light'],
+  ['navratri-rust-cream', 'Chaniya & Kurta Rust Festive Rhythm', 'Garba & Dandiya', 'festive', ['Rust', 'Cream'], 'mid-dandiya step, bandhani odhani in motion around her'],
+  ['reception-navy-peach', 'Midnight Navy & Peach Reception Pair', 'Reception', 'elegant', ['Navy', 'Peach'], 'receiving line at a navy-draped reception hall, soft smiles'],
+  ['college-fest-sage-ivory', 'Campus Traditional Sage & Ivory Duo', 'College Fest', 'youthful', ['Sage', 'Ivory'], 'traditional-day courtyard on campus, candid walk between classes'],
+  ['mehendi-forest-rose', 'Forest Green & Soft Rose Mehendi', 'Mehendi', 'fresh', ['Forest Green', 'Blush Pink'], 'garden mehendi under a canopy of leaves, seated elegance'],
+  ['engagement-powder-ivory', 'Powder Blue & Ivory Courtyard Engagement', 'Engagement', 'serene', ['Powder Blue', 'Ivory'], 'courtyard ring exchange in soft morning light, hands almost touching'],
+  ['puja-terracotta-cream', 'Terracotta & Ivory Dawn Puja Harmony', 'Puja & Temple', 'devotional', ['Terracotta', 'Cream'], 'dawn aarti in a temple courtyard, diya flames lighting their faces'],
+  ['festive-plum-blush', 'Plum & Blush Twilight Festive Pairing', 'Festive Party', 'contemporary', ['Plum', 'Blush Pink'], 'twilight terrace party under fairy lights, mid-conversation'],
+  ['wedding-guest-deepgreen-sand', 'Deep Green & Sand Heritage Guest Duo', 'Wedding Guest', 'understated', ['Deep Green', 'Sand'], 'heritage haveli steps at golden hour, a quiet portrait'],
+  ['winter-burgundy-ivory', 'Velvet Burgundy & Warm Ivory Winter Sangeet', 'Winter Festive', 'rich', ['Deep Maroon', 'Ivory'], 'winter sangeet by a fireplace lounge, velvet textures glowing'],
+  ['date-night-chocolate-cream', 'Contemporary Chocolate & Cream Date Edit', 'Date Night', 'intimate', ['Chocolate', 'Cream'], 'quiet bistro corner by candlelight, leaning close'],
+  ['garba-emerald-ivory', 'Emerald & Ivory Dandiya Nights', 'Garba & Dandiya', 'fresh', ['Emerald', 'Ivory'], 'dandiya raas in full swing, clacking sticks and joyful motion'],
+  ['navratri-teal-pink', 'Peacock & Pink Navratri Spin', 'Garba & Dandiya', 'bold', ['Peacock Teal', 'Hot Pink'], 'spinning in the garba circle, her odhani flaring with the turn'],
+  ['diwali-emerald-gold', 'Emerald & Antique Gold Diwali Dinner', 'Diwali Party', 'luxe', ['Emerald', 'Antique Gold'], 'diwali dinner table glowing with brass diyas and candlelight'],
+  ['diwali-peach-ivory', 'Peach & Ivory Diwali Open House', 'Diwali Party', 'pastel', ['Peach', 'Ivory'], 'diwali open-house evening, rangoli underfoot, greeting guests together'],
+  ['mehendi-marigold-mint', 'Marigold & Mint Mehendi Morning', 'Mehendi', 'vibrant', ['Mustard', 'Mint'], 'marigold-strung garden brunch with henna artists working nearby'],
+  ['haldi-blush-ivory', 'Blush & Ivory Haldi Brunch', 'Haldi', 'pastel', ['Blush Pink', 'Ivory'], 'pastel haldi brunch with flower strings, mid-laugh as petals fly'],
+  ['sangeet-wine-emerald', 'Wine & Emerald Sangeet Floor', 'Sangeet', 'bold', ['Wine', 'Emerald'], 'backstage high-five after their sangeet performance, stage lights behind'],
+  ['sangeet-fuchsia-charcoal', 'Fuchsia & Charcoal Sangeet Night', 'Sangeet', 'modern', ['Fuchsia', 'Charcoal'], 'dance floor under spotlights, caught mid-step'],
+  ['wedding-ivory-jade', 'Ivory & Jade Wedding Morning', 'Wedding', 'serene', ['Ivory', 'Jade'], 'morning wedding rituals under jasmine strings, soft and grounded'],
+  ['guest-fuchsia-ivory', 'Fuchsia & Ivory Guest Statement', 'Wedding Guest', 'bold', ['Fuchsia', 'Ivory'], 'entrance of a wedding venue, her dupatta a streak of colour'],
+  ['reception-black-gold', 'Reception Red Carpet Black & Gold', 'Reception', 'luxe', ['Black', 'Antique Gold'], 'step-and-repeat moment at a reception entrance, flash-friendly polish'],
+  ['engagement-emerald-champagne', 'Emerald & Champagne Engagement Evening', 'Engagement', 'elegant', ['Emerald', 'Champagne'], 'close gathering at an engagement party, ring hand softly posed'],
+  ['oldmoney-ivory-champagne', 'Old-Money Ivory & Champagne Family Lunch', 'Family Function', 'quiet-luxury', ['Ivory', 'Champagne'], 'restrained family lunch with antique furniture and heirloom silver'],
+  ['heritage-sage-stone', 'Sage & Stone Heritage Lunch', 'Family Function', 'understated', ['Sage', 'Stone Grey'], 'sunlit verandah of a family home, unhurried and elegant'],
+  ['minimal-white-stone', 'Contemporary Minimal White & Stone', 'Date Night', 'minimal', ['White', 'Stone Grey'], 'gallery-café date in clean daylight, minimal silhouettes'],
+  ['brunch-ivory-sage', 'Ivory & Sage Festive Brunch', 'Festive Party', 'fresh', ['Ivory', 'Sage'], 'sunday festive brunch on a plant-filled terrace, teacups in hand'],
+  ['jewel-teal-wine', 'Jewel-Tone Teal & Wine Evening', 'Festive Party', 'jewel', ['Peacock Teal', 'Wine'], 'evening celebration on a lit terrace, jewel tones against the night'],
+  ['nightout-emerald-wine', 'Emerald & Wine Rooftop Night', 'Night Out', 'jewel', ['Emerald', 'Wine'], 'rooftop party with the city skyline glowing behind them'],
+  ['heritage-terra-green', 'Terracotta & Deep Green Marwar Courtyard', 'Wedding Guest', 'heritage', ['Terracotta', 'Deep Green'], 'sandstone jharokha courtyard in the evening, heritage proportions'],
+  ['date-navy-ivory', 'Indigo & Ivory Old-City Walk', 'Date Night', 'heritage', ['Navy', 'Ivory'], 'evening walk through old-city lanes, heritage facades behind'],
+  ['college-navy-cream', 'Navy & Cream College Traditional Day', 'College Fest', 'youthful', ['Navy', 'Cream'], 'campus traditional-day celebrations, fest banner and friends around'],
+  ['college-blue-pink', 'Indigo & Pink Fest Finale', 'College Fest', 'bold', ['Royal Blue', 'Hot Pink'], 'fest finale night, confetti in the air, stage lights behind'],
+  ['dest-sunset-peach', 'Sunset Beach Sangeet', 'Destination Wedding', 'destination', ['Peach', 'Sand'], 'beach sangeet at sunset beside a driftwood mandap, waves behind'],
+  ['dest-teal-black', 'Lake-Palace Night Reception', 'Destination Wedding', 'royal', ['Peacock Teal', 'Onyx Black'], 'lake-palace reception terrace at night, water reflections glowing'],
+  ['evening-champagne-black', 'Champagne Sparkler Evening', 'Festive Party', 'celebration', ['Champagne', 'Onyx Black'], 'sparkler moment at an evening celebration, faces lit by the glow'],
+  ['brunch-marigold-teal', 'Marigold & Teal Daytime Festive Brunch', 'Festive Party', 'vibrant', ['Marigold', 'Peacock Teal'], 'daytime festive brunch with marigold runners and lazy sunlight'],
+  ['winter-olive-cream', 'Olive & Cream Winter Evening', 'Winter Festive', 'warm', ['Olive', 'Cream'], 'candle-lit winter terrace, wrapped in shawls, close together'],
+  ['indowestern-black-blush', 'Black & Blush Indo-Western Night', 'Night Out', 'modern', ['Onyx Black', 'Blush Pink'], 'city night out at a neon-lit lounge entrance, modern and sharp'],
 ]
+const COUPLE_APPAREL = ['sarees', 'kurta-sets', 'co-ord-sets', 'lehenga', 'garba', 'jackets', 'indowestern', 'formals']
+const coupleUse = new Map()
+const bumpUse = (p) => coupleUse.set(p.id, (coupleUse.get(p.id) || 0) + 1)
+const byLeastUsed = (a, b) => (coupleUse.get(a.id) || 0) - (coupleUse.get(b.id) || 0) || a.id.localeCompare(b.id)
+const pickPiece = (tiers) => { for (const t of tiers) if (t.length) return [...t].sort(byLeastUsed)[0]; return undefined }
+const coupleHerPool = products.filter((p) => p.gender === 'women' && COUPLE_APPAREL.includes(p.category))
+const coupleHisPool = products.filter((p) => p.gender === 'men' && COUPLE_APPAREL.includes(p.category))
+const herAccPools = {
+  jewellery: products.filter((p) => p.gender === 'women' && p.category === 'jewellery'),
+  footwear: products.filter((p) => p.gender === 'women' && p.category === 'footwear'),
+  bags: products.filter((p) => p.gender === 'women' && p.category === 'bags'),
+}
+const hisAccPools = {
+  footwear: products.filter((p) => p.gender === 'men' && p.category === 'footwear'),
+  watches: products.filter((p) => p.gender === 'men' && p.category === 'watches'),
+  accessories: products.filter((p) => p.gender === 'men' && p.category === 'accessories'),
+}
 const coupleLooks = []
-for (const [cid, title, occLabel, tag, cols] of COUPLES) {
-  const find = (g, wantCat) => products.find(p => p.gender === g && cols.some(c => p.colour === c) && (wantCat ? p.category === wantCat : APPAREL(p)))
-  const her = find('women') || products.find(p => p.gender === 'women' && APPAREL(p) && (p.occasions.includes(occLabel) || true))
-  const his = find('men') || products.find(p => p.gender === 'men' && APPAREL(p))
-  if (!her || !his) continue
-  const hisAcc = products.find(p => p.gender === 'men' && /men-footwear|watches/.test(p.category))
-  const herAcc = products.find(p => p.gender === 'women' && /women-footwear|earrings|clutches/.test(p.category))
-  const svg = renderCouplePlate({ her, his, title })
-  writeFileSync(join(OUT_COUPLE, `${cid}.svg`), svg)
+const couplePhotoBrief = []
+for (const [cid, title, occ, mood, cols, scene] of COUPLES) {
+  const [herCol, hisCol] = cols
+  const occMatch = (p) => p.occasions.includes(occ)
+  const her = pickPiece([
+    coupleHerPool.filter((p) => p.colour === herCol && occMatch(p)),
+    coupleHerPool.filter((p) => p.colour === herCol),
+    coupleHerPool.filter((p) => p.colour === herCol || p.secondaryColour === herCol),
+    coupleHerPool.filter((p) => familyOfColour(p.colour) === familyOfColour(herCol) && occMatch(p)),
+    coupleHerPool.filter((p) => familyOfColour(p.colour) === familyOfColour(herCol)),
+    coupleHerPool.filter(occMatch),
+    coupleHerPool,
+  ]) || coupleHerPool[0]
+  const his = pickPiece([
+    coupleHisPool.filter((p) => p.colour === hisCol && occMatch(p)),
+    coupleHisPool.filter((p) => p.colour === hisCol),
+    coupleHisPool.filter((p) => p.colour === hisCol || p.secondaryColour === hisCol),
+    coupleHisPool.filter((p) => familyOfColour(p.colour) === familyOfColour(hisCol) && occMatch(p)),
+    coupleHisPool.filter((p) => familyOfColour(p.colour) === familyOfColour(hisCol)),
+    coupleHisPool.filter(occMatch),
+    coupleHisPool,
+  ]) || coupleHisPool[0]
+  // her accessories: jewellery first, then footwear or bag — colour/occasion aware
+  const accTiers = (pool, wantOcc) => [
+    pool.filter((p) => (familyOfColour(p.colour) === familyOfColour(herCol) || familyOfColour(p.colour) === 'gold') && wantOcc(p)),
+    pool.filter((p) => familyOfColour(p.colour) === familyOfColour(herCol) || familyOfColour(p.colour) === 'gold'),
+    pool.filter(wantOcc),
+    pool,
+  ]
+  const herJewel = pickPiece(accTiers(herAccPools.jewellery, (p) => occMatch(p) || p.occasions.includes('Festive Party')))
+  const herShoe = pickPiece(accTiers(herAccPools.footwear, occMatch))
+  const herBag = pickPiece(accTiers(herAccPools.bags, occMatch))
+  const hisAcc = pickPiece([
+    hisAccPools.footwear.concat(hisAccPools.watches).filter((p) => occMatch(p)),
+    hisAccPools.watches,
+    hisAccPools.footwear,
+    hisAccPools.accessories,
+  ])
+  const herAccs = [herJewel, cid.length % 2 === 0 ? herShoe : herBag || herShoe].filter(Boolean)
+  const herIds = [her.id, ...herAccs.map((p) => p.id)]
+  const hisIds = [his.id, ...(hisAcc ? [hisAcc.id] : [])]
+  for (const p of [her, his, herJewel, herShoe, herBag, hisAcc].filter(Boolean)) bumpUse(p)
+  const items = [...herIds, ...hisIds].map((id) => products.find((p) => p.id === id)).filter(Boolean)
+  const price = items.reduce((s, p) => s + p.price, 0)
+  const photo = `/images/couples/${cid}.jpg`
+  const hasPhoto = photoOnDisk(photo)
+  const fab = (p) => (p.fabric && p.fabric !== 'None' && !p.subCategory.toLowerCase().startsWith(p.fabric.toLowerCase()) ? `${p.fabric.toLowerCase()} ` : '')
+  if (!hasPhoto) {
+    writeFileSync(join(OUT_COUPLE, `${cid}.svg`), renderCouplePlate({ her, his, title }))
+    const garbaCue = /Garba|Navratri/.test(occ) ? ', dance-inspired movement' : ''
+    couplePhotoBrief.push({
+      cid, file: photo, title, occasion: occ, herColour: herCol, hisColour: hisCol,
+      scene, her: her.title, his: his.title,
+      prompt: `Premium Indian couple fashion editorial photograph, ${scene}, she wearing ${anArticle(her.colour.toLowerCase() + ' ' + fab(her) + her.subCategory.toLowerCase())}, he wearing ${anArticle(his.colour.toLowerCase() + ' ' + fab(his) + his.subCategory.toLowerCase())}, ${her.colour} and ${his.colour} complementary colour story${garbaCue}, both people fully visible head to toe with complete outfits and footwear, realistic textile texture, festive Indian venue atmosphere, warm cinematic lighting, candid youthful chemistry, coordinated but not identical outfits, vertical 3:4 portrait, no text, no logos, no watermark, no stiff poses`,
+    })
+  }
   coupleLooks.push({
-    id: `couple-${cid}`, title, mood: tag, occasions: [occLabel],
-    herProductIds: [her.id, herAcc?.id].filter(Boolean), hisProductIds: [his.id, hisAcc?.id].filter(Boolean),
-    price: [her, his, herAcc, hisAcc].filter(Boolean).reduce((s, p) => s + p.price, 0),
-    description: `A matched-but-not-matchy festive pair for the ${occLabel.toLowerCase()} calendar. She wears ${her.title.toLowerCase()}; he wears ${his.title.toLowerCase()} with ${hisAcc ? hisAcc.title.toLowerCase() : 'clean kolhapuris'}. Harmonised in ${cols.join(' and ')} so the photos stay timeless.`,
-    imageUrl: `/images/couple-plates/${cid}.svg`, coupleId: cid,
+    id: `couple-${cid}`, title, mood, occasions: [occ],
+    herProductIds: herIds, hisProductIds: hisIds,
+    price,
+    description: `A ${mood.replace(/-/g, ' ')} ${occ.toLowerCase()} story — ${scene}. She wears the ${her.title.toLowerCase()}, finished with ${herJewel ? herJewel.title.toLowerCase() : 'quiet jewellery'}; he wears the ${his.title.toLowerCase()} with ${hisAcc ? hisAcc.title.toLowerCase() : 'clean festive footwear'}. A ${her.colour} × ${his.colour} colour story coordinated through palette and texture — never matched.`,
+    imageUrl: hasPhoto ? photo : `/images/couple-plates/${cid}.svg`, coupleId: cid,
   })
 }
+writeFileSync(join(PHOTOS_SCRIPT_DIR, 'couple-brief.json'), JSON.stringify(couplePhotoBrief, null, 1))
 // couple-set products (shop the pair)
 coupleLooks.slice(0, 16).forEach((c, idx) => {
   const [herId, hisId] = [c.herProductIds[0], c.hisProductIds[0]]
@@ -625,12 +920,12 @@ coupleLooks.slice(0, 16).forEach((c, idx) => {
     colour: her.colour, secondaryColour: his.colour, fabric: her.fabric,
     embroidery: her.embroidery, pattern: her.pattern, silhouette: 'Couple Set',
     occasions: c.occasions, styleTags: ['Festive', 'Occasion', ...her.styleTags.slice(0, 2)].slice(0, 4),
-    description: `Shop the pair: ${her.title} for her and ${his.title} for him, chosen to sit in the same ${[her.colour, his.colour].join('-and-')} frame. The two plates below are the exact styling the look was built around.`,
+    description: `Shop the pair: ${her.title} for her and ${his.title} for him, chosen to sit in the same ${[her.colour, his.colour].join('-and-')} frame. Each half is styled exactly as photographed in the edit above.`,
     imageUrl: c.imageUrl, gallery: [her.imageUrl, his.imageUrl], sizes: ['Her M', 'His L'],
     inHouseTryOn: false, affiliateUrl: undefined, merchantUrl: her.merchantUrl, merchantLabel: 'VIRAAS Curated',
     status: 'CHECK', lastChecked: TODAY,
     notes: 'Bundle reference only — VIRAAS never holds stock; each half ships from its own retailer. Verify both product pages before publishing.',
-    imagePrompt: `luxury Indian editorial couple photography: faceless mannequin pair, her in ${esc(her.title)}, him in ${esc(his.title)}, harmonised festive palette of ${her.colour} and ${his.colour}, warm ivory studio, subtle marigold styling, no visible faces, no text, no logos, no watermark`,
+    imagePrompt: `luxury Indian editorial couple photography: young couple, her in ${esc(her.title)}, him in ${esc(his.title)}, harmonised festive palette of ${her.colour} and ${his.colour}, warm cinematic light, realistic textile texture, no text, no logos, no watermark`,
     herProductId: herId, hisProductId: hisId,
   })
 })
@@ -657,10 +952,52 @@ if (violations.length) {
   process.exit(1)
 }
 
-// ── write outputs ─────────────────────────────────────────────────────────────
+// ── write outputs ─────────────────────────────────────────────────────�─────────────
 writeFileSync(join(OUT_DATA, 'products.json'), JSON.stringify(products.map(({ _plate, ...rest }) => rest), null, 1))
 writeFileSync(join(OUT_DATA, 'looks.json'), JSON.stringify(looks, null, 1))
 writeFileSync(join(OUT_DATA, 'couples.json'), JSON.stringify(coupleLooks, null, 1))
+
+// ── central affiliate link file — THE single place affiliate URLs are edited ──
+// src/data/affiliate-links.ts maps every product id to its affiliate URL.
+// Values start empty by design: the owner pastes real EarnKaro links manually.
+// Regenerating the catalog preserves every non-empty value ever pasted here.
+const AFF_PATH = join(ROOT, 'src/data/affiliate-links.ts')
+const prevAff = existsSync(AFF_PATH) ? readFileSync(AFF_PATH, 'utf8') : ''
+const prevLinks = new Map()
+for (const m of prevAff.matchAll(/"([^"]+)":\s*"([^"]*)"/g)) prevLinks.set(m[1], m[2])
+const affHeader = `// ─────────────────────────────────────────────────────────────────────────────
+// VIRAAS — CENTRAL AFFILIATE LINK FILE
+// ─────────────────────────────────────────────────────────────────────────────
+// THIS IS THE ONLY FILE YOU EDIT TO WIRE AFFILIATE LINKS.
+//
+// How to use:
+//   1. Generate your EarnKaro link for the product on the retailer's site
+//      (Myntra / AJIO / Flipkart / Shopsy / Meesho / Nykaa — never Amazon).
+//   2. Paste the FULL https link as the value for that product id below.
+//   3. Save. The product card, product page, look page and try-on modal all
+//      pick it up automatically — no other file ever needs to change.
+//
+// Rules (enforced by scripts/check-catalog.mjs):
+//   • Values stay "" (empty) until a real link is pasted — never invented.
+//   • Links must be full https:// URLs.
+//   • Amazon links are banned everywhere in VIRAAS.
+//   • VIRAAS never generates or logs into EarnKaro; links are 100% manual.
+//   • When a link is empty the UI shows "Affiliate link not configured" and
+//     the Shop button safely falls back to the retailer's search page.
+// ─────────────────────────────────────────────────────────────────────────────
+
+export const AFFILIATE_LINKS: Record<string, string> = {
+`
+const affLines = products.map((p) => `  ${JSON.stringify(p.id)}: ${JSON.stringify(prevLinks.get(p.id) || '')},`)
+const affFooter = `
+}
+
+/** Safely resolve the affiliate URL for a product id — "" when not configured. */
+export function getAffiliateUrl(productId: string): string {
+  return AFFILIATE_LINKS[productId] || ''
+}
+`
+writeFileSync(AFF_PATH, affHeader + affLines.join('\n') + '\n' + affFooter)
 
 // sitemap + robots — full route coverage, derived from the generated data
 const readSrc = (f) => { try { return readFileSync(join(ROOT, f), 'utf8') } catch { return '' } }
@@ -685,11 +1022,11 @@ const cats = {}
 for (const p of products) cats[p.category] = (cats[p.category] || 0) + 1
 const dupTitles = products.length - usedTitles.size
 const occCoverage = {}
-for (const o of ['Wedding', 'Sangeet', 'Reception', 'Mehendi', 'Festive Party', 'Diwali Party', 'Navratri', 'College Fest', 'Work-to-Dinner', 'Night Out', 'Destination Wedding', 'Daywear', 'Puja & Temple', 'Engagement', 'Wedding Guest', 'Family Function', 'Date Night', 'Winter Festive']) occCoverage[o] = products.filter(p => p.occasions.includes(o)).length
+for (const o of ['Wedding', 'Sangeet', 'Reception', 'Mehendi', 'Haldi', 'Festive Party', 'Diwali Party', 'Navratri', 'Garba & Dandiya', 'College Fest', 'Work-to-Dinner', 'Night Out', 'Destination Wedding', 'Daywear', 'Puja & Temple', 'Engagement', 'Wedding Guest', 'Family Function', 'Date Night', 'Winter Festive']) occCoverage[o] = products.filter(p => p.occasions.includes(o)).length
 console.log(`VIRAAS catalog report — ${TODAY}`)
 console.log(`products: ${products.length} (women apparel ${count(p => p.gender === 'women' && APPAREL(p))}, men apparel ${count(p => p.gender === 'men' && APPAREL(p))}, w-acc ${count(p => p.gender === 'women' && !APPAREL(p) && p.category !== 'couple-edit')}, m-acc ${count(p => p.gender === 'men' && !APPAREL(p))}, beauty ${count(p => p.category === 'beauty')}, couple ${count(p => p.category === 'couple-edit')})`)
 console.log(`looks: ${looks.length} · couple looks: ${coupleLooks.length} · duplicate titles: ${dupTitles}`)
-console.log(`svg plates: ${products.length * 3} + ${coupleLooks.length} couple plates`)
+console.log(`product photos: ${photosApplied}/${products.filter((p) => p.category !== 'couple-edit').length} applied · ${pendingProductPhotos.length} pending · ${platesWritten} fallback SVG views · ${couplePhotoBrief.length} couple photos pending`)
 console.log('categories:', JSON.stringify(cats))
 console.log('occasion coverage:', JSON.stringify(occCoverage))
 const warns = []
@@ -698,6 +1035,6 @@ const colourCounts = {}
 for (const p of products) colourCounts[p.colour] = (colourCounts[p.colour] || 0) + 1
 for (const [c, n] of Object.entries(colourCounts)) if (n < 3) warns.push(`colour "${c}" only ${n}`)
 if (looks.length < 100) warns.push(`looks: ${looks.length} (<100)`)
-if (coupleLooks.length < 15) warns.push(`couple looks: ${coupleLooks.length} (<15)`)
+if (coupleLooks.length < 60) warns.push(`couple looks: ${coupleLooks.length} (<60)`)
 if (dupTitles) warns.push(`${dupTitles} duplicate titles`)
 console.log(warns.length ? 'WARNINGS:\n- ' + warns.join('\n- ') : 'coverage: all checks passed')

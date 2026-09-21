@@ -4209,7 +4209,7 @@
    "College Fest",
    "Festive Party",
    "Sangeet",
-   "Festive Party"
+   "Garba & Dandiya"
   ],
   "styleTags": [
    "Traditional",
@@ -4261,7 +4261,7 @@
    "College Fest",
    "Festive Party",
    "Sangeet",
-   "Festive Party"
+   "Garba & Dandiya"
   ],
   "styleTags": [
    "Traditional",
@@ -4312,7 +4312,7 @@
    "College Fest",
    "Festive Party",
    "Sangeet",
-   "Festive Party"
+   "Garba & Dandiya"
   ],
   "styleTags": [
    "Traditional",
@@ -4981,7 +4981,7 @@
   "ageGroup": [
    20,
    21,
-   30
+   35
   ],
   "colour": "Mustard",
   "secondaryColour": "Peach",
@@ -4991,6 +4991,7 @@
   "occasions": [
    "Sangeet",
    "Mehendi",
+   "Haldi",
    "Reception",
    "Family Function"
   ],
@@ -5032,7 +5033,7 @@
   "originalPrice": null,
   "brand": "Zayka",
   "ageGroup": [
-   18,
+   20,
    24,
    25
   ],
@@ -5044,6 +5045,7 @@
   "occasions": [
    "Sangeet",
    "Mehendi",
+   "Haldi",
    "Reception",
    "Family Function"
   ],
@@ -5087,7 +5089,7 @@
   "ageGroup": [
    18,
    24,
-   30
+   35
   ],
   "colour": "Mustard",
   "secondaryColour": "Peach",
@@ -5097,6 +5099,7 @@
   "occasions": [
    "Sangeet",
    "Mehendi",
+   "Haldi",
    "Reception",
    "Family Function"
   ],
@@ -5150,6 +5153,7 @@
   "occasions": [
    "Sangeet",
    "Mehendi",
+   "Haldi",
    "Reception",
    "Family Function"
   ],
@@ -6940,7 +6944,7 @@
   "embroidery": "Chikankari",
   "silhouette": "Dhoti Skirt",
   "occasions": [
-   "Festive Party",
+   "Garba & Dandiya",
    "Navratri",
    "Festive Party"
   ],
@@ -6990,7 +6994,7 @@
   "embroidery": "Mirror Work",
   "silhouette": "Dhoti Skirt",
   "occasions": [
-   "Festive Party",
+   "Garba & Dandiya",
    "Navratri",
    "Festive Party"
   ],
@@ -7041,7 +7045,7 @@
   "pattern": "Bagru Print",
   "silhouette": "Dhoti Skirt",
   "occasions": [
-   "Festive Party",
+   "Garba & Dandiya",
    "Navratri",
    "Festive Party"
   ],
@@ -11043,7 +11047,7 @@
   "silhouette": "Lehenga Print",
   "occasions": [
    "Navratri",
-   "Festive Party",
+   "Garba & Dandiya",
    "College Fest",
    "Mehendi"
   ],
@@ -11095,7 +11099,7 @@
   "silhouette": "Lehenga Print",
   "occasions": [
    "Navratri",
-   "Festive Party",
+   "Garba & Dandiya",
    "College Fest",
    "Mehendi"
   ],
@@ -11147,7 +11151,7 @@
   "silhouette": "Lehenga Print",
   "occasions": [
    "Navratri",
-   "Festive Party",
+   "Garba & Dandiya",
    "College Fest",
    "Mehendi"
   ],
@@ -12749,7 +12753,7 @@
   "embroidery": "Tone-on-Tone",
   "silhouette": "Dhoti Skirt",
   "occasions": [
-   "Festive Party",
+   "Garba & Dandiya",
    "Navratri",
    "College Fest",
    "Night Out"
@@ -12801,7 +12805,7 @@
   "embroidery": "Pearl Detailing",
   "silhouette": "Dhoti Skirt",
   "occasions": [
-   "Festive Party",
+   "Garba & Dandiya",
    "Navratri",
    "College Fest",
    "Night Out"
@@ -12854,7 +12858,7 @@
   "embroidery": "Sequit Work",
   "silhouette": "Dhoti Skirt",
   "occasions": [
-   "Festive Party",
+   "Garba & Dandiya",
    "Navratri",
    "College Fest",
    "Night Out"
@@ -14418,8 +14422,8 @@
   "brand": "Brewline",
   "ageGroup": [
    17,
-   22,
-   22
+   24,
+   24
   ],
   "colour": "Sand",
   "secondaryColour": "Stone Grey",
@@ -14428,6 +14432,7 @@
   "silhouette": "Men Kurta",
   "occasions": [
    "Diwali Party",
+   "Haldi",
    "Daywear",
    "Puja & Temple",
    "College Fest",
@@ -14481,6 +14486,7 @@
   "silhouette": "Men Kurta",
   "occasions": [
    "Diwali Party",
+   "Haldi",
    "Daywear",
    "Puja & Temple",
    "College Fest",
@@ -14534,6 +14540,7 @@
   "silhouette": "Men Kurta",
   "occasions": [
    "Diwali Party",
+   "Haldi",
    "Daywear",
    "Puja & Temple",
    "College Fest",
@@ -14585,6 +14592,7 @@
   "silhouette": "Men Kurta",
   "occasions": [
    "Diwali Party",
+   "Haldi",
    "Daywear",
    "Puja & Temple",
    "College Fest",
@@ -14628,7 +14636,7 @@
   "ageGroup": [
    17,
    21,
-   25
+   30
   ],
   "colour": "Marigold",
   "secondaryColour": "Rose",
@@ -14637,6 +14645,7 @@
   "silhouette": "Men Kurta",
   "occasions": [
    "Diwali Party",
+   "Haldi",
    "Daywear",
    "Puja & Temple",
    "College Fest",
@@ -14690,6 +14699,7 @@
   "silhouette": "Men Kurta",
   "occasions": [
    "Diwali Party",
+   "Haldi",
    "Daywear",
    "Puja & Temple",
    "College Fest",
@@ -14742,6 +14752,7 @@
   "silhouette": "Men Kurta",
   "occasions": [
    "Diwali Party",
+   "Haldi",
    "Daywear",
    "Puja & Temple",
    "College Fest",
@@ -14785,7 +14796,7 @@
   "ageGroup": [
    17,
    22,
-   24
+   25
   ],
   "colour": "Peach",
   "secondaryColour": "Terracotta",
@@ -14794,6 +14805,7 @@
   "silhouette": "Men Kurta",
   "occasions": [
    "Diwali Party",
+   "Haldi",
    "Daywear",
    "Puja & Temple",
    "College Fest",
@@ -16361,6 +16373,7 @@
    "Reception",
    "Sangeet",
    "Diwali Party",
+   "Festive Party",
    "Family Function",
    "Winter Festive"
   ],
@@ -16415,6 +16428,7 @@
    "Reception",
    "Sangeet",
    "Diwali Party",
+   "Festive Party",
    "Family Function",
    "Winter Festive"
   ],
@@ -16457,7 +16471,7 @@
   "brand": "Cottaram",
   "ageGroup": [
    20,
-   21,
+   22,
    30
   ],
   "colour": "Chocolate",
@@ -16469,6 +16483,7 @@
    "Reception",
    "Sangeet",
    "Diwali Party",
+   "Festive Party",
    "Family Function",
    "Winter Festive"
   ],
@@ -16523,6 +16538,7 @@
    "Reception",
    "Sangeet",
    "Diwali Party",
+   "Festive Party",
    "Family Function",
    "Winter Festive"
   ],
@@ -16578,6 +16594,7 @@
    "Reception",
    "Sangeet",
    "Diwali Party",
+   "Festive Party",
    "Family Function",
    "Winter Festive"
   ],
@@ -17271,7 +17288,7 @@
  },
  {
   "id": "m-jacket-brocade-05",
-  "title": "Black Zari-detailed Festive Nehru Jacket",
+  "title": "Bronze Craft-clean Nehru Jacket (Brocade)",
   "gender": "men",
   "category": "jackets",
   "subCategory": "Nehru Jacket (Brocade)",
@@ -17283,25 +17300,23 @@
    24,
    35
   ],
-  "colour": "Black",
-  "secondaryColour": "Antique Gold",
+  "colour": "Bronze",
+  "secondaryColour": "Silver",
   "fabric": "Raw Silk",
   "silhouette": "Men Jacket",
   "occasions": [
-   "Diwali Party",
-   "Navratri",
-   "Garba",
-   "Sangeet",
+   "Wedding",
    "Reception",
-   "Wedding"
+   "Sangeet",
+   "Diwali Party"
   ],
   "styleTags": [
-   "Festive",
    "Contemporary",
-   "Modern Luxury",
-   "Pinterest Inspired"
+   "Festive",
+   "Occasion",
+   "Modern Luxury"
   ],
-  "description": "A sharp black structured jacket in fine silk brocade with restrained antique gold zari accents — the piece that turns any plain kurta into an evening statement look. Modern silhouette styled for festive and Garba nights.",
+  "description": "A structured Raw Silk jacket in bronze with a clean line treatment along the front placket and cuffs — the piece that turns any plain kurta set into an occasion look. Fully canvassed chest, functioning sleeve vents, interior pocket; cut closer to the body than a blazer so it stays Indian with jodhpurs or jeans.",
   "imageUrl": "/images/products/m-jacket-brocade-05.svg",
   "gallery": [
    "/images/products/m-jacket-brocade-05-b.svg",
@@ -17320,7 +17335,7 @@
   "status": "CHECK",
   "lastChecked": "2026-09-20",
   "notes": "Generated from VIRAAS editorial tables on 2026-09-20. Verify live price, seller and image on AJIO before publishing; wire EarnKaro affiliate link into affiliateUrl once generated.",
-  "imagePrompt": "luxury contemporary Indian menswear editorial photography: Black Zari-detailed Festive Nehru Jacket, in Black with Antique Gold accents, on a faceless studio mannequin, soft warm light, modern festive styling, no text, no logos, no watermark"
+  "imagePrompt": "luxury Indian editorial product photography for a men occasion outfit: Bronze Craft-clean Nehru Jacket (Brocade), Raw Silk, in Bronze with Silver accents, on a faceless studio mannequin, soft warm window light, ivory or muted emerald backdrop, subtle festive styling props, no visible faces, no text, no logos, no watermark, high-end magazine quality"
  },
  {
   "id": "m-jacket-velvet-01",
@@ -20449,7 +20464,7 @@
   "embroidery": "Mirror Work",
   "silhouette": "Men Kurta Garba",
   "occasions": [
-   "Festive Party",
+   "Garba & Dandiya",
    "Navratri",
    "College Fest"
   ],
@@ -20501,7 +20516,7 @@
   "pattern": "Bandhani",
   "silhouette": "Men Kurta Garba",
   "occasions": [
-   "Festive Party",
+   "Garba & Dandiya",
    "Navratri",
    "College Fest"
   ],
@@ -20553,7 +20568,7 @@
   "pattern": "Block Print",
   "silhouette": "Men Kurta Garba",
   "occasions": [
-   "Festive Party",
+   "Garba & Dandiya",
    "Navratri",
    "College Fest"
   ],
@@ -20603,7 +20618,7 @@
   "embroidery": "Resham Threadwork",
   "silhouette": "Men Kurta Garba",
   "occasions": [
-   "Festive Party",
+   "Garba & Dandiya",
    "Navratri",
    "College Fest"
   ],
@@ -20653,7 +20668,7 @@
   "embroidery": "Dried Flower Work",
   "silhouette": "Men Kurta Garba",
   "occasions": [
-   "Festive Party",
+   "Garba & Dandiya",
    "Navratri",
    "College Fest"
   ],
@@ -20703,7 +20718,7 @@
   "pattern": "Bagru Print",
   "silhouette": "Men Kurta Garba",
   "occasions": [
-   "Festive Party",
+   "Garba & Dandiya",
    "Navratri",
    "College Fest"
   ],
@@ -20753,7 +20768,7 @@
   "embroidery": "Mirror Work",
   "silhouette": "Men Kurta Garba",
   "occasions": [
-   "Festive Party",
+   "Garba & Dandiya",
    "Navratri",
    "College Fest"
   ],
@@ -20804,7 +20819,7 @@
   "pattern": "Bandhani",
   "silhouette": "Men Kurta Garba",
   "occasions": [
-   "Festive Party",
+   "Garba & Dandiya",
    "Navratri",
    "College Fest"
   ],
@@ -20856,7 +20871,7 @@
   "embroidery": "Mirror Work",
   "silhouette": "Men Kurta Garba",
   "occasions": [
-   "Festive Party",
+   "Garba & Dandiya",
    "Navratri",
    "College Fest"
   ],
@@ -20907,7 +20922,7 @@
   "pattern": "Block Print",
   "silhouette": "Men Kurta Garba",
   "occasions": [
-   "Festive Party",
+   "Garba & Dandiya",
    "Navratri",
    "College Fest"
   ],
@@ -20957,7 +20972,7 @@
   "pattern": "Bandhani",
   "silhouette": "Men Kurta Garba",
   "occasions": [
-   "Festive Party",
+   "Garba & Dandiya",
    "Navratri",
    "College Fest"
   ],
@@ -21008,7 +21023,7 @@
   "embroidery": "Mirror Work",
   "silhouette": "Men Kurta Garba",
   "occasions": [
-   "Festive Party",
+   "Garba & Dandiya",
    "Navratri"
   ],
   "styleTags": [
@@ -21058,7 +21073,7 @@
   "weave": "Kamdani",
   "silhouette": "Men Kurta Garba",
   "occasions": [
-   "Festive Party",
+   "Garba & Dandiya",
    "Navratri"
   ],
   "styleTags": [
@@ -21106,7 +21121,7 @@
   "embroidery": "Sequit Work",
   "silhouette": "Men Kurta Garba",
   "occasions": [
-   "Festive Party",
+   "Garba & Dandiya",
    "Navratri"
   ],
   "styleTags": [
@@ -21154,7 +21169,7 @@
   "embroidery": "Mirror Work",
   "silhouette": "Men Kurta Garba",
   "occasions": [
-   "Festive Party",
+   "Garba & Dandiya",
    "Navratri"
   ],
   "styleTags": [
@@ -22762,7 +22777,7 @@
   "silhouette": "Necklace",
   "occasions": [
    "Navratri",
-   "Festive Party",
+   "Garba & Dandiya",
    "Sangeet"
   ],
   "styleTags": [
@@ -22805,7 +22820,7 @@
   "silhouette": "Necklace",
   "occasions": [
    "Navratri",
-   "Festive Party",
+   "Garba & Dandiya",
    "Sangeet"
   ],
   "styleTags": [
@@ -25709,7 +25724,7 @@
   "occasions": [
    "Diwali Party",
    "Navratri",
-   "Festive Party",
+   "Garba & Dandiya",
    "College Fest"
   ],
   "styleTags": [
@@ -25759,7 +25774,7 @@
   "occasions": [
    "Diwali Party",
    "Navratri",
-   "Festive Party",
+   "Garba & Dandiya",
    "College Fest"
   ],
   "styleTags": [
@@ -28863,19 +28878,627 @@
   "imagePrompt": "luxury Indian editorial product photography for a women occasion outfit: Champagne Highlighter &amp; Blush Compact, Baked Powder, in Champagne with Antique Gold accents, on a faceless studio mannequin, soft warm window light, ivory or muted emerald backdrop, subtle festive styling props, no visible faces, no text, no logos, no watermark, high-end magazine quality"
  },
  {
+  "id": "m-formal-suit-01",
+  "title": "Charcoal Tone-on-tone Tailored Two-Piece Suit",
+  "gender": "men",
+  "category": "formals",
+  "subCategory": "Tailored Two-Piece Suit",
+  "price": 7999,
+  "originalPrice": null,
+  "brand": "Brewline",
+  "ageGroup": [
+   21,
+   25,
+   30
+  ],
+  "colour": "Charcoal",
+  "secondaryColour": "Onyx Black",
+  "fabric": "Wool Blend",
+  "embroidery": "Tone-on-Tone",
+  "silhouette": "Formal Suit",
+  "occasions": [
+   "Wedding",
+   "Reception",
+   "Wedding Guest",
+   "Night Out"
+  ],
+  "styleTags": [
+   "Everyday",
+   "Occasion",
+   "Modern Luxury"
+  ],
+  "description": "A charcoal Wool Blend reception-weight suit, cut for the wedding functions where ethnic is optional and tailoring is the statement. Half-canvassed front, functioning cuff buttons, and trousers finished with a clean break; the tone-on-tone detail stays at the lapel and pocket edges so it reads formal, never costume. Sized to be tailored in one sitting.",
+  "imageUrl": "/images/products/m-formal-suit-01.svg",
+  "gallery": [
+   "/images/products/m-formal-suit-01-b.svg",
+   "/images/products/m-formal-suit-01-c.svg"
+  ],
+  "sizes": [
+   "S",
+   "M",
+   "L",
+   "XL",
+   "XXL"
+  ],
+  "inHouseTryOn": true,
+  "merchantUrl": "https://www.myntra.com/ethnic-combination-sets-women?search=Charcoal%20tone-on-tone%20Wool%20Blend%20men",
+  "merchantLabel": "Myntra",
+  "status": "CHECK",
+  "lastChecked": "2026-09-20",
+  "notes": "Generated from VIRAAS editorial tables on 2026-09-20. Verify live price, seller and image on Myntra before publishing; wire EarnKaro affiliate link into affiliateUrl once generated.",
+  "imagePrompt": "luxury Indian editorial product photography for a men occasion outfit: Charcoal Tone-on-tone Tailored Two-Piece Suit, Wool Blend, in Charcoal with Onyx Black accents, on a faceless studio mannequin, soft warm window light, ivory or muted emerald backdrop, subtle festive styling props, no visible faces, no text, no logos, no watermark, high-end magazine quality"
+ },
+ {
+  "id": "m-formal-suit-02",
+  "title": "Stone Grey Craft-clean Tailored Two-Piece Suit",
+  "gender": "men",
+  "category": "formals",
+  "subCategory": "Tailored Two-Piece Suit",
+  "price": 5999,
+  "originalPrice": null,
+  "brand": "Pabonik",
+  "ageGroup": [
+   20,
+   25,
+   35
+  ],
+  "colour": "Stone Grey",
+  "secondaryColour": "Oat Melange",
+  "fabric": "Art Silk",
+  "silhouette": "Formal Suit",
+  "occasions": [
+   "Wedding",
+   "Reception",
+   "Wedding Guest",
+   "Night Out"
+  ],
+  "styleTags": [
+   "Everyday",
+   "Occasion",
+   "Modern Luxury"
+  ],
+  "description": "A stone grey Art Silk reception-weight suit, cut for the wedding functions where ethnic is optional and tailoring is the statement. Half-canvassed front, functioning cuff buttons, and trousers finished with a clean break; the clean line detail stays at the lapel and pocket edges so it reads formal, never costume. Sized to be tailored in one sitting.",
+  "imageUrl": "/images/products/m-formal-suit-02.svg",
+  "gallery": [
+   "/images/products/m-formal-suit-02-b.svg",
+   "/images/products/m-formal-suit-02-c.svg"
+  ],
+  "sizes": [
+   "S",
+   "M",
+   "L",
+   "XL",
+   "XXL"
+  ],
+  "inHouseTryOn": true,
+  "merchantUrl": "https://www.nykaa.com/search/?query=Stone%20Grey%20craft-clean%20Art%20Silk%20men",
+  "merchantLabel": "Nykaa",
+  "status": "CHECK",
+  "lastChecked": "2026-09-20",
+  "notes": "Generated from VIRAAS editorial tables on 2026-09-20. Verify live price, seller and image on Nykaa before publishing; wire EarnKaro affiliate link into affiliateUrl once generated.",
+  "imagePrompt": "luxury Indian editorial product photography for a men occasion outfit: Stone Grey Craft-clean Tailored Two-Piece Suit, Art Silk, in Stone Grey with Oat Melange accents, on a faceless studio mannequin, soft warm window light, ivory or muted emerald backdrop, subtle festive styling props, no visible faces, no text, no logos, no watermark, high-end magazine quality"
+ },
+ {
+  "id": "m-formal-suit-03",
+  "title": "Deep Olive Kamdani-fine Weave Tailored Two-Piece Suit",
+  "gender": "men",
+  "category": "formals",
+  "subCategory": "Tailored Two-Piece Suit",
+  "price": 8499,
+  "originalPrice": null,
+  "brand": "Btoo",
+  "ageGroup": [
+   21,
+   22,
+   30
+  ],
+  "colour": "Deep Olive",
+  "secondaryColour": "Charcoal",
+  "fabric": "Cotton Silk",
+  "weave": "Kamdani",
+  "silhouette": "Formal Suit",
+  "occasions": [
+   "Wedding",
+   "Reception",
+   "Wedding Guest",
+   "Night Out"
+  ],
+  "styleTags": [
+   "Everyday",
+   "Occasion",
+   "Modern Luxury"
+  ],
+  "description": "A deep olive Cotton Silk reception-weight suit, cut for the wedding functions where ethnic is optional and tailoring is the statement. Half-canvassed front, functioning cuff buttons, and trousers finished with a clean break; the kamdani-fine weave detail stays at the lapel and pocket edges so it reads formal, never costume. Sized to be tailored in one sitting.",
+  "imageUrl": "/images/products/m-formal-suit-03.svg",
+  "gallery": [
+   "/images/products/m-formal-suit-03-b.svg",
+   "/images/products/m-formal-suit-03-c.svg"
+  ],
+  "sizes": [
+   "S",
+   "M",
+   "L",
+   "XL",
+   "XXL"
+  ],
+  "inHouseTryOn": true,
+  "merchantUrl": "https://www.ajio.com/men-clothing-trending?search=Deep%20Olive%20kamdani-fine%20weave%20Cotton%20Silk%20men",
+  "merchantLabel": "AJIO",
+  "status": "CHECK",
+  "lastChecked": "2026-09-20",
+  "notes": "Generated from VIRAAS editorial tables on 2026-09-20. Verify live price, seller and image on AJIO before publishing; wire EarnKaro affiliate link into affiliateUrl once generated.",
+  "imagePrompt": "luxury Indian editorial product photography for a men occasion outfit: Deep Olive Kamdani-fine Weave Tailored Two-Piece Suit, Cotton Silk, in Deep Olive with Charcoal accents, on a faceless studio mannequin, soft warm window light, ivory or muted emerald backdrop, subtle festive styling props, no visible faces, no text, no logos, no watermark, high-end magazine quality"
+ },
+ {
+  "id": "m-formal-tux-01",
+  "title": "Onyx Black Tone-on-tone Tuxedo Jacket Evening Set",
+  "gender": "men",
+  "category": "formals",
+  "subCategory": "Tuxedo Jacket Evening Set",
+  "price": 6999,
+  "originalPrice": null,
+  "brand": "Ethnic Kraft",
+  "ageGroup": [
+   21,
+   22,
+   35
+  ],
+  "colour": "Onyx Black",
+  "secondaryColour": "Chocolate",
+  "fabric": "Wool Blend",
+  "embroidery": "Tone-on-Tone",
+  "silhouette": "Tuxedo Set",
+  "occasions": [
+   "Reception",
+   "Night Out",
+   "Festive Party",
+   "Wedding"
+  ],
+  "styleTags": [
+   "Everyday",
+   "Occasion",
+   "Modern Luxury"
+  ],
+  "description": "A onyx black Wool Blend reception-weight suit, cut for the wedding functions where ethnic is optional and tailoring is the statement. Half-canvassed front, functioning cuff buttons, and trousers finished with a clean break; the tone-on-tone detail stays at the lapel and pocket edges so it reads formal, never costume. Sized to be tailored in one sitting.",
+  "imageUrl": "/images/products/m-formal-tux-01.svg",
+  "gallery": [
+   "/images/products/m-formal-tux-01-b.svg",
+   "/images/products/m-formal-tux-01-c.svg"
+  ],
+  "sizes": [
+   "S",
+   "M",
+   "L",
+   "XL",
+   "XXL"
+  ],
+  "inHouseTryOn": true,
+  "merchantUrl": "https://www.ajio.com/men-clothing-trending?search=Onyx%20Black%20tone-on-tone%20Wool%20Blend%20men",
+  "merchantLabel": "AJIO",
+  "status": "CHECK",
+  "lastChecked": "2026-09-20",
+  "notes": "Generated from VIRAAS editorial tables on 2026-09-20. Verify live price, seller and image on AJIO before publishing; wire EarnKaro affiliate link into affiliateUrl once generated.",
+  "imagePrompt": "luxury Indian editorial product photography for a men occasion outfit: Onyx Black Tone-on-tone Tuxedo Jacket Evening Set, Wool Blend, in Onyx Black with Chocolate accents, on a faceless studio mannequin, soft warm window light, ivory or muted emerald backdrop, subtle festive styling props, no visible faces, no text, no logos, no watermark, high-end magazine quality"
+ },
+ {
+  "id": "m-formal-tux-02",
+  "title": "Antique Gold Pearl-detailed Tuxedo Jacket Evening Set",
+  "gender": "men",
+  "category": "formals",
+  "subCategory": "Tuxedo Jacket Evening Set",
+  "price": 6999,
+  "originalPrice": null,
+  "brand": "Anomd",
+  "ageGroup": [
+   20,
+   24,
+   35
+  ],
+  "colour": "Antique Gold",
+  "secondaryColour": "Deep Olive",
+  "fabric": "Satin",
+  "embroidery": "Pearl Detailing",
+  "silhouette": "Tuxedo Set",
+  "occasions": [
+   "Reception",
+   "Night Out",
+   "Festive Party",
+   "Wedding"
+  ],
+  "styleTags": [
+   "Everyday",
+   "Occasion",
+   "Modern Luxury",
+   "Statement"
+  ],
+  "description": "A antique gold Satin reception-weight suit, cut for the wedding functions where ethnic is optional and tailoring is the statement. Half-canvassed front, functioning cuff buttons, and trousers finished with a clean break; the pearl-detailed detail stays at the lapel and pocket edges so it reads formal, never costume. Sized to be tailored in one sitting.",
+  "imageUrl": "/images/products/m-formal-tux-02.svg",
+  "gallery": [
+   "/images/products/m-formal-tux-02-b.svg",
+   "/images/products/m-formal-tux-02-c.svg"
+  ],
+  "sizes": [
+   "S",
+   "M",
+   "L",
+   "XL",
+   "XXL"
+  ],
+  "inHouseTryOn": true,
+  "merchantUrl": "https://www.myntra.com/ethnic-combination-sets-women?search=Antique%20Gold%20pearl-detailed%20Satin%20men",
+  "merchantLabel": "Myntra",
+  "status": "CHECK",
+  "lastChecked": "2026-09-20",
+  "notes": "Generated from VIRAAS editorial tables on 2026-09-20. Verify live price, seller and image on Myntra before publishing; wire EarnKaro affiliate link into affiliateUrl once generated.",
+  "imagePrompt": "luxury Indian editorial product photography for a men occasion outfit: Antique Gold Pearl-detailed Tuxedo Jacket Evening Set, Satin, in Antique Gold with Deep Olive accents, on a faceless studio mannequin, soft warm window light, ivory or muted emerald backdrop, subtle festive styling props, no visible faces, no text, no logos, no watermark, high-end magazine quality"
+ },
+ {
+  "id": "m-formal-dinner-01",
+  "title": "Oat Melange Stone-set Ivory Dinner Jacket Set",
+  "gender": "men",
+  "category": "formals",
+  "subCategory": "Ivory Dinner Jacket Set",
+  "price": 5999,
+  "originalPrice": null,
+  "brand": "WRODE",
+  "ageGroup": [
+   18,
+   21,
+   35
+  ],
+  "colour": "Oat Melange",
+  "secondaryColour": "Sand",
+  "fabric": "Satin",
+  "embroidery": "Stone Work",
+  "silhouette": "Dinner Jacket",
+  "occasions": [
+   "Reception",
+   "Engagement",
+   "Night Out"
+  ],
+  "styleTags": [
+   "Contemporary",
+   "Everyday",
+   "Occasion",
+   "Modern Luxury",
+   "Statement"
+  ],
+  "description": "A oat melange Satin reception-weight suit, cut for the wedding functions where ethnic is optional and tailoring is the statement. Half-canvassed front, functioning cuff buttons, and trousers finished with a clean break; the stone-set detail stays at the lapel and pocket edges so it reads formal, never costume. Sized to be tailored in one sitting.",
+  "imageUrl": "/images/products/m-formal-dinner-01.svg",
+  "gallery": [
+   "/images/products/m-formal-dinner-01-b.svg",
+   "/images/products/m-formal-dinner-01-c.svg"
+  ],
+  "sizes": [
+   "S",
+   "M",
+   "L",
+   "XL",
+   "XXL"
+  ],
+  "inHouseTryOn": true,
+  "merchantUrl": "https://www.ajio.com/men-clothing-trending?search=Oat%20Melange%20stone-set%20Satin%20men",
+  "merchantLabel": "AJIO",
+  "status": "CHECK",
+  "lastChecked": "2026-09-20",
+  "notes": "Generated from VIRAAS editorial tables on 2026-09-20. Verify live price, seller and image on AJIO before publishing; wire EarnKaro affiliate link into affiliateUrl once generated.",
+  "imagePrompt": "luxury Indian editorial product photography for a men occasion outfit: Oat Melange Stone-set Ivory Dinner Jacket Set, Satin, in Oat Melange with Sand accents, on a faceless studio mannequin, soft warm window light, ivory or muted emerald backdrop, subtle festive styling props, no visible faces, no text, no logos, no watermark, high-end magazine quality"
+ },
+ {
+  "id": "m-formal-blazer-01",
+  "title": "Wine Tone-on-tone Structured Blazer with Formal Trouser",
+  "gender": "men",
+  "category": "formals",
+  "subCategory": "Structured Blazer with Formal Trouser",
+  "price": 7499,
+  "originalPrice": null,
+  "brand": "Ethnic Kraft",
+  "ageGroup": [
+   18,
+   24,
+   30
+  ],
+  "colour": "Wine",
+  "secondaryColour": "Aubergine",
+  "fabric": "Wool Blend",
+  "embroidery": "Tone-on-Tone",
+  "silhouette": "Blazer Trouser",
+  "occasions": [
+   "Wedding",
+   "Wedding Guest",
+   "Engagement",
+   "Work-to-Dinner"
+  ],
+  "styleTags": [
+   "Contemporary",
+   "Occasion",
+   "Workwear",
+   "Modern Luxury"
+  ],
+  "description": "A wine Wool Blend reception-weight suit, cut for the wedding functions where ethnic is optional and tailoring is the statement. Half-canvassed front, functioning cuff buttons, and trousers finished with a clean break; the tone-on-tone detail stays at the lapel and pocket edges so it reads formal, never costume. Sized to be tailored in one sitting.",
+  "imageUrl": "/images/products/m-formal-blazer-01.svg",
+  "gallery": [
+   "/images/products/m-formal-blazer-01-b.svg",
+   "/images/products/m-formal-blazer-01-c.svg"
+  ],
+  "sizes": [
+   "S",
+   "M",
+   "L",
+   "XL",
+   "XXL"
+  ],
+  "inHouseTryOn": true,
+  "merchantUrl": "https://www.myntra.com/ethnic-combination-sets-women?search=Wine%20tone-on-tone%20Wool%20Blend%20men",
+  "merchantLabel": "Myntra",
+  "status": "CHECK",
+  "lastChecked": "2026-09-20",
+  "notes": "Generated from VIRAAS editorial tables on 2026-09-20. Verify live price, seller and image on Myntra before publishing; wire EarnKaro affiliate link into affiliateUrl once generated.",
+  "imagePrompt": "luxury Indian editorial product photography for a men occasion outfit: Wine Tone-on-tone Structured Blazer with Formal Trouser, Wool Blend, in Wine with Aubergine accents, on a faceless studio mannequin, soft warm window light, ivory or muted emerald backdrop, subtle festive styling props, no visible faces, no text, no logos, no watermark, high-end magazine quality"
+ },
+ {
+  "id": "m-formal-blazer-02",
+  "title": "Stone Grey Craft-clean Structured Blazer with Formal Trouser",
+  "gender": "men",
+  "category": "formals",
+  "subCategory": "Structured Blazer with Formal Trouser",
+  "price": 7499,
+  "originalPrice": null,
+  "brand": "Ethnic Kraft",
+  "ageGroup": [
+   21,
+   22,
+   30
+  ],
+  "colour": "Stone Grey",
+  "secondaryColour": "Sage",
+  "fabric": "Cotton Silk",
+  "silhouette": "Blazer Trouser",
+  "occasions": [
+   "Wedding",
+   "Wedding Guest",
+   "Engagement",
+   "Work-to-Dinner"
+  ],
+  "styleTags": [
+   "Contemporary",
+   "Occasion",
+   "Workwear",
+   "Modern Luxury"
+  ],
+  "description": "A stone grey Cotton Silk reception-weight suit, cut for the wedding functions where ethnic is optional and tailoring is the statement. Half-canvassed front, functioning cuff buttons, and trousers finished with a clean break; the clean line detail stays at the lapel and pocket edges so it reads formal, never costume. Sized to be tailored in one sitting.",
+  "imageUrl": "/images/products/m-formal-blazer-02.svg",
+  "gallery": [
+   "/images/products/m-formal-blazer-02-b.svg",
+   "/images/products/m-formal-blazer-02-c.svg"
+  ],
+  "sizes": [
+   "S",
+   "M",
+   "L",
+   "XL",
+   "XXL"
+  ],
+  "inHouseTryOn": true,
+  "merchantUrl": "https://www.myntra.com/ethnic-combination-sets-women?search=Stone%20Grey%20craft-clean%20Cotton%20Silk%20men",
+  "merchantLabel": "Myntra",
+  "status": "CHECK",
+  "lastChecked": "2026-09-20",
+  "notes": "Generated from VIRAAS editorial tables on 2026-09-20. Verify live price, seller and image on Myntra before publishing; wire EarnKaro affiliate link into affiliateUrl once generated.",
+  "imagePrompt": "luxury Indian editorial product photography for a men occasion outfit: Stone Grey Craft-clean Structured Blazer with Formal Trouser, Cotton Silk, in Stone Grey with Sage accents, on a faceless studio mannequin, soft warm window light, ivory or muted emerald backdrop, subtle festive styling props, no visible faces, no text, no logos, no watermark, high-end magazine quality"
+ },
+ {
+  "id": "m-formal-shirt-01",
+  "title": "Greige Craft-clean Formal Shirt & Trouser Set",
+  "gender": "men",
+  "category": "formals",
+  "subCategory": "Formal Shirt & Trouser Set",
+  "price": 3799,
+  "originalPrice": null,
+  "brand": "Mohey",
+  "ageGroup": [
+   21,
+   24,
+   30
+  ],
+  "colour": "Greige",
+  "secondaryColour": "White",
+  "fabric": "Cotton",
+  "silhouette": "Shirt Trouser",
+  "occasions": [
+   "Wedding",
+   "Wedding Guest",
+   "Reception"
+  ],
+  "styleTags": [
+   "Contemporary",
+   "Occasion",
+   "Modern Luxury"
+  ],
+  "description": "A greige Cotton reception-weight suit, cut for the wedding functions where ethnic is optional and tailoring is the statement. Half-canvassed front, functioning cuff buttons, and trousers finished with a clean break; the clean line detail stays at the lapel and pocket edges so it reads formal, never costume. Sized to be tailored in one sitting.",
+  "imageUrl": "/images/products/m-formal-shirt-01.svg",
+  "gallery": [
+   "/images/products/m-formal-shirt-01-b.svg",
+   "/images/products/m-formal-shirt-01-c.svg"
+  ],
+  "sizes": [
+   "S",
+   "M",
+   "L",
+   "XL",
+   "XXL"
+  ],
+  "inHouseTryOn": true,
+  "merchantUrl": "https://www.myntra.com/ethnic-combination-sets-women?search=Greige%20craft-clean%20Cotton%20men",
+  "merchantLabel": "Myntra",
+  "status": "CHECK",
+  "lastChecked": "2026-09-20",
+  "notes": "Generated from VIRAAS editorial tables on 2026-09-20. Verify live price, seller and image on Myntra before publishing; wire EarnKaro affiliate link into affiliateUrl once generated.",
+  "imagePrompt": "luxury Indian editorial product photography for a men occasion outfit: Greige Craft-clean Formal Shirt &amp; Trouser Set, Cotton, in Greige with White accents, on a faceless studio mannequin, soft warm window light, ivory or muted emerald backdrop, subtle festive styling props, no visible faces, no text, no logos, no watermark, high-end magazine quality"
+ },
+ {
+  "id": "m-formal-shirt-02",
+  "title": "Powder Blue Craft-clean Formal Shirt & Trouser Set",
+  "gender": "men",
+  "category": "formals",
+  "subCategory": "Formal Shirt & Trouser Set",
+  "price": 2499,
+  "originalPrice": null,
+  "brand": "The Indian Garage Co.",
+  "ageGroup": [
+   20,
+   30,
+   35
+  ],
+  "colour": "Powder Blue",
+  "secondaryColour": "Peach",
+  "fabric": "Linen",
+  "silhouette": "Shirt Trouser",
+  "occasions": [
+   "Wedding",
+   "Wedding Guest",
+   "Reception"
+  ],
+  "styleTags": [
+   "Contemporary",
+   "Occasion",
+   "Modern Luxury"
+  ],
+  "description": "A powder blue Linen reception-weight suit, cut for the wedding functions where ethnic is optional and tailoring is the statement. Half-canvassed front, functioning cuff buttons, and trousers finished with a clean break; the clean line detail stays at the lapel and pocket edges so it reads formal, never costume. Sized to be tailored in one sitting.",
+  "imageUrl": "/images/products/m-formal-shirt-02.svg",
+  "gallery": [
+   "/images/products/m-formal-shirt-02-b.svg",
+   "/images/products/m-formal-shirt-02-c.svg"
+  ],
+  "sizes": [
+   "S",
+   "M",
+   "L",
+   "XL",
+   "XXL"
+  ],
+  "inHouseTryOn": true,
+  "merchantUrl": "https://www.ajio.com/men-clothing-trending?search=Powder%20Blue%20craft-clean%20Linen%20men",
+  "merchantLabel": "AJIO",
+  "status": "CHECK",
+  "lastChecked": "2026-09-20",
+  "notes": "Generated from VIRAAS editorial tables on 2026-09-20. Verify live price, seller and image on AJIO before publishing; wire EarnKaro affiliate link into affiliateUrl once generated.",
+  "imagePrompt": "luxury Indian editorial product photography for a men occasion outfit: Powder Blue Craft-clean Formal Shirt &amp; Trouser Set, Linen, in Powder Blue with Peach accents, on a faceless studio mannequin, soft warm window light, ivory or muted emerald backdrop, subtle festive styling props, no visible faces, no text, no logos, no watermark, high-end magazine quality"
+ },
+ {
+  "id": "m-formal-3piece-01",
+  "title": "Wine Tone-on-tone Three-Piece Reception Suit",
+  "gender": "men",
+  "category": "formals",
+  "subCategory": "Three-Piece Reception Suit",
+  "price": 7499,
+  "originalPrice": null,
+  "brand": "Btoo",
+  "ageGroup": [
+   21,
+   25,
+   40
+  ],
+  "colour": "Wine",
+  "secondaryColour": "Aubergine",
+  "fabric": "Wool Blend",
+  "embroidery": "Tone-on-Tone",
+  "silhouette": "Three Piece Suit",
+  "occasions": [
+   "Reception",
+   "Wedding"
+  ],
+  "styleTags": [
+   "Occasion",
+   "Modern Luxury"
+  ],
+  "description": "A wine Wool Blend reception-weight suit, cut for the wedding functions where ethnic is optional and tailoring is the statement. Half-canvassed front, functioning cuff buttons, and trousers finished with a clean break; the tone-on-tone detail stays at the lapel and pocket edges so it reads formal, never costume. Sized to be tailored in one sitting.",
+  "imageUrl": "/images/products/m-formal-3piece-01.svg",
+  "gallery": [
+   "/images/products/m-formal-3piece-01-b.svg",
+   "/images/products/m-formal-3piece-01-c.svg"
+  ],
+  "sizes": [
+   "S",
+   "M",
+   "L",
+   "XL",
+   "XXL"
+  ],
+  "inHouseTryOn": true,
+  "merchantUrl": "https://www.nykaa.com/search/?query=Wine%20tone-on-tone%20Wool%20Blend%20men",
+  "merchantLabel": "Nykaa",
+  "status": "CHECK",
+  "lastChecked": "2026-09-20",
+  "notes": "Generated from VIRAAS editorial tables on 2026-09-20. Verify live price, seller and image on Nykaa before publishing; wire EarnKaro affiliate link into affiliateUrl once generated.",
+  "imagePrompt": "luxury Indian editorial product photography for a men occasion outfit: Wine Tone-on-tone Three-Piece Reception Suit, Wool Blend, in Wine with Aubergine accents, on a faceless studio mannequin, soft warm window light, ivory or muted emerald backdrop, subtle festive styling props, no visible faces, no text, no logos, no watermark, high-end magazine quality"
+ },
+ {
+  "id": "m-formal-bandhgala-01",
+  "title": "Onyx Black Kamdani-fine Weave Bandhgala-Collar Formal Suit",
+  "gender": "men",
+  "category": "formals",
+  "subCategory": "Bandhgala-Collar Formal Suit",
+  "price": 7999,
+  "originalPrice": null,
+  "brand": "Manyavar",
+  "ageGroup": [
+   21,
+   25,
+   35
+  ],
+  "colour": "Onyx Black",
+  "secondaryColour": "Chocolate",
+  "fabric": "Art Silk",
+  "weave": "Kamdani",
+  "silhouette": "Bandhgala Suit",
+  "occasions": [
+   "Wedding",
+   "Reception",
+   "Festive Party",
+   "Engagement"
+  ],
+  "styleTags": [
+   "Traditional",
+   "Occasion",
+   "Modern Luxury"
+  ],
+  "description": "A onyx black Art Silk reception-weight suit, cut for the wedding functions where ethnic is optional and tailoring is the statement. Half-canvassed front, functioning cuff buttons, and trousers finished with a clean break; the kamdani-fine weave detail stays at the lapel and pocket edges so it reads formal, never costume. Sized to be tailored in one sitting.",
+  "imageUrl": "/images/products/m-formal-bandhgala-01.svg",
+  "gallery": [
+   "/images/products/m-formal-bandhgala-01-b.svg",
+   "/images/products/m-formal-bandhgala-01-c.svg"
+  ],
+  "sizes": [
+   "S",
+   "M",
+   "L",
+   "XL",
+   "XXL"
+  ],
+  "inHouseTryOn": true,
+  "merchantUrl": "https://www.myntra.com/ethnic-combination-sets-women?search=Onyx%20Black%20kamdani-fine%20weave%20Art%20Silk%20men",
+  "merchantLabel": "Myntra",
+  "status": "CHECK",
+  "lastChecked": "2026-09-20",
+  "notes": "Generated from VIRAAS editorial tables on 2026-09-20. Verify live price, seller and image on Myntra before publishing; wire EarnKaro affiliate link into affiliateUrl once generated.",
+  "imagePrompt": "luxury Indian editorial product photography for a men occasion outfit: Onyx Black Kamdani-fine Weave Bandhgala-Collar Formal Suit, Art Silk, in Onyx Black with Chocolate accents, on a faceless studio mannequin, soft warm window light, ivory or muted emerald backdrop, subtle festive styling props, no visible faces, no text, no logos, no watermark, high-end magazine quality"
+ },
+ {
   "id": "cp-set-01",
   "title": "Sage Silk Sangeet — Couple Set",
   "gender": "couple",
   "category": "couple-edit",
   "subCategory": "Her + Him pairing",
-  "price": 7798,
+  "price": 8798,
   "originalPrice": null,
   "brand": "VIRAAS Curated",
   "ageGroup": [
+   18,
    20,
    22,
-   25,
-   30
+   24,
+   25
   ],
   "colour": "Sage",
   "secondaryColour": "Emerald",
@@ -28891,11 +29514,11 @@
    "Traditional",
    "Indo-Western"
   ],
-  "description": "Shop the pair: Sage Buti-motif Soft Georgette Everyday Saree for her and Emerald Jamawar Shawl Kurta Set for him, chosen to sit in the same Sage-and-Emerald frame. The two plates below are the exact styling the look was built around.",
+  "description": "Shop the pair: Sage Buti-motif Soft Georgette Everyday Saree for her and Emerald Gotapatti-appliquéd Kurta Set with Nehru Jacket for him, chosen to sit in the same Sage-and-Emerald frame. Each half is styled exactly as photographed in the edit above.",
   "imageUrl": "/images/couple-plates/sage-silk.svg",
   "gallery": [
    "/images/products/w-saree-georgette-soft-02.svg",
-   "/images/products/m-kurt-set-jamawar-02.svg"
+   "/images/products/m-kurt-set-jacket-02.svg"
   ],
   "sizes": [
    "Her M",
@@ -28907,9 +29530,9 @@
   "status": "CHECK",
   "lastChecked": "2026-09-20",
   "notes": "Bundle reference only — VIRAAS never holds stock; each half ships from its own retailer. Verify both product pages before publishing.",
-  "imagePrompt": "luxury Indian editorial couple photography: faceless mannequin pair, her in Sage Buti-motif Soft Georgette Everyday Saree, him in Emerald Jamawar Shawl Kurta Set, harmonised festive palette of Sage and Emerald, warm ivory studio, subtle marigold styling, no visible faces, no text, no logos, no watermark",
+  "imagePrompt": "luxury Indian editorial couple photography: young couple, her in Sage Buti-motif Soft Georgette Everyday Saree, him in Emerald Gotapatti-appliquéd Kurta Set with Nehru Jacket, harmonised festive palette of Sage and Emerald, warm cinematic light, realistic textile texture, no text, no logos, no watermark",
   "herProductId": "w-saree-georgette-soft-02",
-  "hisProductId": "m-kurt-set-jamawar-02"
+  "hisProductId": "m-kurt-set-jacket-02"
  },
  {
   "id": "cp-set-02",
@@ -28917,20 +29540,19 @@
   "gender": "couple",
   "category": "couple-edit",
   "subCategory": "Her + Him pairing",
-  "price": 3498,
+  "price": 9798,
   "originalPrice": null,
   "brand": "VIRAAS Curated",
   "ageGroup": [
-   17,
    21,
    22,
    24,
-   25
+   25,
+   35
   ],
   "colour": "Ivory",
-  "secondaryColour": "Ivory",
-  "fabric": "Organza",
-  "embroidery": "Chikankari",
+  "secondaryColour": "Antique Gold",
+  "fabric": "Silk Blend",
   "silhouette": "Couple Set",
   "occasions": [
    "Reception"
@@ -28938,28 +29560,28 @@
   "styleTags": [
    "Festive",
    "Occasion",
-   "Traditional",
+   "Contemporary",
    "Festive"
   ],
-  "description": "Shop the pair: Ivory Chikankari-worked Organza Saree with Hand-embroidered Buti for her and Ivory Block-printed Cotton Kurta Set for him, chosen to sit in the same Ivory-and-Ivory frame. The two plates below are the exact styling the look was built around.",
+  "description": "Shop the pair: Ivory Zari-woven Silk Co-ord Set for her and Antique Gold Zardozi-embroidered Silk Bandhgala Jacket for him, chosen to sit in the same Ivory-and-Antique Gold frame. Each half is styled exactly as photographed in the edit above.",
   "imageUrl": "/images/couple-plates/ivory-gold.svg",
   "gallery": [
-   "/images/products/w-saree-organza-02.svg",
-   "/images/products/m-kurtiset-cotton-02.jpg"
+   "/images/products/w-coord-silk-02.svg",
+   "/images/products/m-bandhgala-silk-06.svg"
   ],
   "sizes": [
    "Her M",
    "His L"
   ],
   "inHouseTryOn": false,
-  "merchantUrl": "https://www.myntra.com/sarees?search=Ivory%20Chikankari-worked%20Organza%20women",
+  "merchantUrl": "https://www.nykaa.com/search/?query=Ivory%20zari-woven%20Silk%20Blend%20women",
   "merchantLabel": "VIRAAS Curated",
   "status": "CHECK",
   "lastChecked": "2026-09-20",
   "notes": "Bundle reference only — VIRAAS never holds stock; each half ships from its own retailer. Verify both product pages before publishing.",
-  "imagePrompt": "luxury Indian editorial couple photography: faceless mannequin pair, her in Ivory Chikankari-worked Organza Saree with Hand-embroidered Buti, him in Ivory Block-printed Cotton Kurta Set, harmonised festive palette of Ivory and Ivory, warm ivory studio, subtle marigold styling, no visible faces, no text, no logos, no watermark",
-  "herProductId": "w-saree-organza-02",
-  "hisProductId": "m-kurtiset-cotton-02"
+  "imagePrompt": "luxury Indian editorial couple photography: young couple, her in Ivory Zari-woven Silk Co-ord Set, him in Antique Gold Zardozi-embroidered Silk Bandhgala Jacket, harmonised festive palette of Ivory and Antique Gold, warm cinematic light, realistic textile texture, no text, no logos, no watermark",
+  "herProductId": "w-coord-silk-02",
+  "hisProductId": "m-bandhgala-silk-06"
  },
  {
   "id": "cp-set-03",
@@ -28967,19 +29589,20 @@
   "gender": "couple",
   "category": "couple-edit",
   "subCategory": "Her + Him pairing",
-  "price": 3898,
+  "price": 3698,
   "originalPrice": null,
   "brand": "VIRAAS Curated",
   "ageGroup": [
+   16,
    18,
+   20,
    22,
-   24,
-   30
+   24
   ],
-  "colour": "Mustard",
+  "colour": "Terracotta",
   "secondaryColour": "Mustard",
-  "fabric": "Organza",
-  "embroidery": "Resham Threadwork",
+  "fabric": "Handloom Cotton",
+  "pattern": "Bandhani",
   "silhouette": "Couple Set",
   "occasions": [
    "Mehendi"
@@ -28988,27 +29611,27 @@
    "Festive",
    "Occasion",
    "Traditional",
-   "Festive"
+   "Everyday"
   ],
-  "description": "Shop the pair: Mustard Resham-threadworked Organza Saree with Hand-embroidered Buti for her and Mustard Block-printed Printed Kurta Set for him, chosen to sit in the same Mustard-and-Mustard frame. The two plates below are the exact styling the look was built around.",
+  "description": "Shop the pair: Terracotta Bandhani-tied Printed Cotton Lehenga for her and Mustard Pearl-detailed Cotton Casual Co-ord (Men) for him, chosen to sit in the same Terracotta-and-Mustard frame. Each half is styled exactly as photographed in the edit above.",
   "imageUrl": "/images/couple-plates/terracotta-fiesta.svg",
   "gallery": [
-   "/images/products/w-saree-organza-03.svg",
-   "/images/products/m-kurtiset-printed-01.svg"
+   "/images/products/w-leh-print-02.svg",
+   "/images/products/m-coord-cotton-01.svg"
   ],
   "sizes": [
    "Her M",
    "His L"
   ],
   "inHouseTryOn": false,
-  "merchantUrl": "https://www.myntra.com/sarees?search=Mustard%20resham-threadworked%20Organza%20women",
+  "merchantUrl": "https://www.myntra.com/lehenga-choli?search=Terracotta%20Bandhani-tied%20Handloom%20Cotton%20women",
   "merchantLabel": "VIRAAS Curated",
   "status": "CHECK",
   "lastChecked": "2026-09-20",
   "notes": "Bundle reference only — VIRAAS never holds stock; each half ships from its own retailer. Verify both product pages before publishing.",
-  "imagePrompt": "luxury Indian editorial couple photography: faceless mannequin pair, her in Mustard Resham-threadworked Organza Saree with Hand-embroidered Buti, him in Mustard Block-printed Printed Kurta Set, harmonised festive palette of Mustard and Mustard, warm ivory studio, subtle marigold styling, no visible faces, no text, no logos, no watermark",
-  "herProductId": "w-saree-organza-03",
-  "hisProductId": "m-kurtiset-printed-01"
+  "imagePrompt": "luxury Indian editorial couple photography: young couple, her in Terracotta Bandhani-tied Printed Cotton Lehenga, him in Mustard Pearl-detailed Cotton Casual Co-ord (Men), harmonised festive palette of Terracotta and Mustard, warm cinematic light, realistic textile texture, no text, no logos, no watermark",
+  "herProductId": "w-leh-print-02",
+  "hisProductId": "m-coord-cotton-01"
  },
  {
   "id": "cp-set-04",
@@ -29016,49 +29639,49 @@
   "gender": "couple",
   "category": "couple-edit",
   "subCategory": "Her + Him pairing",
-  "price": 8098,
+  "price": 15498,
   "originalPrice": null,
   "brand": "VIRAAS Curated",
   "ageGroup": [
-   21,
+   16,
+   20,
    22,
    24,
-   25,
    30
   ],
-  "colour": "Plum",
-  "secondaryColour": "Midnight Navy",
-  "fabric": "Crepe",
-  "embroidery": "Stone Work",
+  "colour": "Midnight Navy",
+  "secondaryColour": "Plum",
+  "fabric": "Georgette",
+  "embroidery": "Tone-on-Tone",
   "silhouette": "Couple Set",
   "occasions": [
-   "Evening"
+   "Reception"
   ],
   "styleTags": [
    "Festive",
    "Occasion",
    "Traditional",
-   "Indo-Western"
+   "Everyday"
   ],
-  "description": "Shop the pair: Plum Stone-set Pre-Draped Saree Gown (Satin) for her and Midnight Navy Buti-motif Silk Kurta Set for him, chosen to sit in the same Plum-and-Midnight Navy frame. The two plates below are the exact styling the look was built around.",
+  "description": "Shop the pair: Midnight Navy Tone-on-tone Modern Mermaid Lehenga for her and Plum Zardozi-embroidered Kurta Set with Nehru Jacket for him, chosen to sit in the same Midnight Navy-and-Plum frame. Each half is styled exactly as photographed in the edit above.",
   "imageUrl": "/images/couple-plates/midnight-velvet.svg",
   "gallery": [
-   "/images/products/w-saree-predrape-satin-04.svg",
-   "/images/products/m-kurtiset-silk-02.svg"
+   "/images/products/w-leh-modern-03.svg",
+   "/images/products/m-kurt-set-jacket-01.svg"
   ],
   "sizes": [
    "Her M",
    "His L"
   ],
   "inHouseTryOn": false,
-  "merchantUrl": "https://www.flipkart.com/search?q=Plum%20stone-set%20Crepe%20women&as=on&as-show=on",
+  "merchantUrl": "https://www.myntra.com/lehenga-choli?search=Midnight%20Navy%20tone-on-tone%20Georgette%20women",
   "merchantLabel": "VIRAAS Curated",
   "status": "CHECK",
   "lastChecked": "2026-09-20",
   "notes": "Bundle reference only — VIRAAS never holds stock; each half ships from its own retailer. Verify both product pages before publishing.",
-  "imagePrompt": "luxury Indian editorial couple photography: faceless mannequin pair, her in Plum Stone-set Pre-Draped Saree Gown (Satin), him in Midnight Navy Buti-motif Silk Kurta Set, harmonised festive palette of Plum and Midnight Navy, warm ivory studio, subtle marigold styling, no visible faces, no text, no logos, no watermark",
-  "herProductId": "w-saree-predrape-satin-04",
-  "hisProductId": "m-kurtiset-silk-02"
+  "imagePrompt": "luxury Indian editorial couple photography: young couple, her in Midnight Navy Tone-on-tone Modern Mermaid Lehenga, him in Plum Zardozi-embroidered Kurta Set with Nehru Jacket, harmonised festive palette of Midnight Navy and Plum, warm cinematic light, realistic textile texture, no text, no logos, no watermark",
+  "herProductId": "w-leh-modern-03",
+  "hisProductId": "m-kurt-set-jacket-01"
  },
  {
   "id": "cp-set-05",
@@ -29066,18 +29689,20 @@
   "gender": "couple",
   "category": "couple-edit",
   "subCategory": "Her + Him pairing",
-  "price": 4298,
+  "price": 6498,
   "originalPrice": null,
   "brand": "VIRAAS Curated",
   "ageGroup": [
+   16,
    17,
    21,
-   25
+   25,
+   35
   ],
-  "colour": "Rust",
-  "secondaryColour": "Marigold",
-  "fabric": "Crepe",
-  "embroidery": "Sequit Work",
+  "colour": "Marigold",
+  "secondaryColour": "Rust",
+  "fabric": "Chanderi",
+  "embroidery": "Aari",
   "silhouette": "Couple Set",
   "occasions": [
    "Wedding"
@@ -29086,27 +29711,27 @@
    "Festive",
    "Occasion",
    "Traditional",
-   "Indo-Western"
+   "Festive"
   ],
-  "description": "Shop the pair: Rust Sequin-scattered Georgette Saree with Woven Border for her and Marigold Pearl-detailed Cotton Kurta Set for him, chosen to sit in the same Rust-and-Marigold frame. The two plates below are the exact styling the look was built around.",
+  "description": "Shop the pair: Marigold Aari-stitched Kurta Set with Dupatta for her and Rust Resham-threadworked Waistcoat with Straight Kurta for him, chosen to sit in the same Marigold-and-Rust frame. Each half is styled exactly as photographed in the edit above.",
   "imageUrl": "/images/couple-plates/marigold-day.svg",
   "gallery": [
-   "/images/products/w-saree-drape-08.svg",
-   "/images/products/m-kurtiset-cotton-05.svg"
+   "/images/products/w-kurtiset-dupatta-05.svg",
+   "/images/products/m-waistcoat-set-02.svg"
   ],
   "sizes": [
    "Her M",
    "His L"
   ],
   "inHouseTryOn": false,
-  "merchantUrl": "https://www.ajio.com/sarees-trending?search=Rust%20sequin-scattered%20Crepe%20women",
+  "merchantUrl": "https://www.myntra.com/kurta-sets?search=Marigold%20aari-stitched%20Chanderi%20women",
   "merchantLabel": "VIRAAS Curated",
   "status": "CHECK",
   "lastChecked": "2026-09-20",
   "notes": "Bundle reference only — VIRAAS never holds stock; each half ships from its own retailer. Verify both product pages before publishing.",
-  "imagePrompt": "luxury Indian editorial couple photography: faceless mannequin pair, her in Rust Sequin-scattered Georgette Saree with Woven Border, him in Marigold Pearl-detailed Cotton Kurta Set, harmonised festive palette of Rust and Marigold, warm ivory studio, subtle marigold styling, no visible faces, no text, no logos, no watermark",
-  "herProductId": "w-saree-drape-08",
-  "hisProductId": "m-kurtiset-cotton-05"
+  "imagePrompt": "luxury Indian editorial couple photography: young couple, her in Marigold Aari-stitched Kurta Set with Dupatta, him in Rust Resham-threadworked Waistcoat with Straight Kurta, harmonised festive palette of Marigold and Rust, warm cinematic light, realistic textile texture, no text, no logos, no watermark",
+  "herProductId": "w-kurtiset-dupatta-05",
+  "hisProductId": "m-waistcoat-set-02"
  },
  {
   "id": "cp-set-06",
@@ -29114,20 +29739,20 @@
   "gender": "couple",
   "category": "couple-edit",
   "subCategory": "Her + Him pairing",
-  "price": 6598,
+  "price": 9398,
   "originalPrice": null,
   "brand": "VIRAAS Curated",
   "ageGroup": [
-   16,
+   20,
    21,
    22,
-   24,
-   35
+   25,
+   30
   ],
-  "colour": "Mint",
-  "secondaryColour": "Powder Blue",
-  "fabric": "Tulle",
-  "embroidery": "Sequit Work",
+  "colour": "Powder Blue",
+  "secondaryColour": "Onyx Black",
+  "fabric": "Cotton",
+  "embroidery": "Pearl Detailing",
   "silhouette": "Couple Set",
   "occasions": [
    "Engagement"
@@ -29136,27 +29761,27 @@
    "Festive",
    "Occasion",
    "Traditional",
-   "Indo-Western"
+   "Workwear"
   ],
-  "description": "Shop the pair: Mint Sequin-scattered Pre-Draped Net Saree for her and Powder Blue Aari-stitched Linen Summer Co-ord (Men) for him, chosen to sit in the same Mint-and-Powder Blue frame. The two plates below are the exact styling the look was built around.",
+  "description": "Shop the pair: Powder Blue Pearl-detailed Chikankari Kurti for her and Onyx Black Kamdani-fine Weave Bandhgala-Collar Formal Suit for him, chosen to sit in the same Powder Blue-and-Onyx Black frame. Each half is styled exactly as photographed in the edit above.",
   "imageUrl": "/images/couple-plates/monsoon-pastel.svg",
   "gallery": [
-   "/images/products/w-saree-predrape-net-04.svg",
-   "/images/products/m-coord-linen-02.svg"
+   "/images/products/w-kurti-chikan-05.svg",
+   "/images/products/m-formal-bandhgala-01.svg"
   ],
   "sizes": [
    "Her M",
    "His L"
   ],
   "inHouseTryOn": false,
-  "merchantUrl": "https://www.myntra.com/sarees?search=Mint%20sequin-scattered%20Tulle%20women",
+  "merchantUrl": "https://www.shopsy.in/searchresults/?search_query=Powder%20Blue%20pearl-detailed%20Cotton%20women",
   "merchantLabel": "VIRAAS Curated",
   "status": "CHECK",
   "lastChecked": "2026-09-20",
   "notes": "Bundle reference only — VIRAAS never holds stock; each half ships from its own retailer. Verify both product pages before publishing.",
-  "imagePrompt": "luxury Indian editorial couple photography: faceless mannequin pair, her in Mint Sequin-scattered Pre-Draped Net Saree, him in Powder Blue Aari-stitched Linen Summer Co-ord (Men), harmonised festive palette of Mint and Powder Blue, warm ivory studio, subtle marigold styling, no visible faces, no text, no logos, no watermark",
-  "herProductId": "w-saree-predrape-net-04",
-  "hisProductId": "m-coord-linen-02"
+  "imagePrompt": "luxury Indian editorial couple photography: young couple, her in Powder Blue Pearl-detailed Chikankari Kurti, him in Onyx Black Kamdani-fine Weave Bandhgala-Collar Formal Suit, harmonised festive palette of Powder Blue and Onyx Black, warm cinematic light, realistic textile texture, no text, no logos, no watermark",
+  "herProductId": "w-kurti-chikan-05",
+  "hisProductId": "m-formal-bandhgala-01"
  },
  {
   "id": "cp-set-07",
@@ -29164,49 +29789,49 @@
   "gender": "couple",
   "category": "couple-edit",
   "subCategory": "Her + Him pairing",
-  "price": 3598,
+  "price": 5598,
   "originalPrice": null,
   "brand": "VIRAAS Curated",
   "ageGroup": [
-   18,
+   17,
    21,
    22,
-   24,
-   25
+   25,
+   30
   ],
-  "colour": "Rust",
-  "secondaryColour": "Mustard",
-  "fabric": "Crepe",
-  "embroidery": "Sequit Work",
+  "colour": "Mustard",
+  "secondaryColour": "Rust",
+  "fabric": "Chanderi",
+  "embroidery": "Chikankari",
   "silhouette": "Couple Set",
   "occasions": [
-   "Diwali"
+   "Diwali Party"
   ],
   "styleTags": [
    "Festive",
    "Occasion",
    "Traditional",
-   "Indo-Western"
+   "Workwear"
   ],
-  "description": "Shop the pair: Rust Sequin-scattered Georgette Saree with Woven Border for her and Mustard Block-printed Printed Kurta Set for him, chosen to sit in the same Rust-and-Mustard frame. The two plates below are the exact styling the look was built around.",
+  "description": "Shop the pair: Mustard Chikankari-worked Chikankari Kurti for her and Rust Resham-threadworked Waistcoat with Straight Kurta for him, chosen to sit in the same Mustard-and-Rust frame. Each half is styled exactly as photographed in the edit above.",
   "imageUrl": "/images/couple-plates/diwali-heirloom.svg",
   "gallery": [
-   "/images/products/w-saree-drape-08.svg",
-   "/images/products/m-kurtiset-printed-01.svg"
+   "/images/products/w-kurti-chikan-06.svg",
+   "/images/products/m-waistcoat-set-02.svg"
   ],
   "sizes": [
    "Her M",
    "His L"
   ],
   "inHouseTryOn": false,
-  "merchantUrl": "https://www.ajio.com/sarees-trending?search=Rust%20sequin-scattered%20Crepe%20women",
+  "merchantUrl": "https://www.ajio.com/women-kurtas-sets-trending?search=Mustard%20Chikankari-worked%20Chanderi%20women",
   "merchantLabel": "VIRAAS Curated",
   "status": "CHECK",
   "lastChecked": "2026-09-20",
   "notes": "Bundle reference only — VIRAAS never holds stock; each half ships from its own retailer. Verify both product pages before publishing.",
-  "imagePrompt": "luxury Indian editorial couple photography: faceless mannequin pair, her in Rust Sequin-scattered Georgette Saree with Woven Border, him in Mustard Block-printed Printed Kurta Set, harmonised festive palette of Rust and Mustard, warm ivory studio, subtle marigold styling, no visible faces, no text, no logos, no watermark",
-  "herProductId": "w-saree-drape-08",
-  "hisProductId": "m-kurtiset-printed-01"
+  "imagePrompt": "luxury Indian editorial couple photography: young couple, her in Mustard Chikankari-worked Chikankari Kurti, him in Rust Resham-threadworked Waistcoat with Straight Kurta, harmonised festive palette of Mustard and Rust, warm cinematic light, realistic textile texture, no text, no logos, no watermark",
+  "herProductId": "w-kurti-chikan-06",
+  "hisProductId": "m-waistcoat-set-02"
  },
  {
   "id": "cp-set-08",
@@ -29214,15 +29839,15 @@
   "gender": "couple",
   "category": "couple-edit",
   "subCategory": "Her + Him pairing",
-  "price": 10198,
+  "price": 10398,
   "originalPrice": null,
   "brand": "VIRAAS Curated",
   "ageGroup": [
+   16,
    20,
    21,
    24,
-   25,
-   35
+   25
   ],
   "colour": "Hot Pink",
   "secondaryColour": "Parrot Green",
@@ -29230,7 +29855,7 @@
   "embroidery": "Stone Work",
   "silhouette": "Couple Set",
   "occasions": [
-   "Garba"
+   "Garba & Dandiya"
   ],
   "styleTags": [
    "Festive",
@@ -29238,11 +29863,11 @@
    "Traditional",
    "Festive"
   ],
-  "description": "Shop the pair: Hot Pink Stone-set Sequin Work Lehenga for her and Parrot Green Pearl-detailed Draped Kurta with Asymmetric Hem for him, chosen to sit in the same Hot Pink-and-Parrot Green frame. The two plates below are the exact styling the look was built around.",
+  "description": "Shop the pair: Hot Pink Stone-set Sequin Work Lehenga for her and Parrot Green Thread-embroidered Asymmetric Co-ord with Stole for him, chosen to sit in the same Hot Pink-and-Parrot Green frame. Each half is styled exactly as photographed in the edit above.",
   "imageUrl": "/images/couple-plates/navratri-neon.svg",
   "gallery": [
    "/images/products/w-leh-sequin-03.svg",
-   "/images/products/m-indowest-drape-03.svg"
+   "/images/products/m-asym-coord-01.svg"
   ],
   "sizes": [
    "Her M",
@@ -29254,9 +29879,9 @@
   "status": "CHECK",
   "lastChecked": "2026-09-20",
   "notes": "Bundle reference only — VIRAAS never holds stock; each half ships from its own retailer. Verify both product pages before publishing.",
-  "imagePrompt": "luxury Indian editorial couple photography: faceless mannequin pair, her in Hot Pink Stone-set Sequin Work Lehenga, him in Parrot Green Pearl-detailed Draped Kurta with Asymmetric Hem, harmonised festive palette of Hot Pink and Parrot Green, warm ivory studio, subtle marigold styling, no visible faces, no text, no logos, no watermark",
+  "imagePrompt": "luxury Indian editorial couple photography: young couple, her in Hot Pink Stone-set Sequin Work Lehenga, him in Parrot Green Thread-embroidered Asymmetric Co-ord with Stole, harmonised festive palette of Hot Pink and Parrot Green, warm cinematic light, realistic textile texture, no text, no logos, no watermark",
   "herProductId": "w-leh-sequin-03",
-  "hisProductId": "m-indowest-drape-03"
+  "hisProductId": "m-asym-coord-01"
  },
  {
   "id": "cp-set-09",
@@ -29264,48 +29889,48 @@
   "gender": "couple",
   "category": "couple-edit",
   "subCategory": "Her + Him pairing",
-  "price": 6798,
+  "price": 4198,
   "originalPrice": null,
   "brand": "VIRAAS Curated",
   "ageGroup": [
-   17,
-   22,
+   20,
+   21,
    24,
-   25
+   35
   ],
-  "colour": "Sand",
+  "colour": "White",
   "secondaryColour": "Sand",
-  "fabric": "Chiffon",
-  "embroidery": "Gotapatti",
+  "fabric": "Cotton",
+  "embroidery": "Chikankari",
   "silhouette": "Couple Set",
   "occasions": [
-   "Travel"
+   "Destination Wedding"
   ],
   "styleTags": [
    "Festive",
    "Occasion",
    "Traditional",
-   "Indo-Western"
+   "Workwear"
   ],
-  "description": "Shop the pair: Sand Gotapatti-appliquéd Georgette Saree with Woven Border for her and Sand Chikankari-worked Cotton Kurta Set for him, chosen to sit in the same Sand-and-Sand frame. The two plates below are the exact styling the look was built around.",
+  "description": "Shop the pair: White Chikankari-worked Chikankari Kurti for her and Sand Pearl-detailed Festive Co-ord Suit for him, chosen to sit in the same White-and-Sand frame. Each half is styled exactly as photographed in the edit above.",
   "imageUrl": "/images/couple-plates/destination-white.svg",
   "gallery": [
-   "/images/products/w-saree-drape-03.svg",
-   "/images/products/m-kurtiset-cotton-01.jpg"
+   "/images/products/w-kurti-chikan-01.svg",
+   "/images/products/m-coord-suit-02.svg"
   ],
   "sizes": [
    "Her M",
    "His L"
   ],
   "inHouseTryOn": false,
-  "merchantUrl": "https://www.nykaa.com/search/?query=Sand%20gotapatti-appliqu%C3%A9d%20Chiffon%20women",
+  "merchantUrl": "https://www.ajio.com/women-kurtas-sets-trending?search=White%20Chikankari-worked%20Cotton%20women",
   "merchantLabel": "VIRAAS Curated",
   "status": "CHECK",
   "lastChecked": "2026-09-20",
   "notes": "Bundle reference only — VIRAAS never holds stock; each half ships from its own retailer. Verify both product pages before publishing.",
-  "imagePrompt": "luxury Indian editorial couple photography: faceless mannequin pair, her in Sand Gotapatti-appliquéd Georgette Saree with Woven Border, him in Sand Chikankari-worked Cotton Kurta Set, harmonised festive palette of Sand and Sand, warm ivory studio, subtle marigold styling, no visible faces, no text, no logos, no watermark",
-  "herProductId": "w-saree-drape-03",
-  "hisProductId": "m-kurtiset-cotton-01"
+  "imagePrompt": "luxury Indian editorial couple photography: young couple, her in White Chikankari-worked Chikankari Kurti, him in Sand Pearl-detailed Festive Co-ord Suit, harmonised festive palette of White and Sand, warm cinematic light, realistic textile texture, no text, no logos, no watermark",
+  "herProductId": "w-kurti-chikan-01",
+  "hisProductId": "m-coord-suit-02"
  },
  {
   "id": "cp-set-10",
@@ -29323,24 +29948,24 @@
    22,
    24
   ],
-  "colour": "Stone Grey",
+  "colour": "Butter Yellow",
   "secondaryColour": "Stone Grey",
-  "fabric": "Linen",
-  "pattern": "Buti Motifs",
+  "fabric": "Modal Blend",
+  "embroidery": "Thread Embroidery",
   "silhouette": "Couple Set",
   "occasions": [
-   "College"
+   "College Fest"
   ],
   "styleTags": [
    "Festive",
    "Occasion",
-   "Traditional",
+   "Contemporary",
    "Everyday"
   ],
-  "description": "Shop the pair: Stone Grey Buti-motif Linen Saree with Woven Check for her and Stone Grey Thread-embroidered Cotton Kurta Set for him, chosen to sit in the same Stone Grey-and-Stone Grey frame. The two plates below are the exact styling the look was built around.",
+  "description": "Shop the pair: Butter Yellow Thread-embroidered Crop-top Palazzo Co-ord for her and Stone Grey Thread-embroidered Cotton Kurta Set for him, chosen to sit in the same Butter Yellow-and-Stone Grey frame. Each half is styled exactly as photographed in the edit above.",
   "imageUrl": "/images/couple-plates/college-duo.svg",
   "gallery": [
-   "/images/products/w-saree-linen-04.svg",
+   "/images/products/w-coord-palazzo-01.svg",
    "/images/products/m-kurtiset-cotton-03.svg"
   ],
   "sizes": [
@@ -29348,13 +29973,13 @@
    "His L"
   ],
   "inHouseTryOn": false,
-  "merchantUrl": "https://www.ajio.com/sarees-trending?search=Stone%20Grey%20buti-motif%20Linen%20women",
+  "merchantUrl": "https://www.shopsy.in/searchresults/?search_query=Butter%20Yellow%20thread-embroidered%20Modal%20Blend%20women",
   "merchantLabel": "VIRAAS Curated",
   "status": "CHECK",
   "lastChecked": "2026-09-20",
   "notes": "Bundle reference only — VIRAAS never holds stock; each half ships from its own retailer. Verify both product pages before publishing.",
-  "imagePrompt": "luxury Indian editorial couple photography: faceless mannequin pair, her in Stone Grey Buti-motif Linen Saree with Woven Check, him in Stone Grey Thread-embroidered Cotton Kurta Set, harmonised festive palette of Stone Grey and Stone Grey, warm ivory studio, subtle marigold styling, no visible faces, no text, no logos, no watermark",
-  "herProductId": "w-saree-linen-04",
+  "imagePrompt": "luxury Indian editorial couple photography: young couple, her in Butter Yellow Thread-embroidered Crop-top Palazzo Co-ord, him in Stone Grey Thread-embroidered Cotton Kurta Set, harmonised festive palette of Butter Yellow and Stone Grey, warm cinematic light, realistic textile texture, no text, no logos, no watermark",
+  "herProductId": "w-coord-palazzo-01",
   "hisProductId": "m-kurtiset-cotton-03"
  },
  {
@@ -29363,48 +29988,49 @@
   "gender": "couple",
   "category": "couple-edit",
   "subCategory": "Her + Him pairing",
-  "price": 5998,
+  "price": 6698,
   "originalPrice": null,
   "brand": "VIRAAS Curated",
   "ageGroup": [
-   20,
+   16,
+   21,
    22,
    24,
-   35
+   25
   ],
   "colour": "Olive",
   "secondaryColour": "Greige",
-  "fabric": "Crepe",
-  "embroidery": "Sequit Work",
+  "fabric": "Linen",
+  "embroidery": "Zardozi",
   "silhouette": "Couple Set",
   "occasions": [
-   "Guest"
+   "Wedding Guest"
   ],
   "styleTags": [
    "Festive",
    "Occasion",
-   "Traditional",
-   "Indo-Western"
+   "Contemporary",
+   "Everyday"
   ],
-  "description": "Shop the pair: Olive Sequin-scattered Georgette Saree with Woven Border for her and Greige Zari-woven Festive Co-ord Suit for him, chosen to sit in the same Olive-and-Greige frame. The two plates below are the exact styling the look was built around.",
+  "description": "Shop the pair: Olive Zardozi-embroidered Linen Co-ord Set for her and Greige Craft-clean Formal Shirt & Trouser Set for him, chosen to sit in the same Olive-and-Greige frame. Each half is styled exactly as photographed in the edit above.",
   "imageUrl": "/images/couple-plates/wedding-guest-olive.svg",
   "gallery": [
-   "/images/products/w-saree-drape-02.svg",
-   "/images/products/m-coord-suit-04.svg"
+   "/images/products/w-coord-linen-01.svg",
+   "/images/products/m-formal-shirt-01.svg"
   ],
   "sizes": [
    "Her M",
    "His L"
   ],
   "inHouseTryOn": false,
-  "merchantUrl": "https://www.myntra.com/sarees?search=Olive%20sequin-scattered%20Crepe%20women",
+  "merchantUrl": "https://www.myntra.com/kurta-sets?search=Olive%20zardozi-embroidered%20Linen%20women",
   "merchantLabel": "VIRAAS Curated",
   "status": "CHECK",
   "lastChecked": "2026-09-20",
   "notes": "Bundle reference only — VIRAAS never holds stock; each half ships from its own retailer. Verify both product pages before publishing.",
-  "imagePrompt": "luxury Indian editorial couple photography: faceless mannequin pair, her in Olive Sequin-scattered Georgette Saree with Woven Border, him in Greige Zari-woven Festive Co-ord Suit, harmonised festive palette of Olive and Greige, warm ivory studio, subtle marigold styling, no visible faces, no text, no logos, no watermark",
-  "herProductId": "w-saree-drape-02",
-  "hisProductId": "m-coord-suit-04"
+  "imagePrompt": "luxury Indian editorial couple photography: young couple, her in Olive Zardozi-embroidered Linen Co-ord Set, him in Greige Craft-clean Formal Shirt &amp; Trouser Set, harmonised festive palette of Olive and Greige, warm cinematic light, realistic textile texture, no text, no logos, no watermark",
+  "herProductId": "w-coord-linen-01",
+  "hisProductId": "m-formal-shirt-01"
  },
  {
   "id": "cp-set-12",
@@ -29412,47 +30038,48 @@
   "gender": "couple",
   "category": "couple-edit",
   "subCategory": "Her + Him pairing",
-  "price": 6398,
+  "price": 7098,
   "originalPrice": null,
   "brand": "VIRAAS Curated",
   "ageGroup": [
+   18,
    20,
    21,
-   25,
-   30
+   22,
+   24
   ],
-  "colour": "Oat Melange",
+  "colour": "Bottle Green",
   "secondaryColour": "Oat Melange",
-  "fabric": "Chanderi",
+  "fabric": "Cotton",
   "silhouette": "Couple Set",
   "occasions": [
-   "Winter"
+   "Winter Festive"
   ],
   "styleTags": [
    "Festive",
    "Occasion",
-   "Traditional",
-   "Workwear"
+   "Contemporary",
+   "Everyday"
   ],
-  "description": "Shop the pair: Oat Melange Craft-clean Chanderi Silk-Cotton Saree for her and Oat Melange Chikankari-worked Chikankari Kurta Set for him, chosen to sit in the same Oat Melange-and-Oat Melange frame. The two plates below are the exact styling the look was built around.",
+  "description": "Shop the pair: Bottle Green Cotton Co-ord Set for her and Oat Melange Stone-set Ivory Dinner Jacket Set for him, chosen to sit in the same Bottle Green-and-Oat Melange frame. Each half is styled exactly as photographed in the edit above.",
   "imageUrl": "/images/couple-plates/winter-wedding.svg",
   "gallery": [
-   "/images/products/w-saree-chanderi-04.svg",
-   "/images/products/m-kurtiset-chikankari-01.svg"
+   "/images/products/w-coord-cotton-03.svg",
+   "/images/products/m-formal-dinner-01.svg"
   ],
   "sizes": [
    "Her M",
    "His L"
   ],
   "inHouseTryOn": false,
-  "merchantUrl": "https://www.flipkart.com/search?q=Oat%20Melange%20craft-clean%20Chanderi%20women&as=on&as-show=on",
+  "merchantUrl": "https://www.shopsy.in/searchresults/?search_query=Bottle%20Green%20Stripes%20Cotton%20women",
   "merchantLabel": "VIRAAS Curated",
   "status": "CHECK",
   "lastChecked": "2026-09-20",
   "notes": "Bundle reference only — VIRAAS never holds stock; each half ships from its own retailer. Verify both product pages before publishing.",
-  "imagePrompt": "luxury Indian editorial couple photography: faceless mannequin pair, her in Oat Melange Craft-clean Chanderi Silk-Cotton Saree, him in Oat Melange Chikankari-worked Chikankari Kurta Set, harmonised festive palette of Oat Melange and Oat Melange, warm ivory studio, subtle marigold styling, no visible faces, no text, no logos, no watermark",
-  "herProductId": "w-saree-chanderi-04",
-  "hisProductId": "m-kurtiset-chikankari-01"
+  "imagePrompt": "luxury Indian editorial couple photography: young couple, her in Bottle Green Cotton Co-ord Set, him in Oat Melange Stone-set Ivory Dinner Jacket Set, harmonised festive palette of Bottle Green and Oat Melange, warm cinematic light, realistic textile texture, no text, no logos, no watermark",
+  "herProductId": "w-coord-cotton-03",
+  "hisProductId": "m-formal-dinner-01"
  },
  {
   "id": "cp-set-13",
@@ -29460,33 +30087,33 @@
   "gender": "couple",
   "category": "couple-edit",
   "subCategory": "Her + Him pairing",
-  "price": 6798,
+  "price": 3798,
   "originalPrice": null,
   "brand": "VIRAAS Curated",
   "ageGroup": [
    17,
+   20,
    22,
-   24,
-   25
+   24
   ],
-  "colour": "Sand",
+  "colour": "Blush Pink",
   "secondaryColour": "Sand",
-  "fabric": "Chiffon",
-  "embroidery": "Gotapatti",
+  "fabric": "Modal Blend",
+  "embroidery": "Mirror Work",
   "silhouette": "Couple Set",
   "occasions": [
-   "Family"
+   "Family Function"
   ],
   "styleTags": [
    "Festive",
    "Occasion",
    "Traditional",
-   "Indo-Western"
+   "Everyday"
   ],
-  "description": "Shop the pair: Sand Gotapatti-appliquéd Georgette Saree with Woven Border for her and Sand Chikankari-worked Cotton Kurta Set for him, chosen to sit in the same Sand-and-Sand frame. The two plates below are the exact styling the look was built around.",
+  "description": "Shop the pair: Blush Pink Mirror-work Cotton Straight Kurti for her and Sand Chikankari-worked Cotton Kurta Set for him, chosen to sit in the same Blush Pink-and-Sand frame. Each half is styled exactly as photographed in the edit above.",
   "imageUrl": "/images/couple-plates/family-function.svg",
   "gallery": [
-   "/images/products/w-saree-drape-03.svg",
+   "/images/products/w-kurti-straight-04.svg",
    "/images/products/m-kurtiset-cotton-01.jpg"
   ],
   "sizes": [
@@ -29494,13 +30121,13 @@
    "His L"
   ],
   "inHouseTryOn": false,
-  "merchantUrl": "https://www.nykaa.com/search/?query=Sand%20gotapatti-appliqu%C3%A9d%20Chiffon%20women",
+  "merchantUrl": "https://www.shopsy.in/searchresults/?search_query=Blush%20Pink%20mirror-work%20Modal%20Blend%20women",
   "merchantLabel": "VIRAAS Curated",
   "status": "CHECK",
   "lastChecked": "2026-09-20",
   "notes": "Bundle reference only — VIRAAS never holds stock; each half ships from its own retailer. Verify both product pages before publishing.",
-  "imagePrompt": "luxury Indian editorial couple photography: faceless mannequin pair, her in Sand Gotapatti-appliquéd Georgette Saree with Woven Border, him in Sand Chikankari-worked Cotton Kurta Set, harmonised festive palette of Sand and Sand, warm ivory studio, subtle marigold styling, no visible faces, no text, no logos, no watermark",
-  "herProductId": "w-saree-drape-03",
+  "imagePrompt": "luxury Indian editorial couple photography: young couple, her in Blush Pink Mirror-work Cotton Straight Kurti, him in Sand Chikankari-worked Cotton Kurta Set, harmonised festive palette of Blush Pink and Sand, warm cinematic light, realistic textile texture, no text, no logos, no watermark",
+  "herProductId": "w-kurti-straight-04",
   "hisProductId": "m-kurtiset-cotton-01"
  },
  {
@@ -29509,48 +30136,49 @@
   "gender": "couple",
   "category": "couple-edit",
   "subCategory": "Her + Him pairing",
-  "price": 5198,
+  "price": 9498,
   "originalPrice": null,
   "brand": "VIRAAS Curated",
   "ageGroup": [
-   17,
-   21,
+   18,
+   20,
    22,
-   24,
-   25
+   25,
+   30
   ],
   "colour": "Wine",
   "secondaryColour": "Chocolate",
   "fabric": "Georgette",
+  "embroidery": "Chikankari",
   "silhouette": "Couple Set",
   "occasions": [
-   "Date"
+   "Date Night"
   ],
   "styleTags": [
    "Festive",
    "Occasion",
    "Traditional",
-   "Indo-Western"
+   "Festive"
   ],
-  "description": "Shop the pair: Wine Zari-woven Georgette Saree with Woven Border for her and Chocolate Aari-stitched Silk Kurta Set for him, chosen to sit in the same Wine-and-Chocolate frame. The two plates below are the exact styling the look was built around.",
+  "description": "Shop the pair: Wine Chikankari-worked Anarkali Kurta Set for her and Chocolate Chikankari-worked Kurta Set with Nehru Jacket for him, chosen to sit in the same Wine-and-Chocolate frame. Each half is styled exactly as photographed in the edit above.",
   "imageUrl": "/images/couple-plates/date-evening.svg",
   "gallery": [
-   "/images/products/w-saree-drape-01.svg",
-   "/images/products/m-kurtiset-silk-04.svg"
+   "/images/products/w-kurtiset-anarkali-01.svg",
+   "/images/products/m-kurt-set-jacket-03.svg"
   ],
   "sizes": [
    "Her M",
    "His L"
   ],
   "inHouseTryOn": false,
-  "merchantUrl": "https://www.myntra.com/sarees?search=Wine%20zari-woven%20Georgette%20women",
+  "merchantUrl": "https://www.nykaa.com/search/?query=Wine%20Chikankari-worked%20Georgette%20women",
   "merchantLabel": "VIRAAS Curated",
   "status": "CHECK",
   "lastChecked": "2026-09-20",
   "notes": "Bundle reference only — VIRAAS never holds stock; each half ships from its own retailer. Verify both product pages before publishing.",
-  "imagePrompt": "luxury Indian editorial couple photography: faceless mannequin pair, her in Wine Zari-woven Georgette Saree with Woven Border, him in Chocolate Aari-stitched Silk Kurta Set, harmonised festive palette of Wine and Chocolate, warm ivory studio, subtle marigold styling, no visible faces, no text, no logos, no watermark",
-  "herProductId": "w-saree-drape-01",
-  "hisProductId": "m-kurtiset-silk-04"
+  "imagePrompt": "luxury Indian editorial couple photography: young couple, her in Wine Chikankari-worked Anarkali Kurta Set, him in Chocolate Chikankari-worked Kurta Set with Nehru Jacket, harmonised festive palette of Wine and Chocolate, warm cinematic light, realistic textile texture, no text, no logos, no watermark",
+  "herProductId": "w-kurtiset-anarkali-01",
+  "hisProductId": "m-kurt-set-jacket-03"
  },
  {
   "id": "cp-set-15",
@@ -29558,19 +30186,19 @@
   "gender": "couple",
   "category": "couple-edit",
   "subCategory": "Her + Him pairing",
-  "price": 5898,
+  "price": 5998,
   "originalPrice": null,
   "brand": "VIRAAS Curated",
   "ageGroup": [
    17,
+   20,
    22,
-   24,
-   35
+   24
   ],
   "colour": "Mint",
   "secondaryColour": "Peach",
-  "fabric": "Tulle",
-  "embroidery": "Sequit Work",
+  "fabric": "Organza",
+  "embroidery": "Tone-on-Tone",
   "silhouette": "Couple Set",
   "occasions": [
    "Mehendi"
@@ -29581,25 +30209,25 @@
    "Traditional",
    "Indo-Western"
   ],
-  "description": "Shop the pair: Mint Sequin-scattered Pre-Draped Net Saree for her and Peach Chikankari-worked Cotton Kurta Set for him, chosen to sit in the same Mint-and-Peach frame. The two plates below are the exact styling the look was built around.",
+  "description": "Shop the pair: Mint Tone-on-tone Pre-Draped Organza Saree for her and Peach Mirror-work Garba Kediyu Set for him, chosen to sit in the same Mint-and-Peach frame. Each half is styled exactly as photographed in the edit above.",
   "imageUrl": "/images/couple-plates/mehendi-mint.svg",
   "gallery": [
-   "/images/products/w-saree-predrape-net-04.svg",
-   "/images/products/m-kurtiset-cotton-08.svg"
+   "/images/products/w-predrape-organza-05.svg",
+   "/images/products/m-garba-kediyu-01.jpg"
   ],
   "sizes": [
    "Her M",
    "His L"
   ],
   "inHouseTryOn": false,
-  "merchantUrl": "https://www.myntra.com/sarees?search=Mint%20sequin-scattered%20Tulle%20women",
+  "merchantUrl": "https://www.ajio.com/sarees-trending?search=Mint%20tone-on-tone%20Organza%20women",
   "merchantLabel": "VIRAAS Curated",
   "status": "CHECK",
   "lastChecked": "2026-09-20",
   "notes": "Bundle reference only — VIRAAS never holds stock; each half ships from its own retailer. Verify both product pages before publishing.",
-  "imagePrompt": "luxury Indian editorial couple photography: faceless mannequin pair, her in Mint Sequin-scattered Pre-Draped Net Saree, him in Peach Chikankari-worked Cotton Kurta Set, harmonised festive palette of Mint and Peach, warm ivory studio, subtle marigold styling, no visible faces, no text, no logos, no watermark",
-  "herProductId": "w-saree-predrape-net-04",
-  "hisProductId": "m-kurtiset-cotton-08"
+  "imagePrompt": "luxury Indian editorial couple photography: young couple, her in Mint Tone-on-tone Pre-Draped Organza Saree, him in Peach Mirror-work Garba Kediyu Set, harmonised festive palette of Mint and Peach, warm cinematic light, realistic textile texture, no text, no logos, no watermark",
+  "herProductId": "w-predrape-organza-05",
+  "hisProductId": "m-garba-kediyu-01"
  },
  {
   "id": "cp-set-16",
@@ -29607,48 +30235,47 @@
   "gender": "couple",
   "category": "couple-edit",
   "subCategory": "Her + Him pairing",
-  "price": 8998,
+  "price": 7898,
   "originalPrice": null,
   "brand": "VIRAAS Curated",
   "ageGroup": [
-   17,
    20,
-   22,
-   24,
-   35
+   21,
+   25,
+   30
   ],
-  "colour": "Olive",
-  "secondaryColour": "Champagne",
-  "fabric": "Crepe",
-  "embroidery": "Sequit Work",
+  "colour": "Champagne",
+  "secondaryColour": "Olive",
+  "fabric": "Chanderi",
+  "pattern": "Kalamkari",
   "silhouette": "Couple Set",
   "occasions": [
-   "Family"
+   "Family Function"
   ],
   "styleTags": [
    "Festive",
    "Occasion",
-   "Traditional",
-   "Indo-Western"
+   "Contemporary",
+   "Handloom & Artisan"
   ],
-  "description": "Shop the pair: Olive Sequin-scattered Georgette Saree with Woven Border for her and Champagne Zari-woven Brocade Kurta Set for him, chosen to sit in the same Olive-and-Champagne frame. The two plates below are the exact styling the look was built around.",
+  "description": "Shop the pair: Champagne Kalamkari-painted Co-ord with Dupatta for her and Olive Pearl-detailed Long Coat Kurta Set for him, chosen to sit in the same Champagne-and-Olive frame. Each half is styled exactly as photographed in the edit above.",
   "imageUrl": "/images/couple-plates/festive-brass.svg",
   "gallery": [
-   "/images/products/w-saree-drape-02.svg",
-   "/images/products/m-kurt-set-brocade-01.svg"
+   "/images/products/w-coord-dupatta-03.svg",
+   "/images/products/m-coat-set-01.svg"
   ],
   "sizes": [
    "Her M",
    "His L"
   ],
   "inHouseTryOn": false,
-  "merchantUrl": "https://www.myntra.com/sarees?search=Olive%20sequin-scattered%20Crepe%20women",
+  "merchantUrl": "https://www.ajio.com/women-kurtas-sets-trending?search=Champagne%20Kalamkari-painted%20Chanderi%20women",
   "merchantLabel": "VIRAAS Curated",
   "status": "CHECK",
   "lastChecked": "2026-09-20",
   "notes": "Bundle reference only — VIRAAS never holds stock; each half ships from its own retailer. Verify both product pages before publishing.",
-  "imagePrompt": "luxury Indian editorial couple photography: faceless mannequin pair, her in Olive Sequin-scattered Georgette Saree with Woven Border, him in Champagne Zari-woven Brocade Kurta Set, harmonised festive palette of Olive and Champagne, warm ivory studio, subtle marigold styling, no visible faces, no text, no logos, no watermark",
-  "herProductId": "w-saree-drape-02",
-  "hisProductId": "m-kurt-set-brocade-01"
+  "imagePrompt": "luxury Indian editorial couple photography: young couple, her in Champagne Kalamkari-painted Co-ord with Dupatta, him in Olive Pearl-detailed Long Coat Kurta Set, harmonised festive palette of Champagne and Olive, warm cinematic light, realistic textile texture, no text, no logos, no watermark",
+  "herProductId": "w-coord-dupatta-03",
+  "hisProductId": "m-coat-set-01"
  }
 ]

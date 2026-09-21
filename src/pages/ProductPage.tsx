@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { Heart, Sparkles, ShoppingBag, ArrowLeft, Share2, ExternalLink, AlertTriangle, Layers } from 'lucide-react';
 import { getProductById, completeTheLook, OCCASION_TAG_BY_ID } from '../data/products';
+import { getAffiliateUrl } from '../data/affiliate-links';
 import { getLooksForProduct } from '../data/looks';
 import { toggleSavedLook, isLookSaved } from '../utils/savedLooks';
 import { trackAffiliateClick, trackEvent } from '../utils/analytics';
@@ -69,7 +70,7 @@ export default function ProductPage() {
     if (isNowSaved) trackEvent('save_product', { productId: product.id });
   };
   const handleShop = () => {
-    const url = product.affiliateUrl || product.merchantUrl;
+    const url = getAffiliateUrl(product.id) || product.merchantUrl;
     if (url) {
       trackAffiliateClick(product.id, product.merchantLabel, product.category);
       window.open(url, '_blank', 'noopener,noreferrer');
@@ -231,8 +232,8 @@ export default function ProductPage() {
                 {product.category === 'couple-edit' ? 'SHOP BOTH HALVES' : `SHOP THIS LOOK ON ${product.merchantLabel.toUpperCase()}`}
                 <ExternalLink size={14} />
               </button>
-              <p className={`text-[11px] text-center ${product.affiliateUrl ? 'text-[#AEB8A0]' : 'text-[#B7945A]'} -mt-1`}>
-                {product.affiliateUrl
+              <p className={`text-[11px] text-center ${getAffiliateUrl(product.id) ? 'text-[#AEB8A0]' : 'text-[#B7945A]'} -mt-1`}>
+                {getAffiliateUrl(product.id)
                   ? 'Opens your affiliate link.'
                   : 'Affiliate link not configured — this button goes straight to the retailer\'s product search. VIRAAS may earn a commission when you shop through selected affiliate links.'}
               </p>

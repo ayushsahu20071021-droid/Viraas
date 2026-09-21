@@ -170,7 +170,7 @@ export default function Header() {
                   ))}
                   <li>
                     <Link to="/occasions" className="text-sm font-semibold text-[#D95E3F] hover:underline" onClick={() => setActiveMenu(null)}>
-                      All 18 occasion edits →
+                      All 20 occasion edits →
                     </Link>
                   </li>
                 </ul>
@@ -246,7 +246,7 @@ export default function Header() {
                   ))}
                   <li>
                     <Link to="/occasions" className="text-sm font-semibold text-[#D95E3F] hover:underline" onClick={() => setActiveMenu(null)}>
-                      All 18 occasion edits →
+                      All 20 occasion edits →
                     </Link>
                   </li>
                 </ul>

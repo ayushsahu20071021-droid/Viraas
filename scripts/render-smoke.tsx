@@ -15,6 +15,7 @@ import couplesJson from '../src/data/catalog/couples.json'
 import ProductCard from '../src/components/ProductCard'
 import TryOnModal from '../src/components/TryOnModal'
 import Home from '../src/pages/Home'
+import { searchProducts } from '../src/data/products'
 import CategoryPage from '../src/pages/CategoryPage'
 import ProductPage from '../src/pages/ProductPage'
 import OccasionsPage from '../src/pages/OccasionsPage'
@@ -103,7 +104,7 @@ for (const [name, el] of pages) {
 void routesFor
 
 // product pages — a known-good id AND the id that used to be price-less
-for (const id of ['w-saree-drape-01', brokenId, 'cp-set-01', products[0].id]) {
+for (const id of ['w-saree-drape-01', brokenId, 'cp-set-01', products[0].id, 'm-formal-suit-01', 'm-garba-kediyu-01', 'b-stick-lip-01']) {
   try {
     renderToStaticMarkup(
       <MemoryRouter initialEntries={[`/product/${id}`]}>
@@ -115,7 +116,7 @@ for (const id of ['w-saree-drape-01', brokenId, 'cp-set-01', products[0].id]) {
 }
 
 // look pages — normal + couple
-for (const lid of [looksJson[0]?.id, 'couple-sage-silk', couplesJson[0]?.id].filter(Boolean)) {
+for (const lid of [looksJson[0]?.id, 'couple-sage-silk', 'couple-garba-emerald-ivory', 'couple-haldi-blush-ivory', couplesJson[couplesJson.length - 1]?.id].filter(Boolean)) {
   try {
     renderToStaticMarkup(
       <MemoryRouter initialEntries={[`/look/${lid}`]}>
@@ -131,6 +132,22 @@ try {
   renderToStaticMarkup(<MemoryRouter initialEntries={['/women?category=sarees&occasion=diwali&colour=Ivory&budget=' + encodeURIComponent('Under ₹1,999')]}><Routes><Route path="/women" element={<CategoryPage gender="women" title="For Her" subtitle="s" heroImage="/images/hero-women.jpg" />} /></Routes></MemoryRouter>)
   ok('page /women?category+occasion+colour+budget (filtered)')
 } catch (e) { fail('page /women filtered', e) }
+// wedding formals category filter — must return real results, never a dead end
+try {
+  const html = renderToStaticMarkup(<MemoryRouter initialEntries={['/men?category=formals']}><Routes><Route path="/men" element={<CategoryPage gender="men" title="For Him" subtitle="s" heroImage="/images/hero-men.jpg" />} /></Routes></MemoryRouter>)
+  if (!html.includes('Wedding Formals')) fail('page /men?category=formals', 'Wedding Formals label missing')
+  else ok('page /men?category=formals (wedding formals filter)')
+} catch (e) { fail('page /men?category=formals', e) }
+
+// search — every documented example query must return results
+const SEARCH_EXAMPLES = ['green kurta', 'diwali outfit', 'pre draped saree', 'wedding guest', 'garba', 'jhumka', 'kurta jacket', 'black festive jacket', 'navratri men', 'couple outfit', 'wedding formals', 'chikankari']
+for (const q of SEARCH_EXAMPLES) {
+  try {
+    const n = searchProducts(q, 60).length
+    if (n === 0) fail(`search "${q}"`, 'returned 0 products')
+    else ok(`search "${q}" → ${n} products`)
+  } catch (e) { fail(`search "${q}"`, e) }
+}
 
 // TryOnModal with a minimal product
 try { renderToStaticMarkup(<MemoryRouter><TryOnModal product={base} onClose={() => {}} /></MemoryRouter>); ok('TryOnModal render') } catch (e) { fail('TryOnModal', e) }

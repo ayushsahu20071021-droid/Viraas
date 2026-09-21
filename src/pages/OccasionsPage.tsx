@@ -21,7 +21,7 @@ export default function OccasionsPage() {
         <div className="min-h-screen flex items-center justify-center bg-[#F6F0E6] pt-20">
           <div className="text-center px-4">
             <h1 className="font-playfair text-3xl text-[#171918] mb-4">Occasion not found</h1>
-            <p className="text-sm text-[#AEB8A0] mb-6">We publish 18 occasion edits — pick one from the index.</p>
+            <p className="text-sm text-[#AEB8A0] mb-6">We publish 20 occasion edits — pick one from the index.</p>
             <Link to="/occasions" className="px-6 py-2.5 rounded-full bg-[#103C35] text-white text-sm font-semibold">All Occasions</Link>
           </div>
         </div>
@@ -93,6 +93,27 @@ export default function OccasionsPage() {
                 ))}
               </ul>
             </div>
+
+            {/* Wedding Formals — the tailoring subcategory, only on the Wedding edit */}
+            {occasion.id === 'wedding' && (
+              <div className="bg-white rounded-3xl p-7 md:p-9 mb-14 border border-[#E9E1D4]">
+                <div className="flex flex-wrap items-end justify-between gap-4 mb-6">
+                  <div>
+                    <p className="text-xs font-semibold tracking-[0.3em] text-[#B7945A] uppercase mb-2">The Reception-Side Alternative</p>
+                    <h2 className="font-playfair text-2xl lg:text-3xl text-[#171918]">Wedding Formals</h2>
+                    <p className="text-sm text-[#AEB8A0] mt-2 max-w-xl">For the functions where tailoring is the statement: suits, tuxedo-inspired eveningwear and formal shirt-and-trouser sets. A subcategory for the reception side — ethnic remains the heart of the VIRAAS wedding edit.</p>
+                  </div>
+                  <Link to="/men?category=formals" className="px-5 py-2.5 rounded-full bg-[#103C35] text-[#F6F0E6] text-sm font-semibold hover:bg-[#0d3028] transition-colors">
+                    Explore Wedding Formals
+                  </Link>
+                </div>
+                <div className="grid grid-cols-2 lg:grid-cols-4 gap-4">
+                  {products.filter((p) => p.category === 'formals').slice(0, 4).map((p) => (
+                    <ProductCard key={p.id} product={p} onTryOn={setTryOnProduct} />
+                  ))}
+                </div>
+              </div>
+            )}
 
             {/* Looks */}
             {occLooks.length > 0 && (

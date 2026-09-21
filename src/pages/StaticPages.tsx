@@ -319,7 +319,7 @@ export function CoupleEditPage() {
             const his = lookItems({ ...c, productIds: c.hisProductIds || [] });
             return (
               <div key={c.id} className="bg-white rounded-3xl overflow-hidden shadow-sm hover:shadow-md transition-shadow">
-                <Link to={`/look/${c.id}`} className="block relative aspect-square bg-[#F6F0E6]">
+                <Link to={`/look/${c.id}`} className="block relative aspect-[3/4] bg-[#F6F0E6]">
                   <img src={c.imageUrl} alt={c.title} loading="lazy" className="absolute inset-0 w-full h-full object-cover" />
                   <span className="absolute top-3 left-3 px-2.5 py-1 rounded-full bg-[#171918]/70 text-white text-[10px] font-semibold tracking-widest uppercase">{c.occasions.join(' · ')}</span>
                 </Link>

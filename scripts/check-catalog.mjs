@@ -27,6 +27,7 @@ for (const p of products) {
   if (typeof p.brand !== 'string' || !p.brand) err(`[${p.id}] missing brand`)
   if (typeof p.imageUrl !== 'string' || !/^\/images\/[^\s]+/.test(p.imageUrl)) err(`[${p.id}] bad imageUrl`)
   if (p.imageUrl && !existsSync(join(ROOT, 'public', p.imageUrl))) err(`[${p.id}] imageUrl not on disk: ${p.imageUrl}`)
+  if (p.imageUrl && /\.svg$/.test(p.imageUrl)) err(`[${p.id}] primary visual is a flat SVG plate — apparel/accessory cards must use photographic editorial assets (see scripts/photos/)`)
   for (const g of p.gallery || []) if (typeof g === 'string' && g.startsWith('/images') && !existsSync(join(ROOT, 'public', g))) err(`[${p.id}] gallery image missing: ${g}`)
   if (!MERCHANTS.includes(p.merchantLabel)) err(`[${p.id}] merchantLabel not whitelisted: ${p.merchantLabel}`)
   if (typeof p.merchantUrl !== 'string' || !/^https:\/\/.+/.test(p.merchantUrl)) err(`[${p.id}] merchantUrl is not a real deep link`)
@@ -45,15 +46,46 @@ for (const l of looks) {
   if (l.price !== sum) err(`[look ${l.id}] price ${l.price} != item sum ${sum}`)
   if (typeof l.imageUrl !== 'string' || !existsSync(join(ROOT, 'public', l.imageUrl))) err(`[look ${l.id}] plate image missing on disk`)
 }
+if (couples.length < 60) err(`couple edit must ship at least 60 unique looks, found ${couples.length}`)
+const coupleImages = new Set()
 for (const c of couples) {
   if (badNum(c.price)) err(`[couple ${c.id}] invalid price`)
-  for (const id of [...(c.herProductIds || []), ...(c.hisProductIds || [])]) if (!byId.has(id)) err(`[couple ${c.id}] references missing product ${id}`)
+  if (typeof c.imageUrl !== 'string' || !existsSync(join(ROOT, 'public', c.imageUrl))) err(`[couple ${c.id}] image missing on disk: ${c.imageUrl}`)
+  if (/\.svg$/.test(c.imageUrl || '')) err(`[couple ${c.id}] still on an SVG plate — every couple look needs a photographic editorial visual`)
+  if (coupleImages.has(c.imageUrl)) err(`[couple ${c.id}] reuses another couple's image (${c.imageUrl})`)
+  coupleImages.add(c.imageUrl)
+  const refs = [...(c.herProductIds || []), ...(c.hisProductIds || [])]
+  if (refs.length < 4 || refs.length > 6) err(`[couple ${c.id}] should reference 4-6 real products, found ${refs.length}`)
+  for (const id of refs) if (!byId.has(id)) err(`[couple ${c.id}] references missing product ${id}`)
+  for (const id of c.herProductIds || []) if (byId.get(id)?.gender !== 'women') err(`[couple ${c.id}] her ref ${id} is not a women product`)
+  for (const id of c.hisProductIds || []) if (byId.get(id)?.gender !== 'men') err(`[couple ${c.id}] his ref ${id} is not a men product`)
+}
+
+const formals = products.filter((p) => p.category === 'formals')
+if (formals.length < 8) err(`wedding formals subcategory must exist with at least 8 pieces, found ${formals.length}`)
+for (const p of formals) {
+  if (p.gender !== 'men') err(`[formals ${p.id}] must be a men subcategory`)
+  if (!p.occasions.includes('Wedding')) err(`[formals ${p.id}] must be tagged Wedding`)
+}
+
+// ── central affiliate link file ───────────────────────────────────────────────
+const affSrc = readFileSync(join(ROOT, 'src/data/affiliate-links.ts'), 'utf8')
+if (!/export function getAffiliateUrl/.test(affSrc)) err('affiliate-links.ts must export getAffiliateUrl(productId)')
+const affEntries = new Map()
+for (const m of affSrc.matchAll(/"([^"]+)":\s*"([^"]*)"/g)) affEntries.set(m[1], m[2])
+const missingAff = products.filter((p) => !affEntries.has(p.id)).map((p) => p.id)
+if (missingAff.length) err(`affiliate-links.ts is missing ${missingAff.length} product id(s): ${missingAff.slice(0, 8).join(', ')}…`)
+const extraAff = [...affEntries.keys()].filter((id) => !byId.has(id))
+if (extraAff.length) err(`affiliate-links.ts has ${extraAff.length} key(s) not in the catalog: ${extraAff.slice(0, 8).join(', ')}…`)
+for (const [id, url] of affEntries) {
+  if (url && !/^https:\/\//.test(url)) err(`[affiliate ${id}] value must be a full https URL or empty`)
+  if (/amazon/i.test(url)) err(`[affiliate ${id}] Amazon links are banned on VIRAAS`)
 }
 
 const titles = products.map((p) => p.id)
 if (new Set(titles).size !== titles.length) err('duplicate product ids')
 
-console.log(`check-catalog: ${products.length} products · ${looks.length} looks · ${couples.length} couple looks`)
+console.log(`check-catalog: ${products.length} products · ${looks.length} looks · ${couples.length} couple looks · ${formals.length} wedding formals · ${affEntries.size} affiliate entries`)
 if (errors.length) {
   console.error(`✗ ${errors.length} integrity error(s):`)
   for (const e of errors) console.error('  - ' + e)
