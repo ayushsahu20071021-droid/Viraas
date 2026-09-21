@@ -16,7 +16,7 @@
 // '2026-09-20'. No ratings, no discount claims, no affiliate URLs are
 // fabricated — affiliateUrl stays undefined until the owner pastes a real
 // EarnKaro link. Deep merchantUrls point to the closest real retailer
-// category/search page — never a bare homepage. Never Amazon.
+// category/search page — never a bare homepage. Never a banned marketplace.
 // ─────────────────────────────────────────────────────────────────────────────
 import { mkdirSync, writeFileSync, readFileSync, existsSync } from 'node:fs';
 import { join, dirname } from 'node:path';
@@ -89,7 +89,7 @@ const PALETTE = {
   mutedEarth: ['Sage', 'Greige', 'Sand', 'Olive', 'Stone Grey', 'Chocolate'],
 }
 
-// ── merchants (NEVER Amazon) ─────────────────────────────────────────────────
+// ── merchants (whitelist only, never banned marketplaces) ─────────────────────────────────────────────────
 const MERCHANT_LABEL = { MYNTRA: 'Myntra', AJIO: 'AJIO', FLIPKART: 'Flipkart', SHOPSY: 'Shopsy', MEESHO: 'Meesho', NYKAA: 'Nykaa' }
 const BRANDS = {
   women: ['Sangria', 'W for Women', 'Aneam', 'Vistara Designs', 'Nayo', 'Anouk', 'Mrunal', 'Indya', 'Khinkhwab', 'Tarun Tarang', 'Simar', 'Raas', 'Chhanak', 'Nalli', 'Pernia\'s', 'Anavilu', 'Sanskriti', 'Devika', 'Amra OG', 'Zayka'],

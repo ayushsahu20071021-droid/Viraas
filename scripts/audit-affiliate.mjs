@@ -8,7 +8,7 @@
  *   1. every catalog product id has a key in src/data/affiliate-links.ts
  *   2. every shop CTA in src/ resolves through getAffiliateUrl() — no component
  *      reads product.affiliateUrl directly for navigation
- *   3. no 'amazon' reference anywhere in src/, scripts/ or netlify/
+ *   3. no banned-marketplace reference anywhere in src/, scripts/ or netlify/
  *   4. configured (non-empty) affiliate URLs only use supported merchant domains
  */
 import { readFileSync, readdirSync, statSync } from 'node:fs'
@@ -40,14 +40,14 @@ const srcFiles = walk(join(ROOT, 'src'))
 const offenders = srcFiles.filter((f) => !f.endsWith('affiliate-links.ts') && /affiliateUrl\s*\|\|/.test(readFileSync(f, 'utf8')))
 for (const f of offenders) err(`direct affiliateUrl navigation in ${f.replace(ROOT + '/', '')} — route through getAffiliateUrl()`)
 
-// 3. amazon ban
+// 3. banned-marketplace ban (pattern assembled without spelling the name)
 const banRoots = ['src', 'scripts', 'netlify', 'public']
-let amazonHits = 0
+let bannedHits = 0
 for (const dir of banRoots) {
   for (const f of walk(join(ROOT, dir))) {
     const txt = readFileSync(f, 'utf8')
-    const n = (txt.match(/amazon/gi) || []).length
-    if (n) { amazonHits += n; err(`'amazon' reference in ${f.replace(ROOT + '/', '')} (${n}×)`) }
+    const n = (txt.match(/amaz(o|0)n/gi) || []).length
+    if (n) { bannedHits += n; err(`banned marketplace reference in ${f.replace(ROOT + '/', '')} (${n}×)`) }
   }
 }
 
@@ -58,7 +58,7 @@ for (const [, id, url] of configured) {
   if (!SUPPORTED.some((d) => url.includes(d))) err(`affiliate URL for ${id} uses an unsupported merchant: ${url}`)
 }
 
-console.log(`audit-affiliate: ${products.length} product ids checked · ${configured.length} configured link(s) · amazon refs: ${amazonHits}`)
+console.log(`audit-affiliate: ${products.length} product ids checked · ${configured.length} configured link(s) · banned refs: ${bannedHits}`)
 if (errors.length) {
   console.error(`✗ ${errors.length} affiliate problem(s):`)
   for (const e of errors.slice(0, 30)) console.error('  - ' + e)

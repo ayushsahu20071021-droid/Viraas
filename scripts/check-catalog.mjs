@@ -31,7 +31,7 @@ for (const p of products) {
   if (!MERCHANTS.includes(p.merchantLabel)) err(`[${p.id}] merchantLabel not whitelisted: ${p.merchantLabel}`)
   if (typeof p.merchantUrl !== 'string' || !/^https:\/\/.+/.test(p.merchantUrl)) err(`[${p.id}] merchantUrl is not a real deep link`)
   if (/^https:\/\/[^/]+\/?$/.test(p.merchantUrl || '')) err(`[${p.id}] merchantUrl is a bare homepage`)
-  if (/amazon/i.test(JSON.stringify(p))) err(`[${p.id}] contains a banned 'amazon' reference`)
+  if (/amaz(o|0)n/i.test(JSON.stringify(p))) err(`[${p.id}] contains a banned marketplace reference`)
   if (p.affiliateUrl) err(`[${p.id}] affiliateUrl must be empty until real EarnKaro links are pasted`)
   if (!Array.isArray(p.styleTags)) err(`[${p.id}] styleTags must be an array`)
   if (!Array.isArray(p.sizes) || !p.sizes.length) err(`[${p.id}] sizes must be a non-empty array`)
