@@ -4,6 +4,7 @@ import { Heart, Sparkles, ShoppingBag, AlertTriangle } from 'lucide-react';
 import { type Product } from '../data/products';
 import { toggleSavedLook, isLookSaved } from '../utils/savedLooks';
 import { trackAffiliateClick, trackEvent } from '../utils/analytics';
+import { formatPrice, isMoney, discountPct } from '../utils/format';
 
 interface Props {
   product: Product;
@@ -51,10 +52,9 @@ export default function ProductCard({ product, onTryOn }: Props) {
 
   // Discounts are only ever shown when verified data exists — the generator
   // never fabricates originalPrice, so this stays hidden until a human fills it.
-  const discount =
-    product.originalPrice && product.originalPrice > product.price
-      ? `${Math.round((1 - product.price / product.originalPrice) * 100)}% off`
-      : null;
+  const pct = discountPct(product.price, product.originalPrice)
+  const discount = pct !== null ? `${pct}% off` : null;
+  const hasPrice = isMoney(product.price);
 
   return (
     <Link
@@ -64,8 +64,8 @@ export default function ProductCard({ product, onTryOn }: Props) {
     >
       <div className="relative aspect-[3/4] overflow-hidden bg-[#E9E1D4]">
         <img
-          src={imgFailed ? '/images/placeholder.svg' : product.imageUrl}
-          alt={imgFailed ? `${product.title} — visual pending` : product.title}
+          src={imgFailed || !product.imageUrl ? '/images/placeholder.svg' : product.imageUrl}
+          alt={imgFailed || !product.imageUrl ? `${product.title || 'This piece'} — visual pending` : product.title}
           loading="lazy"
           onError={() => setImgFailed(true)}
           className="w-full h-full object-cover object-top group-hover:scale-[1.04] transition-transform duration-500"
@@ -119,20 +119,26 @@ export default function ProductCard({ product, onTryOn }: Props) {
 
       <div className="p-4">
         <div className="flex items-start justify-between gap-2 mb-1.5">
-          <h3 className="text-sm font-medium text-[#171918] leading-snug line-clamp-2 flex-1">{product.title}</h3>
-          <span className={`text-xs px-2 py-0.5 rounded-full font-medium shrink-0 ${merchantTints[product.merchantLabel] || 'bg-gray-100 text-gray-500'}`}>
-            {product.merchantLabel}
-          </span>
+          <h3 className="text-sm font-medium text-[#171918] leading-snug line-clamp-2 flex-1">{product.title || 'Verified piece'}</h3>
+          {product.merchantLabel ? (
+            <span className={`text-xs px-2 py-0.5 rounded-full font-medium shrink-0 ${merchantTints[product.merchantLabel] || 'bg-gray-100 text-gray-500'}`}>
+              {product.merchantLabel}
+            </span>
+          ) : (
+            <span className="text-xs px-2 py-0.5 rounded-full font-medium shrink-0 bg-[#103C35]/10 text-[#103C35]">VIRAAS</span>
+          )}
         </div>
         <div className="flex items-center gap-2">
-          <span className="text-base font-bold text-[#103C35]">₹{product.price.toLocaleString('en-IN')}</span>
-          {product.originalPrice && product.originalPrice > product.price && (
-            <span className="text-xs text-[#AEB8A0] line-through">₹{product.originalPrice.toLocaleString('en-IN')}</span>
+          <span className={hasPrice ? 'text-base font-bold text-[#103C35]' : 'text-sm font-medium text-[#AEB8A0] italic'}>
+            {formatPrice(product.price)}
+          </span>
+          {hasPrice && isMoney(product.originalPrice) && product.originalPrice > product.price && (
+            <span className="text-xs text-[#AEB8A0] line-through">{formatPrice(product.originalPrice)}</span>
           )}
-          <span className="text-xs text-[#AEB8A0] ml-auto">{product.brand}</span>
+          {product.brand && <span className="text-xs text-[#AEB8A0] ml-auto">{product.brand}</span>}
         </div>
         <div className="flex flex-wrap gap-1 mt-2">
-          {product.styleTags.slice(0, 2).map((tag) => (
+          {(product.styleTags ?? []).slice(0, 2).map((tag) => (
             <span key={tag} className="text-xs text-[#AEB8A0] bg-[#F6F0E6] px-2 py-0.5 rounded-full">{tag}</span>
           ))}
         </div>

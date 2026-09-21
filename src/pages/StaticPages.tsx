@@ -5,6 +5,7 @@ import { products, TRENDING_STYLE_TAGS } from '../data/products';
 import { coupleLooks, allLooks, lookItems } from '../data/looks';
 import { getProductById } from '../data/products';
 import ProductCard from '../components/ProductCard';
+import { formatPrice } from '../utils/format';
 
 const WHATSAPP_NUMBER = '919644424865';
 const WHATSAPP_MESSAGE = encodeURIComponent('Hi VIRAAS, I need help finding a festive outfit.');
@@ -330,7 +331,7 @@ export function CoupleEditPage() {
                     <Half label="Him" items={his} accent="text-[#103C35]" />
                   </div>
                   <div className="flex items-center justify-between">
-                    <p className="text-sm font-bold text-[#103C35] tabular-nums">₹{c.price.toLocaleString('en-IN')}<span className="block text-[10px] font-normal text-[#AEB8A0]">both looks</span></p>
+                    <p className="text-sm font-bold text-[#103C35] tabular-nums">{formatPrice(c.price)}<span className="block text-[10px] font-normal text-[#AEB8A0]">both looks</span></p>
                     <Link to={`/look/${c.id}`} className="px-4 py-2 bg-[#103C35] text-white text-xs font-semibold rounded-full hover:bg-[#D95E3F] transition-colors">
                       STYLE IT TOGETHER
                     </Link>

@@ -7,6 +7,7 @@ import { allLooks, lookItems } from '../data/looks';
 import ProductCard from '../components/ProductCard';
 import TryOnModal from '../components/TryOnModal';
 import { trackEvent } from '../utils/analytics';
+import { formatPrice, sumPrices } from '../utils/format';
 
 export default function SavedPage() {
   const [savedIds, setSavedIds] = useState<string[]>([]);
@@ -24,7 +25,7 @@ export default function SavedPage() {
   const savedProducts = savedIds.map((id) => getProductById(id)).filter(Boolean) as Product[];
   // looks that contain at least one saved piece — "finish what you started"
   const relatedLooks = allLooks.filter((l) => l.productIds.some((id) => savedIds.includes(id))).slice(0, 3);
-  const totalValue = savedProducts.reduce((s, p) => s + p.price, 0);
+  const totalValue = sumPrices(savedProducts.map((p) => p.price));
   const tryOnReady = savedProducts.find((p) => p.inHouseTryOn);
 
   if (savedProducts.length === 0) {
@@ -60,7 +61,7 @@ export default function SavedPage() {
           </div>
           <p className="text-sm text-[#AEB8A0]">
             <span className="font-semibold text-[#103C35] tabular-nums">{savedProducts.length}</span> pieces ·
-            est. total <span className="font-semibold text-[#103C35] tabular-nums">₹{totalValue.toLocaleString('en-IN')}</span>
+            est. total <span className="font-semibold text-[#103C35] tabular-nums">{formatPrice(totalValue)}</span>
           </p>
         </div>
 
@@ -105,7 +106,7 @@ export default function SavedPage() {
                   <div className="absolute bottom-0 p-5">
                     <p className="text-[10px] text-[#B7945A] font-semibold tracking-widest uppercase mb-1">{l.gender === 'couple' ? 'Couple Edit' : `${l.occasions.join(' · ')}`}</p>
                     <p className="font-playfair text-xl text-white">{l.title}</p>
-                    <p className="text-[#AEB8A0] text-xs mt-1">{lookItems(l).length} pieces · ₹{l.price.toLocaleString('en-IN')}</p>
+                    <p className="text-[#AEB8A0] text-xs mt-1">{lookItems(l).length} pieces · {formatPrice(l.price)}</p>
                   </div>
                 </Link>
               ))}

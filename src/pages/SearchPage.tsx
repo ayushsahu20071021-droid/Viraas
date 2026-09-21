@@ -8,6 +8,7 @@ import ProductCard from '../components/ProductCard';
 import TryOnModal from '../components/TryOnModal';
 import { type Product } from '../data/products';
 import { trackEvent } from '../utils/analytics';
+import { formatPrice } from '../utils/format';
 
 export default function SearchPage() {
   const [searchParams, setSearchParams] = useSearchParams();
@@ -112,7 +113,7 @@ export default function SearchPage() {
                         <div className="absolute bottom-0 p-4">
                           <p className="text-[10px] text-[#B7945A] font-semibold tracking-widest uppercase">{l.gender === 'couple' ? 'Couple Edit' : `${l.gender} · ${l.occasions.join(' ')}`}</p>
                           <p className="font-playfair text-white text-lg leading-tight">{l.title}</p>
-                          <p className="text-[#AEB8A0] text-xs mt-1">₹{l.price.toLocaleString('en-IN')} for the full look</p>
+                          <p className="text-[#AEB8A0] text-xs mt-1">{formatPrice(l.price)} for the full look</p>
                         </div>
                       </Link>
                     ))}

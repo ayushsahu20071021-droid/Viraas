@@ -7,6 +7,7 @@ import ProductCard from '../components/ProductCard';
 import TryOnModal from '../components/TryOnModal';
 import { type Product } from '../data/products';
 import { trackAffiliateClick, trackEvent } from '../utils/analytics';
+import { formatPrice, sumPrices } from '../utils/format';
 
 export default function LookPage() {
   const { id } = useParams<{ id: string }>();
@@ -64,7 +65,7 @@ export default function LookPage() {
                 <p className="text-[#AEB8A0] text-base mb-6 leading-relaxed">{look.description}</p>
                 <p className="text-white/90 mb-8">
                   <span className="text-xs text-[#AEB8A0] block mb-1">Full look, all pieces together</span>
-                  <span className="text-2xl font-bold tabular-nums">₹{items.reduce((s, p) => s + p.price, 0).toLocaleString('en-IN')}</span>
+                  <span className="text-2xl font-bold tabular-nums">{formatPrice(sumPrices(items.map((p) => p.price)))}</span>
                 </p>
                 <div className="flex flex-wrap gap-3">
                   {anchor?.inHouseTryOn && (
@@ -136,7 +137,7 @@ function RowItem({ p, onShop }: { p: Product; onShop: () => void }) {
       <div className="min-w-0 flex-1">
         <Link to={`/product/${p.id}`} className="block text-sm font-medium text-[#171918] truncate hover:text-[#103C35]">{p.title}</Link>
         <p className="text-xs text-[#AEB8A0]">{p.brand} · {p.merchantLabel}</p>
-        <p className="text-sm font-bold text-[#103C35] tabular-nums">₹{p.price.toLocaleString('en-IN')}</p>
+        <p className="text-sm font-bold text-[#103C35] tabular-nums">{formatPrice(p.price)}</p>
       </div>
       <button onClick={onShop} className="shrink-0 flex items-center gap-1.5 px-4 py-2 bg-[#103C35] text-white text-xs font-semibold rounded-full hover:bg-[#D95E3F] transition-colors">
         SHOP <ExternalLink size={11} />

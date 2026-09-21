@@ -164,7 +164,19 @@ function pickMerchant(rnd, price, moods) {
   return r < 0.55 ? 'MYNTRA' : r < 0.8 ? 'AJIO' : r < 0.9 ? 'FLIPKART' : 'SHOPSY'
 }
 const PRICE_POINTS = [399, 449, 499, 549, 599, 649, 699, 749, 799, 849, 899, 949, 999, 1099, 1199, 1299, 1349, 1399, 1499, 1599, 1699, 1799, 1899, 1999, 2199, 2399, 2499, 2699, 2899, 2999, 3299, 3499, 3799, 3999, 4299, 4499, 4999, 5499, 5999, 6499, 6999, 7499, 7999, 8499, 8999, 9999, 10999, 11999, 12999, 13999]
-const priceIn = (rnd, lo, hi) => PRICE_POINTS.filter(p => p >= lo && p <= hi)[Math.floor(rnd() * PRICE_POINTS.filter(p => p >= lo && p <= hi).length)] ?? PRICE_POINTS[0]
+// Pick a price inside [lo, hi] from PRICE_POINTS. If the band has no anchor
+// points (e.g. ultra-luxe ranges beyond the ladder), fall back to the nearest
+// point to the band midpoint — a price is ALWAYS a finite positive number.
+const pickPrice = (rnd, lo, hi) => {
+  const band = PRICE_POINTS.filter((pp) => pp >= lo && pp <= hi)
+  if (!band.length) {
+    const mid = (lo + hi) / 2
+    const nearest = PRICE_POINTS.reduce((a, b) => (Math.abs(b - mid) < Math.abs(a - mid) ? b : a), PRICE_POINTS[0])
+    return Math.max(1, nearest)
+  }
+  const picked = band[Math.floor(rnd() * band.length)]
+  return Number.isFinite(picked) && picked > 0 ? picked : band[0]
+}
 
 const OCC_TAG = { wedding: 'Wedding', sangeet: 'Sangeet', reception: 'Reception', mehendi: 'Mehendi', festive: 'Festive Party', diwali: 'Diwali Party', navratri: 'Navratri', college: 'College Fest', workwear: 'Work-to-Dinner', party: 'Night Out', travel: 'Destination Wedding', casual: 'Daywear', puja: 'Puja & Temple', engagement: 'Engagement', guest: 'Wedding Guest', family: 'Family Function', date: 'Date Night', winter: 'Winter Festive' }
 
@@ -458,10 +470,7 @@ for (const sub of ALL) {
     const colour = colourPool[Math.floor(r() * colourPool.length)]
     const fabric = sub.fabrics?.length ? sub.fabrics[i % sub.fabrics.length] : 'None'
     const occasions = sub.occ.map(o => OCC_TAG[o] || 'Festive Party')
-    const lo = sub.price[0], hi = sub.price[1]
-    const step = PRICE_POINTS.findIndex(p => p >= lo)
-    const cap = PRICE_POINTS.filter(p => p <= hi).length
-    const price = PRICE_POINTS[step + Math.floor(r() * Math.max(1, cap)) % Math.max(1, cap)]
+    const price = pickPrice(r, sub.price[0], sub.price[1])
     const labelPool = BRAND_FOR(sub)
     const label = labelPool[Math.floor(r() * labelPool.length)]
     let title = `${colour} ${CRAFTS[craft]?.adj ? titleCase(CRAFTS[craft].adj) + ' ' : ''}${sub.name}`
@@ -518,7 +527,7 @@ const look = (id, title, mood, occasions, anchors, story, alt = []) => {
   const items = anchors.map(a => byId[a]).filter(Boolean)
   if (!items.length) return null
   const price = items.reduce((s, p) => s + p.price, 0)
-  return { id, title, mood, occasions, productIds: items.map(p => p.id), imageUrl: items[0].imageUrl, altImages: alt, price, description: story, merchantUrls: [...new Set(items.map(p => p.merchantUrl))], merchantLabels: [...new Set(items.map(p => p.merchantLabel))], budgetTier: price < 2000 ? 'Under ₹1,999' : price < 5000 ? '₹2,999–₹4,999' : '₹5,000+' }
+  return { id, title, mood, occasions, productIds: items.map(p => p.id), imageUrl: items[0].imageUrl, altImages: alt, price, description: story, merchantUrls: [...new Set(items.map(p => p.merchantUrl))], merchantLabels: [...new Set(items.map(p => p.merchantLabel))], budgetTier: price < 2000 ? 'Under ₹1,999' : price < 3000 ? '₹1,999–₹2,999' : price < 5000 ? '₹2,999–₹4,999' : '₹5,000+' }
 }
 const looks = []
 const OCC_LOOKS = ['Sangeet', 'Diwali Party', 'College Fest', 'Reception', 'Navratri', 'Wedding', 'Daywear', 'Night Out', 'Work-to-Dinner', 'Mehendi', 'Family Function', 'Date Night', 'Wedding Guest', 'Puja & Temple']
@@ -609,6 +618,28 @@ coupleLooks.forEach((c, idx) => {
     herProductId: herId, hisProductId: hisId,
   })
 })
+
+// ── validation gate ──────────────────────────────────────────────────────────
+// Data is a build artifact — refuse to ship anything a component would crash on.
+const violations = []
+const badNum = (v) => typeof v !== 'number' || !Number.isFinite(v) || !(v > 0)
+for (const pr of products) {
+  if (badNum(pr.price)) violations.push(`price invalid on product ${pr.id}: ${JSON.stringify(pr.price)}`)
+  if (pr.originalPrice != null && badNum(pr.originalPrice)) violations.push(`originalPrice invalid on ${pr.id}`)
+  if (typeof pr.imageUrl !== 'string' || !pr.imageUrl) violations.push(`imageUrl missing on ${pr.id}`)
+  if (typeof pr.merchantLabel !== 'string' || !pr.merchantLabel) violations.push(`merchantLabel missing on ${pr.id}`)
+  if (typeof pr.title !== 'string' || !pr.title) violations.push(`title missing on ${pr.id}`)
+  if (typeof pr.brand !== 'string' || !pr.brand) violations.push(`brand missing on ${pr.id}`)
+  if (!Array.isArray(pr.styleTags)) violations.push(`styleTags not array on ${pr.id}`)
+  if (typeof pr.merchantUrl !== 'string' || !/^https:\/\//.test(pr.merchantUrl || '')) violations.push(`merchantUrl not an https deep link on ${pr.id}`)
+}
+for (const l of looks) if (badNum(l.price)) violations.push(`look ${l.id} has invalid price`)
+for (const c of coupleLooks) if (badNum(c.price)) violations.push(`couple look ${c.id} has invalid price`)
+if (violations.length) {
+  console.error(`\nGENERATOR VALIDATION FAILED — ${violations.length} violation(s):`)
+  for (const v of violations.slice(0, 25)) console.error('  - ' + v)
+  process.exit(1)
+}
 
 // ── write outputs ─────────────────────────────────────────────────────────────
 writeFileSync(join(OUT_DATA, 'products.json'), JSON.stringify(products.map(({ _plate, ...rest }) => rest), null, 1))
