@@ -1339,19 +1339,6 @@
   "prompt": "Premium product photograph of an antique gold zardozi evening bag with zardozi, macro editorial close-up, realistic materials and realistic texture, warm studio lighting, soft shadows, clean luxurious composition on a warm ivory surface, shallow depth of field, vertical 3:4 framing, no text, no logos, no watermark, not a vector illustration"
  },
  {
-  "key": "men|bandhgala-collar-formal-suit|black",
-  "kind": "men",
-  "base": "m-m-formal-bandhgala-01",
-  "slot": "m-m-formal-bandhgala-01",
-  "file": "/images/photos/m-m-formal-bandhgala-01.jpg",
-  "productIds": [
-   "m-formal-bandhgala-01"
-  ],
-  "colour": "Onyx Black",
-  "colourHex": "#141414",
-  "prompt": "Luxury Indian fashion editorial photograph, full-body young Indian man wearing an onyx black art silk bandhgala-collar formal suit with kamdani, contemporary bandhgala with minimal hardware, tailored silhouette, styled for wedding, contemporary Indian fashion for young adults, realistic textile texture, natural garment drape, premium editorial photography, cinematic soft lighting, a refined rooftop terrace at dusk, complete outfit visible head to toe, vertical 3:4 portrait, no text, no logos, no watermark"
- },
- {
   "key": "men|brass-buckle-leather-belt|mustard",
   "kind": "accessory",
   "base": "a-brass-buckle-leather-belt-mustard",
@@ -1536,33 +1523,6 @@
   "colour": "Stone Grey",
   "colourHex": "#9A968C",
   "prompt": "Luxury Indian fashion editorial photograph, full-body young Indian man wearing a stone grey cotton kurta set with thread embroidery, straight-cut kurta with tailored trousers, youthful modern fit, styled for diwali party, contemporary Indian fashion for young adults, realistic textile texture, natural garment drape, premium editorial photography, cinematic soft lighting, contemporary Indian architecture with warm stone, complete outfit visible head to toe, vertical 3:4 portrait, no text, no logos, no watermark"
- },
- {
-  "key": "men|dhoti-kurta-set|ivory",
-  "kind": "men",
-  "base": "m-m-dhoti-kurta-02",
-  "slot": "m-m-dhoti-kurta-02",
-  "file": "/images/photos/m-m-dhoti-kurta-02.jpg",
-  "productIds": [
-   "m-dhoti-kurta-02",
-   "m-dhoti-kurta-03"
-  ],
-  "colour": "Ivory",
-  "colourHex": "#F1E8D6",
-  "prompt": "Luxury Indian fashion editorial photograph, full-body young Indian man wearing an ivory kerala kasavu dhoti & kurta set with tone-on-tone, contemporary dhoti-style trousers with a structured kurta, styled for festive party, contemporary Indian fashion for young adults, realistic textile texture, natural garment drape, premium editorial photography, cinematic soft lighting, a softly blurred heritage haveli courtyard, complete outfit visible head to toe, vertical 3:4 portrait, no text, no logos, no watermark"
- },
- {
-  "key": "men|dhoti-kurta-set|sand",
-  "kind": "men",
-  "base": "m-m-dhoti-kurta-01",
-  "slot": "m-m-dhoti-kurta-01",
-  "file": "/images/photos/m-m-dhoti-kurta-01.jpg",
-  "productIds": [
-   "m-dhoti-kurta-01"
-  ],
-  "colour": "Greige",
-  "colourHex": "#B9AE9C",
-  "prompt": "Luxury Indian fashion editorial photograph, full-body young Indian man wearing a greige cotton silk dhoti & kurta set, contemporary dhoti-style trousers with a structured kurta, styled for festive party, contemporary Indian fashion for young adults, realistic textile texture, natural garment drape, premium editorial photography, cinematic soft lighting, a warm evening celebration venue with lanterns, complete outfit visible head to toe, vertical 3:4 portrait, no text, no logos, no watermark"
  },
  {
   "key": "men|draped-kurta-with-asymmetric-hem|fuchsia",
@@ -1829,47 +1789,6 @@
   "prompt": "Luxury Indian fashion editorial photograph, full-body young Indian man wearing a mustard raw silk ethnic skirt & kurta set with kamdani, straight-cut kurta with tailored trousers, youthful modern fit, styled for festive party, contemporary Indian fashion for young adults, realistic textile texture, natural garment drape, premium editorial photography, cinematic soft lighting, a sunlit colonnade with arches, complete outfit visible head to toe, vertical 3:4 portrait, no text, no logos, no watermark"
  },
  {
-  "key": "men|festive-co-ord-suit|blush",
-  "kind": "men",
-  "base": "m-m-coord-suit-01",
-  "slot": "m-m-coord-suit-01-1",
-  "file": "/images/photos/m-m-coord-suit-01-1.jpg",
-  "productIds": [
-   "m-coord-suit-01",
-   "m-coord-suit-05"
-  ],
-  "colour": "Rose",
-  "colourHex": "#E4A9A2",
-  "prompt": "Luxury Indian fashion editorial photograph, full-body young Indian man wearing a rose modal blend festive co-ord suit with tone-on-tone, modern festive co-ord set with clean lines, styled for daywear, contemporary Indian fashion for young adults, realistic textile texture, natural garment drape, premium editorial photography, cinematic soft lighting, contemporary Indian architecture with warm stone, complete outfit visible head to toe, vertical 3:4 portrait, no text, no logos, no watermark"
- },
- {
-  "key": "men|festive-co-ord-suit|blush",
-  "kind": "men",
-  "base": "m-m-coord-suit-01",
-  "slot": "m-m-coord-suit-01-2",
-  "file": "/images/photos/m-m-coord-suit-01-2.jpg",
-  "productIds": [
-   "m-coord-suit-03"
-  ],
-  "colour": "Rose",
-  "colourHex": "#E4A9A2",
-  "prompt": "Luxury Indian fashion editorial photograph, full-body young Indian man wearing a rose modal blend festive co-ord suit with buti motifs, modern festive co-ord set with clean lines, styled for daywear, contemporary Indian fashion for young adults, realistic textile texture, natural garment drape, premium editorial photography, cinematic soft lighting, a festive courtyard strung with warm fairy lights, complete outfit visible head to toe, vertical 3:4 portrait, no text, no logos, no watermark"
- },
- {
-  "key": "men|festive-co-ord-suit|sand",
-  "kind": "men",
-  "base": "m-m-coord-suit-02",
-  "slot": "m-m-coord-suit-02",
-  "file": "/images/photos/m-m-coord-suit-02.jpg",
-  "productIds": [
-   "m-coord-suit-02",
-   "m-coord-suit-04"
-  ],
-  "colour": "Sand",
-  "colourHex": "#D8C8A5",
-  "prompt": "Luxury Indian fashion editorial photograph, full-body young Indian man wearing a sand viscose festive co-ord suit with pearl detailing, modern festive co-ord set with clean lines, styled for daywear, contemporary Indian fashion for young adults, realistic textile texture, natural garment drape, premium editorial photography, cinematic soft lighting, a sunlit colonnade with arches, complete outfit visible head to toe, vertical 3:4 portrait, no text, no logos, no watermark"
- },
- {
   "key": "men|formal-shirt-trouser-set|powder",
   "kind": "men",
   "base": "m-m-formal-shirt-02",
@@ -1987,19 +1906,6 @@
   "colour": "Plum",
   "colourHex": "#5D2E4E",
   "prompt": "Premium product photograph of a plum groom gifting kit, corduroy material, macro editorial close-up, realistic materials and realistic texture, warm studio lighting, soft shadows, clean luxurious composition on a warm ivory surface, shallow depth of field, vertical 3:4 framing, no text, no logos, no watermark, not a vector illustration"
- },
- {
-  "key": "men|ivory-dinner-jacket-set|sand",
-  "kind": "men",
-  "base": "m-m-formal-dinner-01",
-  "slot": "m-m-formal-dinner-01",
-  "file": "/images/photos/m-m-formal-dinner-01.jpg",
-  "productIds": [
-   "m-formal-dinner-01"
-  ],
-  "colour": "Oat Melange",
-  "colourHex": "#D9CDB8",
-  "prompt": "Luxury Indian fashion editorial photograph, full-body young Indian man wearing an oat melange satin ivory dinner jacket set with stone work, modern Indian festive outfit, clean contemporary fit, styled for reception, contemporary Indian fashion for young adults, realistic textile texture, natural garment drape, premium editorial photography, cinematic soft lighting, a refined rooftop terrace at dusk, complete outfit visible head to toe, vertical 3:4 portrait, no text, no logos, no watermark"
  },
  {
   "key": "men|jacket-over-shirt-fusion-set|ivory",
@@ -2878,32 +2784,6 @@
   "prompt": "Luxury Indian fashion editorial photograph, full-body young Indian man wearing a peacock teal silk kurta set with zari, straight-cut kurta with tailored trousers, youthful modern fit, styled for diwali party, contemporary Indian fashion for young adults, realistic textile texture, natural garment drape, premium editorial photography, cinematic soft lighting, contemporary Indian architecture with warm stone, complete outfit visible head to toe, vertical 3:4 portrait, no text, no logos, no watermark"
  },
  {
-  "key": "men|structured-blazer-with-formal-trouser|sand",
-  "kind": "men",
-  "base": "m-m-formal-blazer-02",
-  "slot": "m-m-formal-blazer-02",
-  "file": "/images/photos/m-m-formal-blazer-02.jpg",
-  "productIds": [
-   "m-formal-blazer-02"
-  ],
-  "colour": "Stone Grey",
-  "colourHex": "#9A968C",
-  "prompt": "Luxury Indian fashion editorial photograph, full-body young Indian man wearing a stone grey cotton silk structured blazer with formal trouser, modern Indian festive outfit, clean contemporary fit, styled for wedding, contemporary Indian fashion for young adults, realistic textile texture, natural garment drape, premium editorial photography, cinematic soft lighting, contemporary Indian architecture with warm stone, complete outfit visible head to toe, vertical 3:4 portrait, no text, no logos, no watermark"
- },
- {
-  "key": "men|structured-blazer-with-formal-trouser|wine",
-  "kind": "men",
-  "base": "m-m-formal-blazer-01",
-  "slot": "m-m-formal-blazer-01",
-  "file": "/images/photos/m-m-formal-blazer-01.jpg",
-  "productIds": [
-   "m-formal-blazer-01"
-  ],
-  "colour": "Wine",
-  "colourHex": "#6B2233",
-  "prompt": "Luxury Indian fashion editorial photograph, full-body young Indian man wearing a wine wool blend structured blazer with formal trouser with tone-on-tone, modern Indian festive outfit, clean contemporary fit, styled for wedding, contemporary Indian fashion for young adults, realistic textile texture, natural garment drape, premium editorial photography, cinematic soft lighting, a sunlit colonnade with arches, complete outfit visible head to toe, vertical 3:4 portrait, no text, no logos, no watermark"
- },
- {
   "key": "men|suede-look-loafers|navy",
   "kind": "accessory",
   "base": "a-suede-look-loafers-navy",
@@ -3032,19 +2912,6 @@
   "colour": "Copper",
   "colourHex": "#B4632A",
   "prompt": "Premium product photograph of a pair of copper handcrafted juttis, leather material with resham threadwork, macro editorial close-up, realistic materials and realistic texture, warm studio lighting, soft shadows, clean luxurious composition on a warm ivory surface, shallow depth of field, vertical 3:4 framing, no text, no logos, no watermark, not a vector illustration"
- },
- {
-  "key": "men|three-piece-reception-suit|wine",
-  "kind": "men",
-  "base": "m-m-formal-3piece-01",
-  "slot": "m-m-formal-3piece-01",
-  "file": "/images/photos/m-m-formal-3piece-01.jpg",
-  "productIds": [
-   "m-formal-3piece-01"
-  ],
-  "colour": "Wine",
-  "colourHex": "#6B2233",
-  "prompt": "Luxury Indian fashion editorial photograph, full-body young Indian man wearing a wine wool blend three-piece reception suit with tone-on-tone, modern Indian festive outfit, clean contemporary fit, styled for reception, contemporary Indian fashion for young adults, realistic textile texture, natural garment drape, premium editorial photography, cinematic soft lighting, an elegant Indian home interior with brass accents, complete outfit visible head to toe, vertical 3:4 portrait, no text, no logos, no watermark"
  },
  {
   "key": "men|tuxedo-jacket-evening-set|black",
