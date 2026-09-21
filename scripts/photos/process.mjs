@@ -75,7 +75,8 @@ for (const arg of process.argv.slice(2)) {
   const raw = join(STAGE, basename(arg))
   if (!existsSync(raw)) { console.log(`MISSING ${name}`); hardFails++; continue }
   const isCouple = isCoupleSlot(name)
-  const out = join(isCouple ? COUPLES : PHOTOS, `${name}.jpg`)
+  const extra = briefs.find((b) => b.slot === name && b.file && !b.file.includes('/couples/') && !b.file.includes('/photos/'))
+  const out = extra ? join(ROOT, 'public', extra.file.replace(/^\//, '')) : join(isCouple ? COUPLES : PHOTOS, `${name}.jpg`)
   try {
     // 1. decode check
     const info = execFileSync('identify', ['-format', '%m %w %h %[fx:standard_deviation]', raw]).toString()
