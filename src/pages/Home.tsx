@@ -93,7 +93,7 @@ export default function Home() {
         <div className="max-w-screen-xl mx-auto">
           <div className="flex items-end justify-between mb-12">
             <div>
-              <p className="text-xs font-semibold tracking-[0.3em] text-[#B7945A] uppercase mb-3">Shop by Occasion · 18 edits</p>
+              <p className="text-xs font-semibold tracking-[0.3em] text-[#B7945A] uppercase mb-3">Shop by Occasion · {occasions.length} edits</p>
               <h2 className="font-playfair text-3xl lg:text-5xl text-[#171918]">Dress for<br />the Moment</h2>
             </div>
             <Link to="/occasions" className="hidden sm:flex items-center gap-2 text-sm text-[#103C35] font-semibold hover:text-[#D95E3F] transition-colors">

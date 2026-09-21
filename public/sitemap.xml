@@ -53,6 +53,8 @@
   <url><loc>https://viraas.in/occasions/destination-wedding</loc></url>
   <url><loc>https://viraas.in/occasions/daywear</loc></url>
   <url><loc>https://viraas.in/occasions/winter</loc></url>
+  <url><loc>https://viraas.in/occasions/garba</loc></url>
+  <url><loc>https://viraas.in/occasions/haldi</loc></url>
   <url><loc>https://viraas.in/look/look-w-01</loc></url>
   <url><loc>https://viraas.in/look/look-w-02</loc></url>
   <url><loc>https://viraas.in/look/look-w-03</loc></url>
@@ -207,6 +209,34 @@
   <url><loc>https://viraas.in/look/couple-wedding-guest-deepgreen-sand</loc></url>
   <url><loc>https://viraas.in/look/couple-winter-burgundy-ivory</loc></url>
   <url><loc>https://viraas.in/look/couple-date-night-chocolate-cream</loc></url>
+  <url><loc>https://viraas.in/look/couple-emerald-ivory-rooftop</loc></url>
+  <url><loc>https://viraas.in/look/couple-wine-ivory-evening</loc></url>
+  <url><loc>https://viraas.in/look/couple-fuchsia-teal-garba</loc></url>
+  <url><loc>https://viraas.in/look/couple-powder-blue-ivory-brunch</loc></url>
+  <url><loc>https://viraas.in/look/couple-rust-cream-olive</loc></url>
+  <url><loc>https://viraas.in/look/couple-blush-navy-cocktail</loc></url>
+  <url><loc>https://viraas.in/look/couple-cobalt-ivory-sangeet</loc></url>
+  <url><loc>https://viraas.in/look/couple-plum-blush-engagement</loc></url>
+  <url><loc>https://viraas.in/look/couple-sage-ivory-courtyard</loc></url>
+  <url><loc>https://viraas.in/look/couple-teal-coral-navratri</loc></url>
+  <url><loc>https://viraas.in/look/couple-olive-blush-mehendi</loc></url>
+  <url><loc>https://viraas.in/look/couple-black-antique-reception</loc></url>
+  <url><loc>https://viraas.in/look/couple-lilac-charcoal-soiree</loc></url>
+  <url><loc>https://viraas.in/look/couple-burgundy-champagne-reception</loc></url>
+  <url><loc>https://viraas.in/look/couple-deep-green-sand-destination</loc></url>
+  <url><loc>https://viraas.in/look/couple-navy-sage-winter</loc></url>
+  <url><loc>https://viraas.in/look/couple-rani-ivory-sangeet</loc></url>
+  <url><loc>https://viraas.in/look/couple-terracotta-cream-haldi</loc></url>
+  <url><loc>https://viraas.in/look/couple-chocolate-cream-puja</loc></url>
+  <url><loc>https://viraas.in/look/couple-maroon-champagne-wedding-guest</loc></url>
+  <url><loc>https://viraas.in/look/couple-fuchsia-navy-college</loc></url>
+  <url><loc>https://viraas.in/look/couple-ivory-jade-engagement</loc></url>
+  <url><loc>https://viraas.in/look/couple-rose-olive-day-function</loc></url>
+  <url><loc>https://viraas.in/look/couple-mustard-ivory-college</loc></url>
+  <url><loc>https://viraas.in/look/couple-peacock-teal-cream-garba</loc></url>
+  <url><loc>https://viraas.in/look/couple-wine-ivory-wedding-guest</loc></url>
+  <url><loc>https://viraas.in/look/couple-mint-peach-mehendi-duo</loc></url>
+  <url><loc>https://viraas.in/look/couple-charcoal-rose-date</loc></url>
   <url><loc>https://viraas.in/product/w-saree-drape-01</loc></url>
   <url><loc>https://viraas.in/product/w-saree-drape-02</loc></url>
   <url><loc>https://viraas.in/product/w-saree-drape-03</loc></url>
@@ -786,6 +816,18 @@
   <url><loc>https://viraas.in/product/b-stick-lip-03</loc></url>
   <url><loc>https://viraas.in/product/b-palette-compact-01</loc></url>
   <url><loc>https://viraas.in/product/b-palette-compact-02</loc></url>
+  <url><loc>https://viraas.in/product/m-formal-suit-01</loc></url>
+  <url><loc>https://viraas.in/product/m-formal-suit-02</loc></url>
+  <url><loc>https://viraas.in/product/m-formal-suit-03</loc></url>
+  <url><loc>https://viraas.in/product/m-formal-suit-04</loc></url>
+  <url><loc>https://viraas.in/product/m-formal-blazer-01</loc></url>
+  <url><loc>https://viraas.in/product/m-formal-blazer-02</loc></url>
+  <url><loc>https://viraas.in/product/m-formal-blazer-03</loc></url>
+  <url><loc>https://viraas.in/product/m-formal-tuxedo-01</loc></url>
+  <url><loc>https://viraas.in/product/m-formal-tuxedo-02</loc></url>
+  <url><loc>https://viraas.in/product/m-formal-tuxedo-03</loc></url>
+  <url><loc>https://viraas.in/product/m-formal-shirt-trouser-01</loc></url>
+  <url><loc>https://viraas.in/product/m-formal-shirt-trouser-02</loc></url>
   <url><loc>https://viraas.in/product/cp-set-01</loc></url>
   <url><loc>https://viraas.in/product/cp-set-02</loc></url>
   <url><loc>https://viraas.in/product/cp-set-03</loc></url>
@@ -802,4 +844,48 @@
   <url><loc>https://viraas.in/product/cp-set-14</loc></url>
   <url><loc>https://viraas.in/product/cp-set-15</loc></url>
   <url><loc>https://viraas.in/product/cp-set-16</loc></url>
+  <url><loc>https://viraas.in/product/cp-set-17</loc></url>
+  <url><loc>https://viraas.in/product/cp-set-18</loc></url>
+  <url><loc>https://viraas.in/product/cp-set-19</loc></url>
+  <url><loc>https://viraas.in/product/cp-set-20</loc></url>
+  <url><loc>https://viraas.in/product/cp-set-21</loc></url>
+  <url><loc>https://viraas.in/product/cp-set-22</loc></url>
+  <url><loc>https://viraas.in/product/cp-set-23</loc></url>
+  <url><loc>https://viraas.in/product/cp-set-24</loc></url>
+  <url><loc>https://viraas.in/product/cp-set-25</loc></url>
+  <url><loc>https://viraas.in/product/cp-set-26</loc></url>
+  <url><loc>https://viraas.in/product/cp-set-27</loc></url>
+  <url><loc>https://viraas.in/product/cp-set-28</loc></url>
+  <url><loc>https://viraas.in/product/cp-set-29</loc></url>
+  <url><loc>https://viraas.in/product/cp-set-30</loc></url>
+  <url><loc>https://viraas.in/product/cp-set-31</loc></url>
+  <url><loc>https://viraas.in/product/cp-set-32</loc></url>
+  <url><loc>https://viraas.in/product/cp-set-33</loc></url>
+  <url><loc>https://viraas.in/product/cp-set-34</loc></url>
+  <url><loc>https://viraas.in/product/cp-set-35</loc></url>
+  <url><loc>https://viraas.in/product/cp-set-36</loc></url>
+  <url><loc>https://viraas.in/product/cp-set-37</loc></url>
+  <url><loc>https://viraas.in/product/cp-set-38</loc></url>
+  <url><loc>https://viraas.in/product/cp-set-39</loc></url>
+  <url><loc>https://viraas.in/product/cp-set-40</loc></url>
+  <url><loc>https://viraas.in/product/cp-set-41</loc></url>
+  <url><loc>https://viraas.in/product/cp-set-42</loc></url>
+  <url><loc>https://viraas.in/product/cp-set-43</loc></url>
+  <url><loc>https://viraas.in/product/cp-set-44</loc></url>
+  <url><loc>https://viraas.in/product/cp-set-45</loc></url>
+  <url><loc>https://viraas.in/product/cp-set-46</loc></url>
+  <url><loc>https://viraas.in/product/cp-set-47</loc></url>
+  <url><loc>https://viraas.in/product/cp-set-48</loc></url>
+  <url><loc>https://viraas.in/product/cp-set-49</loc></url>
+  <url><loc>https://viraas.in/product/cp-set-50</loc></url>
+  <url><loc>https://viraas.in/product/cp-set-51</loc></url>
+  <url><loc>https://viraas.in/product/cp-set-52</loc></url>
+  <url><loc>https://viraas.in/product/cp-set-53</loc></url>
+  <url><loc>https://viraas.in/product/cp-set-54</loc></url>
+  <url><loc>https://viraas.in/product/cp-set-55</loc></url>
+  <url><loc>https://viraas.in/product/cp-set-56</loc></url>
+  <url><loc>https://viraas.in/product/cp-set-57</loc></url>
+  <url><loc>https://viraas.in/product/cp-set-58</loc></url>
+  <url><loc>https://viraas.in/product/cp-set-59</loc></url>
+  <url><loc>https://viraas.in/product/cp-set-60</loc></url>
 </urlset>

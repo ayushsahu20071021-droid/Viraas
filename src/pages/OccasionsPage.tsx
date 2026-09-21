@@ -21,7 +21,7 @@ export default function OccasionsPage() {
         <div className="min-h-screen flex items-center justify-center bg-[#F6F0E6] pt-20">
           <div className="text-center px-4">
             <h1 className="font-playfair text-3xl text-[#171918] mb-4">Occasion not found</h1>
-            <p className="text-sm text-[#AEB8A0] mb-6">We publish 18 occasion edits — pick one from the index.</p>
+            <p className="text-sm text-[#AEB8A0] mb-6">We publish {occasions.length} occasion edits — pick one from the index.</p>
             <Link to="/occasions" className="px-6 py-2.5 rounded-full bg-[#103C35] text-white text-sm font-semibold">All Occasions</Link>
           </div>
         </div>

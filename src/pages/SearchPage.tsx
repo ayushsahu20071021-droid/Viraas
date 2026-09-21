@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { useSearchParams, Link } from 'react-router-dom';
 import { Search, Layers } from 'lucide-react';
-import { searchProducts, products, categoriesForGender } from '../data/products';
+import { searchProducts, products, categoriesForGender, textMatchesQuery } from '../data/products';
 import { allLooks } from '../data/looks';
 import { getOccasion } from '../data/occasions';
 import ProductCard from '../components/ProductCard';
@@ -16,10 +16,7 @@ export default function SearchPage() {
   const q = searchParams.get('q') || '';
   const results = q ? searchProducts(q, 60) : [];
   const matchedLooks = q
-    ? allLooks.filter((l) => {
-        const hay = `${l.title} ${l.occasions.join(' ')} ${l.mood} ${l.description}`.toLowerCase();
-        return q.toLowerCase().split(/\s+/).filter((t) => t.length > 1).every((t) => hay.includes(t));
-      }).slice(0, 6)
+    ? allLooks.filter((l) => textMatchesQuery(`${l.title} ${l.occasions.join(' ')} ${l.mood} ${l.description}`, q)).slice(0, 6)
     : [];
   const suggestions = ['diwali saree', 'pre-draped', 'wedding guest men', 'chikankari kurti', 'navratri kediyu', 'ivory organza', 'jhumka', 'bandhgala', 'sangeet lehenga', 'under 1500 co-ord'];
   const occGuess = q ? ['diwali', 'navratri', 'sangeet', 'reception', 'wedding', 'mehendi', 'college-fest'].find((id) => q.toLowerCase().includes(id.replace('-', ' ').split(' ')[0])) : undefined;

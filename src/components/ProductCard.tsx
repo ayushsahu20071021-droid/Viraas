@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Heart, Sparkles, ShoppingBag, AlertTriangle } from 'lucide-react';
 import { type Product } from '../data/products';
+import { getAffiliateUrl } from '../data/affiliate-links';
 import { toggleSavedLook, isLookSaved } from '../utils/savedLooks';
 import { trackAffiliateClick, trackEvent } from '../utils/analytics';
 import { formatPrice, isMoney, discountPct } from '../utils/format';
@@ -36,7 +37,8 @@ export default function ProductCard({ product, onTryOn }: Props) {
   const handleShop = (e: React.MouseEvent) => {
     e.preventDefault();
     e.stopPropagation();
-    const url = product.affiliateUrl || product.merchantUrl;
+    // Affiliate URLs resolve ONLY through the central file (src/data/affiliate-links.ts).
+    const url = getAffiliateUrl(product.id) || product.merchantUrl;
     if (url) {
       trackAffiliateClick(product.id, product.merchantLabel, product.category);
       window.open(url, '_blank', 'noopener,noreferrer');

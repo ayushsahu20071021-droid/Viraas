@@ -3,6 +3,7 @@ import { useParams, Link } from 'react-router-dom';
 import { ArrowLeft, Sparkles, ShoppingBag, Share2, ExternalLink } from 'lucide-react';
 import { getLookById, lookItems } from '../data/looks';
 import { getProductById } from '../data/products';
+import { getAffiliateUrl } from '../data/affiliate-links';
 import ProductCard from '../components/ProductCard';
 import TryOnModal from '../components/TryOnModal';
 import { type Product } from '../data/products';
@@ -41,8 +42,9 @@ export default function LookPage() {
     } catch { /* cancelled */ }
   };
   const shopItem = (p: Product) => {
+    // Affiliate URLs resolve ONLY through the central file (src/data/affiliate-links.ts).
     trackAffiliateClick(p.id, p.merchantLabel, p.category);
-    window.open(p.affiliateUrl || p.merchantUrl, '_blank', 'noopener,noreferrer');
+    window.open(getAffiliateUrl(p.id) || p.merchantUrl, '_blank', 'noopener,noreferrer');
   };
 
   return (

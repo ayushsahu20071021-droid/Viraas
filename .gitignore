@@ -5,3 +5,5 @@ dist/
 *.log
 node_modules_check/
 .DS_Store
+.image-manifest.json
+assets-raw/

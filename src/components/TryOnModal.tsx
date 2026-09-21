@@ -2,8 +2,8 @@ import { useState, useRef } from 'react';
 import { X, Upload, Sparkles, Camera, AlertCircle, Download, Share2, ShoppingBag } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { type Product } from '../data/products';
-import { trackEvent, trackTryOn } from '../utils/analytics';
-import { trackAffiliateClick } from '../utils/analytics';
+import { getAffiliateUrl } from '../data/affiliate-links';
+import { trackEvent, trackTryOn, trackAffiliateClick } from '../utils/analytics';
 import { formatPrice } from '../utils/format';
 
 interface Props {
@@ -118,7 +118,8 @@ export default function TryOnModal({ product, onClose }: Props) {
   };
 
   const handleShop = () => {
-    const url = product.affiliateUrl || product.merchantUrl;
+    // Affiliate URLs resolve ONLY through the central file (src/data/affiliate-links.ts).
+    const url = getAffiliateUrl(product.id) || product.merchantUrl;
     if (url && url !== '#') {
       trackAffiliateClick(product.id, product.merchantLabel, product.category);
       window.open(url, '_blank', 'noopener,noreferrer');
