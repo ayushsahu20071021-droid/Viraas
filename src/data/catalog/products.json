@@ -14439,8 +14439,9 @@
    "Handloom & Artisan"
   ],
   "description": "A sand Cotton kurta with a chikankari-worked placket that stops below the chest, so it reads refined under a jacket and complete on its own. Straight grain cut to fall without flare; side slits with bar-tacked tops; mother-of-pearl-look buttons on a hidden placket. Includes matching bottom as listed.",
-  "imageUrl": "/images/products/m-kurtiset-cotton-01.svg",
+  "imageUrl": "/images/products/m-kurtiset-cotton-01.jpg",
   "gallery": [
+   "/images/products/m-kurtiset-cotton-01.jpg",
    "/images/products/m-kurtiset-cotton-01-b.svg",
    "/images/products/m-kurtiset-cotton-01-c.svg"
   ],
@@ -14491,8 +14492,9 @@
    "Handloom & Artisan"
   ],
   "description": "A ivory Linen kurta with a block-printed placket that stops below the chest, so it reads refined under a jacket and complete on its own. Straight grain cut to fall without flare; side slits with bar-tacked tops; mother-of-pearl-look buttons on a hidden placket. Includes matching bottom as listed.",
-  "imageUrl": "/images/products/m-kurtiset-cotton-02.svg",
+  "imageUrl": "/images/products/m-kurtiset-cotton-02.jpg",
   "gallery": [
+   "/images/products/m-kurtiset-cotton-02.jpg",
    "/images/products/m-kurtiset-cotton-02-b.svg",
    "/images/products/m-kurtiset-cotton-02-c.svg"
   ],
@@ -17269,7 +17271,7 @@
  },
  {
   "id": "m-jacket-brocade-05",
-  "title": "Bronze Craft-clean Nehru Jacket (Brocade)",
+  "title": "Black Zari-detailed Festive Nehru Jacket",
   "gender": "men",
   "category": "jackets",
   "subCategory": "Nehru Jacket (Brocade)",
@@ -17281,23 +17283,25 @@
    24,
    35
   ],
-  "colour": "Bronze",
-  "secondaryColour": "Silver",
+  "colour": "Black",
+  "secondaryColour": "Antique Gold",
   "fabric": "Raw Silk",
   "silhouette": "Men Jacket",
   "occasions": [
-   "Wedding",
-   "Reception",
+   "Diwali Party",
+   "Navratri",
+   "Garba",
    "Sangeet",
-   "Diwali Party"
+   "Reception",
+   "Wedding"
   ],
   "styleTags": [
-   "Contemporary",
    "Festive",
-   "Occasion",
-   "Modern Luxury"
+   "Contemporary",
+   "Modern Luxury",
+   "Pinterest Inspired"
   ],
-  "description": "A structured Raw Silk jacket in bronze with a clean line treatment along the front placket and cuffs — the piece that turns any plain kurta set into an occasion look. Fully canvassed chest, functioning sleeve vents, interior pocket; cut closer to the body than a blazer so it stays Indian with jodhpurs or jeans.",
+  "description": "A sharp black structured jacket in fine silk brocade with restrained antique gold zari accents — the piece that turns any plain kurta into an evening statement look. Modern silhouette styled for festive and Garba nights.",
   "imageUrl": "/images/products/m-jacket-brocade-05.svg",
   "gallery": [
    "/images/products/m-jacket-brocade-05-b.svg",
@@ -17316,7 +17320,7 @@
   "status": "CHECK",
   "lastChecked": "2026-09-20",
   "notes": "Generated from VIRAAS editorial tables on 2026-09-20. Verify live price, seller and image on AJIO before publishing; wire EarnKaro affiliate link into affiliateUrl once generated.",
-  "imagePrompt": "luxury Indian editorial product photography for a men occasion outfit: Bronze Craft-clean Nehru Jacket (Brocade), Raw Silk, in Bronze with Silver accents, on a faceless studio mannequin, soft warm window light, ivory or muted emerald backdrop, subtle festive styling props, no visible faces, no text, no logos, no watermark, high-end magazine quality"
+  "imagePrompt": "luxury contemporary Indian menswear editorial photography: Black Zari-detailed Festive Nehru Jacket, in Black with Antique Gold accents, on a faceless studio mannequin, soft warm light, modern festive styling, no text, no logos, no watermark"
  },
  {
   "id": "m-jacket-velvet-01",
@@ -18217,8 +18221,9 @@
    "Festive"
   ],
   "description": "A structured Viscose jacket in rose with a block-printed treatment along the front placket and cuffs — the piece that turns any plain kurta set into an occasion look. Fully canvassed chest, functioning sleeve vents, interior pocket; cut closer to the body than a blazer so it stays Indian with jodhpurs or jeans.",
-  "imageUrl": "/images/products/m-jacket-printed-01.svg",
+  "imageUrl": "/images/products/m-jacket-printed-01.jpg",
   "gallery": [
+   "/images/products/m-jacket-printed-01.jpg",
    "/images/products/m-jacket-printed-01-b.svg",
    "/images/products/m-jacket-printed-01-c.svg"
   ],
@@ -18367,8 +18372,9 @@
    "Festive"
   ],
   "description": "A structured Cotton Silk jacket in copper with a thread-embroidered treatment along the front placket and cuffs — the piece that turns any plain kurta set into an occasion look. Fully canvassed chest, functioning sleeve vents, interior pocket; cut closer to the body than a blazer so it stays Indian with jodhpurs or jeans.",
-  "imageUrl": "/images/products/m-jacket-emb-01.svg",
+  "imageUrl": "/images/products/m-jacket-emb-01.jpg",
   "gallery": [
+   "/images/products/m-jacket-emb-01.jpg",
    "/images/products/m-jacket-emb-01-b.svg",
    "/images/products/m-jacket-emb-01-c.svg"
   ],
@@ -18720,8 +18726,9 @@
    "Occasion"
   ],
   "description": "A ivory Kerala Kasavu kurta with a zari-woven placket that stops below the chest, so it reads refined under a jacket and complete on its own. Straight grain cut to fall without flare; side slits with bar-tacked tops; mother-of-pearl-look buttons on a hidden placket. Includes matching bottom as listed.",
-  "imageUrl": "/images/products/m-indowest-skirt-01.svg",
+  "imageUrl": "/images/products/m-indowest-skirt-01.jpg",
   "gallery": [
+   "/images/products/m-indowest-skirt-01.jpg",
    "/images/products/m-indowest-skirt-01-b.svg",
    "/images/products/m-indowest-skirt-01-c.svg"
   ],
@@ -20453,8 +20460,9 @@
    "Statement"
   ],
   "description": "A peach Cotton kurta with a mirror-work placket that stops below the chest, so it reads refined under a jacket and complete on its own. Straight grain cut to fall without flare; side slits with bar-tacked tops; mother-of-pearl-look buttons on a hidden placket. Includes matching bottom as listed.",
-  "imageUrl": "/images/products/m-garba-kediyu-01.svg",
+  "imageUrl": "/images/products/m-garba-kediyu-01.jpg",
   "gallery": [
+   "/images/products/m-garba-kediyu-01.jpg",
    "/images/products/m-garba-kediyu-01-b.svg",
    "/images/products/m-garba-kediyu-01-c.svg"
   ],
@@ -20504,8 +20512,9 @@
    "Handloom & Artisan"
   ],
   "description": "A hot pink Rayon kurta with a bandhani-tied placket that stops below the chest, so it reads refined under a jacket and complete on its own. Straight grain cut to fall without flare; side slits with bar-tacked tops; mother-of-pearl-look buttons on a hidden placket. Includes matching bottom as listed.",
-  "imageUrl": "/images/products/m-garba-kediyu-02.svg",
+  "imageUrl": "/images/products/m-garba-kediyu-02.jpg",
   "gallery": [
+   "/images/products/m-garba-kediyu-02.jpg",
    "/images/products/m-garba-kediyu-02-b.svg",
    "/images/products/m-garba-kediyu-02-c.svg"
   ],
@@ -20806,8 +20815,9 @@
    "Handloom & Artisan"
   ],
   "description": "A silver Rayon kurta with a bandhani-tied placket that stops below the chest, so it reads refined under a jacket and complete on its own. Straight grain cut to fall without flare; side slits with bar-tacked tops; mother-of-pearl-look buttons on a hidden placket. Includes matching bottom as listed.",
-  "imageUrl": "/images/products/m-garba-kafni-01.svg",
+  "imageUrl": "/images/products/m-garba-kafni-01.jpg",
   "gallery": [
+   "/images/products/m-garba-kafni-01.jpg",
    "/images/products/m-garba-kafni-01-b.svg",
    "/images/products/m-garba-kafni-01-c.svg"
   ],
@@ -21007,8 +21017,9 @@
    "Statement"
   ],
   "description": "A coral Cotton kurta with a mirror-work placket that stops below the chest, so it reads refined under a jacket and complete on its own. Straight grain cut to fall without flare; side slits with bar-tacked tops; mother-of-pearl-look buttons on a hidden placket. Includes matching bottom as listed.",
-  "imageUrl": "/images/products/m-garba-vest-01.svg",
+  "imageUrl": "/images/products/m-garba-vest-01.jpg",
   "gallery": [
+   "/images/products/m-garba-vest-01.jpg",
    "/images/products/m-garba-vest-01-b.svg",
    "/images/products/m-garba-vest-01-c.svg"
   ],
@@ -28934,7 +28945,7 @@
   "imageUrl": "/images/couple-plates/ivory-gold.svg",
   "gallery": [
    "/images/products/w-saree-organza-02.svg",
-   "/images/products/m-kurtiset-cotton-02.svg"
+   "/images/products/m-kurtiset-cotton-02.jpg"
   ],
   "sizes": [
    "Her M",
@@ -29280,7 +29291,7 @@
   "imageUrl": "/images/couple-plates/destination-white.svg",
   "gallery": [
    "/images/products/w-saree-drape-03.svg",
-   "/images/products/m-kurtiset-cotton-01.svg"
+   "/images/products/m-kurtiset-cotton-01.jpg"
   ],
   "sizes": [
    "Her M",
@@ -29476,7 +29487,7 @@
   "imageUrl": "/images/couple-plates/family-function.svg",
   "gallery": [
    "/images/products/w-saree-drape-03.svg",
-   "/images/products/m-kurtiset-cotton-01.svg"
+   "/images/products/m-kurtiset-cotton-01.jpg"
   ],
   "sizes": [
    "Her M",

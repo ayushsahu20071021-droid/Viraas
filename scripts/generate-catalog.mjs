@@ -18,7 +18,7 @@
 // EarnKaro link. Deep merchantUrls point to the closest real retailer
 // category/search page — never a bare homepage. Never Amazon.
 // ─────────────────────────────────────────────────────────────────────────────
-import { mkdirSync, writeFileSync, readFileSync } from 'node:fs';
+import { mkdirSync, writeFileSync, readFileSync, existsSync } from 'node:fs';
 import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { renderPlate, renderCouplePlate, COLOUR_HEX, hashStr } from './plates.mjs'
@@ -497,8 +497,8 @@ for (const sub of ALL) {
       weave: CRAFTS[craft]?.type === 'weave' ? craft : undefined,
       silhouette: humanSub(sub.sil), occasions, styleTags: styleFor(sub, craft),
       description: descriptionFor(r, sub, craft, colour, fabric),
-      imageUrl: `/images/products/${id}.svg`,
-      gallery: [`/images/products/${id}-b.svg`, `/images/products/${id}-c.svg`],
+      imageUrl: existsSync(join(ROOT, 'public/images/products', `${id}.jpg`)) ? `/images/products/${id}.jpg` : `/images/products/${id}.svg`,
+      gallery: existsSync(join(ROOT, 'public/images/products', `${id}.jpg`)) ? [`/images/products/${id}.jpg`, `/images/products/${id}-b.svg`, `/images/products/${id}-c.svg`] : [`/images/products/${id}-b.svg`, `/images/products/${id}-c.svg`],
       sizes, inHouseTryOn: tryOnEnabled, affiliateUrl: undefined,
       merchantUrl: deepLink(mKey, sub, colour, terms), merchantLabel,
       status: 'CHECK', lastChecked: TODAY,
@@ -575,6 +575,22 @@ const COUPLES = [
   ['date-evening', 'Date Night in Wine', 'Date', 'bold', ['Wine', 'Chocolate']],
   ['mehendi-mint', 'Mehendi Morning in Mint', 'Mehendi', 'fresh', ['Mint', 'Peach']],
   ['festive-brass', 'Festive Family Brass & Ivory', 'Family', 'minimal', ['Champagne', 'Olive']],
+  ['garba-black-gold', 'Midnight Mirror Garba Night', 'Garba', 'contemporary', ['Black', 'Antique Gold']],
+  ['diwali-wine-ivory', 'Royal Wine & Ivory Diwali Edit', 'Diwali', 'festive', ['Wine', 'Ivory']],
+  ['sangeet-emerald-cream', 'Emerald & Cream Sangeet Romance', 'Sangeet', 'luxe', ['Emerald', 'Cream']],
+  ['wedding-maroon-champagne', 'Heritage Maroon & Champagne Wedding', 'Wedding', 'royal', ['Maroon', 'Champagne']],
+  ['haldi-mustard-ivory', 'Sunlit Mustard & Ivory Haldi Pair', 'Haldi', 'vibrant', ['Mustard', 'Ivory']],
+  ['cocktail-charcoal-rose', 'Charcoal & Dusty Rose Evening Soiree', 'Reception', 'modern', ['Charcoal', 'Rose']],
+  ['navratri-rust-cream', 'Chaniya & Kurta Rust Festive Rhythm', 'Garba', 'festive', ['Rust', 'Cream']],
+  ['reception-navy-peach', 'Midnight Navy & Peach Reception Pair', 'Reception', 'elegant', ['Navy', 'Peach']],
+  ['college-fest-sage-ivory', 'Campus Traditional Sage & Ivory Duo', 'College', 'youthful', ['Sage', 'Ivory']],
+  ['mehendi-forest-rose', 'Forest Green & Soft Rose Mehendi', 'Mehendi', 'fresh', ['Forest Green', 'Blush Pink']],
+  ['engagement-powder-ivory', 'Powder Blue & Ivory Courtyard Engagement', 'Engagement', 'serene', ['Powder Blue', 'Ivory']],
+  ['puja-terracotta-cream', 'Terracotta & Ivory Dawn Puja Harmony', 'Puja & Temple', 'devotional', ['Terracotta', 'Cream']],
+  ['festive-plum-blush', 'Plum & Blush Twilight Festive Pairing', 'Festive Party', 'contemporary', ['Plum', 'Blush']],
+  ['wedding-guest-deepgreen-sand', 'Deep Green & Sand Heritage Guest Duo', 'Wedding Guest', 'understated', ['Deep Green', 'Sand']],
+  ['winter-burgundy-ivory', 'Velvet Burgundy & Warm Ivory Winter Sangeet', 'Winter', 'rich', ['Deep Maroon', 'Ivory']],
+  ['date-night-chocolate-cream', 'Contemporary Chocolate & Cream Date Edit', 'Date Night', 'intimate', ['Chocolate', 'Cream']]
 ]
 const coupleLooks = []
 for (const [cid, title, occLabel, tag, cols] of COUPLES) {
@@ -595,7 +611,7 @@ for (const [cid, title, occLabel, tag, cols] of COUPLES) {
   })
 }
 // couple-set products (shop the pair)
-coupleLooks.forEach((c, idx) => {
+coupleLooks.slice(0, 16).forEach((c, idx) => {
   const [herId, hisId] = [c.herProductIds[0], c.hisProductIds[0]]
   const her = byId[herId], his = byId[hisId]
   if (!her || !his) return
