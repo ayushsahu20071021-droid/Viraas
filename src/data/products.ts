@@ -49,7 +49,7 @@ export const products: Product[] = catalog as unknown as Product[]
 const byId = new Map(products.map((p) => [p.id, p]))
 export const getProductById = (id: string): Product | undefined => byId.get(id)
 
-export const APPAREL_CATEGORIES = ['sarees', 'kurta-sets', 'co-ord-sets', 'lehenga', 'garba', 'jackets', 'indowestern']
+export const APPAREL_CATEGORIES = ['sarees', 'kurta-sets', 'co-ord-sets', 'sharara-gharara', 'lehenga', 'garba', 'jackets', 'indowestern']
 export const isApparel = (p: Product) => APPAREL_CATEGORIES.includes(p.category)
 export const isCouple = (p: Product) => p.category === 'couple-edit'
 
@@ -66,12 +66,25 @@ export const getProductsByOccasion = (occasionTag: string): Product[] =>
 
 // ── taxonomy for the storefront ───────────────────────────────────────────────
 export const CATEGORY_LABELS: Record<string, string> = {
-  sarees: 'Sarees', 'kurta-sets': 'Kurta & Anarkali Sets', 'co-ord-sets': 'Co-ord Sets',
-  lehenga: 'Lehenga & Chaniya', garba: 'Garba & Navratri', jackets: 'Jackets & Bandhgala',
-  indowestern: 'Indo-Western & Fusion', jewellery: 'Jewellery', bags: 'Bags & Clutches',
-  footwear: 'Footwear', watches: 'Watches', accessories: 'Grooming & Carry',
+  sarees: 'Sarees & Pre-Draped', 'kurta-sets': 'Kurta & Anarkali Sets', 'co-ord-sets': 'Co-ords',
+  'sharara-gharara': 'Sharara & Gharara', lehenga: 'Lehenga & Chaniya', garba: 'Chaniya Choli & Garba',
+  jackets: 'Jackets & Bandhgala', indowestern: 'Indo-Western & Fusion', jewellery: 'Jewellery',
+  bags: 'Bags & Clutches', footwear: 'Footwear', watches: 'Watches', accessories: 'Grooming & Carry',
   beauty: 'Beauty', 'couple-edit': 'Couple Sets', formals: 'Wedding Formals',
 }
+// Directive §12: the men's navigation must read as menswear — no "Anarkali".
+export const MEN_CATEGORY_LABELS: Record<string, string> = {
+  'kurta-sets': 'Kurta Sets', jackets: 'Jackets & Bandhgala', garba: 'Garba & Navratri',
+  formals: 'Wedding Formals', 'co-ord-sets': 'Festive Co-ords', indowestern: 'Indo-Western & Fusion',
+  accessories: 'Grooming & Accessories', footwear: 'Footwear', watches: 'Watches',
+}
+export function categoryLabel(gender: Gender | 'accessories' | undefined, category: string): string {
+  if (gender === 'men' && MEN_CATEGORY_LABELS[category]) return MEN_CATEGORY_LABELS[category]
+  return CATEGORY_LABELS[category] || category
+}
+// Directive §1/§48: exactly five user-facing occasion worlds.
+export const RETAINED_OCCASION_IDS = ['diwali', 'navratri', 'garba', 'festive-party', 'college-fest'] as const
+export const RETAINED_OCCASION_TAGS = ['Diwali Party', 'Navratri', 'Garba', 'Festive Party', 'College Fest'] as const
 
 /** Categories that actually carry results for a gender — no dead chips. */
 export function categoriesForGender(gender: Gender | 'accessories'): { key: string; label: string; count: number }[] {
@@ -80,7 +93,7 @@ export function categoriesForGender(gender: Gender | 'accessories'): { key: stri
   for (const p of pool) counts.set(p.category, (counts.get(p.category) || 0) + 1)
   return [...counts.entries()]
     .sort((a, b) => b[1] - a[1])
-    .map(([key, count]) => ({ key, label: CATEGORY_LABELS[key] || key.replace(/-/g, ' ').replace(/\b\w/g, (c) => c.toUpperCase()), count }))
+    .map(([key, count]) => ({ key, label: categoryLabel(gender, key), count }))
 }
 
 export const OCCASION_TAGS = [
@@ -371,10 +384,11 @@ export function filterProducts(
     for (const p of base) for (const v of g.valueOf(p)) counts.set(v, (counts.get(v) || 0) + 1)
     const threshold = opts.facetThreshold ?? (g.key === 'occasion' ? 6 : g.key === 'craft' ? 4 : 3)
     const options = [...counts.entries()]
+      .filter(([v]) => g.key !== 'occasion' || (RETAINED_OCCASION_TAGS as readonly string[]).includes(v))
       .filter(([v, n]) => n >= threshold || v === (f as Record<string, unknown>)[g.key])
       .sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]))
       .slice(0, g.key === 'budget' ? 8 : 12)
-      .map(([value, count]) => ({ value, label: g.key === 'category' ? CATEGORY_LABELS[value] || value : value, count }))
+      .map(([value, count]) => ({ value, label: g.key === 'category' ? categoryLabel(f.scope, value) : value, count }))
     return { key: g.key, label: g.label, options }
   }).filter((g) => g.options.length > 1)
 

@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { Heart, Sparkles, ShoppingBag, ArrowLeft, Share2, ExternalLink, AlertTriangle, Layers } from 'lucide-react';
-import { getProductById, completeTheLook, OCCASION_TAG_BY_ID } from '../data/products';
+import { getProductById, completeTheLook, OCCASION_TAG_BY_ID, RETAINED_OCCASION_IDS } from '../data/products';
 import { getAffiliateUrl } from '../data/affiliate-links';
 import { getLooksForProduct } from '../data/looks';
 import { toggleSavedLook, isLookSaved } from '../utils/savedLooks';
@@ -183,7 +183,7 @@ export default function ProductPage() {
             <div className="mb-6">
               <p className="text-xs text-[#AEB8A0] mb-2">Made for</p>
               <div className="flex flex-wrap gap-2">
-                {product.occasions.map((occ) => (
+                {product.occasions.filter((occ) => OCC_ID_BY_TAG[occ] && (RETAINED_OCCASION_IDS as readonly string[]).includes(OCC_ID_BY_TAG[occ])).map((occ) => (
                   <Link key={occ} to={`/occasions/${OCC_ID_BY_TAG[occ] || ''}`} className="px-3 py-1 bg-[#103C35]/10 text-[#103C35] text-xs font-medium rounded-full hover:bg-[#103C35] hover:text-[#F6F0E6] transition-colors">
                     {occ}
                   </Link>

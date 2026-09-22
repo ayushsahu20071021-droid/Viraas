@@ -19,7 +19,7 @@ export default function SearchPage() {
     ? allLooks.filter((l) => textMatchesQuery(`${l.title} ${l.occasions.join(' ')} ${l.mood} ${l.description}`, q)).slice(0, 6)
     : [];
   const suggestions = ['diwali saree', 'pre-draped', 'wedding guest men', 'chikankari kurti', 'navratri kediyu', 'ivory organza', 'jhumka', 'bandhgala', 'sangeet lehenga', 'under 1500 co-ord'];
-  const occGuess = q ? ['garba', 'haldi', 'diwali', 'navratri', 'sangeet', 'reception', 'wedding', 'mehendi', 'college-fest'].find((id) => q.toLowerCase().includes(id.replace('-', ' ').split(' ')[0])) : undefined;
+  const occGuess = q ? ['garba', 'navratri', 'diwali', 'festive-party', 'college-fest'].find((id) => q.toLowerCase().includes(id.replace('-', ' ').split(' ')[0]) || (id === 'festive-party' && /festive party|party wear/.test(q.toLowerCase()))) : undefined;
   const coupleGuess = q ? /couple|his and hers|his & hers|matching outfits/.test(q.toLowerCase()) : false;
 
   const submit = (value: string) => {

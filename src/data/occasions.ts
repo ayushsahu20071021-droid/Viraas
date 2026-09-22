@@ -135,6 +135,20 @@ if (garbaOccasion) garbaOccasion.tags = ['Garba', 'Navratri']
 
 export const getOccasion = (id: string) => occasions.find((o) => o.id === id)
 
+// ── retained user-facing occasion system (directive §1/§36/§48) ─────────────
+// Exactly five public edits. The other editorial occasions remain as internal
+// product metadata (search/tags stay intact) but are no longer navigable pages;
+// their old routes redirect to the nearest retained edit.
+export const USER_OCCASION_IDS = ['diwali', 'navratri', 'garba', 'festive-party', 'college-fest'] as const
+export const userOccasions: Occasion[] = USER_OCCASION_IDS.map((id) => getOccasion(id)).filter(Boolean) as Occasion[]
+export const OCCASION_REDIRECT: Record<string, string> = {
+  wedding: 'diwali', reception: 'diwali', engagement: 'diwali', 'wedding-guest': 'diwali',
+  'destination-wedding': 'diwali', puja: 'diwali', winter: 'diwali',
+  sangeet: 'festive-party', mehendi: 'festive-party', haldi: 'festive-party',
+  'family-function': 'festive-party', 'night-out': 'festive-party', 'date-night': 'festive-party',
+  daywear: 'festive-party', workwear: 'festive-party',
+}
+
 export function occasionProducts(occasionId: string, gender?: 'women' | 'men'): Product[] {
   const occ = getOccasion(occasionId)
   if (!occ) return []

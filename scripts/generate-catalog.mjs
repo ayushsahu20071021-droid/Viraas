@@ -529,6 +529,60 @@ for (const sub of ALL) {
     products.push(p)
   }
 }
+// ── FINAL CURATION PASS (category/silhouette/occasion/price reset) ───────────
+// 1) Taxonomy retags: sharara/gharara and co-ords become first-class categories
+//    (directive §4/§7/§8/§12) — metadata only, ids and imagery unchanged.
+const FAMILY_RETAG = [
+  [/^w-kurtiset-sharara/, 'sharara-gharara'],
+  [/^w-kurtiset-gharara/, 'sharara-gharara'],
+  [/^w-coord/, 'co-ord-sets'],
+  [/^m-coord-suit/, 'co-ord-sets'],
+  [/^m-coord-cotton/, 'co-ord-sets'],
+  [/^m-coord-silk/, 'co-ord-sets'],
+]
+for (const p of products) for (const [re, cat] of FAMILY_RETAG) if (re.test(p.id)) { p.category = cat; break }
+// 2) Price bands (directive §24–§28): hard ceiling ₹7,999, research-backed
+//    category bands, ladder-snapped so no synthetic prices appear.
+const PRICE_BANDS = [
+  [/^w-saree-predrape|^w-predrape/, 799, 4999],
+  [/^w-saree-concept/, 999, 4999],
+  [/^w-saree-(silk|banarasi|velvet|tissue)/, 999, 6999],
+  [/^w-saree/, 499, 3999],
+  [/^w-leh-(classic|velvet|net)/, 999, 6999],
+  [/^w-leh/, 999, 4999],
+  [/^w-garba-cc/, 699, 4999],
+  [/^w-kurtiset-sharara|^w-kurtiset-gharara/, 699, 3499],
+  [/^w-kurtiset-jacket/, 1299, 3999],
+  [/^w-kurtiset/, 699, 3999],
+  [/^w-kurti/, 499, 2999],
+  [/^w-coord/, 699, 3999],
+  [/^w-fusion/, 999, 4999],
+  [/^m-shirt/, 699, 2499],
+  [/^m-kurtiset/, 799, 3499],
+  [/^m-kurt-set-jacket/, 1299, 3999],
+  [/^m-kurt/, 599, 2999],
+  [/^m-jacket-(velvet|bandhgala|emb)/, 1999, 5999],
+  [/^m-jacket/, 1299, 3999],
+  [/^m-coord/, 999, 3499],
+  [/^m-indowest/, 1199, 3999],
+  [/^m-garba/, 999, 4999],
+  [/^m-formal/, 1999, 5999],
+  [/^w-neck/, 299, 1999],
+  [/^w-ear/, 199, 1499],
+  [/^w-kada|^w-bangle|^w-patti/, 199, 1499],
+  [/^w-bag|^w-clutch|^w-potli/, 399, 2499],
+  [/^w-shoe|^w-jutti|^w-moja/, 399, 2499],
+  [/^m-shoe|^m-jutti|^m-moja/, 699, 2499],
+  [/^m-watch|^w-watch/, 999, 4999],
+  [/^b-/, 199, 1999],
+]
+const CURATION_DEFAULT_BAND = { women: [399, 4999], men: [599, 4999] }
+const snapToLadder = (v) => PRICE_POINTS.reduce((a, b) => (b <= v ? b : a), PRICE_POINTS[0])
+for (const p of products) {
+  const band = PRICE_BANDS.find(([re]) => re.test(p.id))
+  const [lo, hi] = band ? [band[1], band[2]] : (CURATION_DEFAULT_BAND[p.gender] || [399, 7999])
+  p.price = Math.min(7999, Math.max(lo, snapToLadder(Math.min(p.price, hi))))
+}
 
 // ── SVG plates ────────────────────────────────────────────────────────────────
 // Plates are fallback art only. When a premium AI-generated photograph exists
@@ -545,7 +599,7 @@ for (const p of products) {
 
 // ── looks (curated outfits) ───────────────────────────────────────────────────
 const byId = Object.fromEntries(products.map(p => [p.id, p]))
-const APPAREL = (p) => ['sarees', 'kurta-sets', 'lehenga', 'co-ord-sets', 'indowestern'].includes(p.category)
+const APPAREL = (p) => ['sarees', 'kurta-sets', 'lehenga', 'co-ord-sets', 'sharara-gharara', 'indowestern'].includes(p.category)
 const look = (id, title, mood, occasions, anchors, story, alt = []) => {
   const items = anchors.map(a => byId[a]).filter(Boolean)
   if (!items.length) return null
@@ -645,6 +699,23 @@ const COUPLES = [
   ['charcoal-rose-date', 'Charcoal Kurta & Rose Drape Date Night', 'Date Night', 'intimate', ['Charcoal', 'Rose']]
 ]
 const coupleLooks = []
+// Directive §20: user-facing couple worlds are ONLY the 5 retained occasions.
+// Labels from the story table fold into the nearest retained world; a handful of
+// per-look overrides keep Navratri/College Fest properly represented.
+const RETAINED_OCCASION_FOR = {
+  Garba: 'Garba', Navratri: 'Navratri', Diwali: 'Diwali', 'Diwali Party': 'Diwali',
+  'College Fest': 'College Fest', College: 'College Fest', 'Festive Party': 'Festive Party',
+  Sangeet: 'Festive Party', Mehendi: 'Festive Party', Haldi: 'Festive Party',
+  Reception: 'Diwali', Wedding: 'Diwali', Engagement: 'Diwali', 'Wedding Guest': 'Diwali',
+  'Destination Wedding': 'Diwali', 'Puja & Temple': 'Diwali', 'Winter Festive': 'Diwali',
+  Winter: 'Diwali', Travel: 'Diwali', Guest: 'Diwali', Evening: 'Festive Party',
+  'Family Function': 'Festive Party', Family: 'Festive Party', 'Date Night': 'Festive Party',
+  Date: 'Festive Party', 'Night Out': 'Festive Party',
+}
+const COUPLE_OCCASION_OVERRIDE = {
+  'rani-ivory-sangeet': 'Navratri', 'navy-sage-winter': 'Navratri', 'plum-blush-engagement': 'Navratri',
+  'mint-peach-mehendi-duo': 'College Fest', 'lilac-charcoal-soiree': 'College Fest',
+}
 // display label → canonical product occasion tag (couple sets must tag into the
 // same taxonomy the occasion pages filter on)
 const COUPLE_OCC_TAG = { ...OCC_TAG, Evening: 'Reception', Diwali: 'Diwali Party', Travel: 'Destination Wedding', College: 'College Fest', Guest: 'Wedding Guest', Winter: 'Winter Festive', Family: 'Family Function', Date: 'Date Night' }
@@ -705,7 +776,7 @@ for (const [cid, title, occLabel, tag, cols] of COUPLES) {
   const svg = renderCouplePlate({ her, his, title })
   writeFileSync(join(OUT_COUPLE, `${cid}.svg`), svg)
   coupleLooks.push({
-    id: `couple-${cid}`, title, mood: tag, occasions: [occLabel],
+    id: `couple-${cid}`, title, mood: tag, occasions: [COUPLE_OCCASION_OVERRIDE[cid] || RETAINED_OCCASION_FOR[occLabel] || 'Festive Party'],
     herProductIds: herIds, hisProductIds: hisIds,
     price: pricePool.reduce((s, p) => s + p.price, 0),
     description: `A matched-but-not-matchy festive pair for the ${occLabel.toLowerCase()} calendar. She wears ${her.title.toLowerCase()}${herAcc[0] ? ` with ${herAcc[0].title.toLowerCase()}` : ''}; he wears ${his.title.toLowerCase()}${hisAcc[0] ? ` layered with ${hisAcc[0].title.toLowerCase()}` : ''}. Harmonised in ${cols.join(' and ')} so the photos stay timeless.`,
@@ -769,6 +840,7 @@ writeFileSync(join(OUT_DATA, 'couples.json'), JSON.stringify(coupleLooks, null, 
 const readSrc = (f) => { try { return readFileSync(join(ROOT, f), 'utf8') } catch { return '' } }
 const journalSlugs = [...readSrc('src/data/articles.ts').matchAll(/slug: '([^']+)'/g)].map((m) => `/journal/${m[1]}`)
 const occasionIds = [...new Set([...readSrc('src/data/occasions.ts').matchAll(/O\(\s*'([^']+)'/g)].map((m) => m[1]))]
+  .filter((o) => ['diwali', 'navratri', 'garba', 'festive-party', 'college-fest'].includes(o))
 const ROUTES = [
   '', '/women', '/men', '/accessories', '/occasions', '/journal', '/trending', '/couple-edit', '/couple', '/saved', '/search', '/about', '/contact', '/faq', '/try-on',
   '/ai-try-on-privacy', '/affiliate-disclosure', '/privacy', '/terms',
