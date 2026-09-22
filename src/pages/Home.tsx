@@ -4,7 +4,7 @@ import { ArrowRight, Sparkles, ChevronDown } from 'lucide-react';
 import { products, BUDGET_RANGES, completeTheLook, type Product } from '../data/products';
 import { trackEvent } from '../utils/analytics';
 import { looks, coupleLooks, lookAnchors } from '../data/looks';
-import { occasions } from '../data/occasions';
+import { userOccasions } from '../data/occasions';
 import { articles } from '../data/articles';
 import ProductCard from '../components/ProductCard';
 import TryOnModal from '../components/TryOnModal';
@@ -93,7 +93,7 @@ export default function Home() {
         <div className="max-w-screen-xl mx-auto">
           <div className="flex items-end justify-between mb-12">
             <div>
-              <p className="text-xs font-semibold tracking-[0.3em] text-[#B7945A] uppercase mb-3">Shop by Occasion · 18 edits</p>
+              <p className="text-xs font-semibold tracking-[0.3em] text-[#B7945A] uppercase mb-3">Shop by Occasion · {userOccasions.length} edits</p>
               <h2 className="font-playfair text-3xl lg:text-5xl text-[#171918]">Dress for<br />the Moment</h2>
             </div>
             <Link to="/occasions" className="hidden sm:flex items-center gap-2 text-sm text-[#103C35] font-semibold hover:text-[#D95E3F] transition-colors">
@@ -101,7 +101,7 @@ export default function Home() {
             </Link>
           </div>
           <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-3 lg:gap-4">
-            {occasions.slice(0, 6).map((occasion) => (
+            {userOccasions.map((occasion) => (
               <Link key={occasion.id} to={`/occasions/${occasion.id}`} className="group relative rounded-2xl overflow-hidden aspect-[3/4] bg-[#E9E1D4]">
                 <img src={occasion.image} alt={occasion.title} loading="lazy" className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
                 <div className="absolute inset-0 bg-gradient-to-t from-[#171918]/80 via-[#171918]/20 to-transparent" />

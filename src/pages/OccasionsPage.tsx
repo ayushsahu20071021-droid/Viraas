@@ -1,7 +1,7 @@
 import { useState } from 'react';
-import { Link, useParams } from 'react-router-dom';
+import { Link, Navigate, useParams } from 'react-router-dom';
 import { ArrowRight, Check, ShoppingBag, Sparkles } from 'lucide-react';
-import { occasions, getOccasion } from '../data/occasions';
+import { userOccasions, getOccasion, OCCASION_REDIRECT, USER_OCCASION_IDS } from '../data/occasions';
 import { getProductsByOccasion, products, type Product } from '../data/products';
 import { looksForOccasion } from '../data/looks';
 import ProductCard from '../components/ProductCard';
@@ -15,13 +15,15 @@ export default function OccasionsPage() {
   const [shownCount, setShownCount] = useState(8);
 
   if (id) {
+    // Retired occasion routes redirect cleanly to the nearest retained edit (§1).
+    if (OCCASION_REDIRECT[id]) return <Navigate to={`/occasions/${OCCASION_REDIRECT[id]}`} replace />;
     const occasion = getOccasion(id);
     if (!occasion) {
       return (
         <div className="min-h-screen flex items-center justify-center bg-[#F6F0E6] pt-20">
           <div className="text-center px-4">
             <h1 className="font-playfair text-3xl text-[#171918] mb-4">Occasion not found</h1>
-            <p className="text-sm text-[#AEB8A0] mb-6">We publish 18 occasion edits — pick one from the index.</p>
+            <p className="text-sm text-[#AEB8A0] mb-6">We publish {userOccasions.length} occasion edits — pick one from the index.</p>
             <Link to="/occasions" className="px-6 py-2.5 rounded-full bg-[#103C35] text-white text-sm font-semibold">All Occasions</Link>
           </div>
         </div>
@@ -31,7 +33,8 @@ export default function OccasionsPage() {
     const pool = genderTab === 'all' ? all : all.filter((p) => p.gender === genderTab);
     const occLooks = looksForOccasion(occasion.tag);
     const countFor = (g: 'all' | 'women' | 'men') => (g === 'all' ? all : all.filter((p) => p.gender === g)).length;
-    const related = occasion.related.map((r) => getOccasion(r)).filter(Boolean) as NonNullable<ReturnType<typeof getOccasion>>[];
+    const related = (occasion.related.map((r) => getOccasion(r)).filter(Boolean) as NonNullable<ReturnType<typeof getOccasion>>[])
+      .filter((r) => (USER_OCCASION_IDS as readonly string[]).includes(r.id));
 
     return (
       <>
@@ -177,13 +180,13 @@ export default function OccasionsPage() {
     <div className="min-h-screen bg-[#F6F0E6] pt-16 lg:pt-20">
       <div className="bg-[#171918] py-20 lg:py-24 px-4 sm:px-8">
         <div className="max-w-screen-xl mx-auto">
-          <p className="text-xs font-semibold tracking-[0.3em] text-[#B7945A] uppercase mb-4">18 living edits</p>
+          <p className="text-xs font-semibold tracking-[0.3em] text-[#B7945A] uppercase mb-4">{userOccasions.length} living edits</p>
           <h1 className="font-playfair text-4xl lg:text-6xl text-white mb-3">Dress for the Moment</h1>
           <p className="text-[#AEB8A0] text-sm max-w-xl">Each occasion page is a real filter over {products.length.toLocaleString('en-IN')} catalog pieces — live counts, styling rules, colour stories and complete looks, not a banner with four products.</p>
         </div>
       </div>
       <div className="max-w-screen-xl mx-auto px-4 sm:px-8 py-14 grid grid-cols-2 md:grid-cols-3 gap-4 lg:gap-6">
-        {occasions.map((o) => {
+        {userOccasions.map((o) => {
           const n = getProductsByOccasion(o.tag).length;
           return (
             <Link key={o.id} to={`/occasions/${o.id}`} className="group relative rounded-3xl overflow-hidden aspect-[3/4] lg:aspect-[4/5] bg-[#E9E1D4]">

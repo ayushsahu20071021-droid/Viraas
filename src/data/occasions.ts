@@ -6,6 +6,8 @@ import { OCCASION_TAG_BY_ID, getProductsByOccasion, type Product } from './produ
 export interface Occasion {
   id: string
   tag: string
+  /** Extra product occasion tags this edit also draws from (e.g. Garba ∪ Navratri). */
+  tags?: string[]
   title: string
   subtitle: string
   image: string
@@ -113,13 +115,47 @@ export const occasions: Occasion[] = [
     { women: 'Velvet lehenga or a wool-blend anarkali with a lined jacket', men: 'Velvet bandhgala, jamawar shawl, mojaris with a thicker sole' },
     ['Layer weight on top, warmth at the ankle — feet decide the evening length', 'Deep jewel tones read richer than black in winter light', 'Carry a compact stole; it doubles as warmth, temple cover and camera prop'],
     ['Bottle Green', 'Plum', 'Chocolate', 'Wine'], ['reception', 'diwali', 'night-out']),
+  O('garba', 'Garba', 'Mirrorwork, spin-tested hems and nine-night stamina', '/images/occasion-garba.jpg',
+    ['Garba is the sport of Navratri: circular sprinting around a garbo under string lights, in outfits engineered for spin. This edit pairs classic chaniya choli energy with 2026 proportions — contemporary lehenga flares, mirror work placed where flash finds it, kediya cuts that actually breathe.',
+     'Men keep it current: a modern Garba jacket or kediya over tapered trousers, one loud colour, bandhani done properly. Dandiya optional, stamina mandatory.'],
+    { women: 'Chaniya choli or contemporary lehenga with mirror-work odhani', men: 'Modern kediyu or Garba jacket with tapered trousers and a festive stole' },
+    ['Flare radius decides how your spin photographs — test it in the mirror, not the trial room', 'Mirror work doubles flash photography; bandhani doubles crowd photos', 'Break in your footwear on night one — nine nights is a marathon'],
+    ['Hot Pink', 'Peacock Teal', 'Parrot Green', 'Coral'], ['navratri', 'sangeet', 'college-fest']),
+  O('haldi', 'Haldi', 'Turmeric-yellow dressing with zero stain regrets', '/images/occasion-haldi.jpg',
+    ['The haldi ceremony is daylight, marigolds and a crowd determined to dab turmeric on everything you wear — including you. Dress in yellows, ivories and florals that celebrate the stain rather than fear it. Cotton-silk, organza and threadwork over anything precious.',
+     'Couples style it complementary: her in a mastani yellow or ivory floral, him in cream or ivory kurta with a mustard accent. Keep jewellery light, waterproof and removable with one hand.'],
+    { women: 'Ivory or yellow floral outfit — organza kurta set, cotton-silk saree or lehenga', men: 'Cream or ivory kurta with a mustard or saffron stole accent' },
+    ['Wear what you can launder — haldi stories are the best photos', 'Flower jewellery beats metal near turmeric and mehendi hands', 'Ivory photographs beautifully against marigold backdrops — lean into it'],
+    ['Butter Yellow', 'Ivory', 'Marigold', 'Peach'], ['mehendi', 'wedding', 'family-function']),
 ]
 
+// Garba draws from both the Garba tag and the wider Navratri pool.
+const garbaOccasion = occasions.find((o) => o.id === 'garba')
+if (garbaOccasion) garbaOccasion.tags = ['Garba', 'Navratri']
+
 export const getOccasion = (id: string) => occasions.find((o) => o.id === id)
+
+// ── retained user-facing occasion system (directive §1/§36/§48) ─────────────
+// Exactly five public edits. The other editorial occasions remain as internal
+// product metadata (search/tags stay intact) but are no longer navigable pages;
+// their old routes redirect to the nearest retained edit.
+export const USER_OCCASION_IDS = ['diwali', 'navratri', 'garba', 'festive-party', 'college-fest'] as const
+export const userOccasions: Occasion[] = USER_OCCASION_IDS.map((id) => getOccasion(id)).filter(Boolean) as Occasion[]
+export const OCCASION_REDIRECT: Record<string, string> = {
+  wedding: 'diwali', reception: 'diwali', engagement: 'diwali', 'wedding-guest': 'diwali',
+  'destination-wedding': 'diwali', puja: 'diwali', winter: 'diwali',
+  sangeet: 'festive-party', mehendi: 'festive-party', haldi: 'festive-party',
+  'family-function': 'festive-party', 'night-out': 'festive-party', 'date-night': 'festive-party',
+  daywear: 'festive-party', workwear: 'festive-party',
+}
 
 export function occasionProducts(occasionId: string, gender?: 'women' | 'men'): Product[] {
   const occ = getOccasion(occasionId)
   if (!occ) return []
-  const pool = getProductsByOccasion(occ.tag)
-  return gender ? pool.filter((p) => p.gender === gender) : pool
+  const tags = occ.tags?.length ? occ.tags : [occ.tag]
+  const pool = getProductsByOccasion(tags[0]).concat(
+    ...tags.slice(1).map((t) => getProductsByOccasion(t)),
+  )
+  const unique = [...new Map(pool.map((p) => [p.id, p])).values()]
+  return gender ? unique.filter((p) => p.gender === gender) : unique
 }

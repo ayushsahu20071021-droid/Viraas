@@ -9,8 +9,11 @@
     "preview": "vite preview",
     "typecheck": "tsc --noEmit",
     "check-catalog": "node scripts/check-catalog.mjs",
+    "check-images": "node scripts/check-images.mjs",
+    "audit-affiliate": "node scripts/audit-affiliate.mjs",
+    "promote-images": "node scripts/promote-images.mjs",
     "render-smoke": "bash scripts/run-render-smoke.sh",
-    "verify": "npm run typecheck && npm run check-catalog && npm run render-smoke && npm run build"
+    "verify": "npm run typecheck && npm run check-catalog && npm run check-images && npm run audit-affiliate && npm run render-smoke && npm run build"
   },
   "dependencies": {
     "clsx": "2.1.1",

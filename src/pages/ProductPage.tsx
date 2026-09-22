@@ -1,7 +1,8 @@
 import { useEffect, useState } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { Heart, Sparkles, ShoppingBag, ArrowLeft, Share2, ExternalLink, AlertTriangle, Layers } from 'lucide-react';
-import { getProductById, completeTheLook, OCCASION_TAG_BY_ID } from '../data/products';
+import { getProductById, completeTheLook, OCCASION_TAG_BY_ID, RETAINED_OCCASION_IDS } from '../data/products';
+import { getAffiliateUrl } from '../data/affiliate-links';
 import { getLooksForProduct } from '../data/looks';
 import { toggleSavedLook, isLookSaved } from '../utils/savedLooks';
 import { trackAffiliateClick, trackEvent } from '../utils/analytics';
@@ -57,6 +58,7 @@ export default function ProductPage() {
   }
 
   const images = [product.imageUrl, ...(product.gallery || [])];
+  const hasAffiliate = Boolean(getAffiliateUrl(product.id));
   const coupleHis = product.herProductId && product.hisProductId ? getProductById(product.hisProductId) : undefined;
   const coupleHer = product.herProductId && product.hisProductId ? getProductById(product.herProductId) : undefined;
   const complete = product.category !== 'couple-edit' ? completeTheLook(product) : [];
@@ -69,7 +71,8 @@ export default function ProductPage() {
     if (isNowSaved) trackEvent('save_product', { productId: product.id });
   };
   const handleShop = () => {
-    const url = product.affiliateUrl || product.merchantUrl;
+    // Affiliate URLs resolve ONLY through the central file (src/data/affiliate-links.ts).
+    const url = getAffiliateUrl(product.id) || product.merchantUrl;
     if (url) {
       trackAffiliateClick(product.id, product.merchantLabel, product.category);
       window.open(url, '_blank', 'noopener,noreferrer');
@@ -180,7 +183,7 @@ export default function ProductPage() {
             <div className="mb-6">
               <p className="text-xs text-[#AEB8A0] mb-2">Made for</p>
               <div className="flex flex-wrap gap-2">
-                {product.occasions.map((occ) => (
+                {product.occasions.filter((occ) => OCC_ID_BY_TAG[occ] && (RETAINED_OCCASION_IDS as readonly string[]).includes(OCC_ID_BY_TAG[occ])).map((occ) => (
                   <Link key={occ} to={`/occasions/${OCC_ID_BY_TAG[occ] || ''}`} className="px-3 py-1 bg-[#103C35]/10 text-[#103C35] text-xs font-medium rounded-full hover:bg-[#103C35] hover:text-[#F6F0E6] transition-colors">
                     {occ}
                   </Link>
@@ -231,8 +234,8 @@ export default function ProductPage() {
                 {product.category === 'couple-edit' ? 'SHOP BOTH HALVES' : `SHOP THIS LOOK ON ${product.merchantLabel.toUpperCase()}`}
                 <ExternalLink size={14} />
               </button>
-              <p className={`text-[11px] text-center ${product.affiliateUrl ? 'text-[#AEB8A0]' : 'text-[#B7945A]'} -mt-1`}>
-                {product.affiliateUrl
+              <p className={`text-[11px] text-center ${hasAffiliate ? 'text-[#AEB8A0]' : 'text-[#B7945A]'} -mt-1`}>
+                {hasAffiliate
                   ? 'Opens your affiliate link.'
                   : 'Affiliate link not configured — this button goes straight to the retailer\'s product search. VIRAAS may earn a commission when you shop through selected affiliate links.'}
               </p>

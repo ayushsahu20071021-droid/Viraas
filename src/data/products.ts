@@ -49,7 +49,7 @@ export const products: Product[] = catalog as unknown as Product[]
 const byId = new Map(products.map((p) => [p.id, p]))
 export const getProductById = (id: string): Product | undefined => byId.get(id)
 
-export const APPAREL_CATEGORIES = ['sarees', 'kurta-sets', 'co-ord-sets', 'lehenga', 'garba', 'jackets', 'indowestern']
+export const APPAREL_CATEGORIES = ['sarees', 'kurta-sets', 'co-ord-sets', 'sharara-gharara', 'lehenga', 'garba', 'jackets', 'indowestern']
 export const isApparel = (p: Product) => APPAREL_CATEGORIES.includes(p.category)
 export const isCouple = (p: Product) => p.category === 'couple-edit'
 
@@ -66,12 +66,26 @@ export const getProductsByOccasion = (occasionTag: string): Product[] =>
 
 // ── taxonomy for the storefront ───────────────────────────────────────────────
 export const CATEGORY_LABELS: Record<string, string> = {
-  sarees: 'Sarees', 'kurta-sets': 'Kurta & Anarkali Sets', 'co-ord-sets': 'Co-ord Sets',
-  lehenga: 'Lehenga & Chaniya', garba: 'Garba & Navratri', jackets: 'Jackets & Bandhgala',
-  indowestern: 'Indo-Western & Fusion', jewellery: 'Jewellery', bags: 'Bags & Clutches',
-  footwear: 'Footwear', watches: 'Watches', accessories: 'Grooming & Carry',
-  beauty: 'Beauty', 'couple-edit': 'Couple Sets',
+  sarees: 'Sarees & Pre-Draped', 'kurta-sets': 'Kurta & Anarkali Sets', 'co-ord-sets': 'Co-ords',
+  'sharara-gharara': 'Sharara & Gharara', lehenga: 'Lehenga & Chaniya', garba: 'Chaniya Choli & Garba',
+  jackets: 'Jackets & Bandhgala', indowestern: 'Indo-Western & Fusion', jewellery: 'Jewellery',
+  bags: 'Bags & Clutches', footwear: 'Footwear', watches: 'Watches', accessories: 'Grooming & Carry',
+  beauty: 'Beauty', 'couple-edit': 'Couple Sets', formals: 'Wedding Formals',
 }
+// Directive §12: the men's navigation must read as menswear — no "Anarkali".
+export const MEN_CATEGORY_LABELS: Record<string, string> = {
+  'kurta-sets': 'Kurta Sets', jackets: 'Jackets & Bandhgala', garba: 'Garba & Navratri',
+  formals: 'Wedding Formals', 'co-ord-sets': 'Festive Co-ords', indowestern: 'Indo-Western & Fusion',
+  'ethnic-shirts': 'Ethnic Shirts',
+  accessories: 'Grooming & Accessories', footwear: 'Footwear', watches: 'Watches',
+}
+export function categoryLabel(gender: Gender | 'accessories' | undefined, category: string): string {
+  if (gender === 'men' && MEN_CATEGORY_LABELS[category]) return MEN_CATEGORY_LABELS[category]
+  return CATEGORY_LABELS[category] || category
+}
+// Directive §1/§48: exactly five user-facing occasion worlds.
+export const RETAINED_OCCASION_IDS = ['diwali', 'navratri', 'garba', 'festive-party', 'college-fest'] as const
+export const RETAINED_OCCASION_TAGS = ['Diwali Party', 'Navratri', 'Garba', 'Festive Party', 'College Fest'] as const
 
 /** Categories that actually carry results for a gender — no dead chips. */
 export function categoriesForGender(gender: Gender | 'accessories'): { key: string; label: string; count: number }[] {
@@ -80,7 +94,7 @@ export function categoriesForGender(gender: Gender | 'accessories'): { key: stri
   for (const p of pool) counts.set(p.category, (counts.get(p.category) || 0) + 1)
   return [...counts.entries()]
     .sort((a, b) => b[1] - a[1])
-    .map(([key, count]) => ({ key, label: CATEGORY_LABELS[key] || key.replace(/-/g, ' ').replace(/\b\w/g, (c) => c.toUpperCase()), count }))
+    .map(([key, count]) => ({ key, label: categoryLabel(gender, key), count }))
 }
 
 export const OCCASION_TAGS = [
@@ -149,10 +163,150 @@ const tokens = (q: string) =>
     .split(/[^a-z0-9₹&]+/i)
     .filter((t) => t.length > 1 && !STOP_WORDS.has(t));
 
+// ── search language ───────────────────────────────────────────────────────────
+// Query words never appear verbatim in product metadata ("green kurta" vs
+// "Emerald Chikankari Kurta Set"). Every token expands through a synonym family
+// so plain-English queries land on the right shelf.
+const SEARCH_SYNONYMS: Record<string, string[]> = {
+  festive: ['festive', 'diwali', 'navratri', 'sangeet', 'party', 'celebration'],
+  garba: ['garba', 'navratri', 'dandiya', 'raas', 'kediyu', 'chaniya'],
+  navratri: ['navratri', 'garba', 'dandiya'],
+  diwali: ['diwali', 'deepavali'],
+  wedding: ['wedding', 'shaadi', 'vivah'],
+  shaadi: ['shaadi', 'wedding'],
+  jhumka: ['jhumka', 'jhumki', 'earring', 'earrings'],
+  jhumki: ['jhumka', 'jhumki', 'earring', 'earrings'],
+  earring: ['earring', 'jhumka', 'jhumki'],
+  earrings: ['earring', 'jhumka', 'jhumki'],
+  kurta: ['kurta', 'kurti', 'kurtaset', 'anarkali'],
+  kurti: ['kurti', 'kurta'],
+  jacket: ['jacket', 'bandhgala', 'nehru', 'shrug', 'layer'],
+  bandhgala: ['bandhgala', 'jacket', 'blazer'],
+  nehru: ['nehru', 'jacket'],
+  blazer: ['blazer', 'jacket', 'suit'],
+  suit: ['suit', 'blazer', 'tuxedo', 'formals'],
+  tuxedo: ['tuxedo', 'suit', 'formals'],
+  formals: ['formals', 'suit', 'blazer', 'tuxedo'],
+  draped: ['draped', 'drape', 'pre-draped', 'predraped', 'pre-stitched'],
+  predraped: ['pre-draped', 'predraped', 'draped', 'drape'],
+  saree: ['saree', 'sari'],
+  sari: ['saree', 'sari'],
+  lehenga: ['lehenga', 'chaniya', 'ghagra'],
+  chikankari: ['chikankari', 'chikan'],
+  chikan: ['chikan', 'chikankari'],
+  bandhani: ['bandhani', 'bandhej'],
+  banarasi: ['banarasi', 'benarasi'],
+  green: ['green', 'emerald', 'jade', 'sage', 'olive', 'bottle', 'forest', 'mint', 'parrot'],
+  emerald: ['emerald', 'green'],
+  black: ['black', 'onyx', 'charcoal'],
+  white: ['white', 'ivory', 'cream'],
+  ivory: ['ivory', 'cream', 'off-white', 'oat'],
+  cream: ['cream', 'ivory', 'oat'],
+  blue: ['blue', 'navy', 'royal', 'powder', 'cobalt', 'ice', 'turquoise', 'teal', 'peacock'],
+  navy: ['navy', 'blue'],
+  red: ['red', 'maroon', 'wine', 'rani', 'burgundy', 'scarlet'],
+  maroon: ['maroon', 'wine', 'red'],
+  wine: ['wine', 'maroon', 'burgundy'],
+  pink: ['pink', 'blush', 'rose', 'rani', 'fuchsia'],
+  yellow: ['yellow', 'mustard', 'marigold', 'butter', 'haldi', 'sunflower', 'amber'],
+  gold: ['gold', 'champagne', 'antique', 'zari', 'tissue'],
+  silver: ['silver', 'oxidised', 'steel'],
+  purple: ['purple', 'plum', 'lilac', 'lavender', 'aubergine'],
+  orange: ['orange', 'rust', 'terracotta', 'tangerine', 'copper'],
+  brown: ['brown', 'chocolate', 'coffee', 'bronze', 'tan'],
+  ethnic: ['ethnic', 'traditional', 'desi'],
+  traditional: ['traditional', 'ethnic', 'heirloom', 'classic'],
+  modern: ['modern', 'contemporary', 'indo-western', 'fusion'],
+  indo: ['indo-western', 'fusion'],
+  western: ['indo-western', 'fusion'],
+  fusion: ['fusion', 'indo-western'],
+  couple: ['couple', 'pair', 'duo', 'her+him'],
+  couples: ['couple', 'pair', 'duo', 'her+him'],
+  pair: ['pair', 'couple', 'duo'],
+  guest: ['guest'],
+  winter: ['winter', 'velvet', 'pashmina', 'shawl'],
+  summer: ['summer', 'linen', 'cotton'],
+  budget: ['budget'],
+  office: ['office', 'work'],
+  work: ['work', 'office'],
+  college: ['college', 'campus', 'fest'],
+  party: ['party', 'night'],
+  perfume: ['perfume', 'fragrance', 'attar', 'itr', 'mist'],
+  fragrance: ['fragrance', 'perfume', 'attar'],
+  watch: ['watch', 'watches'],
+  watches: ['watch', 'watches'],
+  mojari: ['mojari', 'jutti'],
+  jutti: ['jutti', 'mojari'],
+  potli: ['potli', 'bag'],
+  clutch: ['clutch', 'bag'],
+  dupatta: ['dupatta', 'odhani', 'stole', 'drape'],
+  stole: ['stole', 'dupatta', 'scarf'],
+  sharara: ['sharara', 'garara'],
+  anarkali: ['anarkali'],
+  organza: ['organza'],
+  silk: ['silk'],
+  cotton: ['cotton'],
+  men: ['men'],
+  mens: ['men'],
+  man: ['men'],
+  him: ['men'],
+  he: ['men'],
+  male: ['men'],
+  boys: ['men'],
+  women: ['women'],
+  womens: ['women'],
+  woman: ['women'],
+  her: ['women'],
+  she: ['women'],
+  female: ['women'],
+  girls: ['women'],
+}
+
+/** gender-word tokens resolve to a product gender instead of a text match */
+const GENDER_WORDS: Record<string, 'men' | 'women'> = {
+  men: 'men', mens: 'men', man: 'men', him: 'men', male: 'men', boys: 'men', he: 'men',
+  women: 'women', womens: 'women', woman: 'women', her: 'women', female: 'women', girls: 'women', she: 'women',
+}
+
+/** colour tokens must rank products whose actual COLOUR field matches highest */
+const COLOUR_WORDS = new Set([
+  'green', 'emerald', 'jade', 'sage', 'olive', 'mint', 'black', 'white', 'ivory', 'cream',
+  'blue', 'navy', 'teal', 'red', 'maroon', 'wine', 'burgundy', 'pink', 'blush', 'rose',
+  'yellow', 'mustard', 'marigold', 'gold', 'silver', 'purple', 'plum', 'lilac', 'lavender',
+  'orange', 'rust', 'terracotta', 'copper', 'brown', 'chocolate', 'peach', 'coral', 'grey', 'charcoal',
+])
+
+/** shelf weight — apparel outranks accessories, beauty stays out of generic results */
+const SHELF_WEIGHT: Record<string, number> = {
+  sarees: 6, 'kurta-sets': 6, lehenga: 6, garba: 6, jackets: 6, indowestern: 6, 'co-ord-sets': 6, formals: 6,
+  'couple-edit': 4, jewellery: 3, bags: 3, footwear: 3, watches: 3, accessories: 3, beauty: 0,
+}
+
+const searchHay = (p: Product) =>
+  `${p.title} ${p.brand} ${p.category} ${p.subCategory} ${p.colour} ${p.secondaryColour || ''} ${p.fabric} ${p.embroidery || ''} ${p.pattern || ''} ${p.weave || ''} ${p.silhouette} ${p.occasions.join(' ')} ${p.styleTags.join(' ')} ${p.gender === 'men' ? 'men him his' : p.gender === 'women' ? 'women her hers' : 'couple her+him pair duo'} ${p.category === 'couple-edit' ? 'couple pair duo her+him' : ''}`.toLowerCase()
+
+/** a token is satisfied when it, a synonym family member, or its gender word appears */
+function tokenHits(token: string, hay: string, p: Product): boolean {
+  if (hay.includes(token)) return true
+  const syn = SEARCH_SYNONYMS[token]
+  if (syn && syn.some((s) => hay.includes(s))) return true
+  const g = GENDER_WORDS[token]
+  if (g && p.gender === g) return true
+  return false
+}
+
 function matchesQuery(p: Product, q?: string): boolean {
   if (!q || !q.trim()) return true
-  const hay = `${p.title} ${p.brand} ${p.category} ${p.subCategory} ${p.colour} ${p.fabric} ${p.embroidery || ''} ${p.pattern || ''} ${p.weave || ''} ${p.occasions.join(' ')} ${p.styleTags.join(' ')} ${p.silhouette}`.toLowerCase()
-  return tokens(q).every((t) => hay.includes(t))
+  const hay = searchHay(p)
+  return tokens(q).every((t) => tokenHits(t, hay, p))
+}
+
+/** Synonym-aware query matcher for non-product search surfaces (looks, couple edits). */
+export function textMatchesQuery(text: string, q: string): boolean {
+  const toks = tokens(q)
+  if (!toks.length) return true
+  const hay = text.toLowerCase()
+  return toks.every((t) => hay.includes(t) || (SEARCH_SYNONYMS[t]?.some((s) => hay.includes(s)) ?? false))
 }
 
 function matches(p: Product, f: FilterParams, curatedIds?: ReadonlySet<string>, skip?: FilterParams['scope'] | string): boolean {
@@ -231,10 +385,11 @@ export function filterProducts(
     for (const p of base) for (const v of g.valueOf(p)) counts.set(v, (counts.get(v) || 0) + 1)
     const threshold = opts.facetThreshold ?? (g.key === 'occasion' ? 6 : g.key === 'craft' ? 4 : 3)
     const options = [...counts.entries()]
+      .filter(([v]) => g.key !== 'occasion' || (RETAINED_OCCASION_TAGS as readonly string[]).includes(v))
       .filter(([v, n]) => n >= threshold || v === (f as Record<string, unknown>)[g.key])
       .sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]))
       .slice(0, g.key === 'budget' ? 8 : 12)
-      .map(([value, count]) => ({ value, label: g.key === 'category' ? CATEGORY_LABELS[value] || value : value, count }))
+      .map(([value, count]) => ({ value, label: g.key === 'category' ? categoryLabel(f.scope, value) : value, count }))
     return { key: g.key, label: g.label, options }
   }).filter((g) => g.options.length > 1)
 
@@ -245,6 +400,32 @@ export function filterProducts(
     sort === 'newest' ? (b.styleTags.includes('New In') ? 1 : 0) - (a.styleTags.includes('New In') ? 1 : 0) || b.price - a.price :
     (b.styleTags.length - a.styleTags.length) || (b.occasions.length - a.occasions.length) || b.price - a.price,
   )
+  // Silhouette-diversity presentation (visual-mix directive): the default
+  // "recommended" view interleaves categories round-robin so no first page
+  // reads as a wall of one garment type. Filters/sorting still order normally
+  // within their pools; search ranking is untouched.
+  if (sort === 'recommended' && pool.length > 6) {
+    const byCat = new Map<string, Product[]>()
+    for (const p of pool) {
+      const arr = byCat.get(p.category)
+      if (arr) arr.push(p)
+      else byCat.set(p.category, [p])
+    }
+    if (byCat.size > 1) {
+      const cats = [...byCat.values()].sort((a, b) => b.length - a.length)
+      const mixed: Product[] = []
+      let added = true
+      while (added) {
+        added = false
+        for (const c of cats) {
+          const next = c.shift()
+          if (next) { mixed.push(next); added = true }
+        }
+      }
+      pool.length = 0
+      pool.push(...mixed)
+    }
+  }
   const pageSize = opts.pageSize ?? pool.length
   const pages = Math.max(1, Math.ceil(pool.length / pageSize))
   const page = Math.min(Math.max(1, opts.page ?? 1), pages)
@@ -254,6 +435,7 @@ export function filterProducts(
 // ── occasion page ids ↔ product tags ─────────────────────────────────────────
 export const OCCASION_TAG_BY_ID: Record<string, string> = {
   wedding: 'Wedding', sangeet: 'Sangeet', reception: 'Reception', mehendi: 'Mehendi',
+  haldi: 'Haldi', garba: 'Garba',
   'festive-party': 'Festive Party', diwali: 'Diwali Party', navratri: 'Navratri',
   'college-fest': 'College Fest', workwear: 'Work-to-Dinner', 'night-out': 'Night Out',
   'destination-wedding': 'Destination Wedding', daywear: 'Daywear', puja: 'Puja & Temple',
@@ -265,22 +447,39 @@ export const OCCASION_TAG_BY_ID: Record<string, string> = {
 export function searchProducts(q: string, limit = 60): Product[] {
   if (!q.trim()) return []
   const toks = tokens(q)
+  if (!toks.length) return []
+  const wantsCouple = toks.some((t) => ['couple', 'couples', 'pair', 'duo'].includes(t))
   const scored = products
-    .filter((p) => !isCouple(p))
+    .filter((p) => (isCouple(p) ? wantsCouple : true))
     .map((p) => {
       const title = p.title.toLowerCase(), brand = p.brand.toLowerCase(), cat = `${p.category} ${p.subCategory}`.toLowerCase()
-      const hay = `${title} ${brand} ${cat} ${p.colour} ${p.fabric} ${p.occasions.join(' ')} ${p.styleTags.join(' ')} ${p.embroidery || ''} ${p.pattern || ''} ${p.weave || ''} ${p.description.toLowerCase()}`
-      let score = 0
+      const hay = `${searchHay(p)} ${p.description.toLowerCase()}`
+      const colourField = `${p.colour} ${p.secondaryColour || ''}`.toLowerCase()
+      let score = SHELF_WEIGHT[p.category] ?? 1
+      let satisfied = 0
       for (const t of toks) {
-        if (title.includes(t)) score += 6
+        const isColour = COLOUR_WORDS.has(t)
+        const inColourField = colourField.includes(t) || (SEARCH_SYNONYMS[t]?.some((s) => colourField.includes(s)) ?? false)
+        const inTitle = title.includes(t) || (SEARCH_SYNONYMS[t]?.some((s) => title.includes(s)) ?? false)
+        // A colour token is only satisfied by the product's actual colour or its
+        // title — a stray "black" in the description no longer counts.
+        const direct = isColour ? (inColourField || inTitle) : hay.includes(t)
+        const viaSyn = !direct && !isColour && tokenHits(t, hay, p)
+        if (direct || viaSyn) satisfied++
+        if (inTitle) score += 6
         if (brand === t) score += 4
         if (cat.includes(t)) score += 3
-        if (hay.includes(t)) score += 1
+        if (isColour && inColourField) score += 8
+        if (hay.includes(t)) score += 2
+        else if (viaSyn) score += 1
+        const g = GENDER_WORDS[t]
+        if (g && p.gender === g) score += 3
+        if (isCouple(p) && wantsCouple) score += 2
       }
-      return { p, score, hit: toks.every((t) => hay.includes(t)) }
+      return { p, score, hit: satisfied === toks.length }
     })
     .filter((x) => x.hit)
-    .sort((a, b) => b.score - a.score)
+    .sort((a, b) => b.score - a.score || a.p.id.localeCompare(b.p.id))
     .slice(0, limit)
   return scored.map((s) => s.p)
 }
@@ -294,6 +493,7 @@ const NEED_BY_CATEGORY: Record<string, string[]> = {
   garba: ['footwear', 'jewellery'],
   jackets: ['footwear', 'watches', 'accessories'],
   indowestern: ['footwear', 'bags', 'watches', 'jewellery'],
+  formals: ['footwear', 'watches', 'accessories'],
   jewellery: ['footwear', 'bags'],
   bags: ['footwear', 'jewellery'],
   footwear: ['jewellery', 'bags'],

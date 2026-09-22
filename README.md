@@ -45,7 +45,7 @@ node scripts/generate-catalog.mjs
 
 - Every product ships `status: "CHECK"` with an honest `lastChecked` date until a human verifies the live retailer page.
 - `affiliateUrl` is **empty by design** — paste EarnKaro (or other network) links into the catalog and the UI flips from "Affiliate link not configured" to "Open in EarnKaro". No fabricated tracking params, ever.
-- `merchantUrl`s are retailer **search deep-links** (Myntra / AJIO / Flipkart / Shopsy / Meesho / Nykaa). No Amazon anywhere.
+- `merchantUrl`s are retailer **search deep-links** from the whitelisted set only (Myntra / AJIO / Flipkart / Shopsy / Meesho / Nykaa) — no retailers outside this list, ever.
 - No ratings, review counts, "bestseller" badges, stock claims, or discount badges unless verified. ProductCard shows a CHECK badge and a neutral placeholder on image error — never a hero image as fallback.
 - AI Try-On: 18+ confirmation before any upload UI; photos are never stored client-side after generation and never enter analytics; demo results are always labelled "not a rendered try-on".
 - Affiliate disclosure on every outbound surface: "VIRAAS may earn a commission when you shop through selected affiliate links."

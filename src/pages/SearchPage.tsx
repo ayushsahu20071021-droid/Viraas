@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { useSearchParams, Link } from 'react-router-dom';
 import { Search, Layers } from 'lucide-react';
-import { searchProducts, products, categoriesForGender } from '../data/products';
+import { searchProducts, products, categoriesForGender, textMatchesQuery } from '../data/products';
 import { allLooks } from '../data/looks';
 import { getOccasion } from '../data/occasions';
 import ProductCard from '../components/ProductCard';
@@ -16,13 +16,11 @@ export default function SearchPage() {
   const q = searchParams.get('q') || '';
   const results = q ? searchProducts(q, 60) : [];
   const matchedLooks = q
-    ? allLooks.filter((l) => {
-        const hay = `${l.title} ${l.occasions.join(' ')} ${l.mood} ${l.description}`.toLowerCase();
-        return q.toLowerCase().split(/\s+/).filter((t) => t.length > 1).every((t) => hay.includes(t));
-      }).slice(0, 6)
+    ? allLooks.filter((l) => textMatchesQuery(`${l.title} ${l.occasions.join(' ')} ${l.mood} ${l.description}`, q)).slice(0, 6)
     : [];
   const suggestions = ['diwali saree', 'pre-draped', 'wedding guest men', 'chikankari kurti', 'navratri kediyu', 'ivory organza', 'jhumka', 'bandhgala', 'sangeet lehenga', 'under 1500 co-ord'];
-  const occGuess = q ? ['diwali', 'navratri', 'sangeet', 'reception', 'wedding', 'mehendi', 'college-fest'].find((id) => q.toLowerCase().includes(id.replace('-', ' ').split(' ')[0])) : undefined;
+  const occGuess = q ? ['garba', 'navratri', 'diwali', 'festive-party', 'college-fest'].find((id) => q.toLowerCase().includes(id.replace('-', ' ').split(' ')[0]) || (id === 'festive-party' && /festive party|party wear/.test(q.toLowerCase()))) : undefined;
+  const coupleGuess = q ? /couple|his and hers|his & hers|matching outfits/.test(q.toLowerCase()) : false;
 
   const submit = (value: string) => {
     if (value.trim()) {
@@ -80,6 +78,11 @@ export default function SearchPage() {
                 Search covers {products.filter((p) => p.category !== 'couple-edit').length.toLocaleString('en-IN')} pieces, {allLooks.length} curated looks and every occasion edit. Try a colour (ivory, wine), a craft (chikankari, bandhani), an occasion or a silhouette (anarkali, bandhgala).
               </p>
               <div className="flex flex-wrap justify-center gap-3">
+                {coupleGuess && (
+                  <Link to="/couple-edit" className="px-6 py-3 bg-[#B7945A] text-white font-semibold rounded-full text-sm hover:bg-[#a3834e] transition-colors">
+                    Open the Couple Edit
+                  </Link>
+                )}
                 {occGuess && getOccasion(occGuess) && (
                   <Link to={`/occasions/${occGuess}`} className="px-6 py-3 bg-[#B7945A] text-white font-semibold rounded-full text-sm hover:bg-[#a3834e] transition-colors">
                     Open the {getOccasion(occGuess)!.title} edit
