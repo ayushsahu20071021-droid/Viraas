@@ -143,7 +143,7 @@ export const articles: Article[] = [
   {
     id: 'a7', slug: 'the-couple-harmony-rule', title: 'The couple harmony rule: match the palette, not the outfit',
     excerpt: 'Twinning is a costume. Here is the professional styling logic behind the two-shot that makes both people look deliberately dressed.',
-    category: 'Styling', readTime: 4, date: '2026-06-13', image: '/images/journal-couple-edit.jpg', tags: ['Couple', 'Wedding', 'Styling'],
+    category: 'Styling', readTime: 4, date: '2026-06-13', image: '/images/journal-couple-edit.jpg', tags: ['Couple', 'Festive Party', 'Styling'],
     intro: 'Every couple photograph that ages well runs on one principle: shared colour, separate silhouettes. The eye reads "together" from a 20% colour overlap anywhere in the frame — not from identical fabric. This is why our Couple Edit styles her saree against his stole, not his matching set.',
     sections: [
       { heading: 'The 20% rule', paras: [
@@ -156,7 +156,7 @@ export const articles: Article[] = [
         'Finish dressing 30 minutes apart, not together — matching schedules produce matching creases, and one of you will need a stitch fixed. Shoot the formal set before the mehendi gets fully dark: henna transfer on ivory silk is the one styling failure that ends in tears. And keep the shoes you will actually dance in visible in the frame — comfort reads as confidence in the last four hours of any event.',
       ] },
     ],
-    rail: { title: 'Couple Edit looks', note: 'Already styled to the 20% rule across her/him pieces.', select: byOccasion('Wedding', 6) },
+    rail: { title: 'Couple Edit looks', note: 'Already styled to the 20% rule across her/him pieces.', select: byOccasion('Festive Party', 6) },
   },
   {
     id: 'a8', slug: 'indowestern-without-the-costume', title: 'Indo-Western without the costume department',
@@ -179,7 +179,7 @@ export const articles: Article[] = [
   {
     id: 'a9', slug: 'silk-vs-silk-grade', title: 'Mulberry, art, cuscen: silk grade decoded before the wedding',
     excerpt: '"Pure silk" is a spectrum with a grading system. What the certification actually guarantees — and when art silk is the smarter buy.',
-    category: 'Care', readTime: 7, date: '2026-05-16', image: '/images/journal-saree-drape.jpg', tags: ['Silk', 'Saree', 'Wedding'],
+    category: 'Care', readTime: 7, date: '2026-05-16', image: '/images/journal-saree-drape.jpg', tags: ['Silk', 'Saree', 'Diwali'],
     intro: 'The silk label that matters is not "pure" — it is who tested which metre. Silk Mark guarantees fibre on the fabric body for mulberry silk; zari purity and dyefastness are separate questions, and they are where wedding-season money disappears.',
     sections: [
       { heading: 'Fibre', paras: [
@@ -282,7 +282,7 @@ export const articles: Article[] = [
   {
     id: 'a15', slug: 'first-wedding-guest-manual', title: 'The first wedding guest manual: your own wedding, your friends\' season, the family circuit',
     excerpt: 'A decision tree for the twenties — what one wedding, one reception and one sangeet budget should actually buy.',
-    category: 'Index', readTime: 5, date: '2026-02-09', image: '/images/occasion-college.jpg', tags: ['College', 'Budget', 'Wedding'],
+    category: 'Index', readTime: 5, date: '2026-02-09', image: '/images/occasion-college.jpg', tags: ['College', 'Budget', 'Festive Party'],
     intro: 'In your twenties a wedding season is six events, three cities and one salary instalment. The strategy is a capsule with one luxury: three outfits that mix across day and night, and one investment piece everyone will remember.',
     sections: [
       { heading: 'The capsule', paras: [

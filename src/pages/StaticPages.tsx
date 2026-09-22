@@ -49,7 +49,7 @@ export function AboutPage() {
           <div className="space-y-4">
             {[
               { title: 'Discover', desc: 'Browse curated Indian festive fashion organized by occasion, style, colour, craft and budget — with result-aware filters, so no click dead-ends.' },
-              { title: 'Style it', desc: '120+ complete looks, a Couple Edit with 16 styled pairs, and a tag-based Complete-the-Look engine on every product page.' },
+              { title: 'Style it', desc: '120+ complete looks, a Couple Edit with 100 styled pairs, and a tag-based Complete-the-Look engine on every product page.' },
               { title: 'Try On', desc: 'Use our AI Try-On feature to visualise how a selected outfit might look on you before shopping (18+).' },
               { title: 'Shop', desc: 'Click through to the external retailer to complete your purchase. VIRAAS may earn an affiliate commission.' },
             ].map((item) => (
@@ -276,18 +276,14 @@ export function AITryOnPrivacyPage() {
 // ── COUPLE EDIT (canonical /couple-edit) ─────────────────────────────────────
 export function CoupleEditPage() {
   const [occ, setOcc] = useState<string | null>(null);
-  const occList = useMemo(() => {
-    const m = new Map<string, number>();
-    for (const c of coupleLooks) for (const o of c.occasions) m.set(o, (m.get(o) || 0) + 1);
-    return [...m.entries()];
-  }, []);
+  const coupleWorlds = ['Garba', 'Navratri', 'Diwali', 'Festive Party', 'College Fest'] as const;
   const filtered = occ ? coupleLooks.filter((c) => c.occasions.includes(occ)) : coupleLooks;
   const pairSets = products.filter((p) => p.category === 'couple-edit');
 
   return (
     <div className="min-h-screen bg-[#F6F0E6] pt-16 lg:pt-20">
       <div className="relative py-20 overflow-hidden">
-        <div className="absolute inset-0 bg-cover bg-center" style={{ backgroundImage: 'url(/images/couple-edit.jpg)' }} />
+        <div className="absolute inset-0 bg-cover bg-center" style={{ backgroundImage: 'url(/images/production-couple-garba.jpg)' }} />
         <div className="absolute inset-0 bg-gradient-to-b from-[#171918]/70 to-[#103C35]/85" />
         <div className="relative z-10 max-w-screen-xl mx-auto px-4 sm:px-8 text-center">
           <p className="text-xs font-semibold tracking-[0.3em] text-[#B7945A] uppercase mb-4">Dressed Together · {coupleLooks.length} Looks</p>
@@ -300,13 +296,16 @@ export function CoupleEditPage() {
         <div className="flex flex-wrap items-center justify-between gap-4 mb-8">
           <div className="flex flex-wrap gap-2">
             <button onClick={() => setOcc(null)} className={`px-4 py-2 rounded-full text-[13px] font-medium border transition-colors ${!occ ? 'bg-[#103C35] text-[#F6F0E6] border-[#103C35]' : 'bg-white/60 border-[#E9E1D4] text-[#171918]/80 hover:border-[#B7945A]'}`}>
-              All pairs <span className="opacity-60 tabular-nums">{coupleLooks.length}</span>
+              ALL PAIRS <span className="opacity-60 tabular-nums">{coupleLooks.length}</span>
             </button>
-            {occList.map(([o, n]) => (
-              <button key={o} onClick={() => setOcc(o === occ ? null : o)} className={`px-4 py-2 rounded-full text-[13px] font-medium border transition-colors ${occ === o ? 'bg-[#103C35] text-[#F6F0E6] border-[#103C35]' : 'bg-white/60 border-[#E9E1D4] text-[#171918]/80 hover:border-[#B7945A]'}`}>
-                {o} <span className="opacity-60 tabular-nums">{n}</span>
-              </button>
-            ))}
+            {coupleWorlds.map((world) => {
+              const count = coupleLooks.filter((c) => c.occasions.includes(world)).length;
+              return (
+                <button key={world} onClick={() => setOcc(world === occ ? null : world)} className={`px-4 py-2 rounded-full text-[13px] font-medium border transition-colors ${occ === world ? 'bg-[#103C35] text-[#F6F0E6] border-[#103C35]' : 'bg-white/60 border-[#E9E1D4] text-[#171918]/80 hover:border-[#B7945A]'}`}>
+                  {world} <span className="opacity-60 tabular-nums">{count}</span>
+                </button>
+              );
+            })}
           </div>
           <Link to="/journal/the-couple-harmony-rule" className="text-[13px] font-semibold text-[#103C35] hover:text-[#D95E3F] flex items-center gap-1.5">
             How couple matching works <ArrowRight size={14} />
@@ -319,7 +318,7 @@ export function CoupleEditPage() {
             const his = lookItems({ ...c, productIds: c.hisProductIds || [] });
             return (
               <div key={c.id} className="bg-white rounded-3xl overflow-hidden shadow-sm hover:shadow-md transition-shadow">
-                <Link to={`/look/${c.id}`} className="block relative aspect-square bg-[#F6F0E6]">
+                <Link to={`/look/${c.id}`} className="block relative aspect-[4/5] bg-[#F6F0E6]">
                   <img src={c.imageUrl} alt={c.title} loading="lazy" className="absolute inset-0 w-full h-full object-cover" />
                   <span className="absolute top-3 left-3 px-2.5 py-1 rounded-full bg-[#171918]/70 text-white text-[10px] font-semibold tracking-widest uppercase">{c.occasions.join(' · ')}</span>
                 </Link>
