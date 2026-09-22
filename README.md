@@ -31,20 +31,26 @@ The client shows `VITE_TRYON_MODE` as a DEMO MODE / LIVE PROVIDER badge on `/try
 
 `scripts/generate-catalog.mjs` deterministically produces:
 
-- `src/data/catalog/products.json` — **595 products** (women 280 apparel + 115 accessories, men 100 apparel + 84 accessories, 25 beauty, 16 couple sets) with real metadata: fabric, weave, embroidery, silhouette, occasion tags, colour, budget tier, style tags, per-product `imagePrompt`
-- `src/data/catalog/looks.json` — **122 curated looks**, anchor + accessories, priced from the catalog itself
-- `src/data/catalog/couples.json` — **16 couple looks** with her/his halves
-- `public/images/products/*.svg` — 1,785 garment plates (+ 16 couple plates)
-- `public/sitemap.xml` (752 URLs, derived from the data) and `robots.txt`
+- `src/data/catalog/products.json` — **653 products** (women and men apparel/accessories, 25 beauty, 16 couple-set references) with real metadata: fabric, weave, embroidery, silhouette, occasion tags, colour, budget tier, style tags, per-product `imagePrompt`
+- `src/data/catalog/looks.json` — **100 curated looks**, anchor + accessories, priced from the catalog itself
+- `src/data/catalog/couples.json` — **100 Couple Edit looks** with her/his halves and human-couple JPG photography
+- `src/data/catalog/image-manifest.json` — generated raster-primary inventory used by the catalog and HTTP/image audits
+- `public/images/production-products/*.jpg` — 637 raster product primaries for the apparel/accessory catalog; the 16 couple-set product records point to the 100 human-couple JPG primaries, with faceless mannequin apparel photography / accessory still life; original SVG plates remain preserved as fallbacks
+- `public/images/couples-v2/*.jpg` — 100 original human-couple JPG photographs with varied festive pose language
+- `public/sitemap.xml` (derived from the data) and `robots.txt`
 
 ```bash
 node scripts/generate-catalog.mjs
+npm run check-catalog
+npm run audit-affiliate
+npm run render-smoke
+npm run audit-http-images
 ```
 
 ## Honesty policy (enforced in code + data)
 
 - Every product ships `status: "CHECK"` with an honest `lastChecked` date until a human verifies the live retailer page.
-- `affiliateUrl` is **empty by design** — paste EarnKaro (or other network) links into the catalog and the UI flips from "Affiliate link not configured" to "Open in EarnKaro". No fabricated tracking params, ever.
+- Affiliate destinations are centralized in `src/data/affiliate-links.ts` and intentionally empty. Paste a real EarnKaro URL there only after manual verification; catalog `affiliateUrl` values stay empty and no tracking URL is fabricated.
 - `merchantUrl`s are retailer **search deep-links** (Myntra / AJIO / Flipkart / Shopsy / Meesho / Nykaa). No Amazon anywhere.
 - No ratings, review counts, "bestseller" badges, stock claims, or discount badges unless verified. ProductCard shows a CHECK badge and a neutral placeholder on image error — never a hero image as fallback.
 - AI Try-On: 18+ confirmation before any upload UI; photos are never stored client-side after generation and never enter analytics; demo results are always labelled "not a rendered try-on".
@@ -52,7 +58,7 @@ node scripts/generate-catalog.mjs
 
 ## Routing map
 
-`/` home · `/women` `/men` `/accessories` (URL faceting: `category, occasion, colour, budget, style, craft, q, sort, tryon, curated`) · `/product/:id` · `/look/:id` · `/occasions` + `/occasions/:id` (18 rich edits) · `/couple-edit` (canonical; `/couple` redirects) · `/trending` · `/journal` + `/journal/:slug` (16 articles) · `/search` (products + looks) · `/saved` · `/try-on` · `/about /contact /faq /privacy /terms /affiliate-disclosure /ai-try-on-privacy`
+`/` home · `/women` `/men` `/accessories` (URL faceting: `category, occasion, colour, budget, style, craft, q, sort, tryon, curated`) · `/product/:id` · `/look/:id` · `/occasions` plus exactly `/occasions/garba`, `/occasions/navratri`, `/occasions/diwali`, `/occasions/festive-party`, `/occasions/college-fest` · `/couple-edit` (100 human-couple looks; `/couple` redirects) · `/trending` · `/journal` + `/journal/:slug` (16 articles) · `/search` (products + looks) · `/saved` · `/try-on` · `/about /contact /faq /privacy /terms /affiliate-disclosure /ai-try-on-privacy`
 
 ## Deploying to Netlify
 

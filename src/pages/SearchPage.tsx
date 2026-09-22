@@ -21,8 +21,8 @@ export default function SearchPage() {
         return q.toLowerCase().split(/\s+/).filter((t) => t.length > 1).every((t) => hay.includes(t));
       }).slice(0, 6)
     : [];
-  const suggestions = ['diwali saree', 'pre-draped', 'wedding guest men', 'chikankari kurti', 'navratri kediyu', 'ivory organza', 'jhumka', 'bandhgala', 'sangeet lehenga', 'under 1500 co-ord'];
-  const occGuess = q ? ['diwali', 'navratri', 'sangeet', 'reception', 'wedding', 'mehendi', 'college-fest'].find((id) => q.toLowerCase().includes(id.replace('-', ' ').split(' ')[0])) : undefined;
+  const suggestions = ['diwali saree', 'pre-draped', 'festive party men', 'chikankari kurti', 'garba kediyu', 'ivory organza', 'jhumka', 'bandhgala', 'college fest lehenga', 'under 1500 co-ord'];
+  const occGuess = q ? [['diwali', 'diwali'], ['navratri', 'navratri'], ['garba', 'garba'], ['festive party', 'festive-party'], ['college fest', 'college-fest'], ['college', 'college-fest']].find(([term]) => q.toLowerCase().includes(term))?.[1] : undefined;
 
   const submit = (value: string) => {
     if (value.trim()) {

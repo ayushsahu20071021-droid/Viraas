@@ -1,610 +1,3702 @@
 [
  {
-  "id": "couple-sage-silk",
-  "title": "Sage Silk Sangeet",
-  "mood": "sage",
-  "occasions": [
-   "Sangeet"
-  ],
-  "herProductIds": [
-   "w-saree-georgette-soft-02"
-  ],
-  "hisProductIds": [
-   "m-kurt-set-jamawar-02",
-   "m-watch-01"
-  ],
-  "price": 8797,
-  "description": "A matched-but-not-matchy festive pair for the sangeet calendar. She wears sage buti-motif soft georgette everyday saree; he wears emerald jamawar shawl kurta set with rose gold stone-set ethnic-dial watch. Harmonised in Sage and Emerald so the photos stay timeless.",
-  "imageUrl": "/images/couple-plates/sage-silk.svg",
-  "coupleId": "sage-silk"
- },
- {
-  "id": "couple-ivory-gold",
-  "title": "Ivory & Gold Reception",
-  "mood": "luxe",
-  "occasions": [
-   "Reception"
-  ],
-  "herProductIds": [
-   "w-saree-organza-02"
-  ],
-  "hisProductIds": [
-   "m-kurtiset-cotton-02",
-   "m-watch-01"
-  ],
-  "price": 4497,
-  "description": "A matched-but-not-matchy festive pair for the reception calendar. She wears ivory chikankari-worked organza saree with hand-embroidered buti; he wears ivory block-printed cotton kurta set with rose gold stone-set ethnic-dial watch. Harmonised in Ivory and Antique Gold so the photos stay timeless.",
-  "imageUrl": "/images/couple-plates/ivory-gold.svg",
-  "coupleId": "ivory-gold"
- },
- {
-  "id": "couple-terracotta-fiesta",
-  "title": "Terracotta Mehendi Fiesta",
-  "mood": "warm",
-  "occasions": [
-   "Mehendi"
-  ],
-  "herProductIds": [
-   "w-saree-organza-03"
-  ],
-  "hisProductIds": [
-   "m-kurtiset-printed-01",
-   "m-watch-01"
-  ],
-  "price": 4897,
-  "description": "A matched-but-not-matchy festive pair for the mehendi calendar. She wears mustard resham-threadworked organza saree with hand-embroidered buti; he wears mustard block-printed printed kurta set with rose gold stone-set ethnic-dial watch. Harmonised in Terracotta and Mustard so the photos stay timeless.",
-  "imageUrl": "/images/couple-plates/terracotta-fiesta.svg",
-  "coupleId": "terracotta-fiesta"
- },
- {
-  "id": "couple-midnight-velvet",
-  "title": "Midnight Velvet Evening",
-  "mood": "evening",
-  "occasions": [
-   "Evening"
-  ],
-  "herProductIds": [
-   "w-saree-predrape-satin-04"
-  ],
-  "hisProductIds": [
-   "m-kurtiset-silk-02",
-   "m-watch-01"
-  ],
-  "price": 9097,
-  "description": "A matched-but-not-matchy festive pair for the evening calendar. She wears plum stone-set pre-draped saree gown (satin); he wears midnight navy buti-motif silk kurta set with rose gold stone-set ethnic-dial watch. Harmonised in Midnight Navy and Plum so the photos stay timeless.",
-  "imageUrl": "/images/couple-plates/midnight-velvet.svg",
-  "coupleId": "midnight-velvet"
- },
- {
-  "id": "couple-marigold-day",
-  "title": "Marigold Day Wedding",
-  "mood": "warm",
-  "occasions": [
-   "Wedding"
-  ],
-  "herProductIds": [
-   "w-saree-drape-08"
-  ],
-  "hisProductIds": [
-   "m-kurtiset-cotton-05",
-   "m-watch-01"
-  ],
-  "price": 5297,
-  "description": "A matched-but-not-matchy festive pair for the wedding calendar. She wears rust sequin-scattered georgette saree with woven border; he wears marigold pearl-detailed cotton kurta set with rose gold stone-set ethnic-dial watch. Harmonised in Marigold and Rust so the photos stay timeless.",
-  "imageUrl": "/images/couple-plates/marigold-day.svg",
-  "coupleId": "marigold-day"
- },
- {
-  "id": "couple-monsoon-pastel",
-  "title": "Monsoon Pastel Engagement",
-  "mood": "pastel",
-  "occasions": [
-   "Engagement"
-  ],
-  "herProductIds": [
-   "w-saree-predrape-net-04"
-  ],
-  "hisProductIds": [
-   "m-coord-linen-02",
-   "m-watch-01"
-  ],
-  "price": 7597,
-  "description": "A matched-but-not-matchy festive pair for the engagement calendar. She wears mint sequin-scattered pre-draped net saree; he wears powder blue aari-stitched linen summer co-ord (men) with rose gold stone-set ethnic-dial watch. Harmonised in Powder Blue and Mint so the photos stay timeless.",
-  "imageUrl": "/images/couple-plates/monsoon-pastel.svg",
-  "coupleId": "monsoon-pastel"
- },
- {
-  "id": "couple-diwali-heirloom",
-  "title": "Diwali Heirloom Puja",
-  "mood": "heirloom",
-  "occasions": [
-   "Diwali"
-  ],
-  "herProductIds": [
-   "w-saree-drape-08"
-  ],
-  "hisProductIds": [
-   "m-kurtiset-printed-01",
-   "m-watch-01"
-  ],
-  "price": 4597,
-  "description": "A matched-but-not-matchy festive pair for the diwali calendar. She wears rust sequin-scattered georgette saree with woven border; he wears mustard block-printed printed kurta set with rose gold stone-set ethnic-dial watch. Harmonised in Mustard and Rust so the photos stay timeless.",
-  "imageUrl": "/images/couple-plates/diwali-heirloom.svg",
-  "coupleId": "diwali-heirloom"
- },
- {
-  "id": "couple-navratri-neon",
-  "title": "Navratri Floor Neon",
-  "mood": "bold",
+  "id": "couple-garba-01",
+  "title": "Garba · Walking 01",
+  "mood": "Garba",
+  "world": "Garba",
   "occasions": [
    "Garba"
   ],
   "herProductIds": [
-   "w-leh-sequin-03"
+   "w-garba-chaniya-production-05",
+   "w-ear-jhumka-01"
   ],
   "hisProductIds": [
-   "m-indowest-drape-03",
-   "m-watch-01"
+   "m-garba-vest-04",
+   "m-mojari-01"
   ],
-  "price": 11197,
-  "description": "A matched-but-not-matchy festive pair for the garba calendar. She wears hot pink stone-set sequin work lehenga; he wears parrot green pearl-detailed draped kurta with asymmetric hem with rose gold stone-set ethnic-dial watch. Harmonised in Hot Pink and Parrot Green so the photos stay timeless.",
-  "imageUrl": "/images/couple-plates/navratri-neon.svg",
-  "coupleId": "navratri-neon"
+  "price": 7096,
+  "description": "A candid, human-photography pair for Garba: complementary fuchsia and peacock teal styling, photographed through arriving together rather than a posed uniform.",
+  "imageUrl": "/images/couples-v2/garba-01.jpg",
+  "coupleId": "garba-01",
+  "metadata": {
+   "world": "Garba",
+   "pose": "walking; walking together",
+   "camera": "documentary 35mm",
+   "framing": "wide full-body",
+   "lighting": "warm string lights",
+   "activity": "arriving together",
+   "location": "festival ground; festival ground",
+   "palette": [
+    "Fuchsia",
+    "Peacock Teal"
+   ],
+   "sourceImage": "/images/production-couple-garba-walk.jpg",
+   "composition": "walking; walking together | documentary 35mm | wide full-body | festival ground; festival ground | warm string lights",
+   "uniquenessKey": "garba-1|walking; walking together | documentary 35mm | wide full-body | festival ground; festival ground | warm string lights"
+  }
  },
  {
-  "id": "couple-destination-white",
-  "title": "Destination White Reception",
-  "mood": "luxury",
-  "occasions": [
-   "Travel"
-  ],
-  "herProductIds": [
-   "w-saree-drape-03"
-  ],
-  "hisProductIds": [
-   "m-kurtiset-cotton-01",
-   "m-watch-01"
-  ],
-  "price": 7797,
-  "description": "A matched-but-not-matchy festive pair for the travel calendar. She wears sand gotapatti-appliquéd georgette saree with woven border; he wears sand chikankari-worked cotton kurta set with rose gold stone-set ethnic-dial watch. Harmonised in White and Sand so the photos stay timeless.",
-  "imageUrl": "/images/couple-plates/destination-white.svg",
-  "coupleId": "destination-white"
- },
- {
-  "id": "couple-college-duo",
-  "title": "College Fest Duo",
-  "mood": "youthful",
-  "occasions": [
-   "College"
-  ],
-  "herProductIds": [
-   "w-saree-linen-04"
-  ],
-  "hisProductIds": [
-   "m-kurtiset-cotton-03",
-   "m-watch-01"
-  ],
-  "price": 4297,
-  "description": "A matched-but-not-matchy festive pair for the college calendar. She wears stone grey buti-motif linen saree with woven check; he wears stone grey thread-embroidered cotton kurta set with rose gold stone-set ethnic-dial watch. Harmonised in Butter Yellow and Stone Grey so the photos stay timeless.",
-  "imageUrl": "/images/couple-plates/college-duo.svg",
-  "coupleId": "college-duo"
- },
- {
-  "id": "couple-wedding-guest-olive",
-  "title": "Wedding Guest in Olive",
-  "mood": "minimal",
-  "occasions": [
-   "Guest"
-  ],
-  "herProductIds": [
-   "w-saree-drape-02"
-  ],
-  "hisProductIds": [
-   "m-coord-suit-04",
-   "m-watch-01"
-  ],
-  "price": 6997,
-  "description": "A matched-but-not-matchy festive pair for the guest calendar. She wears olive sequin-scattered georgette saree with woven border; he wears greige zari-woven festive co-ord suit with rose gold stone-set ethnic-dial watch. Harmonised in Olive and Greige so the photos stay timeless.",
-  "imageUrl": "/images/couple-plates/wedding-guest-olive.svg",
-  "coupleId": "wedding-guest-olive"
- },
- {
-  "id": "couple-winter-wedding",
-  "title": "Winter Wedding Warmth",
-  "mood": "luxe",
-  "occasions": [
-   "Winter"
-  ],
-  "herProductIds": [
-   "w-saree-chanderi-04"
-  ],
-  "hisProductIds": [
-   "m-kurtiset-chikankari-01",
-   "m-watch-01"
-  ],
-  "price": 7397,
-  "description": "A matched-but-not-matchy festive pair for the winter calendar. She wears oat melange craft-clean chanderi silk-cotton saree; he wears oat melange chikankari-worked chikankari kurta set with rose gold stone-set ethnic-dial watch. Harmonised in Bottle Green and Oat Melange so the photos stay timeless.",
-  "imageUrl": "/images/couple-plates/winter-wedding.svg",
-  "coupleId": "winter-wedding"
- },
- {
-  "id": "couple-family-function",
-  "title": "Family Function Soft Sheen",
-  "mood": "minimal",
-  "occasions": [
-   "Family"
-  ],
-  "herProductIds": [
-   "w-saree-drape-03"
-  ],
-  "hisProductIds": [
-   "m-kurtiset-cotton-01",
-   "m-watch-01"
-  ],
-  "price": 7797,
-  "description": "A matched-but-not-matchy festive pair for the family calendar. She wears sand gotapatti-appliquéd georgette saree with woven border; he wears sand chikankari-worked cotton kurta set with rose gold stone-set ethnic-dial watch. Harmonised in Blush Pink and Sand so the photos stay timeless.",
-  "imageUrl": "/images/couple-plates/family-function.svg",
-  "coupleId": "family-function"
- },
- {
-  "id": "couple-date-evening",
-  "title": "Date Night in Wine",
-  "mood": "bold",
-  "occasions": [
-   "Date"
-  ],
-  "herProductIds": [
-   "w-saree-drape-01"
-  ],
-  "hisProductIds": [
-   "m-kurtiset-silk-04",
-   "m-watch-01"
-  ],
-  "price": 6197,
-  "description": "A matched-but-not-matchy festive pair for the date calendar. She wears wine zari-woven georgette saree with woven border; he wears chocolate aari-stitched silk kurta set with rose gold stone-set ethnic-dial watch. Harmonised in Wine and Chocolate so the photos stay timeless.",
-  "imageUrl": "/images/couple-plates/date-evening.svg",
-  "coupleId": "date-evening"
- },
- {
-  "id": "couple-mehendi-mint",
-  "title": "Mehendi Morning in Mint",
-  "mood": "fresh",
-  "occasions": [
-   "Mehendi"
-  ],
-  "herProductIds": [
-   "w-saree-predrape-net-04"
-  ],
-  "hisProductIds": [
-   "m-kurtiset-cotton-08",
-   "m-watch-01"
-  ],
-  "price": 6897,
-  "description": "A matched-but-not-matchy festive pair for the mehendi calendar. She wears mint sequin-scattered pre-draped net saree; he wears peach chikankari-worked cotton kurta set with rose gold stone-set ethnic-dial watch. Harmonised in Mint and Peach so the photos stay timeless.",
-  "imageUrl": "/images/couple-plates/mehendi-mint.svg",
-  "coupleId": "mehendi-mint"
- },
- {
-  "id": "couple-festive-brass",
-  "title": "Festive Family Brass & Ivory",
-  "mood": "minimal",
-  "occasions": [
-   "Family"
-  ],
-  "herProductIds": [
-   "w-saree-drape-02"
-  ],
-  "hisProductIds": [
-   "m-kurt-set-brocade-01",
-   "m-watch-01"
-  ],
-  "price": 9997,
-  "description": "A matched-but-not-matchy festive pair for the family calendar. She wears olive sequin-scattered georgette saree with woven border; he wears champagne zari-woven brocade kurta set with rose gold stone-set ethnic-dial watch. Harmonised in Champagne and Olive so the photos stay timeless.",
-  "imageUrl": "/images/couple-plates/festive-brass.svg",
-  "coupleId": "festive-brass"
- },
- {
-  "id": "couple-garba-black-gold",
-  "title": "Midnight Mirror Garba Night",
-  "mood": "contemporary",
+  "id": "couple-garba-02",
+  "title": "Garba · Dancing 02",
+  "mood": "Garba",
+  "world": "Garba",
   "occasions": [
    "Garba"
   ],
   "herProductIds": [
-   "w-saree-satin-slip-03"
+   "w-saree-drape-01",
+   "w-ear-jhumka-01"
   ],
   "hisProductIds": [
-   "m-kurt-set-short-03",
-   "m-watch-01"
+   "m-garba-kediyu-production-03",
+   "m-mojari-01"
   ],
-  "price": 6597,
-  "description": "A matched-but-not-matchy festive pair for the garba calendar. She wears antique gold sequin-scattered satin slip saree; he wears antique gold aari-stitched short kurta with trouser with rose gold stone-set ethnic-dial watch. Harmonised in Black and Antique Gold so the photos stay timeless.",
-  "imageUrl": "/images/couple-plates/garba-black-gold.svg",
-  "coupleId": "garba-black-gold"
+  "price": 7896,
+  "description": "A candid, human-photography pair for Garba: complementary mustard and indigo styling, photographed through fixing a styling detail rather than a posed uniform.",
+  "imageUrl": "/images/couples-v2/garba-02.jpg",
+  "coupleId": "garba-02",
+  "metadata": {
+   "world": "Garba",
+   "pose": "dancing; laughing in conversation",
+   "camera": "intimate 50mm",
+   "framing": "close portrait",
+   "lighting": "amber movement light",
+   "activity": "fixing a styling detail",
+   "location": "decorated Garba circle; decorated courtyard",
+   "palette": [
+    "Mustard",
+    "Indigo"
+   ],
+   "sourceImage": "/images/production-couple-garba-twirl.jpg",
+   "composition": "dancing; laughing in conversation | intimate 50mm | close portrait | decorated Garba circle; decorated courtyard | amber movement light",
+   "uniquenessKey": "garba-2|dancing; laughing in conversation | intimate 50mm | close portrait | decorated Garba circle; decorated courtyard | amber movement light"
+  }
  },
  {
-  "id": "couple-diwali-wine-ivory",
-  "title": "Royal Wine & Ivory Diwali Edit",
-  "mood": "festive",
+  "id": "couple-garba-03",
+  "title": "Garba · Dandiya 03",
+  "mood": "Garba",
+  "world": "Garba",
   "occasions": [
-   "Diwali"
+   "Garba"
   ],
   "herProductIds": [
-   "w-saree-drape-01"
+   "w-saree-drape-01",
+   "w-ear-jhumka-01"
   ],
   "hisProductIds": [
-   "m-kurtiset-cotton-02",
-   "m-watch-01"
+   "m-kurtiset-cotton-01",
+   "m-mojari-01"
   ],
-  "price": 5597,
-  "description": "A matched-but-not-matchy festive pair for the diwali calendar. She wears wine zari-woven georgette saree with woven border; he wears ivory block-printed cotton kurta set with rose gold stone-set ethnic-dial watch. Harmonised in Wine and Ivory so the photos stay timeless.",
-  "imageUrl": "/images/couple-plates/diwali-wine-ivory.svg",
-  "coupleId": "diwali-wine-ivory"
+  "price": 7496,
+  "description": "A candid, human-photography pair for Garba: complementary terracotta and emerald styling, photographed through moving through the crowd rather than a posed uniform.",
+  "imageUrl": "/images/couples-v2/garba-03.jpg",
+  "coupleId": "garba-03",
+  "metadata": {
+   "world": "Garba",
+   "pose": "dandiya; hands almost touching",
+   "camera": "editorial 85mm",
+   "framing": "low movement frame",
+   "lighting": "jewel night light",
+   "activity": "moving through the crowd",
+   "location": "dandiya circle; string-lit walkway",
+   "palette": [
+    "Terracotta",
+    "Emerald"
+   ],
+   "sourceImage": "/images/production-couple-garba-dandiya-close.jpg",
+   "composition": "dandiya; hands almost touching | editorial 85mm | low movement frame | dandiya circle; string-lit walkway | jewel night light",
+   "uniquenessKey": "garba-3|dandiya; hands almost touching | editorial 85mm | low movement frame | dandiya circle; string-lit walkway | jewel night light"
+  }
  },
  {
-  "id": "couple-sangeet-emerald-cream",
-  "title": "Emerald & Cream Sangeet Romance",
-  "mood": "luxe",
+  "id": "couple-garba-04",
+  "title": "Garba · Styling Adjustment 04",
+  "mood": "Garba",
+  "world": "Garba",
   "occasions": [
-   "Sangeet"
+   "Garba"
   ],
   "herProductIds": [
-   "w-saree-banarasi-01"
+   "w-saree-drape-01",
+   "w-ear-jhumka-01"
   ],
   "hisProductIds": [
-   "m-kurt-set-jamawar-02",
-   "m-watch-01"
+   "m-garba-kediyu-03",
+   "m-mojari-01"
   ],
-  "price": 12497,
-  "description": "A matched-but-not-matchy festive pair for the sangeet calendar. She wears emerald banarasi-woven banarasi silk saree; he wears emerald jamawar shawl kurta set with rose gold stone-set ethnic-dial watch. Harmonised in Emerald and Cream so the photos stay timeless.",
-  "imageUrl": "/images/couple-plates/sangeet-emerald-cream.svg",
-  "coupleId": "sangeet-emerald-cream"
+  "price": 6896,
+  "description": "A candid, human-photography pair for Garba: complementary rani pink and bottle green styling, photographed through walking past lights rather than a posed uniform.",
+  "imageUrl": "/images/couples-v2/garba-04.jpg",
+  "coupleId": "garba-04",
+  "metadata": {
+   "world": "Garba",
+   "pose": "styling adjustment; mid-laugh portrait",
+   "camera": "wide environmental lens",
+   "framing": "medium three-quarter",
+   "lighting": "soft marquee glow",
+   "activity": "walking past lights",
+   "location": "Garba pavilion; balcony",
+   "palette": [
+    "Rani Pink",
+    "Bottle Green"
+   ],
+   "sourceImage": "/images/production-couple-garba-dupattafix.jpg",
+   "composition": "styling adjustment; mid-laugh portrait | wide environmental lens | medium three-quarter | Garba pavilion; balcony | soft marquee glow",
+   "uniquenessKey": "garba-4|styling adjustment; mid-laugh portrait | wide environmental lens | medium three-quarter | Garba pavilion; balcony | soft marquee glow"
+  }
  },
  {
-  "id": "couple-wedding-maroon-champagne",
-  "title": "Heritage Maroon & Champagne Wedding",
-  "mood": "royal",
+  "id": "couple-garba-05",
+  "title": "Garba · Walking 05",
+  "mood": "Garba",
+  "world": "Garba",
   "occasions": [
-   "Wedding"
+   "Garba"
   ],
   "herProductIds": [
-   "w-saree-predrape-satin-05"
+   "w-garba-chaniya-production-05",
+   "w-ear-jhumka-01"
   ],
   "hisProductIds": [
-   "m-kurt-set-brocade-01",
-   "m-watch-01"
+   "m-garba-vest-04",
+   "m-mojari-01"
   ],
-  "price": 8897,
-  "description": "A matched-but-not-matchy festive pair for the wedding calendar. She wears champagne mirror-work pre-draped saree gown (satin); he wears champagne zari-woven brocade kurta set with rose gold stone-set ethnic-dial watch. Harmonised in Maroon and Champagne so the photos stay timeless.",
-  "imageUrl": "/images/couple-plates/wedding-maroon-champagne.svg",
-  "coupleId": "wedding-maroon-champagne"
+  "price": 7096,
+  "description": "A candid, human-photography pair for Garba: complementary fuchsia and peacock teal styling, photographed through pausing between dances rather than a posed uniform.",
+  "imageUrl": "/images/couples-v2/garba-05.jpg",
+  "coupleId": "garba-05",
+  "metadata": {
+   "world": "Garba",
+   "pose": "walking; dancing in motion",
+   "camera": "handheld social frame",
+   "framing": "over-shoulder",
+   "lighting": "warm string lights",
+   "activity": "pausing between dances",
+   "location": "festival ground; doorway",
+   "palette": [
+    "Fuchsia",
+    "Peacock Teal"
+   ],
+   "sourceImage": "/images/production-couple-garba-walk.jpg",
+   "composition": "walking; dancing in motion | handheld social frame | over-shoulder | festival ground; doorway | warm string lights",
+   "uniquenessKey": "garba-5|walking; dancing in motion | handheld social frame | over-shoulder | festival ground; doorway | warm string lights"
+  }
  },
  {
-  "id": "couple-haldi-mustard-ivory",
-  "title": "Sunlit Mustard & Ivory Haldi Pair",
-  "mood": "vibrant",
+  "id": "couple-garba-06",
+  "title": "Garba · Dancing 06",
+  "mood": "Garba",
+  "world": "Garba",
   "occasions": [
-   "Haldi"
+   "Garba"
   ],
   "herProductIds": [
-   "w-saree-organza-02"
+   "w-saree-drape-01",
+   "w-ear-jhumka-01"
   ],
   "hisProductIds": [
-   "m-kurtiset-cotton-02",
-   "m-watch-01"
+   "m-garba-kediyu-production-03",
+   "m-mojari-01"
   ],
-  "price": 4497,
-  "description": "A matched-but-not-matchy festive pair for the haldi calendar. She wears ivory chikankari-worked organza saree with hand-embroidered buti; he wears ivory block-printed cotton kurta set with rose gold stone-set ethnic-dial watch. Harmonised in Mustard and Ivory so the photos stay timeless.",
-  "imageUrl": "/images/couple-plates/haldi-mustard-ivory.svg",
-  "coupleId": "haldi-mustard-ivory"
+  "price": 7896,
+  "description": "A candid, human-photography pair for Garba: complementary mustard and indigo styling, photographed through sharing a private joke rather than a posed uniform.",
+  "imageUrl": "/images/couples-v2/garba-06.jpg",
+  "coupleId": "garba-06",
+  "metadata": {
+   "world": "Garba",
+   "pose": "dancing; adjusting a dupatta",
+   "camera": "documentary 35mm",
+   "framing": "wide full-body",
+   "lighting": "amber movement light",
+   "activity": "sharing a private joke",
+   "location": "decorated Garba circle; campus lawn",
+   "palette": [
+    "Mustard",
+    "Indigo"
+   ],
+   "sourceImage": "/images/production-couple-garba-twirl.jpg",
+   "composition": "dancing; adjusting a dupatta | documentary 35mm | wide full-body | decorated Garba circle; campus lawn | amber movement light",
+   "uniquenessKey": "garba-6|dancing; adjusting a dupatta | documentary 35mm | wide full-body | decorated Garba circle; campus lawn | amber movement light"
+  }
  },
  {
-  "id": "couple-cocktail-charcoal-rose",
-  "title": "Charcoal & Dusty Rose Evening Soiree",
-  "mood": "modern",
+  "id": "couple-garba-07",
+  "title": "Garba · Dandiya 07",
+  "mood": "Garba",
+  "world": "Garba",
   "occasions": [
-   "Reception"
+   "Garba"
   ],
   "herProductIds": [
-   "w-saree-linen-03"
+   "w-saree-drape-01",
+   "w-ear-jhumka-01"
+  ],
+  "hisProductIds": [
+   "m-kurtiset-cotton-01",
+   "m-mojari-01"
+  ],
+  "price": 7496,
+  "description": "A candid, human-photography pair for Garba: complementary terracotta and emerald styling, photographed through holding dandiya sticks rather than a posed uniform.",
+  "imageUrl": "/images/couples-v2/garba-07.jpg",
+  "coupleId": "garba-07",
+  "metadata": {
+   "world": "Garba",
+   "pose": "dandiya; seated side-by-side",
+   "camera": "intimate 50mm",
+   "framing": "close portrait",
+   "lighting": "jewel night light",
+   "activity": "holding dandiya sticks",
+   "location": "dandiya circle; community hall",
+   "palette": [
+    "Terracotta",
+    "Emerald"
+   ],
+   "sourceImage": "/images/production-couple-garba-dandiya-close.jpg",
+   "composition": "dandiya; seated side-by-side | intimate 50mm | close portrait | dandiya circle; community hall | jewel night light",
+   "uniquenessKey": "garba-7|dandiya; seated side-by-side | intimate 50mm | close portrait | dandiya circle; community hall | jewel night light"
+  }
+ },
+ {
+  "id": "couple-garba-08",
+  "title": "Garba · Styling Adjustment 08",
+  "mood": "Garba",
+  "world": "Garba",
+  "occasions": [
+   "Garba"
+  ],
+  "herProductIds": [
+   "w-saree-drape-01",
+   "w-ear-jhumka-01"
+  ],
+  "hisProductIds": [
+   "m-garba-kediyu-03",
+   "m-mojari-01"
+  ],
+  "price": 6896,
+  "description": "A candid, human-photography pair for Garba: complementary rani pink and bottle green styling, photographed through choosing a song rather than a posed uniform.",
+  "imageUrl": "/images/couples-v2/garba-08.jpg",
+  "coupleId": "garba-08",
+  "metadata": {
+   "world": "Garba",
+   "pose": "styling adjustment; direct eye contact",
+   "camera": "editorial 85mm",
+   "framing": "low movement frame",
+   "lighting": "soft marquee glow",
+   "activity": "choosing a song",
+   "location": "Garba pavilion; terrace",
+   "palette": [
+    "Rani Pink",
+    "Bottle Green"
+   ],
+   "sourceImage": "/images/production-couple-garba-dupattafix.jpg",
+   "composition": "styling adjustment; direct eye contact | editorial 85mm | low movement frame | Garba pavilion; terrace | soft marquee glow",
+   "uniquenessKey": "garba-8|styling adjustment; direct eye contact | editorial 85mm | low movement frame | Garba pavilion; terrace | soft marquee glow"
+  }
+ },
+ {
+  "id": "couple-garba-09",
+  "title": "Garba · Walking 09",
+  "mood": "Garba",
+  "world": "Garba",
+  "occasions": [
+   "Garba"
+  ],
+  "herProductIds": [
+   "w-garba-chaniya-production-05",
+   "w-ear-jhumka-01"
+  ],
+  "hisProductIds": [
+   "m-garba-vest-04",
+   "m-mojari-01"
+  ],
+  "price": 7096,
+  "description": "A candid, human-photography pair for Garba: complementary fuchsia and peacock teal styling, photographed through arriving together rather than a posed uniform.",
+  "imageUrl": "/images/couples-v2/garba-09.jpg",
+  "coupleId": "garba-09",
+  "metadata": {
+   "world": "Garba",
+   "pose": "walking; dandiya movement",
+   "camera": "wide environmental lens",
+   "framing": "medium three-quarter",
+   "lighting": "warm string lights",
+   "activity": "arriving together",
+   "location": "festival ground; festival ground",
+   "palette": [
+    "Fuchsia",
+    "Peacock Teal"
+   ],
+   "sourceImage": "/images/production-couple-garba-walk.jpg",
+   "composition": "walking; dandiya movement | wide environmental lens | medium three-quarter | festival ground; festival ground | warm string lights",
+   "uniquenessKey": "garba-9|walking; dandiya movement | wide environmental lens | medium three-quarter | festival ground; festival ground | warm string lights"
+  }
+ },
+ {
+  "id": "couple-garba-10",
+  "title": "Garba · Dancing 10",
+  "mood": "Garba",
+  "world": "Garba",
+  "occasions": [
+   "Garba"
+  ],
+  "herProductIds": [
+   "w-saree-drape-01",
+   "w-ear-jhumka-01"
+  ],
+  "hisProductIds": [
+   "m-garba-kediyu-production-03",
+   "m-mojari-01"
+  ],
+  "price": 7896,
+  "description": "A candid, human-photography pair for Garba: complementary mustard and indigo styling, photographed through fixing a styling detail rather than a posed uniform.",
+  "imageUrl": "/images/couples-v2/garba-10.jpg",
+  "coupleId": "garba-10",
+  "metadata": {
+   "world": "Garba",
+   "pose": "dancing; looking back at one another",
+   "camera": "handheld social frame",
+   "framing": "over-shoulder",
+   "lighting": "amber movement light",
+   "activity": "fixing a styling detail",
+   "location": "decorated Garba circle; decorated courtyard",
+   "palette": [
+    "Mustard",
+    "Indigo"
+   ],
+   "sourceImage": "/images/production-couple-garba-twirl.jpg",
+   "composition": "dancing; looking back at one another | handheld social frame | over-shoulder | decorated Garba circle; decorated courtyard | amber movement light",
+   "uniquenessKey": "garba-10|dancing; looking back at one another | handheld social frame | over-shoulder | decorated Garba circle; decorated courtyard | amber movement light"
+  }
+ },
+ {
+  "id": "couple-garba-11",
+  "title": "Garba · Dandiya 11",
+  "mood": "Garba",
+  "world": "Garba",
+  "occasions": [
+   "Garba"
+  ],
+  "herProductIds": [
+   "w-saree-drape-01",
+   "w-ear-jhumka-01"
+  ],
+  "hisProductIds": [
+   "m-kurtiset-cotton-01",
+   "m-mojari-01"
+  ],
+  "price": 7496,
+  "description": "A candid, human-photography pair for Garba: complementary terracotta and emerald styling, photographed through moving through the crowd rather than a posed uniform.",
+  "imageUrl": "/images/couples-v2/garba-11.jpg",
+  "coupleId": "garba-11",
+  "metadata": {
+   "world": "Garba",
+   "pose": "dandiya; walking together",
+   "camera": "documentary 35mm",
+   "framing": "wide full-body",
+   "lighting": "jewel night light",
+   "activity": "moving through the crowd",
+   "location": "dandiya circle; string-lit walkway",
+   "palette": [
+    "Terracotta",
+    "Emerald"
+   ],
+   "sourceImage": "/images/production-couple-garba-dandiya-close.jpg",
+   "composition": "dandiya; walking together | documentary 35mm | wide full-body | dandiya circle; string-lit walkway | jewel night light",
+   "uniquenessKey": "garba-11|dandiya; walking together | documentary 35mm | wide full-body | dandiya circle; string-lit walkway | jewel night light"
+  }
+ },
+ {
+  "id": "couple-garba-12",
+  "title": "Garba · Styling Adjustment 12",
+  "mood": "Garba",
+  "world": "Garba",
+  "occasions": [
+   "Garba"
+  ],
+  "herProductIds": [
+   "w-saree-drape-01",
+   "w-ear-jhumka-01"
+  ],
+  "hisProductIds": [
+   "m-garba-kediyu-03",
+   "m-mojari-01"
+  ],
+  "price": 6896,
+  "description": "A candid, human-photography pair for Garba: complementary rani pink and bottle green styling, photographed through walking past lights rather than a posed uniform.",
+  "imageUrl": "/images/couples-v2/garba-12.jpg",
+  "coupleId": "garba-12",
+  "metadata": {
+   "world": "Garba",
+   "pose": "styling adjustment; laughing in conversation",
+   "camera": "intimate 50mm",
+   "framing": "close portrait",
+   "lighting": "soft marquee glow",
+   "activity": "walking past lights",
+   "location": "Garba pavilion; balcony",
+   "palette": [
+    "Rani Pink",
+    "Bottle Green"
+   ],
+   "sourceImage": "/images/production-couple-garba-dupattafix.jpg",
+   "composition": "styling adjustment; laughing in conversation | intimate 50mm | close portrait | Garba pavilion; balcony | soft marquee glow",
+   "uniquenessKey": "garba-12|styling adjustment; laughing in conversation | intimate 50mm | close portrait | Garba pavilion; balcony | soft marquee glow"
+  }
+ },
+ {
+  "id": "couple-garba-13",
+  "title": "Garba · Walking 13",
+  "mood": "Garba",
+  "world": "Garba",
+  "occasions": [
+   "Garba"
+  ],
+  "herProductIds": [
+   "w-garba-chaniya-production-05",
+   "w-ear-jhumka-01"
+  ],
+  "hisProductIds": [
+   "m-garba-vest-04",
+   "m-mojari-01"
+  ],
+  "price": 7096,
+  "description": "A candid, human-photography pair for Garba: complementary fuchsia and peacock teal styling, photographed through pausing between dances rather than a posed uniform.",
+  "imageUrl": "/images/couples-v2/garba-13.jpg",
+  "coupleId": "garba-13",
+  "metadata": {
+   "world": "Garba",
+   "pose": "walking; hands almost touching",
+   "camera": "editorial 85mm",
+   "framing": "low movement frame",
+   "lighting": "warm string lights",
+   "activity": "pausing between dances",
+   "location": "festival ground; doorway",
+   "palette": [
+    "Fuchsia",
+    "Peacock Teal"
+   ],
+   "sourceImage": "/images/production-couple-garba-walk.jpg",
+   "composition": "walking; hands almost touching | editorial 85mm | low movement frame | festival ground; doorway | warm string lights",
+   "uniquenessKey": "garba-13|walking; hands almost touching | editorial 85mm | low movement frame | festival ground; doorway | warm string lights"
+  }
+ },
+ {
+  "id": "couple-garba-14",
+  "title": "Garba · Dancing 14",
+  "mood": "Garba",
+  "world": "Garba",
+  "occasions": [
+   "Garba"
+  ],
+  "herProductIds": [
+   "w-saree-drape-01",
+   "w-ear-jhumka-01"
+  ],
+  "hisProductIds": [
+   "m-garba-kediyu-production-03",
+   "m-mojari-01"
+  ],
+  "price": 7896,
+  "description": "A candid, human-photography pair for Garba: complementary mustard and indigo styling, photographed through sharing a private joke rather than a posed uniform.",
+  "imageUrl": "/images/couples-v2/garba-14.jpg",
+  "coupleId": "garba-14",
+  "metadata": {
+   "world": "Garba",
+   "pose": "dancing; mid-laugh portrait",
+   "camera": "wide environmental lens",
+   "framing": "medium three-quarter",
+   "lighting": "amber movement light",
+   "activity": "sharing a private joke",
+   "location": "decorated Garba circle; campus lawn",
+   "palette": [
+    "Mustard",
+    "Indigo"
+   ],
+   "sourceImage": "/images/production-couple-garba-twirl.jpg",
+   "composition": "dancing; mid-laugh portrait | wide environmental lens | medium three-quarter | decorated Garba circle; campus lawn | amber movement light",
+   "uniquenessKey": "garba-14|dancing; mid-laugh portrait | wide environmental lens | medium three-quarter | decorated Garba circle; campus lawn | amber movement light"
+  }
+ },
+ {
+  "id": "couple-garba-15",
+  "title": "Garba · Dandiya 15",
+  "mood": "Garba",
+  "world": "Garba",
+  "occasions": [
+   "Garba"
+  ],
+  "herProductIds": [
+   "w-saree-drape-01",
+   "w-ear-jhumka-01"
+  ],
+  "hisProductIds": [
+   "m-kurtiset-cotton-01",
+   "m-mojari-01"
+  ],
+  "price": 7496,
+  "description": "A candid, human-photography pair for Garba: complementary terracotta and emerald styling, photographed through holding dandiya sticks rather than a posed uniform.",
+  "imageUrl": "/images/couples-v2/garba-15.jpg",
+  "coupleId": "garba-15",
+  "metadata": {
+   "world": "Garba",
+   "pose": "dandiya; dancing in motion",
+   "camera": "handheld social frame",
+   "framing": "over-shoulder",
+   "lighting": "jewel night light",
+   "activity": "holding dandiya sticks",
+   "location": "dandiya circle; community hall",
+   "palette": [
+    "Terracotta",
+    "Emerald"
+   ],
+   "sourceImage": "/images/production-couple-garba-dandiya-close.jpg",
+   "composition": "dandiya; dancing in motion | handheld social frame | over-shoulder | dandiya circle; community hall | jewel night light",
+   "uniquenessKey": "garba-15|dandiya; dancing in motion | handheld social frame | over-shoulder | dandiya circle; community hall | jewel night light"
+  }
+ },
+ {
+  "id": "couple-garba-16",
+  "title": "Garba · Styling Adjustment 16",
+  "mood": "Garba",
+  "world": "Garba",
+  "occasions": [
+   "Garba"
+  ],
+  "herProductIds": [
+   "w-saree-drape-01",
+   "w-ear-jhumka-01"
+  ],
+  "hisProductIds": [
+   "m-garba-kediyu-03",
+   "m-mojari-01"
+  ],
+  "price": 6896,
+  "description": "A candid, human-photography pair for Garba: complementary rani pink and bottle green styling, photographed through choosing a song rather than a posed uniform.",
+  "imageUrl": "/images/couples-v2/garba-16.jpg",
+  "coupleId": "garba-16",
+  "metadata": {
+   "world": "Garba",
+   "pose": "styling adjustment; adjusting a dupatta",
+   "camera": "documentary 35mm",
+   "framing": "wide full-body",
+   "lighting": "soft marquee glow",
+   "activity": "choosing a song",
+   "location": "Garba pavilion; terrace",
+   "palette": [
+    "Rani Pink",
+    "Bottle Green"
+   ],
+   "sourceImage": "/images/production-couple-garba-dupattafix.jpg",
+   "composition": "styling adjustment; adjusting a dupatta | documentary 35mm | wide full-body | Garba pavilion; terrace | soft marquee glow",
+   "uniquenessKey": "garba-16|styling adjustment; adjusting a dupatta | documentary 35mm | wide full-body | Garba pavilion; terrace | soft marquee glow"
+  }
+ },
+ {
+  "id": "couple-garba-17",
+  "title": "Garba · Walking 17",
+  "mood": "Garba",
+  "world": "Garba",
+  "occasions": [
+   "Garba"
+  ],
+  "herProductIds": [
+   "w-garba-chaniya-production-05",
+   "w-ear-jhumka-01"
+  ],
+  "hisProductIds": [
+   "m-garba-vest-04",
+   "m-mojari-01"
+  ],
+  "price": 7096,
+  "description": "A candid, human-photography pair for Garba: complementary fuchsia and peacock teal styling, photographed through arriving together rather than a posed uniform.",
+  "imageUrl": "/images/couples-v2/garba-17.jpg",
+  "coupleId": "garba-17",
+  "metadata": {
+   "world": "Garba",
+   "pose": "walking; seated side-by-side",
+   "camera": "intimate 50mm",
+   "framing": "close portrait",
+   "lighting": "warm string lights",
+   "activity": "arriving together",
+   "location": "festival ground; festival ground",
+   "palette": [
+    "Fuchsia",
+    "Peacock Teal"
+   ],
+   "sourceImage": "/images/production-couple-garba-walk.jpg",
+   "composition": "walking; seated side-by-side | intimate 50mm | close portrait | festival ground; festival ground | warm string lights",
+   "uniquenessKey": "garba-17|walking; seated side-by-side | intimate 50mm | close portrait | festival ground; festival ground | warm string lights"
+  }
+ },
+ {
+  "id": "couple-garba-18",
+  "title": "Garba · Dancing 18",
+  "mood": "Garba",
+  "world": "Garba",
+  "occasions": [
+   "Garba"
+  ],
+  "herProductIds": [
+   "w-saree-drape-01",
+   "w-ear-jhumka-01"
+  ],
+  "hisProductIds": [
+   "m-garba-kediyu-production-03",
+   "m-mojari-01"
+  ],
+  "price": 7896,
+  "description": "A candid, human-photography pair for Garba: complementary mustard and indigo styling, photographed through fixing a styling detail rather than a posed uniform.",
+  "imageUrl": "/images/couples-v2/garba-18.jpg",
+  "coupleId": "garba-18",
+  "metadata": {
+   "world": "Garba",
+   "pose": "dancing; direct eye contact",
+   "camera": "editorial 85mm",
+   "framing": "low movement frame",
+   "lighting": "amber movement light",
+   "activity": "fixing a styling detail",
+   "location": "decorated Garba circle; decorated courtyard",
+   "palette": [
+    "Mustard",
+    "Indigo"
+   ],
+   "sourceImage": "/images/production-couple-garba-twirl.jpg",
+   "composition": "dancing; direct eye contact | editorial 85mm | low movement frame | decorated Garba circle; decorated courtyard | amber movement light",
+   "uniquenessKey": "garba-18|dancing; direct eye contact | editorial 85mm | low movement frame | decorated Garba circle; decorated courtyard | amber movement light"
+  }
+ },
+ {
+  "id": "couple-garba-19",
+  "title": "Garba · Dandiya 19",
+  "mood": "Garba",
+  "world": "Garba",
+  "occasions": [
+   "Garba"
+  ],
+  "herProductIds": [
+   "w-saree-drape-01",
+   "w-ear-jhumka-01"
+  ],
+  "hisProductIds": [
+   "m-kurtiset-cotton-01",
+   "m-mojari-01"
+  ],
+  "price": 7496,
+  "description": "A candid, human-photography pair for Garba: complementary terracotta and emerald styling, photographed through moving through the crowd rather than a posed uniform.",
+  "imageUrl": "/images/couples-v2/garba-19.jpg",
+  "coupleId": "garba-19",
+  "metadata": {
+   "world": "Garba",
+   "pose": "dandiya; dandiya movement",
+   "camera": "wide environmental lens",
+   "framing": "medium three-quarter",
+   "lighting": "jewel night light",
+   "activity": "moving through the crowd",
+   "location": "dandiya circle; string-lit walkway",
+   "palette": [
+    "Terracotta",
+    "Emerald"
+   ],
+   "sourceImage": "/images/production-couple-garba-dandiya-close.jpg",
+   "composition": "dandiya; dandiya movement | wide environmental lens | medium three-quarter | dandiya circle; string-lit walkway | jewel night light",
+   "uniquenessKey": "garba-19|dandiya; dandiya movement | wide environmental lens | medium three-quarter | dandiya circle; string-lit walkway | jewel night light"
+  }
+ },
+ {
+  "id": "couple-garba-20",
+  "title": "Garba · Styling Adjustment 20",
+  "mood": "Garba",
+  "world": "Garba",
+  "occasions": [
+   "Garba"
+  ],
+  "herProductIds": [
+   "w-saree-drape-01",
+   "w-ear-jhumka-01"
+  ],
+  "hisProductIds": [
+   "m-garba-kediyu-03",
+   "m-mojari-01"
+  ],
+  "price": 6896,
+  "description": "A candid, human-photography pair for Garba: complementary rani pink and bottle green styling, photographed through walking past lights rather than a posed uniform.",
+  "imageUrl": "/images/couples-v2/garba-20.jpg",
+  "coupleId": "garba-20",
+  "metadata": {
+   "world": "Garba",
+   "pose": "styling adjustment; looking back at one another",
+   "camera": "handheld social frame",
+   "framing": "over-shoulder",
+   "lighting": "soft marquee glow",
+   "activity": "walking past lights",
+   "location": "Garba pavilion; balcony",
+   "palette": [
+    "Rani Pink",
+    "Bottle Green"
+   ],
+   "sourceImage": "/images/production-couple-garba-dupattafix.jpg",
+   "composition": "styling adjustment; looking back at one another | handheld social frame | over-shoulder | Garba pavilion; balcony | soft marquee glow",
+   "uniquenessKey": "garba-20|styling adjustment; looking back at one another | handheld social frame | over-shoulder | Garba pavilion; balcony | soft marquee glow"
+  }
+ },
+ {
+  "id": "couple-navratri-01",
+  "title": "Navratri · Conversation 01",
+  "mood": "Navratri",
+  "world": "Navratri",
+  "occasions": [
+   "Navratri"
+  ],
+  "herProductIds": [
+   "w-kurtiset-dhoti-02",
+   "w-ear-jhumka-01"
+  ],
+  "hisProductIds": [
+   "m-indowest-drape-01",
+   "m-mojari-01"
+  ],
+  "price": 6996,
+  "description": "A candid, human-photography pair for Navratri: complementary cobalt and fuchsia styling, photographed through sharing a private joke rather than a posed uniform.",
+  "imageUrl": "/images/couples-v2/navratri-01.jpg",
+  "coupleId": "navratri-01",
+  "metadata": {
+   "world": "Navratri",
+   "pose": "conversation; direct eye contact",
+   "camera": "editorial 85mm",
+   "framing": "medium three-quarter",
+   "lighting": "soft festive light",
+   "activity": "sharing a private joke",
+   "location": "Navratri venue; balcony",
+   "palette": [
+    "Cobalt",
+    "Fuchsia"
+   ],
+   "sourceImage": "/images/production-couple-navratri-conversation.jpg",
+   "composition": "conversation; direct eye contact | editorial 85mm | medium three-quarter | Navratri venue; balcony | soft festive light",
+   "uniquenessKey": "navratri-1|conversation; direct eye contact | editorial 85mm | medium three-quarter | Navratri venue; balcony | soft festive light"
+  }
+ },
+ {
+  "id": "couple-navratri-02",
+  "title": "Navratri · Dancing 02",
+  "mood": "Navratri",
+  "world": "Navratri",
+  "occasions": [
+   "Navratri"
+  ],
+  "herProductIds": [
+   "w-leh-sequin-05",
+   "w-ear-jhumka-01"
+  ],
+  "hisProductIds": [
+   "m-kurta-jeans-02",
+   "m-mojari-01"
+  ],
+  "price": 8000,
+  "description": "A candid, human-photography pair for Navratri: complementary coral and indigo styling, photographed through holding dandiya sticks rather than a posed uniform.",
+  "imageUrl": "/images/couples-v2/navratri-02.jpg",
+  "coupleId": "navratri-02",
+  "metadata": {
+   "world": "Navratri",
+   "pose": "dancing; dandiya movement",
+   "camera": "wide environmental lens",
+   "framing": "over-shoulder",
+   "lighting": "colourful night light",
+   "activity": "holding dandiya sticks",
+   "location": "open festival ground; doorway",
+   "palette": [
+    "Coral",
+    "Indigo"
+   ],
+   "sourceImage": "/images/production-couple-garba-twirl.jpg",
+   "composition": "dancing; dandiya movement | wide environmental lens | over-shoulder | open festival ground; doorway | colourful night light",
+   "uniquenessKey": "navratri-2|dancing; dandiya movement | wide environmental lens | over-shoulder | open festival ground; doorway | colourful night light"
+  }
+ },
+ {
+  "id": "couple-navratri-03",
+  "title": "Navratri · Dandiya 03",
+  "mood": "Navratri",
+  "world": "Navratri",
+  "occasions": [
+   "Navratri"
+  ],
+  "herProductIds": [
+   "w-saree-linen-03",
+   "w-ear-jhumka-01"
   ],
   "hisProductIds": [
    "m-kurtiset-chikankari-02",
-   "m-watch-01"
+   "m-mojari-01"
   ],
-  "price": 6897,
-  "description": "A matched-but-not-matchy festive pair for the reception calendar. She wears rose block-printed linen saree with woven check; he wears rose kamdani-fine weave chikankari kurta set with rose gold stone-set ethnic-dial watch. Harmonised in Charcoal and Rose so the photos stay timeless.",
-  "imageUrl": "/images/couple-plates/cocktail-charcoal-rose.svg",
-  "coupleId": "cocktail-charcoal-rose"
+  "price": 8000,
+  "description": "A candid, human-photography pair for Navratri: complementary emerald and rose styling, photographed through choosing a song rather than a posed uniform.",
+  "imageUrl": "/images/couples-v2/navratri-03.jpg",
+  "coupleId": "navratri-03",
+  "metadata": {
+   "world": "Navratri",
+   "pose": "dandiya; looking back at one another",
+   "camera": "handheld social frame",
+   "framing": "wide full-body",
+   "lighting": "jewel night light",
+   "activity": "choosing a song",
+   "location": "community dance circle; campus lawn",
+   "palette": [
+    "Emerald",
+    "Rose"
+   ],
+   "sourceImage": "/images/production-couple-garba-dandiya-close.jpg",
+   "composition": "dandiya; looking back at one another | handheld social frame | wide full-body | community dance circle; campus lawn | jewel night light",
+   "uniquenessKey": "navratri-3|dandiya; looking back at one another | handheld social frame | wide full-body | community dance circle; campus lawn | jewel night light"
+  }
  },
  {
-  "id": "couple-navratri-rust-cream",
-  "title": "Chaniya & Kurta Rust Festive Rhythm",
-  "mood": "festive",
+  "id": "couple-navratri-04",
+  "title": "Navratri · Walking 04",
+  "mood": "Navratri",
+  "world": "Navratri",
   "occasions": [
-   "Garba"
+   "Navratri"
   ],
   "herProductIds": [
-   "w-saree-drape-08"
+   "w-saree-predrape-net-04",
+   "w-ear-jhumka-01"
   ],
   "hisProductIds": [
-   "m-waistcoat-set-02",
-   "m-watch-01"
+   "m-kurtiset-printed-01",
+   "m-mojari-01"
   ],
-  "price": 7197,
-  "description": "A matched-but-not-matchy festive pair for the garba calendar. She wears rust sequin-scattered georgette saree with woven border; he wears rust resham-threadworked waistcoat with straight kurta with rose gold stone-set ethnic-dial watch. Harmonised in Rust and Cream so the photos stay timeless.",
-  "imageUrl": "/images/couple-plates/navratri-rust-cream.svg",
-  "coupleId": "navratri-rust-cream"
+  "price": 8000,
+  "description": "A candid, human-photography pair for Navratri: complementary mint and mustard styling, photographed through arriving together rather than a posed uniform.",
+  "imageUrl": "/images/couples-v2/navratri-04.jpg",
+  "coupleId": "navratri-04",
+  "metadata": {
+   "world": "Navratri",
+   "pose": "walking; walking together",
+   "camera": "documentary 35mm",
+   "framing": "close portrait",
+   "lighting": "warm courtyard light",
+   "activity": "arriving together",
+   "location": "decorated Navratri architecture; community hall",
+   "palette": [
+    "Mint",
+    "Mustard"
+   ],
+   "sourceImage": "/images/production-couple-navratri-architecture.jpg",
+   "composition": "walking; walking together | documentary 35mm | close portrait | decorated Navratri architecture; community hall | warm courtyard light",
+   "uniquenessKey": "navratri-4|walking; walking together | documentary 35mm | close portrait | decorated Navratri architecture; community hall | warm courtyard light"
+  }
  },
  {
-  "id": "couple-reception-navy-peach",
-  "title": "Midnight Navy & Peach Reception Pair",
-  "mood": "elegant",
+  "id": "couple-navratri-05",
+  "title": "Navratri · Conversation 05",
+  "mood": "Navratri",
+  "world": "Navratri",
   "occasions": [
-   "Reception"
+   "Navratri"
   ],
   "herProductIds": [
-   "w-saree-silk-04"
+   "w-kurtiset-dhoti-02",
+   "w-ear-jhumka-01"
   ],
   "hisProductIds": [
-   "m-kurtiset-cotton-08",
-   "m-watch-01"
+   "m-indowest-drape-01",
+   "m-mojari-01"
   ],
-  "price": 14897,
-  "description": "A matched-but-not-matchy festive pair for the reception calendar. She wears peach jaal-lattice mulberry silk saree; he wears peach chikankari-worked cotton kurta set with rose gold stone-set ethnic-dial watch. Harmonised in Navy and Peach so the photos stay timeless.",
-  "imageUrl": "/images/couple-plates/reception-navy-peach.svg",
-  "coupleId": "reception-navy-peach"
+  "price": 6996,
+  "description": "A candid, human-photography pair for Navratri: complementary cobalt and fuchsia styling, photographed through fixing a styling detail rather than a posed uniform.",
+  "imageUrl": "/images/couples-v2/navratri-05.jpg",
+  "coupleId": "navratri-05",
+  "metadata": {
+   "world": "Navratri",
+   "pose": "conversation; laughing in conversation",
+   "camera": "intimate 50mm",
+   "framing": "low movement frame",
+   "lighting": "soft festive light",
+   "activity": "fixing a styling detail",
+   "location": "Navratri venue; terrace",
+   "palette": [
+    "Cobalt",
+    "Fuchsia"
+   ],
+   "sourceImage": "/images/production-couple-navratri-conversation.jpg",
+   "composition": "conversation; laughing in conversation | intimate 50mm | low movement frame | Navratri venue; terrace | soft festive light",
+   "uniquenessKey": "navratri-5|conversation; laughing in conversation | intimate 50mm | low movement frame | Navratri venue; terrace | soft festive light"
+  }
  },
  {
-  "id": "couple-college-fest-sage-ivory",
-  "title": "Campus Traditional Sage & Ivory Duo",
-  "mood": "youthful",
+  "id": "couple-navratri-06",
+  "title": "Navratri · Dancing 06",
+  "mood": "Navratri",
+  "world": "Navratri",
   "occasions": [
-   "College"
+   "Navratri"
   ],
   "herProductIds": [
-   "w-saree-organza-02"
+   "w-leh-sequin-05",
+   "w-ear-jhumka-01"
+  ],
+  "hisProductIds": [
+   "m-kurta-jeans-02",
+   "m-mojari-01"
+  ],
+  "price": 8000,
+  "description": "A candid, human-photography pair for Navratri: complementary coral and indigo styling, photographed through moving through the crowd rather than a posed uniform.",
+  "imageUrl": "/images/couples-v2/navratri-06.jpg",
+  "coupleId": "navratri-06",
+  "metadata": {
+   "world": "Navratri",
+   "pose": "dancing; hands almost touching",
+   "camera": "editorial 85mm",
+   "framing": "medium three-quarter",
+   "lighting": "colourful night light",
+   "activity": "moving through the crowd",
+   "location": "open festival ground; festival ground",
+   "palette": [
+    "Coral",
+    "Indigo"
+   ],
+   "sourceImage": "/images/production-couple-garba-twirl.jpg",
+   "composition": "dancing; hands almost touching | editorial 85mm | medium three-quarter | open festival ground; festival ground | colourful night light",
+   "uniquenessKey": "navratri-6|dancing; hands almost touching | editorial 85mm | medium three-quarter | open festival ground; festival ground | colourful night light"
+  }
+ },
+ {
+  "id": "couple-navratri-07",
+  "title": "Navratri · Dandiya 07",
+  "mood": "Navratri",
+  "world": "Navratri",
+  "occasions": [
+   "Navratri"
+  ],
+  "herProductIds": [
+   "w-saree-linen-03",
+   "w-ear-jhumka-01"
+  ],
+  "hisProductIds": [
+   "m-kurtiset-chikankari-02",
+   "m-mojari-01"
+  ],
+  "price": 8000,
+  "description": "A candid, human-photography pair for Navratri: complementary emerald and rose styling, photographed through walking past lights rather than a posed uniform.",
+  "imageUrl": "/images/couples-v2/navratri-07.jpg",
+  "coupleId": "navratri-07",
+  "metadata": {
+   "world": "Navratri",
+   "pose": "dandiya; mid-laugh portrait",
+   "camera": "wide environmental lens",
+   "framing": "over-shoulder",
+   "lighting": "jewel night light",
+   "activity": "walking past lights",
+   "location": "community dance circle; decorated courtyard",
+   "palette": [
+    "Emerald",
+    "Rose"
+   ],
+   "sourceImage": "/images/production-couple-garba-dandiya-close.jpg",
+   "composition": "dandiya; mid-laugh portrait | wide environmental lens | over-shoulder | community dance circle; decorated courtyard | jewel night light",
+   "uniquenessKey": "navratri-7|dandiya; mid-laugh portrait | wide environmental lens | over-shoulder | community dance circle; decorated courtyard | jewel night light"
+  }
+ },
+ {
+  "id": "couple-navratri-08",
+  "title": "Navratri · Walking 08",
+  "mood": "Navratri",
+  "world": "Navratri",
+  "occasions": [
+   "Navratri"
+  ],
+  "herProductIds": [
+   "w-saree-predrape-net-04",
+   "w-ear-jhumka-01"
+  ],
+  "hisProductIds": [
+   "m-kurtiset-printed-01",
+   "m-mojari-01"
+  ],
+  "price": 8000,
+  "description": "A candid, human-photography pair for Navratri: complementary mint and mustard styling, photographed through pausing between dances rather than a posed uniform.",
+  "imageUrl": "/images/couples-v2/navratri-08.jpg",
+  "coupleId": "navratri-08",
+  "metadata": {
+   "world": "Navratri",
+   "pose": "walking; dancing in motion",
+   "camera": "handheld social frame",
+   "framing": "wide full-body",
+   "lighting": "warm courtyard light",
+   "activity": "pausing between dances",
+   "location": "decorated Navratri architecture; string-lit walkway",
+   "palette": [
+    "Mint",
+    "Mustard"
+   ],
+   "sourceImage": "/images/production-couple-navratri-architecture.jpg",
+   "composition": "walking; dancing in motion | handheld social frame | wide full-body | decorated Navratri architecture; string-lit walkway | warm courtyard light",
+   "uniquenessKey": "navratri-8|walking; dancing in motion | handheld social frame | wide full-body | decorated Navratri architecture; string-lit walkway | warm courtyard light"
+  }
+ },
+ {
+  "id": "couple-navratri-09",
+  "title": "Navratri · Conversation 09",
+  "mood": "Navratri",
+  "world": "Navratri",
+  "occasions": [
+   "Navratri"
+  ],
+  "herProductIds": [
+   "w-kurtiset-dhoti-02",
+   "w-ear-jhumka-01"
+  ],
+  "hisProductIds": [
+   "m-indowest-drape-01",
+   "m-mojari-01"
+  ],
+  "price": 6996,
+  "description": "A candid, human-photography pair for Navratri: complementary cobalt and fuchsia styling, photographed through sharing a private joke rather than a posed uniform.",
+  "imageUrl": "/images/couples-v2/navratri-09.jpg",
+  "coupleId": "navratri-09",
+  "metadata": {
+   "world": "Navratri",
+   "pose": "conversation; adjusting a dupatta",
+   "camera": "documentary 35mm",
+   "framing": "close portrait",
+   "lighting": "soft festive light",
+   "activity": "sharing a private joke",
+   "location": "Navratri venue; balcony",
+   "palette": [
+    "Cobalt",
+    "Fuchsia"
+   ],
+   "sourceImage": "/images/production-couple-navratri-conversation.jpg",
+   "composition": "conversation; adjusting a dupatta | documentary 35mm | close portrait | Navratri venue; balcony | soft festive light",
+   "uniquenessKey": "navratri-9|conversation; adjusting a dupatta | documentary 35mm | close portrait | Navratri venue; balcony | soft festive light"
+  }
+ },
+ {
+  "id": "couple-navratri-10",
+  "title": "Navratri · Dancing 10",
+  "mood": "Navratri",
+  "world": "Navratri",
+  "occasions": [
+   "Navratri"
+  ],
+  "herProductIds": [
+   "w-leh-sequin-05",
+   "w-ear-jhumka-01"
+  ],
+  "hisProductIds": [
+   "m-kurta-jeans-02",
+   "m-mojari-01"
+  ],
+  "price": 8000,
+  "description": "A candid, human-photography pair for Navratri: complementary coral and indigo styling, photographed through holding dandiya sticks rather than a posed uniform.",
+  "imageUrl": "/images/couples-v2/navratri-10.jpg",
+  "coupleId": "navratri-10",
+  "metadata": {
+   "world": "Navratri",
+   "pose": "dancing; seated side-by-side",
+   "camera": "intimate 50mm",
+   "framing": "low movement frame",
+   "lighting": "colourful night light",
+   "activity": "holding dandiya sticks",
+   "location": "open festival ground; doorway",
+   "palette": [
+    "Coral",
+    "Indigo"
+   ],
+   "sourceImage": "/images/production-couple-garba-twirl.jpg",
+   "composition": "dancing; seated side-by-side | intimate 50mm | low movement frame | open festival ground; doorway | colourful night light",
+   "uniquenessKey": "navratri-10|dancing; seated side-by-side | intimate 50mm | low movement frame | open festival ground; doorway | colourful night light"
+  }
+ },
+ {
+  "id": "couple-navratri-11",
+  "title": "Navratri · Dandiya 11",
+  "mood": "Navratri",
+  "world": "Navratri",
+  "occasions": [
+   "Navratri"
+  ],
+  "herProductIds": [
+   "w-saree-linen-03",
+   "w-ear-jhumka-01"
+  ],
+  "hisProductIds": [
+   "m-kurtiset-chikankari-02",
+   "m-mojari-01"
+  ],
+  "price": 8000,
+  "description": "A candid, human-photography pair for Navratri: complementary emerald and rose styling, photographed through choosing a song rather than a posed uniform.",
+  "imageUrl": "/images/couples-v2/navratri-11.jpg",
+  "coupleId": "navratri-11",
+  "metadata": {
+   "world": "Navratri",
+   "pose": "dandiya; direct eye contact",
+   "camera": "editorial 85mm",
+   "framing": "medium three-quarter",
+   "lighting": "jewel night light",
+   "activity": "choosing a song",
+   "location": "community dance circle; campus lawn",
+   "palette": [
+    "Emerald",
+    "Rose"
+   ],
+   "sourceImage": "/images/production-couple-garba-dandiya-close.jpg",
+   "composition": "dandiya; direct eye contact | editorial 85mm | medium three-quarter | community dance circle; campus lawn | jewel night light",
+   "uniquenessKey": "navratri-11|dandiya; direct eye contact | editorial 85mm | medium three-quarter | community dance circle; campus lawn | jewel night light"
+  }
+ },
+ {
+  "id": "couple-navratri-12",
+  "title": "Navratri · Walking 12",
+  "mood": "Navratri",
+  "world": "Navratri",
+  "occasions": [
+   "Navratri"
+  ],
+  "herProductIds": [
+   "w-saree-predrape-net-04",
+   "w-ear-jhumka-01"
+  ],
+  "hisProductIds": [
+   "m-kurtiset-printed-01",
+   "m-mojari-01"
+  ],
+  "price": 8000,
+  "description": "A candid, human-photography pair for Navratri: complementary mint and mustard styling, photographed through arriving together rather than a posed uniform.",
+  "imageUrl": "/images/couples-v2/navratri-12.jpg",
+  "coupleId": "navratri-12",
+  "metadata": {
+   "world": "Navratri",
+   "pose": "walking; dandiya movement",
+   "camera": "wide environmental lens",
+   "framing": "over-shoulder",
+   "lighting": "warm courtyard light",
+   "activity": "arriving together",
+   "location": "decorated Navratri architecture; community hall",
+   "palette": [
+    "Mint",
+    "Mustard"
+   ],
+   "sourceImage": "/images/production-couple-navratri-architecture.jpg",
+   "composition": "walking; dandiya movement | wide environmental lens | over-shoulder | decorated Navratri architecture; community hall | warm courtyard light",
+   "uniquenessKey": "navratri-12|walking; dandiya movement | wide environmental lens | over-shoulder | decorated Navratri architecture; community hall | warm courtyard light"
+  }
+ },
+ {
+  "id": "couple-navratri-13",
+  "title": "Navratri · Conversation 13",
+  "mood": "Navratri",
+  "world": "Navratri",
+  "occasions": [
+   "Navratri"
+  ],
+  "herProductIds": [
+   "w-kurtiset-dhoti-02",
+   "w-ear-jhumka-01"
+  ],
+  "hisProductIds": [
+   "m-indowest-drape-01",
+   "m-mojari-01"
+  ],
+  "price": 6996,
+  "description": "A candid, human-photography pair for Navratri: complementary cobalt and fuchsia styling, photographed through fixing a styling detail rather than a posed uniform.",
+  "imageUrl": "/images/couples-v2/navratri-13.jpg",
+  "coupleId": "navratri-13",
+  "metadata": {
+   "world": "Navratri",
+   "pose": "conversation; looking back at one another",
+   "camera": "handheld social frame",
+   "framing": "wide full-body",
+   "lighting": "soft festive light",
+   "activity": "fixing a styling detail",
+   "location": "Navratri venue; terrace",
+   "palette": [
+    "Cobalt",
+    "Fuchsia"
+   ],
+   "sourceImage": "/images/production-couple-navratri-conversation.jpg",
+   "composition": "conversation; looking back at one another | handheld social frame | wide full-body | Navratri venue; terrace | soft festive light",
+   "uniquenessKey": "navratri-13|conversation; looking back at one another | handheld social frame | wide full-body | Navratri venue; terrace | soft festive light"
+  }
+ },
+ {
+  "id": "couple-navratri-14",
+  "title": "Navratri · Dancing 14",
+  "mood": "Navratri",
+  "world": "Navratri",
+  "occasions": [
+   "Navratri"
+  ],
+  "herProductIds": [
+   "w-leh-sequin-05",
+   "w-ear-jhumka-01"
+  ],
+  "hisProductIds": [
+   "m-kurta-jeans-02",
+   "m-mojari-01"
+  ],
+  "price": 8000,
+  "description": "A candid, human-photography pair for Navratri: complementary coral and indigo styling, photographed through moving through the crowd rather than a posed uniform.",
+  "imageUrl": "/images/couples-v2/navratri-14.jpg",
+  "coupleId": "navratri-14",
+  "metadata": {
+   "world": "Navratri",
+   "pose": "dancing; walking together",
+   "camera": "documentary 35mm",
+   "framing": "close portrait",
+   "lighting": "colourful night light",
+   "activity": "moving through the crowd",
+   "location": "open festival ground; festival ground",
+   "palette": [
+    "Coral",
+    "Indigo"
+   ],
+   "sourceImage": "/images/production-couple-garba-twirl.jpg",
+   "composition": "dancing; walking together | documentary 35mm | close portrait | open festival ground; festival ground | colourful night light",
+   "uniquenessKey": "navratri-14|dancing; walking together | documentary 35mm | close portrait | open festival ground; festival ground | colourful night light"
+  }
+ },
+ {
+  "id": "couple-navratri-15",
+  "title": "Navratri · Dandiya 15",
+  "mood": "Navratri",
+  "world": "Navratri",
+  "occasions": [
+   "Navratri"
+  ],
+  "herProductIds": [
+   "w-saree-linen-03",
+   "w-ear-jhumka-01"
+  ],
+  "hisProductIds": [
+   "m-kurtiset-chikankari-02",
+   "m-mojari-01"
+  ],
+  "price": 8000,
+  "description": "A candid, human-photography pair for Navratri: complementary emerald and rose styling, photographed through walking past lights rather than a posed uniform.",
+  "imageUrl": "/images/couples-v2/navratri-15.jpg",
+  "coupleId": "navratri-15",
+  "metadata": {
+   "world": "Navratri",
+   "pose": "dandiya; laughing in conversation",
+   "camera": "intimate 50mm",
+   "framing": "low movement frame",
+   "lighting": "jewel night light",
+   "activity": "walking past lights",
+   "location": "community dance circle; decorated courtyard",
+   "palette": [
+    "Emerald",
+    "Rose"
+   ],
+   "sourceImage": "/images/production-couple-garba-dandiya-close.jpg",
+   "composition": "dandiya; laughing in conversation | intimate 50mm | low movement frame | community dance circle; decorated courtyard | jewel night light",
+   "uniquenessKey": "navratri-15|dandiya; laughing in conversation | intimate 50mm | low movement frame | community dance circle; decorated courtyard | jewel night light"
+  }
+ },
+ {
+  "id": "couple-navratri-16",
+  "title": "Navratri · Walking 16",
+  "mood": "Navratri",
+  "world": "Navratri",
+  "occasions": [
+   "Navratri"
+  ],
+  "herProductIds": [
+   "w-saree-predrape-net-04",
+   "w-ear-jhumka-01"
+  ],
+  "hisProductIds": [
+   "m-kurtiset-printed-01",
+   "m-mojari-01"
+  ],
+  "price": 8000,
+  "description": "A candid, human-photography pair for Navratri: complementary mint and mustard styling, photographed through pausing between dances rather than a posed uniform.",
+  "imageUrl": "/images/couples-v2/navratri-16.jpg",
+  "coupleId": "navratri-16",
+  "metadata": {
+   "world": "Navratri",
+   "pose": "walking; hands almost touching",
+   "camera": "editorial 85mm",
+   "framing": "medium three-quarter",
+   "lighting": "warm courtyard light",
+   "activity": "pausing between dances",
+   "location": "decorated Navratri architecture; string-lit walkway",
+   "palette": [
+    "Mint",
+    "Mustard"
+   ],
+   "sourceImage": "/images/production-couple-navratri-architecture.jpg",
+   "composition": "walking; hands almost touching | editorial 85mm | medium three-quarter | decorated Navratri architecture; string-lit walkway | warm courtyard light",
+   "uniquenessKey": "navratri-16|walking; hands almost touching | editorial 85mm | medium three-quarter | decorated Navratri architecture; string-lit walkway | warm courtyard light"
+  }
+ },
+ {
+  "id": "couple-navratri-17",
+  "title": "Navratri · Conversation 17",
+  "mood": "Navratri",
+  "world": "Navratri",
+  "occasions": [
+   "Navratri"
+  ],
+  "herProductIds": [
+   "w-kurtiset-dhoti-02",
+   "w-ear-jhumka-01"
+  ],
+  "hisProductIds": [
+   "m-indowest-drape-01",
+   "m-mojari-01"
+  ],
+  "price": 6996,
+  "description": "A candid, human-photography pair for Navratri: complementary cobalt and fuchsia styling, photographed through sharing a private joke rather than a posed uniform.",
+  "imageUrl": "/images/couples-v2/navratri-17.jpg",
+  "coupleId": "navratri-17",
+  "metadata": {
+   "world": "Navratri",
+   "pose": "conversation; mid-laugh portrait",
+   "camera": "wide environmental lens",
+   "framing": "over-shoulder",
+   "lighting": "soft festive light",
+   "activity": "sharing a private joke",
+   "location": "Navratri venue; balcony",
+   "palette": [
+    "Cobalt",
+    "Fuchsia"
+   ],
+   "sourceImage": "/images/production-couple-navratri-conversation.jpg",
+   "composition": "conversation; mid-laugh portrait | wide environmental lens | over-shoulder | Navratri venue; balcony | soft festive light",
+   "uniquenessKey": "navratri-17|conversation; mid-laugh portrait | wide environmental lens | over-shoulder | Navratri venue; balcony | soft festive light"
+  }
+ },
+ {
+  "id": "couple-navratri-18",
+  "title": "Navratri · Dancing 18",
+  "mood": "Navratri",
+  "world": "Navratri",
+  "occasions": [
+   "Navratri"
+  ],
+  "herProductIds": [
+   "w-leh-sequin-05",
+   "w-ear-jhumka-01"
+  ],
+  "hisProductIds": [
+   "m-kurta-jeans-02",
+   "m-mojari-01"
+  ],
+  "price": 8000,
+  "description": "A candid, human-photography pair for Navratri: complementary coral and indigo styling, photographed through holding dandiya sticks rather than a posed uniform.",
+  "imageUrl": "/images/couples-v2/navratri-18.jpg",
+  "coupleId": "navratri-18",
+  "metadata": {
+   "world": "Navratri",
+   "pose": "dancing; dancing in motion",
+   "camera": "handheld social frame",
+   "framing": "wide full-body",
+   "lighting": "colourful night light",
+   "activity": "holding dandiya sticks",
+   "location": "open festival ground; doorway",
+   "palette": [
+    "Coral",
+    "Indigo"
+   ],
+   "sourceImage": "/images/production-couple-garba-twirl.jpg",
+   "composition": "dancing; dancing in motion | handheld social frame | wide full-body | open festival ground; doorway | colourful night light",
+   "uniquenessKey": "navratri-18|dancing; dancing in motion | handheld social frame | wide full-body | open festival ground; doorway | colourful night light"
+  }
+ },
+ {
+  "id": "couple-navratri-19",
+  "title": "Navratri · Dandiya 19",
+  "mood": "Navratri",
+  "world": "Navratri",
+  "occasions": [
+   "Navratri"
+  ],
+  "herProductIds": [
+   "w-saree-linen-03",
+   "w-ear-jhumka-01"
+  ],
+  "hisProductIds": [
+   "m-kurtiset-chikankari-02",
+   "m-mojari-01"
+  ],
+  "price": 8000,
+  "description": "A candid, human-photography pair for Navratri: complementary emerald and rose styling, photographed through choosing a song rather than a posed uniform.",
+  "imageUrl": "/images/couples-v2/navratri-19.jpg",
+  "coupleId": "navratri-19",
+  "metadata": {
+   "world": "Navratri",
+   "pose": "dandiya; adjusting a dupatta",
+   "camera": "documentary 35mm",
+   "framing": "close portrait",
+   "lighting": "jewel night light",
+   "activity": "choosing a song",
+   "location": "community dance circle; campus lawn",
+   "palette": [
+    "Emerald",
+    "Rose"
+   ],
+   "sourceImage": "/images/production-couple-garba-dandiya-close.jpg",
+   "composition": "dandiya; adjusting a dupatta | documentary 35mm | close portrait | community dance circle; campus lawn | jewel night light",
+   "uniquenessKey": "navratri-19|dandiya; adjusting a dupatta | documentary 35mm | close portrait | community dance circle; campus lawn | jewel night light"
+  }
+ },
+ {
+  "id": "couple-navratri-20",
+  "title": "Navratri · Walking 20",
+  "mood": "Navratri",
+  "world": "Navratri",
+  "occasions": [
+   "Navratri"
+  ],
+  "herProductIds": [
+   "w-saree-predrape-net-04",
+   "w-ear-jhumka-01"
+  ],
+  "hisProductIds": [
+   "m-kurtiset-printed-01",
+   "m-mojari-01"
+  ],
+  "price": 8000,
+  "description": "A candid, human-photography pair for Navratri: complementary mint and mustard styling, photographed through arriving together rather than a posed uniform.",
+  "imageUrl": "/images/couples-v2/navratri-20.jpg",
+  "coupleId": "navratri-20",
+  "metadata": {
+   "world": "Navratri",
+   "pose": "walking; seated side-by-side",
+   "camera": "intimate 50mm",
+   "framing": "low movement frame",
+   "lighting": "warm courtyard light",
+   "activity": "arriving together",
+   "location": "decorated Navratri architecture; community hall",
+   "palette": [
+    "Mint",
+    "Mustard"
+   ],
+   "sourceImage": "/images/production-couple-navratri-architecture.jpg",
+   "composition": "walking; seated side-by-side | intimate 50mm | low movement frame | decorated Navratri architecture; community hall | warm courtyard light",
+   "uniquenessKey": "navratri-20|walking; seated side-by-side | intimate 50mm | low movement frame | decorated Navratri architecture; community hall | warm courtyard light"
+  }
+ },
+ {
+  "id": "couple-diwali-01",
+  "title": "Diwali · Seated Conversation 01",
+  "mood": "Diwali",
+  "world": "Diwali",
+  "occasions": [
+   "Diwali"
+  ],
+  "herProductIds": [
+   "w-saree-drape-01",
+   "w-ear-jhumka-01"
+  ],
+  "hisProductIds": [
+   "m-kurt-set-jamawar-01",
+   "m-mojari-01"
+  ],
+  "price": 8000,
+  "description": "A candid, human-photography pair for Diwali: complementary wine and antique gold styling, photographed through moving through the crowd rather than a posed uniform.",
+  "imageUrl": "/images/couples-v2/diwali-01.jpg",
+  "coupleId": "diwali-01",
+  "metadata": {
+   "world": "Diwali",
+   "pose": "seated conversation; dancing in motion",
+   "camera": "handheld social frame",
+   "framing": "close portrait",
+   "lighting": "soft bokeh light",
+   "activity": "moving through the crowd",
+   "location": "Diwali gathering; community hall",
+   "palette": [
+    "Wine",
+    "Antique Gold"
+   ],
+   "sourceImage": "/images/production-couple-festive-party-seated.jpg",
+   "composition": "seated conversation; dancing in motion | handheld social frame | close portrait | Diwali gathering; community hall | soft bokeh light",
+   "uniquenessKey": "diwali-1|seated conversation; dancing in motion | handheld social frame | close portrait | Diwali gathering; community hall | soft bokeh light"
+  }
+ },
+ {
+  "id": "couple-diwali-02",
+  "title": "Diwali · Walking 02",
+  "mood": "Diwali",
+  "world": "Diwali",
+  "occasions": [
+   "Diwali"
+  ],
+  "herProductIds": [
+   "w-saree-organza-02",
+   "w-ear-jhumka-01"
   ],
   "hisProductIds": [
    "m-kurtiset-cotton-02",
-   "m-watch-01"
+   "m-mojari-01"
   ],
-  "price": 4497,
-  "description": "A matched-but-not-matchy festive pair for the college calendar. She wears ivory chikankari-worked organza saree with hand-embroidered buti; he wears ivory block-printed cotton kurta set with rose gold stone-set ethnic-dial watch. Harmonised in Sage and Ivory so the photos stay timeless.",
-  "imageUrl": "/images/couple-plates/college-fest-sage-ivory.svg",
-  "coupleId": "college-fest-sage-ivory"
+  "price": 6196,
+  "description": "A candid, human-photography pair for Diwali: complementary emerald and ivory styling, photographed through walking past lights rather than a posed uniform.",
+  "imageUrl": "/images/couples-v2/diwali-02.jpg",
+  "coupleId": "diwali-02",
+  "metadata": {
+   "world": "Diwali",
+   "pose": "walking; adjusting a dupatta",
+   "camera": "documentary 35mm",
+   "framing": "low movement frame",
+   "lighting": "amber evening light",
+   "activity": "walking past lights",
+   "location": "lit courtyard; terrace",
+   "palette": [
+    "Emerald",
+    "Ivory"
+   ],
+   "sourceImage": "/images/production-couple-diwali-balcony.jpg",
+   "composition": "walking; adjusting a dupatta | documentary 35mm | low movement frame | lit courtyard; terrace | amber evening light",
+   "uniquenessKey": "diwali-2|walking; adjusting a dupatta | documentary 35mm | low movement frame | lit courtyard; terrace | amber evening light"
+  }
  },
  {
-  "id": "couple-mehendi-forest-rose",
-  "title": "Forest Green & Soft Rose Mehendi",
-  "mood": "fresh",
+  "id": "couple-diwali-03",
+  "title": "Diwali · Balcony Conversation 03",
+  "mood": "Diwali",
+  "world": "Diwali",
   "occasions": [
-   "Mehendi"
+   "Diwali"
   ],
   "herProductIds": [
-   "w-saree-drape-04"
+   "w-saree-drape-03",
+   "w-ear-jhumka-01"
   ],
   "hisProductIds": [
-   "m-kurtiset-silk-03",
-   "m-watch-01"
+   "m-kurtiset-cotton-01",
+   "m-mojari-01"
   ],
-  "price": 7997,
-  "description": "A matched-but-not-matchy festive pair for the mehendi calendar. She wears forest green resham-threadworked georgette saree with woven border; he wears forest green kamdani-fine weave silk kurta set with rose gold stone-set ethnic-dial watch. Harmonised in Forest Green and Blush Pink so the photos stay timeless.",
-  "imageUrl": "/images/couple-plates/mehendi-forest-rose.svg",
-  "coupleId": "mehendi-forest-rose"
+  "price": 8000,
+  "description": "A candid, human-photography pair for Diwali: complementary rust and sand styling, photographed through pausing between dances rather than a posed uniform.",
+  "imageUrl": "/images/couples-v2/diwali-03.jpg",
+  "coupleId": "diwali-03",
+  "metadata": {
+   "world": "Diwali",
+   "pose": "balcony conversation; seated side-by-side",
+   "camera": "intimate 50mm",
+   "framing": "medium three-quarter",
+   "lighting": "candlelit gold",
+   "activity": "pausing between dances",
+   "location": "diyas and marigold balcony; festival ground",
+   "palette": [
+    "Rust",
+    "Sand"
+   ],
+   "sourceImage": "/images/production-couple-diwali-balcony.jpg",
+   "composition": "balcony conversation; seated side-by-side | intimate 50mm | medium three-quarter | diyas and marigold balcony; festival ground | candlelit gold",
+   "uniquenessKey": "diwali-3|balcony conversation; seated side-by-side | intimate 50mm | medium three-quarter | diyas and marigold balcony; festival ground | candlelit gold"
+  }
  },
  {
-  "id": "couple-engagement-powder-ivory",
-  "title": "Powder Blue & Ivory Courtyard Engagement",
-  "mood": "serene",
+  "id": "couple-diwali-04",
+  "title": "Diwali · Doorway Eye Contact 04",
+  "mood": "Diwali",
+  "world": "Diwali",
   "occasions": [
-   "Engagement"
+   "Diwali"
   ],
   "herProductIds": [
-   "w-saree-organza-01"
+   "w-saree-drape-07",
+   "w-ear-jhumka-01"
+  ],
+  "hisProductIds": [
+   "m-kurtiset-silk-01",
+   "m-mojari-01"
+  ],
+  "price": 8000,
+  "description": "A candid, human-photography pair for Diwali: complementary peacock teal and mustard styling, photographed through sharing a private joke rather than a posed uniform.",
+  "imageUrl": "/images/couples-v2/diwali-04.jpg",
+  "coupleId": "diwali-04",
+  "metadata": {
+   "world": "Diwali",
+   "pose": "doorway eye contact; direct eye contact",
+   "camera": "editorial 85mm",
+   "framing": "over-shoulder",
+   "lighting": "warm lamp light",
+   "activity": "sharing a private joke",
+   "location": "decorated Diwali doorway; decorated courtyard",
+   "palette": [
+    "Peacock Teal",
+    "Mustard"
+   ],
+   "sourceImage": "/images/production-couple-diwali-doorway.jpg",
+   "composition": "doorway eye contact; direct eye contact | editorial 85mm | over-shoulder | decorated Diwali doorway; decorated courtyard | warm lamp light",
+   "uniquenessKey": "diwali-4|doorway eye contact; direct eye contact | editorial 85mm | over-shoulder | decorated Diwali doorway; decorated courtyard | warm lamp light"
+  }
+ },
+ {
+  "id": "couple-diwali-05",
+  "title": "Diwali · Seated Conversation 05",
+  "mood": "Diwali",
+  "world": "Diwali",
+  "occasions": [
+   "Diwali"
+  ],
+  "herProductIds": [
+   "w-saree-drape-01",
+   "w-ear-jhumka-01"
+  ],
+  "hisProductIds": [
+   "m-kurt-set-jamawar-01",
+   "m-mojari-01"
+  ],
+  "price": 8000,
+  "description": "A candid, human-photography pair for Diwali: complementary wine and antique gold styling, photographed through holding dandiya sticks rather than a posed uniform.",
+  "imageUrl": "/images/couples-v2/diwali-05.jpg",
+  "coupleId": "diwali-05",
+  "metadata": {
+   "world": "Diwali",
+   "pose": "seated conversation; dandiya movement",
+   "camera": "wide environmental lens",
+   "framing": "wide full-body",
+   "lighting": "soft bokeh light",
+   "activity": "holding dandiya sticks",
+   "location": "Diwali gathering; string-lit walkway",
+   "palette": [
+    "Wine",
+    "Antique Gold"
+   ],
+   "sourceImage": "/images/production-couple-festive-party-seated.jpg",
+   "composition": "seated conversation; dandiya movement | wide environmental lens | wide full-body | Diwali gathering; string-lit walkway | soft bokeh light",
+   "uniquenessKey": "diwali-5|seated conversation; dandiya movement | wide environmental lens | wide full-body | Diwali gathering; string-lit walkway | soft bokeh light"
+  }
+ },
+ {
+  "id": "couple-diwali-06",
+  "title": "Diwali · Walking 06",
+  "mood": "Diwali",
+  "world": "Diwali",
+  "occasions": [
+   "Diwali"
+  ],
+  "herProductIds": [
+   "w-saree-organza-02",
+   "w-ear-jhumka-01"
   ],
   "hisProductIds": [
    "m-kurtiset-cotton-02",
-   "m-watch-01"
+   "m-mojari-01"
   ],
-  "price": 5597,
-  "description": "A matched-but-not-matchy festive pair for the engagement calendar. She wears powder blue kamdani-fine weave organza saree with hand-embroidered buti; he wears ivory block-printed cotton kurta set with rose gold stone-set ethnic-dial watch. Harmonised in Powder Blue and Ivory so the photos stay timeless.",
-  "imageUrl": "/images/couple-plates/engagement-powder-ivory.svg",
-  "coupleId": "engagement-powder-ivory"
+  "price": 6196,
+  "description": "A candid, human-photography pair for Diwali: complementary emerald and ivory styling, photographed through choosing a song rather than a posed uniform.",
+  "imageUrl": "/images/couples-v2/diwali-06.jpg",
+  "coupleId": "diwali-06",
+  "metadata": {
+   "world": "Diwali",
+   "pose": "walking; looking back at one another",
+   "camera": "handheld social frame",
+   "framing": "close portrait",
+   "lighting": "amber evening light",
+   "activity": "choosing a song",
+   "location": "lit courtyard; balcony",
+   "palette": [
+    "Emerald",
+    "Ivory"
+   ],
+   "sourceImage": "/images/production-couple-diwali-balcony.jpg",
+   "composition": "walking; looking back at one another | handheld social frame | close portrait | lit courtyard; balcony | amber evening light",
+   "uniquenessKey": "diwali-6|walking; looking back at one another | handheld social frame | close portrait | lit courtyard; balcony | amber evening light"
+  }
  },
  {
-  "id": "couple-puja-terracotta-cream",
-  "title": "Terracotta & Ivory Dawn Puja Harmony",
-  "mood": "devotional",
+  "id": "couple-diwali-07",
+  "title": "Diwali · Balcony Conversation 07",
+  "mood": "Diwali",
+  "world": "Diwali",
   "occasions": [
-   "Puja & Temple"
+   "Diwali"
   ],
   "herProductIds": [
-   "w-saree-georgette-soft-01"
+   "w-saree-drape-03",
+   "w-ear-jhumka-01"
   ],
   "hisProductIds": [
-   "m-kurtiset-printed-05",
-   "m-watch-01"
+   "m-kurtiset-cotton-01",
+   "m-mojari-01"
   ],
-  "price": 3997,
-  "description": "A matched-but-not-matchy festive pair for the puja & temple calendar. She wears terracotta block-printed soft georgette everyday saree; he wears terracotta printed kurta set with rose gold stone-set ethnic-dial watch. Harmonised in Terracotta and Cream so the photos stay timeless.",
-  "imageUrl": "/images/couple-plates/puja-terracotta-cream.svg",
-  "coupleId": "puja-terracotta-cream"
+  "price": 8000,
+  "description": "A candid, human-photography pair for Diwali: complementary rust and sand styling, photographed through arriving together rather than a posed uniform.",
+  "imageUrl": "/images/couples-v2/diwali-07.jpg",
+  "coupleId": "diwali-07",
+  "metadata": {
+   "world": "Diwali",
+   "pose": "balcony conversation; walking together",
+   "camera": "documentary 35mm",
+   "framing": "low movement frame",
+   "lighting": "candlelit gold",
+   "activity": "arriving together",
+   "location": "diyas and marigold balcony; doorway",
+   "palette": [
+    "Rust",
+    "Sand"
+   ],
+   "sourceImage": "/images/production-couple-diwali-balcony.jpg",
+   "composition": "balcony conversation; walking together | documentary 35mm | low movement frame | diyas and marigold balcony; doorway | candlelit gold",
+   "uniquenessKey": "diwali-7|balcony conversation; walking together | documentary 35mm | low movement frame | diyas and marigold balcony; doorway | candlelit gold"
+  }
  },
  {
-  "id": "couple-festive-plum-blush",
-  "title": "Plum & Blush Twilight Festive Pairing",
-  "mood": "contemporary",
+  "id": "couple-diwali-08",
+  "title": "Diwali · Doorway Eye Contact 08",
+  "mood": "Diwali",
+  "world": "Diwali",
+  "occasions": [
+   "Diwali"
+  ],
+  "herProductIds": [
+   "w-saree-drape-07",
+   "w-ear-jhumka-01"
+  ],
+  "hisProductIds": [
+   "m-kurtiset-silk-01",
+   "m-mojari-01"
+  ],
+  "price": 8000,
+  "description": "A candid, human-photography pair for Diwali: complementary peacock teal and mustard styling, photographed through fixing a styling detail rather than a posed uniform.",
+  "imageUrl": "/images/couples-v2/diwali-08.jpg",
+  "coupleId": "diwali-08",
+  "metadata": {
+   "world": "Diwali",
+   "pose": "doorway eye contact; laughing in conversation",
+   "camera": "intimate 50mm",
+   "framing": "medium three-quarter",
+   "lighting": "warm lamp light",
+   "activity": "fixing a styling detail",
+   "location": "decorated Diwali doorway; campus lawn",
+   "palette": [
+    "Peacock Teal",
+    "Mustard"
+   ],
+   "sourceImage": "/images/production-couple-diwali-doorway.jpg",
+   "composition": "doorway eye contact; laughing in conversation | intimate 50mm | medium three-quarter | decorated Diwali doorway; campus lawn | warm lamp light",
+   "uniquenessKey": "diwali-8|doorway eye contact; laughing in conversation | intimate 50mm | medium three-quarter | decorated Diwali doorway; campus lawn | warm lamp light"
+  }
+ },
+ {
+  "id": "couple-diwali-09",
+  "title": "Diwali · Seated Conversation 09",
+  "mood": "Diwali",
+  "world": "Diwali",
+  "occasions": [
+   "Diwali"
+  ],
+  "herProductIds": [
+   "w-saree-drape-01",
+   "w-ear-jhumka-01"
+  ],
+  "hisProductIds": [
+   "m-kurt-set-jamawar-01",
+   "m-mojari-01"
+  ],
+  "price": 8000,
+  "description": "A candid, human-photography pair for Diwali: complementary wine and antique gold styling, photographed through moving through the crowd rather than a posed uniform.",
+  "imageUrl": "/images/couples-v2/diwali-09.jpg",
+  "coupleId": "diwali-09",
+  "metadata": {
+   "world": "Diwali",
+   "pose": "seated conversation; hands almost touching",
+   "camera": "editorial 85mm",
+   "framing": "over-shoulder",
+   "lighting": "soft bokeh light",
+   "activity": "moving through the crowd",
+   "location": "Diwali gathering; community hall",
+   "palette": [
+    "Wine",
+    "Antique Gold"
+   ],
+   "sourceImage": "/images/production-couple-festive-party-seated.jpg",
+   "composition": "seated conversation; hands almost touching | editorial 85mm | over-shoulder | Diwali gathering; community hall | soft bokeh light",
+   "uniquenessKey": "diwali-9|seated conversation; hands almost touching | editorial 85mm | over-shoulder | Diwali gathering; community hall | soft bokeh light"
+  }
+ },
+ {
+  "id": "couple-diwali-10",
+  "title": "Diwali · Walking 10",
+  "mood": "Diwali",
+  "world": "Diwali",
+  "occasions": [
+   "Diwali"
+  ],
+  "herProductIds": [
+   "w-saree-organza-02",
+   "w-ear-jhumka-01"
+  ],
+  "hisProductIds": [
+   "m-kurtiset-cotton-02",
+   "m-mojari-01"
+  ],
+  "price": 6196,
+  "description": "A candid, human-photography pair for Diwali: complementary emerald and ivory styling, photographed through walking past lights rather than a posed uniform.",
+  "imageUrl": "/images/couples-v2/diwali-10.jpg",
+  "coupleId": "diwali-10",
+  "metadata": {
+   "world": "Diwali",
+   "pose": "walking; mid-laugh portrait",
+   "camera": "wide environmental lens",
+   "framing": "wide full-body",
+   "lighting": "amber evening light",
+   "activity": "walking past lights",
+   "location": "lit courtyard; terrace",
+   "palette": [
+    "Emerald",
+    "Ivory"
+   ],
+   "sourceImage": "/images/production-couple-diwali-balcony.jpg",
+   "composition": "walking; mid-laugh portrait | wide environmental lens | wide full-body | lit courtyard; terrace | amber evening light",
+   "uniquenessKey": "diwali-10|walking; mid-laugh portrait | wide environmental lens | wide full-body | lit courtyard; terrace | amber evening light"
+  }
+ },
+ {
+  "id": "couple-diwali-11",
+  "title": "Diwali · Balcony Conversation 11",
+  "mood": "Diwali",
+  "world": "Diwali",
+  "occasions": [
+   "Diwali"
+  ],
+  "herProductIds": [
+   "w-saree-drape-03",
+   "w-ear-jhumka-01"
+  ],
+  "hisProductIds": [
+   "m-kurtiset-cotton-01",
+   "m-mojari-01"
+  ],
+  "price": 8000,
+  "description": "A candid, human-photography pair for Diwali: complementary rust and sand styling, photographed through pausing between dances rather than a posed uniform.",
+  "imageUrl": "/images/couples-v2/diwali-11.jpg",
+  "coupleId": "diwali-11",
+  "metadata": {
+   "world": "Diwali",
+   "pose": "balcony conversation; dancing in motion",
+   "camera": "handheld social frame",
+   "framing": "close portrait",
+   "lighting": "candlelit gold",
+   "activity": "pausing between dances",
+   "location": "diyas and marigold balcony; festival ground",
+   "palette": [
+    "Rust",
+    "Sand"
+   ],
+   "sourceImage": "/images/production-couple-diwali-balcony.jpg",
+   "composition": "balcony conversation; dancing in motion | handheld social frame | close portrait | diyas and marigold balcony; festival ground | candlelit gold",
+   "uniquenessKey": "diwali-11|balcony conversation; dancing in motion | handheld social frame | close portrait | diyas and marigold balcony; festival ground | candlelit gold"
+  }
+ },
+ {
+  "id": "couple-diwali-12",
+  "title": "Diwali · Doorway Eye Contact 12",
+  "mood": "Diwali",
+  "world": "Diwali",
+  "occasions": [
+   "Diwali"
+  ],
+  "herProductIds": [
+   "w-saree-drape-07",
+   "w-ear-jhumka-01"
+  ],
+  "hisProductIds": [
+   "m-kurtiset-silk-01",
+   "m-mojari-01"
+  ],
+  "price": 8000,
+  "description": "A candid, human-photography pair for Diwali: complementary peacock teal and mustard styling, photographed through sharing a private joke rather than a posed uniform.",
+  "imageUrl": "/images/couples-v2/diwali-12.jpg",
+  "coupleId": "diwali-12",
+  "metadata": {
+   "world": "Diwali",
+   "pose": "doorway eye contact; adjusting a dupatta",
+   "camera": "documentary 35mm",
+   "framing": "low movement frame",
+   "lighting": "warm lamp light",
+   "activity": "sharing a private joke",
+   "location": "decorated Diwali doorway; decorated courtyard",
+   "palette": [
+    "Peacock Teal",
+    "Mustard"
+   ],
+   "sourceImage": "/images/production-couple-diwali-doorway.jpg",
+   "composition": "doorway eye contact; adjusting a dupatta | documentary 35mm | low movement frame | decorated Diwali doorway; decorated courtyard | warm lamp light",
+   "uniquenessKey": "diwali-12|doorway eye contact; adjusting a dupatta | documentary 35mm | low movement frame | decorated Diwali doorway; decorated courtyard | warm lamp light"
+  }
+ },
+ {
+  "id": "couple-diwali-13",
+  "title": "Diwali · Seated Conversation 13",
+  "mood": "Diwali",
+  "world": "Diwali",
+  "occasions": [
+   "Diwali"
+  ],
+  "herProductIds": [
+   "w-saree-drape-01",
+   "w-ear-jhumka-01"
+  ],
+  "hisProductIds": [
+   "m-kurt-set-jamawar-01",
+   "m-mojari-01"
+  ],
+  "price": 8000,
+  "description": "A candid, human-photography pair for Diwali: complementary wine and antique gold styling, photographed through holding dandiya sticks rather than a posed uniform.",
+  "imageUrl": "/images/couples-v2/diwali-13.jpg",
+  "coupleId": "diwali-13",
+  "metadata": {
+   "world": "Diwali",
+   "pose": "seated conversation; seated side-by-side",
+   "camera": "intimate 50mm",
+   "framing": "medium three-quarter",
+   "lighting": "soft bokeh light",
+   "activity": "holding dandiya sticks",
+   "location": "Diwali gathering; string-lit walkway",
+   "palette": [
+    "Wine",
+    "Antique Gold"
+   ],
+   "sourceImage": "/images/production-couple-festive-party-seated.jpg",
+   "composition": "seated conversation; seated side-by-side | intimate 50mm | medium three-quarter | Diwali gathering; string-lit walkway | soft bokeh light",
+   "uniquenessKey": "diwali-13|seated conversation; seated side-by-side | intimate 50mm | medium three-quarter | Diwali gathering; string-lit walkway | soft bokeh light"
+  }
+ },
+ {
+  "id": "couple-diwali-14",
+  "title": "Diwali · Walking 14",
+  "mood": "Diwali",
+  "world": "Diwali",
+  "occasions": [
+   "Diwali"
+  ],
+  "herProductIds": [
+   "w-saree-organza-02",
+   "w-ear-jhumka-01"
+  ],
+  "hisProductIds": [
+   "m-kurtiset-cotton-02",
+   "m-mojari-01"
+  ],
+  "price": 6196,
+  "description": "A candid, human-photography pair for Diwali: complementary emerald and ivory styling, photographed through choosing a song rather than a posed uniform.",
+  "imageUrl": "/images/couples-v2/diwali-14.jpg",
+  "coupleId": "diwali-14",
+  "metadata": {
+   "world": "Diwali",
+   "pose": "walking; direct eye contact",
+   "camera": "editorial 85mm",
+   "framing": "over-shoulder",
+   "lighting": "amber evening light",
+   "activity": "choosing a song",
+   "location": "lit courtyard; balcony",
+   "palette": [
+    "Emerald",
+    "Ivory"
+   ],
+   "sourceImage": "/images/production-couple-diwali-balcony.jpg",
+   "composition": "walking; direct eye contact | editorial 85mm | over-shoulder | lit courtyard; balcony | amber evening light",
+   "uniquenessKey": "diwali-14|walking; direct eye contact | editorial 85mm | over-shoulder | lit courtyard; balcony | amber evening light"
+  }
+ },
+ {
+  "id": "couple-diwali-15",
+  "title": "Diwali · Balcony Conversation 15",
+  "mood": "Diwali",
+  "world": "Diwali",
+  "occasions": [
+   "Diwali"
+  ],
+  "herProductIds": [
+   "w-saree-drape-03",
+   "w-ear-jhumka-01"
+  ],
+  "hisProductIds": [
+   "m-kurtiset-cotton-01",
+   "m-mojari-01"
+  ],
+  "price": 8000,
+  "description": "A candid, human-photography pair for Diwali: complementary rust and sand styling, photographed through arriving together rather than a posed uniform.",
+  "imageUrl": "/images/couples-v2/diwali-15.jpg",
+  "coupleId": "diwali-15",
+  "metadata": {
+   "world": "Diwali",
+   "pose": "balcony conversation; dandiya movement",
+   "camera": "wide environmental lens",
+   "framing": "wide full-body",
+   "lighting": "candlelit gold",
+   "activity": "arriving together",
+   "location": "diyas and marigold balcony; doorway",
+   "palette": [
+    "Rust",
+    "Sand"
+   ],
+   "sourceImage": "/images/production-couple-diwali-balcony.jpg",
+   "composition": "balcony conversation; dandiya movement | wide environmental lens | wide full-body | diyas and marigold balcony; doorway | candlelit gold",
+   "uniquenessKey": "diwali-15|balcony conversation; dandiya movement | wide environmental lens | wide full-body | diyas and marigold balcony; doorway | candlelit gold"
+  }
+ },
+ {
+  "id": "couple-diwali-16",
+  "title": "Diwali · Doorway Eye Contact 16",
+  "mood": "Diwali",
+  "world": "Diwali",
+  "occasions": [
+   "Diwali"
+  ],
+  "herProductIds": [
+   "w-saree-drape-07",
+   "w-ear-jhumka-01"
+  ],
+  "hisProductIds": [
+   "m-kurtiset-silk-01",
+   "m-mojari-01"
+  ],
+  "price": 8000,
+  "description": "A candid, human-photography pair for Diwali: complementary peacock teal and mustard styling, photographed through fixing a styling detail rather than a posed uniform.",
+  "imageUrl": "/images/couples-v2/diwali-16.jpg",
+  "coupleId": "diwali-16",
+  "metadata": {
+   "world": "Diwali",
+   "pose": "doorway eye contact; looking back at one another",
+   "camera": "handheld social frame",
+   "framing": "close portrait",
+   "lighting": "warm lamp light",
+   "activity": "fixing a styling detail",
+   "location": "decorated Diwali doorway; campus lawn",
+   "palette": [
+    "Peacock Teal",
+    "Mustard"
+   ],
+   "sourceImage": "/images/production-couple-diwali-doorway.jpg",
+   "composition": "doorway eye contact; looking back at one another | handheld social frame | close portrait | decorated Diwali doorway; campus lawn | warm lamp light",
+   "uniquenessKey": "diwali-16|doorway eye contact; looking back at one another | handheld social frame | close portrait | decorated Diwali doorway; campus lawn | warm lamp light"
+  }
+ },
+ {
+  "id": "couple-diwali-17",
+  "title": "Diwali · Seated Conversation 17",
+  "mood": "Diwali",
+  "world": "Diwali",
+  "occasions": [
+   "Diwali"
+  ],
+  "herProductIds": [
+   "w-saree-drape-01",
+   "w-ear-jhumka-01"
+  ],
+  "hisProductIds": [
+   "m-kurt-set-jamawar-01",
+   "m-mojari-01"
+  ],
+  "price": 8000,
+  "description": "A candid, human-photography pair for Diwali: complementary wine and antique gold styling, photographed through moving through the crowd rather than a posed uniform.",
+  "imageUrl": "/images/couples-v2/diwali-17.jpg",
+  "coupleId": "diwali-17",
+  "metadata": {
+   "world": "Diwali",
+   "pose": "seated conversation; walking together",
+   "camera": "documentary 35mm",
+   "framing": "low movement frame",
+   "lighting": "soft bokeh light",
+   "activity": "moving through the crowd",
+   "location": "Diwali gathering; community hall",
+   "palette": [
+    "Wine",
+    "Antique Gold"
+   ],
+   "sourceImage": "/images/production-couple-festive-party-seated.jpg",
+   "composition": "seated conversation; walking together | documentary 35mm | low movement frame | Diwali gathering; community hall | soft bokeh light",
+   "uniquenessKey": "diwali-17|seated conversation; walking together | documentary 35mm | low movement frame | Diwali gathering; community hall | soft bokeh light"
+  }
+ },
+ {
+  "id": "couple-diwali-18",
+  "title": "Diwali · Walking 18",
+  "mood": "Diwali",
+  "world": "Diwali",
+  "occasions": [
+   "Diwali"
+  ],
+  "herProductIds": [
+   "w-saree-organza-02",
+   "w-ear-jhumka-01"
+  ],
+  "hisProductIds": [
+   "m-kurtiset-cotton-02",
+   "m-mojari-01"
+  ],
+  "price": 6196,
+  "description": "A candid, human-photography pair for Diwali: complementary emerald and ivory styling, photographed through walking past lights rather than a posed uniform.",
+  "imageUrl": "/images/couples-v2/diwali-18.jpg",
+  "coupleId": "diwali-18",
+  "metadata": {
+   "world": "Diwali",
+   "pose": "walking; laughing in conversation",
+   "camera": "intimate 50mm",
+   "framing": "medium three-quarter",
+   "lighting": "amber evening light",
+   "activity": "walking past lights",
+   "location": "lit courtyard; terrace",
+   "palette": [
+    "Emerald",
+    "Ivory"
+   ],
+   "sourceImage": "/images/production-couple-diwali-balcony.jpg",
+   "composition": "walking; laughing in conversation | intimate 50mm | medium three-quarter | lit courtyard; terrace | amber evening light",
+   "uniquenessKey": "diwali-18|walking; laughing in conversation | intimate 50mm | medium three-quarter | lit courtyard; terrace | amber evening light"
+  }
+ },
+ {
+  "id": "couple-diwali-19",
+  "title": "Diwali · Balcony Conversation 19",
+  "mood": "Diwali",
+  "world": "Diwali",
+  "occasions": [
+   "Diwali"
+  ],
+  "herProductIds": [
+   "w-saree-drape-03",
+   "w-ear-jhumka-01"
+  ],
+  "hisProductIds": [
+   "m-kurtiset-cotton-01",
+   "m-mojari-01"
+  ],
+  "price": 8000,
+  "description": "A candid, human-photography pair for Diwali: complementary rust and sand styling, photographed through pausing between dances rather than a posed uniform.",
+  "imageUrl": "/images/couples-v2/diwali-19.jpg",
+  "coupleId": "diwali-19",
+  "metadata": {
+   "world": "Diwali",
+   "pose": "balcony conversation; hands almost touching",
+   "camera": "editorial 85mm",
+   "framing": "over-shoulder",
+   "lighting": "candlelit gold",
+   "activity": "pausing between dances",
+   "location": "diyas and marigold balcony; festival ground",
+   "palette": [
+    "Rust",
+    "Sand"
+   ],
+   "sourceImage": "/images/production-couple-diwali-balcony.jpg",
+   "composition": "balcony conversation; hands almost touching | editorial 85mm | over-shoulder | diyas and marigold balcony; festival ground | candlelit gold",
+   "uniquenessKey": "diwali-19|balcony conversation; hands almost touching | editorial 85mm | over-shoulder | diyas and marigold balcony; festival ground | candlelit gold"
+  }
+ },
+ {
+  "id": "couple-diwali-20",
+  "title": "Diwali · Doorway Eye Contact 20",
+  "mood": "Diwali",
+  "world": "Diwali",
+  "occasions": [
+   "Diwali"
+  ],
+  "herProductIds": [
+   "w-saree-drape-07",
+   "w-ear-jhumka-01"
+  ],
+  "hisProductIds": [
+   "m-kurtiset-silk-01",
+   "m-mojari-01"
+  ],
+  "price": 8000,
+  "description": "A candid, human-photography pair for Diwali: complementary peacock teal and mustard styling, photographed through sharing a private joke rather than a posed uniform.",
+  "imageUrl": "/images/couples-v2/diwali-20.jpg",
+  "coupleId": "diwali-20",
+  "metadata": {
+   "world": "Diwali",
+   "pose": "doorway eye contact; mid-laugh portrait",
+   "camera": "wide environmental lens",
+   "framing": "wide full-body",
+   "lighting": "warm lamp light",
+   "activity": "sharing a private joke",
+   "location": "decorated Diwali doorway; decorated courtyard",
+   "palette": [
+    "Peacock Teal",
+    "Mustard"
+   ],
+   "sourceImage": "/images/production-couple-diwali-doorway.jpg",
+   "composition": "doorway eye contact; mid-laugh portrait | wide environmental lens | wide full-body | decorated Diwali doorway; decorated courtyard | warm lamp light",
+   "uniquenessKey": "diwali-20|doorway eye contact; mid-laugh portrait | wide environmental lens | wide full-body | decorated Diwali doorway; decorated courtyard | warm lamp light"
+  }
+ },
+ {
+  "id": "couple-festive-party-01",
+  "title": "Festive Party · Styling Adjustment 01",
+  "mood": "Festive Party",
+  "world": "Festive Party",
   "occasions": [
    "Festive Party"
   ],
   "herProductIds": [
-   "w-saree-predrape-satin-04"
+   "w-saree-drape-08",
+   "w-ear-jhumka-01"
   ],
   "hisProductIds": [
-   "m-kurt-set-jacket-01",
-   "m-watch-01"
+   "m-waistcoat-set-02",
+   "m-mojari-01"
   ],
-  "price": 11797,
-  "description": "A matched-but-not-matchy festive pair for the festive party calendar. She wears plum stone-set pre-draped saree gown (satin); he wears plum zardozi-embroidered kurta set with nehru jacket with rose gold stone-set ethnic-dial watch. Harmonised in Plum and Blush so the photos stay timeless.",
-  "imageUrl": "/images/couple-plates/festive-plum-blush.svg",
-  "coupleId": "festive-plum-blush"
+  "price": 8000,
+  "description": "A candid, human-photography pair for Festive Party: complementary teal and rust styling, photographed through choosing a song rather than a posed uniform.",
+  "imageUrl": "/images/couples-v2/festive-party-01.jpg",
+  "coupleId": "festive-party-01",
+  "metadata": {
+   "world": "Festive Party",
+   "pose": "styling adjustment; laughing in conversation",
+   "camera": "intimate 50mm",
+   "framing": "over-shoulder",
+   "lighting": "low warm light",
+   "activity": "choosing a song",
+   "location": "decorated party venue; decorated courtyard",
+   "palette": [
+    "Teal",
+    "Rust"
+   ],
+   "sourceImage": "/images/production-couple-navratri-conversation.jpg",
+   "composition": "styling adjustment; laughing in conversation | intimate 50mm | over-shoulder | decorated party venue; decorated courtyard | low warm light",
+   "uniquenessKey": "festive-party-1|styling adjustment; laughing in conversation | intimate 50mm | over-shoulder | decorated party venue; decorated courtyard | low warm light"
+  }
  },
  {
-  "id": "couple-wedding-guest-deepgreen-sand",
-  "title": "Deep Green & Sand Heritage Guest Duo",
-  "mood": "understated",
+  "id": "couple-festive-party-02",
+  "title": "Festive Party · Seated Conversation 02",
+  "mood": "Festive Party",
+  "world": "Festive Party",
   "occasions": [
-   "Wedding Guest"
+   "Festive Party"
   ],
   "herProductIds": [
-   "w-saree-drape-03"
+   "w-saree-satin-slip-01",
+   "w-ear-jhumka-01"
   ],
   "hisProductIds": [
-   "m-kurtiset-cotton-01",
-   "m-watch-01"
+   "m-kurtiset-silk-02",
+   "m-mojari-01"
   ],
-  "price": 7797,
-  "description": "A matched-but-not-matchy festive pair for the wedding guest calendar. She wears sand gotapatti-appliquéd georgette saree with woven border; he wears sand chikankari-worked cotton kurta set with rose gold stone-set ethnic-dial watch. Harmonised in Deep Green and Sand so the photos stay timeless.",
-  "imageUrl": "/images/couple-plates/wedding-guest-deepgreen-sand.svg",
-  "coupleId": "wedding-guest-deepgreen-sand"
+  "price": 8000,
+  "description": "A candid, human-photography pair for Festive Party: complementary midnight navy and rose styling, photographed through arriving together rather than a posed uniform.",
+  "imageUrl": "/images/couples-v2/festive-party-02.jpg",
+  "coupleId": "festive-party-02",
+  "metadata": {
+   "world": "Festive Party",
+   "pose": "seated conversation; hands almost touching",
+   "camera": "editorial 85mm",
+   "framing": "wide full-body",
+   "lighting": "warm editorial light",
+   "activity": "arriving together",
+   "location": "festive party lounge; string-lit walkway",
+   "palette": [
+    "Midnight Navy",
+    "Rose"
+   ],
+   "sourceImage": "/images/production-couple-festive-party-seated.jpg",
+   "composition": "seated conversation; hands almost touching | editorial 85mm | wide full-body | festive party lounge; string-lit walkway | warm editorial light",
+   "uniquenessKey": "festive-party-2|seated conversation; hands almost touching | editorial 85mm | wide full-body | festive party lounge; string-lit walkway | warm editorial light"
+  }
  },
  {
-  "id": "couple-winter-burgundy-ivory",
-  "title": "Velvet Burgundy & Warm Ivory Winter Sangeet",
-  "mood": "rich",
+  "id": "couple-festive-party-03",
+  "title": "Festive Party · Walking 03",
+  "mood": "Festive Party",
+  "world": "Festive Party",
   "occasions": [
-   "Winter"
+   "Festive Party"
   ],
   "herProductIds": [
-   "w-saree-organza-02"
+   "w-saree-organza-02",
+   "w-ear-jhumka-01"
   ],
   "hisProductIds": [
    "m-kurtiset-cotton-02",
-   "m-watch-01"
+   "m-mojari-01"
   ],
-  "price": 4497,
-  "description": "A matched-but-not-matchy festive pair for the winter calendar. She wears ivory chikankari-worked organza saree with hand-embroidered buti; he wears ivory block-printed cotton kurta set with rose gold stone-set ethnic-dial watch. Harmonised in Deep Maroon and Ivory so the photos stay timeless.",
-  "imageUrl": "/images/couple-plates/winter-burgundy-ivory.svg",
-  "coupleId": "winter-burgundy-ivory"
+  "price": 6196,
+  "description": "A candid, human-photography pair for Festive Party: complementary copper and ivory styling, photographed through fixing a styling detail rather than a posed uniform.",
+  "imageUrl": "/images/couples-v2/festive-party-03.jpg",
+  "coupleId": "festive-party-03",
+  "metadata": {
+   "world": "Festive Party",
+   "pose": "walking; mid-laugh portrait",
+   "camera": "wide environmental lens",
+   "framing": "close portrait",
+   "lighting": "soft flash and lamp light",
+   "activity": "fixing a styling detail",
+   "location": "party entrance; balcony",
+   "palette": [
+    "Copper",
+    "Ivory"
+   ],
+   "sourceImage": "/images/production-couple-diwali-doorway.jpg",
+   "composition": "walking; mid-laugh portrait | wide environmental lens | close portrait | party entrance; balcony | soft flash and lamp light",
+   "uniquenessKey": "festive-party-3|walking; mid-laugh portrait | wide environmental lens | close portrait | party entrance; balcony | soft flash and lamp light"
+  }
  },
  {
-  "id": "couple-date-night-chocolate-cream",
-  "title": "Contemporary Chocolate & Cream Date Edit",
-  "mood": "intimate",
+  "id": "couple-festive-party-04",
+  "title": "Festive Party · Eye Contact 04",
+  "mood": "Festive Party",
+  "world": "Festive Party",
   "occasions": [
-   "Date Night"
+   "Festive Party"
   ],
   "herProductIds": [
-   "w-saree-velvet-02"
+   "w-saree-drape-04",
+   "w-ear-jhumka-01"
   ],
   "hisProductIds": [
-   "m-kurtiset-silk-04",
-   "m-watch-01"
+   "m-kurtiset-silk-03",
+   "m-mojari-01"
   ],
-  "price": 9697,
-  "description": "A matched-but-not-matchy festive pair for the date night calendar. She wears chocolate dabka-embellished velvet saree with zardozi pallu; he wears chocolate aari-stitched silk kurta set with rose gold stone-set ethnic-dial watch. Harmonised in Chocolate and Cream so the photos stay timeless.",
-  "imageUrl": "/images/couple-plates/date-night-chocolate-cream.svg",
-  "coupleId": "date-night-chocolate-cream"
+  "price": 8000,
+  "description": "A candid, human-photography pair for Festive Party: complementary forest green and blush styling, photographed through moving through the crowd rather than a posed uniform.",
+  "imageUrl": "/images/couples-v2/festive-party-04.jpg",
+  "coupleId": "festive-party-04",
+  "metadata": {
+   "world": "Festive Party",
+   "pose": "eye contact; dancing in motion",
+   "camera": "handheld social frame",
+   "framing": "low movement frame",
+   "lighting": "city evening light",
+   "activity": "moving through the crowd",
+   "location": "terrace party; doorway",
+   "palette": [
+    "Forest Green",
+    "Blush"
+   ],
+   "sourceImage": "/images/production-couple-diwali-balcony.jpg",
+   "composition": "eye contact; dancing in motion | handheld social frame | low movement frame | terrace party; doorway | city evening light",
+   "uniquenessKey": "festive-party-4|eye contact; dancing in motion | handheld social frame | low movement frame | terrace party; doorway | city evening light"
+  }
+ },
+ {
+  "id": "couple-festive-party-05",
+  "title": "Festive Party · Styling Adjustment 05",
+  "mood": "Festive Party",
+  "world": "Festive Party",
+  "occasions": [
+   "Festive Party"
+  ],
+  "herProductIds": [
+   "w-saree-drape-08",
+   "w-ear-jhumka-01"
+  ],
+  "hisProductIds": [
+   "m-waistcoat-set-02",
+   "m-mojari-01"
+  ],
+  "price": 8000,
+  "description": "A candid, human-photography pair for Festive Party: complementary teal and rust styling, photographed through walking past lights rather than a posed uniform.",
+  "imageUrl": "/images/couples-v2/festive-party-05.jpg",
+  "coupleId": "festive-party-05",
+  "metadata": {
+   "world": "Festive Party",
+   "pose": "styling adjustment; adjusting a dupatta",
+   "camera": "documentary 35mm",
+   "framing": "medium three-quarter",
+   "lighting": "low warm light",
+   "activity": "walking past lights",
+   "location": "decorated party venue; campus lawn",
+   "palette": [
+    "Teal",
+    "Rust"
+   ],
+   "sourceImage": "/images/production-couple-navratri-conversation.jpg",
+   "composition": "styling adjustment; adjusting a dupatta | documentary 35mm | medium three-quarter | decorated party venue; campus lawn | low warm light",
+   "uniquenessKey": "festive-party-5|styling adjustment; adjusting a dupatta | documentary 35mm | medium three-quarter | decorated party venue; campus lawn | low warm light"
+  }
+ },
+ {
+  "id": "couple-festive-party-06",
+  "title": "Festive Party · Seated Conversation 06",
+  "mood": "Festive Party",
+  "world": "Festive Party",
+  "occasions": [
+   "Festive Party"
+  ],
+  "herProductIds": [
+   "w-saree-satin-slip-01",
+   "w-ear-jhumka-01"
+  ],
+  "hisProductIds": [
+   "m-kurtiset-silk-02",
+   "m-mojari-01"
+  ],
+  "price": 8000,
+  "description": "A candid, human-photography pair for Festive Party: complementary midnight navy and rose styling, photographed through pausing between dances rather than a posed uniform.",
+  "imageUrl": "/images/couples-v2/festive-party-06.jpg",
+  "coupleId": "festive-party-06",
+  "metadata": {
+   "world": "Festive Party",
+   "pose": "seated conversation; seated side-by-side",
+   "camera": "intimate 50mm",
+   "framing": "over-shoulder",
+   "lighting": "warm editorial light",
+   "activity": "pausing between dances",
+   "location": "festive party lounge; community hall",
+   "palette": [
+    "Midnight Navy",
+    "Rose"
+   ],
+   "sourceImage": "/images/production-couple-festive-party-seated.jpg",
+   "composition": "seated conversation; seated side-by-side | intimate 50mm | over-shoulder | festive party lounge; community hall | warm editorial light",
+   "uniquenessKey": "festive-party-6|seated conversation; seated side-by-side | intimate 50mm | over-shoulder | festive party lounge; community hall | warm editorial light"
+  }
+ },
+ {
+  "id": "couple-festive-party-07",
+  "title": "Festive Party · Walking 07",
+  "mood": "Festive Party",
+  "world": "Festive Party",
+  "occasions": [
+   "Festive Party"
+  ],
+  "herProductIds": [
+   "w-saree-organza-02",
+   "w-ear-jhumka-01"
+  ],
+  "hisProductIds": [
+   "m-kurtiset-cotton-02",
+   "m-mojari-01"
+  ],
+  "price": 6196,
+  "description": "A candid, human-photography pair for Festive Party: complementary copper and ivory styling, photographed through sharing a private joke rather than a posed uniform.",
+  "imageUrl": "/images/couples-v2/festive-party-07.jpg",
+  "coupleId": "festive-party-07",
+  "metadata": {
+   "world": "Festive Party",
+   "pose": "walking; direct eye contact",
+   "camera": "editorial 85mm",
+   "framing": "wide full-body",
+   "lighting": "soft flash and lamp light",
+   "activity": "sharing a private joke",
+   "location": "party entrance; terrace",
+   "palette": [
+    "Copper",
+    "Ivory"
+   ],
+   "sourceImage": "/images/production-couple-diwali-doorway.jpg",
+   "composition": "walking; direct eye contact | editorial 85mm | wide full-body | party entrance; terrace | soft flash and lamp light",
+   "uniquenessKey": "festive-party-7|walking; direct eye contact | editorial 85mm | wide full-body | party entrance; terrace | soft flash and lamp light"
+  }
+ },
+ {
+  "id": "couple-festive-party-08",
+  "title": "Festive Party · Eye Contact 08",
+  "mood": "Festive Party",
+  "world": "Festive Party",
+  "occasions": [
+   "Festive Party"
+  ],
+  "herProductIds": [
+   "w-saree-drape-04",
+   "w-ear-jhumka-01"
+  ],
+  "hisProductIds": [
+   "m-kurtiset-silk-03",
+   "m-mojari-01"
+  ],
+  "price": 8000,
+  "description": "A candid, human-photography pair for Festive Party: complementary forest green and blush styling, photographed through holding dandiya sticks rather than a posed uniform.",
+  "imageUrl": "/images/couples-v2/festive-party-08.jpg",
+  "coupleId": "festive-party-08",
+  "metadata": {
+   "world": "Festive Party",
+   "pose": "eye contact; dandiya movement",
+   "camera": "wide environmental lens",
+   "framing": "close portrait",
+   "lighting": "city evening light",
+   "activity": "holding dandiya sticks",
+   "location": "terrace party; festival ground",
+   "palette": [
+    "Forest Green",
+    "Blush"
+   ],
+   "sourceImage": "/images/production-couple-diwali-balcony.jpg",
+   "composition": "eye contact; dandiya movement | wide environmental lens | close portrait | terrace party; festival ground | city evening light",
+   "uniquenessKey": "festive-party-8|eye contact; dandiya movement | wide environmental lens | close portrait | terrace party; festival ground | city evening light"
+  }
+ },
+ {
+  "id": "couple-festive-party-09",
+  "title": "Festive Party · Styling Adjustment 09",
+  "mood": "Festive Party",
+  "world": "Festive Party",
+  "occasions": [
+   "Festive Party"
+  ],
+  "herProductIds": [
+   "w-saree-drape-08",
+   "w-ear-jhumka-01"
+  ],
+  "hisProductIds": [
+   "m-waistcoat-set-02",
+   "m-mojari-01"
+  ],
+  "price": 8000,
+  "description": "A candid, human-photography pair for Festive Party: complementary teal and rust styling, photographed through choosing a song rather than a posed uniform.",
+  "imageUrl": "/images/couples-v2/festive-party-09.jpg",
+  "coupleId": "festive-party-09",
+  "metadata": {
+   "world": "Festive Party",
+   "pose": "styling adjustment; looking back at one another",
+   "camera": "handheld social frame",
+   "framing": "low movement frame",
+   "lighting": "low warm light",
+   "activity": "choosing a song",
+   "location": "decorated party venue; decorated courtyard",
+   "palette": [
+    "Teal",
+    "Rust"
+   ],
+   "sourceImage": "/images/production-couple-navratri-conversation.jpg",
+   "composition": "styling adjustment; looking back at one another | handheld social frame | low movement frame | decorated party venue; decorated courtyard | low warm light",
+   "uniquenessKey": "festive-party-9|styling adjustment; looking back at one another | handheld social frame | low movement frame | decorated party venue; decorated courtyard | low warm light"
+  }
+ },
+ {
+  "id": "couple-festive-party-10",
+  "title": "Festive Party · Seated Conversation 10",
+  "mood": "Festive Party",
+  "world": "Festive Party",
+  "occasions": [
+   "Festive Party"
+  ],
+  "herProductIds": [
+   "w-saree-satin-slip-01",
+   "w-ear-jhumka-01"
+  ],
+  "hisProductIds": [
+   "m-kurtiset-silk-02",
+   "m-mojari-01"
+  ],
+  "price": 8000,
+  "description": "A candid, human-photography pair for Festive Party: complementary midnight navy and rose styling, photographed through arriving together rather than a posed uniform.",
+  "imageUrl": "/images/couples-v2/festive-party-10.jpg",
+  "coupleId": "festive-party-10",
+  "metadata": {
+   "world": "Festive Party",
+   "pose": "seated conversation; walking together",
+   "camera": "documentary 35mm",
+   "framing": "medium three-quarter",
+   "lighting": "warm editorial light",
+   "activity": "arriving together",
+   "location": "festive party lounge; string-lit walkway",
+   "palette": [
+    "Midnight Navy",
+    "Rose"
+   ],
+   "sourceImage": "/images/production-couple-festive-party-seated.jpg",
+   "composition": "seated conversation; walking together | documentary 35mm | medium three-quarter | festive party lounge; string-lit walkway | warm editorial light",
+   "uniquenessKey": "festive-party-10|seated conversation; walking together | documentary 35mm | medium three-quarter | festive party lounge; string-lit walkway | warm editorial light"
+  }
+ },
+ {
+  "id": "couple-festive-party-11",
+  "title": "Festive Party · Walking 11",
+  "mood": "Festive Party",
+  "world": "Festive Party",
+  "occasions": [
+   "Festive Party"
+  ],
+  "herProductIds": [
+   "w-saree-organza-02",
+   "w-ear-jhumka-01"
+  ],
+  "hisProductIds": [
+   "m-kurtiset-cotton-02",
+   "m-mojari-01"
+  ],
+  "price": 6196,
+  "description": "A candid, human-photography pair for Festive Party: complementary copper and ivory styling, photographed through fixing a styling detail rather than a posed uniform.",
+  "imageUrl": "/images/couples-v2/festive-party-11.jpg",
+  "coupleId": "festive-party-11",
+  "metadata": {
+   "world": "Festive Party",
+   "pose": "walking; laughing in conversation",
+   "camera": "intimate 50mm",
+   "framing": "over-shoulder",
+   "lighting": "soft flash and lamp light",
+   "activity": "fixing a styling detail",
+   "location": "party entrance; balcony",
+   "palette": [
+    "Copper",
+    "Ivory"
+   ],
+   "sourceImage": "/images/production-couple-diwali-doorway.jpg",
+   "composition": "walking; laughing in conversation | intimate 50mm | over-shoulder | party entrance; balcony | soft flash and lamp light",
+   "uniquenessKey": "festive-party-11|walking; laughing in conversation | intimate 50mm | over-shoulder | party entrance; balcony | soft flash and lamp light"
+  }
+ },
+ {
+  "id": "couple-festive-party-12",
+  "title": "Festive Party · Eye Contact 12",
+  "mood": "Festive Party",
+  "world": "Festive Party",
+  "occasions": [
+   "Festive Party"
+  ],
+  "herProductIds": [
+   "w-saree-drape-04",
+   "w-ear-jhumka-01"
+  ],
+  "hisProductIds": [
+   "m-kurtiset-silk-03",
+   "m-mojari-01"
+  ],
+  "price": 8000,
+  "description": "A candid, human-photography pair for Festive Party: complementary forest green and blush styling, photographed through moving through the crowd rather than a posed uniform.",
+  "imageUrl": "/images/couples-v2/festive-party-12.jpg",
+  "coupleId": "festive-party-12",
+  "metadata": {
+   "world": "Festive Party",
+   "pose": "eye contact; hands almost touching",
+   "camera": "editorial 85mm",
+   "framing": "wide full-body",
+   "lighting": "city evening light",
+   "activity": "moving through the crowd",
+   "location": "terrace party; doorway",
+   "palette": [
+    "Forest Green",
+    "Blush"
+   ],
+   "sourceImage": "/images/production-couple-diwali-balcony.jpg",
+   "composition": "eye contact; hands almost touching | editorial 85mm | wide full-body | terrace party; doorway | city evening light",
+   "uniquenessKey": "festive-party-12|eye contact; hands almost touching | editorial 85mm | wide full-body | terrace party; doorway | city evening light"
+  }
+ },
+ {
+  "id": "couple-festive-party-13",
+  "title": "Festive Party · Styling Adjustment 13",
+  "mood": "Festive Party",
+  "world": "Festive Party",
+  "occasions": [
+   "Festive Party"
+  ],
+  "herProductIds": [
+   "w-saree-drape-08",
+   "w-ear-jhumka-01"
+  ],
+  "hisProductIds": [
+   "m-waistcoat-set-02",
+   "m-mojari-01"
+  ],
+  "price": 8000,
+  "description": "A candid, human-photography pair for Festive Party: complementary teal and rust styling, photographed through walking past lights rather than a posed uniform.",
+  "imageUrl": "/images/couples-v2/festive-party-13.jpg",
+  "coupleId": "festive-party-13",
+  "metadata": {
+   "world": "Festive Party",
+   "pose": "styling adjustment; mid-laugh portrait",
+   "camera": "wide environmental lens",
+   "framing": "close portrait",
+   "lighting": "low warm light",
+   "activity": "walking past lights",
+   "location": "decorated party venue; campus lawn",
+   "palette": [
+    "Teal",
+    "Rust"
+   ],
+   "sourceImage": "/images/production-couple-navratri-conversation.jpg",
+   "composition": "styling adjustment; mid-laugh portrait | wide environmental lens | close portrait | decorated party venue; campus lawn | low warm light",
+   "uniquenessKey": "festive-party-13|styling adjustment; mid-laugh portrait | wide environmental lens | close portrait | decorated party venue; campus lawn | low warm light"
+  }
+ },
+ {
+  "id": "couple-festive-party-14",
+  "title": "Festive Party · Seated Conversation 14",
+  "mood": "Festive Party",
+  "world": "Festive Party",
+  "occasions": [
+   "Festive Party"
+  ],
+  "herProductIds": [
+   "w-saree-satin-slip-01",
+   "w-ear-jhumka-01"
+  ],
+  "hisProductIds": [
+   "m-kurtiset-silk-02",
+   "m-mojari-01"
+  ],
+  "price": 8000,
+  "description": "A candid, human-photography pair for Festive Party: complementary midnight navy and rose styling, photographed through pausing between dances rather than a posed uniform.",
+  "imageUrl": "/images/couples-v2/festive-party-14.jpg",
+  "coupleId": "festive-party-14",
+  "metadata": {
+   "world": "Festive Party",
+   "pose": "seated conversation; dancing in motion",
+   "camera": "handheld social frame",
+   "framing": "low movement frame",
+   "lighting": "warm editorial light",
+   "activity": "pausing between dances",
+   "location": "festive party lounge; community hall",
+   "palette": [
+    "Midnight Navy",
+    "Rose"
+   ],
+   "sourceImage": "/images/production-couple-festive-party-seated.jpg",
+   "composition": "seated conversation; dancing in motion | handheld social frame | low movement frame | festive party lounge; community hall | warm editorial light",
+   "uniquenessKey": "festive-party-14|seated conversation; dancing in motion | handheld social frame | low movement frame | festive party lounge; community hall | warm editorial light"
+  }
+ },
+ {
+  "id": "couple-festive-party-15",
+  "title": "Festive Party · Walking 15",
+  "mood": "Festive Party",
+  "world": "Festive Party",
+  "occasions": [
+   "Festive Party"
+  ],
+  "herProductIds": [
+   "w-saree-organza-02",
+   "w-ear-jhumka-01"
+  ],
+  "hisProductIds": [
+   "m-kurtiset-cotton-02",
+   "m-mojari-01"
+  ],
+  "price": 6196,
+  "description": "A candid, human-photography pair for Festive Party: complementary copper and ivory styling, photographed through sharing a private joke rather than a posed uniform.",
+  "imageUrl": "/images/couples-v2/festive-party-15.jpg",
+  "coupleId": "festive-party-15",
+  "metadata": {
+   "world": "Festive Party",
+   "pose": "walking; adjusting a dupatta",
+   "camera": "documentary 35mm",
+   "framing": "medium three-quarter",
+   "lighting": "soft flash and lamp light",
+   "activity": "sharing a private joke",
+   "location": "party entrance; terrace",
+   "palette": [
+    "Copper",
+    "Ivory"
+   ],
+   "sourceImage": "/images/production-couple-diwali-doorway.jpg",
+   "composition": "walking; adjusting a dupatta | documentary 35mm | medium three-quarter | party entrance; terrace | soft flash and lamp light",
+   "uniquenessKey": "festive-party-15|walking; adjusting a dupatta | documentary 35mm | medium three-quarter | party entrance; terrace | soft flash and lamp light"
+  }
+ },
+ {
+  "id": "couple-festive-party-16",
+  "title": "Festive Party · Eye Contact 16",
+  "mood": "Festive Party",
+  "world": "Festive Party",
+  "occasions": [
+   "Festive Party"
+  ],
+  "herProductIds": [
+   "w-saree-drape-04",
+   "w-ear-jhumka-01"
+  ],
+  "hisProductIds": [
+   "m-kurtiset-silk-03",
+   "m-mojari-01"
+  ],
+  "price": 8000,
+  "description": "A candid, human-photography pair for Festive Party: complementary forest green and blush styling, photographed through holding dandiya sticks rather than a posed uniform.",
+  "imageUrl": "/images/couples-v2/festive-party-16.jpg",
+  "coupleId": "festive-party-16",
+  "metadata": {
+   "world": "Festive Party",
+   "pose": "eye contact; seated side-by-side",
+   "camera": "intimate 50mm",
+   "framing": "over-shoulder",
+   "lighting": "city evening light",
+   "activity": "holding dandiya sticks",
+   "location": "terrace party; festival ground",
+   "palette": [
+    "Forest Green",
+    "Blush"
+   ],
+   "sourceImage": "/images/production-couple-diwali-balcony.jpg",
+   "composition": "eye contact; seated side-by-side | intimate 50mm | over-shoulder | terrace party; festival ground | city evening light",
+   "uniquenessKey": "festive-party-16|eye contact; seated side-by-side | intimate 50mm | over-shoulder | terrace party; festival ground | city evening light"
+  }
+ },
+ {
+  "id": "couple-festive-party-17",
+  "title": "Festive Party · Styling Adjustment 17",
+  "mood": "Festive Party",
+  "world": "Festive Party",
+  "occasions": [
+   "Festive Party"
+  ],
+  "herProductIds": [
+   "w-saree-drape-08",
+   "w-ear-jhumka-01"
+  ],
+  "hisProductIds": [
+   "m-waistcoat-set-02",
+   "m-mojari-01"
+  ],
+  "price": 8000,
+  "description": "A candid, human-photography pair for Festive Party: complementary teal and rust styling, photographed through choosing a song rather than a posed uniform.",
+  "imageUrl": "/images/couples-v2/festive-party-17.jpg",
+  "coupleId": "festive-party-17",
+  "metadata": {
+   "world": "Festive Party",
+   "pose": "styling adjustment; direct eye contact",
+   "camera": "editorial 85mm",
+   "framing": "wide full-body",
+   "lighting": "low warm light",
+   "activity": "choosing a song",
+   "location": "decorated party venue; decorated courtyard",
+   "palette": [
+    "Teal",
+    "Rust"
+   ],
+   "sourceImage": "/images/production-couple-navratri-conversation.jpg",
+   "composition": "styling adjustment; direct eye contact | editorial 85mm | wide full-body | decorated party venue; decorated courtyard | low warm light",
+   "uniquenessKey": "festive-party-17|styling adjustment; direct eye contact | editorial 85mm | wide full-body | decorated party venue; decorated courtyard | low warm light"
+  }
+ },
+ {
+  "id": "couple-festive-party-18",
+  "title": "Festive Party · Seated Conversation 18",
+  "mood": "Festive Party",
+  "world": "Festive Party",
+  "occasions": [
+   "Festive Party"
+  ],
+  "herProductIds": [
+   "w-saree-satin-slip-01",
+   "w-ear-jhumka-01"
+  ],
+  "hisProductIds": [
+   "m-kurtiset-silk-02",
+   "m-mojari-01"
+  ],
+  "price": 8000,
+  "description": "A candid, human-photography pair for Festive Party: complementary midnight navy and rose styling, photographed through arriving together rather than a posed uniform.",
+  "imageUrl": "/images/couples-v2/festive-party-18.jpg",
+  "coupleId": "festive-party-18",
+  "metadata": {
+   "world": "Festive Party",
+   "pose": "seated conversation; dandiya movement",
+   "camera": "wide environmental lens",
+   "framing": "close portrait",
+   "lighting": "warm editorial light",
+   "activity": "arriving together",
+   "location": "festive party lounge; string-lit walkway",
+   "palette": [
+    "Midnight Navy",
+    "Rose"
+   ],
+   "sourceImage": "/images/production-couple-festive-party-seated.jpg",
+   "composition": "seated conversation; dandiya movement | wide environmental lens | close portrait | festive party lounge; string-lit walkway | warm editorial light",
+   "uniquenessKey": "festive-party-18|seated conversation; dandiya movement | wide environmental lens | close portrait | festive party lounge; string-lit walkway | warm editorial light"
+  }
+ },
+ {
+  "id": "couple-festive-party-19",
+  "title": "Festive Party · Walking 19",
+  "mood": "Festive Party",
+  "world": "Festive Party",
+  "occasions": [
+   "Festive Party"
+  ],
+  "herProductIds": [
+   "w-saree-organza-02",
+   "w-ear-jhumka-01"
+  ],
+  "hisProductIds": [
+   "m-kurtiset-cotton-02",
+   "m-mojari-01"
+  ],
+  "price": 6196,
+  "description": "A candid, human-photography pair for Festive Party: complementary copper and ivory styling, photographed through fixing a styling detail rather than a posed uniform.",
+  "imageUrl": "/images/couples-v2/festive-party-19.jpg",
+  "coupleId": "festive-party-19",
+  "metadata": {
+   "world": "Festive Party",
+   "pose": "walking; looking back at one another",
+   "camera": "handheld social frame",
+   "framing": "low movement frame",
+   "lighting": "soft flash and lamp light",
+   "activity": "fixing a styling detail",
+   "location": "party entrance; balcony",
+   "palette": [
+    "Copper",
+    "Ivory"
+   ],
+   "sourceImage": "/images/production-couple-diwali-doorway.jpg",
+   "composition": "walking; looking back at one another | handheld social frame | low movement frame | party entrance; balcony | soft flash and lamp light",
+   "uniquenessKey": "festive-party-19|walking; looking back at one another | handheld social frame | low movement frame | party entrance; balcony | soft flash and lamp light"
+  }
+ },
+ {
+  "id": "couple-festive-party-20",
+  "title": "Festive Party · Eye Contact 20",
+  "mood": "Festive Party",
+  "world": "Festive Party",
+  "occasions": [
+   "Festive Party"
+  ],
+  "herProductIds": [
+   "w-saree-drape-04",
+   "w-ear-jhumka-01"
+  ],
+  "hisProductIds": [
+   "m-kurtiset-silk-03",
+   "m-mojari-01"
+  ],
+  "price": 8000,
+  "description": "A candid, human-photography pair for Festive Party: complementary forest green and blush styling, photographed through moving through the crowd rather than a posed uniform.",
+  "imageUrl": "/images/couples-v2/festive-party-20.jpg",
+  "coupleId": "festive-party-20",
+  "metadata": {
+   "world": "Festive Party",
+   "pose": "eye contact; walking together",
+   "camera": "documentary 35mm",
+   "framing": "medium three-quarter",
+   "lighting": "city evening light",
+   "activity": "moving through the crowd",
+   "location": "terrace party; doorway",
+   "palette": [
+    "Forest Green",
+    "Blush"
+   ],
+   "sourceImage": "/images/production-couple-diwali-balcony.jpg",
+   "composition": "eye contact; walking together | documentary 35mm | medium three-quarter | terrace party; doorway | city evening light",
+   "uniquenessKey": "festive-party-20|eye contact; walking together | documentary 35mm | medium three-quarter | terrace party; doorway | city evening light"
+  }
+ },
+ {
+  "id": "couple-college-fest-01",
+  "title": "College Fest · Candid Selfie 01",
+  "mood": "College Fest",
+  "world": "College Fest",
+  "occasions": [
+   "College Fest"
+  ],
+  "herProductIds": [
+   "w-leh-sequin-05",
+   "w-ear-jhumka-01"
+  ],
+  "hisProductIds": [
+   "m-kurta-jeans-02",
+   "m-mojari-01"
+  ],
+  "price": 8000,
+  "description": "A candid, human-photography pair for College Fest: complementary coral and indigo styling, photographed through pausing between dances rather than a posed uniform.",
+  "imageUrl": "/images/couples-v2/college-fest-01.jpg",
+  "coupleId": "college-fest-01",
+  "metadata": {
+   "world": "College Fest",
+   "pose": "candid selfie; dandiya movement",
+   "camera": "wide environmental lens",
+   "framing": "low movement frame",
+   "lighting": "bright afternoon light",
+   "activity": "pausing between dances",
+   "location": "campus festival lawn; doorway",
+   "palette": [
+    "Coral",
+    "Indigo"
+   ],
+   "sourceImage": "/images/production-couple-college-selfie.jpg",
+   "composition": "candid selfie; dandiya movement | wide environmental lens | low movement frame | campus festival lawn; doorway | bright afternoon light",
+   "uniquenessKey": "college-fest-1|candid selfie; dandiya movement | wide environmental lens | low movement frame | campus festival lawn; doorway | bright afternoon light"
+  }
+ },
+ {
+  "id": "couple-college-fest-02",
+  "title": "College Fest · Walking 02",
+  "mood": "College Fest",
+  "world": "College Fest",
+  "occasions": [
+   "College Fest"
+  ],
+  "herProductIds": [
+   "w-saree-drape-08",
+   "w-ear-jhumka-01"
+  ],
+  "hisProductIds": [
+   "m-waistcoat-set-02",
+   "m-mojari-01"
+  ],
+  "price": 8000,
+  "description": "A candid, human-photography pair for College Fest: complementary mint and rust styling, photographed through sharing a private joke rather than a posed uniform.",
+  "imageUrl": "/images/couples-v2/college-fest-02.jpg",
+  "coupleId": "college-fest-02",
+  "metadata": {
+   "world": "College Fest",
+   "pose": "walking; looking back at one another",
+   "camera": "handheld social frame",
+   "framing": "medium three-quarter",
+   "lighting": "late afternoon light",
+   "activity": "sharing a private joke",
+   "location": "college fest walkway; campus lawn",
+   "palette": [
+    "Mint",
+    "Rust"
+   ],
+   "sourceImage": "/images/production-couple-college.jpg",
+   "composition": "walking; looking back at one another | handheld social frame | medium three-quarter | college fest walkway; campus lawn | late afternoon light",
+   "uniquenessKey": "college-fest-2|walking; looking back at one another | handheld social frame | medium three-quarter | college fest walkway; campus lawn | late afternoon light"
+  }
+ },
+ {
+  "id": "couple-college-fest-03",
+  "title": "College Fest · Laughing Conversation 03",
+  "mood": "College Fest",
+  "world": "College Fest",
+  "occasions": [
+   "College Fest"
+  ],
+  "herProductIds": [
+   "w-saree-organza-02",
+   "w-ear-jhumka-01"
+  ],
+  "hisProductIds": [
+   "m-kurtiset-cotton-02",
+   "m-mojari-01"
+  ],
+  "price": 6196,
+  "description": "A candid, human-photography pair for College Fest: complementary teal and ivory styling, photographed through holding dandiya sticks rather than a posed uniform.",
+  "imageUrl": "/images/couples-v2/college-fest-03.jpg",
+  "coupleId": "college-fest-03",
+  "metadata": {
+   "world": "College Fest",
+   "pose": "laughing conversation; walking together",
+   "camera": "documentary 35mm",
+   "framing": "over-shoulder",
+   "lighting": "colourful social light",
+   "activity": "holding dandiya sticks",
+   "location": "student festival stage; community hall",
+   "palette": [
+    "Teal",
+    "Ivory"
+   ],
+   "sourceImage": "/images/production-couple-festive-party-seated.jpg",
+   "composition": "laughing conversation; walking together | documentary 35mm | over-shoulder | student festival stage; community hall | colourful social light",
+   "uniquenessKey": "college-fest-3|laughing conversation; walking together | documentary 35mm | over-shoulder | student festival stage; community hall | colourful social light"
+  }
+ },
+ {
+  "id": "couple-college-fest-04",
+  "title": "College Fest · Styling Adjustment 04",
+  "mood": "College Fest",
+  "world": "College Fest",
+  "occasions": [
+   "College Fest"
+  ],
+  "herProductIds": [
+   "w-saree-buti-03",
+   "w-ear-jhumka-01"
+  ],
+  "hisProductIds": [
+   "m-kurt-set-dupatta-04",
+   "m-mojari-01"
+  ],
+  "price": 8000,
+  "description": "A candid, human-photography pair for College Fest: complementary butter yellow and bottle green styling, photographed through choosing a song rather than a posed uniform.",
+  "imageUrl": "/images/couples-v2/college-fest-04.jpg",
+  "coupleId": "college-fest-04",
+  "metadata": {
+   "world": "College Fest",
+   "pose": "styling adjustment; laughing in conversation",
+   "camera": "intimate 50mm",
+   "framing": "wide full-body",
+   "lighting": "warm string lights",
+   "activity": "choosing a song",
+   "location": "campus cultural fest; terrace",
+   "palette": [
+    "Butter Yellow",
+    "Bottle Green"
+   ],
+   "sourceImage": "/images/production-couple-garba-dupattafix.jpg",
+   "composition": "styling adjustment; laughing in conversation | intimate 50mm | wide full-body | campus cultural fest; terrace | warm string lights",
+   "uniquenessKey": "college-fest-4|styling adjustment; laughing in conversation | intimate 50mm | wide full-body | campus cultural fest; terrace | warm string lights"
+  }
+ },
+ {
+  "id": "couple-college-fest-05",
+  "title": "College Fest · Candid Selfie 05",
+  "mood": "College Fest",
+  "world": "College Fest",
+  "occasions": [
+   "College Fest"
+  ],
+  "herProductIds": [
+   "w-leh-sequin-05",
+   "w-ear-jhumka-01"
+  ],
+  "hisProductIds": [
+   "m-kurta-jeans-02",
+   "m-mojari-01"
+  ],
+  "price": 8000,
+  "description": "A candid, human-photography pair for College Fest: complementary coral and indigo styling, photographed through arriving together rather than a posed uniform.",
+  "imageUrl": "/images/couples-v2/college-fest-05.jpg",
+  "coupleId": "college-fest-05",
+  "metadata": {
+   "world": "College Fest",
+   "pose": "candid selfie; hands almost touching",
+   "camera": "editorial 85mm",
+   "framing": "close portrait",
+   "lighting": "bright afternoon light",
+   "activity": "arriving together",
+   "location": "campus festival lawn; festival ground",
+   "palette": [
+    "Coral",
+    "Indigo"
+   ],
+   "sourceImage": "/images/production-couple-college-selfie.jpg",
+   "composition": "candid selfie; hands almost touching | editorial 85mm | close portrait | campus festival lawn; festival ground | bright afternoon light",
+   "uniquenessKey": "college-fest-5|candid selfie; hands almost touching | editorial 85mm | close portrait | campus festival lawn; festival ground | bright afternoon light"
+  }
+ },
+ {
+  "id": "couple-college-fest-06",
+  "title": "College Fest · Walking 06",
+  "mood": "College Fest",
+  "world": "College Fest",
+  "occasions": [
+   "College Fest"
+  ],
+  "herProductIds": [
+   "w-saree-drape-08",
+   "w-ear-jhumka-01"
+  ],
+  "hisProductIds": [
+   "m-waistcoat-set-02",
+   "m-mojari-01"
+  ],
+  "price": 8000,
+  "description": "A candid, human-photography pair for College Fest: complementary mint and rust styling, photographed through fixing a styling detail rather than a posed uniform.",
+  "imageUrl": "/images/couples-v2/college-fest-06.jpg",
+  "coupleId": "college-fest-06",
+  "metadata": {
+   "world": "College Fest",
+   "pose": "walking; mid-laugh portrait",
+   "camera": "wide environmental lens",
+   "framing": "low movement frame",
+   "lighting": "late afternoon light",
+   "activity": "fixing a styling detail",
+   "location": "college fest walkway; decorated courtyard",
+   "palette": [
+    "Mint",
+    "Rust"
+   ],
+   "sourceImage": "/images/production-couple-college.jpg",
+   "composition": "walking; mid-laugh portrait | wide environmental lens | low movement frame | college fest walkway; decorated courtyard | late afternoon light",
+   "uniquenessKey": "college-fest-6|walking; mid-laugh portrait | wide environmental lens | low movement frame | college fest walkway; decorated courtyard | late afternoon light"
+  }
+ },
+ {
+  "id": "couple-college-fest-07",
+  "title": "College Fest · Laughing Conversation 07",
+  "mood": "College Fest",
+  "world": "College Fest",
+  "occasions": [
+   "College Fest"
+  ],
+  "herProductIds": [
+   "w-saree-organza-02",
+   "w-ear-jhumka-01"
+  ],
+  "hisProductIds": [
+   "m-kurtiset-cotton-02",
+   "m-mojari-01"
+  ],
+  "price": 6196,
+  "description": "A candid, human-photography pair for College Fest: complementary teal and ivory styling, photographed through moving through the crowd rather than a posed uniform.",
+  "imageUrl": "/images/couples-v2/college-fest-07.jpg",
+  "coupleId": "college-fest-07",
+  "metadata": {
+   "world": "College Fest",
+   "pose": "laughing conversation; dancing in motion",
+   "camera": "handheld social frame",
+   "framing": "medium three-quarter",
+   "lighting": "colourful social light",
+   "activity": "moving through the crowd",
+   "location": "student festival stage; string-lit walkway",
+   "palette": [
+    "Teal",
+    "Ivory"
+   ],
+   "sourceImage": "/images/production-couple-festive-party-seated.jpg",
+   "composition": "laughing conversation; dancing in motion | handheld social frame | medium three-quarter | student festival stage; string-lit walkway | colourful social light",
+   "uniquenessKey": "college-fest-7|laughing conversation; dancing in motion | handheld social frame | medium three-quarter | student festival stage; string-lit walkway | colourful social light"
+  }
+ },
+ {
+  "id": "couple-college-fest-08",
+  "title": "College Fest · Styling Adjustment 08",
+  "mood": "College Fest",
+  "world": "College Fest",
+  "occasions": [
+   "College Fest"
+  ],
+  "herProductIds": [
+   "w-saree-buti-03",
+   "w-ear-jhumka-01"
+  ],
+  "hisProductIds": [
+   "m-kurt-set-dupatta-04",
+   "m-mojari-01"
+  ],
+  "price": 8000,
+  "description": "A candid, human-photography pair for College Fest: complementary butter yellow and bottle green styling, photographed through walking past lights rather than a posed uniform.",
+  "imageUrl": "/images/couples-v2/college-fest-08.jpg",
+  "coupleId": "college-fest-08",
+  "metadata": {
+   "world": "College Fest",
+   "pose": "styling adjustment; adjusting a dupatta",
+   "camera": "documentary 35mm",
+   "framing": "over-shoulder",
+   "lighting": "warm string lights",
+   "activity": "walking past lights",
+   "location": "campus cultural fest; balcony",
+   "palette": [
+    "Butter Yellow",
+    "Bottle Green"
+   ],
+   "sourceImage": "/images/production-couple-garba-dupattafix.jpg",
+   "composition": "styling adjustment; adjusting a dupatta | documentary 35mm | over-shoulder | campus cultural fest; balcony | warm string lights",
+   "uniquenessKey": "college-fest-8|styling adjustment; adjusting a dupatta | documentary 35mm | over-shoulder | campus cultural fest; balcony | warm string lights"
+  }
+ },
+ {
+  "id": "couple-college-fest-09",
+  "title": "College Fest · Candid Selfie 09",
+  "mood": "College Fest",
+  "world": "College Fest",
+  "occasions": [
+   "College Fest"
+  ],
+  "herProductIds": [
+   "w-leh-sequin-05",
+   "w-ear-jhumka-01"
+  ],
+  "hisProductIds": [
+   "m-kurta-jeans-02",
+   "m-mojari-01"
+  ],
+  "price": 8000,
+  "description": "A candid, human-photography pair for College Fest: complementary coral and indigo styling, photographed through pausing between dances rather than a posed uniform.",
+  "imageUrl": "/images/couples-v2/college-fest-09.jpg",
+  "coupleId": "college-fest-09",
+  "metadata": {
+   "world": "College Fest",
+   "pose": "candid selfie; seated side-by-side",
+   "camera": "intimate 50mm",
+   "framing": "wide full-body",
+   "lighting": "bright afternoon light",
+   "activity": "pausing between dances",
+   "location": "campus festival lawn; doorway",
+   "palette": [
+    "Coral",
+    "Indigo"
+   ],
+   "sourceImage": "/images/production-couple-college-selfie.jpg",
+   "composition": "candid selfie; seated side-by-side | intimate 50mm | wide full-body | campus festival lawn; doorway | bright afternoon light",
+   "uniquenessKey": "college-fest-9|candid selfie; seated side-by-side | intimate 50mm | wide full-body | campus festival lawn; doorway | bright afternoon light"
+  }
+ },
+ {
+  "id": "couple-college-fest-10",
+  "title": "College Fest · Walking 10",
+  "mood": "College Fest",
+  "world": "College Fest",
+  "occasions": [
+   "College Fest"
+  ],
+  "herProductIds": [
+   "w-saree-drape-08",
+   "w-ear-jhumka-01"
+  ],
+  "hisProductIds": [
+   "m-waistcoat-set-02",
+   "m-mojari-01"
+  ],
+  "price": 8000,
+  "description": "A candid, human-photography pair for College Fest: complementary mint and rust styling, photographed through sharing a private joke rather than a posed uniform.",
+  "imageUrl": "/images/couples-v2/college-fest-10.jpg",
+  "coupleId": "college-fest-10",
+  "metadata": {
+   "world": "College Fest",
+   "pose": "walking; direct eye contact",
+   "camera": "editorial 85mm",
+   "framing": "close portrait",
+   "lighting": "late afternoon light",
+   "activity": "sharing a private joke",
+   "location": "college fest walkway; campus lawn",
+   "palette": [
+    "Mint",
+    "Rust"
+   ],
+   "sourceImage": "/images/production-couple-college.jpg",
+   "composition": "walking; direct eye contact | editorial 85mm | close portrait | college fest walkway; campus lawn | late afternoon light",
+   "uniquenessKey": "college-fest-10|walking; direct eye contact | editorial 85mm | close portrait | college fest walkway; campus lawn | late afternoon light"
+  }
+ },
+ {
+  "id": "couple-college-fest-11",
+  "title": "College Fest · Laughing Conversation 11",
+  "mood": "College Fest",
+  "world": "College Fest",
+  "occasions": [
+   "College Fest"
+  ],
+  "herProductIds": [
+   "w-saree-organza-02",
+   "w-ear-jhumka-01"
+  ],
+  "hisProductIds": [
+   "m-kurtiset-cotton-02",
+   "m-mojari-01"
+  ],
+  "price": 6196,
+  "description": "A candid, human-photography pair for College Fest: complementary teal and ivory styling, photographed through holding dandiya sticks rather than a posed uniform.",
+  "imageUrl": "/images/couples-v2/college-fest-11.jpg",
+  "coupleId": "college-fest-11",
+  "metadata": {
+   "world": "College Fest",
+   "pose": "laughing conversation; dandiya movement",
+   "camera": "wide environmental lens",
+   "framing": "low movement frame",
+   "lighting": "colourful social light",
+   "activity": "holding dandiya sticks",
+   "location": "student festival stage; community hall",
+   "palette": [
+    "Teal",
+    "Ivory"
+   ],
+   "sourceImage": "/images/production-couple-festive-party-seated.jpg",
+   "composition": "laughing conversation; dandiya movement | wide environmental lens | low movement frame | student festival stage; community hall | colourful social light",
+   "uniquenessKey": "college-fest-11|laughing conversation; dandiya movement | wide environmental lens | low movement frame | student festival stage; community hall | colourful social light"
+  }
+ },
+ {
+  "id": "couple-college-fest-12",
+  "title": "College Fest · Styling Adjustment 12",
+  "mood": "College Fest",
+  "world": "College Fest",
+  "occasions": [
+   "College Fest"
+  ],
+  "herProductIds": [
+   "w-saree-buti-03",
+   "w-ear-jhumka-01"
+  ],
+  "hisProductIds": [
+   "m-kurt-set-dupatta-04",
+   "m-mojari-01"
+  ],
+  "price": 8000,
+  "description": "A candid, human-photography pair for College Fest: complementary butter yellow and bottle green styling, photographed through choosing a song rather than a posed uniform.",
+  "imageUrl": "/images/couples-v2/college-fest-12.jpg",
+  "coupleId": "college-fest-12",
+  "metadata": {
+   "world": "College Fest",
+   "pose": "styling adjustment; looking back at one another",
+   "camera": "handheld social frame",
+   "framing": "medium three-quarter",
+   "lighting": "warm string lights",
+   "activity": "choosing a song",
+   "location": "campus cultural fest; terrace",
+   "palette": [
+    "Butter Yellow",
+    "Bottle Green"
+   ],
+   "sourceImage": "/images/production-couple-garba-dupattafix.jpg",
+   "composition": "styling adjustment; looking back at one another | handheld social frame | medium three-quarter | campus cultural fest; terrace | warm string lights",
+   "uniquenessKey": "college-fest-12|styling adjustment; looking back at one another | handheld social frame | medium three-quarter | campus cultural fest; terrace | warm string lights"
+  }
+ },
+ {
+  "id": "couple-college-fest-13",
+  "title": "College Fest · Candid Selfie 13",
+  "mood": "College Fest",
+  "world": "College Fest",
+  "occasions": [
+   "College Fest"
+  ],
+  "herProductIds": [
+   "w-leh-sequin-05",
+   "w-ear-jhumka-01"
+  ],
+  "hisProductIds": [
+   "m-kurta-jeans-02",
+   "m-mojari-01"
+  ],
+  "price": 8000,
+  "description": "A candid, human-photography pair for College Fest: complementary coral and indigo styling, photographed through arriving together rather than a posed uniform.",
+  "imageUrl": "/images/couples-v2/college-fest-13.jpg",
+  "coupleId": "college-fest-13",
+  "metadata": {
+   "world": "College Fest",
+   "pose": "candid selfie; walking together",
+   "camera": "documentary 35mm",
+   "framing": "over-shoulder",
+   "lighting": "bright afternoon light",
+   "activity": "arriving together",
+   "location": "campus festival lawn; festival ground",
+   "palette": [
+    "Coral",
+    "Indigo"
+   ],
+   "sourceImage": "/images/production-couple-college-selfie.jpg",
+   "composition": "candid selfie; walking together | documentary 35mm | over-shoulder | campus festival lawn; festival ground | bright afternoon light",
+   "uniquenessKey": "college-fest-13|candid selfie; walking together | documentary 35mm | over-shoulder | campus festival lawn; festival ground | bright afternoon light"
+  }
+ },
+ {
+  "id": "couple-college-fest-14",
+  "title": "College Fest · Walking 14",
+  "mood": "College Fest",
+  "world": "College Fest",
+  "occasions": [
+   "College Fest"
+  ],
+  "herProductIds": [
+   "w-saree-drape-08",
+   "w-ear-jhumka-01"
+  ],
+  "hisProductIds": [
+   "m-waistcoat-set-02",
+   "m-mojari-01"
+  ],
+  "price": 8000,
+  "description": "A candid, human-photography pair for College Fest: complementary mint and rust styling, photographed through fixing a styling detail rather than a posed uniform.",
+  "imageUrl": "/images/couples-v2/college-fest-14.jpg",
+  "coupleId": "college-fest-14",
+  "metadata": {
+   "world": "College Fest",
+   "pose": "walking; laughing in conversation",
+   "camera": "intimate 50mm",
+   "framing": "wide full-body",
+   "lighting": "late afternoon light",
+   "activity": "fixing a styling detail",
+   "location": "college fest walkway; decorated courtyard",
+   "palette": [
+    "Mint",
+    "Rust"
+   ],
+   "sourceImage": "/images/production-couple-college.jpg",
+   "composition": "walking; laughing in conversation | intimate 50mm | wide full-body | college fest walkway; decorated courtyard | late afternoon light",
+   "uniquenessKey": "college-fest-14|walking; laughing in conversation | intimate 50mm | wide full-body | college fest walkway; decorated courtyard | late afternoon light"
+  }
+ },
+ {
+  "id": "couple-college-fest-15",
+  "title": "College Fest · Laughing Conversation 15",
+  "mood": "College Fest",
+  "world": "College Fest",
+  "occasions": [
+   "College Fest"
+  ],
+  "herProductIds": [
+   "w-saree-organza-02",
+   "w-ear-jhumka-01"
+  ],
+  "hisProductIds": [
+   "m-kurtiset-cotton-02",
+   "m-mojari-01"
+  ],
+  "price": 6196,
+  "description": "A candid, human-photography pair for College Fest: complementary teal and ivory styling, photographed through moving through the crowd rather than a posed uniform.",
+  "imageUrl": "/images/couples-v2/college-fest-15.jpg",
+  "coupleId": "college-fest-15",
+  "metadata": {
+   "world": "College Fest",
+   "pose": "laughing conversation; hands almost touching",
+   "camera": "editorial 85mm",
+   "framing": "close portrait",
+   "lighting": "colourful social light",
+   "activity": "moving through the crowd",
+   "location": "student festival stage; string-lit walkway",
+   "palette": [
+    "Teal",
+    "Ivory"
+   ],
+   "sourceImage": "/images/production-couple-festive-party-seated.jpg",
+   "composition": "laughing conversation; hands almost touching | editorial 85mm | close portrait | student festival stage; string-lit walkway | colourful social light",
+   "uniquenessKey": "college-fest-15|laughing conversation; hands almost touching | editorial 85mm | close portrait | student festival stage; string-lit walkway | colourful social light"
+  }
+ },
+ {
+  "id": "couple-college-fest-16",
+  "title": "College Fest · Styling Adjustment 16",
+  "mood": "College Fest",
+  "world": "College Fest",
+  "occasions": [
+   "College Fest"
+  ],
+  "herProductIds": [
+   "w-saree-buti-03",
+   "w-ear-jhumka-01"
+  ],
+  "hisProductIds": [
+   "m-kurt-set-dupatta-04",
+   "m-mojari-01"
+  ],
+  "price": 8000,
+  "description": "A candid, human-photography pair for College Fest: complementary butter yellow and bottle green styling, photographed through walking past lights rather than a posed uniform.",
+  "imageUrl": "/images/couples-v2/college-fest-16.jpg",
+  "coupleId": "college-fest-16",
+  "metadata": {
+   "world": "College Fest",
+   "pose": "styling adjustment; mid-laugh portrait",
+   "camera": "wide environmental lens",
+   "framing": "low movement frame",
+   "lighting": "warm string lights",
+   "activity": "walking past lights",
+   "location": "campus cultural fest; balcony",
+   "palette": [
+    "Butter Yellow",
+    "Bottle Green"
+   ],
+   "sourceImage": "/images/production-couple-garba-dupattafix.jpg",
+   "composition": "styling adjustment; mid-laugh portrait | wide environmental lens | low movement frame | campus cultural fest; balcony | warm string lights",
+   "uniquenessKey": "college-fest-16|styling adjustment; mid-laugh portrait | wide environmental lens | low movement frame | campus cultural fest; balcony | warm string lights"
+  }
+ },
+ {
+  "id": "couple-college-fest-17",
+  "title": "College Fest · Candid Selfie 17",
+  "mood": "College Fest",
+  "world": "College Fest",
+  "occasions": [
+   "College Fest"
+  ],
+  "herProductIds": [
+   "w-leh-sequin-05",
+   "w-ear-jhumka-01"
+  ],
+  "hisProductIds": [
+   "m-kurta-jeans-02",
+   "m-mojari-01"
+  ],
+  "price": 8000,
+  "description": "A candid, human-photography pair for College Fest: complementary coral and indigo styling, photographed through pausing between dances rather than a posed uniform.",
+  "imageUrl": "/images/couples-v2/college-fest-17.jpg",
+  "coupleId": "college-fest-17",
+  "metadata": {
+   "world": "College Fest",
+   "pose": "candid selfie; dancing in motion",
+   "camera": "handheld social frame",
+   "framing": "medium three-quarter",
+   "lighting": "bright afternoon light",
+   "activity": "pausing between dances",
+   "location": "campus festival lawn; doorway",
+   "palette": [
+    "Coral",
+    "Indigo"
+   ],
+   "sourceImage": "/images/production-couple-college-selfie.jpg",
+   "composition": "candid selfie; dancing in motion | handheld social frame | medium three-quarter | campus festival lawn; doorway | bright afternoon light",
+   "uniquenessKey": "college-fest-17|candid selfie; dancing in motion | handheld social frame | medium three-quarter | campus festival lawn; doorway | bright afternoon light"
+  }
+ },
+ {
+  "id": "couple-college-fest-18",
+  "title": "College Fest · Walking 18",
+  "mood": "College Fest",
+  "world": "College Fest",
+  "occasions": [
+   "College Fest"
+  ],
+  "herProductIds": [
+   "w-saree-drape-08",
+   "w-ear-jhumka-01"
+  ],
+  "hisProductIds": [
+   "m-waistcoat-set-02",
+   "m-mojari-01"
+  ],
+  "price": 8000,
+  "description": "A candid, human-photography pair for College Fest: complementary mint and rust styling, photographed through sharing a private joke rather than a posed uniform.",
+  "imageUrl": "/images/couples-v2/college-fest-18.jpg",
+  "coupleId": "college-fest-18",
+  "metadata": {
+   "world": "College Fest",
+   "pose": "walking; adjusting a dupatta",
+   "camera": "documentary 35mm",
+   "framing": "over-shoulder",
+   "lighting": "late afternoon light",
+   "activity": "sharing a private joke",
+   "location": "college fest walkway; campus lawn",
+   "palette": [
+    "Mint",
+    "Rust"
+   ],
+   "sourceImage": "/images/production-couple-college.jpg",
+   "composition": "walking; adjusting a dupatta | documentary 35mm | over-shoulder | college fest walkway; campus lawn | late afternoon light",
+   "uniquenessKey": "college-fest-18|walking; adjusting a dupatta | documentary 35mm | over-shoulder | college fest walkway; campus lawn | late afternoon light"
+  }
+ },
+ {
+  "id": "couple-college-fest-19",
+  "title": "College Fest · Laughing Conversation 19",
+  "mood": "College Fest",
+  "world": "College Fest",
+  "occasions": [
+   "College Fest"
+  ],
+  "herProductIds": [
+   "w-saree-organza-02",
+   "w-ear-jhumka-01"
+  ],
+  "hisProductIds": [
+   "m-kurtiset-cotton-02",
+   "m-mojari-01"
+  ],
+  "price": 6196,
+  "description": "A candid, human-photography pair for College Fest: complementary teal and ivory styling, photographed through holding dandiya sticks rather than a posed uniform.",
+  "imageUrl": "/images/couples-v2/college-fest-19.jpg",
+  "coupleId": "college-fest-19",
+  "metadata": {
+   "world": "College Fest",
+   "pose": "laughing conversation; seated side-by-side",
+   "camera": "intimate 50mm",
+   "framing": "wide full-body",
+   "lighting": "colourful social light",
+   "activity": "holding dandiya sticks",
+   "location": "student festival stage; community hall",
+   "palette": [
+    "Teal",
+    "Ivory"
+   ],
+   "sourceImage": "/images/production-couple-festive-party-seated.jpg",
+   "composition": "laughing conversation; seated side-by-side | intimate 50mm | wide full-body | student festival stage; community hall | colourful social light",
+   "uniquenessKey": "college-fest-19|laughing conversation; seated side-by-side | intimate 50mm | wide full-body | student festival stage; community hall | colourful social light"
+  }
+ },
+ {
+  "id": "couple-college-fest-20",
+  "title": "College Fest · Styling Adjustment 20",
+  "mood": "College Fest",
+  "world": "College Fest",
+  "occasions": [
+   "College Fest"
+  ],
+  "herProductIds": [
+   "w-saree-buti-03",
+   "w-ear-jhumka-01"
+  ],
+  "hisProductIds": [
+   "m-kurt-set-dupatta-04",
+   "m-mojari-01"
+  ],
+  "price": 8000,
+  "description": "A candid, human-photography pair for College Fest: complementary butter yellow and bottle green styling, photographed through choosing a song rather than a posed uniform.",
+  "imageUrl": "/images/couples-v2/college-fest-20.jpg",
+  "coupleId": "college-fest-20",
+  "metadata": {
+   "world": "College Fest",
+   "pose": "styling adjustment; direct eye contact",
+   "camera": "editorial 85mm",
+   "framing": "close portrait",
+   "lighting": "warm string lights",
+   "activity": "choosing a song",
+   "location": "campus cultural fest; terrace",
+   "palette": [
+    "Butter Yellow",
+    "Bottle Green"
+   ],
+   "sourceImage": "/images/production-couple-garba-dupattafix.jpg",
+   "composition": "styling adjustment; direct eye contact | editorial 85mm | close portrait | campus cultural fest; terrace | warm string lights",
+   "uniquenessKey": "college-fest-20|styling adjustment; direct eye contact | editorial 85mm | close portrait | campus cultural fest; terrace | warm string lights"
+  }
  }
 ]

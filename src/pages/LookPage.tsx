@@ -7,6 +7,7 @@ import ProductCard from '../components/ProductCard';
 import TryOnModal from '../components/TryOnModal';
 import { type Product } from '../data/products';
 import { trackAffiliateClick, trackEvent } from '../utils/analytics';
+import { getAffiliateUrl } from '../data/affiliate-links';
 import { formatPrice, sumPrices } from '../utils/format';
 
 export default function LookPage() {
@@ -42,7 +43,7 @@ export default function LookPage() {
   };
   const shopItem = (p: Product) => {
     trackAffiliateClick(p.id, p.merchantLabel, p.category);
-    window.open(p.affiliateUrl || p.merchantUrl, '_blank', 'noopener,noreferrer');
+    window.open(getAffiliateUrl(p.id) || p.affiliateUrl || p.merchantUrl, '_blank', 'noopener,noreferrer');
   };
 
   return (

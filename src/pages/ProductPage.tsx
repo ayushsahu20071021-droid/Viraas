@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { Heart, Sparkles, ShoppingBag, ArrowLeft, Share2, ExternalLink, AlertTriangle, Layers } from 'lucide-react';
 import { getProductById, completeTheLook, OCCASION_TAG_BY_ID } from '../data/products';
+import { getAffiliateUrl } from '../data/affiliate-links';
 import { getLooksForProduct } from '../data/looks';
 import { toggleSavedLook, isLookSaved } from '../utils/savedLooks';
 import { trackAffiliateClick, trackEvent } from '../utils/analytics';
@@ -69,7 +70,7 @@ export default function ProductPage() {
     if (isNowSaved) trackEvent('save_product', { productId: product.id });
   };
   const handleShop = () => {
-    const url = product.affiliateUrl || product.merchantUrl;
+    const url = getAffiliateUrl(product.id) || product.affiliateUrl || product.merchantUrl;
     if (url) {
       trackAffiliateClick(product.id, product.merchantLabel, product.category);
       window.open(url, '_blank', 'noopener,noreferrer');
