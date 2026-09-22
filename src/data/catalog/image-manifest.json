@@ -3,7 +3,7 @@
  "productPrimaryFormat": "jpg",
  "productPrimaryCount": 653,
  "couplePrimaryFormat": "jpg",
- "couplePrimaryCount": 60,
+ "couplePrimaryCount": 100,
  "productPrimaryDirectory": "/images/production-products",
  "preservedFallbackDirectory": "/images/products",
  "productPrimaries": [
@@ -3831,521 +3831,1301 @@
   },
   {
    "id": "cp-set-01",
-   "imageUrl": "/images/couples/sage-silk.jpg",
+   "imageUrl": "/images/couples/garba-01.jpg",
    "category": "couple-edit",
    "gender": "couple"
   },
   {
    "id": "cp-set-02",
-   "imageUrl": "/images/couples/ivory-gold.jpg",
+   "imageUrl": "/images/couples/garba-02.jpg",
    "category": "couple-edit",
    "gender": "couple"
   },
   {
    "id": "cp-set-03",
-   "imageUrl": "/images/couples/terracotta-fiesta.jpg",
+   "imageUrl": "/images/couples/garba-03.jpg",
    "category": "couple-edit",
    "gender": "couple"
   },
   {
    "id": "cp-set-04",
-   "imageUrl": "/images/couples/midnight-velvet.jpg",
+   "imageUrl": "/images/couples/garba-04.jpg",
    "category": "couple-edit",
    "gender": "couple"
   },
   {
    "id": "cp-set-05",
-   "imageUrl": "/images/couples/marigold-day.jpg",
+   "imageUrl": "/images/couples/garba-05.jpg",
    "category": "couple-edit",
    "gender": "couple"
   },
   {
    "id": "cp-set-06",
-   "imageUrl": "/images/couples/monsoon-pastel.jpg",
+   "imageUrl": "/images/couples/garba-06.jpg",
    "category": "couple-edit",
    "gender": "couple"
   },
   {
    "id": "cp-set-07",
-   "imageUrl": "/images/couples/diwali-heirloom.jpg",
+   "imageUrl": "/images/couples/garba-07.jpg",
    "category": "couple-edit",
    "gender": "couple"
   },
   {
    "id": "cp-set-08",
-   "imageUrl": "/images/couples/navratri-neon.jpg",
+   "imageUrl": "/images/couples/garba-08.jpg",
    "category": "couple-edit",
    "gender": "couple"
   },
   {
    "id": "cp-set-09",
-   "imageUrl": "/images/couples/destination-white.jpg",
+   "imageUrl": "/images/couples/garba-09.jpg",
    "category": "couple-edit",
    "gender": "couple"
   },
   {
    "id": "cp-set-10",
-   "imageUrl": "/images/couples/college-duo.jpg",
+   "imageUrl": "/images/couples/garba-10.jpg",
    "category": "couple-edit",
    "gender": "couple"
   },
   {
    "id": "cp-set-11",
-   "imageUrl": "/images/couples/wedding-guest-olive.jpg",
+   "imageUrl": "/images/couples/garba-11.jpg",
    "category": "couple-edit",
    "gender": "couple"
   },
   {
    "id": "cp-set-12",
-   "imageUrl": "/images/couples/winter-wedding.jpg",
+   "imageUrl": "/images/couples/garba-12.jpg",
    "category": "couple-edit",
    "gender": "couple"
   },
   {
    "id": "cp-set-13",
-   "imageUrl": "/images/couples/family-function.jpg",
+   "imageUrl": "/images/couples/garba-13.jpg",
    "category": "couple-edit",
    "gender": "couple"
   },
   {
    "id": "cp-set-14",
-   "imageUrl": "/images/couples/date-evening.jpg",
+   "imageUrl": "/images/couples/garba-14.jpg",
    "category": "couple-edit",
    "gender": "couple"
   },
   {
    "id": "cp-set-15",
-   "imageUrl": "/images/couples/mehendi-mint.jpg",
+   "imageUrl": "/images/couples/garba-15.jpg",
    "category": "couple-edit",
    "gender": "couple"
   },
   {
    "id": "cp-set-16",
-   "imageUrl": "/images/couples/festive-brass.jpg",
+   "imageUrl": "/images/couples/garba-16.jpg",
    "category": "couple-edit",
    "gender": "couple"
   }
  ],
  "couplePrimaries": [
   {
-   "id": "couple-sage-silk",
-   "imageUrl": "/images/couples/sage-silk.jpg",
+   "id": "couple-garba-01",
+   "imageUrl": "/images/couples/garba-01.jpg",
    "occasions": [
-    "Sangeet"
-   ]
+    "Garba"
+   ],
+   "world": "Garba",
+   "scene": "walking between dandiya rounds",
+   "pose": "crossed sticks and a shared laugh",
+   "cameraFraming": "wide festival-ground frame",
+   "sourceImage": "/images/production-couple-garba-dandiya-wide.jpg"
   },
   {
-   "id": "couple-ivory-gold",
-   "imageUrl": "/images/couples/ivory-gold.jpg",
+   "id": "couple-garba-02",
+   "imageUrl": "/images/couples/garba-02.jpg",
    "occasions": [
-    "Reception"
-   ]
+    "Garba"
+   ],
+   "world": "Garba",
+   "scene": "under a mirrorwork canopy",
+   "pose": "he steadies her dupatta as she turns",
+   "cameraFraming": "three-quarter moving frame",
+   "sourceImage": "/images/production-couple-garba-dupattahold.jpg"
   },
   {
-   "id": "couple-terracotta-fiesta",
-   "imageUrl": "/images/couples/terracotta-fiesta.jpg",
+   "id": "couple-garba-03",
+   "imageUrl": "/images/couples/garba-03.jpg",
    "occasions": [
-    "Mehendi"
-   ]
+    "Garba"
+   ],
+   "world": "Garba",
+   "scene": "by the decorated entry arch",
+   "pose": "foreheads close, catching their breath",
+   "cameraFraming": "intimate portrait crop",
+   "sourceImage": "/images/production-couple-garba-dandiya-wide.jpg"
   },
   {
-   "id": "couple-midnight-velvet",
-   "imageUrl": "/images/couples/midnight-velvet.jpg",
+   "id": "couple-garba-04",
+   "imageUrl": "/images/couples/garba-04.jpg",
    "occasions": [
-    "Evening"
-   ]
+    "Garba"
+   ],
+   "world": "Garba",
+   "scene": "at the edge of the Garba ground",
+   "pose": "handholding while dancers blur behind them",
+   "cameraFraming": "side-on documentary frame",
+   "sourceImage": "/images/production-couple-garba-dupattahold.jpg"
   },
   {
-   "id": "couple-marigold-day",
-   "imageUrl": "/images/couples/marigold-day.jpg",
+   "id": "couple-garba-05",
+   "imageUrl": "/images/couples/garba-05.jpg",
    "occasions": [
-    "Wedding"
-   ]
+    "Garba"
+   ],
+   "world": "Garba",
+   "scene": "beside a marigold-lit pillar",
+   "pose": "eye contact over a shoulder touch",
+   "cameraFraming": "close candid frame",
+   "sourceImage": "/images/production-couple-garba-dandiya-wide.jpg"
   },
   {
-   "id": "couple-monsoon-pastel",
-   "imageUrl": "/images/couples/monsoon-pastel.jpg",
+   "id": "couple-garba-06",
+   "imageUrl": "/images/couples/garba-06.jpg",
    "occasions": [
-    "Engagement"
-   ]
+    "Garba"
+   ],
+   "world": "Garba",
+   "scene": "through the late-evening crowd",
+   "pose": "matching their steps, sticks lowered",
+   "cameraFraming": "full-length walking frame",
+   "sourceImage": "/images/production-couple-garba-dupattahold.jpg"
   },
   {
-   "id": "couple-diwali-heirloom",
-   "imageUrl": "/images/couples/diwali-heirloom.jpg",
+   "id": "couple-garba-07",
+   "imageUrl": "/images/couples/garba-07.jpg",
+   "occasions": [
+    "Garba"
+   ],
+   "world": "Garba",
+   "scene": "near the live folk percussion",
+   "pose": "her laugh catches him mid-sentence",
+   "cameraFraming": "medium two-shot",
+   "sourceImage": "/images/production-couple-garba-dandiya-wide.jpg"
+  },
+  {
+   "id": "couple-garba-08",
+   "imageUrl": "/images/couples/garba-08.jpg",
+   "occasions": [
+    "Garba"
+   ],
+   "world": "Garba",
+   "scene": "under strings of warm bulbs",
+   "pose": "he reaches for her hand as the skirt opens",
+   "cameraFraming": "low-angle movement frame",
+   "sourceImage": "/images/production-couple-garba-dupattahold.jpg"
+  },
+  {
+   "id": "couple-garba-09",
+   "imageUrl": "/images/couples/garba-09.jpg",
+   "occasions": [
+    "Garba"
+   ],
+   "world": "Garba",
+   "scene": "at the shaded edge of the ground",
+   "pose": "a quiet check-in before the next song",
+   "cameraFraming": "waist-up conversational frame",
+   "sourceImage": "/images/production-couple-garba-dandiya-wide.jpg"
+  },
+  {
+   "id": "couple-garba-10",
+   "imageUrl": "/images/couples/garba-10.jpg",
+   "occasions": [
+    "Garba"
+   ],
+   "world": "Garba",
+   "scene": "beside a bandhani textile stall",
+   "pose": "she adjusts his stole with a grin",
+   "cameraFraming": "over-the-shoulder frame",
+   "sourceImage": "/images/production-couple-garba-dupattahold.jpg"
+  },
+  {
+   "id": "couple-garba-11",
+   "imageUrl": "/images/couples/garba-11.jpg",
+   "occasions": [
+    "Garba"
+   ],
+   "world": "Garba",
+   "scene": "on the open earthen dance floor",
+   "pose": "shoulder-to-shoulder through a circle",
+   "cameraFraming": "wide environmental frame",
+   "sourceImage": "/images/production-couple-garba-dandiya-wide.jpg"
+  },
+  {
+   "id": "couple-garba-12",
+   "imageUrl": "/images/couples/garba-12.jpg",
+   "occasions": [
+    "Garba"
+   ],
+   "world": "Garba",
+   "scene": "beneath the festival lights",
+   "pose": "sticks cross while they look at one another",
+   "cameraFraming": "dynamic diagonal frame",
+   "sourceImage": "/images/production-couple-garba-dupattahold.jpg"
+  },
+  {
+   "id": "couple-garba-13",
+   "imageUrl": "/images/couples/garba-13.jpg",
+   "occasions": [
+    "Garba"
+   ],
+   "world": "Garba",
+   "scene": "near the hand-painted entrance",
+   "pose": "her hand rests lightly on his arm",
+   "cameraFraming": "portrait crop with bokeh",
+   "sourceImage": "/images/production-couple-garba-dandiya-wide.jpg"
+  },
+  {
+   "id": "couple-garba-14",
+   "imageUrl": "/images/couples/garba-14.jpg",
+   "occasions": [
+    "Garba"
+   ],
+   "world": "Garba",
+   "scene": "after the final Garba round",
+   "pose": "tired smiles and linked hands",
+   "cameraFraming": "natural low-light frame",
+   "sourceImage": "/images/production-couple-garba-dupattahold.jpg"
+  },
+  {
+   "id": "couple-garba-15",
+   "imageUrl": "/images/couples/garba-15.jpg",
+   "occasions": [
+    "Garba"
+   ],
+   "world": "Garba",
+   "scene": "beside the draped textile backdrop",
+   "pose": "a playful almost-dance step",
+   "cameraFraming": "three-quarter frame",
+   "sourceImage": "/images/production-couple-garba-dandiya-wide.jpg"
+  },
+  {
+   "id": "couple-garba-16",
+   "imageUrl": "/images/couples/garba-16.jpg",
+   "occasions": [
+    "Garba"
+   ],
+   "world": "Garba",
+   "scene": "at a family-friendly festival courtyard",
+   "pose": "a warm hello before joining friends",
+   "cameraFraming": "mid-distance social frame",
+   "sourceImage": "/images/production-couple-garba-dupattahold.jpg"
+  },
+  {
+   "id": "couple-garba-17",
+   "imageUrl": "/images/couples/garba-17.jpg",
+   "occasions": [
+    "Garba"
+   ],
+   "world": "Garba",
+   "scene": "on the outer ring of the ground",
+   "pose": "he follows her confident step",
+   "cameraFraming": "candid action frame",
+   "sourceImage": "/images/production-couple-garba-dandiya-wide.jpg"
+  },
+  {
+   "id": "couple-garba-18",
+   "imageUrl": "/images/couples/garba-18.jpg",
+   "occasions": [
+    "Garba"
+   ],
+   "world": "Garba",
+   "scene": "framed by marigold strings",
+   "pose": "a gentle turn with eyes locked",
+   "cameraFraming": "vertical editorial frame",
+   "sourceImage": "/images/production-couple-garba-dupattahold.jpg"
+  },
+  {
+   "id": "couple-garba-19",
+   "imageUrl": "/images/couples/garba-19.jpg",
+   "occasions": [
+    "Garba"
+   ],
+   "world": "Garba",
+   "scene": "under deep-blue evening sky",
+   "pose": "walking home from the dance circle",
+   "cameraFraming": "wide night frame",
+   "sourceImage": "/images/production-couple-garba-dandiya-wide.jpg"
+  },
+  {
+   "id": "couple-garba-20",
+   "imageUrl": "/images/couples/garba-20.jpg",
+   "occasions": [
+    "Garba"
+   ],
+   "world": "Garba",
+   "scene": "near the percussion stage",
+   "pose": "one pair of dandiya, two laughing hands",
+   "cameraFraming": "close hand-and-face frame",
+   "sourceImage": "/images/production-couple-garba-dupattahold.jpg"
+  },
+  {
+   "id": "couple-navratri-01",
+   "imageUrl": "/images/couples/navratri-01.jpg",
+   "occasions": [
+    "Navratri"
+   ],
+   "world": "Navratri",
+   "scene": "under the first string lights",
+   "pose": "learning the same rhythm together",
+   "cameraFraming": "wide dance-floor frame",
+   "sourceImage": "/images/production-couple-navratri-steps.jpg"
+  },
+  {
+   "id": "couple-navratri-02",
+   "imageUrl": "/images/couples/navratri-02.jpg",
+   "occasions": [
+    "Navratri"
+   ],
+   "world": "Navratri",
+   "scene": "by a softly lit festival wall",
+   "pose": "quiet eye contact after a fast round",
+   "cameraFraming": "close portrait frame",
+   "sourceImage": "/images/production-couple-navratri-close.jpg"
+  },
+  {
+   "id": "couple-navratri-03",
+   "imageUrl": "/images/couples/navratri-03.jpg",
+   "occasions": [
+    "Navratri"
+   ],
+   "world": "Navratri",
+   "scene": "beside a decorated stage",
+   "pose": "he checks the fall of her odhani",
+   "cameraFraming": "medium candid frame",
+   "sourceImage": "/images/production-couple-navratri-steps.jpg"
+  },
+  {
+   "id": "couple-navratri-04",
+   "imageUrl": "/images/couples/navratri-04.jpg",
+   "occasions": [
+    "Navratri"
+   ],
+   "world": "Navratri",
+   "scene": "through the moving festival crowd",
+   "pose": "hands linked between songs",
+   "cameraFraming": "full-length documentary frame",
+   "sourceImage": "/images/production-couple-navratri-close.jpg"
+  },
+  {
+   "id": "couple-navratri-05",
+   "imageUrl": "/images/couples/navratri-05.jpg",
+   "occasions": [
+    "Navratri"
+   ],
+   "world": "Navratri",
+   "scene": "under coloured festoon lights",
+   "pose": "a shared laugh mid-step",
+   "cameraFraming": "three-quarter action frame",
+   "sourceImage": "/images/production-couple-navratri-steps.jpg"
+  },
+  {
+   "id": "couple-navratri-06",
+   "imageUrl": "/images/couples/navratri-06.jpg",
+   "occasions": [
+    "Navratri"
+   ],
+   "world": "Navratri",
+   "scene": "near a painted courtyard pillar",
+   "pose": "shoulder-to-shoulder pause",
+   "cameraFraming": "vertical portrait crop",
+   "sourceImage": "/images/production-couple-navratri-close.jpg"
+  },
+  {
+   "id": "couple-navratri-07",
+   "imageUrl": "/images/couples/navratri-07.jpg",
+   "occasions": [
+    "Navratri"
+   ],
+   "world": "Navratri",
+   "scene": "on the outer edge of the circle",
+   "pose": "her bracelet catches his hand",
+   "cameraFraming": "close hand-and-face frame",
+   "sourceImage": "/images/production-couple-navratri-steps.jpg"
+  },
+  {
+   "id": "couple-navratri-08",
+   "imageUrl": "/images/couples/navratri-08.jpg",
+   "occasions": [
+    "Navratri"
+   ],
+   "world": "Navratri",
+   "scene": "beside the live music",
+   "pose": "turning toward one another",
+   "cameraFraming": "side-on conversational frame",
+   "sourceImage": "/images/production-couple-navratri-close.jpg"
+  },
+  {
+   "id": "couple-navratri-09",
+   "imageUrl": "/images/couples/navratri-09.jpg",
+   "occasions": [
+    "Navratri"
+   ],
+   "world": "Navratri",
+   "scene": "in the centre of the dance ground",
+   "pose": "a hand raised between steps",
+   "cameraFraming": "low-angle movement frame",
+   "sourceImage": "/images/production-couple-navratri-steps.jpg"
+  },
+  {
+   "id": "couple-navratri-10",
+   "imageUrl": "/images/couples/navratri-10.jpg",
+   "occasions": [
+    "Navratri"
+   ],
+   "world": "Navratri",
+   "scene": "at the festival entrance",
+   "pose": "sharing a last-minute step cue",
+   "cameraFraming": "over-the-shoulder frame",
+   "sourceImage": "/images/production-couple-navratri-close.jpg"
+  },
+  {
+   "id": "couple-navratri-11",
+   "imageUrl": "/images/couples/navratri-11.jpg",
+   "occasions": [
+    "Navratri"
+   ],
+   "world": "Navratri",
+   "scene": "under warm overhead bulbs",
+   "pose": "a relaxed smile before the music starts",
+   "cameraFraming": "medium two-shot",
+   "sourceImage": "/images/production-couple-navratri-steps.jpg"
+  },
+  {
+   "id": "couple-navratri-12",
+   "imageUrl": "/images/couples/navratri-12.jpg",
+   "occasions": [
+    "Navratri"
+   ],
+   "world": "Navratri",
+   "scene": "on the open ground at blue hour",
+   "pose": "walking in after the crowd gathers",
+   "cameraFraming": "wide environmental frame",
+   "sourceImage": "/images/production-couple-navratri-close.jpg"
+  },
+  {
+   "id": "couple-navratri-13",
+   "imageUrl": "/images/couples/navratri-13.jpg",
+   "occasions": [
+    "Navratri"
+   ],
+   "world": "Navratri",
+   "scene": "near a mirrorwork textile wall",
+   "pose": "he catches her turning dupatta",
+   "cameraFraming": "dynamic diagonal frame",
+   "sourceImage": "/images/production-couple-navratri-steps.jpg"
+  },
+  {
+   "id": "couple-navratri-14",
+   "imageUrl": "/images/couples/navratri-14.jpg",
+   "occasions": [
+    "Navratri"
+   ],
+   "world": "Navratri",
+   "scene": "beside a marigold arch",
+   "pose": "moving in parallel, not in uniform",
+   "cameraFraming": "full-length walking frame",
+   "sourceImage": "/images/production-couple-navratri-close.jpg"
+  },
+  {
+   "id": "couple-navratri-15",
+   "imageUrl": "/images/couples/navratri-15.jpg",
+   "occasions": [
+    "Navratri"
+   ],
+   "world": "Navratri",
+   "scene": "at the edge of the lit court",
+   "pose": "a close conversation over music",
+   "cameraFraming": "intimate waist-up frame",
+   "sourceImage": "/images/production-couple-navratri-steps.jpg"
+  },
+  {
+   "id": "couple-navratri-16",
+   "imageUrl": "/images/couples/navratri-16.jpg",
+   "occasions": [
+    "Navratri"
+   ],
+   "world": "Navratri",
+   "scene": "with dancers softened behind them",
+   "pose": "natural eye contact and a small grin",
+   "cameraFraming": "shallow-depth portrait frame",
+   "sourceImage": "/images/production-couple-navratri-close.jpg"
+  },
+  {
+   "id": "couple-navratri-17",
+   "imageUrl": "/images/couples/navratri-17.jpg",
+   "occasions": [
+    "Navratri"
+   ],
+   "world": "Navratri",
+   "scene": "beside a food-stall glow",
+   "pose": "laughing after missing a step",
+   "cameraFraming": "candid social frame",
+   "sourceImage": "/images/production-couple-navratri-steps.jpg"
+  },
+  {
+   "id": "couple-navratri-18",
+   "imageUrl": "/images/couples/navratri-18.jpg",
+   "occasions": [
+    "Navratri"
+   ],
+   "world": "Navratri",
+   "scene": "on the quiet edge of the venue",
+   "pose": "a supportive hand at the shoulder",
+   "cameraFraming": "three-quarter still frame",
+   "sourceImage": "/images/production-couple-navratri-close.jpg"
+  },
+  {
+   "id": "couple-navratri-19",
+   "imageUrl": "/images/couples/navratri-19.jpg",
+   "occasions": [
+    "Navratri"
+   ],
+   "world": "Navratri",
+   "scene": "near the warm ceremonial lights",
+   "pose": "standing together after the last beat",
+   "cameraFraming": "warm low-light frame",
+   "sourceImage": "/images/production-couple-navratri-steps.jpg"
+  },
+  {
+   "id": "couple-navratri-20",
+   "imageUrl": "/images/couples/navratri-20.jpg",
+   "occasions": [
+    "Navratri"
+   ],
+   "world": "Navratri",
+   "scene": "on the decorated exit path",
+   "pose": "walking out with linked hands",
+   "cameraFraming": "wide exit frame",
+   "sourceImage": "/images/production-couple-navratri-close.jpg"
+  },
+  {
+   "id": "couple-diwali-01",
+   "imageUrl": "/images/couples/diwali-01.jpg",
    "occasions": [
     "Diwali"
-   ]
+   ],
+   "world": "Diwali",
+   "scene": "on a balcony lined with diyas",
+   "pose": "sharing a quiet laugh beside the lamps",
+   "cameraFraming": "wide warm-light frame",
+   "sourceImage": "/images/production-couple-diwali-balcony.jpg"
   },
   {
-   "id": "couple-navratri-neon",
-   "imageUrl": "/images/couples/navratri-neon.jpg",
-   "occasions": [
-    "Garba"
-   ]
-  },
-  {
-   "id": "couple-destination-white",
-   "imageUrl": "/images/couples/destination-white.jpg",
-   "occasions": [
-    "Travel"
-   ]
-  },
-  {
-   "id": "couple-college-duo",
-   "imageUrl": "/images/couples/college-duo.jpg",
-   "occasions": [
-    "College"
-   ]
-  },
-  {
-   "id": "couple-wedding-guest-olive",
-   "imageUrl": "/images/couples/wedding-guest-olive.jpg",
-   "occasions": [
-    "Guest"
-   ]
-  },
-  {
-   "id": "couple-winter-wedding",
-   "imageUrl": "/images/couples/winter-wedding.jpg",
-   "occasions": [
-    "Winter"
-   ]
-  },
-  {
-   "id": "couple-family-function",
-   "imageUrl": "/images/couples/family-function.jpg",
-   "occasions": [
-    "Family"
-   ]
-  },
-  {
-   "id": "couple-date-evening",
-   "imageUrl": "/images/couples/date-evening.jpg",
-   "occasions": [
-    "Date"
-   ]
-  },
-  {
-   "id": "couple-mehendi-mint",
-   "imageUrl": "/images/couples/mehendi-mint.jpg",
-   "occasions": [
-    "Mehendi"
-   ]
-  },
-  {
-   "id": "couple-festive-brass",
-   "imageUrl": "/images/couples/festive-brass.jpg",
-   "occasions": [
-    "Family"
-   ]
-  },
-  {
-   "id": "couple-garba-black-gold",
-   "imageUrl": "/images/couples/garba-black-gold.jpg",
-   "occasions": [
-    "Garba"
-   ]
-  },
-  {
-   "id": "couple-diwali-wine-ivory",
-   "imageUrl": "/images/couples/diwali-wine-ivory.jpg",
+   "id": "couple-diwali-02",
+   "imageUrl": "/images/couples/diwali-02.jpg",
    "occasions": [
     "Diwali"
-   ]
+   ],
+   "world": "Diwali",
+   "scene": "at a marigold-trimmed doorway",
+   "pose": "walking in hand in hand",
+   "cameraFraming": "full-length doorway frame",
+   "sourceImage": "/images/production-couple-diwali-doorway.jpg"
   },
   {
-   "id": "couple-sangeet-emerald-cream",
-   "imageUrl": "/images/couples/sangeet-emerald-cream.jpg",
+   "id": "couple-diwali-03",
+   "imageUrl": "/images/couples/diwali-03.jpg",
    "occasions": [
-    "Sangeet"
-   ]
+    "Diwali"
+   ],
+   "world": "Diwali",
+   "scene": "beside a hand-painted rangoli",
+   "pose": "he points out a detail and she smiles",
+   "cameraFraming": "medium conversational frame",
+   "sourceImage": "/images/production-couple-diwali-balcony.jpg"
   },
   {
-   "id": "couple-wedding-maroon-champagne",
-   "imageUrl": "/images/couples/wedding-maroon-champagne.jpg",
+   "id": "couple-diwali-04",
+   "imageUrl": "/images/couples/diwali-04.jpg",
    "occasions": [
-    "Wedding"
-   ]
+    "Diwali"
+   ],
+   "world": "Diwali",
+   "scene": "under a terrace canopy of bulbs",
+   "pose": "standing close without posing",
+   "cameraFraming": "three-quarter evening frame",
+   "sourceImage": "/images/production-couple-diwali-doorway.jpg"
   },
   {
-   "id": "couple-haldi-mustard-ivory",
-   "imageUrl": "/images/couples/haldi-mustard-ivory.jpg",
+   "id": "couple-diwali-05",
+   "imageUrl": "/images/couples/diwali-05.jpg",
    "occasions": [
-    "Haldi"
-   ]
+    "Diwali"
+   ],
+   "world": "Diwali",
+   "scene": "near a softly lit home shrine",
+   "pose": "a respectful shoulder-to-shoulder moment",
+   "cameraFraming": "quiet portrait frame",
+   "sourceImage": "/images/production-couple-diwali-balcony.jpg"
   },
   {
-   "id": "couple-cocktail-charcoal-rose",
-   "imageUrl": "/images/couples/cocktail-charcoal-rose.jpg",
+   "id": "couple-diwali-06",
+   "imageUrl": "/images/couples/diwali-06.jpg",
    "occasions": [
-    "Reception"
-   ]
+    "Diwali"
+   ],
+   "world": "Diwali",
+   "scene": "along a candlelit balcony rail",
+   "pose": "hands meeting around a diya",
+   "cameraFraming": "close hands-and-faces frame",
+   "sourceImage": "/images/production-couple-diwali-doorway.jpg"
   },
   {
-   "id": "couple-navratri-rust-cream",
-   "imageUrl": "/images/couples/navratri-rust-cream.jpg",
+   "id": "couple-diwali-07",
+   "imageUrl": "/images/couples/diwali-07.jpg",
    "occasions": [
-    "Garba"
-   ]
+    "Diwali"
+   ],
+   "world": "Diwali",
+   "scene": "on a decorated front step",
+   "pose": "a shared joke before guests arrive",
+   "cameraFraming": "candid seated frame",
+   "sourceImage": "/images/production-couple-diwali-balcony.jpg"
   },
   {
-   "id": "couple-reception-navy-peach",
-   "imageUrl": "/images/couples/reception-navy-peach.jpg",
+   "id": "couple-diwali-08",
+   "imageUrl": "/images/couples/diwali-08.jpg",
    "occasions": [
-    "Reception"
-   ]
+    "Diwali"
+   ],
+   "world": "Diwali",
+   "scene": "on a terrace after sunset",
+   "pose": "looking out, then back at one another",
+   "cameraFraming": "side-on environmental frame",
+   "sourceImage": "/images/production-couple-diwali-doorway.jpg"
   },
   {
-   "id": "couple-college-fest-sage-ivory",
-   "imageUrl": "/images/couples/college-fest-sage-ivory.jpg",
+   "id": "couple-diwali-09",
+   "imageUrl": "/images/couples/diwali-09.jpg",
    "occasions": [
-    "College"
-   ]
+    "Diwali"
+   ],
+   "world": "Diwali",
+   "scene": "framed by marigold garlands",
+   "pose": "he opens the door while she looks back",
+   "cameraFraming": "moving doorway frame",
+   "sourceImage": "/images/production-couple-diwali-balcony.jpg"
   },
   {
-   "id": "couple-mehendi-forest-rose",
-   "imageUrl": "/images/couples/mehendi-forest-rose.jpg",
+   "id": "couple-diwali-10",
+   "imageUrl": "/images/couples/diwali-10.jpg",
    "occasions": [
-    "Mehendi"
-   ]
+    "Diwali"
+   ],
+   "world": "Diwali",
+   "scene": "beside potted jasmine and lamps",
+   "pose": "a light touch at the waist",
+   "cameraFraming": "intimate waist-up frame",
+   "sourceImage": "/images/production-couple-diwali-doorway.jpg"
   },
   {
-   "id": "couple-engagement-powder-ivory",
-   "imageUrl": "/images/couples/engagement-powder-ivory.jpg",
+   "id": "couple-diwali-11",
+   "imageUrl": "/images/couples/diwali-11.jpg",
    "occasions": [
-    "Engagement"
-   ]
+    "Diwali"
+   ],
+   "world": "Diwali",
+   "scene": "near brass lamps and flowers",
+   "pose": "comparing festive details with a smile",
+   "cameraFraming": "medium two-shot",
+   "sourceImage": "/images/production-couple-diwali-balcony.jpg"
   },
   {
-   "id": "couple-puja-terracotta-cream",
-   "imageUrl": "/images/couples/puja-terracotta-cream.jpg",
+   "id": "couple-diwali-12",
+   "imageUrl": "/images/couples/diwali-12.jpg",
    "occasions": [
-    "Puja & Temple"
-   ]
+    "Diwali"
+   ],
+   "world": "Diwali",
+   "scene": "on a city rooftop at night",
+   "pose": "standing under a line of lights",
+   "cameraFraming": "wide city-bokeh frame",
+   "sourceImage": "/images/production-couple-diwali-doorway.jpg"
   },
   {
-   "id": "couple-festive-plum-blush",
-   "imageUrl": "/images/couples/festive-plum-blush.jpg",
+   "id": "couple-diwali-13",
+   "imageUrl": "/images/couples/diwali-13.jpg",
+   "occasions": [
+    "Diwali"
+   ],
+   "world": "Diwali",
+   "scene": "at a carved wooden threshold",
+   "pose": "a gentle handhold between greetings",
+   "cameraFraming": "vertical editorial frame",
+   "sourceImage": "/images/production-couple-diwali-balcony.jpg"
+  },
+  {
+   "id": "couple-diwali-14",
+   "imageUrl": "/images/couples/diwali-14.jpg",
+   "occasions": [
+    "Diwali"
+   ],
+   "world": "Diwali",
+   "scene": "following a trail of small diyas",
+   "pose": "walking slowly side by side",
+   "cameraFraming": "full-length walking frame",
+   "sourceImage": "/images/production-couple-diwali-doorway.jpg"
+  },
+  {
+   "id": "couple-diwali-15",
+   "imageUrl": "/images/couples/diwali-15.jpg",
+   "occasions": [
+    "Diwali"
+   ],
+   "world": "Diwali",
+   "scene": "in a warm indoor courtyard",
+   "pose": "eyes meeting over a conversation",
+   "cameraFraming": "close candid frame",
+   "sourceImage": "/images/production-couple-diwali-balcony.jpg"
+  },
+  {
+   "id": "couple-diwali-16",
+   "imageUrl": "/images/couples/diwali-16.jpg",
+   "occasions": [
+    "Diwali"
+   ],
+   "world": "Diwali",
+   "scene": "beside a flower-draped balcony",
+   "pose": "her dupatta moves as he laughs",
+   "cameraFraming": "three-quarter movement frame",
+   "sourceImage": "/images/production-couple-diwali-doorway.jpg"
+  },
+  {
+   "id": "couple-diwali-17",
+   "imageUrl": "/images/couples/diwali-17.jpg",
+   "occasions": [
+    "Diwali"
+   ],
+   "world": "Diwali",
+   "scene": "by a cluster of glowing lamps",
+   "pose": "a soft check-in before dinner",
+   "cameraFraming": "low-light portrait frame",
+   "sourceImage": "/images/production-couple-diwali-balcony.jpg"
+  },
+  {
+   "id": "couple-diwali-18",
+   "imageUrl": "/images/couples/diwali-18.jpg",
+   "occasions": [
+    "Diwali"
+   ],
+   "world": "Diwali",
+   "scene": "under the entryway lanterns",
+   "pose": "natural smiles, relaxed shoulders",
+   "cameraFraming": "documentary portrait frame",
+   "sourceImage": "/images/production-couple-diwali-doorway.jpg"
+  },
+  {
+   "id": "couple-diwali-19",
+   "imageUrl": "/images/couples/diwali-19.jpg",
+   "occasions": [
+    "Diwali"
+   ],
+   "world": "Diwali",
+   "scene": "on a softly lit verandah",
+   "pose": "walking home from the terrace",
+   "cameraFraming": "wide verandah frame",
+   "sourceImage": "/images/production-couple-diwali-balcony.jpg"
+  },
+  {
+   "id": "couple-diwali-20",
+   "imageUrl": "/images/couples/diwali-20.jpg",
+   "occasions": [
+    "Diwali"
+   ],
+   "world": "Diwali",
+   "scene": "beside the final lamp of the evening",
+   "pose": "hands joined, looking toward the glow",
+   "cameraFraming": "close warm-light frame",
+   "sourceImage": "/images/production-couple-diwali-doorway.jpg"
+  },
+  {
+   "id": "couple-festive-party-01",
+   "imageUrl": "/images/couples/festive-party-01.jpg",
    "occasions": [
     "Festive Party"
-   ]
+   ],
+   "world": "Festive Party",
+   "scene": "on a softly lit party step",
+   "pose": "mid-story laughter across the conversation",
+   "cameraFraming": "seated two-shot",
+   "sourceImage": "/images/production-couple-festive-conversation.jpg"
   },
   {
-   "id": "couple-wedding-guest-deepgreen-sand",
-   "imageUrl": "/images/couples/wedding-guest-deepgreen-sand.jpg",
+   "id": "couple-festive-party-02",
+   "imageUrl": "/images/couples/festive-party-02.jpg",
    "occasions": [
-    "Wedding Guest"
-   ]
+    "Festive Party"
+   ],
+   "world": "Festive Party",
+   "scene": "through a marigold-trimmed venue",
+   "pose": "walking in with an easy handhold",
+   "cameraFraming": "full-length walking frame",
+   "sourceImage": "/images/production-couple-festive-walk.jpg"
   },
   {
-   "id": "couple-winter-burgundy-ivory",
-   "imageUrl": "/images/couples/winter-burgundy-ivory.jpg",
+   "id": "couple-festive-party-03",
+   "imageUrl": "/images/couples/festive-party-03.jpg",
    "occasions": [
-    "Winter"
-   ]
+    "Festive Party"
+   ],
+   "world": "Festive Party",
+   "scene": "beside a city-view balcony",
+   "pose": "listening with a shoulder lean",
+   "cameraFraming": "side-on candid frame",
+   "sourceImage": "/images/production-couple-festive-conversation.jpg"
   },
   {
-   "id": "couple-date-night-chocolate-cream",
-   "imageUrl": "/images/couples/date-night-chocolate-cream.jpg",
+   "id": "couple-festive-party-04",
+   "imageUrl": "/images/couples/festive-party-04.jpg",
    "occasions": [
-    "Date Night"
-   ]
+    "Festive Party"
+   ],
+   "world": "Festive Party",
+   "scene": "under the venue entrance lights",
+   "pose": "turning toward one another after arriving",
+   "cameraFraming": "wide social frame",
+   "sourceImage": "/images/production-couple-festive-walk.jpg"
   },
   {
-   "id": "couple-garba-dandiya-walk",
-   "imageUrl": "/images/couples/garba-dandiya-walk.jpg",
+   "id": "couple-festive-party-05",
+   "imageUrl": "/images/couples/festive-party-05.jpg",
    "occasions": [
-    "Garba"
-   ]
+    "Festive Party"
+   ],
+   "world": "Festive Party",
+   "scene": "on a terrace with warm bokeh",
+   "pose": "hands lifted in a small celebratory gesture",
+   "cameraFraming": "medium evening frame",
+   "sourceImage": "/images/production-couple-festive-conversation.jpg"
   },
   {
-   "id": "couple-garba-mirror-laugh",
-   "imageUrl": "/images/couples/garba-mirror-laugh.jpg",
+   "id": "couple-festive-party-06",
+   "imageUrl": "/images/couples/festive-party-06.jpg",
    "occasions": [
-    "Garba"
-   ]
+    "Festive Party"
+   ],
+   "world": "Festive Party",
+   "scene": "on broad venue steps",
+   "pose": "laughing between dinner courses",
+   "cameraFraming": "close seated frame",
+   "sourceImage": "/images/production-couple-festive-walk.jpg"
   },
   {
-   "id": "couple-garba-terracotta-night",
-   "imageUrl": "/images/couples/garba-terracotta-night.jpg",
+   "id": "couple-festive-party-07",
+   "imageUrl": "/images/couples/festive-party-07.jpg",
    "occasions": [
-    "Garba"
-   ]
+    "Festive Party"
+   ],
+   "world": "Festive Party",
+   "scene": "near a flower-draped lounge",
+   "pose": "he adjusts his cuff while she watches",
+   "cameraFraming": "three-quarter portrait frame",
+   "sourceImage": "/images/production-couple-festive-conversation.jpg"
   },
   {
-   "id": "couple-garba-indigo-ivory",
-   "imageUrl": "/images/couples/garba-indigo-ivory.jpg",
+   "id": "couple-festive-party-08",
+   "imageUrl": "/images/couples/festive-party-08.jpg",
    "occasions": [
-    "Garba"
-   ]
+    "Festive Party"
+   ],
+   "world": "Festive Party",
+   "scene": "on a softly decorated walkway",
+   "pose": "walking side by side mid-conversation",
+   "cameraFraming": "documentary walking frame",
+   "sourceImage": "/images/production-couple-festive-walk.jpg"
   },
   {
-   "id": "couple-garba-peacock-pink",
-   "imageUrl": "/images/couples/garba-peacock-pink.jpg",
+   "id": "couple-festive-party-09",
+   "imageUrl": "/images/couples/festive-party-09.jpg",
    "occasions": [
-    "Garba"
-   ]
+    "Festive Party"
+   ],
+   "world": "Festive Party",
+   "scene": "beside a warm indoor bar cart",
+   "pose": "a natural shoulder touch",
+   "cameraFraming": "intimate waist-up frame",
+   "sourceImage": "/images/production-couple-festive-conversation.jpg"
   },
   {
-   "id": "couple-garba-sage-rust",
-   "imageUrl": "/images/couples/garba-sage-rust.jpg",
+   "id": "couple-festive-party-10",
+   "imageUrl": "/images/couples/festive-party-10.jpg",
    "occasions": [
-    "Garba"
-   ]
+    "Festive Party"
+   ],
+   "world": "Festive Party",
+   "scene": "under garden festoon lights",
+   "pose": "a playful step toward the camera",
+   "cameraFraming": "wide garden frame",
+   "sourceImage": "/images/production-couple-festive-walk.jpg"
   },
   {
-   "id": "couple-garba-gold-black",
-   "imageUrl": "/images/couples/garba-gold-black.jpg",
+   "id": "couple-festive-party-11",
+   "imageUrl": "/images/couples/festive-party-11.jpg",
    "occasions": [
-    "Garba"
-   ]
+    "Festive Party"
+   ],
+   "world": "Festive Party",
+   "scene": "beside a patterned textile wall",
+   "pose": "sharing a look while friends blur behind",
+   "cameraFraming": "shallow-depth frame",
+   "sourceImage": "/images/production-couple-festive-conversation.jpg"
   },
   {
-   "id": "couple-garba-sunlit-yellow",
-   "imageUrl": "/images/couples/garba-sunlit-yellow.jpg",
+   "id": "couple-festive-party-12",
+   "imageUrl": "/images/couples/festive-party-12.jpg",
    "occasions": [
-    "Garba"
-   ]
+    "Festive Party"
+   ],
+   "world": "Festive Party",
+   "scene": "in a quiet corner of the venue",
+   "pose": "leaning in to hear one another",
+   "cameraFraming": "close conversational frame",
+   "sourceImage": "/images/production-couple-festive-walk.jpg"
   },
   {
-   "id": "couple-navratri-cobalt",
-   "imageUrl": "/images/couples/navratri-cobalt.jpg",
+   "id": "couple-festive-party-13",
+   "imageUrl": "/images/couples/festive-party-13.jpg",
    "occasions": [
-    "Navratri"
-   ]
+    "Festive Party"
+   ],
+   "world": "Festive Party",
+   "scene": "framed by the entrance garland",
+   "pose": "relaxed smiles after a long week",
+   "cameraFraming": "vertical editorial frame",
+   "sourceImage": "/images/production-couple-festive-conversation.jpg"
   },
   {
-   "id": "couple-navratri-mustard",
-   "imageUrl": "/images/couples/navratri-mustard.jpg",
+   "id": "couple-festive-party-14",
+   "imageUrl": "/images/couples/festive-party-14.jpg",
    "occasions": [
-    "Navratri"
-   ]
+    "Festive Party"
+   ],
+   "world": "Festive Party",
+   "scene": "along a lantern-lit path",
+   "pose": "linked elbows and matching pace",
+   "cameraFraming": "full-length path frame",
+   "sourceImage": "/images/production-couple-festive-walk.jpg"
   },
   {
-   "id": "couple-navratri-rose",
-   "imageUrl": "/images/couples/navratri-rose.jpg",
+   "id": "couple-festive-party-15",
+   "imageUrl": "/images/couples/festive-party-15.jpg",
    "occasions": [
-    "Navratri"
-   ]
+    "Festive Party"
+   ],
+   "world": "Festive Party",
+   "scene": "on the venue steps after sunset",
+   "pose": "a quick private joke",
+   "cameraFraming": "medium seated frame",
+   "sourceImage": "/images/production-couple-festive-conversation.jpg"
   },
   {
-   "id": "couple-navratri-copper",
-   "imageUrl": "/images/couples/navratri-copper.jpg",
+   "id": "couple-festive-party-16",
+   "imageUrl": "/images/couples/festive-party-16.jpg",
    "occasions": [
-    "Navratri"
-   ]
+    "Festive Party"
+   ],
+   "world": "Festive Party",
+   "scene": "near warm floral arrangements",
+   "pose": "her hand rests on his forearm",
+   "cameraFraming": "close hands-and-faces frame",
+   "sourceImage": "/images/production-couple-festive-walk.jpg"
   },
   {
-   "id": "couple-navratri-coral",
-   "imageUrl": "/images/couples/navratri-coral.jpg",
+   "id": "couple-festive-party-17",
+   "imageUrl": "/images/couples/festive-party-17.jpg",
    "occasions": [
-    "Navratri"
-   ]
+    "Festive Party"
+   ],
+   "world": "Festive Party",
+   "scene": "by the edge of the music room",
+   "pose": "a calm pause between greetings",
+   "cameraFraming": "three-quarter still frame",
+   "sourceImage": "/images/production-couple-festive-conversation.jpg"
   },
   {
-   "id": "couple-navratri-plum",
-   "imageUrl": "/images/couples/navratri-plum.jpg",
+   "id": "couple-festive-party-18",
+   "imageUrl": "/images/couples/festive-party-18.jpg",
    "occasions": [
-    "Navratri"
-   ]
+    "Festive Party"
+   ],
+   "world": "Festive Party",
+   "scene": "under a blue-hour terrace sky",
+   "pose": "standing apart, eyes meeting",
+   "cameraFraming": "wide environmental frame",
+   "sourceImage": "/images/production-couple-festive-walk.jpg"
   },
   {
-   "id": "couple-navratri-mint",
-   "imageUrl": "/images/couples/navratri-mint.jpg",
+   "id": "couple-festive-party-19",
+   "imageUrl": "/images/couples/festive-party-19.jpg",
    "occasions": [
-    "Navratri"
-   ]
+    "Festive Party"
+   ],
+   "world": "Festive Party",
+   "scene": "on the venue exit walkway",
+   "pose": "walking out together, still smiling",
+   "cameraFraming": "backlit walking frame",
+   "sourceImage": "/images/production-couple-festive-conversation.jpg"
   },
   {
-   "id": "couple-navratri-fuchsia",
-   "imageUrl": "/images/couples/navratri-fuchsia.jpg",
+   "id": "couple-festive-party-20",
+   "imageUrl": "/images/couples/festive-party-20.jpg",
    "occasions": [
-    "Navratri"
-   ]
+    "Festive Party"
+   ],
+   "world": "Festive Party",
+   "scene": "beside the final string lights",
+   "pose": "a relaxed end-of-night conversation",
+   "cameraFraming": "warm portrait frame",
+   "sourceImage": "/images/production-couple-festive-walk.jpg"
   },
   {
-   "id": "couple-diwali-lamps",
-   "imageUrl": "/images/couples/diwali-lamps.jpg",
-   "occasions": [
-    "Diwali"
-   ]
-  },
-  {
-   "id": "couple-diwali-emerald",
-   "imageUrl": "/images/couples/diwali-emerald.jpg",
-   "occasions": [
-    "Diwali"
-   ]
-  },
-  {
-   "id": "couple-diwali-marigold",
-   "imageUrl": "/images/couples/diwali-marigold.jpg",
-   "occasions": [
-    "Diwali"
-   ]
-  },
-  {
-   "id": "couple-diwali-rust",
-   "imageUrl": "/images/couples/diwali-rust.jpg",
-   "occasions": [
-    "Diwali"
-   ]
-  },
-  {
-   "id": "couple-diwali-plum",
-   "imageUrl": "/images/couples/diwali-plum.jpg",
-   "occasions": [
-    "Diwali"
-   ]
-  },
-  {
-   "id": "couple-diwali-peacock",
-   "imageUrl": "/images/couples/diwali-peacock.jpg",
-   "occasions": [
-    "Diwali"
-   ]
-  },
-  {
-   "id": "couple-college-coral",
-   "imageUrl": "/images/couples/college-coral.jpg",
+   "id": "couple-college-fest-01",
+   "imageUrl": "/images/couples/college-fest-01.jpg",
    "occasions": [
     "College Fest"
-   ]
+   ],
+   "world": "College Fest",
+   "scene": "through a busy festival quad",
+   "pose": "sharing a screen and an easy laugh",
+   "cameraFraming": "full-length campus frame",
+   "sourceImage": "/images/production-couple-college-campus.jpg"
   },
   {
-   "id": "couple-college-mint",
-   "imageUrl": "/images/couples/college-mint.jpg",
+   "id": "couple-college-fest-02",
+   "imageUrl": "/images/couples/college-fest-02.jpg",
    "occasions": [
     "College Fest"
-   ]
+   ],
+   "world": "College Fest",
+   "scene": "near a student mirror installation",
+   "pose": "fixing a collar before the next event",
+   "cameraFraming": "reflective three-quarter frame",
+   "sourceImage": "/images/production-couple-college-mirror.jpg"
   },
   {
-   "id": "couple-college-yellow",
-   "imageUrl": "/images/couples/college-yellow.jpg",
+   "id": "couple-college-fest-03",
+   "imageUrl": "/images/couples/college-fest-03.jpg",
    "occasions": [
     "College Fest"
-   ]
+   ],
+   "world": "College Fest",
+   "scene": "between campus food stalls",
+   "pose": "walking shoulder to shoulder",
+   "cameraFraming": "documentary street frame",
+   "sourceImage": "/images/production-couple-college-campus.jpg"
   },
   {
-   "id": "couple-college-teal",
-   "imageUrl": "/images/couples/college-teal.jpg",
+   "id": "couple-college-fest-04",
+   "imageUrl": "/images/couples/college-fest-04.jpg",
    "occasions": [
     "College Fest"
-   ]
+   ],
+   "world": "College Fest",
+   "scene": "outside the open-air stage",
+   "pose": "looking toward the music together",
+   "cameraFraming": "wide crowd frame",
+   "sourceImage": "/images/production-couple-college-mirror.jpg"
   },
   {
-   "id": "couple-college-plum",
-   "imageUrl": "/images/couples/college-plum.jpg",
+   "id": "couple-college-fest-05",
+   "imageUrl": "/images/couples/college-fest-05.jpg",
    "occasions": [
     "College Fest"
-   ]
+   ],
+   "world": "College Fest",
+   "scene": "on broad campus steps",
+   "pose": "a relaxed seated conversation",
+   "cameraFraming": "seated environmental frame",
+   "sourceImage": "/images/production-couple-college-campus.jpg"
   },
   {
-   "id": "couple-college-fuchsia",
-   "imageUrl": "/images/couples/college-fuchsia.jpg",
+   "id": "couple-college-fest-06",
+   "imageUrl": "/images/couples/college-fest-06.jpg",
    "occasions": [
     "College Fest"
-   ]
+   ],
+   "world": "College Fest",
+   "scene": "beside a student poster wall",
+   "pose": "pointing out an event detail",
+   "cameraFraming": "medium conversational frame",
+   "sourceImage": "/images/production-couple-college-mirror.jpg"
+  },
+  {
+   "id": "couple-college-fest-07",
+   "imageUrl": "/images/couples/college-fest-07.jpg",
+   "occasions": [
+    "College Fest"
+   ],
+   "world": "College Fest",
+   "scene": "under campus festoon lights",
+   "pose": "laughing while crossing the quad",
+   "cameraFraming": "three-quarter walking frame",
+   "sourceImage": "/images/production-couple-college-campus.jpg"
+  },
+  {
+   "id": "couple-college-fest-08",
+   "imageUrl": "/images/couples/college-fest-08.jpg",
+   "occasions": [
+    "College Fest"
+   ],
+   "world": "College Fest",
+   "scene": "near a shaded campus corridor",
+   "pose": "leaning in to share a song",
+   "cameraFraming": "close candid frame",
+   "sourceImage": "/images/production-couple-college-mirror.jpg"
+  },
+  {
+   "id": "couple-college-fest-09",
+   "imageUrl": "/images/couples/college-fest-09.jpg",
+   "occasions": [
+    "College Fest"
+   ],
+   "world": "College Fest",
+   "scene": "on the open plaza",
+   "pose": "moving quickly between events",
+   "cameraFraming": "low-angle movement frame",
+   "sourceImage": "/images/production-couple-college-campus.jpg"
+  },
+  {
+   "id": "couple-college-fest-10",
+   "imageUrl": "/images/couples/college-fest-10.jpg",
+   "occasions": [
+    "College Fest"
+   ],
+   "world": "College Fest",
+   "scene": "beside a handmade club booth",
+   "pose": "a playful hand gesture over a joke",
+   "cameraFraming": "social two-shot",
+   "sourceImage": "/images/production-couple-college-mirror.jpg"
+  },
+  {
+   "id": "couple-college-fest-11",
+   "imageUrl": "/images/couples/college-fest-11.jpg",
+   "occasions": [
+    "College Fest"
+   ],
+   "world": "College Fest",
+   "scene": "outside the evening stage",
+   "pose": "walking after the crowd thins",
+   "cameraFraming": "wide blue-hour frame",
+   "sourceImage": "/images/production-couple-college-campus.jpg"
+  },
+  {
+   "id": "couple-college-fest-12",
+   "imageUrl": "/images/couples/college-fest-12.jpg",
+   "occasions": [
+    "College Fest"
+   ],
+   "world": "College Fest",
+   "scene": "near a reflective installation",
+   "pose": "checking a sleeve and smiling at one another",
+   "cameraFraming": "close reflective frame",
+   "sourceImage": "/images/production-couple-college-mirror.jpg"
+  },
+  {
+   "id": "couple-college-fest-13",
+   "imageUrl": "/images/couples/college-fest-13.jpg",
+   "occasions": [
+    "College Fest"
+   ],
+   "world": "College Fest",
+   "scene": "outside the campus canteen",
+   "pose": "talking over a shared snack",
+   "cameraFraming": "seated documentary frame",
+   "sourceImage": "/images/production-couple-college-campus.jpg"
+  },
+  {
+   "id": "couple-college-fest-14",
+   "imageUrl": "/images/couples/college-fest-14.jpg",
+   "occasions": [
+    "College Fest"
+   ],
+   "world": "College Fest",
+   "scene": "in line beside the open mic stage",
+   "pose": "a supportive shoulder touch",
+   "cameraFraming": "medium queue frame",
+   "sourceImage": "/images/production-couple-college-mirror.jpg"
+  },
+  {
+   "id": "couple-college-fest-15",
+   "imageUrl": "/images/couples/college-fest-15.jpg",
+   "occasions": [
+    "College Fest"
+   ],
+   "world": "College Fest",
+   "scene": "between painted festival flags",
+   "pose": "moving in parallel through friends",
+   "cameraFraming": "wide environmental frame",
+   "sourceImage": "/images/production-couple-college-campus.jpg"
+  },
+  {
+   "id": "couple-college-fest-16",
+   "imageUrl": "/images/couples/college-fest-16.jpg",
+   "occasions": [
+    "College Fest"
+   ],
+   "world": "College Fest",
+   "scene": "on the tree-lined campus path",
+   "pose": "hands linked after the show",
+   "cameraFraming": "full-length path frame",
+   "sourceImage": "/images/production-couple-college-mirror.jpg"
+  },
+  {
+   "id": "couple-college-fest-17",
+   "imageUrl": "/images/couples/college-fest-17.jpg",
+   "occasions": [
+    "College Fest"
+   ],
+   "world": "College Fest",
+   "scene": "under the night-stage lights",
+   "pose": "turning toward a shared cheer",
+   "cameraFraming": "crowd-bokeh frame",
+   "sourceImage": "/images/production-couple-college-campus.jpg"
+  },
+  {
+   "id": "couple-college-fest-18",
+   "imageUrl": "/images/couples/college-fest-18.jpg",
+   "occasions": [
+    "College Fest"
+   ],
+   "world": "College Fest",
+   "scene": "near the reflective campus wall",
+   "pose": "she fixes his collar with a grin",
+   "cameraFraming": "intimate portrait frame",
+   "sourceImage": "/images/production-couple-college-mirror.jpg"
+  },
+  {
+   "id": "couple-college-fest-19",
+   "imageUrl": "/images/couples/college-fest-19.jpg",
+   "occasions": [
+    "College Fest"
+   ],
+   "world": "College Fest",
+   "scene": "by the campus exit",
+   "pose": "laughing while looking for their ride",
+   "cameraFraming": "candid exit frame",
+   "sourceImage": "/images/production-couple-college-campus.jpg"
+  },
+  {
+   "id": "couple-college-fest-20",
+   "imageUrl": "/images/couples/college-fest-20.jpg",
+   "occasions": [
+    "College Fest"
+   ],
+   "world": "College Fest",
+   "scene": "in the bright central quad",
+   "pose": "a natural pause before rejoining friends",
+   "cameraFraming": "mid-distance social frame",
+   "sourceImage": "/images/production-couple-college-mirror.jpg"
   }
  ]
 }

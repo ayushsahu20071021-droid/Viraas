@@ -32,11 +32,11 @@ The client shows `VITE_TRYON_MODE` as a DEMO MODE / LIVE PROVIDER badge on `/try
 `scripts/generate-catalog.mjs` deterministically produces:
 
 - `src/data/catalog/products.json` — **653 products** (women and men apparel/accessories, 25 beauty, 16 couple-set references) with real metadata: fabric, weave, embroidery, silhouette, occasion tags, colour, budget tier, style tags, per-product `imagePrompt`
-- `src/data/catalog/looks.json` — **122 curated looks**, anchor + accessories, priced from the catalog itself
-- `src/data/catalog/couples.json` — **60 Couple Edit looks** with her/his halves and human-couple JPG photography
+- `src/data/catalog/looks.json` — **41 curated looks**, anchor + accessories, priced from the catalog itself
+- `src/data/catalog/couples.json` — **100 Couple Edit looks** with her/his halves and human-couple JPG photography
 - `src/data/catalog/image-manifest.json` — generated raster-primary inventory used by the catalog and HTTP/image audits
 - `public/images/production-products/*.jpg` — raster product primaries (637 apparel/accessory images plus 16 human-couple JPG set primaries; 653 products total), with faceless mannequin apparel photography / accessory still life; original SVG plates remain preserved as fallbacks
-- `public/images/couples/*.jpg` — 60 real-looking adult Indian couple photographs with varied festive pose language
+- `public/images/couples/*.jpg` — 100 original adult Indian couple photographs across five worlds with varied festive pose language
 - `public/sitemap.xml` (derived from the data) and `robots.txt`
 
 ```bash
@@ -58,7 +58,7 @@ npm run audit-http-images
 
 ## Routing map
 
-`/` home · `/women` `/men` `/accessories` (URL faceting: `category, occasion, colour, budget, style, craft, q, sort, tryon, curated`) · `/product/:id` · `/look/:id` · `/occasions` + `/occasions/:id` (public priority nav: Garba, Navratri, Diwali, Festive Party, College Fest; legacy editorial routes remain addressable) · `/couple-edit` (60 human-couple looks; `/couple` redirects) · `/trending` · `/journal` + `/journal/:slug` (16 articles) · `/search` (products + looks) · `/saved` · `/try-on` · `/about /contact /faq /privacy /terms /affiliate-disclosure /ai-try-on-privacy`
+`/` home · `/women` `/men` `/accessories` (URL faceting: `category, occasion, colour, budget, style, craft, q, sort, tryon, curated`) · `/product/:id` · `/look/:id` · `/occasions` + `/occasions/garba` `/occasions/navratri` `/occasions/diwali` `/occasions/festive-party` `/occasions/college-fest` · `/couple-edit` (100 human-couple looks; `/couple` redirects) · `/trending` · `/journal` + `/journal/:slug` (16 articles) · `/search` (products + looks) · `/saved` · `/try-on` · `/about /contact /faq /privacy /terms /affiliate-disclosure /ai-try-on-privacy`
 
 ## Deploying to Netlify
 

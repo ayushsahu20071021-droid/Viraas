@@ -20,10 +20,10 @@
   "silhouette": "Saree Drape",
   "occasions": [
    "Festive Party",
-   "Sangeet",
-   "Reception",
-   "Diwali Party",
-   "Family Function"
+   "Festive Party",
+   "Festive Party",
+   "Diwali",
+   "Diwali"
   ],
   "styleTags": [
    "Traditional",
@@ -73,10 +73,10 @@
   "silhouette": "Saree Drape",
   "occasions": [
    "Festive Party",
-   "Sangeet",
-   "Reception",
-   "Diwali Party",
-   "Family Function"
+   "Festive Party",
+   "Festive Party",
+   "Diwali",
+   "Diwali"
   ],
   "styleTags": [
    "Traditional",
@@ -126,10 +126,10 @@
   "silhouette": "Saree Drape",
   "occasions": [
    "Festive Party",
-   "Sangeet",
-   "Reception",
-   "Diwali Party",
-   "Family Function"
+   "Festive Party",
+   "Festive Party",
+   "Diwali",
+   "Diwali"
   ],
   "styleTags": [
    "Traditional",
@@ -179,10 +179,10 @@
   "silhouette": "Saree Drape",
   "occasions": [
    "Festive Party",
-   "Sangeet",
-   "Reception",
-   "Diwali Party",
-   "Family Function"
+   "Festive Party",
+   "Festive Party",
+   "Diwali",
+   "Diwali"
   ],
   "styleTags": [
    "Traditional",
@@ -232,10 +232,10 @@
   "silhouette": "Saree Drape",
   "occasions": [
    "Festive Party",
-   "Sangeet",
-   "Reception",
-   "Diwali Party",
-   "Family Function"
+   "Festive Party",
+   "Festive Party",
+   "Diwali",
+   "Diwali"
   ],
   "styleTags": [
    "Traditional",
@@ -285,10 +285,10 @@
   "silhouette": "Saree Drape",
   "occasions": [
    "Festive Party",
-   "Sangeet",
-   "Reception",
-   "Diwali Party",
-   "Family Function"
+   "Festive Party",
+   "Festive Party",
+   "Diwali",
+   "Diwali"
   ],
   "styleTags": [
    "Traditional",
@@ -338,10 +338,10 @@
   "silhouette": "Saree Drape",
   "occasions": [
    "Festive Party",
-   "Sangeet",
-   "Reception",
-   "Diwali Party",
-   "Family Function"
+   "Festive Party",
+   "Festive Party",
+   "Diwali",
+   "Diwali"
   ],
   "styleTags": [
    "Traditional",
@@ -391,10 +391,10 @@
   "silhouette": "Saree Drape",
   "occasions": [
    "Festive Party",
-   "Sangeet",
-   "Reception",
-   "Diwali Party",
-   "Family Function"
+   "Festive Party",
+   "Festive Party",
+   "Diwali",
+   "Diwali"
   ],
   "styleTags": [
    "Traditional",
@@ -442,10 +442,10 @@
   "fabric": "Satin",
   "silhouette": "Saree Predrape",
   "occasions": [
-   "Reception",
-   "Sangeet",
-   "Night Out",
-   "Destination Wedding"
+   "Festive Party",
+   "Festive Party",
+   "Festive Party",
+   "Festive Party"
   ],
   "styleTags": [
    "Traditional",
@@ -495,10 +495,10 @@
   "embroidery": "Dabka",
   "silhouette": "Saree Predrape",
   "occasions": [
-   "Reception",
-   "Sangeet",
-   "Night Out",
-   "Destination Wedding"
+   "Festive Party",
+   "Festive Party",
+   "Festive Party",
+   "Festive Party"
   ],
   "styleTags": [
    "Traditional",
@@ -548,10 +548,10 @@
   "embroidery": "Pearl Detailing",
   "silhouette": "Saree Predrape",
   "occasions": [
-   "Reception",
-   "Sangeet",
-   "Night Out",
-   "Destination Wedding"
+   "Festive Party",
+   "Festive Party",
+   "Festive Party",
+   "Festive Party"
   ],
   "styleTags": [
    "Traditional",
@@ -602,10 +602,10 @@
   "embroidery": "Stone Work",
   "silhouette": "Saree Predrape",
   "occasions": [
-   "Reception",
-   "Sangeet",
-   "Night Out",
-   "Destination Wedding"
+   "Festive Party",
+   "Festive Party",
+   "Festive Party",
+   "Festive Party"
   ],
   "styleTags": [
    "Traditional",
@@ -656,10 +656,10 @@
   "embroidery": "Mirror Work",
   "silhouette": "Saree Predrape",
   "occasions": [
-   "Reception",
-   "Sangeet",
-   "Night Out",
-   "Destination Wedding"
+   "Festive Party",
+   "Festive Party",
+   "Festive Party",
+   "Festive Party"
   ],
   "styleTags": [
    "Traditional",
@@ -710,9 +710,9 @@
   "embroidery": "Dried Flower Work",
   "silhouette": "Saree Predrape",
   "occasions": [
-   "Reception",
-   "Sangeet",
-   "Destination Wedding"
+   "Festive Party",
+   "Festive Party",
+   "Festive Party"
   ],
   "styleTags": [
    "Traditional",
@@ -761,9 +761,9 @@
   "embroidery": "Aari",
   "silhouette": "Saree Predrape",
   "occasions": [
-   "Reception",
-   "Sangeet",
-   "Destination Wedding"
+   "Festive Party",
+   "Festive Party",
+   "Festive Party"
   ],
   "styleTags": [
    "Traditional",
@@ -812,9 +812,9 @@
   "embroidery": "Zardozi",
   "silhouette": "Saree Predrape",
   "occasions": [
-   "Reception",
-   "Sangeet",
-   "Destination Wedding"
+   "Festive Party",
+   "Festive Party",
+   "Festive Party"
   ],
   "styleTags": [
    "Traditional",
@@ -863,9 +863,9 @@
   "embroidery": "Sequit Work",
   "silhouette": "Saree Predrape",
   "occasions": [
-   "Reception",
-   "Sangeet",
-   "Destination Wedding"
+   "Festive Party",
+   "Festive Party",
+   "Festive Party"
   ],
   "styleTags": [
    "Traditional",
@@ -915,9 +915,9 @@
   "silhouette": "Saree Sheer",
   "occasions": [
    "Festive Party",
-   "Mehendi",
-   "Destination Wedding",
-   "Wedding"
+   "Festive Party",
+   "Festive Party",
+   "Festive Party"
   ],
   "styleTags": [
    "Traditional",
@@ -966,9 +966,9 @@
   "silhouette": "Saree Sheer",
   "occasions": [
    "Festive Party",
-   "Mehendi",
-   "Destination Wedding",
-   "Wedding"
+   "Festive Party",
+   "Festive Party",
+   "Festive Party"
   ],
   "styleTags": [
    "Traditional",
@@ -1017,9 +1017,9 @@
   "silhouette": "Saree Sheer",
   "occasions": [
    "Festive Party",
-   "Mehendi",
-   "Destination Wedding",
-   "Wedding"
+   "Festive Party",
+   "Festive Party",
+   "Festive Party"
   ],
   "styleTags": [
    "Traditional",
@@ -1068,9 +1068,9 @@
   "silhouette": "Saree Sheer",
   "occasions": [
    "Festive Party",
-   "Mehendi",
-   "Destination Wedding",
-   "Wedding"
+   "Festive Party",
+   "Festive Party",
+   "Festive Party"
   ],
   "styleTags": [
    "Traditional",
@@ -1119,9 +1119,9 @@
   "silhouette": "Saree Sheer",
   "occasions": [
    "Festive Party",
-   "Mehendi",
-   "Destination Wedding",
-   "Wedding"
+   "Festive Party",
+   "Festive Party",
+   "Festive Party"
   ],
   "styleTags": [
    "Traditional",
@@ -1170,9 +1170,9 @@
   "silhouette": "Saree Sheer",
   "occasions": [
    "Festive Party",
-   "Mehendi",
-   "Destination Wedding",
-   "Wedding"
+   "Festive Party",
+   "Festive Party",
+   "Festive Party"
   ],
   "styleTags": [
    "Traditional",
@@ -1220,11 +1220,11 @@
   "pattern": "Block Print",
   "silhouette": "Saree Drape",
   "occasions": [
-   "Daywear",
    "College Fest",
-   "Work-to-Dinner",
-   "Puja & Temple",
-   "Family Function"
+   "College Fest",
+   "Festive Party",
+   "Diwali",
+   "Diwali"
   ],
   "styleTags": [
    "Traditional",
@@ -1272,11 +1272,11 @@
   "pattern": "Buti Motifs",
   "silhouette": "Saree Drape",
   "occasions": [
-   "Daywear",
    "College Fest",
-   "Work-to-Dinner",
-   "Puja & Temple",
-   "Family Function"
+   "College Fest",
+   "Festive Party",
+   "Diwali",
+   "Diwali"
   ],
   "styleTags": [
    "Traditional",
@@ -1324,11 +1324,11 @@
   "pattern": "Kalamkari",
   "silhouette": "Saree Drape",
   "occasions": [
-   "Daywear",
    "College Fest",
-   "Work-to-Dinner",
-   "Puja & Temple",
-   "Family Function"
+   "College Fest",
+   "Festive Party",
+   "Diwali",
+   "Diwali"
   ],
   "styleTags": [
    "Traditional",
@@ -1375,11 +1375,11 @@
   "fabric": "Georgette",
   "silhouette": "Saree Drape",
   "occasions": [
-   "Daywear",
    "College Fest",
-   "Work-to-Dinner",
-   "Puja & Temple",
-   "Family Function"
+   "College Fest",
+   "Festive Party",
+   "Diwali",
+   "Diwali"
   ],
   "styleTags": [
    "Traditional",
@@ -1427,11 +1427,11 @@
   "embroidery": "Thread Embroidery",
   "silhouette": "Saree Drape",
   "occasions": [
-   "Daywear",
    "College Fest",
-   "Work-to-Dinner",
-   "Puja & Temple",
-   "Family Function"
+   "College Fest",
+   "Festive Party",
+   "Diwali",
+   "Diwali"
   ],
   "styleTags": [
    "Traditional",
@@ -1479,11 +1479,11 @@
   "pattern": "Block Print",
   "silhouette": "Saree Drape",
   "occasions": [
-   "Daywear",
    "College Fest",
-   "Work-to-Dinner",
-   "Puja & Temple",
-   "Family Function"
+   "College Fest",
+   "Festive Party",
+   "Diwali",
+   "Diwali"
   ],
   "styleTags": [
    "Traditional",
@@ -1531,10 +1531,10 @@
   "weave": "Zari",
   "silhouette": "Saree Silk",
   "occasions": [
-   "Wedding",
-   "Reception",
    "Festive Party",
-   "Wedding Guest"
+   "Festive Party",
+   "Festive Party",
+   "Festive Party"
   ],
   "styleTags": [
    "Traditional",
@@ -1581,10 +1581,10 @@
   "embroidery": "Gotapatti",
   "silhouette": "Saree Silk",
   "occasions": [
-   "Wedding",
-   "Reception",
    "Festive Party",
-   "Wedding Guest"
+   "Festive Party",
+   "Festive Party",
+   "Festive Party"
   ],
   "styleTags": [
    "Traditional",
@@ -1631,10 +1631,10 @@
   "embroidery": "Sequit Work",
   "silhouette": "Saree Silk",
   "occasions": [
-   "Wedding",
-   "Reception",
    "Festive Party",
-   "Wedding Guest"
+   "Festive Party",
+   "Festive Party",
+   "Festive Party"
   ],
   "styleTags": [
    "Traditional",
@@ -1682,9 +1682,9 @@
   "silhouette": "Saree Silk",
   "occasions": [
    "Festive Party",
-   "Work-to-Dinner",
-   "Puja & Temple",
-   "Family Function"
+   "Festive Party",
+   "Diwali",
+   "Diwali"
   ],
   "styleTags": [
    "Traditional",
@@ -1732,9 +1732,9 @@
   "silhouette": "Saree Silk",
   "occasions": [
    "Festive Party",
-   "Work-to-Dinner",
-   "Puja & Temple",
-   "Family Function"
+   "Festive Party",
+   "Diwali",
+   "Diwali"
   ],
   "styleTags": [
    "Traditional",
@@ -1782,9 +1782,9 @@
   "silhouette": "Saree Silk",
   "occasions": [
    "Festive Party",
-   "Work-to-Dinner",
-   "Puja & Temple",
-   "Family Function"
+   "Festive Party",
+   "Diwali",
+   "Diwali"
   ],
   "styleTags": [
    "Traditional",
@@ -1831,9 +1831,9 @@
   "silhouette": "Saree Silk",
   "occasions": [
    "Festive Party",
-   "Work-to-Dinner",
-   "Puja & Temple",
-   "Family Function"
+   "Festive Party",
+   "Diwali",
+   "Diwali"
   ],
   "styleTags": [
    "Traditional",
@@ -1880,10 +1880,10 @@
   "weave": "Zari",
   "silhouette": "Saree Silk",
   "occasions": [
-   "Wedding",
-   "Reception",
-   "Diwali Party",
-   "Puja & Temple"
+   "Festive Party",
+   "Festive Party",
+   "Diwali",
+   "Diwali"
   ],
   "styleTags": [
    "Traditional",
@@ -1929,10 +1929,10 @@
   "fabric": "Art Silk",
   "silhouette": "Saree Silk",
   "occasions": [
-   "Wedding",
-   "Reception",
-   "Diwali Party",
-   "Puja & Temple"
+   "Festive Party",
+   "Festive Party",
+   "Diwali",
+   "Diwali"
   ],
   "styleTags": [
    "Traditional",
@@ -1979,10 +1979,10 @@
   "pattern": "Buti Motifs",
   "silhouette": "Saree Silk",
   "occasions": [
-   "Wedding",
-   "Reception",
-   "Diwali Party",
-   "Puja & Temple"
+   "Festive Party",
+   "Festive Party",
+   "Diwali",
+   "Diwali"
   ],
   "styleTags": [
    "Traditional",
@@ -2029,10 +2029,10 @@
   "pattern": "Jaal Lattice",
   "silhouette": "Saree Silk",
   "occasions": [
-   "Wedding",
-   "Reception",
-   "Diwali Party",
-   "Puja & Temple"
+   "Festive Party",
+   "Festive Party",
+   "Diwali",
+   "Diwali"
   ],
   "styleTags": [
    "Traditional",
@@ -2078,10 +2078,10 @@
   "fabric": "Art Silk",
   "silhouette": "Saree Silk",
   "occasions": [
-   "Wedding",
-   "Reception",
-   "Diwali Party",
-   "Puja & Temple"
+   "Festive Party",
+   "Festive Party",
+   "Diwali",
+   "Diwali"
   ],
   "styleTags": [
    "Traditional",
@@ -2128,9 +2128,9 @@
   "embroidery": "Tone-on-Tone",
   "silhouette": "Saree Sheen",
   "occasions": [
-   "Reception",
-   "Night Out",
-   "Date Night"
+   "Festive Party",
+   "Festive Party",
+   "Festive Party"
   ],
   "styleTags": [
    "Traditional",
@@ -2178,9 +2178,9 @@
   "embroidery": "Pearl Detailing",
   "silhouette": "Saree Sheen",
   "occasions": [
-   "Reception",
-   "Night Out",
-   "Date Night"
+   "Festive Party",
+   "Festive Party",
+   "Festive Party"
   ],
   "styleTags": [
    "Traditional",
@@ -2229,9 +2229,9 @@
   "embroidery": "Sequit Work",
   "silhouette": "Saree Sheen",
   "occasions": [
-   "Reception",
-   "Night Out",
-   "Date Night"
+   "Festive Party",
+   "Festive Party",
+   "Festive Party"
   ],
   "styleTags": [
    "Traditional",
@@ -2278,9 +2278,9 @@
   "fabric": "Satin",
   "silhouette": "Saree Sheen",
   "occasions": [
-   "Reception",
-   "Night Out",
-   "Date Night"
+   "Festive Party",
+   "Festive Party",
+   "Festive Party"
   ],
   "styleTags": [
    "Traditional",
@@ -2328,9 +2328,9 @@
   "embroidery": "Zardozi",
   "silhouette": "Saree Silk",
   "occasions": [
-   "Reception",
-   "Winter Festive",
-   "Family Function"
+   "Festive Party",
+   "Diwali",
+   "Diwali"
   ],
   "styleTags": [
    "Traditional",
@@ -2377,9 +2377,9 @@
   "embroidery": "Dabka",
   "silhouette": "Saree Silk",
   "occasions": [
-   "Reception",
-   "Winter Festive",
-   "Family Function"
+   "Festive Party",
+   "Diwali",
+   "Diwali"
   ],
   "styleTags": [
    "Traditional",
@@ -2426,9 +2426,9 @@
   "embroidery": "Stone Work",
   "silhouette": "Saree Silk",
   "occasions": [
-   "Reception",
-   "Winter Festive",
-   "Family Function"
+   "Festive Party",
+   "Diwali",
+   "Diwali"
   ],
   "styleTags": [
    "Traditional",
@@ -2476,10 +2476,10 @@
   "weave": "Ikat Weave",
   "silhouette": "Saree Concept",
   "occasions": [
-   "Work-to-Dinner",
-   "Daywear",
-   "Destination Wedding",
-   "Puja & Temple"
+   "Festive Party",
+   "College Fest",
+   "Festive Party",
+   "Diwali"
   ],
   "styleTags": [
    "Traditional",
@@ -2525,10 +2525,10 @@
   "fabric": "Linen",
   "silhouette": "Saree Concept",
   "occasions": [
-   "Work-to-Dinner",
-   "Daywear",
-   "Destination Wedding",
-   "Puja & Temple"
+   "Festive Party",
+   "College Fest",
+   "Festive Party",
+   "Diwali"
   ],
   "styleTags": [
    "Traditional",
@@ -2575,10 +2575,10 @@
   "pattern": "Block Print",
   "silhouette": "Saree Concept",
   "occasions": [
-   "Work-to-Dinner",
-   "Daywear",
-   "Destination Wedding",
-   "Puja & Temple"
+   "Festive Party",
+   "College Fest",
+   "Festive Party",
+   "Diwali"
   ],
   "styleTags": [
    "Traditional",
@@ -2625,10 +2625,10 @@
   "pattern": "Buti Motifs",
   "silhouette": "Saree Concept",
   "occasions": [
-   "Work-to-Dinner",
-   "Daywear",
-   "Destination Wedding",
-   "Puja & Temple"
+   "Festive Party",
+   "College Fest",
+   "Festive Party",
+   "Diwali"
   ],
   "styleTags": [
    "Traditional",
@@ -2674,10 +2674,10 @@
   "fabric": "Handloom Cotton",
   "silhouette": "Saree Drape",
   "occasions": [
-   "Diwali Party",
+   "Diwali",
    "Festive Party",
-   "Puja & Temple",
-   "Family Function"
+   "Diwali",
+   "Diwali"
   ],
   "styleTags": [
    "Traditional",
@@ -2724,10 +2724,10 @@
   "pattern": "Block Print",
   "silhouette": "Saree Drape",
   "occasions": [
-   "Diwali Party",
+   "Diwali",
    "Festive Party",
-   "Puja & Temple",
-   "Family Function"
+   "Diwali",
+   "Diwali"
   ],
   "styleTags": [
    "Traditional",
@@ -2774,10 +2774,10 @@
   "pattern": "Kalamkari",
   "silhouette": "Saree Drape",
   "occasions": [
-   "Diwali Party",
+   "Diwali",
    "Festive Party",
-   "Puja & Temple",
-   "Family Function"
+   "Diwali",
+   "Diwali"
   ],
   "styleTags": [
    "Traditional",
@@ -2823,10 +2823,10 @@
   "fabric": "Handloom Cotton",
   "silhouette": "Saree Drape",
   "occasions": [
-   "Diwali Party",
+   "Diwali",
    "Festive Party",
-   "Puja & Temple",
-   "Family Function"
+   "Diwali",
+   "Diwali"
   ],
   "styleTags": [
    "Traditional",
@@ -2875,7 +2875,7 @@
   "occasions": [
    "College Fest",
    "Festive Party",
-   "Daywear"
+   "College Fest"
   ],
   "styleTags": [
    "Traditional",
@@ -2924,7 +2924,7 @@
   "occasions": [
    "College Fest",
    "Festive Party",
-   "Daywear"
+   "College Fest"
   ],
   "styleTags": [
    "Traditional",
@@ -2973,7 +2973,7 @@
   "occasions": [
    "College Fest",
    "Festive Party",
-   "Daywear"
+   "College Fest"
   ],
   "styleTags": [
    "Traditional",
@@ -3020,11 +3020,11 @@
   "weave": "Banarasi Weave",
   "silhouette": "Saree Silk",
   "occasions": [
-   "Wedding",
-   "Reception",
-   "Engagement",
-   "Wedding Guest",
-   "Family Function"
+   "Festive Party",
+   "Festive Party",
+   "Festive Party",
+   "Festive Party",
+   "Diwali"
   ],
   "styleTags": [
    "Traditional",
@@ -3071,11 +3071,11 @@
   "weave": "Zari",
   "silhouette": "Saree Silk",
   "occasions": [
-   "Wedding",
-   "Reception",
-   "Engagement",
-   "Wedding Guest",
-   "Family Function"
+   "Festive Party",
+   "Festive Party",
+   "Festive Party",
+   "Festive Party",
+   "Diwali"
   ],
   "styleTags": [
    "Traditional",
@@ -3121,11 +3121,11 @@
   "fabric": "Banarasi Silk",
   "silhouette": "Saree Silk",
   "occasions": [
-   "Wedding",
-   "Reception",
-   "Engagement",
-   "Wedding Guest",
-   "Family Function"
+   "Festive Party",
+   "Festive Party",
+   "Festive Party",
+   "Festive Party",
+   "Diwali"
   ],
   "styleTags": [
    "Traditional",
@@ -3172,11 +3172,11 @@
   "embroidery": "Sequit Work",
   "silhouette": "Saree Silk",
   "occasions": [
-   "Wedding",
-   "Reception",
-   "Engagement",
-   "Wedding Guest",
-   "Family Function"
+   "Festive Party",
+   "Festive Party",
+   "Festive Party",
+   "Festive Party",
+   "Diwali"
   ],
   "styleTags": [
    "Traditional",
@@ -3223,9 +3223,9 @@
   "silhouette": "Saree Silk",
   "occasions": [
    "Festive Party",
-   "Work-to-Dinner",
-   "Puja & Temple",
-   "Family Function"
+   "Festive Party",
+   "Diwali",
+   "Diwali"
   ],
   "styleTags": [
    "Traditional",
@@ -3272,9 +3272,9 @@
   "silhouette": "Saree Silk",
   "occasions": [
    "Festive Party",
-   "Work-to-Dinner",
-   "Puja & Temple",
-   "Family Function"
+   "Festive Party",
+   "Diwali",
+   "Diwali"
   ],
   "styleTags": [
    "Traditional",
@@ -3322,9 +3322,9 @@
   "silhouette": "Saree Silk",
   "occasions": [
    "Festive Party",
-   "Work-to-Dinner",
-   "Puja & Temple",
-   "Family Function"
+   "Festive Party",
+   "Diwali",
+   "Diwali"
   ],
   "styleTags": [
    "Traditional",
@@ -3371,9 +3371,9 @@
   "silhouette": "Saree Silk",
   "occasions": [
    "Festive Party",
-   "Work-to-Dinner",
-   "Puja & Temple",
-   "Family Function"
+   "Festive Party",
+   "Diwali",
+   "Diwali"
   ],
   "styleTags": [
    "Traditional",
@@ -3420,10 +3420,10 @@
   "weave": "Banarasi Weave",
   "silhouette": "Saree Predrape",
   "occasions": [
-   "Reception",
-   "Wedding",
-   "Diwali Party",
-   "Engagement"
+   "Festive Party",
+   "Festive Party",
+   "Diwali",
+   "Festive Party"
   ],
   "styleTags": [
    "Traditional",
@@ -3471,10 +3471,10 @@
   "weave": "Zari",
   "silhouette": "Saree Predrape",
   "occasions": [
-   "Reception",
-   "Wedding",
-   "Diwali Party",
-   "Engagement"
+   "Festive Party",
+   "Festive Party",
+   "Diwali",
+   "Festive Party"
   ],
   "styleTags": [
    "Traditional",
@@ -3522,10 +3522,10 @@
   "embroidery": "Sequit Work",
   "silhouette": "Saree Predrape",
   "occasions": [
-   "Reception",
-   "Wedding",
-   "Diwali Party",
-   "Engagement"
+   "Festive Party",
+   "Festive Party",
+   "Diwali",
+   "Festive Party"
   ],
   "styleTags": [
    "Traditional",
@@ -3573,9 +3573,9 @@
   "embroidery": "Tone-on-Tone",
   "silhouette": "Saree Predrape",
   "occasions": [
-   "Mehendi",
-   "Sangeet",
-   "Destination Wedding"
+   "Festive Party",
+   "Festive Party",
+   "Festive Party"
   ],
   "styleTags": [
    "Traditional",
@@ -3623,9 +3623,9 @@
   "embroidery": "Dried Flower Work",
   "silhouette": "Saree Predrape",
   "occasions": [
-   "Mehendi",
-   "Sangeet",
-   "Destination Wedding"
+   "Festive Party",
+   "Festive Party",
+   "Festive Party"
   ],
   "styleTags": [
    "Traditional",
@@ -3673,9 +3673,9 @@
   "embroidery": "Pearl Detailing",
   "silhouette": "Saree Predrape",
   "occasions": [
-   "Mehendi",
-   "Sangeet",
-   "Destination Wedding"
+   "Festive Party",
+   "Festive Party",
+   "Festive Party"
   ],
   "styleTags": [
    "Traditional",
@@ -3724,9 +3724,9 @@
   "embroidery": "Gotapatti",
   "silhouette": "Saree Predrape",
   "occasions": [
-   "Mehendi",
-   "Sangeet",
-   "Destination Wedding"
+   "Festive Party",
+   "Festive Party",
+   "Festive Party"
   ],
   "styleTags": [
    "Traditional",
@@ -3774,9 +3774,9 @@
   "embroidery": "Tone-on-Tone",
   "silhouette": "Saree Predrape",
   "occasions": [
-   "Mehendi",
-   "Sangeet",
-   "Destination Wedding"
+   "Festive Party",
+   "Festive Party",
+   "Festive Party"
   ],
   "styleTags": [
    "Traditional",
@@ -3825,9 +3825,9 @@
   "silhouette": "Saree Predrape",
   "occasions": [
    "College Fest",
-   "Night Out",
-   "Date Night",
-   "Destination Wedding"
+   "Festive Party",
+   "Festive Party",
+   "Festive Party"
   ],
   "styleTags": [
    "Traditional",
@@ -3875,9 +3875,9 @@
   "silhouette": "Saree Predrape",
   "occasions": [
    "College Fest",
-   "Night Out",
-   "Date Night",
-   "Destination Wedding"
+   "Festive Party",
+   "Festive Party",
+   "Festive Party"
   ],
   "styleTags": [
    "Traditional",
@@ -3924,9 +3924,9 @@
   "silhouette": "Saree Predrape",
   "occasions": [
    "College Fest",
-   "Night Out",
-   "Date Night",
-   "Destination Wedding"
+   "Festive Party",
+   "Festive Party",
+   "Festive Party"
   ],
   "styleTags": [
    "Traditional",
@@ -3972,9 +3972,9 @@
   "fabric": "Georgette",
   "silhouette": "Saree Concept",
   "occasions": [
-   "Sangeet",
-   "Reception",
-   "Night Out"
+   "Festive Party",
+   "Festive Party",
+   "Festive Party"
   ],
   "styleTags": [
    "Traditional",
@@ -4022,9 +4022,9 @@
   "fabric": "Georgette",
   "silhouette": "Saree Concept",
   "occasions": [
-   "Sangeet",
-   "Reception",
-   "Night Out"
+   "Festive Party",
+   "Festive Party",
+   "Festive Party"
   ],
   "styleTags": [
    "Traditional",
@@ -4073,9 +4073,9 @@
   "embroidery": "Mirror Work",
   "silhouette": "Saree Concept",
   "occasions": [
-   "Sangeet",
-   "Reception",
-   "Night Out"
+   "Festive Party",
+   "Festive Party",
+   "Festive Party"
   ],
   "styleTags": [
    "Traditional",
@@ -4127,7 +4127,7 @@
   "occasions": [
    "College Fest",
    "Festive Party",
-   "Sangeet",
+   "Festive Party",
    "Garba"
   ],
   "styleTags": [
@@ -4178,7 +4178,7 @@
   "occasions": [
    "College Fest",
    "Festive Party",
-   "Sangeet",
+   "Festive Party",
    "Garba"
   ],
   "styleTags": [
@@ -4228,7 +4228,7 @@
   "occasions": [
    "College Fest",
    "Festive Party",
-   "Sangeet",
+   "Festive Party",
    "Garba"
   ],
   "styleTags": [
@@ -4276,8 +4276,8 @@
   "embroidery": "Tone-on-Tone",
   "silhouette": "Saree Predrape",
   "occasions": [
-   "Reception",
-   "Destination Wedding"
+   "Festive Party",
+   "Festive Party"
   ],
   "styleTags": [
    "Traditional",
@@ -4325,8 +4325,8 @@
   "pattern": "Buti Motifs",
   "silhouette": "Saree Predrape",
   "occasions": [
-   "Reception",
-   "Destination Wedding"
+   "Festive Party",
+   "Festive Party"
   ],
   "styleTags": [
    "Traditional",
@@ -4374,8 +4374,8 @@
   "embroidery": "Pearl Detailing",
   "silhouette": "Saree Predrape",
   "occasions": [
-   "Reception",
-   "Destination Wedding"
+   "Festive Party",
+   "Festive Party"
   ],
   "styleTags": [
    "Traditional",
@@ -4423,8 +4423,8 @@
   "fabric": "Satin",
   "silhouette": "Saree Gown",
   "occasions": [
-   "Reception",
-   "Date Night"
+   "Festive Party",
+   "Festive Party"
   ],
   "styleTags": [
    "Traditional",
@@ -4473,8 +4473,8 @@
   "embroidery": "Aari",
   "silhouette": "Saree Gown",
   "occasions": [
-   "Reception",
-   "Date Night"
+   "Festive Party",
+   "Festive Party"
   ],
   "styleTags": [
    "Traditional",
@@ -4523,8 +4523,8 @@
   "embroidery": "Stone Work",
   "silhouette": "Saree Gown",
   "occasions": [
-   "Reception",
-   "Date Night"
+   "Festive Party",
+   "Festive Party"
   ],
   "styleTags": [
    "Traditional",
@@ -4574,11 +4574,11 @@
   "embroidery": "Chikankari",
   "silhouette": "Anarkali",
   "occasions": [
-   "Sangeet",
    "Festive Party",
-   "Diwali Party",
-   "Wedding",
-   "Family Function"
+   "Festive Party",
+   "Diwali",
+   "Festive Party",
+   "Diwali"
   ],
   "styleTags": [
    "Traditional",
@@ -4627,11 +4627,11 @@
   "embroidery": "Kashmiri Embroidery",
   "silhouette": "Anarkali",
   "occasions": [
-   "Sangeet",
    "Festive Party",
-   "Diwali Party",
-   "Wedding",
-   "Family Function"
+   "Festive Party",
+   "Diwali",
+   "Festive Party",
+   "Diwali"
   ],
   "styleTags": [
    "Traditional",
@@ -4680,11 +4680,11 @@
   "embroidery": "Aari",
   "silhouette": "Anarkali",
   "occasions": [
-   "Sangeet",
    "Festive Party",
-   "Diwali Party",
-   "Wedding",
-   "Family Function"
+   "Festive Party",
+   "Diwali",
+   "Festive Party",
+   "Diwali"
   ],
   "styleTags": [
    "Traditional",
@@ -4733,11 +4733,11 @@
   "embroidery": "Mirror Work",
   "silhouette": "Anarkali",
   "occasions": [
-   "Sangeet",
    "Festive Party",
-   "Diwali Party",
-   "Wedding",
-   "Family Function"
+   "Festive Party",
+   "Diwali",
+   "Festive Party",
+   "Diwali"
   ],
   "styleTags": [
    "Traditional",
@@ -4787,11 +4787,11 @@
   "embroidery": "Tone-on-Tone",
   "silhouette": "Anarkali",
   "occasions": [
-   "Sangeet",
    "Festive Party",
-   "Diwali Party",
-   "Wedding",
-   "Family Function"
+   "Festive Party",
+   "Diwali",
+   "Festive Party",
+   "Diwali"
   ],
   "styleTags": [
    "Traditional",
@@ -4840,11 +4840,11 @@
   "embroidery": "Sequit Work",
   "silhouette": "Anarkali",
   "occasions": [
-   "Sangeet",
    "Festive Party",
-   "Diwali Party",
-   "Wedding",
-   "Family Function"
+   "Festive Party",
+   "Diwali",
+   "Festive Party",
+   "Diwali"
   ],
   "styleTags": [
    "Traditional",
@@ -4893,10 +4893,10 @@
   "weave": "Kamdani",
   "silhouette": "Sharara",
   "occasions": [
-   "Sangeet",
-   "Mehendi",
-   "Reception",
-   "Family Function"
+   "Festive Party",
+   "Festive Party",
+   "Festive Party",
+   "Diwali"
   ],
   "styleTags": [
    "Traditional",
@@ -4945,10 +4945,10 @@
   "embroidery": "Sequit Work",
   "silhouette": "Sharara",
   "occasions": [
-   "Sangeet",
-   "Mehendi",
-   "Reception",
-   "Family Function"
+   "Festive Party",
+   "Festive Party",
+   "Festive Party",
+   "Diwali"
   ],
   "styleTags": [
    "Traditional",
@@ -4997,10 +4997,10 @@
   "embroidery": "Gotapatti",
   "silhouette": "Sharara",
   "occasions": [
-   "Sangeet",
-   "Mehendi",
-   "Reception",
-   "Family Function"
+   "Festive Party",
+   "Festive Party",
+   "Festive Party",
+   "Diwali"
   ],
   "styleTags": [
    "Traditional",
@@ -5049,10 +5049,10 @@
   "embroidery": "Chikankari",
   "silhouette": "Sharara",
   "occasions": [
-   "Sangeet",
-   "Mehendi",
-   "Reception",
-   "Family Function"
+   "Festive Party",
+   "Festive Party",
+   "Festive Party",
+   "Diwali"
   ],
   "styleTags": [
    "Traditional",
@@ -5101,9 +5101,9 @@
   "weave": "Kamdani",
   "silhouette": "Gharara",
   "occasions": [
-   "Sangeet",
-   "Mehendi",
-   "Family Function"
+   "Festive Party",
+   "Festive Party",
+   "Diwali"
   ],
   "styleTags": [
    "Traditional",
@@ -5149,9 +5149,9 @@
   "embroidery": "Chikankari",
   "silhouette": "Gharara",
   "occasions": [
-   "Sangeet",
-   "Mehendi",
-   "Family Function"
+   "Festive Party",
+   "Festive Party",
+   "Diwali"
   ],
   "styleTags": [
    "Traditional",
@@ -5197,9 +5197,9 @@
   "pattern": "Block Print",
   "silhouette": "Gharara",
   "occasions": [
-   "Sangeet",
-   "Mehendi",
-   "Family Function"
+   "Festive Party",
+   "Festive Party",
+   "Diwali"
   ],
   "styleTags": [
    "Traditional",
@@ -5246,9 +5246,9 @@
   "silhouette": "Palazzo Set",
   "occasions": [
    "College Fest",
-   "Daywear",
-   "Work-to-Dinner",
-   "Diwali Party",
+   "College Fest",
+   "Festive Party",
+   "Diwali",
    "Festive Party"
   ],
   "styleTags": [
@@ -5297,9 +5297,9 @@
   "silhouette": "Palazzo Set",
   "occasions": [
    "College Fest",
-   "Daywear",
-   "Work-to-Dinner",
-   "Diwali Party",
+   "College Fest",
+   "Festive Party",
+   "Diwali",
    "Festive Party"
   ],
   "styleTags": [
@@ -5348,9 +5348,9 @@
   "silhouette": "Palazzo Set",
   "occasions": [
    "College Fest",
-   "Daywear",
-   "Work-to-Dinner",
-   "Diwali Party",
+   "College Fest",
+   "Festive Party",
+   "Diwali",
    "Festive Party"
   ],
   "styleTags": [
@@ -5399,9 +5399,9 @@
   "silhouette": "Palazzo Set",
   "occasions": [
    "College Fest",
-   "Daywear",
-   "Work-to-Dinner",
-   "Diwali Party",
+   "College Fest",
+   "Festive Party",
+   "Diwali",
    "Festive Party"
   ],
   "styleTags": [
@@ -5450,9 +5450,9 @@
   "silhouette": "Palazzo Set",
   "occasions": [
    "College Fest",
-   "Daywear",
-   "Work-to-Dinner",
-   "Diwali Party",
+   "College Fest",
+   "Festive Party",
+   "Diwali",
    "Festive Party"
   ],
   "styleTags": [
@@ -5500,10 +5500,10 @@
   "weave": "Zari",
   "silhouette": "Kurta Set",
   "occasions": [
-   "Diwali Party",
-   "Wedding",
-   "Reception",
-   "Puja & Temple"
+   "Diwali",
+   "Festive Party",
+   "Festive Party",
+   "Diwali"
   ],
   "styleTags": [
    "Traditional",
@@ -5551,10 +5551,10 @@
   "pattern": "Buti Motifs",
   "silhouette": "Kurta Set",
   "occasions": [
-   "Diwali Party",
-   "Wedding",
-   "Reception",
-   "Puja & Temple"
+   "Diwali",
+   "Festive Party",
+   "Festive Party",
+   "Diwali"
   ],
   "styleTags": [
    "Traditional",
@@ -5602,10 +5602,10 @@
   "embroidery": "Tone-on-Tone",
   "silhouette": "Kurta Set",
   "occasions": [
-   "Diwali Party",
-   "Wedding",
-   "Reception",
-   "Puja & Temple"
+   "Diwali",
+   "Festive Party",
+   "Festive Party",
+   "Diwali"
   ],
   "styleTags": [
    "Traditional",
@@ -5653,10 +5653,10 @@
   "embroidery": "Dabka",
   "silhouette": "Kurta Set",
   "occasions": [
-   "Diwali Party",
-   "Wedding",
-   "Reception",
-   "Puja & Temple"
+   "Diwali",
+   "Festive Party",
+   "Festive Party",
+   "Diwali"
   ],
   "styleTags": [
    "Traditional",
@@ -5704,10 +5704,10 @@
   "embroidery": "Chikankari",
   "silhouette": "Kurta Straight",
   "occasions": [
-   "Daywear",
    "College Fest",
-   "Work-to-Dinner",
-   "Family Function"
+   "College Fest",
+   "Festive Party",
+   "Diwali"
   ],
   "styleTags": [
    "Traditional",
@@ -5755,10 +5755,10 @@
   "pattern": "Block Print",
   "silhouette": "Kurta Straight",
   "occasions": [
-   "Daywear",
    "College Fest",
-   "Work-to-Dinner",
-   "Family Function"
+   "College Fest",
+   "Festive Party",
+   "Diwali"
   ],
   "styleTags": [
    "Traditional",
@@ -5806,10 +5806,10 @@
   "embroidery": "Thread Embroidery",
   "silhouette": "Kurta Straight",
   "occasions": [
-   "Daywear",
    "College Fest",
-   "Work-to-Dinner",
-   "Family Function"
+   "College Fest",
+   "Festive Party",
+   "Diwali"
   ],
   "styleTags": [
    "Traditional",
@@ -5857,10 +5857,10 @@
   "embroidery": "Mirror Work",
   "silhouette": "Kurta Straight",
   "occasions": [
-   "Daywear",
    "College Fest",
-   "Work-to-Dinner",
-   "Family Function"
+   "College Fest",
+   "Festive Party",
+   "Diwali"
   ],
   "styleTags": [
    "Traditional",
@@ -5909,10 +5909,10 @@
   "embroidery": "Aari",
   "silhouette": "Kurta Straight",
   "occasions": [
-   "Daywear",
    "College Fest",
-   "Work-to-Dinner",
-   "Family Function"
+   "College Fest",
+   "Festive Party",
+   "Diwali"
   ],
   "styleTags": [
    "Traditional",
@@ -5959,10 +5959,10 @@
   "fabric": "Cotton",
   "silhouette": "Kurta Straight",
   "occasions": [
-   "Daywear",
    "College Fest",
-   "Work-to-Dinner",
-   "Family Function"
+   "College Fest",
+   "Festive Party",
+   "Diwali"
   ],
   "styleTags": [
    "Traditional",
@@ -6010,10 +6010,10 @@
   "embroidery": "Chikankari",
   "silhouette": "Kurta Straight",
   "occasions": [
-   "Daywear",
    "College Fest",
-   "Work-to-Dinner",
-   "Family Function"
+   "College Fest",
+   "Festive Party",
+   "Diwali"
   ],
   "styleTags": [
    "Traditional",
@@ -6061,10 +6061,10 @@
   "pattern": "Block Print",
   "silhouette": "Kurta Straight",
   "occasions": [
-   "Daywear",
    "College Fest",
-   "Work-to-Dinner",
-   "Family Function"
+   "College Fest",
+   "Festive Party",
+   "Diwali"
   ],
   "styleTags": [
    "Traditional",
@@ -6113,8 +6113,8 @@
   "silhouette": "Kurta Aline",
   "occasions": [
    "College Fest",
-   "Daywear",
-   "Work-to-Dinner",
+   "College Fest",
+   "Festive Party",
    "Festive Party"
   ],
   "styleTags": [
@@ -6163,8 +6163,8 @@
   "silhouette": "Kurta Aline",
   "occasions": [
    "College Fest",
-   "Daywear",
-   "Work-to-Dinner",
+   "College Fest",
+   "Festive Party",
    "Festive Party"
   ],
   "styleTags": [
@@ -6213,8 +6213,8 @@
   "silhouette": "Kurta Aline",
   "occasions": [
    "College Fest",
-   "Daywear",
-   "Work-to-Dinner",
+   "College Fest",
+   "Festive Party",
    "Festive Party"
   ],
   "styleTags": [
@@ -6263,8 +6263,8 @@
   "silhouette": "Kurta Aline",
   "occasions": [
    "College Fest",
-   "Daywear",
-   "Work-to-Dinner",
+   "College Fest",
+   "Festive Party",
    "Festive Party"
   ],
   "styleTags": [
@@ -6313,8 +6313,8 @@
   "silhouette": "Kurta Aline",
   "occasions": [
    "College Fest",
-   "Daywear",
-   "Work-to-Dinner",
+   "College Fest",
+   "Festive Party",
    "Festive Party"
   ],
   "styleTags": [
@@ -6363,8 +6363,8 @@
   "silhouette": "Kurta Aline",
   "occasions": [
    "College Fest",
-   "Daywear",
-   "Work-to-Dinner",
+   "College Fest",
+   "Festive Party",
    "Festive Party"
   ],
   "styleTags": [
@@ -6412,8 +6412,8 @@
   "weave": "Kamdani",
   "silhouette": "Anarkali",
   "occasions": [
-   "Sangeet",
-   "Mehendi",
+   "Festive Party",
+   "Festive Party",
    "Festive Party"
   ],
   "styleTags": [
@@ -6461,8 +6461,8 @@
   "embroidery": "Gotapatti",
   "silhouette": "Anarkali",
   "occasions": [
-   "Sangeet",
-   "Mehendi",
+   "Festive Party",
+   "Festive Party",
    "Festive Party"
   ],
   "styleTags": [
@@ -6510,8 +6510,8 @@
   "embroidery": "Resham Threadwork",
   "silhouette": "Anarkali",
   "occasions": [
-   "Sangeet",
-   "Mehendi",
+   "Festive Party",
+   "Festive Party",
    "Festive Party"
   ],
   "styleTags": [
@@ -6559,8 +6559,8 @@
   "embroidery": "Pearl Detailing",
   "silhouette": "Anarkali",
   "occasions": [
-   "Sangeet",
-   "Mehendi",
+   "Festive Party",
+   "Festive Party",
    "Festive Party"
   ],
   "styleTags": [
@@ -6609,9 +6609,9 @@
   "embroidery": "Aari",
   "silhouette": "Kurta Aline",
   "occasions": [
-   "Work-to-Dinner",
+   "Festive Party",
    "College Fest",
-   "Date Night"
+   "Festive Party"
   ],
   "styleTags": [
    "Traditional",
@@ -6658,9 +6658,9 @@
   "embroidery": "Tone-on-Tone",
   "silhouette": "Kurta Aline",
   "occasions": [
-   "Work-to-Dinner",
+   "Festive Party",
    "College Fest",
-   "Date Night"
+   "Festive Party"
   ],
   "styleTags": [
    "Traditional",
@@ -6707,9 +6707,9 @@
   "pattern": "Buti Motifs",
   "silhouette": "Kurta Aline",
   "occasions": [
-   "Work-to-Dinner",
+   "Festive Party",
    "College Fest",
-   "Date Night"
+   "Festive Party"
   ],
   "styleTags": [
    "Traditional",
@@ -6756,9 +6756,9 @@
   "embroidery": "Pearl Detailing",
   "silhouette": "Kurta Aline",
   "occasions": [
-   "Work-to-Dinner",
+   "Festive Party",
    "College Fest",
-   "Date Night"
+   "Festive Party"
   ],
   "styleTags": [
    "Traditional",
@@ -6954,11 +6954,11 @@
   "embroidery": "Gotapatti",
   "silhouette": "Kurta Set Dupatta",
   "occasions": [
-   "Diwali Party",
+   "Diwali",
    "Festive Party",
-   "Sangeet",
-   "Wedding",
-   "Family Function"
+   "Festive Party",
+   "Festive Party",
+   "Diwali"
   ],
   "styleTags": [
    "Traditional",
@@ -7007,11 +7007,11 @@
   "embroidery": "Kashmiri Embroidery",
   "silhouette": "Kurta Set Dupatta",
   "occasions": [
-   "Diwali Party",
+   "Diwali",
    "Festive Party",
-   "Sangeet",
-   "Wedding",
-   "Family Function"
+   "Festive Party",
+   "Festive Party",
+   "Diwali"
   ],
   "styleTags": [
    "Traditional",
@@ -7060,11 +7060,11 @@
   "embroidery": "Chikankari",
   "silhouette": "Kurta Set Dupatta",
   "occasions": [
-   "Diwali Party",
+   "Diwali",
    "Festive Party",
-   "Sangeet",
-   "Wedding",
-   "Family Function"
+   "Festive Party",
+   "Festive Party",
+   "Diwali"
   ],
   "styleTags": [
    "Traditional",
@@ -7113,11 +7113,11 @@
   "embroidery": "Pearl Detailing",
   "silhouette": "Kurta Set Dupatta",
   "occasions": [
-   "Diwali Party",
+   "Diwali",
    "Festive Party",
-   "Sangeet",
-   "Wedding",
-   "Family Function"
+   "Festive Party",
+   "Festive Party",
+   "Diwali"
   ],
   "styleTags": [
    "Traditional",
@@ -7167,11 +7167,11 @@
   "embroidery": "Aari",
   "silhouette": "Kurta Set Dupatta",
   "occasions": [
-   "Diwali Party",
+   "Diwali",
    "Festive Party",
-   "Sangeet",
-   "Wedding",
-   "Family Function"
+   "Festive Party",
+   "Festive Party",
+   "Diwali"
   ],
   "styleTags": [
    "Traditional",
@@ -7221,8 +7221,8 @@
   "silhouette": "Kurta Straight",
   "occasions": [
    "College Fest",
-   "Daywear",
-   "Work-to-Dinner"
+   "College Fest",
+   "Festive Party"
   ],
   "styleTags": [
    "Traditional",
@@ -7270,8 +7270,8 @@
   "silhouette": "Kurta Straight",
   "occasions": [
    "College Fest",
-   "Daywear",
-   "Work-to-Dinner"
+   "College Fest",
+   "Festive Party"
   ],
   "styleTags": [
    "Traditional",
@@ -7319,8 +7319,8 @@
   "silhouette": "Kurta Straight",
   "occasions": [
    "College Fest",
-   "Daywear",
-   "Work-to-Dinner"
+   "College Fest",
+   "Festive Party"
   ],
   "styleTags": [
    "Traditional",
@@ -7368,8 +7368,8 @@
   "silhouette": "Kurta Straight",
   "occasions": [
    "College Fest",
-   "Daywear",
-   "Work-to-Dinner"
+   "College Fest",
+   "Festive Party"
   ],
   "styleTags": [
    "Traditional",
@@ -7417,10 +7417,10 @@
   "embroidery": "Chikankari",
   "silhouette": "Kurta Set",
   "occasions": [
-   "Reception",
-   "Sangeet",
-   "Engagement",
-   "Family Function"
+   "Festive Party",
+   "Festive Party",
+   "Festive Party",
+   "Diwali"
   ],
   "styleTags": [
    "Traditional",
@@ -7468,10 +7468,10 @@
   "embroidery": "Mirror Work",
   "silhouette": "Kurta Set",
   "occasions": [
-   "Reception",
-   "Sangeet",
-   "Engagement",
-   "Family Function"
+   "Festive Party",
+   "Festive Party",
+   "Festive Party",
+   "Diwali"
   ],
   "styleTags": [
    "Traditional",
@@ -7520,10 +7520,10 @@
   "embroidery": "Aari",
   "silhouette": "Kurta Set",
   "occasions": [
-   "Reception",
-   "Sangeet",
-   "Engagement",
-   "Family Function"
+   "Festive Party",
+   "Festive Party",
+   "Festive Party",
+   "Diwali"
   ],
   "styleTags": [
    "Traditional",
@@ -7571,10 +7571,10 @@
   "weave": "Kamdani",
   "silhouette": "Kurta Set",
   "occasions": [
-   "Reception",
-   "Sangeet",
-   "Engagement",
-   "Family Function"
+   "Festive Party",
+   "Festive Party",
+   "Festive Party",
+   "Diwali"
   ],
   "styleTags": [
    "Traditional",
@@ -7622,9 +7622,9 @@
   "embroidery": "Sequit Work",
   "silhouette": "Kurta Set",
   "occasions": [
-   "Sangeet",
-   "Night Out",
-   "Reception"
+   "Festive Party",
+   "Festive Party",
+   "Festive Party"
   ],
   "styleTags": [
    "Traditional",
@@ -7672,9 +7672,9 @@
   "fabric": "Viscose",
   "silhouette": "Kurta Set",
   "occasions": [
-   "Sangeet",
-   "Night Out",
-   "Reception"
+   "Festive Party",
+   "Festive Party",
+   "Festive Party"
   ],
   "styleTags": [
    "Traditional",
@@ -7723,9 +7723,9 @@
   "embroidery": "Tone-on-Tone",
   "silhouette": "Kurta Set",
   "occasions": [
-   "Sangeet",
-   "Night Out",
-   "Reception"
+   "Festive Party",
+   "Festive Party",
+   "Festive Party"
   ],
   "styleTags": [
    "Traditional",
@@ -7773,9 +7773,9 @@
   "fabric": "Silk Blend",
   "silhouette": "Co Ord",
   "occasions": [
-   "Sangeet",
-   "Reception",
-   "Diwali Party"
+   "Festive Party",
+   "Festive Party",
+   "Diwali"
   ],
   "styleTags": [
    "Contemporary",
@@ -7823,9 +7823,9 @@
   "weave": "Zari",
   "silhouette": "Co Ord",
   "occasions": [
-   "Sangeet",
-   "Reception",
-   "Diwali Party"
+   "Festive Party",
+   "Festive Party",
+   "Diwali"
   ],
   "styleTags": [
    "Contemporary",
@@ -7873,9 +7873,9 @@
   "pattern": "Buti Motifs",
   "silhouette": "Co Ord",
   "occasions": [
-   "Sangeet",
-   "Reception",
-   "Diwali Party"
+   "Festive Party",
+   "Festive Party",
+   "Diwali"
   ],
   "styleTags": [
    "Contemporary",
@@ -7922,9 +7922,9 @@
   "fabric": "Silk Blend",
   "silhouette": "Co Ord",
   "occasions": [
-   "Sangeet",
-   "Reception",
-   "Diwali Party"
+   "Festive Party",
+   "Festive Party",
+   "Diwali"
   ],
   "styleTags": [
    "Contemporary",
@@ -7971,8 +7971,8 @@
   "fabric": "Raw Mango",
   "silhouette": "Co Ord",
   "occasions": [
-   "Daywear",
-   "Work-to-Dinner",
+   "College Fest",
+   "Festive Party",
    "College Fest"
   ],
   "styleTags": [
@@ -8020,8 +8020,8 @@
   "embroidery": "Tone-on-Tone",
   "silhouette": "Co Ord",
   "occasions": [
-   "Daywear",
-   "Work-to-Dinner",
+   "College Fest",
+   "Festive Party",
    "College Fest"
   ],
   "styleTags": [
@@ -8069,8 +8069,8 @@
   "embroidery": "Pearl Detailing",
   "silhouette": "Co Ord",
   "occasions": [
-   "Daywear",
-   "Work-to-Dinner",
+   "College Fest",
+   "Festive Party",
    "College Fest"
   ],
   "styleTags": [
@@ -8118,8 +8118,8 @@
   "fabric": "Raw Mango",
   "silhouette": "Co Ord",
   "occasions": [
-   "Daywear",
-   "Work-to-Dinner",
+   "College Fest",
+   "Festive Party",
    "College Fest"
   ],
   "styleTags": [
@@ -8166,9 +8166,9 @@
   "fabric": "Cotton",
   "silhouette": "Co Ord",
   "occasions": [
-   "Daywear",
    "College Fest",
-   "Destination Wedding"
+   "College Fest",
+   "Festive Party"
   ],
   "styleTags": [
    "Contemporary",
@@ -8214,9 +8214,9 @@
   "fabric": "Handloom Cotton",
   "silhouette": "Co Ord",
   "occasions": [
-   "Daywear",
    "College Fest",
-   "Destination Wedding"
+   "College Fest",
+   "Festive Party"
   ],
   "styleTags": [
    "Contemporary",
@@ -8262,9 +8262,9 @@
   "fabric": "Cotton",
   "silhouette": "Co Ord",
   "occasions": [
-   "Daywear",
    "College Fest",
-   "Destination Wedding"
+   "College Fest",
+   "Festive Party"
   ],
   "styleTags": [
    "Contemporary",
@@ -8310,9 +8310,9 @@
   "fabric": "Handloom Cotton",
   "silhouette": "Co Ord",
   "occasions": [
-   "Daywear",
    "College Fest",
-   "Destination Wedding"
+   "College Fest",
+   "Festive Party"
   ],
   "styleTags": [
    "Contemporary",
@@ -8358,9 +8358,9 @@
   "fabric": "Cotton",
   "silhouette": "Co Ord",
   "occasions": [
-   "Daywear",
    "College Fest",
-   "Destination Wedding"
+   "College Fest",
+   "Festive Party"
   ],
   "styleTags": [
    "Contemporary",
@@ -8407,10 +8407,10 @@
   "weave": "Zari",
   "silhouette": "Co Ord",
   "occasions": [
-   "Work-to-Dinner",
+   "Festive Party",
    "College Fest",
-   "Daywear",
-   "Date Night"
+   "College Fest",
+   "Festive Party"
   ],
   "styleTags": [
    "Contemporary",
@@ -8457,10 +8457,10 @@
   "embroidery": "Pearl Detailing",
   "silhouette": "Co Ord",
   "occasions": [
-   "Work-to-Dinner",
+   "Festive Party",
    "College Fest",
-   "Daywear",
-   "Date Night"
+   "College Fest",
+   "Festive Party"
   ],
   "styleTags": [
    "Contemporary",
@@ -8508,10 +8508,10 @@
   "embroidery": "Sequit Work",
   "silhouette": "Co Ord",
   "occasions": [
-   "Work-to-Dinner",
+   "Festive Party",
    "College Fest",
-   "Daywear",
-   "Date Night"
+   "College Fest",
+   "Festive Party"
   ],
   "styleTags": [
    "Contemporary",
@@ -8558,10 +8558,10 @@
   "weave": "Zari",
   "silhouette": "Co Ord",
   "occasions": [
-   "Work-to-Dinner",
+   "Festive Party",
    "College Fest",
-   "Daywear",
-   "Date Night"
+   "College Fest",
+   "Festive Party"
   ],
   "styleTags": [
    "Contemporary",
@@ -8608,9 +8608,9 @@
   "embroidery": "Pearl Detailing",
   "silhouette": "Co Ord",
   "occasions": [
-   "Reception",
-   "Sangeet",
-   "Date Night"
+   "Festive Party",
+   "Festive Party",
+   "Festive Party"
   ],
   "styleTags": [
    "Contemporary",
@@ -8660,9 +8660,9 @@
   "embroidery": "Tone-on-Tone",
   "silhouette": "Co Ord",
   "occasions": [
-   "Reception",
-   "Sangeet",
-   "Date Night"
+   "Festive Party",
+   "Festive Party",
+   "Festive Party"
   ],
   "styleTags": [
    "Contemporary",
@@ -8711,9 +8711,9 @@
   "embroidery": "Sequit Work",
   "silhouette": "Co Ord",
   "occasions": [
-   "Reception",
-   "Sangeet",
-   "Date Night"
+   "Festive Party",
+   "Festive Party",
+   "Festive Party"
   ],
   "styleTags": [
    "Contemporary",
@@ -8762,10 +8762,10 @@
   "embroidery": "Zardozi",
   "silhouette": "Co Ord",
   "occasions": [
-   "Daywear",
-   "Work-to-Dinner",
    "College Fest",
-   "Date Night"
+   "Festive Party",
+   "College Fest",
+   "Festive Party"
   ],
   "styleTags": [
    "Contemporary",
@@ -8811,10 +8811,10 @@
   "fabric": "Linen",
   "silhouette": "Co Ord",
   "occasions": [
-   "Daywear",
-   "Work-to-Dinner",
    "College Fest",
-   "Date Night"
+   "Festive Party",
+   "College Fest",
+   "Festive Party"
   ],
   "styleTags": [
    "Contemporary",
@@ -8861,10 +8861,10 @@
   "pattern": "Block Print",
   "silhouette": "Co Ord",
   "occasions": [
-   "Daywear",
-   "Work-to-Dinner",
    "College Fest",
-   "Date Night"
+   "Festive Party",
+   "College Fest",
+   "Festive Party"
   ],
   "styleTags": [
    "Contemporary",
@@ -8911,9 +8911,9 @@
   "embroidery": "Gotapatti",
   "silhouette": "Co Ord",
   "occasions": [
-   "Sangeet",
-   "Reception",
-   "Night Out"
+   "Festive Party",
+   "Festive Party",
+   "Festive Party"
   ],
   "styleTags": [
    "Contemporary",
@@ -8962,9 +8962,9 @@
   "weave": "Zari",
   "silhouette": "Co Ord",
   "occasions": [
-   "Sangeet",
-   "Reception",
-   "Night Out"
+   "Festive Party",
+   "Festive Party",
+   "Festive Party"
   ],
   "styleTags": [
    "Contemporary",
@@ -9013,9 +9013,9 @@
   "embroidery": "Stone Work",
   "silhouette": "Co Ord",
   "occasions": [
-   "Sangeet",
-   "Reception",
-   "Night Out"
+   "Festive Party",
+   "Festive Party",
+   "Festive Party"
   ],
   "styleTags": [
    "Contemporary",
@@ -9065,10 +9065,10 @@
   "embroidery": "Thread Embroidery",
   "silhouette": "Co Ord",
   "occasions": [
-   "Daywear",
    "College Fest",
-   "Destination Wedding",
-   "Date Night"
+   "College Fest",
+   "Festive Party",
+   "Festive Party"
   ],
   "styleTags": [
    "Contemporary",
@@ -9114,10 +9114,10 @@
   "embroidery": "Dried Flower Work",
   "silhouette": "Co Ord",
   "occasions": [
-   "Daywear",
    "College Fest",
-   "Destination Wedding",
-   "Date Night"
+   "College Fest",
+   "Festive Party",
+   "Festive Party"
   ],
   "styleTags": [
    "Contemporary",
@@ -9163,10 +9163,10 @@
   "embroidery": "Pearl Detailing",
   "silhouette": "Co Ord",
   "occasions": [
-   "Daywear",
    "College Fest",
-   "Destination Wedding",
-   "Date Night"
+   "College Fest",
+   "Festive Party",
+   "Festive Party"
   ],
   "styleTags": [
    "Contemporary",
@@ -9213,7 +9213,7 @@
   "embroidery": "Mirror Work",
   "silhouette": "Co Ord",
   "occasions": [
-   "Sangeet",
+   "Festive Party",
    "College Fest",
    "Navratri"
   ],
@@ -9263,7 +9263,7 @@
   "embroidery": "Zardozi",
   "silhouette": "Co Ord",
   "occasions": [
-   "Sangeet",
+   "Festive Party",
    "College Fest",
    "Navratri"
   ],
@@ -9313,8 +9313,8 @@
   "silhouette": "Co Ord Print",
   "occasions": [
    "College Fest",
-   "Daywear",
-   "Work-to-Dinner"
+   "College Fest",
+   "Festive Party"
   ],
   "styleTags": [
    "Contemporary",
@@ -9362,8 +9362,8 @@
   "silhouette": "Co Ord Print",
   "occasions": [
    "College Fest",
-   "Daywear",
-   "Work-to-Dinner"
+   "College Fest",
+   "Festive Party"
   ],
   "styleTags": [
    "Contemporary",
@@ -9412,8 +9412,8 @@
   "silhouette": "Co Ord Print",
   "occasions": [
    "College Fest",
-   "Daywear",
-   "Work-to-Dinner"
+   "College Fest",
+   "Festive Party"
   ],
   "styleTags": [
    "Contemporary",
@@ -9461,8 +9461,8 @@
   "silhouette": "Co Ord Dupatta",
   "occasions": [
    "Festive Party",
-   "Family Function",
-   "Diwali Party"
+   "Diwali",
+   "Diwali"
   ],
   "styleTags": [
    "Contemporary",
@@ -9509,8 +9509,8 @@
   "silhouette": "Co Ord Dupatta",
   "occasions": [
    "Festive Party",
-   "Family Function",
-   "Diwali Party"
+   "Diwali",
+   "Diwali"
   ],
   "styleTags": [
    "Contemporary",
@@ -9557,8 +9557,8 @@
   "silhouette": "Co Ord Dupatta",
   "occasions": [
    "Festive Party",
-   "Family Function",
-   "Diwali Party"
+   "Diwali",
+   "Diwali"
   ],
   "styleTags": [
    "Contemporary",
@@ -9604,11 +9604,11 @@
   "embroidery": "Zardozi",
   "silhouette": "Lehenga",
   "occasions": [
-   "Sangeet",
-   "Wedding",
-   "Reception",
-   "Engagement",
-   "Wedding Guest"
+   "Festive Party",
+   "Festive Party",
+   "Festive Party",
+   "Festive Party",
+   "Festive Party"
   ],
   "styleTags": [
    "Traditional",
@@ -9656,11 +9656,11 @@
   "embroidery": "Sequit Work",
   "silhouette": "Lehenga",
   "occasions": [
-   "Sangeet",
-   "Wedding",
-   "Reception",
-   "Engagement",
-   "Wedding Guest"
+   "Festive Party",
+   "Festive Party",
+   "Festive Party",
+   "Festive Party",
+   "Festive Party"
   ],
   "styleTags": [
    "Traditional",
@@ -9708,11 +9708,11 @@
   "embroidery": "Aari",
   "silhouette": "Lehenga",
   "occasions": [
-   "Sangeet",
-   "Wedding",
-   "Reception",
-   "Engagement",
-   "Wedding Guest"
+   "Festive Party",
+   "Festive Party",
+   "Festive Party",
+   "Festive Party",
+   "Festive Party"
   ],
   "styleTags": [
    "Traditional",
@@ -9760,11 +9760,11 @@
   "embroidery": "Mirror Work",
   "silhouette": "Lehenga",
   "occasions": [
-   "Sangeet",
-   "Wedding",
-   "Reception",
-   "Engagement",
-   "Wedding Guest"
+   "Festive Party",
+   "Festive Party",
+   "Festive Party",
+   "Festive Party",
+   "Festive Party"
   ],
   "styleTags": [
    "Traditional",
@@ -9813,11 +9813,11 @@
   "embroidery": "Dabka",
   "silhouette": "Lehenga",
   "occasions": [
-   "Sangeet",
-   "Wedding",
-   "Reception",
-   "Engagement",
-   "Wedding Guest"
+   "Festive Party",
+   "Festive Party",
+   "Festive Party",
+   "Festive Party",
+   "Festive Party"
   ],
   "styleTags": [
    "Traditional",
@@ -9865,11 +9865,11 @@
   "embroidery": "Zardozi",
   "silhouette": "Lehenga",
   "occasions": [
-   "Sangeet",
-   "Wedding",
-   "Reception",
-   "Engagement",
-   "Wedding Guest"
+   "Festive Party",
+   "Festive Party",
+   "Festive Party",
+   "Festive Party",
+   "Festive Party"
   ],
   "styleTags": [
    "Traditional",
@@ -9917,9 +9917,9 @@
   "embroidery": "Sequit Work",
   "silhouette": "Lehenga",
   "occasions": [
-   "Sangeet",
-   "Reception",
-   "Engagement"
+   "Festive Party",
+   "Festive Party",
+   "Festive Party"
   ],
   "styleTags": [
    "Traditional",
@@ -9968,9 +9968,9 @@
   "embroidery": "Dabka",
   "silhouette": "Lehenga",
   "occasions": [
-   "Sangeet",
-   "Reception",
-   "Engagement"
+   "Festive Party",
+   "Festive Party",
+   "Festive Party"
   ],
   "styleTags": [
    "Traditional",
@@ -10019,9 +10019,9 @@
   "embroidery": "Zardozi",
   "silhouette": "Lehenga",
   "occasions": [
-   "Sangeet",
-   "Reception",
-   "Engagement"
+   "Festive Party",
+   "Festive Party",
+   "Festive Party"
   ],
   "styleTags": [
    "Traditional",
@@ -10070,9 +10070,9 @@
   "embroidery": "Stone Work",
   "silhouette": "Lehenga",
   "occasions": [
-   "Sangeet",
-   "Reception",
-   "Engagement"
+   "Festive Party",
+   "Festive Party",
+   "Festive Party"
   ],
   "styleTags": [
    "Traditional",
@@ -10121,9 +10121,9 @@
   "embroidery": "Tone-on-Tone",
   "silhouette": "Lehenga",
   "occasions": [
-   "Sangeet",
-   "Reception",
-   "Engagement"
+   "Festive Party",
+   "Festive Party",
+   "Festive Party"
   ],
   "styleTags": [
    "Traditional",
@@ -10172,9 +10172,9 @@
   "embroidery": "Sequit Work",
   "silhouette": "Lehenga",
   "occasions": [
-   "Sangeet",
-   "Reception",
-   "Engagement"
+   "Festive Party",
+   "Festive Party",
+   "Festive Party"
   ],
   "styleTags": [
    "Traditional",
@@ -10223,9 +10223,9 @@
   "embroidery": "Gotapatti",
   "silhouette": "Lehenga",
   "occasions": [
-   "Sangeet",
-   "Reception",
-   "Night Out"
+   "Festive Party",
+   "Festive Party",
+   "Festive Party"
   ],
   "styleTags": [
    "Traditional",
@@ -10274,9 +10274,9 @@
   "embroidery": "Zardozi",
   "silhouette": "Lehenga",
   "occasions": [
-   "Sangeet",
-   "Reception",
-   "Night Out"
+   "Festive Party",
+   "Festive Party",
+   "Festive Party"
   ],
   "styleTags": [
    "Traditional",
@@ -10325,9 +10325,9 @@
   "embroidery": "Pearl Detailing",
   "silhouette": "Lehenga",
   "occasions": [
-   "Sangeet",
-   "Reception",
-   "Night Out"
+   "Festive Party",
+   "Festive Party",
+   "Festive Party"
   ],
   "styleTags": [
    "Traditional",
@@ -10377,9 +10377,9 @@
   "embroidery": "Gotapatti",
   "silhouette": "Lehenga",
   "occasions": [
-   "Sangeet",
-   "Reception",
-   "Night Out"
+   "Festive Party",
+   "Festive Party",
+   "Festive Party"
   ],
   "styleTags": [
    "Traditional",
@@ -10428,9 +10428,9 @@
   "embroidery": "Zardozi",
   "silhouette": "Lehenga",
   "occasions": [
-   "Reception",
-   "Winter Festive",
-   "Family Function"
+   "Festive Party",
+   "Diwali",
+   "Diwali"
   ],
   "styleTags": [
    "Traditional",
@@ -10477,9 +10477,9 @@
   "embroidery": "Dabka",
   "silhouette": "Lehenga",
   "occasions": [
-   "Reception",
-   "Winter Festive",
-   "Family Function"
+   "Festive Party",
+   "Diwali",
+   "Diwali"
   ],
   "styleTags": [
    "Traditional",
@@ -10526,9 +10526,9 @@
   "embroidery": "Resham Threadwork",
   "silhouette": "Lehenga",
   "occasions": [
-   "Reception",
-   "Winter Festive",
-   "Family Function"
+   "Festive Party",
+   "Diwali",
+   "Diwali"
   ],
   "styleTags": [
    "Traditional",
@@ -10574,8 +10574,8 @@
   "fabric": "Georgette",
   "silhouette": "Lehenga",
   "occasions": [
-   "Sangeet",
-   "Reception",
+   "Festive Party",
+   "Festive Party",
    "Navratri"
   ],
   "styleTags": [
@@ -10625,8 +10625,8 @@
   "embroidery": "Zardozi",
   "silhouette": "Lehenga",
   "occasions": [
-   "Sangeet",
-   "Reception",
+   "Festive Party",
+   "Festive Party",
    "Navratri"
   ],
   "styleTags": [
@@ -10676,8 +10676,8 @@
   "embroidery": "Stone Work",
   "silhouette": "Lehenga",
   "occasions": [
-   "Sangeet",
-   "Reception",
+   "Festive Party",
+   "Festive Party",
    "Navratri"
   ],
   "styleTags": [
@@ -10727,8 +10727,8 @@
   "embroidery": "Dabka",
   "silhouette": "Lehenga",
   "occasions": [
-   "Sangeet",
-   "Reception",
+   "Festive Party",
+   "Festive Party",
    "Navratri"
   ],
   "styleTags": [
@@ -10777,8 +10777,8 @@
   "fabric": "Georgette",
   "silhouette": "Lehenga",
   "occasions": [
-   "Sangeet",
-   "Reception",
+   "Festive Party",
+   "Festive Party",
    "Navratri"
   ],
   "styleTags": [
@@ -10831,7 +10831,7 @@
    "Navratri",
    "Garba",
    "College Fest",
-   "Mehendi"
+   "Festive Party"
   ],
   "styleTags": [
    "Traditional",
@@ -10882,7 +10882,7 @@
    "Navratri",
    "Garba",
    "College Fest",
-   "Mehendi"
+   "Festive Party"
   ],
   "styleTags": [
    "Traditional",
@@ -10933,7 +10933,7 @@
    "Navratri",
    "Garba",
    "College Fest",
-   "Mehendi"
+   "Festive Party"
   ],
   "styleTags": [
    "Traditional",
@@ -10981,7 +10981,7 @@
   "embroidery": "Gotapatti",
   "silhouette": "Lehenga Skirt",
   "occasions": [
-   "Sangeet",
+   "Festive Party",
    "Navratri",
    "College Fest"
   ],
@@ -11031,7 +11031,7 @@
   "pattern": "Block Print",
   "silhouette": "Lehenga Skirt",
   "occasions": [
-   "Sangeet",
+   "Festive Party",
    "Navratri",
    "College Fest"
   ],
@@ -11081,7 +11081,7 @@
   "embroidery": "Mirror Work",
   "silhouette": "Lehenga Skirt",
   "occasions": [
-   "Sangeet",
+   "Festive Party",
    "Navratri",
    "College Fest"
   ],
@@ -11132,7 +11132,7 @@
   "embroidery": "Sequit Work",
   "silhouette": "Lehenga Skirt",
   "occasions": [
-   "Sangeet",
+   "Festive Party",
    "Navratri",
    "College Fest"
   ],
@@ -11181,9 +11181,9 @@
   "fabric": "Georgette",
   "silhouette": "Lehenga Modern",
   "occasions": [
-   "Sangeet",
-   "Reception",
-   "Night Out"
+   "Festive Party",
+   "Festive Party",
+   "Festive Party"
   ],
   "styleTags": [
    "Traditional",
@@ -11232,9 +11232,9 @@
   "embroidery": "Pearl Detailing",
   "silhouette": "Lehenga Modern",
   "occasions": [
-   "Sangeet",
-   "Reception",
-   "Night Out"
+   "Festive Party",
+   "Festive Party",
+   "Festive Party"
   ],
   "styleTags": [
    "Traditional",
@@ -11284,9 +11284,9 @@
   "embroidery": "Tone-on-Tone",
   "silhouette": "Lehenga Modern",
   "occasions": [
-   "Sangeet",
-   "Reception",
-   "Night Out"
+   "Festive Party",
+   "Festive Party",
+   "Festive Party"
   ],
   "styleTags": [
    "Traditional",
@@ -11336,8 +11336,8 @@
   "silhouette": "Lehenga Modern",
   "occasions": [
    "College Fest",
-   "Sangeet",
-   "Mehendi"
+   "Festive Party",
+   "Festive Party"
   ],
   "styleTags": [
    "Traditional",
@@ -11386,8 +11386,8 @@
   "silhouette": "Lehenga Modern",
   "occasions": [
    "College Fest",
-   "Sangeet",
-   "Mehendi"
+   "Festive Party",
+   "Festive Party"
   ],
   "styleTags": [
    "Traditional",
@@ -11436,8 +11436,8 @@
   "silhouette": "Lehenga Modern",
   "occasions": [
    "College Fest",
-   "Sangeet",
-   "Mehendi"
+   "Festive Party",
+   "Festive Party"
   ],
   "styleTags": [
    "Traditional",
@@ -11485,9 +11485,9 @@
   "embroidery": "Chikankari",
   "silhouette": "Co Ord Dupatta",
   "occasions": [
-   "Reception",
-   "Night Out",
-   "Destination Wedding"
+   "Festive Party",
+   "Festive Party",
+   "Festive Party"
   ],
   "styleTags": [
    "Contemporary",
@@ -11535,9 +11535,9 @@
   "embroidery": "Sequit Work",
   "silhouette": "Co Ord Dupatta",
   "occasions": [
-   "Reception",
-   "Night Out",
-   "Destination Wedding"
+   "Festive Party",
+   "Festive Party",
+   "Festive Party"
   ],
   "styleTags": [
    "Contemporary",
@@ -11585,9 +11585,9 @@
   "embroidery": "Mirror Work",
   "silhouette": "Co Ord Dupatta",
   "occasions": [
-   "Reception",
-   "Night Out",
-   "Destination Wedding"
+   "Festive Party",
+   "Festive Party",
+   "Festive Party"
   ],
   "styleTags": [
    "Contemporary",
@@ -11636,9 +11636,9 @@
   "embroidery": "Zardozi",
   "silhouette": "Co Ord Dupatta",
   "occasions": [
-   "Reception",
-   "Night Out",
-   "Destination Wedding"
+   "Festive Party",
+   "Festive Party",
+   "Festive Party"
   ],
   "styleTags": [
    "Contemporary",
@@ -11686,9 +11686,9 @@
   "weave": "Kamdani",
   "silhouette": "Co Ord Dupatta",
   "occasions": [
-   "Reception",
-   "Night Out",
-   "Destination Wedding"
+   "Festive Party",
+   "Festive Party",
+   "Festive Party"
   ],
   "styleTags": [
    "Contemporary",
@@ -11736,9 +11736,9 @@
   "embroidery": "Chikankari",
   "silhouette": "Co Ord Dupatta",
   "occasions": [
-   "Reception",
-   "Night Out",
-   "Destination Wedding"
+   "Festive Party",
+   "Festive Party",
+   "Festive Party"
   ],
   "styleTags": [
    "Contemporary",
@@ -11787,9 +11787,9 @@
   "silhouette": "Kurti Jeans",
   "occasions": [
    "College Fest",
-   "Daywear",
-   "Date Night",
-   "Destination Wedding"
+   "College Fest",
+   "Festive Party",
+   "Festive Party"
   ],
   "styleTags": [
    "Traditional",
@@ -11838,9 +11838,9 @@
   "silhouette": "Kurti Jeans",
   "occasions": [
    "College Fest",
-   "Daywear",
-   "Date Night",
-   "Destination Wedding"
+   "College Fest",
+   "Festive Party",
+   "Festive Party"
   ],
   "styleTags": [
    "Traditional",
@@ -11890,9 +11890,9 @@
   "silhouette": "Kurti Jeans",
   "occasions": [
    "College Fest",
-   "Daywear",
-   "Date Night",
-   "Destination Wedding"
+   "College Fest",
+   "Festive Party",
+   "Festive Party"
   ],
   "styleTags": [
    "Traditional",
@@ -11941,9 +11941,9 @@
   "silhouette": "Kurti Jeans",
   "occasions": [
    "College Fest",
-   "Daywear",
-   "Date Night",
-   "Destination Wedding"
+   "College Fest",
+   "Festive Party",
+   "Festive Party"
   ],
   "styleTags": [
    "Traditional",
@@ -11992,9 +11992,9 @@
   "silhouette": "Kurti Jeans",
   "occasions": [
    "College Fest",
-   "Daywear",
-   "Date Night",
-   "Destination Wedding"
+   "College Fest",
+   "Festive Party",
+   "Festive Party"
   ],
   "styleTags": [
    "Traditional",
@@ -12041,8 +12041,8 @@
   "fabric": "Raw Mango",
   "silhouette": "Saree Gown",
   "occasions": [
-   "Sangeet",
-   "Reception",
+   "Festive Party",
+   "Festive Party",
    "Navratri"
   ],
   "styleTags": [
@@ -12092,8 +12092,8 @@
   "embroidery": "Aari",
   "silhouette": "Saree Gown",
   "occasions": [
-   "Sangeet",
-   "Reception",
+   "Festive Party",
+   "Festive Party",
    "Navratri"
   ],
   "styleTags": [
@@ -12143,8 +12143,8 @@
   "embroidery": "Gotapatti",
   "silhouette": "Saree Gown",
   "occasions": [
-   "Sangeet",
-   "Reception",
+   "Festive Party",
+   "Festive Party",
    "Navratri"
   ],
   "styleTags": [
@@ -12194,9 +12194,9 @@
   "weave": "Zari",
   "silhouette": "Drape",
   "occasions": [
-   "Sangeet",
-   "Reception",
-   "Night Out"
+   "Festive Party",
+   "Festive Party",
+   "Festive Party"
   ],
   "styleTags": [
    "Indo-Western",
@@ -12246,9 +12246,9 @@
   "embroidery": "Tone-on-Tone",
   "silhouette": "Drape",
   "occasions": [
-   "Sangeet",
-   "Reception",
-   "Night Out"
+   "Festive Party",
+   "Festive Party",
+   "Festive Party"
   ],
   "styleTags": [
    "Indo-Western",
@@ -12298,9 +12298,9 @@
   "embroidery": "Pearl Detailing",
   "silhouette": "Drape",
   "occasions": [
-   "Sangeet",
-   "Reception",
-   "Night Out"
+   "Festive Party",
+   "Festive Party",
+   "Festive Party"
   ],
   "styleTags": [
    "Indo-Western",
@@ -12351,10 +12351,10 @@
   "pattern": "Block Print",
   "silhouette": "Co Ord",
   "occasions": [
-   "Daywear",
-   "Work-to-Dinner",
    "College Fest",
-   "Destination Wedding"
+   "Festive Party",
+   "College Fest",
+   "Festive Party"
   ],
   "styleTags": [
    "Contemporary",
@@ -12401,10 +12401,10 @@
   "pattern": "Kalamkari",
   "silhouette": "Co Ord",
   "occasions": [
-   "Daywear",
-   "Work-to-Dinner",
    "College Fest",
-   "Destination Wedding"
+   "Festive Party",
+   "College Fest",
+   "Festive Party"
   ],
   "styleTags": [
    "Contemporary",
@@ -12451,10 +12451,10 @@
   "embroidery": "Pearl Detailing",
   "silhouette": "Co Ord",
   "occasions": [
-   "Daywear",
-   "Work-to-Dinner",
    "College Fest",
-   "Destination Wedding"
+   "Festive Party",
+   "College Fest",
+   "Festive Party"
   ],
   "styleTags": [
    "Contemporary",
@@ -12505,7 +12505,7 @@
    "Garba",
    "Navratri",
    "College Fest",
-   "Night Out"
+   "Festive Party"
   ],
   "styleTags": [
    "Traditional",
@@ -12556,7 +12556,7 @@
    "Garba",
    "Navratri",
    "College Fest",
-   "Night Out"
+   "Festive Party"
   ],
   "styleTags": [
    "Traditional",
@@ -12608,7 +12608,7 @@
    "Garba",
    "Navratri",
    "College Fest",
-   "Night Out"
+   "Festive Party"
   ],
   "styleTags": [
    "Traditional",
@@ -12655,9 +12655,9 @@
   "fabric": "Chanderi",
   "silhouette": "Kurta Straight",
   "occasions": [
-   "Diwali Party",
-   "Work-to-Dinner",
-   "Family Function"
+   "Diwali",
+   "Festive Party",
+   "Diwali"
   ],
   "styleTags": [
    "Traditional",
@@ -12703,9 +12703,9 @@
   "fabric": "Cotton",
   "silhouette": "Kurta Straight",
   "occasions": [
-   "Diwali Party",
-   "Work-to-Dinner",
-   "Family Function"
+   "Diwali",
+   "Festive Party",
+   "Diwali"
   ],
   "styleTags": [
    "Traditional",
@@ -12752,9 +12752,9 @@
   "embroidery": "Thread Embroidery",
   "silhouette": "Kurta Straight",
   "occasions": [
-   "Diwali Party",
-   "Work-to-Dinner",
-   "Family Function"
+   "Diwali",
+   "Festive Party",
+   "Diwali"
   ],
   "styleTags": [
    "Traditional",
@@ -12800,9 +12800,9 @@
   "fabric": "Cotton",
   "silhouette": "Kurta Straight",
   "occasions": [
-   "Diwali Party",
-   "Work-to-Dinner",
-   "Family Function"
+   "Diwali",
+   "Festive Party",
+   "Diwali"
   ],
   "styleTags": [
    "Traditional",
@@ -12848,9 +12848,9 @@
   "fabric": "Chanderi",
   "silhouette": "Kurta Straight",
   "occasions": [
-   "Diwali Party",
-   "Work-to-Dinner",
-   "Family Function"
+   "Diwali",
+   "Festive Party",
+   "Diwali"
   ],
   "styleTags": [
    "Traditional",
@@ -12897,10 +12897,10 @@
   "weave": "Zari",
   "silhouette": "Kurta Set",
   "occasions": [
-   "Reception",
-   "Sangeet",
-   "Night Out",
-   "Wedding Guest"
+   "Festive Party",
+   "Festive Party",
+   "Festive Party",
+   "Festive Party"
   ],
   "styleTags": [
    "Traditional",
@@ -12949,10 +12949,10 @@
   "embroidery": "Sequit Work",
   "silhouette": "Kurta Set",
   "occasions": [
-   "Reception",
-   "Sangeet",
-   "Night Out",
-   "Wedding Guest"
+   "Festive Party",
+   "Festive Party",
+   "Festive Party",
+   "Festive Party"
   ],
   "styleTags": [
    "Traditional",
@@ -13001,10 +13001,10 @@
   "embroidery": "Resham Threadwork",
   "silhouette": "Kurta Set",
   "occasions": [
-   "Reception",
-   "Sangeet",
-   "Night Out",
-   "Wedding Guest"
+   "Festive Party",
+   "Festive Party",
+   "Festive Party",
+   "Festive Party"
   ],
   "styleTags": [
    "Traditional",
@@ -13053,11 +13053,11 @@
   "embroidery": "Chikankari",
   "silhouette": "Straight Kurti",
   "occasions": [
-   "Daywear",
    "College Fest",
-   "Work-to-Dinner",
+   "College Fest",
    "Festive Party",
-   "Family Function"
+   "Festive Party",
+   "Diwali"
   ],
   "styleTags": [
    "Traditional",
@@ -13105,11 +13105,11 @@
   "embroidery": "Aari",
   "silhouette": "Straight Kurti",
   "occasions": [
-   "Daywear",
    "College Fest",
-   "Work-to-Dinner",
+   "College Fest",
    "Festive Party",
-   "Family Function"
+   "Festive Party",
+   "Diwali"
   ],
   "styleTags": [
    "Traditional",
@@ -13157,11 +13157,11 @@
   "pattern": "Block Print",
   "silhouette": "Straight Kurti",
   "occasions": [
-   "Daywear",
    "College Fest",
-   "Work-to-Dinner",
+   "College Fest",
    "Festive Party",
-   "Family Function"
+   "Festive Party",
+   "Diwali"
   ],
   "styleTags": [
    "Traditional",
@@ -13209,11 +13209,11 @@
   "embroidery": "Mirror Work",
   "silhouette": "Straight Kurti",
   "occasions": [
-   "Daywear",
    "College Fest",
-   "Work-to-Dinner",
+   "College Fest",
    "Festive Party",
-   "Family Function"
+   "Festive Party",
+   "Diwali"
   ],
   "styleTags": [
    "Traditional",
@@ -13262,11 +13262,11 @@
   "weave": "Kamdani",
   "silhouette": "Straight Kurti",
   "occasions": [
-   "Daywear",
    "College Fest",
-   "Work-to-Dinner",
+   "College Fest",
    "Festive Party",
-   "Family Function"
+   "Festive Party",
+   "Diwali"
   ],
   "styleTags": [
    "Traditional",
@@ -13314,9 +13314,9 @@
   "pattern": "Block Print",
   "silhouette": "Straight Kurti",
   "occasions": [
-   "Daywear",
    "College Fest",
-   "Destination Wedding"
+   "College Fest",
+   "Festive Party"
   ],
   "styleTags": [
    "Traditional",
@@ -13362,9 +13362,9 @@
   "pattern": "Kalamkari",
   "silhouette": "Straight Kurti",
   "occasions": [
-   "Daywear",
    "College Fest",
-   "Destination Wedding"
+   "College Fest",
+   "Festive Party"
   ],
   "styleTags": [
    "Traditional",
@@ -13410,9 +13410,9 @@
   "pattern": "Ajrakh Print",
   "silhouette": "Straight Kurti",
   "occasions": [
-   "Daywear",
    "College Fest",
-   "Destination Wedding"
+   "College Fest",
+   "Festive Party"
   ],
   "styleTags": [
    "Traditional",
@@ -13459,9 +13459,9 @@
   "pattern": "Bagru Print",
   "silhouette": "Straight Kurti",
   "occasions": [
-   "Daywear",
    "College Fest",
-   "Destination Wedding"
+   "College Fest",
+   "Festive Party"
   ],
   "styleTags": [
    "Traditional",
@@ -13507,9 +13507,9 @@
   "pattern": "Block Print",
   "silhouette": "Straight Kurti",
   "occasions": [
-   "Daywear",
    "College Fest",
-   "Destination Wedding"
+   "College Fest",
+   "Festive Party"
   ],
   "styleTags": [
    "Traditional",
@@ -13555,10 +13555,10 @@
   "embroidery": "Chikankari",
   "silhouette": "Straight Kurti",
   "occasions": [
-   "Diwali Party",
+   "Diwali",
    "Festive Party",
-   "Family Function",
-   "Work-to-Dinner"
+   "Diwali",
+   "Festive Party"
   ],
   "styleTags": [
    "Traditional",
@@ -13605,10 +13605,10 @@
   "weave": "Kamdani",
   "silhouette": "Straight Kurti",
   "occasions": [
-   "Diwali Party",
+   "Diwali",
    "Festive Party",
-   "Family Function",
-   "Work-to-Dinner"
+   "Diwali",
+   "Festive Party"
   ],
   "styleTags": [
    "Traditional",
@@ -13655,10 +13655,10 @@
   "embroidery": "Tone-on-Tone",
   "silhouette": "Straight Kurti",
   "occasions": [
-   "Diwali Party",
+   "Diwali",
    "Festive Party",
-   "Family Function",
-   "Work-to-Dinner"
+   "Diwali",
+   "Festive Party"
   ],
   "styleTags": [
    "Traditional",
@@ -13705,10 +13705,10 @@
   "embroidery": "Resham Threadwork",
   "silhouette": "Straight Kurti",
   "occasions": [
-   "Diwali Party",
+   "Diwali",
    "Festive Party",
-   "Family Function",
-   "Work-to-Dinner"
+   "Diwali",
+   "Festive Party"
   ],
   "styleTags": [
    "Traditional",
@@ -13755,10 +13755,10 @@
   "embroidery": "Pearl Detailing",
   "silhouette": "Straight Kurti",
   "occasions": [
-   "Diwali Party",
+   "Diwali",
    "Festive Party",
-   "Family Function",
-   "Work-to-Dinner"
+   "Diwali",
+   "Festive Party"
   ],
   "styleTags": [
    "Traditional",
@@ -13806,10 +13806,10 @@
   "embroidery": "Chikankari",
   "silhouette": "Straight Kurti",
   "occasions": [
-   "Diwali Party",
+   "Diwali",
    "Festive Party",
-   "Family Function",
-   "Work-to-Dinner"
+   "Diwali",
+   "Festive Party"
   ],
   "styleTags": [
    "Traditional",
@@ -13856,9 +13856,9 @@
   "embroidery": "Chikankari",
   "silhouette": "Kurta Aline",
   "occasions": [
-   "Daywear",
    "College Fest",
-   "Work-to-Dinner"
+   "College Fest",
+   "Festive Party"
   ],
   "styleTags": [
    "Traditional",
@@ -13904,9 +13904,9 @@
   "fabric": "Modal Blend",
   "silhouette": "Kurta Aline",
   "occasions": [
-   "Daywear",
    "College Fest",
-   "Work-to-Dinner"
+   "College Fest",
+   "Festive Party"
   ],
   "styleTags": [
    "Traditional",
@@ -13953,9 +13953,9 @@
   "embroidery": "Gotapatti",
   "silhouette": "Kurta Aline",
   "occasions": [
-   "Daywear",
    "College Fest",
-   "Work-to-Dinner"
+   "College Fest",
+   "Festive Party"
   ],
   "styleTags": [
    "Traditional",
@@ -14002,7 +14002,7 @@
   "embroidery": "Aari",
   "silhouette": "Kurta Aline",
   "occasions": [
-   "Diwali Party",
+   "Diwali",
    "Festive Party",
    "Navratri"
   ],
@@ -14050,7 +14050,7 @@
   "embroidery": "Mirror Work",
   "silhouette": "Kurta Aline",
   "occasions": [
-   "Diwali Party",
+   "Diwali",
    "Festive Party",
    "Navratri"
   ],
@@ -14099,7 +14099,7 @@
   "embroidery": "Dried Flower Work",
   "silhouette": "Kurta Aline",
   "occasions": [
-   "Diwali Party",
+   "Diwali",
    "Festive Party",
    "Navratri"
   ],
@@ -14147,11 +14147,11 @@
   "embroidery": "Chikankari",
   "silhouette": "Men Kurta",
   "occasions": [
-   "Diwali Party",
-   "Daywear",
-   "Puja & Temple",
+   "Diwali",
    "College Fest",
-   "Family Function"
+   "Diwali",
+   "College Fest",
+   "Diwali"
   ],
   "styleTags": [
    "Traditional",
@@ -14198,11 +14198,11 @@
   "pattern": "Block Print",
   "silhouette": "Men Kurta",
   "occasions": [
-   "Diwali Party",
-   "Daywear",
-   "Puja & Temple",
+   "Diwali",
    "College Fest",
-   "Family Function"
+   "Diwali",
+   "College Fest",
+   "Diwali"
   ],
   "styleTags": [
    "Traditional",
@@ -14249,11 +14249,11 @@
   "embroidery": "Thread Embroidery",
   "silhouette": "Men Kurta",
   "occasions": [
-   "Diwali Party",
-   "Daywear",
-   "Puja & Temple",
+   "Diwali",
    "College Fest",
-   "Family Function"
+   "Diwali",
+   "College Fest",
+   "Diwali"
   ],
   "styleTags": [
    "Traditional",
@@ -14299,11 +14299,11 @@
   "fabric": "Khadi Cotton",
   "silhouette": "Men Kurta",
   "occasions": [
-   "Diwali Party",
-   "Daywear",
-   "Puja & Temple",
+   "Diwali",
    "College Fest",
-   "Family Function"
+   "Diwali",
+   "College Fest",
+   "Diwali"
   ],
   "styleTags": [
    "Traditional",
@@ -14350,11 +14350,11 @@
   "embroidery": "Pearl Detailing",
   "silhouette": "Men Kurta",
   "occasions": [
-   "Diwali Party",
-   "Daywear",
-   "Puja & Temple",
+   "Diwali",
    "College Fest",
-   "Family Function"
+   "Diwali",
+   "College Fest",
+   "Diwali"
   ],
   "styleTags": [
    "Traditional",
@@ -14402,11 +14402,11 @@
   "embroidery": "Tone-on-Tone",
   "silhouette": "Men Kurta",
   "occasions": [
-   "Diwali Party",
-   "Daywear",
-   "Puja & Temple",
+   "Diwali",
    "College Fest",
-   "Family Function"
+   "Diwali",
+   "College Fest",
+   "Diwali"
   ],
   "styleTags": [
    "Traditional",
@@ -14453,11 +14453,11 @@
   "embroidery": "Aari",
   "silhouette": "Men Kurta",
   "occasions": [
-   "Diwali Party",
-   "Daywear",
-   "Puja & Temple",
+   "Diwali",
    "College Fest",
-   "Family Function"
+   "Diwali",
+   "College Fest",
+   "Diwali"
   ],
   "styleTags": [
    "Traditional",
@@ -14504,11 +14504,11 @@
   "embroidery": "Chikankari",
   "silhouette": "Men Kurta",
   "occasions": [
-   "Diwali Party",
-   "Daywear",
-   "Puja & Temple",
+   "Diwali",
    "College Fest",
-   "Family Function"
+   "Diwali",
+   "College Fest",
+   "Diwali"
   ],
   "styleTags": [
    "Traditional",
@@ -14555,10 +14555,10 @@
   "weave": "Zari",
   "silhouette": "Men Kurta",
   "occasions": [
-   "Diwali Party",
-   "Wedding",
+   "Diwali",
    "Festive Party",
-   "Reception"
+   "Festive Party",
+   "Festive Party"
   ],
   "styleTags": [
    "Traditional",
@@ -14605,10 +14605,10 @@
   "pattern": "Buti Motifs",
   "silhouette": "Men Kurta",
   "occasions": [
-   "Diwali Party",
-   "Wedding",
+   "Diwali",
    "Festive Party",
-   "Reception"
+   "Festive Party",
+   "Festive Party"
   ],
   "styleTags": [
    "Traditional",
@@ -14655,10 +14655,10 @@
   "weave": "Kamdani",
   "silhouette": "Men Kurta",
   "occasions": [
-   "Diwali Party",
-   "Wedding",
+   "Diwali",
    "Festive Party",
-   "Reception"
+   "Festive Party",
+   "Festive Party"
   ],
   "styleTags": [
    "Traditional",
@@ -14705,10 +14705,10 @@
   "embroidery": "Aari",
   "silhouette": "Men Kurta",
   "occasions": [
-   "Diwali Party",
-   "Wedding",
+   "Diwali",
    "Festive Party",
-   "Reception"
+   "Festive Party",
+   "Festive Party"
   ],
   "styleTags": [
    "Traditional",
@@ -14755,10 +14755,10 @@
   "embroidery": "Tone-on-Tone",
   "silhouette": "Men Kurta",
   "occasions": [
-   "Diwali Party",
-   "Wedding",
+   "Diwali",
    "Festive Party",
-   "Reception"
+   "Festive Party",
+   "Festive Party"
   ],
   "styleTags": [
    "Traditional",
@@ -14804,10 +14804,10 @@
   "fabric": "Cotton Silk",
   "silhouette": "Men Kurta",
   "occasions": [
-   "Diwali Party",
-   "Wedding",
+   "Diwali",
    "Festive Party",
-   "Reception"
+   "Festive Party",
+   "Festive Party"
   ],
   "styleTags": [
    "Traditional",
@@ -14854,10 +14854,10 @@
   "embroidery": "Chikankari",
   "silhouette": "Men Kurta",
   "occasions": [
-   "Diwali Party",
+   "Diwali",
    "Festive Party",
-   "Reception",
-   "Family Function"
+   "Festive Party",
+   "Diwali"
   ],
   "styleTags": [
    "Traditional",
@@ -14905,10 +14905,10 @@
   "weave": "Kamdani",
   "silhouette": "Men Kurta",
   "occasions": [
-   "Diwali Party",
+   "Diwali",
    "Festive Party",
-   "Reception",
-   "Family Function"
+   "Festive Party",
+   "Diwali"
   ],
   "styleTags": [
    "Traditional",
@@ -14956,10 +14956,10 @@
   "embroidery": "Resham Threadwork",
   "silhouette": "Men Kurta",
   "occasions": [
-   "Diwali Party",
+   "Diwali",
    "Festive Party",
-   "Reception",
-   "Family Function"
+   "Festive Party",
+   "Diwali"
   ],
   "styleTags": [
    "Traditional",
@@ -15007,10 +15007,10 @@
   "embroidery": "Pearl Detailing",
   "silhouette": "Men Kurta",
   "occasions": [
-   "Diwali Party",
+   "Diwali",
    "Festive Party",
-   "Reception",
-   "Family Function"
+   "Festive Party",
+   "Diwali"
   ],
   "styleTags": [
    "Traditional",
@@ -15059,10 +15059,10 @@
   "embroidery": "Tone-on-Tone",
   "silhouette": "Men Kurta",
   "occasions": [
-   "Diwali Party",
+   "Diwali",
    "Festive Party",
-   "Reception",
-   "Family Function"
+   "Festive Party",
+   "Diwali"
   ],
   "styleTags": [
    "Traditional",
@@ -15111,8 +15111,8 @@
   "silhouette": "Men Kurta Print",
   "occasions": [
    "College Fest",
-   "Daywear",
-   "Destination Wedding",
+   "College Fest",
+   "Festive Party",
    "Festive Party"
   ],
   "styleTags": [
@@ -15160,8 +15160,8 @@
   "silhouette": "Men Kurta Print",
   "occasions": [
    "College Fest",
-   "Daywear",
-   "Destination Wedding",
+   "College Fest",
+   "Festive Party",
    "Festive Party"
   ],
   "styleTags": [
@@ -15210,8 +15210,8 @@
   "silhouette": "Men Kurta Print",
   "occasions": [
    "College Fest",
-   "Daywear",
-   "Destination Wedding",
+   "College Fest",
+   "Festive Party",
    "Festive Party"
   ],
   "styleTags": [
@@ -15259,8 +15259,8 @@
   "silhouette": "Men Kurta Print",
   "occasions": [
    "College Fest",
-   "Daywear",
-   "Destination Wedding",
+   "College Fest",
+   "Festive Party",
    "Festive Party"
   ],
   "styleTags": [
@@ -15307,8 +15307,8 @@
   "silhouette": "Men Kurta Print",
   "occasions": [
    "College Fest",
-   "Daywear",
-   "Destination Wedding",
+   "College Fest",
+   "Festive Party",
    "Festive Party"
   ],
   "styleTags": [
@@ -15355,8 +15355,8 @@
   "embroidery": "Thread Embroidery",
   "silhouette": "Men Kurta",
   "occasions": [
-   "Daywear",
-   "Family Function",
+   "College Fest",
+   "Diwali",
    "Festive Party"
   ],
   "styleTags": [
@@ -15403,8 +15403,8 @@
   "embroidery": "Pearl Detailing",
   "silhouette": "Men Kurta",
   "occasions": [
-   "Daywear",
-   "Family Function",
+   "College Fest",
+   "Diwali",
    "Festive Party"
   ],
   "styleTags": [
@@ -15451,8 +15451,8 @@
   "fabric": "Cotton",
   "silhouette": "Men Kurta",
   "occasions": [
-   "Daywear",
-   "Family Function",
+   "College Fest",
+   "Diwali",
    "Festive Party"
   ],
   "styleTags": [
@@ -15499,8 +15499,8 @@
   "embroidery": "Aari",
   "silhouette": "Men Kurta",
   "occasions": [
-   "Daywear",
-   "Family Function",
+   "College Fest",
+   "Diwali",
    "Festive Party"
   ],
   "styleTags": [
@@ -15546,10 +15546,10 @@
   "fabric": "Linen",
   "silhouette": "Men Kurta",
   "occasions": [
-   "Daywear",
-   "Destination Wedding",
    "College Fest",
-   "Family Function"
+   "Festive Party",
+   "College Fest",
+   "Diwali"
   ],
   "styleTags": [
    "Traditional",
@@ -15595,10 +15595,10 @@
   "embroidery": "Tone-on-Tone",
   "silhouette": "Men Kurta",
   "occasions": [
-   "Daywear",
-   "Destination Wedding",
    "College Fest",
-   "Family Function"
+   "Festive Party",
+   "College Fest",
+   "Diwali"
   ],
   "styleTags": [
    "Traditional",
@@ -15644,10 +15644,10 @@
   "pattern": "Block Print",
   "silhouette": "Men Kurta",
   "occasions": [
-   "Daywear",
-   "Destination Wedding",
    "College Fest",
-   "Family Function"
+   "Festive Party",
+   "College Fest",
+   "Diwali"
   ],
   "styleTags": [
    "Traditional",
@@ -15693,10 +15693,10 @@
   "embroidery": "Aari",
   "silhouette": "Men Kurta",
   "occasions": [
-   "Daywear",
-   "Destination Wedding",
    "College Fest",
-   "Family Function"
+   "Festive Party",
+   "College Fest",
+   "Diwali"
   ],
   "styleTags": [
    "Traditional",
@@ -15742,9 +15742,9 @@
   "pattern": "Jaal Lattice",
   "silhouette": "Men Kurta",
   "occasions": [
-   "Reception",
-   "Winter Festive",
-   "Diwali Party"
+   "Festive Party",
+   "Diwali",
+   "Diwali"
   ],
   "styleTags": [
    "Traditional",
@@ -15790,9 +15790,9 @@
   "fabric": "Wool Blend",
   "silhouette": "Men Kurta",
   "occasions": [
-   "Reception",
-   "Winter Festive",
-   "Diwali Party"
+   "Festive Party",
+   "Diwali",
+   "Diwali"
   ],
   "styleTags": [
    "Traditional",
@@ -15839,9 +15839,9 @@
   "embroidery": "Tone-on-Tone",
   "silhouette": "Men Kurta",
   "occasions": [
-   "Reception",
-   "Winter Festive",
-   "Diwali Party"
+   "Festive Party",
+   "Diwali",
+   "Diwali"
   ],
   "styleTags": [
    "Traditional",
@@ -15888,9 +15888,9 @@
   "weave": "Zari",
   "silhouette": "Men Kurta",
   "occasions": [
-   "Sangeet",
-   "Reception",
-   "Winter Festive"
+   "Festive Party",
+   "Festive Party",
+   "Diwali"
   ],
   "styleTags": [
    "Traditional",
@@ -15938,9 +15938,9 @@
   "embroidery": "Sequit Work",
   "silhouette": "Men Kurta",
   "occasions": [
-   "Sangeet",
-   "Reception",
-   "Winter Festive"
+   "Festive Party",
+   "Festive Party",
+   "Diwali"
   ],
   "styleTags": [
    "Traditional",
@@ -15988,9 +15988,9 @@
   "embroidery": "Dabka",
   "silhouette": "Men Kurta",
   "occasions": [
-   "Sangeet",
-   "Reception",
-   "Winter Festive"
+   "Festive Party",
+   "Festive Party",
+   "Diwali"
   ],
   "styleTags": [
    "Traditional",
@@ -16038,11 +16038,11 @@
   "embroidery": "Zardozi",
   "silhouette": "Men Kurta Jacket",
   "occasions": [
-   "Reception",
-   "Sangeet",
-   "Diwali Party",
-   "Family Function",
-   "Winter Festive"
+   "Festive Party",
+   "Festive Party",
+   "Diwali",
+   "Diwali",
+   "Diwali"
   ],
   "styleTags": [
    "Traditional",
@@ -16091,11 +16091,11 @@
   "embroidery": "Gotapatti",
   "silhouette": "Men Kurta Jacket",
   "occasions": [
-   "Reception",
-   "Sangeet",
-   "Diwali Party",
-   "Family Function",
-   "Winter Festive"
+   "Festive Party",
+   "Festive Party",
+   "Diwali",
+   "Diwali",
+   "Diwali"
   ],
   "styleTags": [
    "Traditional",
@@ -16144,11 +16144,11 @@
   "embroidery": "Chikankari",
   "silhouette": "Men Kurta Jacket",
   "occasions": [
-   "Reception",
-   "Sangeet",
-   "Diwali Party",
-   "Family Function",
-   "Winter Festive"
+   "Festive Party",
+   "Festive Party",
+   "Diwali",
+   "Diwali",
+   "Diwali"
   ],
   "styleTags": [
    "Traditional",
@@ -16197,11 +16197,11 @@
   "embroidery": "Stone Work",
   "silhouette": "Men Kurta Jacket",
   "occasions": [
-   "Reception",
-   "Sangeet",
-   "Diwali Party",
-   "Family Function",
-   "Winter Festive"
+   "Festive Party",
+   "Festive Party",
+   "Diwali",
+   "Diwali",
+   "Diwali"
   ],
   "styleTags": [
    "Traditional",
@@ -16251,11 +16251,11 @@
   "embroidery": "Tone-on-Tone",
   "silhouette": "Men Kurta Jacket",
   "occasions": [
-   "Reception",
-   "Sangeet",
-   "Diwali Party",
-   "Family Function",
-   "Winter Festive"
+   "Festive Party",
+   "Festive Party",
+   "Diwali",
+   "Diwali",
+   "Diwali"
   ],
   "styleTags": [
    "Traditional",
@@ -16305,8 +16305,8 @@
   "silhouette": "Men Kurta",
   "occasions": [
    "Festive Party",
-   "Wedding",
-   "Reception"
+   "Festive Party",
+   "Festive Party"
   ],
   "styleTags": [
    "Traditional",
@@ -16354,8 +16354,8 @@
   "silhouette": "Men Kurta",
   "occasions": [
    "Festive Party",
-   "Wedding",
-   "Reception"
+   "Festive Party",
+   "Festive Party"
   ],
   "styleTags": [
    "Traditional",
@@ -16403,8 +16403,8 @@
   "silhouette": "Men Kurta",
   "occasions": [
    "Festive Party",
-   "Wedding",
-   "Reception"
+   "Festive Party",
+   "Festive Party"
   ],
   "styleTags": [
    "Traditional",
@@ -16452,8 +16452,8 @@
   "silhouette": "Men Kurta",
   "occasions": [
    "Festive Party",
-   "Wedding",
-   "Reception"
+   "Festive Party",
+   "Festive Party"
   ],
   "styleTags": [
    "Traditional",
@@ -16501,8 +16501,8 @@
   "silhouette": "Men Kurta",
   "occasions": [
    "Festive Party",
-   "Wedding",
-   "Reception"
+   "Festive Party",
+   "Festive Party"
   ],
   "styleTags": [
    "Traditional",
@@ -16550,9 +16550,9 @@
   "embroidery": "Chikankari",
   "silhouette": "Men Short Kurta",
   "occasions": [
-   "Daywear",
    "College Fest",
-   "Date Night"
+   "College Fest",
+   "Festive Party"
   ],
   "styleTags": [
    "Traditional",
@@ -16599,9 +16599,9 @@
   "pattern": "Block Print",
   "silhouette": "Men Short Kurta",
   "occasions": [
-   "Daywear",
    "College Fest",
-   "Date Night"
+   "College Fest",
+   "Festive Party"
   ],
   "styleTags": [
    "Traditional",
@@ -16648,9 +16648,9 @@
   "embroidery": "Aari",
   "silhouette": "Men Short Kurta",
   "occasions": [
-   "Daywear",
    "College Fest",
-   "Date Night"
+   "College Fest",
+   "Festive Party"
   ],
   "styleTags": [
    "Traditional",
@@ -16697,9 +16697,9 @@
   "embroidery": "Pearl Detailing",
   "silhouette": "Men Short Kurta",
   "occasions": [
-   "Daywear",
    "College Fest",
-   "Date Night"
+   "College Fest",
+   "Festive Party"
   ],
   "styleTags": [
    "Traditional",
@@ -16747,10 +16747,10 @@
   "weave": "Zari",
   "silhouette": "Men Jacket",
   "occasions": [
-   "Wedding",
-   "Reception",
-   "Sangeet",
-   "Diwali Party"
+   "Festive Party",
+   "Festive Party",
+   "Festive Party",
+   "Diwali"
   ],
   "styleTags": [
    "Contemporary",
@@ -16798,10 +16798,10 @@
   "pattern": "Buti Motifs",
   "silhouette": "Men Jacket",
   "occasions": [
-   "Wedding",
-   "Reception",
-   "Sangeet",
-   "Diwali Party"
+   "Festive Party",
+   "Festive Party",
+   "Festive Party",
+   "Diwali"
   ],
   "styleTags": [
    "Contemporary",
@@ -16849,10 +16849,10 @@
   "embroidery": "Sequit Work",
   "silhouette": "Men Jacket",
   "occasions": [
-   "Wedding",
-   "Reception",
-   "Sangeet",
-   "Diwali Party"
+   "Festive Party",
+   "Festive Party",
+   "Festive Party",
+   "Diwali"
   ],
   "styleTags": [
    "Contemporary",
@@ -16900,10 +16900,10 @@
   "pattern": "Jaal Lattice",
   "silhouette": "Men Jacket",
   "occasions": [
-   "Wedding",
-   "Reception",
-   "Sangeet",
-   "Diwali Party"
+   "Festive Party",
+   "Festive Party",
+   "Festive Party",
+   "Diwali"
   ],
   "styleTags": [
    "Contemporary",
@@ -16950,10 +16950,10 @@
   "fabric": "Raw Silk",
   "silhouette": "Men Jacket",
   "occasions": [
-   "Wedding",
-   "Reception",
-   "Sangeet",
-   "Diwali Party"
+   "Festive Party",
+   "Festive Party",
+   "Festive Party",
+   "Diwali"
   ],
   "styleTags": [
    "Contemporary",
@@ -17001,9 +17001,9 @@
   "embroidery": "Zardozi",
   "silhouette": "Men Jacket",
   "occasions": [
-   "Reception",
-   "Winter Festive",
-   "Night Out"
+   "Festive Party",
+   "Diwali",
+   "Festive Party"
   ],
   "styleTags": [
    "Contemporary",
@@ -17051,9 +17051,9 @@
   "embroidery": "Stone Work",
   "silhouette": "Men Jacket",
   "occasions": [
-   "Reception",
-   "Winter Festive",
-   "Night Out"
+   "Festive Party",
+   "Diwali",
+   "Festive Party"
   ],
   "styleTags": [
    "Contemporary",
@@ -17102,9 +17102,9 @@
   "embroidery": "Dabka",
   "silhouette": "Men Jacket",
   "occasions": [
-   "Reception",
-   "Winter Festive",
-   "Night Out"
+   "Festive Party",
+   "Diwali",
+   "Festive Party"
   ],
   "styleTags": [
    "Contemporary",
@@ -17152,9 +17152,9 @@
   "embroidery": "Zardozi",
   "silhouette": "Men Jacket",
   "occasions": [
-   "Reception",
-   "Winter Festive",
-   "Night Out"
+   "Festive Party",
+   "Diwali",
+   "Festive Party"
   ],
   "styleTags": [
    "Contemporary",
@@ -17202,10 +17202,10 @@
   "embroidery": "Chikankari",
   "silhouette": "Men Jacket",
   "occasions": [
-   "Reception",
-   "Destination Wedding",
-   "Diwali Party",
-   "Wedding Guest"
+   "Festive Party",
+   "Festive Party",
+   "Diwali",
+   "Festive Party"
   ],
   "styleTags": [
    "Contemporary",
@@ -17252,10 +17252,10 @@
   "embroidery": "Thread Embroidery",
   "silhouette": "Men Jacket",
   "occasions": [
-   "Reception",
-   "Destination Wedding",
-   "Diwali Party",
-   "Wedding Guest"
+   "Festive Party",
+   "Festive Party",
+   "Diwali",
+   "Festive Party"
   ],
   "styleTags": [
    "Contemporary",
@@ -17302,10 +17302,10 @@
   "embroidery": "Tone-on-Tone",
   "silhouette": "Men Jacket",
   "occasions": [
-   "Reception",
-   "Destination Wedding",
-   "Diwali Party",
-   "Wedding Guest"
+   "Festive Party",
+   "Festive Party",
+   "Diwali",
+   "Festive Party"
   ],
   "styleTags": [
    "Contemporary",
@@ -17352,9 +17352,9 @@
   "embroidery": "Zardozi",
   "silhouette": "Men Bandhgala",
   "occasions": [
-   "Reception",
-   "Wedding",
-   "Sangeet"
+   "Festive Party",
+   "Festive Party",
+   "Festive Party"
   ],
   "styleTags": [
    "Traditional",
@@ -17402,9 +17402,9 @@
   "embroidery": "Gotapatti",
   "silhouette": "Men Bandhgala",
   "occasions": [
-   "Reception",
-   "Wedding",
-   "Sangeet"
+   "Festive Party",
+   "Festive Party",
+   "Festive Party"
   ],
   "styleTags": [
    "Traditional",
@@ -17452,9 +17452,9 @@
   "embroidery": "Sequit Work",
   "silhouette": "Men Bandhgala",
   "occasions": [
-   "Reception",
-   "Wedding",
-   "Sangeet"
+   "Festive Party",
+   "Festive Party",
+   "Festive Party"
   ],
   "styleTags": [
    "Traditional",
@@ -17502,9 +17502,9 @@
   "embroidery": "Resham Threadwork",
   "silhouette": "Men Bandhgala",
   "occasions": [
-   "Reception",
-   "Wedding",
-   "Sangeet"
+   "Festive Party",
+   "Festive Party",
+   "Festive Party"
   ],
   "styleTags": [
    "Traditional",
@@ -17552,9 +17552,9 @@
   "embroidery": "Dabka",
   "silhouette": "Men Bandhgala",
   "occasions": [
-   "Reception",
-   "Wedding",
-   "Sangeet"
+   "Festive Party",
+   "Festive Party",
+   "Festive Party"
   ],
   "styleTags": [
    "Traditional",
@@ -17602,9 +17602,9 @@
   "embroidery": "Zardozi",
   "silhouette": "Men Bandhgala",
   "occasions": [
-   "Reception",
-   "Wedding",
-   "Sangeet"
+   "Festive Party",
+   "Festive Party",
+   "Festive Party"
   ],
   "styleTags": [
    "Traditional",
@@ -17652,9 +17652,9 @@
   "embroidery": "Zardozi",
   "silhouette": "Men Sherwani",
   "occasions": [
-   "Reception",
-   "Wedding",
-   "Sangeet"
+   "Festive Party",
+   "Festive Party",
+   "Festive Party"
   ],
   "styleTags": [
    "Traditional",
@@ -17702,9 +17702,9 @@
   "embroidery": "Dabka",
   "silhouette": "Men Sherwani",
   "occasions": [
-   "Reception",
-   "Wedding",
-   "Sangeet"
+   "Festive Party",
+   "Festive Party",
+   "Festive Party"
   ],
   "styleTags": [
    "Traditional",
@@ -17752,9 +17752,9 @@
   "embroidery": "Stone Work",
   "silhouette": "Men Sherwani",
   "occasions": [
-   "Reception",
-   "Wedding",
-   "Sangeet"
+   "Festive Party",
+   "Festive Party",
+   "Festive Party"
   ],
   "styleTags": [
    "Traditional",
@@ -17803,9 +17803,9 @@
   "embroidery": "Resham Threadwork",
   "silhouette": "Men Sherwani",
   "occasions": [
-   "Reception",
-   "Wedding",
-   "Sangeet"
+   "Festive Party",
+   "Festive Party",
+   "Festive Party"
   ],
   "styleTags": [
    "Traditional",
@@ -17854,7 +17854,7 @@
   "silhouette": "Men Jacket",
   "occasions": [
    "College Fest",
-   "Night Out",
+   "Festive Party",
    "Navratri"
   ],
   "styleTags": [
@@ -17903,7 +17903,7 @@
   "silhouette": "Men Jacket",
   "occasions": [
    "College Fest",
-   "Night Out",
+   "Festive Party",
    "Navratri"
   ],
   "styleTags": [
@@ -17952,7 +17952,7 @@
   "silhouette": "Men Jacket",
   "occasions": [
    "College Fest",
-   "Night Out",
+   "Festive Party",
    "Navratri"
   ],
   "styleTags": [
@@ -18000,9 +18000,9 @@
   "embroidery": "Thread Embroidery",
   "silhouette": "Men Jacket",
   "occasions": [
-   "Sangeet",
+   "Festive Party",
    "Navratri",
-   "Night Out"
+   "Festive Party"
   ],
   "styleTags": [
    "Contemporary",
@@ -18049,9 +18049,9 @@
   "embroidery": "Mirror Work",
   "silhouette": "Men Jacket",
   "occasions": [
-   "Sangeet",
+   "Festive Party",
    "Navratri",
-   "Night Out"
+   "Festive Party"
   ],
   "styleTags": [
    "Contemporary",
@@ -18099,9 +18099,9 @@
   "embroidery": "Resham Threadwork",
   "silhouette": "Men Jacket",
   "occasions": [
-   "Sangeet",
+   "Festive Party",
    "Navratri",
-   "Night Out"
+   "Festive Party"
   ],
   "styleTags": [
    "Contemporary",
@@ -18148,9 +18148,9 @@
   "embroidery": "Thread Embroidery",
   "silhouette": "Men Kurta",
   "occasions": [
-   "Sangeet",
+   "Festive Party",
    "College Fest",
-   "Night Out"
+   "Festive Party"
   ],
   "styleTags": [
    "Traditional",
@@ -18197,9 +18197,9 @@
   "pattern": "Block Print",
   "silhouette": "Men Kurta",
   "occasions": [
-   "Sangeet",
+   "Festive Party",
    "College Fest",
-   "Night Out"
+   "Festive Party"
   ],
   "styleTags": [
    "Traditional",
@@ -18246,9 +18246,9 @@
   "embroidery": "Pearl Detailing",
   "silhouette": "Men Kurta",
   "occasions": [
-   "Sangeet",
+   "Festive Party",
    "College Fest",
-   "Night Out"
+   "Festive Party"
   ],
   "styleTags": [
    "Traditional",
@@ -18296,9 +18296,9 @@
   "embroidery": "Sequit Work",
   "silhouette": "Men Kurta",
   "occasions": [
-   "Sangeet",
+   "Festive Party",
    "College Fest",
-   "Night Out"
+   "Festive Party"
   ],
   "styleTags": [
    "Traditional",
@@ -18346,8 +18346,8 @@
   "silhouette": "Men Kurta",
   "occasions": [
    "Festive Party",
-   "Engagement",
-   "Destination Wedding",
+   "Festive Party",
+   "Festive Party",
    "Navratri"
   ],
   "styleTags": [
@@ -18396,8 +18396,8 @@
   "silhouette": "Men Kurta",
   "occasions": [
    "Festive Party",
-   "Engagement",
-   "Destination Wedding",
+   "Festive Party",
+   "Festive Party",
    "Navratri"
   ],
   "styleTags": [
@@ -18446,8 +18446,8 @@
   "silhouette": "Men Kurta",
   "occasions": [
    "Festive Party",
-   "Engagement",
-   "Destination Wedding",
+   "Festive Party",
+   "Festive Party",
    "Navratri"
   ],
   "styleTags": [
@@ -18496,8 +18496,8 @@
   "silhouette": "Men Kurta",
   "occasions": [
    "Festive Party",
-   "Engagement",
-   "Destination Wedding",
+   "Festive Party",
+   "Festive Party",
    "Navratri"
   ],
   "styleTags": [
@@ -18545,13 +18545,13 @@
   "embroidery": "Zardozi",
   "silhouette": "Men Waistcoat",
   "occasions": [
-   "Sangeet",
-   "Reception",
-   "Wedding",
-   "Diwali Party",
-   "Family Function",
-   "Date Night",
-   "Wedding Guest"
+   "Festive Party",
+   "Festive Party",
+   "Festive Party",
+   "Diwali",
+   "Diwali",
+   "Festive Party",
+   "Festive Party"
   ],
   "styleTags": [
    "Contemporary",
@@ -18600,13 +18600,13 @@
   "embroidery": "Resham Threadwork",
   "silhouette": "Men Waistcoat",
   "occasions": [
-   "Sangeet",
-   "Reception",
-   "Wedding",
-   "Diwali Party",
-   "Family Function",
-   "Date Night",
-   "Wedding Guest"
+   "Festive Party",
+   "Festive Party",
+   "Festive Party",
+   "Diwali",
+   "Diwali",
+   "Festive Party",
+   "Festive Party"
   ],
   "styleTags": [
    "Contemporary",
@@ -18655,13 +18655,13 @@
   "embroidery": "Thread Embroidery",
   "silhouette": "Men Waistcoat",
   "occasions": [
-   "Sangeet",
-   "Reception",
-   "Wedding",
-   "Diwali Party",
-   "Family Function",
-   "Date Night",
-   "Wedding Guest"
+   "Festive Party",
+   "Festive Party",
+   "Festive Party",
+   "Diwali",
+   "Diwali",
+   "Festive Party",
+   "Festive Party"
   ],
   "styleTags": [
    "Contemporary",
@@ -18710,13 +18710,13 @@
   "embroidery": "Pearl Detailing",
   "silhouette": "Men Waistcoat",
   "occasions": [
-   "Sangeet",
-   "Reception",
-   "Wedding",
-   "Diwali Party",
-   "Family Function",
-   "Date Night",
-   "Wedding Guest"
+   "Festive Party",
+   "Festive Party",
+   "Festive Party",
+   "Diwali",
+   "Diwali",
+   "Festive Party",
+   "Festive Party"
   ],
   "styleTags": [
    "Contemporary",
@@ -18766,13 +18766,13 @@
   "embroidery": "Mirror Work",
   "silhouette": "Men Waistcoat",
   "occasions": [
-   "Sangeet",
-   "Reception",
-   "Wedding",
-   "Diwali Party",
-   "Family Function",
-   "Date Night",
-   "Wedding Guest"
+   "Festive Party",
+   "Festive Party",
+   "Festive Party",
+   "Diwali",
+   "Diwali",
+   "Festive Party",
+   "Festive Party"
   ],
   "styleTags": [
    "Contemporary",
@@ -18822,13 +18822,13 @@
   "embroidery": "Zardozi",
   "silhouette": "Men Waistcoat",
   "occasions": [
-   "Sangeet",
-   "Reception",
-   "Wedding",
-   "Diwali Party",
-   "Family Function",
-   "Date Night",
-   "Wedding Guest"
+   "Festive Party",
+   "Festive Party",
+   "Festive Party",
+   "Diwali",
+   "Diwali",
+   "Festive Party",
+   "Festive Party"
   ],
   "styleTags": [
    "Contemporary",
@@ -18877,8 +18877,8 @@
   "silhouette": "Men Kurta Trouser",
   "occasions": [
    "College Fest",
-   "Daywear",
-   "Date Night"
+   "College Fest",
+   "Festive Party"
   ],
   "styleTags": [
    "Traditional",
@@ -18926,8 +18926,8 @@
   "silhouette": "Men Kurta Trouser",
   "occasions": [
    "College Fest",
-   "Daywear",
-   "Date Night"
+   "College Fest",
+   "Festive Party"
   ],
   "styleTags": [
    "Traditional",
@@ -18975,8 +18975,8 @@
   "silhouette": "Men Kurta Trouser",
   "occasions": [
    "College Fest",
-   "Daywear",
-   "Date Night"
+   "College Fest",
+   "Festive Party"
   ],
   "styleTags": [
    "Traditional",
@@ -19024,8 +19024,8 @@
   "silhouette": "Men Kurta Trouser",
   "occasions": [
    "College Fest",
-   "Daywear",
-   "Date Night"
+   "College Fest",
+   "Festive Party"
   ],
   "styleTags": [
    "Traditional",
@@ -19072,9 +19072,9 @@
   "silhouette": "Men Kurta Trouser",
   "occasions": [
    "College Fest",
-   "Daywear",
-   "Work-to-Dinner",
-   "Destination Wedding"
+   "College Fest",
+   "Festive Party",
+   "Festive Party"
   ],
   "styleTags": [
    "Traditional",
@@ -19123,9 +19123,9 @@
   "silhouette": "Men Kurta Trouser",
   "occasions": [
    "College Fest",
-   "Daywear",
-   "Work-to-Dinner",
-   "Destination Wedding"
+   "College Fest",
+   "Festive Party",
+   "Festive Party"
   ],
   "styleTags": [
    "Traditional",
@@ -19175,9 +19175,9 @@
   "silhouette": "Men Kurta Trouser",
   "occasions": [
    "College Fest",
-   "Daywear",
-   "Work-to-Dinner",
-   "Destination Wedding"
+   "College Fest",
+   "Festive Party",
+   "Festive Party"
   ],
   "styleTags": [
    "Traditional",
@@ -19227,9 +19227,9 @@
   "silhouette": "Men Kurta Trouser",
   "occasions": [
    "College Fest",
-   "Daywear",
-   "Work-to-Dinner",
-   "Destination Wedding"
+   "College Fest",
+   "Festive Party",
+   "Festive Party"
   ],
   "styleTags": [
    "Traditional",
@@ -19278,10 +19278,10 @@
   "embroidery": "Tone-on-Tone",
   "silhouette": "Men Co Ord",
   "occasions": [
-   "Daywear",
-   "Reception",
+   "College Fest",
    "Festive Party",
-   "Work-to-Dinner"
+   "Festive Party",
+   "Festive Party"
   ],
   "styleTags": [
    "Contemporary",
@@ -19330,10 +19330,10 @@
   "embroidery": "Pearl Detailing",
   "silhouette": "Men Co Ord",
   "occasions": [
-   "Daywear",
-   "Reception",
+   "College Fest",
    "Festive Party",
-   "Work-to-Dinner"
+   "Festive Party",
+   "Festive Party"
   ],
   "styleTags": [
    "Contemporary",
@@ -19383,10 +19383,10 @@
   "pattern": "Buti Motifs",
   "silhouette": "Men Co Ord",
   "occasions": [
-   "Daywear",
-   "Reception",
+   "College Fest",
    "Festive Party",
-   "Work-to-Dinner"
+   "Festive Party",
+   "Festive Party"
   ],
   "styleTags": [
    "Contemporary",
@@ -19435,10 +19435,10 @@
   "weave": "Zari",
   "silhouette": "Men Co Ord",
   "occasions": [
-   "Daywear",
-   "Reception",
+   "College Fest",
    "Festive Party",
-   "Work-to-Dinner"
+   "Festive Party",
+   "Festive Party"
   ],
   "styleTags": [
    "Contemporary",
@@ -19487,10 +19487,10 @@
   "weave": "Kamdani",
   "silhouette": "Men Co Ord",
   "occasions": [
-   "Daywear",
-   "Reception",
+   "College Fest",
    "Festive Party",
-   "Work-to-Dinner"
+   "Festive Party",
+   "Festive Party"
   ],
   "styleTags": [
    "Contemporary",
@@ -19539,9 +19539,9 @@
   "embroidery": "Pearl Detailing",
   "silhouette": "Men Sherwani",
   "occasions": [
-   "Daywear",
-   "Winter Festive",
-   "Reception"
+   "College Fest",
+   "Diwali",
+   "Festive Party"
   ],
   "styleTags": [
    "Traditional",
@@ -19590,9 +19590,9 @@
   "embroidery": "Sequit Work",
   "silhouette": "Men Sherwani",
   "occasions": [
-   "Daywear",
-   "Winter Festive",
-   "Reception"
+   "College Fest",
+   "Diwali",
+   "Festive Party"
   ],
   "styleTags": [
    "Traditional",
@@ -19640,9 +19640,9 @@
   "embroidery": "Dabka",
   "silhouette": "Men Sherwani",
   "occasions": [
-   "Daywear",
-   "Winter Festive",
-   "Reception"
+   "College Fest",
+   "Diwali",
+   "Festive Party"
   ],
   "styleTags": [
    "Traditional",
@@ -19690,9 +19690,9 @@
   "embroidery": "Thread Embroidery",
   "silhouette": "Men Co Ord",
   "occasions": [
-   "Sangeet",
+   "Festive Party",
    "College Fest",
-   "Night Out"
+   "Festive Party"
   ],
   "styleTags": [
    "Contemporary",
@@ -19739,9 +19739,9 @@
   "pattern": "Block Print",
   "silhouette": "Men Co Ord",
   "occasions": [
-   "Sangeet",
+   "Festive Party",
    "College Fest",
-   "Night Out"
+   "Festive Party"
   ],
   "styleTags": [
    "Contemporary",
@@ -19788,9 +19788,9 @@
   "embroidery": "Tone-on-Tone",
   "silhouette": "Men Co Ord",
   "occasions": [
-   "Sangeet",
+   "Festive Party",
    "College Fest",
-   "Night Out"
+   "Festive Party"
   ],
   "styleTags": [
    "Contemporary",
@@ -19837,9 +19837,9 @@
   "embroidery": "Thread Embroidery",
   "silhouette": "Men Co Ord",
   "occasions": [
-   "Sangeet",
+   "Festive Party",
    "College Fest",
-   "Night Out"
+   "Festive Party"
   ],
   "styleTags": [
    "Contemporary",
@@ -19887,9 +19887,9 @@
   "silhouette": "Men Kurta Jacket",
   "occasions": [
    "College Fest",
-   "Night Out",
-   "Reception",
-   "Sangeet"
+   "Festive Party",
+   "Festive Party",
+   "Festive Party"
   ],
   "styleTags": [
    "Traditional",
@@ -19940,9 +19940,9 @@
   "silhouette": "Men Kurta Jacket",
   "occasions": [
    "College Fest",
-   "Night Out",
-   "Reception",
-   "Sangeet"
+   "Festive Party",
+   "Festive Party",
+   "Festive Party"
   ],
   "styleTags": [
    "Traditional",
@@ -19993,9 +19993,9 @@
   "silhouette": "Men Kurta Jacket",
   "occasions": [
    "College Fest",
-   "Night Out",
-   "Reception",
-   "Sangeet"
+   "Festive Party",
+   "Festive Party",
+   "Festive Party"
   ],
   "styleTags": [
    "Traditional",
@@ -20780,9 +20780,9 @@
   "embroidery": "Tone-on-Tone",
   "silhouette": "Men Co Ord",
   "occasions": [
-   "Work-to-Dinner",
-   "Daywear",
-   "Date Night"
+   "Festive Party",
+   "College Fest",
+   "Festive Party"
   ],
   "styleTags": [
    "Contemporary",
@@ -20829,9 +20829,9 @@
   "embroidery": "Aari",
   "silhouette": "Men Co Ord",
   "occasions": [
-   "Work-to-Dinner",
-   "Daywear",
-   "Date Night"
+   "Festive Party",
+   "College Fest",
+   "Festive Party"
   ],
   "styleTags": [
    "Contemporary",
@@ -20878,9 +20878,9 @@
   "pattern": "Block Print",
   "silhouette": "Men Co Ord",
   "occasions": [
-   "Work-to-Dinner",
-   "Daywear",
-   "Date Night"
+   "Festive Party",
+   "College Fest",
+   "Festive Party"
   ],
   "styleTags": [
    "Contemporary",
@@ -20928,7 +20928,7 @@
   "silhouette": "Men Co Ord",
   "occasions": [
    "College Fest",
-   "Daywear"
+   "College Fest"
   ],
   "styleTags": [
    "Contemporary",
@@ -20976,7 +20976,7 @@
   "silhouette": "Men Co Ord",
   "occasions": [
    "College Fest",
-   "Daywear"
+   "College Fest"
   ],
   "styleTags": [
    "Contemporary",
@@ -21023,7 +21023,7 @@
   "silhouette": "Men Co Ord",
   "occasions": [
    "College Fest",
-   "Daywear"
+   "College Fest"
   ],
   "styleTags": [
    "Contemporary",
@@ -21069,8 +21069,8 @@
   "embroidery": "Dabka",
   "silhouette": "Men Co Ord",
   "occasions": [
-   "Wedding",
-   "Reception",
+   "Festive Party",
+   "Festive Party",
    "Festive Party"
   ],
   "styleTags": [
@@ -21118,8 +21118,8 @@
   "embroidery": "Pearl Detailing",
   "silhouette": "Men Co Ord",
   "occasions": [
-   "Wedding",
-   "Reception",
+   "Festive Party",
+   "Festive Party",
    "Festive Party"
   ],
   "styleTags": [
@@ -21168,8 +21168,8 @@
   "silhouette": "Men Dhoti",
   "occasions": [
    "Festive Party",
-   "Puja & Temple",
-   "Family Function"
+   "Diwali",
+   "Diwali"
   ],
   "styleTags": [
    "Traditional"
@@ -21215,8 +21215,8 @@
   "silhouette": "Men Dhoti",
   "occasions": [
    "Festive Party",
-   "Puja & Temple",
-   "Family Function"
+   "Diwali",
+   "Diwali"
   ],
   "styleTags": [
    "Traditional"
@@ -21262,8 +21262,8 @@
   "silhouette": "Men Dhoti",
   "occasions": [
    "Festive Party",
-   "Puja & Temple",
-   "Family Function"
+   "Diwali",
+   "Diwali"
   ],
   "styleTags": [
    "Traditional"
@@ -21308,9 +21308,9 @@
   "silhouette": "Earring",
   "occasions": [
    "Festive Party",
-   "Wedding",
-   "Diwali Party",
-   "Sangeet"
+   "Festive Party",
+   "Diwali",
+   "Festive Party"
   ],
   "styleTags": [
    "Festive",
@@ -21353,9 +21353,9 @@
   "silhouette": "Earring",
   "occasions": [
    "Festive Party",
-   "Wedding",
-   "Diwali Party",
-   "Sangeet"
+   "Festive Party",
+   "Diwali",
+   "Festive Party"
   ],
   "styleTags": [
    "Festive",
@@ -21398,9 +21398,9 @@
   "silhouette": "Earring",
   "occasions": [
    "Festive Party",
-   "Wedding",
-   "Diwali Party",
-   "Sangeet"
+   "Festive Party",
+   "Diwali",
+   "Festive Party"
   ],
   "styleTags": [
    "Festive",
@@ -21443,9 +21443,9 @@
   "fabric": "Kundan Set",
   "silhouette": "Earring",
   "occasions": [
-   "Sangeet",
-   "Wedding",
-   "Reception"
+   "Festive Party",
+   "Festive Party",
+   "Festive Party"
   ],
   "styleTags": [
    "Festive",
@@ -21488,9 +21488,9 @@
   "embroidery": "Stone Work",
   "silhouette": "Earring",
   "occasions": [
-   "Sangeet",
-   "Wedding",
-   "Reception"
+   "Festive Party",
+   "Festive Party",
+   "Festive Party"
   ],
   "styleTags": [
    "Festive",
@@ -21533,8 +21533,8 @@
   "fabric": "Freshwater Pearl",
   "silhouette": "Earring",
   "occasions": [
-   "Daywear",
-   "Work-to-Dinner",
+   "College Fest",
+   "Festive Party",
    "College Fest"
   ],
   "styleTags": [
@@ -21578,8 +21578,8 @@
   "embroidery": "Stone Work",
   "silhouette": "Earring",
   "occasions": [
-   "Daywear",
-   "Work-to-Dinner",
+   "College Fest",
+   "Festive Party",
    "College Fest"
   ],
   "styleTags": [
@@ -21622,8 +21622,8 @@
   "fabric": "Gold-Plated Alloy",
   "silhouette": "Earring",
   "occasions": [
-   "Daywear",
-   "Night Out",
+   "College Fest",
+   "Festive Party",
    "College Fest"
   ],
   "styleTags": [
@@ -21665,8 +21665,8 @@
   "fabric": "Beaded Brass",
   "silhouette": "Earring",
   "occasions": [
-   "Daywear",
-   "Night Out",
+   "College Fest",
+   "Festive Party",
    "College Fest"
   ],
   "styleTags": [
@@ -21707,9 +21707,9 @@
   "fabric": "Uncut Polki",
   "silhouette": "Earring",
   "occasions": [
-   "Wedding",
-   "Reception",
-   "Engagement"
+   "Festive Party",
+   "Festive Party",
+   "Festive Party"
   ],
   "styleTags": [
    "Occasion",
@@ -21751,9 +21751,9 @@
   "embroidery": "Stone Work",
   "silhouette": "Earring",
   "occasions": [
-   "Wedding",
-   "Reception",
-   "Engagement"
+   "Festive Party",
+   "Festive Party",
+   "Festive Party"
   ],
   "styleTags": [
    "Occasion",
@@ -21795,8 +21795,8 @@
   "fabric": "Uncut Polki",
   "silhouette": "Earring",
   "occasions": [
-   "Reception",
-   "Engagement"
+   "Festive Party",
+   "Festive Party"
   ],
   "styleTags": [
    "Occasion",
@@ -21837,8 +21837,8 @@
   "fabric": "Gold Vermeil",
   "silhouette": "Earring",
   "occasions": [
-   "Reception",
-   "Engagement"
+   "Festive Party",
+   "Festive Party"
   ],
   "styleTags": [
    "Occasion",
@@ -21880,8 +21880,8 @@
   "silhouette": "Earring",
   "occasions": [
    "College Fest",
-   "Daywear",
-   "Night Out"
+   "College Fest",
+   "Festive Party"
   ],
   "styleTags": [
    "Everyday"
@@ -21922,8 +21922,8 @@
   "silhouette": "Earring",
   "occasions": [
    "College Fest",
-   "Daywear",
-   "Night Out"
+   "College Fest",
+   "Festive Party"
   ],
   "styleTags": [
    "Everyday"
@@ -21965,7 +21965,7 @@
   "silhouette": "Earring",
   "occasions": [
    "Festive Party",
-   "Sangeet"
+   "Festive Party"
   ],
   "styleTags": [
    "Festive"
@@ -22007,7 +22007,7 @@
   "silhouette": "Earring",
   "occasions": [
    "Festive Party",
-   "Sangeet"
+   "Festive Party"
   ],
   "styleTags": [
    "Festive"
@@ -22048,7 +22048,7 @@
   "silhouette": "Earring",
   "occasions": [
    "College Fest",
-   "Night Out"
+   "Festive Party"
   ],
   "styleTags": [
    "Everyday"
@@ -22089,7 +22089,7 @@
   "silhouette": "Earring",
   "occasions": [
    "College Fest",
-   "Night Out"
+   "Festive Party"
   ],
   "styleTags": [
    "Everyday"
@@ -22129,9 +22129,9 @@
   "fabric": "Resin Flower",
   "silhouette": "Earring",
   "occasions": [
-   "Daywear",
    "College Fest",
-   "Mehendi"
+   "College Fest",
+   "Festive Party"
   ],
   "styleTags": [
    "Everyday",
@@ -22173,9 +22173,9 @@
   "fabric": "Beaded Brass",
   "silhouette": "Earring",
   "occasions": [
-   "Daywear",
    "College Fest",
-   "Mehendi"
+   "College Fest",
+   "Festive Party"
   ],
   "styleTags": [
    "Everyday",
@@ -22216,9 +22216,9 @@
   "fabric": "Uncut Polki",
   "silhouette": "Necklace",
   "occasions": [
-   "Reception",
-   "Engagement",
-   "Sangeet"
+   "Festive Party",
+   "Festive Party",
+   "Festive Party"
   ],
   "styleTags": [
    "Festive",
@@ -22260,9 +22260,9 @@
   "fabric": "Pearl",
   "silhouette": "Necklace",
   "occasions": [
-   "Reception",
-   "Engagement",
-   "Sangeet"
+   "Festive Party",
+   "Festive Party",
+   "Festive Party"
   ],
   "styleTags": [
    "Festive",
@@ -22306,7 +22306,7 @@
   "occasions": [
    "Navratri",
    "Garba",
-   "Sangeet"
+   "Festive Party"
   ],
   "styleTags": [
    "Festive"
@@ -22348,7 +22348,7 @@
   "occasions": [
    "Navratri",
    "Garba",
-   "Sangeet"
+   "Festive Party"
   ],
   "styleTags": [
    "Festive"
@@ -22388,9 +22388,9 @@
   "fabric": "Lac & Glass Beads",
   "silhouette": "Necklace",
   "occasions": [
-   "Wedding",
-   "Engagement",
-   "Reception"
+   "Festive Party",
+   "Festive Party",
+   "Festive Party"
   ],
   "styleTags": [
    "Occasion",
@@ -22431,9 +22431,9 @@
   "fabric": "Pearl",
   "silhouette": "Necklace",
   "occasions": [
-   "Wedding",
-   "Engagement",
-   "Reception"
+   "Festive Party",
+   "Festive Party",
+   "Festive Party"
   ],
   "styleTags": [
    "Occasion",
@@ -22475,9 +22475,9 @@
   "fabric": "Freshwater Pearl",
   "silhouette": "Necklace",
   "occasions": [
-   "Daywear",
-   "Work-to-Dinner",
-   "Night Out"
+   "College Fest",
+   "Festive Party",
+   "Festive Party"
   ],
   "styleTags": [
    "Everyday",
@@ -22519,9 +22519,9 @@
   "fabric": "Pearl",
   "silhouette": "Necklace",
   "occasions": [
-   "Daywear",
-   "Work-to-Dinner",
-   "Night Out"
+   "College Fest",
+   "Festive Party",
+   "Festive Party"
   ],
   "styleTags": [
    "Everyday",
@@ -22563,9 +22563,9 @@
   "fabric": "Kundan",
   "silhouette": "Necklace",
   "occasions": [
-   "Reception",
-   "Sangeet",
-   "Engagement"
+   "Festive Party",
+   "Festive Party",
+   "Festive Party"
   ],
   "styleTags": [
    "Festive",
@@ -22607,9 +22607,9 @@
   "fabric": "Uncut Polki",
   "silhouette": "Necklace",
   "occasions": [
-   "Reception",
-   "Sangeet",
-   "Engagement"
+   "Festive Party",
+   "Festive Party",
+   "Festive Party"
   ],
   "styleTags": [
    "Festive",
@@ -22652,7 +22652,7 @@
   "silhouette": "Necklace",
   "occasions": [
    "Festive Party",
-   "Daywear"
+   "College Fest"
   ],
   "styleTags": [
    "Everyday"
@@ -22693,7 +22693,7 @@
   "silhouette": "Necklace",
   "occasions": [
    "Festive Party",
-   "Daywear"
+   "College Fest"
   ],
   "styleTags": [
    "Everyday"
@@ -22733,9 +22733,9 @@
   "fabric": "Cotton Thread & Brass",
   "silhouette": "Necklace",
   "occasions": [
-   "Puja & Temple",
-   "Daywear",
-   "Diwali Party"
+   "Diwali",
+   "College Fest",
+   "Diwali"
   ],
   "styleTags": [
    "Everyday"
@@ -22776,9 +22776,9 @@
   "embroidery": "Resham Threadwork",
   "silhouette": "Necklace",
   "occasions": [
-   "Puja & Temple",
-   "Daywear",
-   "Diwali Party"
+   "Diwali",
+   "College Fest",
+   "Diwali"
   ],
   "styleTags": [
    "Everyday"
@@ -22818,9 +22818,9 @@
   "fabric": "Resin Stone",
   "silhouette": "Ring",
   "occasions": [
-   "Daywear",
    "College Fest",
-   "Night Out"
+   "College Fest",
+   "Festive Party"
   ],
   "styleTags": [
    "Everyday"
@@ -22861,9 +22861,9 @@
   "embroidery": "Stone Work",
   "silhouette": "Ring",
   "occasions": [
-   "Daywear",
    "College Fest",
-   "Night Out"
+   "College Fest",
+   "Festive Party"
   ],
   "styleTags": [
    "Everyday",
@@ -22904,8 +22904,8 @@
   "fabric": "Meenakari Brass",
   "silhouette": "Ring",
   "occasions": [
-   "Sangeet",
-   "Wedding"
+   "Festive Party",
+   "Festive Party"
   ],
   "styleTags": [
    "Festive",
@@ -22947,8 +22947,8 @@
   "fabric": "Beaded Brass",
   "silhouette": "Ring",
   "occasions": [
-   "Sangeet",
-   "Wedding"
+   "Festive Party",
+   "Festive Party"
   ],
   "styleTags": [
    "Festive",
@@ -22990,8 +22990,8 @@
   "fabric": "Oxidised Silver",
   "silhouette": "Ring",
   "occasions": [
-   "Daywear",
-   "Date Night"
+   "College Fest",
+   "Festive Party"
   ],
   "styleTags": [
    "Everyday"
@@ -23031,8 +23031,8 @@
   "fabric": "Gold-Plated Alloy",
   "silhouette": "Ring",
   "occasions": [
-   "Daywear",
-   "Date Night"
+   "College Fest",
+   "Festive Party"
   ],
   "styleTags": [
    "Everyday",
@@ -23073,9 +23073,9 @@
   "fabric": "Lac Bangle",
   "silhouette": "Bangle",
   "occasions": [
-   "Diwali Party",
+   "Diwali",
    "Festive Party",
-   "Sangeet"
+   "Festive Party"
   ],
   "styleTags": [
    "Festive"
@@ -23115,9 +23115,9 @@
   "fabric": "Oxidised Metal",
   "silhouette": "Bangle",
   "occasions": [
-   "Diwali Party",
+   "Diwali",
    "Festive Party",
-   "Sangeet"
+   "Festive Party"
   ],
   "styleTags": [
    "Festive"
@@ -23157,7 +23157,7 @@
   "fabric": "Oxidised Metal",
   "silhouette": "Bangle",
   "occasions": [
-   "Daywear",
+   "College Fest",
    "College Fest",
    "Navratri"
   ],
@@ -23200,7 +23200,7 @@
   "fabric": "Brass",
   "silhouette": "Bangle",
   "occasions": [
-   "Daywear",
+   "College Fest",
    "College Fest",
    "Navratri"
   ],
@@ -23243,9 +23243,9 @@
   "fabric": "Gold Vermeil",
   "silhouette": "Bangle",
   "occasions": [
-   "Work-to-Dinner",
-   "Daywear",
-   "Date Night"
+   "Festive Party",
+   "College Fest",
+   "Festive Party"
   ],
   "styleTags": [
    "Everyday",
@@ -23287,9 +23287,9 @@
   "fabric": "Pearl",
   "silhouette": "Bangle",
   "occasions": [
-   "Work-to-Dinner",
-   "Daywear",
-   "Date Night"
+   "Festive Party",
+   "College Fest",
+   "Festive Party"
   ],
   "styleTags": [
    "Everyday",
@@ -23331,9 +23331,9 @@
   "fabric": "Uncut Polki",
   "silhouette": "Tikka",
   "occasions": [
-   "Sangeet",
-   "Reception",
-   "Wedding"
+   "Festive Party",
+   "Festive Party",
+   "Festive Party"
   ],
   "styleTags": [
    "Festive",
@@ -23375,9 +23375,9 @@
   "fabric": "Meenakari Brass",
   "silhouette": "Tikka",
   "occasions": [
-   "Sangeet",
-   "Reception",
-   "Wedding"
+   "Festive Party",
+   "Festive Party",
+   "Festive Party"
   ],
   "styleTags": [
    "Festive",
@@ -23419,8 +23419,8 @@
   "fabric": "Kundan Set",
   "silhouette": "Headpiece",
   "occasions": [
-   "Sangeet",
-   "Mehendi",
+   "Festive Party",
+   "Festive Party",
    "Navratri"
   ],
   "styleTags": [
@@ -23462,8 +23462,8 @@
   "fabric": "Beaded Brass",
   "silhouette": "Headpiece",
   "occasions": [
-   "Sangeet",
-   "Mehendi",
+   "Festive Party",
+   "Festive Party",
    "Navratri"
   ],
   "styleTags": [
@@ -23504,8 +23504,8 @@
   "fabric": "Antique Finish Alloy",
   "silhouette": "Headpiece",
   "occasions": [
-   "Wedding",
-   "Sangeet"
+   "Festive Party",
+   "Festive Party"
   ],
   "styleTags": [
    "Festive",
@@ -23547,8 +23547,8 @@
   "fabric": "Beaded Brass",
   "silhouette": "Headpiece",
   "occasions": [
-   "Wedding",
-   "Sangeet"
+   "Festive Party",
+   "Festive Party"
   ],
   "styleTags": [
    "Festive",
@@ -23590,9 +23590,9 @@
   "fabric": "Enamel Brass",
   "silhouette": "Hairpin",
   "occasions": [
-   "Mehendi",
-   "Sangeet",
-   "Daywear"
+   "Festive Party",
+   "Festive Party",
+   "College Fest"
   ],
   "styleTags": [
    "Everyday",
@@ -23634,9 +23634,9 @@
   "fabric": "Gold Plated Alloy",
   "silhouette": "Hairpin",
   "occasions": [
-   "Mehendi",
-   "Sangeet",
-   "Daywear"
+   "Festive Party",
+   "Festive Party",
+   "College Fest"
   ],
   "styleTags": [
    "Everyday",
@@ -23678,9 +23678,9 @@
   "fabric": "Gold Plated Alloy",
   "silhouette": "Hairpin",
   "occasions": [
-   "Sangeet",
-   "Reception",
-   "Wedding"
+   "Festive Party",
+   "Festive Party",
+   "Festive Party"
   ],
   "styleTags": [
    "Festive",
@@ -23722,9 +23722,9 @@
   "fabric": "Kundan Set",
   "silhouette": "Hairpin",
   "occasions": [
-   "Sangeet",
-   "Reception",
-   "Wedding"
+   "Festive Party",
+   "Festive Party",
+   "Festive Party"
   ],
   "styleTags": [
    "Festive",
@@ -23767,9 +23767,9 @@
   "fabric": "Uncut Polki",
   "silhouette": "Brooch",
   "occasions": [
-   "Diwali Party",
-   "Family Function",
-   "Reception"
+   "Diwali",
+   "Diwali",
+   "Festive Party"
   ],
   "styleTags": [
    "Occasion",
@@ -23811,9 +23811,9 @@
   "embroidery": "Stone Work",
   "silhouette": "Brooch",
   "occasions": [
-   "Diwali Party",
-   "Family Function",
-   "Reception"
+   "Diwali",
+   "Diwali",
+   "Festive Party"
   ],
   "styleTags": [
    "Occasion",
@@ -23855,9 +23855,9 @@
   "fabric": "Meenakari Brass",
   "silhouette": "Waistbelt",
   "occasions": [
-   "Sangeet",
-   "Wedding",
-   "Reception"
+   "Festive Party",
+   "Festive Party",
+   "Festive Party"
   ],
   "styleTags": [
    "Festive",
@@ -23899,9 +23899,9 @@
   "fabric": "Beaded Brass",
   "silhouette": "Waistbelt",
   "occasions": [
-   "Sangeet",
-   "Wedding",
-   "Reception"
+   "Festive Party",
+   "Festive Party",
+   "Festive Party"
   ],
   "styleTags": [
    "Festive",
@@ -23944,10 +23944,10 @@
   "embroidery": "Mirror Work",
   "silhouette": "Potli",
   "occasions": [
-   "Sangeet",
-   "Reception",
-   "Wedding",
-   "Diwali Party"
+   "Festive Party",
+   "Festive Party",
+   "Festive Party",
+   "Diwali"
   ],
   "styleTags": [
    "Festive",
@@ -23991,10 +23991,10 @@
   "embroidery": "Zardozi",
   "silhouette": "Potli",
   "occasions": [
-   "Sangeet",
-   "Reception",
-   "Wedding",
-   "Diwali Party"
+   "Festive Party",
+   "Festive Party",
+   "Festive Party",
+   "Diwali"
   ],
   "styleTags": [
    "Festive",
@@ -24037,10 +24037,10 @@
   "embroidery": "Sequit Work",
   "silhouette": "Potli",
   "occasions": [
-   "Sangeet",
-   "Reception",
-   "Wedding",
-   "Diwali Party"
+   "Festive Party",
+   "Festive Party",
+   "Festive Party",
+   "Diwali"
   ],
   "styleTags": [
    "Festive",
@@ -24082,9 +24082,9 @@
   "fabric": "Satin",
   "silhouette": "Clutch",
   "occasions": [
-   "Reception",
-   "Night Out",
-   "Date Night"
+   "Festive Party",
+   "Festive Party",
+   "Festive Party"
   ],
   "styleTags": [
    "Everyday",
@@ -24127,9 +24127,9 @@
   "embroidery": "Pearl Detailing",
   "silhouette": "Clutch",
   "occasions": [
-   "Reception",
-   "Night Out",
-   "Date Night"
+   "Festive Party",
+   "Festive Party",
+   "Festive Party"
   ],
   "styleTags": [
    "Everyday",
@@ -24172,9 +24172,9 @@
   "fabric": "Rattan",
   "silhouette": "Clutch",
   "occasions": [
-   "Destination Wedding",
-   "Daywear",
-   "Night Out"
+   "Festive Party",
+   "College Fest",
+   "Festive Party"
   ],
   "styleTags": [
    "Everyday"
@@ -24214,9 +24214,9 @@
   "fabric": "Cane & Bamboo",
   "silhouette": "Clutch",
   "occasions": [
-   "Destination Wedding",
-   "Daywear",
-   "Night Out"
+   "Festive Party",
+   "College Fest",
+   "Festive Party"
   ],
   "styleTags": [
    "Everyday"
@@ -24258,8 +24258,8 @@
   "silhouette": "Sling",
   "occasions": [
    "College Fest",
-   "Destination Wedding",
-   "Daywear"
+   "Festive Party",
+   "College Fest"
   ],
   "styleTags": [
    "Everyday"
@@ -24301,8 +24301,8 @@
   "silhouette": "Sling",
   "occasions": [
    "College Fest",
-   "Destination Wedding",
-   "Daywear"
+   "Festive Party",
+   "College Fest"
   ],
   "styleTags": [
    "Everyday",
@@ -24344,9 +24344,9 @@
   "embroidery": "Pearl Detailing",
   "silhouette": "Clutch",
   "occasions": [
-   "Work-to-Dinner",
-   "Date Night",
-   "Daywear"
+   "Festive Party",
+   "Festive Party",
+   "College Fest"
   ],
   "styleTags": [
    "Everyday",
@@ -24388,9 +24388,9 @@
   "fabric": "Cotton Canvas",
   "silhouette": "Clutch",
   "occasions": [
-   "Work-to-Dinner",
-   "Date Night",
-   "Daywear"
+   "Festive Party",
+   "Festive Party",
+   "College Fest"
   ],
   "styleTags": [
    "Everyday",
@@ -24432,9 +24432,9 @@
   "embroidery": "Zardozi",
   "silhouette": "Clutch",
   "occasions": [
-   "Sangeet",
-   "Reception",
-   "Night Out"
+   "Festive Party",
+   "Festive Party",
+   "Festive Party"
   ],
   "styleTags": [
    "Everyday",
@@ -24478,9 +24478,9 @@
   "embroidery": "Stone Work",
   "silhouette": "Clutch",
   "occasions": [
-   "Sangeet",
-   "Reception",
-   "Night Out"
+   "Festive Party",
+   "Festive Party",
+   "Festive Party"
   ],
   "styleTags": [
    "Everyday",
@@ -24525,7 +24525,7 @@
   "embroidery": "Chikankari",
   "silhouette": "Clutch",
   "occasions": [
-   "Daywear",
+   "College Fest",
    "College Fest"
   ],
   "styleTags": [
@@ -24567,7 +24567,7 @@
   "embroidery": "Thread Embroidery",
   "silhouette": "Clutch",
   "occasions": [
-   "Daywear",
+   "College Fest",
    "College Fest"
   ],
   "styleTags": [
@@ -24609,9 +24609,9 @@
   "embroidery": "Mirror Work",
   "silhouette": "Flat Shoe",
   "occasions": [
-   "Diwali Party",
+   "Diwali",
    "Festive Party",
-   "Sangeet"
+   "Festive Party"
   ],
   "styleTags": [
    "Festive",
@@ -24657,9 +24657,9 @@
   "embroidery": "Zardozi",
   "silhouette": "Flat Shoe",
   "occasions": [
-   "Diwali Party",
+   "Diwali",
    "Festive Party",
-   "Sangeet"
+   "Festive Party"
   ],
   "styleTags": [
    "Festive"
@@ -24704,8 +24704,8 @@
   "embroidery": "Pearl Detailing",
   "silhouette": "Heel",
   "occasions": [
-   "Reception",
-   "Sangeet"
+   "Festive Party",
+   "Festive Party"
   ],
   "styleTags": [
    "Festive",
@@ -24754,8 +24754,8 @@
   "embroidery": "Zardozi",
   "silhouette": "Heel",
   "occasions": [
-   "Reception",
-   "Sangeet"
+   "Festive Party",
+   "Festive Party"
   ],
   "styleTags": [
    "Festive",
@@ -24802,8 +24802,8 @@
   "fabric": "Leather",
   "silhouette": "Flat Shoe",
   "occasions": [
-   "Daywear",
-   "Destination Wedding",
+   "College Fest",
+   "Festive Party",
    "College Fest"
   ],
   "styleTags": [
@@ -24849,8 +24849,8 @@
   "embroidery": "Thread Embroidery",
   "silhouette": "Flat Shoe",
   "occasions": [
-   "Daywear",
-   "Destination Wedding",
+   "College Fest",
+   "Festive Party",
    "College Fest"
   ],
   "styleTags": [
@@ -24896,8 +24896,8 @@
   "embroidery": "Pearl Detailing",
   "silhouette": "Heel",
   "occasions": [
-   "Night Out",
-   "Date Night",
+   "Festive Party",
+   "Festive Party",
    "College Fest"
   ],
   "styleTags": [
@@ -24944,8 +24944,8 @@
   "fabric": "Satin",
   "silhouette": "Heel",
   "occasions": [
-   "Night Out",
-   "Date Night",
+   "Festive Party",
+   "Festive Party",
    "College Fest"
   ],
   "styleTags": [
@@ -24992,7 +24992,7 @@
   "silhouette": "Wedge",
   "occasions": [
    "College Fest",
-   "Daywear"
+   "College Fest"
   ],
   "styleTags": [
    "Everyday"
@@ -25039,7 +25039,7 @@
   "silhouette": "Wedge",
   "occasions": [
    "College Fest",
-   "Daywear"
+   "College Fest"
   ],
   "styleTags": [
    "Everyday"
@@ -25084,9 +25084,9 @@
   "fabric": "Beaded",
   "silhouette": "Flat Shoe",
   "occasions": [
-   "Reception",
-   "Night Out",
-   "Work-to-Dinner"
+   "Festive Party",
+   "Festive Party",
+   "Festive Party"
   ],
   "styleTags": [
    "Everyday",
@@ -25134,9 +25134,9 @@
   "embroidery": "Pearl Detailing",
   "silhouette": "Flat Shoe",
   "occasions": [
-   "Reception",
-   "Night Out",
-   "Work-to-Dinner"
+   "Festive Party",
+   "Festive Party",
+   "Festive Party"
   ],
   "styleTags": [
    "Everyday",
@@ -25185,7 +25185,7 @@
   "embroidery": "Mirror Work",
   "silhouette": "Flat Shoe",
   "occasions": [
-   "Diwali Party",
+   "Diwali",
    "Navratri",
    "Garba",
    "College Fest"
@@ -25234,7 +25234,7 @@
   "fabric": "Faux Leather",
   "silhouette": "Flat Shoe",
   "occasions": [
-   "Diwali Party",
+   "Diwali",
    "Navratri",
    "Garba",
    "College Fest"
@@ -25283,9 +25283,9 @@
   "embroidery": "Zardozi",
   "silhouette": "Flat Shoe",
   "occasions": [
-   "Reception",
-   "Wedding",
-   "Diwali Party"
+   "Festive Party",
+   "Festive Party",
+   "Diwali"
   ],
   "styleTags": [
    "Occasion",
@@ -25331,9 +25331,9 @@
   "embroidery": "Resham Threadwork",
   "silhouette": "Flat Shoe",
   "occasions": [
-   "Reception",
-   "Wedding",
-   "Diwali Party"
+   "Festive Party",
+   "Festive Party",
+   "Diwali"
   ],
   "styleTags": [
    "Occasion",
@@ -25379,9 +25379,9 @@
   "weave": "Kamdani",
   "silhouette": "Flat Shoe",
   "occasions": [
-   "Reception",
-   "Wedding",
-   "Diwali Party"
+   "Festive Party",
+   "Festive Party",
+   "Diwali"
   ],
   "styleTags": [
    "Occasion",
@@ -25428,8 +25428,8 @@
   "silhouette": "Flat Shoe",
   "occasions": [
    "Festive Party",
-   "Family Function",
-   "Diwali Party"
+   "Diwali",
+   "Diwali"
   ],
   "styleTags": [],
   "description": "Hand-finished Faux Leather shoes/jutti in marigold, with zardozi-embroidered on the vamp and a padded leather-look footbed that survives eight-hour events. Anti-skid sole, reinforced heel counter; the straps are backed so they do not cut.",
@@ -25473,8 +25473,8 @@
   "silhouette": "Flat Shoe",
   "occasions": [
    "Festive Party",
-   "Family Function",
-   "Diwali Party"
+   "Diwali",
+   "Diwali"
   ],
   "styleTags": [],
   "description": "Hand-finished Leather shoes/jutti in copper, with resham-threadworked on the vamp and a padded leather-look footbed that survives eight-hour events. Anti-skid sole, reinforced heel counter; the straps are backed so they do not cut.",
@@ -25516,8 +25516,8 @@
   "fabric": "Leather",
   "silhouette": "Flat Shoe",
   "occasions": [
-   "Daywear",
-   "Destination Wedding"
+   "College Fest",
+   "Festive Party"
   ],
   "styleTags": [
    "Everyday"
@@ -25561,8 +25561,8 @@
   "fabric": "Leather",
   "silhouette": "Flat Shoe",
   "occasions": [
-   "Daywear",
-   "Destination Wedding"
+   "College Fest",
+   "Festive Party"
   ],
   "styleTags": [
    "Everyday"
@@ -25606,8 +25606,8 @@
   "fabric": "Leather",
   "silhouette": "Flat Shoe",
   "occasions": [
-   "Daywear",
-   "Destination Wedding"
+   "College Fest",
+   "Festive Party"
   ],
   "styleTags": [
    "Everyday"
@@ -25651,8 +25651,8 @@
   "fabric": "Vegan Leather",
   "silhouette": "Flat Shoe",
   "occasions": [
-   "Daywear",
-   "Destination Wedding"
+   "College Fest",
+   "Festive Party"
   ],
   "styleTags": [
    "Everyday"
@@ -25696,9 +25696,9 @@
   "fabric": "Faux Suede",
   "silhouette": "Loafer",
   "occasions": [
-   "Date Night",
-   "Work-to-Dinner",
-   "Destination Wedding"
+   "Festive Party",
+   "Festive Party",
+   "Festive Party"
   ],
   "styleTags": [
    "Everyday",
@@ -25745,9 +25745,9 @@
   "embroidery": "Stone Work",
   "silhouette": "Loafer",
   "occasions": [
-   "Date Night",
-   "Work-to-Dinner",
-   "Destination Wedding"
+   "Festive Party",
+   "Festive Party",
+   "Festive Party"
   ],
   "styleTags": [
    "Everyday",
@@ -25795,9 +25795,9 @@
   "embroidery": "Stone Work",
   "silhouette": "Watch",
   "occasions": [
-   "Daywear",
-   "Work-to-Dinner",
-   "Date Night",
+   "College Fest",
+   "Festive Party",
+   "Festive Party",
    "Festive Party"
   ],
   "styleTags": [
@@ -25845,9 +25845,9 @@
   "embroidery": "Stone Work",
   "silhouette": "Watch",
   "occasions": [
-   "Daywear",
-   "Work-to-Dinner",
-   "Date Night",
+   "College Fest",
+   "Festive Party",
+   "Festive Party",
    "Festive Party"
   ],
   "styleTags": [
@@ -25895,9 +25895,9 @@
   "embroidery": "Stone Work",
   "silhouette": "Watch",
   "occasions": [
-   "Daywear",
-   "Work-to-Dinner",
-   "Date Night",
+   "College Fest",
+   "Festive Party",
+   "Festive Party",
    "Festive Party"
   ],
   "styleTags": [
@@ -25945,9 +25945,9 @@
   "embroidery": "Stone Work",
   "silhouette": "Watch",
   "occasions": [
-   "Daywear",
-   "Work-to-Dinner",
-   "Date Night",
+   "College Fest",
+   "Festive Party",
+   "Festive Party",
    "Festive Party"
   ],
   "styleTags": [
@@ -25994,9 +25994,9 @@
   "fabric": "Silver-Plated",
   "silhouette": "Bangle",
   "occasions": [
-   "Daywear",
    "College Fest",
-   "Destination Wedding"
+   "College Fest",
+   "Festive Party"
   ],
   "styleTags": [
    "Everyday"
@@ -26040,9 +26040,9 @@
   "fabric": "Leather Beads",
   "silhouette": "Bangle",
   "occasions": [
-   "Daywear",
    "College Fest",
-   "Destination Wedding"
+   "College Fest",
+   "Festive Party"
   ],
   "styleTags": [
    "Everyday"
@@ -26087,9 +26087,9 @@
   "embroidery": "Stone Work",
   "silhouette": "Ring",
   "occasions": [
-   "Work-to-Dinner",
-   "Date Night",
-   "Daywear"
+   "Festive Party",
+   "Festive Party",
+   "College Fest"
   ],
   "styleTags": [
    "Everyday",
@@ -26135,9 +26135,9 @@
   "fabric": "Gold Vermeil",
   "silhouette": "Ring",
   "occasions": [
-   "Work-to-Dinner",
-   "Date Night",
-   "Daywear"
+   "Festive Party",
+   "Festive Party",
+   "College Fest"
   ],
   "styleTags": [
    "Everyday",
@@ -26182,8 +26182,8 @@
   "fabric": "Gold Plated Brass",
   "silhouette": "Ring",
   "occasions": [
-   "Reception",
-   "Engagement"
+   "Festive Party",
+   "Festive Party"
   ],
   "styleTags": [
    "Occasion",
@@ -26229,8 +26229,8 @@
   "embroidery": "Stone Work",
   "silhouette": "Ring",
   "occasions": [
-   "Reception",
-   "Engagement"
+   "Festive Party",
+   "Festive Party"
   ],
   "styleTags": [
    "Occasion",
@@ -26277,9 +26277,9 @@
   "embroidery": "Zardozi",
   "silhouette": "Brooch",
   "occasions": [
-   "Reception",
-   "Sangeet",
-   "Wedding"
+   "Festive Party",
+   "Festive Party",
+   "Festive Party"
   ],
   "styleTags": [
    "Festive",
@@ -26325,9 +26325,9 @@
   "fabric": "Kundan Set",
   "silhouette": "Brooch",
   "occasions": [
-   "Reception",
-   "Sangeet",
-   "Wedding"
+   "Festive Party",
+   "Festive Party",
+   "Festive Party"
   ],
   "styleTags": [
    "Festive",
@@ -26374,9 +26374,9 @@
   "pattern": "Block Print",
   "silhouette": "Square",
   "occasions": [
-   "Reception",
-   "Wedding",
-   "Engagement"
+   "Festive Party",
+   "Festive Party",
+   "Festive Party"
   ],
   "styleTags": [
    "Occasion",
@@ -26421,9 +26421,9 @@
   "fabric": "Cotton",
   "silhouette": "Square",
   "occasions": [
-   "Reception",
-   "Wedding",
-   "Engagement"
+   "Festive Party",
+   "Festive Party",
+   "Festive Party"
   ],
   "styleTags": [
    "Occasion",
@@ -26469,10 +26469,10 @@
   "weave": "Kamdani",
   "silhouette": "Stole",
   "occasions": [
-   "Winter Festive",
-   "Diwali Party",
-   "Puja & Temple",
-   "Family Function"
+   "Diwali",
+   "Diwali",
+   "Diwali",
+   "Diwali"
   ],
   "styleTags": [
    "Traditional"
@@ -26516,10 +26516,10 @@
   "fabric": "Wool Blend",
   "silhouette": "Stole",
   "occasions": [
-   "Winter Festive",
-   "Diwali Party",
-   "Puja & Temple",
-   "Family Function"
+   "Diwali",
+   "Diwali",
+   "Diwali",
+   "Diwali"
   ],
   "styleTags": [
    "Traditional",
@@ -26565,10 +26565,10 @@
   "weave": "Kamdani",
   "silhouette": "Stole",
   "occasions": [
-   "Winter Festive",
-   "Diwali Party",
-   "Puja & Temple",
-   "Family Function"
+   "Diwali",
+   "Diwali",
+   "Diwali",
+   "Diwali"
   ],
   "styleTags": [
    "Traditional"
@@ -26613,9 +26613,9 @@
   "weave": "Ikat Weave",
   "silhouette": "Stole",
   "occasions": [
-   "Daywear",
-   "Destination Wedding",
-   "Winter Festive"
+   "College Fest",
+   "Festive Party",
+   "Diwali"
   ],
   "styleTags": [
    "Traditional",
@@ -26660,9 +26660,9 @@
   "fabric": "Pashmina Blend",
   "silhouette": "Stole",
   "occasions": [
-   "Daywear",
-   "Destination Wedding",
-   "Winter Festive"
+   "College Fest",
+   "Festive Party",
+   "Diwali"
   ],
   "styleTags": [
    "Traditional",
@@ -26708,9 +26708,9 @@
   "fabric": "Leather",
   "silhouette": "Belt",
   "occasions": [
-   "Daywear",
-   "Date Night",
-   "Work-to-Dinner"
+   "College Fest",
+   "Festive Party",
+   "Festive Party"
   ],
   "styleTags": [
    "Everyday",
@@ -26755,9 +26755,9 @@
   "fabric": "Brass Buckle",
   "silhouette": "Belt",
   "occasions": [
-   "Daywear",
-   "Date Night",
-   "Work-to-Dinner"
+   "College Fest",
+   "Festive Party",
+   "Festive Party"
   ],
   "styleTags": [
    "Everyday",
@@ -26802,8 +26802,8 @@
   "fabric": "Leather",
   "silhouette": "Wallet",
   "occasions": [
-   "Daywear",
-   "Date Night"
+   "College Fest",
+   "Festive Party"
   ],
   "styleTags": [
    "Everyday"
@@ -26847,8 +26847,8 @@
   "fabric": "Leather",
   "silhouette": "Wallet",
   "occasions": [
-   "Daywear",
-   "Date Night"
+   "College Fest",
+   "Festive Party"
   ],
   "styleTags": [
    "Everyday"
@@ -26892,8 +26892,8 @@
   "fabric": "Acetate",
   "silhouette": "Shades",
   "occasions": [
-   "Daywear",
-   "Destination Wedding"
+   "College Fest",
+   "Festive Party"
   ],
   "styleTags": [
    "Everyday"
@@ -26937,8 +26937,8 @@
   "fabric": "Beaded Brass",
   "silhouette": "Shades",
   "occasions": [
-   "Daywear",
-   "Destination Wedding"
+   "College Fest",
+   "Festive Party"
   ],
   "styleTags": [
    "Everyday"
@@ -26983,8 +26983,8 @@
   "pattern": "Block Print",
   "silhouette": "Kit",
   "occasions": [
-   "Reception",
-   "Wedding",
+   "Festive Party",
+   "Festive Party",
    "Festive Party"
   ],
   "styleTags": [
@@ -27030,8 +27030,8 @@
   "fabric": "Corduroy",
   "silhouette": "Kit",
   "occasions": [
-   "Reception",
-   "Wedding",
+   "Festive Party",
+   "Festive Party",
    "Festive Party"
   ],
   "styleTags": [
@@ -27078,8 +27078,8 @@
   "embroidery": "Gotapatti",
   "silhouette": "Turban",
   "occasions": [
-   "Wedding",
-   "Reception",
+   "Festive Party",
+   "Festive Party",
    "Festive Party"
   ],
   "styleTags": [
@@ -27126,8 +27126,8 @@
   "embroidery": "Dabka",
   "silhouette": "Turban",
   "occasions": [
-   "Wedding",
-   "Reception",
+   "Festive Party",
+   "Festive Party",
    "Festive Party"
   ],
   "styleTags": [
@@ -27174,7 +27174,7 @@
   "weave": "Kamdani",
   "silhouette": "Turban",
   "occasions": [
-   "Wedding",
+   "Festive Party",
    "Festive Party"
   ],
   "styleTags": [
@@ -27220,9 +27220,9 @@
   "fabric": "Pressed Mineral",
   "silhouette": "Palette",
   "occasions": [
-   "Sangeet",
-   "Reception",
-   "Night Out"
+   "Festive Party",
+   "Festive Party",
+   "Festive Party"
   ],
   "styleTags": [
    "Everyday",
@@ -27265,9 +27265,9 @@
   "fabric": "Pressed Mineral",
   "silhouette": "Palette",
   "occasions": [
-   "Sangeet",
-   "Reception",
-   "Night Out"
+   "Festive Party",
+   "Festive Party",
+   "Festive Party"
   ],
   "styleTags": [
    "Everyday",
@@ -27310,9 +27310,9 @@
   "fabric": "Pressed Mineral",
   "silhouette": "Palette",
   "occasions": [
-   "Sangeet",
-   "Reception",
-   "Night Out"
+   "Festive Party",
+   "Festive Party",
+   "Festive Party"
   ],
   "styleTags": [
    "Everyday",
@@ -27355,9 +27355,9 @@
   "fabric": "Botanical Carbon",
   "silhouette": "Kajal",
   "occasions": [
-   "Diwali Party",
+   "Diwali",
    "Festive Party",
-   "Daywear"
+   "College Fest"
   ],
   "styleTags": [
    "Everyday"
@@ -27397,9 +27397,9 @@
   "fabric": "Botanical Carbon",
   "silhouette": "Kajal",
   "occasions": [
-   "Diwali Party",
+   "Diwali",
    "Festive Party",
-   "Daywear"
+   "College Fest"
   ],
   "styleTags": [
    "Everyday"
@@ -27439,9 +27439,9 @@
   "fabric": "Dewy Base",
   "silhouette": "Bottle",
   "occasions": [
-   "Sangeet",
-   "Reception",
-   "Night Out"
+   "Festive Party",
+   "Festive Party",
+   "Festive Party"
   ],
   "styleTags": [
    "Everyday",
@@ -27484,9 +27484,9 @@
   "fabric": "Dewy Base",
   "silhouette": "Bottle",
   "occasions": [
-   "Sangeet",
-   "Reception",
-   "Night Out"
+   "Festive Party",
+   "Festive Party",
+   "Festive Party"
   ],
   "styleTags": [
    "Everyday",
@@ -27529,8 +27529,8 @@
   "fabric": "Botanical Mist",
   "silhouette": "Bottle",
   "occasions": [
-   "Diwali Party",
-   "Sangeet",
+   "Diwali",
+   "Festive Party",
    "College Fest"
   ],
   "styleTags": [
@@ -27572,8 +27572,8 @@
   "fabric": "Botanical Mist",
   "silhouette": "Bottle",
   "occasions": [
-   "Diwali Party",
-   "Sangeet",
+   "Diwali",
+   "Festive Party",
    "College Fest"
   ],
   "styleTags": [
@@ -27615,9 +27615,9 @@
   "fabric": "Fine Mist",
   "silhouette": "Bottle",
   "occasions": [
-   "Date Night",
-   "Reception",
-   "Daywear"
+   "Festive Party",
+   "Festive Party",
+   "College Fest"
   ],
   "styleTags": [
    "Everyday",
@@ -27659,9 +27659,9 @@
   "fabric": "Fine Mist",
   "silhouette": "Bottle",
   "occasions": [
-   "Date Night",
-   "Reception",
-   "Daywear"
+   "Festive Party",
+   "Festive Party",
+   "College Fest"
   ],
   "styleTags": [
    "Everyday",
@@ -27704,8 +27704,8 @@
   "silhouette": "Bottle",
   "occasions": [
    "College Fest",
-   "Daywear",
-   "Date Night"
+   "College Fest",
+   "Festive Party"
   ],
   "styleTags": [
    "Everyday"
@@ -27746,8 +27746,8 @@
   "silhouette": "Bottle",
   "occasions": [
    "College Fest",
-   "Daywear",
-   "Date Night"
+   "College Fest",
+   "Festive Party"
   ],
   "styleTags": [
    "Everyday"
@@ -27787,8 +27787,8 @@
   "fabric": "Dry Oil",
   "silhouette": "Bottle",
   "occasions": [
-   "Reception",
-   "Date Night"
+   "Festive Party",
+   "Festive Party"
   ],
   "styleTags": [
    "Everyday",
@@ -27830,8 +27830,8 @@
   "fabric": "Dry Oil",
   "silhouette": "Bottle",
   "occasions": [
-   "Reception",
-   "Date Night"
+   "Festive Party",
+   "Festive Party"
   ],
   "styleTags": [
    "Everyday",
@@ -27873,9 +27873,9 @@
   "fabric": "Alcohol-Free Attar",
   "silhouette": "Bottle",
   "occasions": [
-   "Diwali Party",
-   "Family Function",
-   "Winter Festive"
+   "Diwali",
+   "Diwali",
+   "Diwali"
   ],
   "styleTags": [],
   "description": "A champagne Alcohol-Free Attar built for a festive skin barrier — embossed pan finish, dermat-tested claims kept to what the brand states. Shade shown swatched on medium-Indian skin; patch test before the event, not the morning of.",
@@ -27913,9 +27913,9 @@
   "fabric": "Alcohol-Free Attar",
   "silhouette": "Bottle",
   "occasions": [
-   "Diwali Party",
-   "Family Function",
-   "Winter Festive"
+   "Diwali",
+   "Diwali",
+   "Diwali"
   ],
   "styleTags": [],
   "description": "A bronze Alcohol-Free Attar built for a festive skin barrier — embossed pan finish, dermat-tested claims kept to what the brand states. Shade shown swatched on medium-Indian skin; patch test before the event, not the morning of.",
@@ -27953,9 +27953,9 @@
   "fabric": "Alcohol-Free Attar",
   "silhouette": "Bottle",
   "occasions": [
-   "Diwali Party",
-   "Family Function",
-   "Winter Festive"
+   "Diwali",
+   "Diwali",
+   "Diwali"
   ],
   "styleTags": [],
   "description": "A vermeil orange Alcohol-Free Attar built for a festive skin barrier — embossed pan finish, dermat-tested claims kept to what the brand states. Shade shown swatched on medium-Indian skin; patch test before the event, not the morning of.",
@@ -27993,7 +27993,7 @@
   "fabric": "Vegan Bristle",
   "silhouette": "Kit",
   "occasions": [
-   "Daywear",
+   "College Fest",
    "College Fest"
   ],
   "styleTags": [
@@ -28034,7 +28034,7 @@
   "fabric": "Vegan Bristle",
   "silhouette": "Kit",
   "occasions": [
-   "Daywear",
+   "College Fest",
    "College Fest"
   ],
   "styleTags": [
@@ -28075,8 +28075,8 @@
   "fabric": "Satin Wax",
   "silhouette": "Lipstick",
   "occasions": [
-   "Reception",
-   "Date Night",
+   "Festive Party",
+   "Festive Party",
    "College Fest"
   ],
   "styleTags": [
@@ -28119,8 +28119,8 @@
   "fabric": "Satin Wax",
   "silhouette": "Lipstick",
   "occasions": [
-   "Reception",
-   "Date Night",
+   "Festive Party",
+   "Festive Party",
    "College Fest"
   ],
   "styleTags": [
@@ -28163,8 +28163,8 @@
   "fabric": "Satin Wax",
   "silhouette": "Lipstick",
   "occasions": [
-   "Reception",
-   "Date Night",
+   "Festive Party",
+   "Festive Party",
    "College Fest"
   ],
   "styleTags": [
@@ -28207,8 +28207,8 @@
   "fabric": "Baked Powder",
   "silhouette": "Palette",
   "occasions": [
-   "Sangeet",
-   "Night Out"
+   "Festive Party",
+   "Festive Party"
   ],
   "styleTags": [
    "Everyday",
@@ -28249,8 +28249,8 @@
   "fabric": "Baked Powder",
   "silhouette": "Palette",
   "occasions": [
-   "Sangeet",
-   "Night Out"
+   "Festive Party",
+   "Festive Party"
   ],
   "styleTags": [
    "Everyday",
@@ -29227,7 +29227,7 @@
   "occasions": [
    "Navratri",
    "Garba",
-   "Sangeet",
+   "Festive Party",
    "Festive Party"
   ],
   "styleTags": [
@@ -29278,7 +29278,7 @@
   "occasions": [
    "Navratri",
    "Garba",
-   "Sangeet",
+   "Festive Party",
    "Festive Party"
   ],
   "styleTags": [
@@ -29328,7 +29328,7 @@
   "occasions": [
    "Navratri",
    "Garba",
-   "Sangeet",
+   "Festive Party",
    "Festive Party"
   ],
   "styleTags": [
@@ -29378,7 +29378,7 @@
   "occasions": [
    "Navratri",
    "Garba",
-   "Sangeet",
+   "Festive Party",
    "Festive Party"
   ],
   "styleTags": [
@@ -29428,7 +29428,7 @@
   "occasions": [
    "Navratri",
    "Garba",
-   "Sangeet",
+   "Festive Party",
    "Festive Party"
   ],
   "styleTags": [
@@ -29478,7 +29478,7 @@
   "occasions": [
    "Navratri",
    "Garba",
-   "Sangeet",
+   "Festive Party",
    "Festive Party"
   ],
   "styleTags": [
@@ -29529,7 +29529,7 @@
   "occasions": [
    "Navratri",
    "Garba",
-   "Sangeet",
+   "Festive Party",
    "Festive Party"
   ],
   "styleTags": [
@@ -29579,7 +29579,7 @@
   "occasions": [
    "Navratri",
    "Garba",
-   "Sangeet",
+   "Festive Party",
    "Festive Party"
   ],
   "styleTags": [
@@ -29629,7 +29629,7 @@
   "occasions": [
    "Navratri",
    "Garba",
-   "Sangeet",
+   "Festive Party",
    "Festive Party"
   ],
   "styleTags": [
@@ -29679,7 +29679,7 @@
   "occasions": [
    "Navratri",
    "Garba",
-   "Sangeet",
+   "Festive Party",
    "Festive Party"
   ],
   "styleTags": [
@@ -29729,7 +29729,7 @@
   "occasions": [
    "Navratri",
    "Garba",
-   "Sangeet",
+   "Festive Party",
    "Festive Party"
   ],
   "styleTags": [
@@ -29780,7 +29780,7 @@
   "occasions": [
    "Navratri",
    "Garba",
-   "Sangeet",
+   "Festive Party",
    "Festive Party"
   ],
   "styleTags": [
@@ -29830,7 +29830,7 @@
   "occasions": [
    "Navratri",
    "Garba",
-   "Sangeet",
+   "Festive Party",
    "Festive Party"
   ],
   "styleTags": [
@@ -29880,7 +29880,7 @@
   "occasions": [
    "Navratri",
    "Garba",
-   "Sangeet",
+   "Festive Party",
    "Festive Party"
   ],
   "styleTags": [
@@ -30643,11 +30643,11 @@
   "embroidery": "Tone-on-Tone",
   "silhouette": "Men Kurta",
   "occasions": [
-   "Diwali Party",
+   "Diwali",
    "Festive Party",
    "College Fest",
    "Navratri",
-   "Family Function"
+   "Diwali"
   ],
   "styleTags": [
    "Traditional",
@@ -30694,11 +30694,11 @@
   "pattern": "Block Print",
   "silhouette": "Men Kurta",
   "occasions": [
-   "Diwali Party",
+   "Diwali",
    "Festive Party",
    "College Fest",
    "Navratri",
-   "Family Function"
+   "Diwali"
   ],
   "styleTags": [
    "Traditional",
@@ -30745,11 +30745,11 @@
   "embroidery": "Thread Embroidery",
   "silhouette": "Men Kurta",
   "occasions": [
-   "Diwali Party",
+   "Diwali",
    "Festive Party",
    "College Fest",
    "Navratri",
-   "Family Function"
+   "Diwali"
   ],
   "styleTags": [
    "Traditional",
@@ -30796,11 +30796,11 @@
   "embroidery": "Aari",
   "silhouette": "Men Kurta",
   "occasions": [
-   "Diwali Party",
+   "Diwali",
    "Festive Party",
    "College Fest",
    "Navratri",
-   "Family Function"
+   "Diwali"
   ],
   "styleTags": [
    "Traditional",
@@ -30846,11 +30846,11 @@
   "fabric": "Linen",
   "silhouette": "Men Kurta",
   "occasions": [
-   "Diwali Party",
+   "Diwali",
    "Festive Party",
    "College Fest",
    "Navratri",
-   "Family Function"
+   "Diwali"
   ],
   "styleTags": [
    "Traditional",
@@ -30897,11 +30897,11 @@
   "embroidery": "Tone-on-Tone",
   "silhouette": "Men Kurta",
   "occasions": [
-   "Diwali Party",
+   "Diwali",
    "Festive Party",
    "College Fest",
    "Navratri",
-   "Family Function"
+   "Diwali"
   ],
   "styleTags": [
    "Traditional",
@@ -30948,11 +30948,11 @@
   "pattern": "Block Print",
   "silhouette": "Men Kurta",
   "occasions": [
-   "Diwali Party",
+   "Diwali",
    "Festive Party",
    "College Fest",
    "Navratri",
-   "Family Function"
+   "Diwali"
   ],
   "styleTags": [
    "Traditional",
@@ -30999,11 +30999,11 @@
   "embroidery": "Thread Embroidery",
   "silhouette": "Men Kurta",
   "occasions": [
-   "Diwali Party",
+   "Diwali",
    "Festive Party",
    "College Fest",
    "Navratri",
-   "Family Function"
+   "Diwali"
   ],
   "styleTags": [
    "Traditional",
@@ -31050,11 +31050,11 @@
   "embroidery": "Aari",
   "silhouette": "Men Kurta",
   "occasions": [
-   "Diwali Party",
+   "Diwali",
    "Festive Party",
    "College Fest",
    "Navratri",
-   "Family Function"
+   "Diwali"
   ],
   "styleTags": [
    "Traditional",
@@ -31100,11 +31100,11 @@
   "fabric": "Cotton",
   "silhouette": "Men Kurta",
   "occasions": [
-   "Diwali Party",
+   "Diwali",
    "Festive Party",
    "College Fest",
    "Navratri",
-   "Family Function"
+   "Diwali"
   ],
   "styleTags": [
    "Traditional",
@@ -31151,11 +31151,11 @@
   "embroidery": "Tone-on-Tone",
   "silhouette": "Men Kurta",
   "occasions": [
-   "Diwali Party",
+   "Diwali",
    "Festive Party",
    "College Fest",
    "Navratri",
-   "Family Function"
+   "Diwali"
   ],
   "styleTags": [
    "Traditional",
@@ -31202,11 +31202,11 @@
   "pattern": "Block Print",
   "silhouette": "Men Kurta",
   "occasions": [
-   "Diwali Party",
+   "Diwali",
    "Festive Party",
    "College Fest",
    "Navratri",
-   "Family Function"
+   "Diwali"
   ],
   "styleTags": [
    "Traditional",
@@ -31235,201 +31235,7 @@
  },
  {
   "id": "cp-set-01",
-  "title": "Sage Silk Sangeet — Couple Set",
-  "gender": "couple",
-  "category": "couple-edit",
-  "subCategory": "Her + Him pairing",
-  "price": 7798,
-  "originalPrice": null,
-  "brand": "VIRAAS Curated",
-  "ageGroup": [
-   20,
-   22,
-   25,
-   30
-  ],
-  "colour": "Sage",
-  "secondaryColour": "Emerald",
-  "fabric": "Viscose",
-  "pattern": "Buti Motifs",
-  "silhouette": "Couple Set",
-  "occasions": [
-   "Sangeet"
-  ],
-  "styleTags": [
-   "Festive",
-   "Occasion",
-   "Traditional",
-   "Indo-Western"
-  ],
-  "description": "Shop the pair: Sage Buti-motif Soft Georgette Everyday Saree for her and Emerald Jamawar Shawl Kurta Set for him, chosen to sit in the same Sage-and-Emerald frame. The two plates below are the exact styling the look was built around.",
-  "imageUrl": "/images/couples/sage-silk.jpg",
-  "gallery": [
-   "/images/couples/sage-silk.jpg"
-  ],
-  "sizes": [
-   "Her M",
-   "His L"
-  ],
-  "inHouseTryOn": false,
-  "merchantUrl": "https://www.ajio.com/sarees-trending?search=Sage%20buti-motif%20Viscose%20women",
-  "merchantLabel": "AJIO",
-  "status": "CHECK",
-  "lastChecked": "2026-09-20",
-  "notes": "Bundle reference only — VIRAAS never holds stock; each half ships from its own retailer. Verify both product pages before publishing.",
-  "imagePrompt": "candid Indian festive fashion photography of a real adult couple, her in Sage Buti-motif Soft Georgette Everyday Saree, him in Emerald Jamawar Shawl Kurta Set, natural faces and genuine chemistry, varied movement and festival atmosphere, no mannequin, no text, no logos, no watermark",
-  "herProductId": "w-saree-georgette-soft-02",
-  "hisProductId": "m-kurt-set-jamawar-02"
- },
- {
-  "id": "cp-set-02",
-  "title": "Ivory & Gold Reception — Couple Set",
-  "gender": "couple",
-  "category": "couple-edit",
-  "subCategory": "Her + Him pairing",
-  "price": 3498,
-  "originalPrice": null,
-  "brand": "VIRAAS Curated",
-  "ageGroup": [
-   17,
-   21,
-   22,
-   24,
-   25
-  ],
-  "colour": "Ivory",
-  "secondaryColour": "Ivory",
-  "fabric": "Organza",
-  "embroidery": "Chikankari",
-  "silhouette": "Couple Set",
-  "occasions": [
-   "Reception"
-  ],
-  "styleTags": [
-   "Festive",
-   "Occasion",
-   "Traditional",
-   "Festive"
-  ],
-  "description": "Shop the pair: Ivory Chikankari-worked Organza Saree with Hand-embroidered Buti for her and Ivory Block-printed Cotton Kurta Set for him, chosen to sit in the same Ivory-and-Ivory frame. The two plates below are the exact styling the look was built around.",
-  "imageUrl": "/images/couples/ivory-gold.jpg",
-  "gallery": [
-   "/images/couples/ivory-gold.jpg"
-  ],
-  "sizes": [
-   "Her M",
-   "His L"
-  ],
-  "inHouseTryOn": false,
-  "merchantUrl": "https://www.myntra.com/sarees?search=Ivory%20Chikankari-worked%20Organza%20women",
-  "merchantLabel": "Myntra",
-  "status": "CHECK",
-  "lastChecked": "2026-09-20",
-  "notes": "Bundle reference only — VIRAAS never holds stock; each half ships from its own retailer. Verify both product pages before publishing.",
-  "imagePrompt": "candid Indian festive fashion photography of a real adult couple, her in Ivory Chikankari-worked Organza Saree with Hand-embroidered Buti, him in Ivory Block-printed Cotton Kurta Set, natural faces and genuine chemistry, varied movement and festival atmosphere, no mannequin, no text, no logos, no watermark",
-  "herProductId": "w-saree-organza-02",
-  "hisProductId": "m-kurtiset-cotton-02"
- },
- {
-  "id": "cp-set-03",
-  "title": "Terracotta Mehendi Fiesta — Couple Set",
-  "gender": "couple",
-  "category": "couple-edit",
-  "subCategory": "Her + Him pairing",
-  "price": 3898,
-  "originalPrice": null,
-  "brand": "VIRAAS Curated",
-  "ageGroup": [
-   18,
-   22,
-   24,
-   30
-  ],
-  "colour": "Mustard",
-  "secondaryColour": "Mustard",
-  "fabric": "Organza",
-  "embroidery": "Resham Threadwork",
-  "silhouette": "Couple Set",
-  "occasions": [
-   "Mehendi"
-  ],
-  "styleTags": [
-   "Festive",
-   "Occasion",
-   "Traditional",
-   "Festive"
-  ],
-  "description": "Shop the pair: Mustard Resham-threadworked Organza Saree with Hand-embroidered Buti for her and Mustard Block-printed Printed Kurta Set for him, chosen to sit in the same Mustard-and-Mustard frame. The two plates below are the exact styling the look was built around.",
-  "imageUrl": "/images/couples/terracotta-fiesta.jpg",
-  "gallery": [
-   "/images/couples/terracotta-fiesta.jpg"
-  ],
-  "sizes": [
-   "Her M",
-   "His L"
-  ],
-  "inHouseTryOn": false,
-  "merchantUrl": "https://www.myntra.com/sarees?search=Mustard%20resham-threadworked%20Organza%20women",
-  "merchantLabel": "Myntra",
-  "status": "CHECK",
-  "lastChecked": "2026-09-20",
-  "notes": "Bundle reference only — VIRAAS never holds stock; each half ships from its own retailer. Verify both product pages before publishing.",
-  "imagePrompt": "candid Indian festive fashion photography of a real adult couple, her in Mustard Resham-threadworked Organza Saree with Hand-embroidered Buti, him in Mustard Block-printed Printed Kurta Set, natural faces and genuine chemistry, varied movement and festival atmosphere, no mannequin, no text, no logos, no watermark",
-  "herProductId": "w-saree-organza-03",
-  "hisProductId": "m-kurtiset-printed-01"
- },
- {
-  "id": "cp-set-04",
-  "title": "Midnight Velvet Evening — Couple Set",
-  "gender": "couple",
-  "category": "couple-edit",
-  "subCategory": "Her + Him pairing",
-  "price": 8000,
-  "originalPrice": null,
-  "brand": "VIRAAS Curated",
-  "ageGroup": [
-   21,
-   22,
-   24,
-   25,
-   30
-  ],
-  "colour": "Plum",
-  "secondaryColour": "Midnight Navy",
-  "fabric": "Crepe",
-  "embroidery": "Stone Work",
-  "silhouette": "Couple Set",
-  "occasions": [
-   "Evening"
-  ],
-  "styleTags": [
-   "Festive",
-   "Occasion",
-   "Traditional",
-   "Indo-Western"
-  ],
-  "description": "Shop the pair: Plum Stone-set Pre-Draped Saree Gown (Satin) for her and Midnight Navy Buti-motif Silk Kurta Set for him, chosen to sit in the same Plum-and-Midnight Navy frame. The two plates below are the exact styling the look was built around.",
-  "imageUrl": "/images/couples/midnight-velvet.jpg",
-  "gallery": [
-   "/images/couples/midnight-velvet.jpg"
-  ],
-  "sizes": [
-   "Her M",
-   "His L"
-  ],
-  "inHouseTryOn": false,
-  "merchantUrl": "https://www.flipkart.com/search?q=Plum%20stone-set%20Crepe%20women&as=on&as-show=on",
-  "merchantLabel": "Flipkart",
-  "status": "CHECK",
-  "lastChecked": "2026-09-20",
-  "notes": "Bundle reference only — VIRAAS never holds stock; each half ships from its own retailer. Verify both product pages before publishing.",
-  "imagePrompt": "candid Indian festive fashion photography of a real adult couple, her in Plum Stone-set Pre-Draped Saree Gown (Satin), him in Midnight Navy Buti-motif Silk Kurta Set, natural faces and genuine chemistry, varied movement and festival atmosphere, no mannequin, no text, no logos, no watermark",
-  "herProductId": "w-saree-predrape-satin-04",
-  "hisProductId": "m-kurtiset-silk-02"
- },
- {
-  "id": "cp-set-05",
-  "title": "Marigold Day Wedding — Couple Set",
+  "title": "Garba · Dandiya Circle — Couple Set",
   "gender": "couple",
   "category": "couple-edit",
   "subCategory": "Her + Him pairing",
@@ -31437,161 +31243,16 @@
   "originalPrice": null,
   "brand": "VIRAAS Curated",
   "ageGroup": [
-   17,
-   21,
-   25
-  ],
-  "colour": "Rust",
-  "secondaryColour": "Marigold",
-  "fabric": "Crepe",
-  "embroidery": "Sequit Work",
-  "silhouette": "Couple Set",
-  "occasions": [
-   "Wedding"
-  ],
-  "styleTags": [
-   "Festive",
-   "Occasion",
-   "Traditional",
-   "Indo-Western"
-  ],
-  "description": "Shop the pair: Rust Sequin-scattered Georgette Saree with Woven Border for her and Marigold Pearl-detailed Cotton Kurta Set for him, chosen to sit in the same Rust-and-Marigold frame. The two plates below are the exact styling the look was built around.",
-  "imageUrl": "/images/couples/marigold-day.jpg",
-  "gallery": [
-   "/images/couples/marigold-day.jpg"
-  ],
-  "sizes": [
-   "Her M",
-   "His L"
-  ],
-  "inHouseTryOn": false,
-  "merchantUrl": "https://www.ajio.com/sarees-trending?search=Rust%20sequin-scattered%20Crepe%20women",
-  "merchantLabel": "AJIO",
-  "status": "CHECK",
-  "lastChecked": "2026-09-20",
-  "notes": "Bundle reference only — VIRAAS never holds stock; each half ships from its own retailer. Verify both product pages before publishing.",
-  "imagePrompt": "candid Indian festive fashion photography of a real adult couple, her in Rust Sequin-scattered Georgette Saree with Woven Border, him in Marigold Pearl-detailed Cotton Kurta Set, natural faces and genuine chemistry, varied movement and festival atmosphere, no mannequin, no text, no logos, no watermark",
-  "herProductId": "w-saree-drape-08",
-  "hisProductId": "m-kurtiset-cotton-05"
- },
- {
-  "id": "cp-set-06",
-  "title": "Monsoon Pastel Engagement — Couple Set",
-  "gender": "couple",
-  "category": "couple-edit",
-  "subCategory": "Her + Him pairing",
-  "price": 6098,
-  "originalPrice": null,
-  "brand": "VIRAAS Curated",
-  "ageGroup": [
    16,
-   21,
-   22,
-   24,
-   35
-  ],
-  "colour": "Mint",
-  "secondaryColour": "Powder Blue",
-  "fabric": "Tulle",
-  "embroidery": "Sequit Work",
-  "silhouette": "Couple Set",
-  "occasions": [
-   "Engagement"
-  ],
-  "styleTags": [
-   "Festive",
-   "Occasion",
-   "Traditional",
-   "Indo-Western"
-  ],
-  "description": "Shop the pair: Mint Sequin-scattered Pre-Draped Net Saree for her and Powder Blue Aari-stitched Linen Summer Co-ord (Men) for him, chosen to sit in the same Mint-and-Powder Blue frame. The two plates below are the exact styling the look was built around.",
-  "imageUrl": "/images/couples/monsoon-pastel.jpg",
-  "gallery": [
-   "/images/couples/monsoon-pastel.jpg"
-  ],
-  "sizes": [
-   "Her M",
-   "His L"
-  ],
-  "inHouseTryOn": false,
-  "merchantUrl": "https://www.myntra.com/sarees?search=Mint%20sequin-scattered%20Tulle%20women",
-  "merchantLabel": "Myntra",
-  "status": "CHECK",
-  "lastChecked": "2026-09-20",
-  "notes": "Bundle reference only — VIRAAS never holds stock; each half ships from its own retailer. Verify both product pages before publishing.",
-  "imagePrompt": "candid Indian festive fashion photography of a real adult couple, her in Mint Sequin-scattered Pre-Draped Net Saree, him in Powder Blue Aari-stitched Linen Summer Co-ord (Men), natural faces and genuine chemistry, varied movement and festival atmosphere, no mannequin, no text, no logos, no watermark",
-  "herProductId": "w-saree-predrape-net-04",
-  "hisProductId": "m-coord-linen-02"
- },
- {
-  "id": "cp-set-07",
-  "title": "Diwali Heirloom Puja — Couple Set",
-  "gender": "couple",
-  "category": "couple-edit",
-  "subCategory": "Her + Him pairing",
-  "price": 3598,
-  "originalPrice": null,
-  "brand": "VIRAAS Curated",
-  "ageGroup": [
-   18,
-   21,
+   20,
    22,
    24,
    25
   ],
-  "colour": "Rust",
-  "secondaryColour": "Mustard",
-  "fabric": "Crepe",
-  "embroidery": "Sequit Work",
-  "silhouette": "Couple Set",
-  "occasions": [
-   "Diwali"
-  ],
-  "styleTags": [
-   "Festive",
-   "Occasion",
-   "Traditional",
-   "Indo-Western"
-  ],
-  "description": "Shop the pair: Rust Sequin-scattered Georgette Saree with Woven Border for her and Mustard Block-printed Printed Kurta Set for him, chosen to sit in the same Rust-and-Mustard frame. The two plates below are the exact styling the look was built around.",
-  "imageUrl": "/images/couples/diwali-heirloom.jpg",
-  "gallery": [
-   "/images/couples/diwali-heirloom.jpg"
-  ],
-  "sizes": [
-   "Her M",
-   "His L"
-  ],
-  "inHouseTryOn": false,
-  "merchantUrl": "https://www.ajio.com/sarees-trending?search=Rust%20sequin-scattered%20Crepe%20women",
-  "merchantLabel": "AJIO",
-  "status": "CHECK",
-  "lastChecked": "2026-09-20",
-  "notes": "Bundle reference only — VIRAAS never holds stock; each half ships from its own retailer. Verify both product pages before publishing.",
-  "imagePrompt": "candid Indian festive fashion photography of a real adult couple, her in Rust Sequin-scattered Georgette Saree with Woven Border, him in Mustard Block-printed Printed Kurta Set, natural faces and genuine chemistry, varied movement and festival atmosphere, no mannequin, no text, no logos, no watermark",
-  "herProductId": "w-saree-drape-08",
-  "hisProductId": "m-kurtiset-printed-01"
- },
- {
-  "id": "cp-set-08",
-  "title": "Navratri Floor Neon — Couple Set",
-  "gender": "couple",
-  "category": "couple-edit",
-  "subCategory": "Her + Him pairing",
-  "price": 8000,
-  "originalPrice": null,
-  "brand": "VIRAAS Curated",
-  "ageGroup": [
-   20,
-   21,
-   24,
-   25,
-   35
-  ],
-  "colour": "Hot Pink",
-  "secondaryColour": "Parrot Green",
-  "fabric": "Georgette",
-  "embroidery": "Stone Work",
+  "colour": "Fuchsia",
+  "secondaryColour": "Fuchsia",
+  "fabric": "Cotton",
+  "embroidery": "Mirror Work",
   "silhouette": "Couple Set",
   "occasions": [
    "Garba"
@@ -31600,49 +31261,47 @@
    "Festive",
    "Occasion",
    "Traditional",
-   "Festive"
+   "Indo-Western"
   ],
-  "description": "Shop the pair: Hot Pink Stone-set Sequin Work Lehenga for her and Parrot Green Pearl-detailed Draped Kurta with Asymmetric Hem for him, chosen to sit in the same Hot Pink-and-Parrot Green frame. The two plates below are the exact styling the look was built around.",
-  "imageUrl": "/images/couples/navratri-neon.jpg",
+  "description": "Shop the pair: Fuchsia Mirror-work Dhoti-Pant Kurta Set for her and Fuchsia Thread-embroidered Draped Kurta with Asymmetric Hem for him, chosen to sit in the same Fuchsia-and-Fuchsia frame. The two plates below are the exact styling the look was built around.",
+  "imageUrl": "/images/couples/garba-01.jpg",
   "gallery": [
-   "/images/couples/navratri-neon.jpg"
+   "/images/couples/garba-01.jpg"
   ],
   "sizes": [
    "Her M",
    "His L"
   ],
   "inHouseTryOn": false,
-  "merchantUrl": "https://www.nykaa.com/search/?query=Hot%20Pink%20stone-set%20Georgette%20women",
-  "merchantLabel": "Nykaa",
+  "merchantUrl": "https://www.ajio.com/women-kurtas-sets-trending?search=Fuchsia%20mirror-work%20Cotton%20women",
+  "merchantLabel": "AJIO",
   "status": "CHECK",
   "lastChecked": "2026-09-20",
   "notes": "Bundle reference only — VIRAAS never holds stock; each half ships from its own retailer. Verify both product pages before publishing.",
-  "imagePrompt": "candid Indian festive fashion photography of a real adult couple, her in Hot Pink Stone-set Sequin Work Lehenga, him in Parrot Green Pearl-detailed Draped Kurta with Asymmetric Hem, natural faces and genuine chemistry, varied movement and festival atmosphere, no mannequin, no text, no logos, no watermark",
-  "herProductId": "w-leh-sequin-03",
-  "hisProductId": "m-indowest-drape-03"
+  "imagePrompt": "candid Indian festive fashion photography of a real adult couple, her in Fuchsia Mirror-work Dhoti-Pant Kurta Set, him in Fuchsia Thread-embroidered Draped Kurta with Asymmetric Hem, natural faces and genuine chemistry, varied movement and festival atmosphere, no mannequin, no text, no logos, no watermark",
+  "herProductId": "w-kurtiset-dhoti-02",
+  "hisProductId": "m-indowest-drape-01"
  },
  {
-  "id": "cp-set-09",
-  "title": "Destination White Reception — Couple Set",
+  "id": "cp-set-02",
+  "title": "Garba · Dupatta Mid-Turn — Couple Set",
   "gender": "couple",
   "category": "couple-edit",
   "subCategory": "Her + Him pairing",
-  "price": 6798,
+  "price": 7498,
   "originalPrice": null,
   "brand": "VIRAAS Curated",
   "ageGroup": [
-   17,
-   22,
-   24,
-   25
+   18,
+   25,
+   30
   ],
-  "colour": "Sand",
-  "secondaryColour": "Sand",
-  "fabric": "Chiffon",
-  "embroidery": "Gotapatti",
+  "colour": "Peacock Teal",
+  "secondaryColour": "Peacock Teal",
+  "fabric": "Georgette",
   "silhouette": "Couple Set",
   "occasions": [
-   "Travel"
+   "Garba"
   ],
   "styleTags": [
    "Festive",
@@ -31650,48 +31309,94 @@
    "Traditional",
    "Indo-Western"
   ],
-  "description": "Shop the pair: Sand Gotapatti-appliquéd Georgette Saree with Woven Border for her and Sand Chikankari-worked Cotton Kurta Set for him, chosen to sit in the same Sand-and-Sand frame. The two plates below are the exact styling the look was built around.",
-  "imageUrl": "/images/couples/destination-white.jpg",
+  "description": "Shop the pair: Peacock Teal Zari-woven Georgette Saree with Woven Border for her and Ivory Silk Kurta Set for him, chosen to sit in the same Peacock Teal-and-Peacock Teal frame. The two plates below are the exact styling the look was built around.",
+  "imageUrl": "/images/couples/garba-02.jpg",
   "gallery": [
-   "/images/couples/destination-white.jpg"
+   "/images/couples/garba-02.jpg"
   ],
   "sizes": [
    "Her M",
    "His L"
   ],
   "inHouseTryOn": false,
-  "merchantUrl": "https://www.nykaa.com/search/?query=Sand%20gotapatti-appliqu%C3%A9d%20Chiffon%20women",
-  "merchantLabel": "Nykaa",
+  "merchantUrl": "https://www.myntra.com/sarees?search=Peacock%20Teal%20zari-woven%20Georgette%20women",
+  "merchantLabel": "Myntra",
   "status": "CHECK",
   "lastChecked": "2026-09-20",
   "notes": "Bundle reference only — VIRAAS never holds stock; each half ships from its own retailer. Verify both product pages before publishing.",
-  "imagePrompt": "candid Indian festive fashion photography of a real adult couple, her in Sand Gotapatti-appliquéd Georgette Saree with Woven Border, him in Sand Chikankari-worked Cotton Kurta Set, natural faces and genuine chemistry, varied movement and festival atmosphere, no mannequin, no text, no logos, no watermark",
-  "herProductId": "w-saree-drape-03",
-  "hisProductId": "m-kurtiset-cotton-01"
+  "imagePrompt": "candid Indian festive fashion photography of a real adult couple, her in Peacock Teal Zari-woven Georgette Saree with Woven Border, him in Ivory Silk Kurta Set, natural faces and genuine chemistry, varied movement and festival atmosphere, no mannequin, no text, no logos, no watermark",
+  "herProductId": "w-saree-drape-07",
+  "hisProductId": "m-kurtiset-silk-01"
  },
  {
-  "id": "cp-set-10",
-  "title": "College Fest Duo — Couple Set",
+  "id": "cp-set-03",
+  "title": "Garba · After the First Round — Couple Set",
   "gender": "couple",
   "category": "couple-edit",
   "subCategory": "Her + Him pairing",
-  "price": 3298,
+  "price": 2998,
   "originalPrice": null,
   "brand": "VIRAAS Curated",
   "ageGroup": [
-   16,
    20,
-   21,
-   22,
-   24
+   24,
+   30
   ],
-  "colour": "Stone Grey",
-  "secondaryColour": "Stone Grey",
-  "fabric": "Linen",
-  "pattern": "Buti Motifs",
+  "colour": "Terracotta",
+  "secondaryColour": "Terracotta",
+  "fabric": "Georgette",
+  "pattern": "Block Print",
   "silhouette": "Couple Set",
   "occasions": [
-   "College"
+   "Garba"
+  ],
+  "styleTags": [
+   "Festive",
+   "Occasion",
+   "Traditional",
+   "Indo-Western"
+  ],
+  "description": "Shop the pair: Terracotta Block-printed Soft Georgette Everyday Saree for her and Terracotta Printed Kurta Set for him, chosen to sit in the same Terracotta-and-Terracotta frame. The two plates below are the exact styling the look was built around.",
+  "imageUrl": "/images/couples/garba-03.jpg",
+  "gallery": [
+   "/images/couples/garba-03.jpg"
+  ],
+  "sizes": [
+   "Her M",
+   "His L"
+  ],
+  "inHouseTryOn": false,
+  "merchantUrl": "https://www.myntra.com/sarees?search=Terracotta%20block-printed%20Georgette%20women",
+  "merchantLabel": "Myntra",
+  "status": "CHECK",
+  "lastChecked": "2026-09-20",
+  "notes": "Bundle reference only — VIRAAS never holds stock; each half ships from its own retailer. Verify both product pages before publishing.",
+  "imagePrompt": "candid Indian festive fashion photography of a real adult couple, her in Terracotta Block-printed Soft Georgette Everyday Saree, him in Terracotta Printed Kurta Set, natural faces and genuine chemistry, varied movement and festival atmosphere, no mannequin, no text, no logos, no watermark",
+  "herProductId": "w-saree-georgette-soft-01",
+  "hisProductId": "m-kurtiset-printed-05"
+ },
+ {
+  "id": "cp-set-04",
+  "title": "Garba · Bandhani Sidewalk — Couple Set",
+  "gender": "couple",
+  "category": "couple-edit",
+  "subCategory": "Her + Him pairing",
+  "price": 6198,
+  "originalPrice": null,
+  "brand": "VIRAAS Curated",
+  "ageGroup": [
+   22,
+   24,
+   30,
+   35
+  ],
+  "colour": "Midnight Navy",
+  "secondaryColour": "Midnight Navy",
+  "fabric": "Satin",
+  "embroidery": "Tone-on-Tone",
+  "silhouette": "Couple Set",
+  "occasions": [
+   "Garba"
   ],
   "styleTags": [
    "Festive",
@@ -31699,190 +31404,94 @@
    "Traditional",
    "Everyday"
   ],
-  "description": "Shop the pair: Stone Grey Buti-motif Linen Saree with Woven Check for her and Stone Grey Thread-embroidered Cotton Kurta Set for him, chosen to sit in the same Stone Grey-and-Stone Grey frame. The two plates below are the exact styling the look was built around.",
-  "imageUrl": "/images/couples/college-duo.jpg",
+  "description": "Shop the pair: Midnight Navy Tone-on-tone Satin Slip Saree for her and Midnight Navy Buti-motif Silk Kurta Set for him, chosen to sit in the same Midnight Navy-and-Midnight Navy frame. The two plates below are the exact styling the look was built around.",
+  "imageUrl": "/images/couples/garba-04.jpg",
   "gallery": [
-   "/images/couples/college-duo.jpg"
+   "/images/couples/garba-04.jpg"
   ],
   "sizes": [
    "Her M",
    "His L"
   ],
   "inHouseTryOn": false,
-  "merchantUrl": "https://www.ajio.com/sarees-trending?search=Stone%20Grey%20buti-motif%20Linen%20women",
+  "merchantUrl": "https://www.myntra.com/sarees?search=Midnight%20Navy%20tone-on-tone%20Satin%20women",
+  "merchantLabel": "Myntra",
+  "status": "CHECK",
+  "lastChecked": "2026-09-20",
+  "notes": "Bundle reference only — VIRAAS never holds stock; each half ships from its own retailer. Verify both product pages before publishing.",
+  "imagePrompt": "candid Indian festive fashion photography of a real adult couple, her in Midnight Navy Tone-on-tone Satin Slip Saree, him in Midnight Navy Buti-motif Silk Kurta Set, natural faces and genuine chemistry, varied movement and festival atmosphere, no mannequin, no text, no logos, no watermark",
+  "herProductId": "w-saree-satin-slip-01",
+  "hisProductId": "m-kurtiset-silk-02"
+ },
+ {
+  "id": "cp-set-05",
+  "title": "Garba · Mirrorwork Glance — Couple Set",
+  "gender": "couple",
+  "category": "couple-edit",
+  "subCategory": "Her + Him pairing",
+  "price": 4298,
+  "originalPrice": null,
+  "brand": "VIRAAS Curated",
+  "ageGroup": [
+   16,
+   20,
+   22,
+   24,
+   25
+  ],
+  "colour": "Fuchsia",
+  "secondaryColour": "Fuchsia",
+  "fabric": "Cotton",
+  "embroidery": "Mirror Work",
+  "silhouette": "Couple Set",
+  "occasions": [
+   "Garba"
+  ],
+  "styleTags": [
+   "Festive",
+   "Occasion",
+   "Traditional",
+   "Indo-Western"
+  ],
+  "description": "Shop the pair: Fuchsia Mirror-work Dhoti-Pant Kurta Set for her and Fuchsia Thread-embroidered Draped Kurta with Asymmetric Hem for him, chosen to sit in the same Fuchsia-and-Fuchsia frame. The two plates below are the exact styling the look was built around.",
+  "imageUrl": "/images/couples/garba-05.jpg",
+  "gallery": [
+   "/images/couples/garba-05.jpg"
+  ],
+  "sizes": [
+   "Her M",
+   "His L"
+  ],
+  "inHouseTryOn": false,
+  "merchantUrl": "https://www.ajio.com/women-kurtas-sets-trending?search=Fuchsia%20mirror-work%20Cotton%20women",
   "merchantLabel": "AJIO",
   "status": "CHECK",
   "lastChecked": "2026-09-20",
   "notes": "Bundle reference only — VIRAAS never holds stock; each half ships from its own retailer. Verify both product pages before publishing.",
-  "imagePrompt": "candid Indian festive fashion photography of a real adult couple, her in Stone Grey Buti-motif Linen Saree with Woven Check, him in Stone Grey Thread-embroidered Cotton Kurta Set, natural faces and genuine chemistry, varied movement and festival atmosphere, no mannequin, no text, no logos, no watermark",
-  "herProductId": "w-saree-linen-04",
-  "hisProductId": "m-kurtiset-cotton-03"
+  "imagePrompt": "candid Indian festive fashion photography of a real adult couple, her in Fuchsia Mirror-work Dhoti-Pant Kurta Set, him in Fuchsia Thread-embroidered Draped Kurta with Asymmetric Hem, natural faces and genuine chemistry, varied movement and festival atmosphere, no mannequin, no text, no logos, no watermark",
+  "herProductId": "w-kurtiset-dhoti-02",
+  "hisProductId": "m-indowest-drape-01"
  },
  {
-  "id": "cp-set-11",
-  "title": "Wedding Guest in Olive — Couple Set",
+  "id": "cp-set-06",
+  "title": "Garba · Dandiya Walk — Couple Set",
   "gender": "couple",
   "category": "couple-edit",
   "subCategory": "Her + Him pairing",
-  "price": 5998,
+  "price": 7498,
   "originalPrice": null,
   "brand": "VIRAAS Curated",
   "ageGroup": [
-   20,
-   22,
-   24,
-   35
-  ],
-  "colour": "Olive",
-  "secondaryColour": "Greige",
-  "fabric": "Crepe",
-  "embroidery": "Sequit Work",
-  "silhouette": "Couple Set",
-  "occasions": [
-   "Guest"
-  ],
-  "styleTags": [
-   "Festive",
-   "Occasion",
-   "Traditional",
-   "Indo-Western"
-  ],
-  "description": "Shop the pair: Olive Sequin-scattered Georgette Saree with Woven Border for her and Greige Zari-woven Festive Co-ord Set for him, chosen to sit in the same Olive-and-Greige frame. The two plates below are the exact styling the look was built around.",
-  "imageUrl": "/images/couples/wedding-guest-olive.jpg",
-  "gallery": [
-   "/images/couples/wedding-guest-olive.jpg"
-  ],
-  "sizes": [
-   "Her M",
-   "His L"
-  ],
-  "inHouseTryOn": false,
-  "merchantUrl": "https://www.myntra.com/sarees?search=Olive%20sequin-scattered%20Crepe%20women",
-  "merchantLabel": "Myntra",
-  "status": "CHECK",
-  "lastChecked": "2026-09-20",
-  "notes": "Bundle reference only — VIRAAS never holds stock; each half ships from its own retailer. Verify both product pages before publishing.",
-  "imagePrompt": "candid Indian festive fashion photography of a real adult couple, her in Olive Sequin-scattered Georgette Saree with Woven Border, him in Greige Zari-woven Festive Co-ord Set, natural faces and genuine chemistry, varied movement and festival atmosphere, no mannequin, no text, no logos, no watermark",
-  "herProductId": "w-saree-drape-02",
-  "hisProductId": "m-coord-suit-04"
- },
- {
-  "id": "cp-set-12",
-  "title": "Winter Wedding Warmth — Couple Set",
-  "gender": "couple",
-  "category": "couple-edit",
-  "subCategory": "Her + Him pairing",
-  "price": 6398,
-  "originalPrice": null,
-  "brand": "VIRAAS Curated",
-  "ageGroup": [
-   20,
-   21,
+   18,
    25,
    30
   ],
-  "colour": "Oat Melange",
-  "secondaryColour": "Oat Melange",
-  "fabric": "Chanderi",
-  "silhouette": "Couple Set",
-  "occasions": [
-   "Winter"
-  ],
-  "styleTags": [
-   "Festive",
-   "Occasion",
-   "Traditional",
-   "Workwear"
-  ],
-  "description": "Shop the pair: Oat Melange Craft-clean Chanderi Silk-Cotton Saree for her and Oat Melange Chikankari-worked Chikankari Kurta Set for him, chosen to sit in the same Oat Melange-and-Oat Melange frame. The two plates below are the exact styling the look was built around.",
-  "imageUrl": "/images/couples/winter-wedding.jpg",
-  "gallery": [
-   "/images/couples/winter-wedding.jpg"
-  ],
-  "sizes": [
-   "Her M",
-   "His L"
-  ],
-  "inHouseTryOn": false,
-  "merchantUrl": "https://www.flipkart.com/search?q=Oat%20Melange%20craft-clean%20Chanderi%20women&as=on&as-show=on",
-  "merchantLabel": "Flipkart",
-  "status": "CHECK",
-  "lastChecked": "2026-09-20",
-  "notes": "Bundle reference only — VIRAAS never holds stock; each half ships from its own retailer. Verify both product pages before publishing.",
-  "imagePrompt": "candid Indian festive fashion photography of a real adult couple, her in Oat Melange Craft-clean Chanderi Silk-Cotton Saree, him in Oat Melange Chikankari-worked Chikankari Kurta Set, natural faces and genuine chemistry, varied movement and festival atmosphere, no mannequin, no text, no logos, no watermark",
-  "herProductId": "w-saree-chanderi-04",
-  "hisProductId": "m-kurtiset-chikankari-01"
- },
- {
-  "id": "cp-set-13",
-  "title": "Family Function Soft Sheen — Couple Set",
-  "gender": "couple",
-  "category": "couple-edit",
-  "subCategory": "Her + Him pairing",
-  "price": 6798,
-  "originalPrice": null,
-  "brand": "VIRAAS Curated",
-  "ageGroup": [
-   17,
-   22,
-   24,
-   25
-  ],
-  "colour": "Sand",
-  "secondaryColour": "Sand",
-  "fabric": "Chiffon",
-  "embroidery": "Gotapatti",
-  "silhouette": "Couple Set",
-  "occasions": [
-   "Family"
-  ],
-  "styleTags": [
-   "Festive",
-   "Occasion",
-   "Traditional",
-   "Indo-Western"
-  ],
-  "description": "Shop the pair: Sand Gotapatti-appliquéd Georgette Saree with Woven Border for her and Sand Chikankari-worked Cotton Kurta Set for him, chosen to sit in the same Sand-and-Sand frame. The two plates below are the exact styling the look was built around.",
-  "imageUrl": "/images/couples/family-function.jpg",
-  "gallery": [
-   "/images/couples/family-function.jpg"
-  ],
-  "sizes": [
-   "Her M",
-   "His L"
-  ],
-  "inHouseTryOn": false,
-  "merchantUrl": "https://www.nykaa.com/search/?query=Sand%20gotapatti-appliqu%C3%A9d%20Chiffon%20women",
-  "merchantLabel": "Nykaa",
-  "status": "CHECK",
-  "lastChecked": "2026-09-20",
-  "notes": "Bundle reference only — VIRAAS never holds stock; each half ships from its own retailer. Verify both product pages before publishing.",
-  "imagePrompt": "candid Indian festive fashion photography of a real adult couple, her in Sand Gotapatti-appliquéd Georgette Saree with Woven Border, him in Sand Chikankari-worked Cotton Kurta Set, natural faces and genuine chemistry, varied movement and festival atmosphere, no mannequin, no text, no logos, no watermark",
-  "herProductId": "w-saree-drape-03",
-  "hisProductId": "m-kurtiset-cotton-01"
- },
- {
-  "id": "cp-set-14",
-  "title": "Date Night in Wine — Couple Set",
-  "gender": "couple",
-  "category": "couple-edit",
-  "subCategory": "Her + Him pairing",
-  "price": 5198,
-  "originalPrice": null,
-  "brand": "VIRAAS Curated",
-  "ageGroup": [
-   17,
-   21,
-   22,
-   24,
-   25
-  ],
-  "colour": "Wine",
-  "secondaryColour": "Chocolate",
+  "colour": "Peacock Teal",
+  "secondaryColour": "Peacock Teal",
   "fabric": "Georgette",
   "silhouette": "Couple Set",
   "occasions": [
-   "Date"
+   "Garba"
   ],
   "styleTags": [
    "Festive",
@@ -31890,47 +31499,46 @@
    "Traditional",
    "Indo-Western"
   ],
-  "description": "Shop the pair: Wine Zari-woven Georgette Saree with Woven Border for her and Chocolate Aari-stitched Silk Kurta Set for him, chosen to sit in the same Wine-and-Chocolate frame. The two plates below are the exact styling the look was built around.",
-  "imageUrl": "/images/couples/date-evening.jpg",
+  "description": "Shop the pair: Peacock Teal Zari-woven Georgette Saree with Woven Border for her and Ivory Silk Kurta Set for him, chosen to sit in the same Peacock Teal-and-Peacock Teal frame. The two plates below are the exact styling the look was built around.",
+  "imageUrl": "/images/couples/garba-06.jpg",
   "gallery": [
-   "/images/couples/date-evening.jpg"
+   "/images/couples/garba-06.jpg"
   ],
   "sizes": [
    "Her M",
    "His L"
   ],
   "inHouseTryOn": false,
-  "merchantUrl": "https://www.myntra.com/sarees?search=Wine%20zari-woven%20Georgette%20women",
+  "merchantUrl": "https://www.myntra.com/sarees?search=Peacock%20Teal%20zari-woven%20Georgette%20women",
   "merchantLabel": "Myntra",
   "status": "CHECK",
   "lastChecked": "2026-09-20",
   "notes": "Bundle reference only — VIRAAS never holds stock; each half ships from its own retailer. Verify both product pages before publishing.",
-  "imagePrompt": "candid Indian festive fashion photography of a real adult couple, her in Wine Zari-woven Georgette Saree with Woven Border, him in Chocolate Aari-stitched Silk Kurta Set, natural faces and genuine chemistry, varied movement and festival atmosphere, no mannequin, no text, no logos, no watermark",
-  "herProductId": "w-saree-drape-01",
-  "hisProductId": "m-kurtiset-silk-04"
+  "imagePrompt": "candid Indian festive fashion photography of a real adult couple, her in Peacock Teal Zari-woven Georgette Saree with Woven Border, him in Ivory Silk Kurta Set, natural faces and genuine chemistry, varied movement and festival atmosphere, no mannequin, no text, no logos, no watermark",
+  "herProductId": "w-saree-drape-07",
+  "hisProductId": "m-kurtiset-silk-01"
  },
  {
-  "id": "cp-set-15",
-  "title": "Mehendi Morning in Mint — Couple Set",
+  "id": "cp-set-07",
+  "title": "Garba · Kediyu Laugh — Couple Set",
   "gender": "couple",
   "category": "couple-edit",
   "subCategory": "Her + Him pairing",
-  "price": 5398,
+  "price": 2998,
   "originalPrice": null,
   "brand": "VIRAAS Curated",
   "ageGroup": [
-   17,
-   22,
+   20,
    24,
-   35
+   30
   ],
-  "colour": "Mint",
-  "secondaryColour": "Peach",
-  "fabric": "Tulle",
-  "embroidery": "Sequit Work",
+  "colour": "Terracotta",
+  "secondaryColour": "Terracotta",
+  "fabric": "Georgette",
+  "pattern": "Block Print",
   "silhouette": "Couple Set",
   "occasions": [
-   "Mehendi"
+   "Garba"
   ],
   "styleTags": [
    "Festive",
@@ -31938,48 +31546,96 @@
    "Traditional",
    "Indo-Western"
   ],
-  "description": "Shop the pair: Mint Sequin-scattered Pre-Draped Net Saree for her and Peach Chikankari-worked Cotton Kurta Set for him, chosen to sit in the same Mint-and-Peach frame. The two plates below are the exact styling the look was built around.",
-  "imageUrl": "/images/couples/mehendi-mint.jpg",
+  "description": "Shop the pair: Terracotta Block-printed Soft Georgette Everyday Saree for her and Terracotta Printed Kurta Set for him, chosen to sit in the same Terracotta-and-Terracotta frame. The two plates below are the exact styling the look was built around.",
+  "imageUrl": "/images/couples/garba-07.jpg",
   "gallery": [
-   "/images/couples/mehendi-mint.jpg"
+   "/images/couples/garba-07.jpg"
   ],
   "sizes": [
    "Her M",
    "His L"
   ],
   "inHouseTryOn": false,
-  "merchantUrl": "https://www.myntra.com/sarees?search=Mint%20sequin-scattered%20Tulle%20women",
+  "merchantUrl": "https://www.myntra.com/sarees?search=Terracotta%20block-printed%20Georgette%20women",
   "merchantLabel": "Myntra",
   "status": "CHECK",
   "lastChecked": "2026-09-20",
   "notes": "Bundle reference only — VIRAAS never holds stock; each half ships from its own retailer. Verify both product pages before publishing.",
-  "imagePrompt": "candid Indian festive fashion photography of a real adult couple, her in Mint Sequin-scattered Pre-Draped Net Saree, him in Peach Chikankari-worked Cotton Kurta Set, natural faces and genuine chemistry, varied movement and festival atmosphere, no mannequin, no text, no logos, no watermark",
-  "herProductId": "w-saree-predrape-net-04",
-  "hisProductId": "m-kurtiset-cotton-08"
+  "imagePrompt": "candid Indian festive fashion photography of a real adult couple, her in Terracotta Block-printed Soft Georgette Everyday Saree, him in Terracotta Printed Kurta Set, natural faces and genuine chemistry, varied movement and festival atmosphere, no mannequin, no text, no logos, no watermark",
+  "herProductId": "w-saree-georgette-soft-01",
+  "hisProductId": "m-kurtiset-printed-05"
  },
  {
-  "id": "cp-set-16",
-  "title": "Festive Family Brass & Ivory — Couple Set",
+  "id": "cp-set-08",
+  "title": "Garba · Chaniya Spin — Couple Set",
   "gender": "couple",
   "category": "couple-edit",
   "subCategory": "Her + Him pairing",
-  "price": 8000,
+  "price": 6198,
   "originalPrice": null,
   "brand": "VIRAAS Curated",
   "ageGroup": [
-   17,
+   22,
+   24,
+   30,
+   35
+  ],
+  "colour": "Midnight Navy",
+  "secondaryColour": "Midnight Navy",
+  "fabric": "Satin",
+  "embroidery": "Tone-on-Tone",
+  "silhouette": "Couple Set",
+  "occasions": [
+   "Garba"
+  ],
+  "styleTags": [
+   "Festive",
+   "Occasion",
+   "Traditional",
+   "Everyday"
+  ],
+  "description": "Shop the pair: Midnight Navy Tone-on-tone Satin Slip Saree for her and Midnight Navy Buti-motif Silk Kurta Set for him, chosen to sit in the same Midnight Navy-and-Midnight Navy frame. The two plates below are the exact styling the look was built around.",
+  "imageUrl": "/images/couples/garba-08.jpg",
+  "gallery": [
+   "/images/couples/garba-08.jpg"
+  ],
+  "sizes": [
+   "Her M",
+   "His L"
+  ],
+  "inHouseTryOn": false,
+  "merchantUrl": "https://www.myntra.com/sarees?search=Midnight%20Navy%20tone-on-tone%20Satin%20women",
+  "merchantLabel": "Myntra",
+  "status": "CHECK",
+  "lastChecked": "2026-09-20",
+  "notes": "Bundle reference only — VIRAAS never holds stock; each half ships from its own retailer. Verify both product pages before publishing.",
+  "imagePrompt": "candid Indian festive fashion photography of a real adult couple, her in Midnight Navy Tone-on-tone Satin Slip Saree, him in Midnight Navy Buti-motif Silk Kurta Set, natural faces and genuine chemistry, varied movement and festival atmosphere, no mannequin, no text, no logos, no watermark",
+  "herProductId": "w-saree-satin-slip-01",
+  "hisProductId": "m-kurtiset-silk-02"
+ },
+ {
+  "id": "cp-set-09",
+  "title": "Garba · Quiet Between Beats — Couple Set",
+  "gender": "couple",
+  "category": "couple-edit",
+  "subCategory": "Her + Him pairing",
+  "price": 4298,
+  "originalPrice": null,
+  "brand": "VIRAAS Curated",
+  "ageGroup": [
+   16,
    20,
    22,
    24,
-   35
+   25
   ],
-  "colour": "Olive",
-  "secondaryColour": "Champagne",
-  "fabric": "Crepe",
-  "embroidery": "Sequit Work",
+  "colour": "Fuchsia",
+  "secondaryColour": "Fuchsia",
+  "fabric": "Cotton",
+  "embroidery": "Mirror Work",
   "silhouette": "Couple Set",
   "occasions": [
-   "Family"
+   "Garba"
   ],
   "styleTags": [
    "Festive",
@@ -31987,23 +31643,354 @@
    "Traditional",
    "Indo-Western"
   ],
-  "description": "Shop the pair: Olive Sequin-scattered Georgette Saree with Woven Border for her and Champagne Zari-woven Brocade Kurta Set for him, chosen to sit in the same Olive-and-Champagne frame. The two plates below are the exact styling the look was built around.",
-  "imageUrl": "/images/couples/festive-brass.jpg",
+  "description": "Shop the pair: Fuchsia Mirror-work Dhoti-Pant Kurta Set for her and Fuchsia Thread-embroidered Draped Kurta with Asymmetric Hem for him, chosen to sit in the same Fuchsia-and-Fuchsia frame. The two plates below are the exact styling the look was built around.",
+  "imageUrl": "/images/couples/garba-09.jpg",
   "gallery": [
-   "/images/couples/festive-brass.jpg"
+   "/images/couples/garba-09.jpg"
   ],
   "sizes": [
    "Her M",
    "His L"
   ],
   "inHouseTryOn": false,
-  "merchantUrl": "https://www.myntra.com/sarees?search=Olive%20sequin-scattered%20Crepe%20women",
+  "merchantUrl": "https://www.ajio.com/women-kurtas-sets-trending?search=Fuchsia%20mirror-work%20Cotton%20women",
+  "merchantLabel": "AJIO",
+  "status": "CHECK",
+  "lastChecked": "2026-09-20",
+  "notes": "Bundle reference only — VIRAAS never holds stock; each half ships from its own retailer. Verify both product pages before publishing.",
+  "imagePrompt": "candid Indian festive fashion photography of a real adult couple, her in Fuchsia Mirror-work Dhoti-Pant Kurta Set, him in Fuchsia Thread-embroidered Draped Kurta with Asymmetric Hem, natural faces and genuine chemistry, varied movement and festival atmosphere, no mannequin, no text, no logos, no watermark",
+  "herProductId": "w-kurtiset-dhoti-02",
+  "hisProductId": "m-indowest-drape-01"
+ },
+ {
+  "id": "cp-set-10",
+  "title": "Garba · Kutch Detail — Couple Set",
+  "gender": "couple",
+  "category": "couple-edit",
+  "subCategory": "Her + Him pairing",
+  "price": 7498,
+  "originalPrice": null,
+  "brand": "VIRAAS Curated",
+  "ageGroup": [
+   18,
+   25,
+   30
+  ],
+  "colour": "Peacock Teal",
+  "secondaryColour": "Peacock Teal",
+  "fabric": "Georgette",
+  "silhouette": "Couple Set",
+  "occasions": [
+   "Garba"
+  ],
+  "styleTags": [
+   "Festive",
+   "Occasion",
+   "Traditional",
+   "Indo-Western"
+  ],
+  "description": "Shop the pair: Peacock Teal Zari-woven Georgette Saree with Woven Border for her and Ivory Silk Kurta Set for him, chosen to sit in the same Peacock Teal-and-Peacock Teal frame. The two plates below are the exact styling the look was built around.",
+  "imageUrl": "/images/couples/garba-10.jpg",
+  "gallery": [
+   "/images/couples/garba-10.jpg"
+  ],
+  "sizes": [
+   "Her M",
+   "His L"
+  ],
+  "inHouseTryOn": false,
+  "merchantUrl": "https://www.myntra.com/sarees?search=Peacock%20Teal%20zari-woven%20Georgette%20women",
   "merchantLabel": "Myntra",
   "status": "CHECK",
   "lastChecked": "2026-09-20",
   "notes": "Bundle reference only — VIRAAS never holds stock; each half ships from its own retailer. Verify both product pages before publishing.",
-  "imagePrompt": "candid Indian festive fashion photography of a real adult couple, her in Olive Sequin-scattered Georgette Saree with Woven Border, him in Champagne Zari-woven Brocade Kurta Set, natural faces and genuine chemistry, varied movement and festival atmosphere, no mannequin, no text, no logos, no watermark",
-  "herProductId": "w-saree-drape-02",
-  "hisProductId": "m-kurt-set-brocade-01"
+  "imagePrompt": "candid Indian festive fashion photography of a real adult couple, her in Peacock Teal Zari-woven Georgette Saree with Woven Border, him in Ivory Silk Kurta Set, natural faces and genuine chemistry, varied movement and festival atmosphere, no mannequin, no text, no logos, no watermark",
+  "herProductId": "w-saree-drape-07",
+  "hisProductId": "m-kurtiset-silk-01"
+ },
+ {
+  "id": "cp-set-11",
+  "title": "Garba · Colour in Motion — Couple Set",
+  "gender": "couple",
+  "category": "couple-edit",
+  "subCategory": "Her + Him pairing",
+  "price": 2998,
+  "originalPrice": null,
+  "brand": "VIRAAS Curated",
+  "ageGroup": [
+   20,
+   24,
+   30
+  ],
+  "colour": "Terracotta",
+  "secondaryColour": "Terracotta",
+  "fabric": "Georgette",
+  "pattern": "Block Print",
+  "silhouette": "Couple Set",
+  "occasions": [
+   "Garba"
+  ],
+  "styleTags": [
+   "Festive",
+   "Occasion",
+   "Traditional",
+   "Indo-Western"
+  ],
+  "description": "Shop the pair: Terracotta Block-printed Soft Georgette Everyday Saree for her and Terracotta Printed Kurta Set for him, chosen to sit in the same Terracotta-and-Terracotta frame. The two plates below are the exact styling the look was built around.",
+  "imageUrl": "/images/couples/garba-11.jpg",
+  "gallery": [
+   "/images/couples/garba-11.jpg"
+  ],
+  "sizes": [
+   "Her M",
+   "His L"
+  ],
+  "inHouseTryOn": false,
+  "merchantUrl": "https://www.myntra.com/sarees?search=Terracotta%20block-printed%20Georgette%20women",
+  "merchantLabel": "Myntra",
+  "status": "CHECK",
+  "lastChecked": "2026-09-20",
+  "notes": "Bundle reference only — VIRAAS never holds stock; each half ships from its own retailer. Verify both product pages before publishing.",
+  "imagePrompt": "candid Indian festive fashion photography of a real adult couple, her in Terracotta Block-printed Soft Georgette Everyday Saree, him in Terracotta Printed Kurta Set, natural faces and genuine chemistry, varied movement and festival atmosphere, no mannequin, no text, no logos, no watermark",
+  "herProductId": "w-saree-georgette-soft-01",
+  "hisProductId": "m-kurtiset-printed-05"
+ },
+ {
+  "id": "cp-set-12",
+  "title": "Garba · Dandiya Cross — Couple Set",
+  "gender": "couple",
+  "category": "couple-edit",
+  "subCategory": "Her + Him pairing",
+  "price": 6198,
+  "originalPrice": null,
+  "brand": "VIRAAS Curated",
+  "ageGroup": [
+   22,
+   24,
+   30,
+   35
+  ],
+  "colour": "Midnight Navy",
+  "secondaryColour": "Midnight Navy",
+  "fabric": "Satin",
+  "embroidery": "Tone-on-Tone",
+  "silhouette": "Couple Set",
+  "occasions": [
+   "Garba"
+  ],
+  "styleTags": [
+   "Festive",
+   "Occasion",
+   "Traditional",
+   "Everyday"
+  ],
+  "description": "Shop the pair: Midnight Navy Tone-on-tone Satin Slip Saree for her and Midnight Navy Buti-motif Silk Kurta Set for him, chosen to sit in the same Midnight Navy-and-Midnight Navy frame. The two plates below are the exact styling the look was built around.",
+  "imageUrl": "/images/couples/garba-12.jpg",
+  "gallery": [
+   "/images/couples/garba-12.jpg"
+  ],
+  "sizes": [
+   "Her M",
+   "His L"
+  ],
+  "inHouseTryOn": false,
+  "merchantUrl": "https://www.myntra.com/sarees?search=Midnight%20Navy%20tone-on-tone%20Satin%20women",
+  "merchantLabel": "Myntra",
+  "status": "CHECK",
+  "lastChecked": "2026-09-20",
+  "notes": "Bundle reference only — VIRAAS never holds stock; each half ships from its own retailer. Verify both product pages before publishing.",
+  "imagePrompt": "candid Indian festive fashion photography of a real adult couple, her in Midnight Navy Tone-on-tone Satin Slip Saree, him in Midnight Navy Buti-motif Silk Kurta Set, natural faces and genuine chemistry, varied movement and festival atmosphere, no mannequin, no text, no logos, no watermark",
+  "herProductId": "w-saree-satin-slip-01",
+  "hisProductId": "m-kurtiset-silk-02"
+ },
+ {
+  "id": "cp-set-13",
+  "title": "Garba · Mirror Border — Couple Set",
+  "gender": "couple",
+  "category": "couple-edit",
+  "subCategory": "Her + Him pairing",
+  "price": 4298,
+  "originalPrice": null,
+  "brand": "VIRAAS Curated",
+  "ageGroup": [
+   16,
+   20,
+   22,
+   24,
+   25
+  ],
+  "colour": "Fuchsia",
+  "secondaryColour": "Fuchsia",
+  "fabric": "Cotton",
+  "embroidery": "Mirror Work",
+  "silhouette": "Couple Set",
+  "occasions": [
+   "Garba"
+  ],
+  "styleTags": [
+   "Festive",
+   "Occasion",
+   "Traditional",
+   "Indo-Western"
+  ],
+  "description": "Shop the pair: Fuchsia Mirror-work Dhoti-Pant Kurta Set for her and Fuchsia Thread-embroidered Draped Kurta with Asymmetric Hem for him, chosen to sit in the same Fuchsia-and-Fuchsia frame. The two plates below are the exact styling the look was built around.",
+  "imageUrl": "/images/couples/garba-13.jpg",
+  "gallery": [
+   "/images/couples/garba-13.jpg"
+  ],
+  "sizes": [
+   "Her M",
+   "His L"
+  ],
+  "inHouseTryOn": false,
+  "merchantUrl": "https://www.ajio.com/women-kurtas-sets-trending?search=Fuchsia%20mirror-work%20Cotton%20women",
+  "merchantLabel": "AJIO",
+  "status": "CHECK",
+  "lastChecked": "2026-09-20",
+  "notes": "Bundle reference only — VIRAAS never holds stock; each half ships from its own retailer. Verify both product pages before publishing.",
+  "imagePrompt": "candid Indian festive fashion photography of a real adult couple, her in Fuchsia Mirror-work Dhoti-Pant Kurta Set, him in Fuchsia Thread-embroidered Draped Kurta with Asymmetric Hem, natural faces and genuine chemistry, varied movement and festival atmosphere, no mannequin, no text, no logos, no watermark",
+  "herProductId": "w-kurtiset-dhoti-02",
+  "hisProductId": "m-indowest-drape-01"
+ },
+ {
+  "id": "cp-set-14",
+  "title": "Garba · Last Song — Couple Set",
+  "gender": "couple",
+  "category": "couple-edit",
+  "subCategory": "Her + Him pairing",
+  "price": 7498,
+  "originalPrice": null,
+  "brand": "VIRAAS Curated",
+  "ageGroup": [
+   18,
+   25,
+   30
+  ],
+  "colour": "Peacock Teal",
+  "secondaryColour": "Peacock Teal",
+  "fabric": "Georgette",
+  "silhouette": "Couple Set",
+  "occasions": [
+   "Garba"
+  ],
+  "styleTags": [
+   "Festive",
+   "Occasion",
+   "Traditional",
+   "Indo-Western"
+  ],
+  "description": "Shop the pair: Peacock Teal Zari-woven Georgette Saree with Woven Border for her and Ivory Silk Kurta Set for him, chosen to sit in the same Peacock Teal-and-Peacock Teal frame. The two plates below are the exact styling the look was built around.",
+  "imageUrl": "/images/couples/garba-14.jpg",
+  "gallery": [
+   "/images/couples/garba-14.jpg"
+  ],
+  "sizes": [
+   "Her M",
+   "His L"
+  ],
+  "inHouseTryOn": false,
+  "merchantUrl": "https://www.myntra.com/sarees?search=Peacock%20Teal%20zari-woven%20Georgette%20women",
+  "merchantLabel": "Myntra",
+  "status": "CHECK",
+  "lastChecked": "2026-09-20",
+  "notes": "Bundle reference only — VIRAAS never holds stock; each half ships from its own retailer. Verify both product pages before publishing.",
+  "imagePrompt": "candid Indian festive fashion photography of a real adult couple, her in Peacock Teal Zari-woven Georgette Saree with Woven Border, him in Ivory Silk Kurta Set, natural faces and genuine chemistry, varied movement and festival atmosphere, no mannequin, no text, no logos, no watermark",
+  "herProductId": "w-saree-drape-07",
+  "hisProductId": "m-kurtiset-silk-01"
+ },
+ {
+  "id": "cp-set-15",
+  "title": "Garba · Teal and Fuchsia — Couple Set",
+  "gender": "couple",
+  "category": "couple-edit",
+  "subCategory": "Her + Him pairing",
+  "price": 2998,
+  "originalPrice": null,
+  "brand": "VIRAAS Curated",
+  "ageGroup": [
+   20,
+   24,
+   30
+  ],
+  "colour": "Terracotta",
+  "secondaryColour": "Terracotta",
+  "fabric": "Georgette",
+  "pattern": "Block Print",
+  "silhouette": "Couple Set",
+  "occasions": [
+   "Garba"
+  ],
+  "styleTags": [
+   "Festive",
+   "Occasion",
+   "Traditional",
+   "Indo-Western"
+  ],
+  "description": "Shop the pair: Terracotta Block-printed Soft Georgette Everyday Saree for her and Terracotta Printed Kurta Set for him, chosen to sit in the same Terracotta-and-Terracotta frame. The two plates below are the exact styling the look was built around.",
+  "imageUrl": "/images/couples/garba-15.jpg",
+  "gallery": [
+   "/images/couples/garba-15.jpg"
+  ],
+  "sizes": [
+   "Her M",
+   "His L"
+  ],
+  "inHouseTryOn": false,
+  "merchantUrl": "https://www.myntra.com/sarees?search=Terracotta%20block-printed%20Georgette%20women",
+  "merchantLabel": "Myntra",
+  "status": "CHECK",
+  "lastChecked": "2026-09-20",
+  "notes": "Bundle reference only — VIRAAS never holds stock; each half ships from its own retailer. Verify both product pages before publishing.",
+  "imagePrompt": "candid Indian festive fashion photography of a real adult couple, her in Terracotta Block-printed Soft Georgette Everyday Saree, him in Terracotta Printed Kurta Set, natural faces and genuine chemistry, varied movement and festival atmosphere, no mannequin, no text, no logos, no watermark",
+  "herProductId": "w-saree-georgette-soft-01",
+  "hisProductId": "m-kurtiset-printed-05"
+ },
+ {
+  "id": "cp-set-16",
+  "title": "Garba · Garba Greeting — Couple Set",
+  "gender": "couple",
+  "category": "couple-edit",
+  "subCategory": "Her + Him pairing",
+  "price": 6198,
+  "originalPrice": null,
+  "brand": "VIRAAS Curated",
+  "ageGroup": [
+   22,
+   24,
+   30,
+   35
+  ],
+  "colour": "Midnight Navy",
+  "secondaryColour": "Midnight Navy",
+  "fabric": "Satin",
+  "embroidery": "Tone-on-Tone",
+  "silhouette": "Couple Set",
+  "occasions": [
+   "Garba"
+  ],
+  "styleTags": [
+   "Festive",
+   "Occasion",
+   "Traditional",
+   "Everyday"
+  ],
+  "description": "Shop the pair: Midnight Navy Tone-on-tone Satin Slip Saree for her and Midnight Navy Buti-motif Silk Kurta Set for him, chosen to sit in the same Midnight Navy-and-Midnight Navy frame. The two plates below are the exact styling the look was built around.",
+  "imageUrl": "/images/couples/garba-16.jpg",
+  "gallery": [
+   "/images/couples/garba-16.jpg"
+  ],
+  "sizes": [
+   "Her M",
+   "His L"
+  ],
+  "inHouseTryOn": false,
+  "merchantUrl": "https://www.myntra.com/sarees?search=Midnight%20Navy%20tone-on-tone%20Satin%20women",
+  "merchantLabel": "Myntra",
+  "status": "CHECK",
+  "lastChecked": "2026-09-20",
+  "notes": "Bundle reference only — VIRAAS never holds stock; each half ships from its own retailer. Verify both product pages before publishing.",
+  "imagePrompt": "candid Indian festive fashion photography of a real adult couple, her in Midnight Navy Tone-on-tone Satin Slip Saree, him in Midnight Navy Buti-motif Silk Kurta Set, natural faces and genuine chemistry, varied movement and festival atmosphere, no mannequin, no text, no logos, no watermark",
+  "herProductId": "w-saree-satin-slip-01",
+  "hisProductId": "m-kurtiset-silk-02"
  }
 ]

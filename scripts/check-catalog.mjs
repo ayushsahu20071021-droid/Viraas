@@ -20,11 +20,20 @@ const errors = []
 const err = (m) => errors.length < 50 && errors.push(m)
 const badNum = (v) => typeof v !== 'number' || !Number.isFinite(v) || !(v > 0)
 if (products.length !== 653) err(`production catalog must contain exactly 653 products, got ${products.length}`)
-if (couples.length !== 60) err(`production Couple Edit must contain exactly 60 looks, got ${couples.length}`)
+if (couples.length !== 100) err(`production Couple Edit must contain exactly 100 looks, got ${couples.length}`)
 if (imageManifest.productPrimaryCount !== products.length || imageManifest.productPrimaryFormat !== 'jpg') err('image manifest does not match product primary photography')
 if (imageManifest.couplePrimaryCount !== couples.length || imageManifest.couplePrimaryFormat !== 'jpg') err('image manifest does not match Couple Edit photography')
 if (imageManifest.productPrimaries?.length !== products.length) err('image manifest product index is incomplete')
 if (imageManifest.couplePrimaries?.length !== couples.length) err('image manifest couple index is incomplete')
+const coupleWorlds = ['Garba', 'Navratri', 'Diwali', 'Festive Party', 'College Fest']
+const publicOccasions = new Set(coupleWorlds)
+for (const p of products) for (const occasion of p.occasions || []) if (!publicOccasions.has(occasion)) err(`[${p.id}] retired occasion tag: ${occasion}`)
+for (const l of looks) for (const occasion of l.occasions || []) if (!publicOccasions.has(occasion)) err(`[look ${l.id}] retired occasion tag: ${occasion}`)
+const worldCounts = Object.fromEntries(coupleWorlds.map((world) => [world, couples.filter((c) => c.world === world).length]))
+for (const world of coupleWorlds) if (worldCounts[world] !== 20) err(`${world} must contain exactly 20 Couple Edit looks, got ${worldCounts[world]}`)
+if (new Set(couples.map((c) => c.imageUrl)).size !== couples.length) err('Couple Edit image paths must be unique')
+if (couples.some((c) => !c.world || !c.scene || !c.pose || !c.cameraFraming || !c.sourceImage)) err('Couple Edit metadata is incomplete')
+if (new Set(couples.map((c) => c.sourceImage)).size < 10) err('Couple Edit source-photo coverage is incomplete')
 
 for (const p of products) {
   if (badNum(p.price)) err(`[${p.id}] price must be a finite positive number, got ${JSON.stringify(p.price)}`)
@@ -56,6 +65,8 @@ for (const l of looks) {
   if (/\.svg$/i.test(l.imageUrl || '')) err(`[look ${l.id}] primary image must not be SVG`)
 }
 for (const c of couples) {
+  if (!coupleWorlds.includes(c.world)) err(`[couple ${c.id}] retired occasion world: ${c.world}`)
+  if (c.occasions?.length !== 1 || c.occasions[0] !== c.world) err(`[couple ${c.id}] occasion metadata does not match world`)
   if (badNum(c.price)) err(`[couple ${c.id}] invalid price`)
   if (c.price > 8000) err(`[couple ${c.id}] price exceeds production ceiling of ₹8,000`)
   if (!/\.jpg$/i.test(c.imageUrl || '') || !existsSync(join(ROOT, 'public', c.imageUrl))) err(`[couple ${c.id}] human-couple JPG missing on disk`)

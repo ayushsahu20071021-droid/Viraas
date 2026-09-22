@@ -90,7 +90,11 @@ export default function App() {
 
               {/* Occasions */}
               <Route path="/occasions" element={<OccasionsPage />} />
-              <Route path="/occasions/:id" element={<OccasionsPage />} />
+              <Route path="/occasions/garba" element={<OccasionsPage />} />
+              <Route path="/occasions/navratri" element={<OccasionsPage />} />
+              <Route path="/occasions/diwali" element={<OccasionsPage />} />
+              <Route path="/occasions/festive-party" element={<OccasionsPage />} />
+              <Route path="/occasions/college-fest" element={<OccasionsPage />} />
 
               {/* Product */}
               <Route path="/product/:id" element={<ProductPage />} />

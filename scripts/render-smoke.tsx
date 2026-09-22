@@ -79,6 +79,7 @@ const pages: Array<[string, React.ReactElement]> = [
   ['/occasions/diwali', <OccasionsPage />],
   ['/occasions/garba', <OccasionsPage />],
   ['/occasions/navratri', <OccasionsPage />],
+  ['/occasions/festive-party', <OccasionsPage />],
   ['/occasions/college-fest', <OccasionsPage />],
   ['/journal', <JournalPage />],
   ['/journal/the-organza-decode', <JournalPage />],

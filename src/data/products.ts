@@ -85,9 +85,7 @@ export function categoriesForGender(gender: Gender | 'accessories'): { key: stri
 }
 
 export const OCCASION_TAGS = [
-  'Wedding', 'Sangeet', 'Reception', 'Mehendi', 'Festive Party', 'Diwali Party', 'Garba', 'Navratri',
-  'College Fest', 'Work-to-Dinner', 'Night Out', 'Destination Wedding', 'Daywear', 'Puja & Temple',
-  'Engagement', 'Wedding Guest', 'Family Function', 'Date Night', 'Winter Festive',
+  'Garba', 'Navratri', 'Diwali', 'Festive Party', 'College Fest',
 ] as const
 export type OccasionTag = (typeof OCCASION_TAGS)[number]
 
@@ -119,7 +117,7 @@ export interface FilterParams {
   scope?: Gender | 'accessories'
   gender?: Gender
   category?: string
-  occasion?: string            // occasion tag, e.g. 'Sangeet'
+  occasion?: string            // occasion tag, e.g. 'Garba'
   occasionId?: string           // occasion page id — mapped to tag
   colour?: string
   budget?: BudgetKey
@@ -254,12 +252,8 @@ export function filterProducts(
 
 // ── occasion page ids ↔ product tags ─────────────────────────────────────────
 export const OCCASION_TAG_BY_ID: Record<string, string> = {
-  wedding: 'Wedding', sangeet: 'Sangeet', reception: 'Reception', mehendi: 'Mehendi',
-  'festive-party': 'Festive Party', diwali: 'Diwali Party', garba: 'Garba', navratri: 'Navratri',
-  'college-fest': 'College Fest', workwear: 'Work-to-Dinner', 'night-out': 'Night Out',
-  'destination-wedding': 'Destination Wedding', daywear: 'Daywear', puja: 'Puja & Temple',
-  engagement: 'Engagement', 'wedding-guest': 'Wedding Guest', 'family-function': 'Family Function',
-  'date-night': 'Date Night', winter: 'Winter Festive',
+  garba: 'Garba', navratri: 'Navratri', diwali: 'Diwali',
+  'festive-party': 'Festive Party', 'college-fest': 'College Fest',
 }
 
 // ── search across products, looks & couple edits ─────────────────────────────

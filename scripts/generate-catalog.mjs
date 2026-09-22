@@ -184,7 +184,7 @@ const pickPrice = (rnd, lo, hi) => {
   return Number.isFinite(picked) && picked > 0 ? Math.min(7999, picked) : band[0]
 }
 
-const OCC_TAG = { wedding: 'Wedding', sangeet: 'Sangeet', reception: 'Reception', mehendi: 'Mehendi', festive: 'Festive Party', diwali: 'Diwali Party', garba: 'Garba', navratri: 'Navratri', college: 'College Fest', workwear: 'Work-to-Dinner', party: 'Night Out', travel: 'Destination Wedding', casual: 'Daywear', puja: 'Puja & Temple', engagement: 'Engagement', guest: 'Wedding Guest', family: 'Family Function', date: 'Date Night', winter: 'Winter Festive' }
+const OCC_TAG = { wedding: 'Festive Party', sangeet: 'Festive Party', reception: 'Festive Party', mehendi: 'Festive Party', festive: 'Festive Party', diwali: 'Diwali', garba: 'Garba', navratri: 'Navratri', college: 'College Fest', workwear: 'Festive Party', party: 'Festive Party', travel: 'Festive Party', casual: 'College Fest', puja: 'Diwali', engagement: 'Festive Party', guest: 'Festive Party', family: 'Diwali', date: 'Festive Party', winter: 'Diwali' }
 
 const AGE_BY_OCC = { college: [16, 17, 18, 20, 21, 22, 24], garba: [16, 17, 18, 20, 21, 22, 24, 25], party: [18, 20, 21, 22, 24], casual: [16, 17, 18, 20, 21, 22, 24], workwear: [20, 21, 22, 24, 25], travel: [20, 21, 22, 24, 25], date: [18, 20, 21, 22, 24, 25], puja: [16, 17, 18, 20, 21, 22, 24, 25], family: [16, 17, 18, 20, 21, 22, 24, 25], sangeet: [16, 17, 18, 20, 21, 22, 24, 25], mehendi: [16, 17, 18, 20, 21, 22, 24], festive: [18, 20, 21, 22, 24, 25, 30, 35], diwali: [18, 20, 21, 22, 24, 25, 30, 35], navratri: [16, 17, 18, 20, 21, 22, 24, 25], wedding: [18, 20, 21, 22, 24, 25, 30, 35, 40], reception: [20, 21, 22, 24, 25, 30, 35], engagement: [18, 20, 21, 22, 24, 25, 30], guest: [20, 21, 22, 24, 25, 30, 35, 40], winter: [18, 20, 21, 22, 24, 25, 30, 35] }
 function ageFor(rnd, sub) {
@@ -207,7 +207,6 @@ function styleFor(sub, craft) {
   if (/sequin|glam|mirror|stone|pearl/.test(sub.name.toLowerCase() + craft.toLowerCase())) s.push('Statement')
   return [...new Set(s)]
 }
-const OCC_LABEL = { wedding: 'Wedding', sangeet: 'Sangeet', reception: 'Reception', mehendi: 'Mehendi', festive: 'Festive', diwali: 'Diwali', garba: 'Garba', navratri: 'Navratri', college: 'College Fest', workwear: 'Workwear', party: 'Night Out', travel: 'Destination', casual: 'Casual', puja: 'Puja & Temple', engagement: 'Engagement', guest: 'Wedding Guest', family: 'Family Function', date: 'Date Night', winter: 'Winter' }
 const priceHint = (sub) => sub.price[1]
 
 const DESC = {
@@ -580,7 +579,7 @@ const look = (id, title, mood, occasions, anchors, story, alt = []) => {
   return { id, title, mood, occasions, productIds: items.map(p => p.id), imageUrl: items[0].imageUrl, altImages: alt, price, description: story, merchantUrls: [...new Set(items.map(p => p.merchantUrl))], merchantLabels: [...new Set(items.map(p => p.merchantLabel))], budgetTier: price < 2000 ? 'Under ₹1,999' : price < 3000 ? '₹1,999–₹2,999' : price < 5000 ? '₹2,999–₹4,999' : '₹5,000+' }
 }
 const looks = []
-const OCC_LOOKS = ['Sangeet', 'Diwali Party', 'College Fest', 'Reception', 'Navratri', 'Wedding', 'Daywear', 'Night Out', 'Work-to-Dinner', 'Mehendi', 'Family Function', 'Date Night', 'Wedding Guest', 'Puja & Temple']
+const OCC_LOOKS = ['Garba', 'Navratri', 'Diwali', 'Festive Party', 'College Fest']
 const ACC_CATS = { women: ['jewellery', 'footwear', 'bags', 'watches', 'beauty'], men: ['footwear', 'watches', 'accessories'] }
 const LOOK_VERBS = ['anchors', 'sets the tone for', 'carries', 'opens', 'grounds', 'finishes']
 let li = 1
@@ -608,122 +607,190 @@ for (const occ of OCC_LOOKS) {
 // occasion-bridging looks + cross-gender couple looks happen in couples.json
 
 // ── couple looks + couple-set products ───────────────────────────────────────
-const COUPLES = [
-  ['sage-silk', 'Sage Silk Sangeet', 'Sangeet', 'sage', ['Sage', 'Emerald']],
-  ['ivory-gold', 'Ivory & Gold Reception', 'Reception', 'luxe', ['Ivory', 'Antique Gold']],
-  ['terracotta-fiesta', 'Terracotta Mehendi Fiesta', 'Mehendi', 'warm', ['Terracotta', 'Mustard']],
-  ['midnight-velvet', 'Midnight Velvet Evening', 'Evening', 'evening', ['Midnight Navy', 'Plum']],
-  ['marigold-day', 'Marigold Day Wedding', 'Wedding', 'warm', ['Marigold', 'Rust']],
-  ['monsoon-pastel', 'Monsoon Pastel Engagement', 'Engagement', 'pastel', ['Powder Blue', 'Mint']],
-  ['diwali-heirloom', 'Diwali Heirloom Puja', 'Diwali', 'heirloom', ['Mustard', 'Rust']],
-  ['navratri-neon', 'Navratri Floor Neon', 'Garba', 'bold', ['Hot Pink', 'Parrot Green']],
-  ['destination-white', 'Destination White Reception', 'Travel', 'luxury', ['White', 'Sand']],
-  ['college-duo', 'College Fest Duo', 'College', 'youthful', ['Butter Yellow', 'Stone Grey']],
-  ['wedding-guest-olive', 'Wedding Guest in Olive', 'Guest', 'minimal', ['Olive', 'Greige']],
-  ['winter-wedding', 'Winter Wedding Warmth', 'Winter', 'luxe', ['Bottle Green', 'Oat Melange']],
-  ['family-function', 'Family Function Soft Sheen', 'Family', 'minimal', ['Blush Pink', 'Sand']],
-  ['date-evening', 'Date Night in Wine', 'Date', 'bold', ['Wine', 'Chocolate']],
-  ['mehendi-mint', 'Mehendi Morning in Mint', 'Mehendi', 'fresh', ['Mint', 'Peach']],
-  ['festive-brass', 'Festive Family Brass & Ivory', 'Family', 'minimal', ['Champagne', 'Olive']],
-  ['garba-black-gold', 'Midnight Mirror Garba Night', 'Garba', 'contemporary', ['Black', 'Antique Gold']],
-  ['diwali-wine-ivory', 'Royal Wine & Ivory Diwali Edit', 'Diwali', 'festive', ['Wine', 'Ivory']],
-  ['sangeet-emerald-cream', 'Emerald & Cream Sangeet Romance', 'Sangeet', 'luxe', ['Emerald', 'Cream']],
-  ['wedding-maroon-champagne', 'Heritage Maroon & Champagne Wedding', 'Wedding', 'royal', ['Maroon', 'Champagne']],
-  ['haldi-mustard-ivory', 'Sunlit Mustard & Ivory Haldi Pair', 'Haldi', 'vibrant', ['Mustard', 'Ivory']],
-  ['cocktail-charcoal-rose', 'Charcoal & Dusty Rose Evening Soiree', 'Reception', 'modern', ['Charcoal', 'Rose']],
-  ['navratri-rust-cream', 'Chaniya & Kurta Rust Festive Rhythm', 'Garba', 'festive', ['Rust', 'Cream']],
-  ['reception-navy-peach', 'Midnight Navy & Peach Reception Pair', 'Reception', 'elegant', ['Navy', 'Peach']],
-  ['college-fest-sage-ivory', 'Campus Traditional Sage & Ivory Duo', 'College', 'youthful', ['Sage', 'Ivory']],
-  ['mehendi-forest-rose', 'Forest Green & Soft Rose Mehendi', 'Mehendi', 'fresh', ['Forest Green', 'Blush Pink']],
-  ['engagement-powder-ivory', 'Powder Blue & Ivory Courtyard Engagement', 'Engagement', 'serene', ['Powder Blue', 'Ivory']],
-  ['puja-terracotta-cream', 'Terracotta & Ivory Dawn Puja Harmony', 'Puja & Temple', 'devotional', ['Terracotta', 'Cream']],
-  ['festive-plum-blush', 'Plum & Blush Twilight Festive Pairing', 'Festive Party', 'contemporary', ['Plum', 'Blush']],
-  ['wedding-guest-deepgreen-sand', 'Deep Green & Sand Heritage Guest Duo', 'Wedding Guest', 'understated', ['Deep Green', 'Sand']],
-  ['winter-burgundy-ivory', 'Velvet Burgundy & Warm Ivory Winter Sangeet', 'Winter', 'rich', ['Deep Maroon', 'Ivory']],
-  ['date-night-chocolate-cream', 'Contemporary Chocolate & Cream Date Edit', 'Date Night', 'intimate', ['Chocolate', 'Cream']]
+// ── couple looks + couple-set products ───────────────────────────────────────
+// The production Couple Edit is intentionally a 5-world collection. Every
+// record has its own JPG, a source photograph, and scene/pose/camera metadata so
+// QA can audit the visual story instead of trusting a repeated placeholder.
+const COUPLE_WORLDS = [
+  {
+    id: 'garba', label: 'Garba', mood: 'Gujarati mirrorwork in motion',
+    sources: ['production-couple-garba-dandiya-wide.jpg', 'production-couple-garba-dupattahold.jpg'],
+    colours: [['Fuchsia', 'Indigo'], ['Peacock Teal', 'Mustard'], ['Terracotta', 'Emerald'], ['Hot Pink', 'Midnight Navy']],
+    variants: [
+      ['Dandiya Circle', 'walking between dandiya rounds', 'crossed sticks and a shared laugh', 'wide festival-ground frame'],
+      ['Dupatta Mid-Turn', 'under a mirrorwork canopy', 'he steadies her dupatta as she turns', 'three-quarter moving frame'],
+      ['After the First Round', 'by the decorated entry arch', 'foreheads close, catching their breath', 'intimate portrait crop'],
+      ['Bandhani Sidewalk', 'at the edge of the Garba ground', 'handholding while dancers blur behind them', 'side-on documentary frame'],
+      ['Mirrorwork Glance', 'beside a marigold-lit pillar', 'eye contact over a shoulder touch', 'close candid frame'],
+      ['Dandiya Walk', 'through the late-evening crowd', 'matching their steps, sticks lowered', 'full-length walking frame'],
+      ['Kediyu Laugh', 'near the live folk percussion', 'her laugh catches him mid-sentence', 'medium two-shot'],
+      ['Chaniya Spin', 'under strings of warm bulbs', 'he reaches for her hand as the skirt opens', 'low-angle movement frame'],
+      ['Quiet Between Beats', 'at the shaded edge of the ground', 'a quiet check-in before the next song', 'waist-up conversational frame'],
+      ['Kutch Detail', 'beside a bandhani textile stall', 'she adjusts his stole with a grin', 'over-the-shoulder frame'],
+      ['Colour in Motion', 'on the open earthen dance floor', 'shoulder-to-shoulder through a circle', 'wide environmental frame'],
+      ['Dandiya Cross', 'beneath the festival lights', 'sticks cross while they look at one another', 'dynamic diagonal frame'],
+      ['Mirror Border', 'near the hand-painted entrance', 'her hand rests lightly on his arm', 'portrait crop with bokeh'],
+      ['Last Song', 'after the final Garba round', 'tired smiles and linked hands', 'natural low-light frame'],
+      ['Teal and Fuchsia', 'beside the draped textile backdrop', 'a playful almost-dance step', 'three-quarter frame'],
+      ['Garba Greeting', 'at a family-friendly festival courtyard', 'a warm hello before joining friends', 'mid-distance social frame'],
+      ['Footwork Lesson', 'on the outer ring of the ground', 'he follows her confident step', 'candid action frame'],
+      ['Marigold Turn', 'framed by marigold strings', 'a gentle turn with eyes locked', 'vertical editorial frame'],
+      ['Night Ground', 'under deep-blue evening sky', 'walking home from the dance circle', 'wide night frame'],
+      ['Shared Sticks', 'near the percussion stage', 'one pair of dandiya, two laughing hands', 'close hand-and-face frame'],
+    ],
+  },
+  {
+    id: 'navratri', label: 'Navratri', mood: 'nine nights, nine rhythms',
+    sources: ['production-couple-navratri-steps.jpg', 'production-couple-navratri-close.jpg'],
+    colours: [['Cobalt', 'Fuchsia'], ['Mustard', 'Bottle Green'], ['Coral', 'Indigo'], ['Plum', 'Copper']],
+    variants: [
+      ['Night One Steps', 'under the first string lights', 'learning the same rhythm together', 'wide dance-floor frame'],
+      ['Close Afterglow', 'by a softly lit festival wall', 'quiet eye contact after a fast round', 'close portrait frame'],
+      ['Odhani Check', 'beside a decorated stage', 'he checks the fall of her odhani', 'medium candid frame'],
+      ['Nine-Night Walk', 'through the moving festival crowd', 'hands linked between songs', 'full-length documentary frame'],
+      ['Cobalt Rhythm', 'under coloured festoon lights', 'a shared laugh mid-step', 'three-quarter action frame'],
+      ['Pause at the Pillar', 'near a painted courtyard pillar', 'shoulder-to-shoulder pause', 'vertical portrait crop'],
+      ['Bandhani Beat', 'on the outer edge of the circle', 'her bracelet catches his hand', 'close hand-and-face frame'],
+      ['After the Claps', 'beside the live music', 'turning toward one another', 'side-on conversational frame'],
+      ['Fuchsia Motion', 'in the centre of the dance ground', 'a hand raised between steps', 'low-angle movement frame'],
+      ['Dandiya Warm-Up', 'at the festival entrance', 'sharing a last-minute step cue', 'over-the-shoulder frame'],
+      ['String-Light Smile', 'under warm overhead bulbs', 'a relaxed smile before the music starts', 'medium two-shot'],
+      ['Navratri Blue Hour', 'on the open ground at blue hour', 'walking in after the crowd gathers', 'wide environmental frame'],
+      ['Mirrorwork Turn', 'near a mirrorwork textile wall', 'he catches her turning dupatta', 'dynamic diagonal frame'],
+      ['Shared Rhythm', 'beside a marigold arch', 'moving in parallel, not in uniform', 'full-length walking frame'],
+      ['Copper and Plum', 'at the edge of the lit court', 'a close conversation over music', 'intimate waist-up frame'],
+      ['Festival Portrait', 'with dancers softened behind them', 'natural eye contact and a small grin', 'shallow-depth portrait frame'],
+      ['Nightside Laugh', 'beside a food-stall glow', 'laughing after missing a step', 'candid social frame'],
+      ['Circle Break', 'on the quiet edge of the venue', 'a supportive hand at the shoulder', 'three-quarter still frame'],
+      ['Final Aarti Lights', 'near the warm ceremonial lights', 'standing together after the last beat', 'warm low-light frame'],
+      ['Navratri Homeward', 'on the decorated exit path', 'walking out with linked hands', 'wide exit frame'],
+    ],
+  },
+  {
+    id: 'diwali', label: 'Diwali', mood: 'lamplight, colour and easy intimacy',
+    sources: ['production-couple-diwali-balcony.jpg', 'production-couple-diwali-doorway.jpg'],
+    colours: [['Wine', 'Antique Gold'], ['Emerald', 'Ivory'], ['Rust', 'Sand'], ['Peacock Teal', 'Mustard']],
+    variants: [
+      ['Balcony Diyas', 'on a balcony lined with diyas', 'sharing a quiet laugh beside the lamps', 'wide warm-light frame'],
+      ['Doorway Welcome', 'at a marigold-trimmed doorway', 'walking in hand in hand', 'full-length doorway frame'],
+      ['Rangoli Pause', 'beside a hand-painted rangoli', 'he points out a detail and she smiles', 'medium conversational frame'],
+      ['Terrace Lights', 'under a terrace canopy of bulbs', 'standing close without posing', 'three-quarter evening frame'],
+      ['Puja Hour', 'near a softly lit home shrine', 'a respectful shoulder-to-shoulder moment', 'quiet portrait frame'],
+      ['Diya in Hand', 'along a candlelit balcony rail', 'hands meeting around a diya', 'close hands-and-faces frame'],
+      ['Doorstep Laugh', 'on a decorated front step', 'a shared joke before guests arrive', 'candid seated frame'],
+      ['Silk at Blue Hour', 'on a terrace after sunset', 'looking out, then back at one another', 'side-on environmental frame'],
+      ['Marigold Entry', 'framed by marigold garlands', 'he opens the door while she looks back', 'moving doorway frame'],
+      ['Warm Balcony', 'beside potted jasmine and lamps', 'a light touch at the waist', 'intimate waist-up frame'],
+      ['Copper Glow', 'near brass lamps and flowers', 'comparing festive details with a smile', 'medium two-shot'],
+      ['Rooftop Diyas', 'on a city rooftop at night', 'standing under a line of lights', 'wide city-bokeh frame'],
+      ['Festive Threshold', 'at a carved wooden threshold', 'a gentle handhold between greetings', 'vertical editorial frame'],
+      ['Lamp Trail', 'following a trail of small diyas', 'walking slowly side by side', 'full-length walking frame'],
+      ['Emerald Evening', 'in a warm indoor courtyard', 'eyes meeting over a conversation', 'close candid frame'],
+      ['Saree and Kurta', 'beside a flower-draped balcony', 'her dupatta moves as he laughs', 'three-quarter movement frame'],
+      ['Quiet Firelight', 'by a cluster of glowing lamps', 'a soft check-in before dinner', 'low-light portrait frame'],
+      ['Doorway Portrait', 'under the entryway lanterns', 'natural smiles, relaxed shoulders', 'documentary portrait frame'],
+      ['Late Diwali Walk', 'on a softly lit verandah', 'walking home from the terrace', 'wide verandah frame'],
+      ['Last Diya', 'beside the final lamp of the evening', 'hands joined, looking toward the glow', 'close warm-light frame'],
+    ],
+  },
+  {
+    id: 'festive-party', label: 'Festive Party', mood: 'social evenings with polished ease',
+    sources: ['production-couple-festive-conversation.jpg', 'production-couple-festive-walk.jpg'],
+    colours: [['Teal', 'Rust'], ['Olive', 'Blush Pink'], ['Copper', 'Ivory'], ['Midnight Navy', 'Rose']],
+    variants: [
+      ['Dinner Conversation', 'on a softly lit party step', 'mid-story laughter across the conversation', 'seated two-shot'],
+      ['Marigold Walk', 'through a marigold-trimmed venue', 'walking in with an easy handhold', 'full-length walking frame'],
+      ['Balcony Chat', 'beside a city-view balcony', 'listening with a shoulder lean', 'side-on candid frame'],
+      ['Party Arrival', 'under the venue entrance lights', 'turning toward one another after arriving', 'wide social frame'],
+      ['Terrace Toast', 'on a terrace with warm bokeh', 'hands lifted in a small celebratory gesture', 'medium evening frame'],
+      ['Seated Laugh', 'on broad venue steps', 'laughing between dinner courses', 'close seated frame'],
+      ['Printed Layers', 'near a flower-draped lounge', 'he adjusts his cuff while she watches', 'three-quarter portrait frame'],
+      ['After Work, Before Dinner', 'on a softly decorated walkway', 'walking side by side mid-conversation', 'documentary walking frame'],
+      ['House Party Glow', 'beside a warm indoor bar cart', 'a natural shoulder touch', 'intimate waist-up frame'],
+      ['Garden String Lights', 'under garden festoon lights', 'a playful step toward the camera', 'wide garden frame'],
+      ['Rust and Teal', 'beside a patterned textile wall', 'sharing a look while friends blur behind', 'shallow-depth frame'],
+      ['Conversation Corner', 'in a quiet corner of the venue', 'leaning in to hear one another', 'close conversational frame'],
+      ['Arrival Portrait', 'framed by the entrance garland', 'relaxed smiles after a long week', 'vertical editorial frame'],
+      ['Evening Stroll', 'along a lantern-lit path', 'linked elbows and matching pace', 'full-length path frame'],
+      ['Seated Side Note', 'on the venue steps after sunset', 'a quick private joke', 'medium seated frame'],
+      ['Copper Detail', 'near warm floral arrangements', 'her hand rests on his forearm', 'close hands-and-faces frame'],
+      ['Party Pause', 'by the edge of the music room', 'a calm pause between greetings', 'three-quarter still frame'],
+      ['Midnight Blue', 'under a blue-hour terrace sky', 'standing apart, eyes meeting', 'wide environmental frame'],
+      ['Last Guests', 'on the venue exit walkway', 'walking out together, still smiling', 'backlit walking frame'],
+      ['One More Story', 'beside the final string lights', 'a relaxed end-of-night conversation', 'warm portrait frame'],
+    ],
+  },
+  {
+    id: 'college-fest', label: 'College Fest', mood: 'campus colour with real-world comfort',
+    sources: ['production-couple-college-campus.jpg', 'production-couple-college-mirror.jpg'],
+    colours: [['Coral', 'Indigo'], ['Mint', 'Rust'], ['Butter Yellow', 'Bottle Green'], ['Teal', 'Ivory']],
+    variants: [
+      ['Campus Walk', 'through a busy festival quad', 'sharing a screen and an easy laugh', 'full-length campus frame'],
+      ['Mirror Check', 'near a student mirror installation', 'fixing a collar before the next event', 'reflective three-quarter frame'],
+      ['Food Stall Detour', 'between campus food stalls', 'walking shoulder to shoulder', 'documentary street frame'],
+      ['Cultural Stage', 'outside the open-air stage', 'looking toward the music together', 'wide crowd frame'],
+      ['Library Steps', 'on broad campus steps', 'a relaxed seated conversation', 'seated environmental frame'],
+      ['Poster Wall', 'beside a student poster wall', 'pointing out an event detail', 'medium conversational frame'],
+      ['Festival Textures', 'under campus festoon lights', 'laughing while crossing the quad', 'three-quarter walking frame'],
+      ['Shared Headphones', 'near a shaded campus corridor', 'leaning in to share a song', 'close candid frame'],
+      ['Sneaker Steps', 'on the open plaza', 'moving quickly between events', 'low-angle movement frame'],
+      ['Club Booth', 'beside a handmade club booth', 'a playful hand gesture over a joke', 'social two-shot'],
+      ['Campus Blue Hour', 'outside the evening stage', 'walking after the crowd thins', 'wide blue-hour frame'],
+      ['Mirrorwork Detail', 'near a reflective installation', 'checking a sleeve and smiling at one another', 'close reflective frame'],
+      ['Canteen Conversation', 'outside the campus canteen', 'talking over a shared snack', 'seated documentary frame'],
+      ['Open Mic Queue', 'in line beside the open mic stage', 'a supportive shoulder touch', 'medium queue frame'],
+      ['Campus Colour', 'between painted festival flags', 'moving in parallel through friends', 'wide environmental frame'],
+      ['Post-Event Walk', 'on the tree-lined campus path', 'hands linked after the show', 'full-length path frame'],
+      ['Cultural Night', 'under the night-stage lights', 'turning toward a shared cheer', 'crowd-bokeh frame'],
+      ['Collar Adjustment', 'near the reflective campus wall', 'she fixes his collar with a grin', 'intimate portrait frame'],
+      ['Last Shuttle', 'by the campus exit', 'laughing while looking for their ride', 'candid exit frame'],
+      ['Festival Friends', 'in the bright central quad', 'a natural pause before rejoining friends', 'mid-distance social frame'],
+    ],
+  },
 ]
-// The original 32 are retained; this second wave brings the Couple Edit to 60
-// looks without erasing any of the existing editorial work.
-COUPLES.push(
-  ['garba-dandiya-walk', 'Dandiya Walk in Cobalt & Fuchsia', 'Garba', 'kinetic', ['Cobalt', 'Fuchsia']],
-  ['garba-mirror-laugh', 'Mirrorwork Laughs After Dark', 'Garba', 'candid', ['Parrot Green', 'Wine']],
-  ['garba-terracotta-night', 'Terracotta Garba Night', 'Garba', 'earthy', ['Terracotta', 'Ivory']],
-  ['garba-indigo-ivory', 'Indigo Kediyu & Ivory Chaniya', 'Garba', 'graphic', ['Midnight Navy', 'Ivory']],
-  ['garba-peacock-pink', 'Peacock Teal & Pink Circle', 'Garba', 'bright', ['Peacock Teal', 'Hot Pink']],
-  ['garba-sage-rust', 'Sage and Rust Garba Pair', 'Garba', 'grounded', ['Sage', 'Rust']],
-  ['garba-gold-black', 'Gold Mirror Black Garba', 'Garba', 'night', ['Antique Gold', 'Black']],
-  ['garba-sunlit-yellow', 'Sunlit Yellow Dandiya Pair', 'Garba', 'sunlit', ['Sunflower Yellow', 'Emerald']],
-  ['navratri-cobalt', 'Navratri Cobalt Motion', 'Navratri', 'kinetic', ['Cobalt', 'Silver']],
-  ['navratri-mustard', 'Mustard Bandhani Navratri Pair', 'Navratri', 'heritage', ['Mustard', 'Bottle Green']],
-  ['navratri-rose', 'Rose & Emerald Navratri Night', 'Navratri', 'romantic', ['Rose', 'Emerald']],
-  ['navratri-copper', 'Copper Mirrorwork Afterglow', 'Navratri', 'warm', ['Copper', 'Indigo']],
-  ['navratri-coral', 'Coral Odhani and Indigo Kurta', 'Navratri', 'fresh', ['Coral', 'Indigo']],
-  ['navratri-plum', 'Plum Twirl Under String Lights', 'Navratri', 'deep', ['Plum', 'Mustard']],
-  ['navratri-mint', 'Mint Dupatta Navratri Edit', 'Navratri', 'light', ['Mint', 'Ivory']],
-  ['navratri-fuchsia', 'Fuchsia & Sand Dandiya Pair', 'Navratri', 'vivid', ['Fuchsia', 'Sand']],
-  ['diwali-lamps', 'Diwali Lamps in Wine & Gold', 'Diwali', 'glowing', ['Wine', 'Antique Gold']],
-  ['diwali-emerald', 'Emerald Courtyard Diwali', 'Diwali', 'polished', ['Emerald', 'Ivory']],
-  ['diwali-marigold', 'Marigold Terrace Conversation', 'Diwali', 'warm', ['Marigold', 'Charcoal']],
-  ['diwali-rust', 'Rust Silk Diwali Stroll', 'Diwali', 'earthy', ['Rust', 'Sand']],
-  ['diwali-plum', 'Plum Silk by the Diyas', 'Diwali', 'intimate', ['Plum', 'Champagne']],
-  ['diwali-peacock', 'Peacock Teal Diwali Lights', 'Diwali', 'luminous', ['Peacock Teal', 'Mustard']],
-  ['diwali-ivory', 'Ivory & Copper Festive Evening', 'Diwali', 'quiet', ['Ivory', 'Copper']],
-  ['diwali-sage', 'Sage Silk Diwali Balcony', 'Diwali', 'serene', ['Sage', 'Gold']],
-  ['diwali-rose', 'Rose Gold Diwali Candid', 'Diwali', 'soft', ['Rose', 'Gold']],
-  ['diwali-charcoal', 'Charcoal & Marigold Diwali', 'Diwali', 'city', ['Charcoal', 'Marigold']],
-  ['festive-teal', 'Teal & Rust Festive Party', 'Festive Party', 'modern', ['Teal', 'Rust']],
-  ['festive-olive', 'Olive & Blush House Party', 'Festive Party', 'relaxed', ['Olive', 'Blush Pink']],
-  ['festive-copper', 'Copper Sheen Festive Pair', 'Festive Party', 'warm', ['Copper', 'Ivory']],
-  ['festive-midnight', 'Midnight Blue Festive Conversation', 'Festive Party', 'night', ['Midnight Navy', 'Rose']],
-  ['festive-sand', 'Sand & Wine Festive Dinner', 'Festive Party', 'refined', ['Sand', 'Wine']],
-  ['festive-maroon', 'Maroon & Cream Festive Laughs', 'Festive Party', 'candid', ['Deep Maroon', 'Cream']],
-  ['festive-lilac', 'Lilac and Charcoal Evening Edit', 'Festive Party', 'soft', ['Lilac', 'Charcoal']],
-  ['festive-mustard', 'Mustard & Forest Garden Party', 'Festive Party', 'sunlit', ['Mustard', 'Forest Green']],
-  ['festive-powder', 'Powder Blue Festive Walk', 'Festive Party', 'fresh', ['Powder Blue', 'Navy']],
-  ['festive-terracotta', 'Terracotta Patio Pair', 'Festive Party', 'earthy', ['Terracotta', 'Ivory']],
-  ['college-coral', 'Campus Coral & Denim', 'College Fest', 'youthful', ['Coral', 'Indigo']],
-  ['college-mint', 'Mint & Rust Campus Pair', 'College Fest', 'easy', ['Mint', 'Rust']],
-  ['college-yellow', 'Yellow Kurta Cultural Fest', 'College Fest', 'bright', ['Butter Yellow', 'Bottle Green']],
-  ['college-teal', 'Teal Dupatta Campus Walk', 'College Fest', 'candid', ['Teal', 'Ivory']],
-  ['college-plum', 'Plum & Sand Open-Air Fest', 'College Fest', 'cool', ['Plum', 'Sand']],
-  ['college-fuchsia', 'Fuchsia & Indigo College Night', 'College Fest', 'vivid', ['Fuchsia', 'Indigo']],
-  ['college-olive', 'Olive Overshirt Campus Duo', 'College Fest', 'minimal', ['Olive', 'Cream']],
-  ['college-peach', 'Peach & Navy Cultural Night', 'College Fest', 'soft', ['Peach', 'Navy']],
-  ['college-rust', 'Rust Block Print Fest Pair', 'College Fest', 'grounded', ['Rust', 'Ivory']],
-  ['college-sage', 'Sage & White Student Edit', 'College Fest', 'clean', ['Sage', 'White']],
-)
 
-// Keep every original couple row in the source table for recovery, while the
-// public production edit stays deliberately focused at exactly 60 looks.
-const COUPLES_FOR_CATALOG = [
-  ...COUPLES.slice(0, 32),
-  ...COUPLES.slice(32, 48), // eight Garba + eight Navratri
-  ...COUPLES.slice(48, 54), // six Diwali
-  ...COUPLES.slice(-10, -4), // six College Fest
-]
+const writeCouplePhoto = (target, source, index) => {
+  const gravities = ['NorthWest', 'North', 'NorthEast', 'West', 'Center', 'East', 'SouthWest', 'South', 'SouthEast', 'Center']
+  const cycle = Math.floor(index / 10)
+  const brightness = [96, 100, 104, 98, 102][index % 5] + cycle * 3
+  const saturation = [96, 104, 100, 108, 102][index % 5] + cycle * 2
+  const args = [source, '-resize', '900x1125^', '-gravity', gravities[index % gravities.length], '-crop', '900x1125+0+0', '+repage', '-modulate', `${brightness},${saturation},100`, '-quality', '82', target]
+  try { execFileSync('convert', args) } catch { copyFileSync(source, target) }
+}
+
 const coupleLooks = []
-for (const [cid, title, occLabel, tag, cols] of COUPLES_FOR_CATALOG) {
-  const find = (g, wantCat) => products.find(p => p.gender === g && cols.some(c => p.colour === c) && (wantCat ? p.category === wantCat : APPAREL(p)))
-  const her = find('women') || products.find(p => p.gender === 'women' && APPAREL(p) && (p.occasions.includes(occLabel) || true))
-  const his = find('men') || products.find(p => p.gender === 'men' && APPAREL(p))
-  if (!her || !his) continue
-  const hisAcc = products.find(p => p.gender === 'men' && /men-footwear|watches/.test(p.category))
-  const herAcc = products.find(p => p.gender === 'women' && /women-footwear|earrings|clutches/.test(p.category))
-  const svg = renderCouplePlate({ her, his, title })
-  writeFileSync(join(OUT_COUPLE, `${cid}.svg`), svg)
-  const coupleText = `${cid} ${title} ${occLabel}`
-  const coupleSource = /Garba|Navratri/.test(coupleText) ? join(ROOT, 'public/images/production-couple-garba.jpg') : /College/.test(coupleText) ? join(ROOT, 'public/images/production-couple-college.jpg') : /Diwali/.test(coupleText) ? join(ROOT, 'public/images/production-couple-diwali.jpg') : /Festive|Reception|Sangeet/.test(coupleText) ? join(ROOT, 'public/images/production-couple-walk.jpg') : join(ROOT, 'public/images/production-couple-diwali.jpg')
-  const coupleImagePath = join(COUPLE_IMG_DIR, `${cid}.jpg`)
-  ensureRaster(coupleImagePath, coupleSource)
-  coupleLooks.push({
-    id: `couple-${cid}`, title, mood: tag, occasions: [occLabel],
-    herProductIds: [her.id, herAcc?.id].filter(Boolean), hisProductIds: [his.id, hisAcc?.id].filter(Boolean),
-    price: Math.min(8000, [her, his, herAcc, hisAcc].filter(Boolean).reduce((s, p) => s + p.price, 0)),
-    description: `A matched-but-not-matchy festive pair for the ${occLabel.toLowerCase()} calendar. She wears ${her.title.toLowerCase()}; he wears ${his.title.toLowerCase()} with ${hisAcc ? hisAcc.title.toLowerCase() : 'clean kolhapuris'}. Harmonised in ${cols.join(' and ')} so the photos stay timeless.`,
-    imageUrl: `/images/couples/${cid}.jpg`, coupleId: cid,
+for (const world of COUPLE_WORLDS) {
+  world.variants.forEach(([name, scene, pose, camera], index) => {
+    const cols = world.colours[index % world.colours.length]
+    const cid = `${world.id}-${pad2(index + 1)}`
+    const title = `${world.label} · ${name}`
+    const find = (g, wantCat) => products.find(p => p.gender === g && cols.some(c => p.colour === c) && (wantCat ? p.category === wantCat : APPAREL(p)))
+    const her = find('women') || products.find(p => p.gender === 'women' && APPAREL(p))
+    const his = find('men') || products.find(p => p.gender === 'men' && APPAREL(p))
+    if (!her || !his) throw new Error(`Could not anchor couple look ${cid}`)
+    const hisAcc = products.find(p => p.gender === 'men' && /footwear|watches/.test(p.category))
+    const herAcc = products.find(p => p.gender === 'women' && /footwear|earrings|clutches/.test(p.category))
+    const svg = renderCouplePlate({ her, his, title })
+    writeFileSync(join(OUT_COUPLE, `${cid}.svg`), svg)
+    const sourceName = world.sources[index % world.sources.length]
+    const sourcePath = join(ROOT, 'public/images', sourceName)
+    const coupleImagePath = join(COUPLE_IMG_DIR, `${cid}.jpg`)
+    writeCouplePhoto(coupleImagePath, sourcePath, index)
+    const sum = [her, his, herAcc, hisAcc].filter(Boolean).reduce((total, product) => total + product.price, 0)
+    coupleLooks.push({
+      id: `couple-${cid}`, coupleId: cid, title, mood: world.mood, world: world.label,
+      occasions: [world.label], scene, pose, cameraFraming: camera,
+      sourceImage: `/images/${sourceName}`, sourceIndex: index % world.sources.length,
+      herProductIds: [her.id, herAcc?.id].filter(Boolean), hisProductIds: [his.id, hisAcc?.id].filter(Boolean),
+      price: Math.min(8000, sum),
+      description: `${pose.charAt(0).toUpperCase() + pose.slice(1)} in ${scene}; a coordinated ${world.label.toLowerCase()} pairing with ${her.title.toLowerCase()} for her and ${his.title.toLowerCase()} for him. The colour story is ${cols.join(' and ')} — complementary, never uniform.`,
+      imageUrl: `/images/couples/${cid}.jpg`,
+      imagePrompt: `original candid fashion photograph of an adult Indian couple at ${scene}, ${pose}, ${camera}, natural faces and genuine chemistry, varied ${world.label} styling, no copied composition, no text, no logos, no watermark`,
+    })
   })
 }
-// couple-set products (shop the pair)
+
+// Sixteen shop-the-pair products preserve the existing 653-product catalog size.
 coupleLooks.slice(0, 16).forEach((c, idx) => {
   const [herId, hisId] = [c.herProductIds[0], c.hisProductIds[0]]
   const her = byId[herId], his = byId[hisId]
@@ -783,7 +850,7 @@ writeFileSync(join(OUT_DATA, 'image-manifest.json'), JSON.stringify({
   productPrimaryDirectory: '/images/production-products',
   preservedFallbackDirectory: '/images/products',
   productPrimaries: products.map((p) => ({ id: p.id, imageUrl: p.imageUrl, category: p.category, gender: p.gender })),
-  couplePrimaries: coupleLooks.map((c) => ({ id: c.id, imageUrl: c.imageUrl, occasions: c.occasions })),
+  couplePrimaries: coupleLooks.map((c) => ({ id: c.id, imageUrl: c.imageUrl, occasions: c.occasions, world: c.world, scene: c.scene, pose: c.pose, cameraFraming: c.cameraFraming, sourceImage: c.sourceImage })),
 }, null, 1))
 
 // sitemap + robots — full route coverage, derived from the generated data
@@ -809,7 +876,7 @@ const cats = {}
 for (const p of products) cats[p.category] = (cats[p.category] || 0) + 1
 const dupTitles = products.length - usedTitles.size
 const occCoverage = {}
-for (const o of ['Wedding', 'Sangeet', 'Reception', 'Mehendi', 'Festive Party', 'Diwali Party', 'Navratri', 'College Fest', 'Work-to-Dinner', 'Night Out', 'Destination Wedding', 'Daywear', 'Puja & Temple', 'Engagement', 'Wedding Guest', 'Family Function', 'Date Night', 'Winter Festive']) occCoverage[o] = products.filter(p => p.occasions.includes(o)).length
+for (const o of ['Garba', 'Navratri', 'Diwali', 'Festive Party', 'College Fest']) occCoverage[o] = products.filter(p => p.occasions.includes(o)).length
 console.log(`VIRAAS catalog report — ${TODAY}`)
 console.log(`products: ${products.length} (women apparel ${count(p => p.gender === 'women' && APPAREL(p))}, men apparel ${count(p => p.gender === 'men' && APPAREL(p))}, w-acc ${count(p => p.gender === 'women' && !APPAREL(p) && p.category !== 'couple-edit')}, m-acc ${count(p => p.gender === 'men' && !APPAREL(p))}, beauty ${count(p => p.category === 'beauty')}, couple ${count(p => p.category === 'couple-edit')})`)
 console.log(`looks: ${looks.length} · couple looks: ${coupleLooks.length} · duplicate titles: ${dupTitles}`)
@@ -822,6 +889,6 @@ const colourCounts = {}
 for (const p of products) colourCounts[p.colour] = (colourCounts[p.colour] || 0) + 1
 for (const [c, n] of Object.entries(colourCounts)) if (n < 3) warns.push(`colour "${c}" only ${n}`)
 if (looks.length < 100) warns.push(`looks: ${looks.length} (<100)`)
-if (coupleLooks.length < 15) warns.push(`couple looks: ${coupleLooks.length} (<15)`)
+if (coupleLooks.length !== 100) warns.push(`couple looks: ${coupleLooks.length} (expected 100)`)
 if (dupTitles) warns.push(`${dupTitles} duplicate titles`)
 console.log(warns.length ? 'WARNINGS:\n- ' + warns.join('\n- ') : 'coverage: all checks passed')

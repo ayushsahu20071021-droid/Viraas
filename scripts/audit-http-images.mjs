@@ -10,13 +10,13 @@ import { fileURLToPath } from 'node:url'
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..')
 const base = (process.env.BASE_URL || 'http://127.0.0.1:4173').replace(/\/$/, '')
-const routes = ['/', '/women', '/men?category=garba', '/occasions/garba', '/occasions/navratri', '/occasions/diwali', '/occasions/college-fest', '/couple-edit', '/accessories']
+const routes = ['/', '/women', '/men?category=garba', '/occasions/garba', '/occasions/navratri', '/occasions/diwali', '/occasions/festive-party', '/occasions/college-fest', '/couple-edit', '/accessories']
 const products = JSON.parse(readFileSync(join(ROOT, 'src/data/catalog/products.json'), 'utf8'))
 const looks = JSON.parse(readFileSync(join(ROOT, 'src/data/catalog/looks.json'), 'utf8'))
 const couples = JSON.parse(readFileSync(join(ROOT, 'src/data/catalog/couples.json'), 'utf8'))
 const requiredImages = [
   '/images/hero-main.jpg', '/images/hero-women.jpg', '/images/hero-men.jpg', '/images/accessories-flatlay.jpg',
-  '/images/occasion-navratri.jpg', '/images/occasion-diwali.jpg', '/images/occasion-college.jpg',
+  '/images/occasion-navratri.jpg', '/images/occasion-diwali.jpg', '/images/occasion-festive.jpg', '/images/occasion-college.jpg',
   ...products.flatMap((p) => [p.imageUrl, ...(p.gallery || [])]),
   ...looks.flatMap((l) => [l.imageUrl, ...(l.altImages || [])]),
   ...couples.map((c) => c.imageUrl),

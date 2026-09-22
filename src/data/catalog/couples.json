@@ -1,1142 +1,2702 @@
 [
  {
-  "id": "couple-sage-silk",
-  "title": "Sage Silk Sangeet",
-  "mood": "sage",
-  "occasions": [
-   "Sangeet"
-  ],
-  "herProductIds": [
-   "w-saree-georgette-soft-02"
-  ],
-  "hisProductIds": [
-   "m-kurt-set-jamawar-02",
-   "m-watch-01"
-  ],
-  "price": 8000,
-  "description": "A matched-but-not-matchy festive pair for the sangeet calendar. She wears sage buti-motif soft georgette everyday saree; he wears emerald jamawar shawl kurta set with rose gold stone-set ethnic-dial watch. Harmonised in Sage and Emerald so the photos stay timeless.",
-  "imageUrl": "/images/couples/sage-silk.jpg",
-  "coupleId": "sage-silk"
- },
- {
-  "id": "couple-ivory-gold",
-  "title": "Ivory & Gold Reception",
-  "mood": "luxe",
-  "occasions": [
-   "Reception"
-  ],
-  "herProductIds": [
-   "w-saree-organza-02"
-  ],
-  "hisProductIds": [
-   "m-kurtiset-cotton-02",
-   "m-watch-01"
-  ],
-  "price": 4497,
-  "description": "A matched-but-not-matchy festive pair for the reception calendar. She wears ivory chikankari-worked organza saree with hand-embroidered buti; he wears ivory block-printed cotton kurta set with rose gold stone-set ethnic-dial watch. Harmonised in Ivory and Antique Gold so the photos stay timeless.",
-  "imageUrl": "/images/couples/ivory-gold.jpg",
-  "coupleId": "ivory-gold"
- },
- {
-  "id": "couple-terracotta-fiesta",
-  "title": "Terracotta Mehendi Fiesta",
-  "mood": "warm",
-  "occasions": [
-   "Mehendi"
-  ],
-  "herProductIds": [
-   "w-saree-organza-03"
-  ],
-  "hisProductIds": [
-   "m-kurtiset-printed-01",
-   "m-watch-01"
-  ],
-  "price": 4897,
-  "description": "A matched-but-not-matchy festive pair for the mehendi calendar. She wears mustard resham-threadworked organza saree with hand-embroidered buti; he wears mustard block-printed printed kurta set with rose gold stone-set ethnic-dial watch. Harmonised in Terracotta and Mustard so the photos stay timeless.",
-  "imageUrl": "/images/couples/terracotta-fiesta.jpg",
-  "coupleId": "terracotta-fiesta"
- },
- {
-  "id": "couple-midnight-velvet",
-  "title": "Midnight Velvet Evening",
-  "mood": "evening",
-  "occasions": [
-   "Evening"
-  ],
-  "herProductIds": [
-   "w-saree-predrape-satin-04"
-  ],
-  "hisProductIds": [
-   "m-kurtiset-silk-02",
-   "m-watch-01"
-  ],
-  "price": 8000,
-  "description": "A matched-but-not-matchy festive pair for the evening calendar. She wears plum stone-set pre-draped saree gown (satin); he wears midnight navy buti-motif silk kurta set with rose gold stone-set ethnic-dial watch. Harmonised in Midnight Navy and Plum so the photos stay timeless.",
-  "imageUrl": "/images/couples/midnight-velvet.jpg",
-  "coupleId": "midnight-velvet"
- },
- {
-  "id": "couple-marigold-day",
-  "title": "Marigold Day Wedding",
-  "mood": "warm",
-  "occasions": [
-   "Wedding"
-  ],
-  "herProductIds": [
-   "w-saree-drape-08"
-  ],
-  "hisProductIds": [
-   "m-kurtiset-cotton-05",
-   "m-watch-01"
-  ],
-  "price": 5297,
-  "description": "A matched-but-not-matchy festive pair for the wedding calendar. She wears rust sequin-scattered georgette saree with woven border; he wears marigold pearl-detailed cotton kurta set with rose gold stone-set ethnic-dial watch. Harmonised in Marigold and Rust so the photos stay timeless.",
-  "imageUrl": "/images/couples/marigold-day.jpg",
-  "coupleId": "marigold-day"
- },
- {
-  "id": "couple-monsoon-pastel",
-  "title": "Monsoon Pastel Engagement",
-  "mood": "pastel",
-  "occasions": [
-   "Engagement"
-  ],
-  "herProductIds": [
-   "w-saree-predrape-net-04"
-  ],
-  "hisProductIds": [
-   "m-coord-linen-02",
-   "m-watch-01"
-  ],
-  "price": 7097,
-  "description": "A matched-but-not-matchy festive pair for the engagement calendar. She wears mint sequin-scattered pre-draped net saree; he wears powder blue aari-stitched linen summer co-ord (men) with rose gold stone-set ethnic-dial watch. Harmonised in Powder Blue and Mint so the photos stay timeless.",
-  "imageUrl": "/images/couples/monsoon-pastel.jpg",
-  "coupleId": "monsoon-pastel"
- },
- {
-  "id": "couple-diwali-heirloom",
-  "title": "Diwali Heirloom Puja",
-  "mood": "heirloom",
-  "occasions": [
-   "Diwali"
-  ],
-  "herProductIds": [
-   "w-saree-drape-08"
-  ],
-  "hisProductIds": [
-   "m-kurtiset-printed-01",
-   "m-watch-01"
-  ],
-  "price": 4597,
-  "description": "A matched-but-not-matchy festive pair for the diwali calendar. She wears rust sequin-scattered georgette saree with woven border; he wears mustard block-printed printed kurta set with rose gold stone-set ethnic-dial watch. Harmonised in Mustard and Rust so the photos stay timeless.",
-  "imageUrl": "/images/couples/diwali-heirloom.jpg",
-  "coupleId": "diwali-heirloom"
- },
- {
-  "id": "couple-navratri-neon",
-  "title": "Navratri Floor Neon",
-  "mood": "bold",
+  "id": "couple-garba-01",
+  "coupleId": "garba-01",
+  "title": "Garba · Dandiya Circle",
+  "mood": "Gujarati mirrorwork in motion",
+  "world": "Garba",
   "occasions": [
    "Garba"
   ],
+  "scene": "walking between dandiya rounds",
+  "pose": "crossed sticks and a shared laugh",
+  "cameraFraming": "wide festival-ground frame",
+  "sourceImage": "/images/production-couple-garba-dandiya-wide.jpg",
+  "sourceIndex": 0,
   "herProductIds": [
-   "w-leh-sequin-03"
+   "w-kurtiset-dhoti-02",
+   "w-jutti-01"
   ],
   "hisProductIds": [
-   "m-indowest-drape-03",
-   "m-watch-01"
+   "m-indowest-drape-01",
+   "m-mojari-01"
   ],
-  "price": 8000,
-  "description": "A matched-but-not-matchy festive pair for the garba calendar. She wears hot pink stone-set sequin work lehenga; he wears parrot green pearl-detailed draped kurta with asymmetric hem with rose gold stone-set ethnic-dial watch. Harmonised in Hot Pink and Parrot Green so the photos stay timeless.",
-  "imageUrl": "/images/couples/navratri-neon.jpg",
-  "coupleId": "navratri-neon"
+  "price": 7196,
+  "description": "Crossed sticks and a shared laugh in walking between dandiya rounds; a coordinated garba pairing with fuchsia mirror-work dhoti-pant kurta set for her and fuchsia thread-embroidered draped kurta with asymmetric hem for him. The colour story is Fuchsia and Indigo — complementary, never uniform.",
+  "imageUrl": "/images/couples/garba-01.jpg",
+  "imagePrompt": "original candid fashion photograph of an adult Indian couple at walking between dandiya rounds, crossed sticks and a shared laugh, wide festival-ground frame, natural faces and genuine chemistry, varied Garba styling, no copied composition, no text, no logos, no watermark"
  },
  {
-  "id": "couple-destination-white",
-  "title": "Destination White Reception",
-  "mood": "luxury",
-  "occasions": [
-   "Travel"
-  ],
-  "herProductIds": [
-   "w-saree-drape-03"
-  ],
-  "hisProductIds": [
-   "m-kurtiset-cotton-01",
-   "m-watch-01"
-  ],
-  "price": 7797,
-  "description": "A matched-but-not-matchy festive pair for the travel calendar. She wears sand gotapatti-appliquéd georgette saree with woven border; he wears sand chikankari-worked cotton kurta set with rose gold stone-set ethnic-dial watch. Harmonised in White and Sand so the photos stay timeless.",
-  "imageUrl": "/images/couples/destination-white.jpg",
-  "coupleId": "destination-white"
- },
- {
-  "id": "couple-college-duo",
-  "title": "College Fest Duo",
-  "mood": "youthful",
-  "occasions": [
-   "College"
-  ],
-  "herProductIds": [
-   "w-saree-linen-04"
-  ],
-  "hisProductIds": [
-   "m-kurtiset-cotton-03",
-   "m-watch-01"
-  ],
-  "price": 4297,
-  "description": "A matched-but-not-matchy festive pair for the college calendar. She wears stone grey buti-motif linen saree with woven check; he wears stone grey thread-embroidered cotton kurta set with rose gold stone-set ethnic-dial watch. Harmonised in Butter Yellow and Stone Grey so the photos stay timeless.",
-  "imageUrl": "/images/couples/college-duo.jpg",
-  "coupleId": "college-duo"
- },
- {
-  "id": "couple-wedding-guest-olive",
-  "title": "Wedding Guest in Olive",
-  "mood": "minimal",
-  "occasions": [
-   "Guest"
-  ],
-  "herProductIds": [
-   "w-saree-drape-02"
-  ],
-  "hisProductIds": [
-   "m-coord-suit-04",
-   "m-watch-01"
-  ],
-  "price": 6997,
-  "description": "A matched-but-not-matchy festive pair for the guest calendar. She wears olive sequin-scattered georgette saree with woven border; he wears greige zari-woven festive co-ord set with rose gold stone-set ethnic-dial watch. Harmonised in Olive and Greige so the photos stay timeless.",
-  "imageUrl": "/images/couples/wedding-guest-olive.jpg",
-  "coupleId": "wedding-guest-olive"
- },
- {
-  "id": "couple-winter-wedding",
-  "title": "Winter Wedding Warmth",
-  "mood": "luxe",
-  "occasions": [
-   "Winter"
-  ],
-  "herProductIds": [
-   "w-saree-chanderi-04"
-  ],
-  "hisProductIds": [
-   "m-kurtiset-chikankari-01",
-   "m-watch-01"
-  ],
-  "price": 7397,
-  "description": "A matched-but-not-matchy festive pair for the winter calendar. She wears oat melange craft-clean chanderi silk-cotton saree; he wears oat melange chikankari-worked chikankari kurta set with rose gold stone-set ethnic-dial watch. Harmonised in Bottle Green and Oat Melange so the photos stay timeless.",
-  "imageUrl": "/images/couples/winter-wedding.jpg",
-  "coupleId": "winter-wedding"
- },
- {
-  "id": "couple-family-function",
-  "title": "Family Function Soft Sheen",
-  "mood": "minimal",
-  "occasions": [
-   "Family"
-  ],
-  "herProductIds": [
-   "w-saree-drape-03"
-  ],
-  "hisProductIds": [
-   "m-kurtiset-cotton-01",
-   "m-watch-01"
-  ],
-  "price": 7797,
-  "description": "A matched-but-not-matchy festive pair for the family calendar. She wears sand gotapatti-appliquéd georgette saree with woven border; he wears sand chikankari-worked cotton kurta set with rose gold stone-set ethnic-dial watch. Harmonised in Blush Pink and Sand so the photos stay timeless.",
-  "imageUrl": "/images/couples/family-function.jpg",
-  "coupleId": "family-function"
- },
- {
-  "id": "couple-date-evening",
-  "title": "Date Night in Wine",
-  "mood": "bold",
-  "occasions": [
-   "Date"
-  ],
-  "herProductIds": [
-   "w-saree-drape-01"
-  ],
-  "hisProductIds": [
-   "m-kurtiset-silk-04",
-   "m-watch-01"
-  ],
-  "price": 6197,
-  "description": "A matched-but-not-matchy festive pair for the date calendar. She wears wine zari-woven georgette saree with woven border; he wears chocolate aari-stitched silk kurta set with rose gold stone-set ethnic-dial watch. Harmonised in Wine and Chocolate so the photos stay timeless.",
-  "imageUrl": "/images/couples/date-evening.jpg",
-  "coupleId": "date-evening"
- },
- {
-  "id": "couple-mehendi-mint",
-  "title": "Mehendi Morning in Mint",
-  "mood": "fresh",
-  "occasions": [
-   "Mehendi"
-  ],
-  "herProductIds": [
-   "w-saree-predrape-net-04"
-  ],
-  "hisProductIds": [
-   "m-kurtiset-cotton-08",
-   "m-watch-01"
-  ],
-  "price": 6397,
-  "description": "A matched-but-not-matchy festive pair for the mehendi calendar. She wears mint sequin-scattered pre-draped net saree; he wears peach chikankari-worked cotton kurta set with rose gold stone-set ethnic-dial watch. Harmonised in Mint and Peach so the photos stay timeless.",
-  "imageUrl": "/images/couples/mehendi-mint.jpg",
-  "coupleId": "mehendi-mint"
- },
- {
-  "id": "couple-festive-brass",
-  "title": "Festive Family Brass & Ivory",
-  "mood": "minimal",
-  "occasions": [
-   "Family"
-  ],
-  "herProductIds": [
-   "w-saree-drape-02"
-  ],
-  "hisProductIds": [
-   "m-kurt-set-brocade-01",
-   "m-watch-01"
-  ],
-  "price": 8000,
-  "description": "A matched-but-not-matchy festive pair for the family calendar. She wears olive sequin-scattered georgette saree with woven border; he wears champagne zari-woven brocade kurta set with rose gold stone-set ethnic-dial watch. Harmonised in Champagne and Olive so the photos stay timeless.",
-  "imageUrl": "/images/couples/festive-brass.jpg",
-  "coupleId": "festive-brass"
- },
- {
-  "id": "couple-garba-black-gold",
-  "title": "Midnight Mirror Garba Night",
-  "mood": "contemporary",
+  "id": "couple-garba-02",
+  "coupleId": "garba-02",
+  "title": "Garba · Dupatta Mid-Turn",
+  "mood": "Gujarati mirrorwork in motion",
+  "world": "Garba",
   "occasions": [
    "Garba"
   ],
+  "scene": "under a mirrorwork canopy",
+  "pose": "he steadies her dupatta as she turns",
+  "cameraFraming": "three-quarter moving frame",
+  "sourceImage": "/images/production-couple-garba-dupattahold.jpg",
+  "sourceIndex": 1,
   "herProductIds": [
-   "w-saree-satin-slip-03"
+   "w-saree-drape-07",
+   "w-jutti-01"
   ],
   "hisProductIds": [
-   "m-kurt-set-short-03",
-   "m-watch-01"
-  ],
-  "price": 6597,
-  "description": "A matched-but-not-matchy festive pair for the garba calendar. She wears antique gold sequin-scattered satin slip saree; he wears antique gold aari-stitched short kurta with trouser with rose gold stone-set ethnic-dial watch. Harmonised in Black and Antique Gold so the photos stay timeless.",
-  "imageUrl": "/images/couples/garba-black-gold.jpg",
-  "coupleId": "garba-black-gold"
- },
- {
-  "id": "couple-diwali-wine-ivory",
-  "title": "Royal Wine & Ivory Diwali Edit",
-  "mood": "festive",
-  "occasions": [
-   "Diwali"
-  ],
-  "herProductIds": [
-   "w-saree-drape-01"
-  ],
-  "hisProductIds": [
-   "m-kurtiset-cotton-02",
-   "m-watch-01"
-  ],
-  "price": 5597,
-  "description": "A matched-but-not-matchy festive pair for the diwali calendar. She wears wine zari-woven georgette saree with woven border; he wears ivory block-printed cotton kurta set with rose gold stone-set ethnic-dial watch. Harmonised in Wine and Ivory so the photos stay timeless.",
-  "imageUrl": "/images/couples/diwali-wine-ivory.jpg",
-  "coupleId": "diwali-wine-ivory"
- },
- {
-  "id": "couple-sangeet-emerald-cream",
-  "title": "Emerald & Cream Sangeet Romance",
-  "mood": "luxe",
-  "occasions": [
-   "Sangeet"
-  ],
-  "herProductIds": [
-   "w-saree-banarasi-01"
-  ],
-  "hisProductIds": [
-   "m-kurt-set-jamawar-02",
-   "m-watch-01"
+   "m-kurtiset-silk-01",
+   "m-mojari-01"
   ],
   "price": 8000,
-  "description": "A matched-but-not-matchy festive pair for the sangeet calendar. She wears emerald banarasi-woven banarasi silk saree; he wears emerald jamawar shawl kurta set with rose gold stone-set ethnic-dial watch. Harmonised in Emerald and Cream so the photos stay timeless.",
-  "imageUrl": "/images/couples/sangeet-emerald-cream.jpg",
-  "coupleId": "sangeet-emerald-cream"
+  "description": "He steadies her dupatta as she turns in under a mirrorwork canopy; a coordinated garba pairing with peacock teal zari-woven georgette saree with woven border for her and ivory silk kurta set for him. The colour story is Peacock Teal and Mustard — complementary, never uniform.",
+  "imageUrl": "/images/couples/garba-02.jpg",
+  "imagePrompt": "original candid fashion photograph of an adult Indian couple at under a mirrorwork canopy, he steadies her dupatta as she turns, three-quarter moving frame, natural faces and genuine chemistry, varied Garba styling, no copied composition, no text, no logos, no watermark"
  },
  {
-  "id": "couple-wedding-maroon-champagne",
-  "title": "Heritage Maroon & Champagne Wedding",
-  "mood": "royal",
-  "occasions": [
-   "Wedding"
-  ],
-  "herProductIds": [
-   "w-saree-predrape-satin-05"
-  ],
-  "hisProductIds": [
-   "m-kurt-set-brocade-01",
-   "m-watch-01"
-  ],
-  "price": 8000,
-  "description": "A matched-but-not-matchy festive pair for the wedding calendar. She wears champagne mirror-work pre-draped saree gown (satin); he wears champagne zari-woven brocade kurta set with rose gold stone-set ethnic-dial watch. Harmonised in Maroon and Champagne so the photos stay timeless.",
-  "imageUrl": "/images/couples/wedding-maroon-champagne.jpg",
-  "coupleId": "wedding-maroon-champagne"
- },
- {
-  "id": "couple-haldi-mustard-ivory",
-  "title": "Sunlit Mustard & Ivory Haldi Pair",
-  "mood": "vibrant",
-  "occasions": [
-   "Haldi"
-  ],
-  "herProductIds": [
-   "w-saree-organza-02"
-  ],
-  "hisProductIds": [
-   "m-kurtiset-cotton-02",
-   "m-watch-01"
-  ],
-  "price": 4497,
-  "description": "A matched-but-not-matchy festive pair for the haldi calendar. She wears ivory chikankari-worked organza saree with hand-embroidered buti; he wears ivory block-printed cotton kurta set with rose gold stone-set ethnic-dial watch. Harmonised in Mustard and Ivory so the photos stay timeless.",
-  "imageUrl": "/images/couples/haldi-mustard-ivory.jpg",
-  "coupleId": "haldi-mustard-ivory"
- },
- {
-  "id": "couple-cocktail-charcoal-rose",
-  "title": "Charcoal & Dusty Rose Evening Soiree",
-  "mood": "modern",
-  "occasions": [
-   "Reception"
-  ],
-  "herProductIds": [
-   "w-saree-linen-03"
-  ],
-  "hisProductIds": [
-   "m-kurtiset-chikankari-02",
-   "m-watch-01"
-  ],
-  "price": 6897,
-  "description": "A matched-but-not-matchy festive pair for the reception calendar. She wears rose block-printed linen saree with woven check; he wears rose kamdani-fine weave chikankari kurta set with rose gold stone-set ethnic-dial watch. Harmonised in Charcoal and Rose so the photos stay timeless.",
-  "imageUrl": "/images/couples/cocktail-charcoal-rose.jpg",
-  "coupleId": "cocktail-charcoal-rose"
- },
- {
-  "id": "couple-navratri-rust-cream",
-  "title": "Chaniya & Kurta Rust Festive Rhythm",
-  "mood": "festive",
+  "id": "couple-garba-03",
+  "coupleId": "garba-03",
+  "title": "Garba · After the First Round",
+  "mood": "Gujarati mirrorwork in motion",
+  "world": "Garba",
   "occasions": [
    "Garba"
   ],
+  "scene": "by the decorated entry arch",
+  "pose": "foreheads close, catching their breath",
+  "cameraFraming": "intimate portrait crop",
+  "sourceImage": "/images/production-couple-garba-dandiya-wide.jpg",
+  "sourceIndex": 0,
   "herProductIds": [
-   "w-saree-drape-08"
-  ],
-  "hisProductIds": [
-   "m-waistcoat-set-02",
-   "m-watch-01"
-  ],
-  "price": 7197,
-  "description": "A matched-but-not-matchy festive pair for the garba calendar. She wears rust sequin-scattered georgette saree with woven border; he wears rust resham-threadworked waistcoat with straight kurta with rose gold stone-set ethnic-dial watch. Harmonised in Rust and Cream so the photos stay timeless.",
-  "imageUrl": "/images/couples/navratri-rust-cream.jpg",
-  "coupleId": "navratri-rust-cream"
- },
- {
-  "id": "couple-reception-navy-peach",
-  "title": "Midnight Navy & Peach Reception Pair",
-  "mood": "elegant",
-  "occasions": [
-   "Reception"
-  ],
-  "herProductIds": [
-   "w-saree-silk-04"
-  ],
-  "hisProductIds": [
-   "m-kurtiset-cotton-08",
-   "m-watch-01"
-  ],
-  "price": 8000,
-  "description": "A matched-but-not-matchy festive pair for the reception calendar. She wears peach jaal-lattice mulberry silk saree; he wears peach chikankari-worked cotton kurta set with rose gold stone-set ethnic-dial watch. Harmonised in Navy and Peach so the photos stay timeless.",
-  "imageUrl": "/images/couples/reception-navy-peach.jpg",
-  "coupleId": "reception-navy-peach"
- },
- {
-  "id": "couple-college-fest-sage-ivory",
-  "title": "Campus Traditional Sage & Ivory Duo",
-  "mood": "youthful",
-  "occasions": [
-   "College"
-  ],
-  "herProductIds": [
-   "w-saree-organza-02"
-  ],
-  "hisProductIds": [
-   "m-kurtiset-cotton-02",
-   "m-watch-01"
-  ],
-  "price": 4497,
-  "description": "A matched-but-not-matchy festive pair for the college calendar. She wears ivory chikankari-worked organza saree with hand-embroidered buti; he wears ivory block-printed cotton kurta set with rose gold stone-set ethnic-dial watch. Harmonised in Sage and Ivory so the photos stay timeless.",
-  "imageUrl": "/images/couples/college-fest-sage-ivory.jpg",
-  "coupleId": "college-fest-sage-ivory"
- },
- {
-  "id": "couple-mehendi-forest-rose",
-  "title": "Forest Green & Soft Rose Mehendi",
-  "mood": "fresh",
-  "occasions": [
-   "Mehendi"
-  ],
-  "herProductIds": [
-   "w-saree-drape-04"
-  ],
-  "hisProductIds": [
-   "m-kurtiset-silk-03",
-   "m-watch-01"
-  ],
-  "price": 7997,
-  "description": "A matched-but-not-matchy festive pair for the mehendi calendar. She wears forest green resham-threadworked georgette saree with woven border; he wears forest green kamdani-fine weave silk kurta set with rose gold stone-set ethnic-dial watch. Harmonised in Forest Green and Blush Pink so the photos stay timeless.",
-  "imageUrl": "/images/couples/mehendi-forest-rose.jpg",
-  "coupleId": "mehendi-forest-rose"
- },
- {
-  "id": "couple-engagement-powder-ivory",
-  "title": "Powder Blue & Ivory Courtyard Engagement",
-  "mood": "serene",
-  "occasions": [
-   "Engagement"
-  ],
-  "herProductIds": [
-   "w-saree-organza-01"
-  ],
-  "hisProductIds": [
-   "m-kurtiset-cotton-02",
-   "m-watch-01"
-  ],
-  "price": 5597,
-  "description": "A matched-but-not-matchy festive pair for the engagement calendar. She wears powder blue kamdani-fine weave organza saree with hand-embroidered buti; he wears ivory block-printed cotton kurta set with rose gold stone-set ethnic-dial watch. Harmonised in Powder Blue and Ivory so the photos stay timeless.",
-  "imageUrl": "/images/couples/engagement-powder-ivory.jpg",
-  "coupleId": "engagement-powder-ivory"
- },
- {
-  "id": "couple-puja-terracotta-cream",
-  "title": "Terracotta & Ivory Dawn Puja Harmony",
-  "mood": "devotional",
-  "occasions": [
-   "Puja & Temple"
-  ],
-  "herProductIds": [
-   "w-saree-georgette-soft-01"
+   "w-saree-georgette-soft-01",
+   "w-jutti-01"
   ],
   "hisProductIds": [
    "m-kurtiset-printed-05",
-   "m-watch-01"
+   "m-mojari-01"
   ],
-  "price": 3997,
-  "description": "A matched-but-not-matchy festive pair for the puja & temple calendar. She wears terracotta block-printed soft georgette everyday saree; he wears terracotta printed kurta set with rose gold stone-set ethnic-dial watch. Harmonised in Terracotta and Cream so the photos stay timeless.",
-  "imageUrl": "/images/couples/puja-terracotta-cream.jpg",
-  "coupleId": "puja-terracotta-cream"
+  "price": 5896,
+  "description": "Foreheads close, catching their breath in by the decorated entry arch; a coordinated garba pairing with terracotta block-printed soft georgette everyday saree for her and terracotta printed kurta set for him. The colour story is Terracotta and Emerald — complementary, never uniform.",
+  "imageUrl": "/images/couples/garba-03.jpg",
+  "imagePrompt": "original candid fashion photograph of an adult Indian couple at by the decorated entry arch, foreheads close, catching their breath, intimate portrait crop, natural faces and genuine chemistry, varied Garba styling, no copied composition, no text, no logos, no watermark"
  },
  {
-  "id": "couple-festive-plum-blush",
-  "title": "Plum & Blush Twilight Festive Pairing",
-  "mood": "contemporary",
-  "occasions": [
-   "Festive Party"
-  ],
-  "herProductIds": [
-   "w-saree-predrape-satin-04"
-  ],
-  "hisProductIds": [
-   "m-kurt-set-jacket-01",
-   "m-watch-01"
-  ],
-  "price": 8000,
-  "description": "A matched-but-not-matchy festive pair for the festive party calendar. She wears plum stone-set pre-draped saree gown (satin); he wears plum zardozi-embroidered kurta set with nehru jacket with rose gold stone-set ethnic-dial watch. Harmonised in Plum and Blush so the photos stay timeless.",
-  "imageUrl": "/images/couples/festive-plum-blush.jpg",
-  "coupleId": "festive-plum-blush"
- },
- {
-  "id": "couple-wedding-guest-deepgreen-sand",
-  "title": "Deep Green & Sand Heritage Guest Duo",
-  "mood": "understated",
-  "occasions": [
-   "Wedding Guest"
-  ],
-  "herProductIds": [
-   "w-saree-drape-03"
-  ],
-  "hisProductIds": [
-   "m-kurtiset-cotton-01",
-   "m-watch-01"
-  ],
-  "price": 7797,
-  "description": "A matched-but-not-matchy festive pair for the wedding guest calendar. She wears sand gotapatti-appliquéd georgette saree with woven border; he wears sand chikankari-worked cotton kurta set with rose gold stone-set ethnic-dial watch. Harmonised in Deep Green and Sand so the photos stay timeless.",
-  "imageUrl": "/images/couples/wedding-guest-deepgreen-sand.jpg",
-  "coupleId": "wedding-guest-deepgreen-sand"
- },
- {
-  "id": "couple-winter-burgundy-ivory",
-  "title": "Velvet Burgundy & Warm Ivory Winter Sangeet",
-  "mood": "rich",
-  "occasions": [
-   "Winter"
-  ],
-  "herProductIds": [
-   "w-saree-organza-02"
-  ],
-  "hisProductIds": [
-   "m-kurtiset-cotton-02",
-   "m-watch-01"
-  ],
-  "price": 4497,
-  "description": "A matched-but-not-matchy festive pair for the winter calendar. She wears ivory chikankari-worked organza saree with hand-embroidered buti; he wears ivory block-printed cotton kurta set with rose gold stone-set ethnic-dial watch. Harmonised in Deep Maroon and Ivory so the photos stay timeless.",
-  "imageUrl": "/images/couples/winter-burgundy-ivory.jpg",
-  "coupleId": "winter-burgundy-ivory"
- },
- {
-  "id": "couple-date-night-chocolate-cream",
-  "title": "Contemporary Chocolate & Cream Date Edit",
-  "mood": "intimate",
-  "occasions": [
-   "Date Night"
-  ],
-  "herProductIds": [
-   "w-saree-velvet-02"
-  ],
-  "hisProductIds": [
-   "m-kurtiset-silk-04",
-   "m-watch-01"
-  ],
-  "price": 8000,
-  "description": "A matched-but-not-matchy festive pair for the date night calendar. She wears chocolate dabka-embellished velvet saree with zardozi pallu; he wears chocolate aari-stitched silk kurta set with rose gold stone-set ethnic-dial watch. Harmonised in Chocolate and Cream so the photos stay timeless.",
-  "imageUrl": "/images/couples/date-night-chocolate-cream.jpg",
-  "coupleId": "date-night-chocolate-cream"
- },
- {
-  "id": "couple-garba-dandiya-walk",
-  "title": "Dandiya Walk in Cobalt & Fuchsia",
-  "mood": "kinetic",
+  "id": "couple-garba-04",
+  "coupleId": "garba-04",
+  "title": "Garba · Bandhani Sidewalk",
+  "mood": "Gujarati mirrorwork in motion",
+  "world": "Garba",
   "occasions": [
    "Garba"
   ],
+  "scene": "at the edge of the Garba ground",
+  "pose": "handholding while dancers blur behind them",
+  "cameraFraming": "side-on documentary frame",
+  "sourceImage": "/images/production-couple-garba-dupattahold.jpg",
+  "sourceIndex": 1,
   "herProductIds": [
-   "w-kurtiset-dhoti-02"
+   "w-saree-satin-slip-01",
+   "w-jutti-01"
+  ],
+  "hisProductIds": [
+   "m-kurtiset-silk-02",
+   "m-mojari-01"
+  ],
+  "price": 8000,
+  "description": "Handholding while dancers blur behind them in at the edge of the Garba ground; a coordinated garba pairing with midnight navy tone-on-tone satin slip saree for her and midnight navy buti-motif silk kurta set for him. The colour story is Hot Pink and Midnight Navy — complementary, never uniform.",
+  "imageUrl": "/images/couples/garba-04.jpg",
+  "imagePrompt": "original candid fashion photograph of an adult Indian couple at at the edge of the Garba ground, handholding while dancers blur behind them, side-on documentary frame, natural faces and genuine chemistry, varied Garba styling, no copied composition, no text, no logos, no watermark"
+ },
+ {
+  "id": "couple-garba-05",
+  "coupleId": "garba-05",
+  "title": "Garba · Mirrorwork Glance",
+  "mood": "Gujarati mirrorwork in motion",
+  "world": "Garba",
+  "occasions": [
+   "Garba"
+  ],
+  "scene": "beside a marigold-lit pillar",
+  "pose": "eye contact over a shoulder touch",
+  "cameraFraming": "close candid frame",
+  "sourceImage": "/images/production-couple-garba-dandiya-wide.jpg",
+  "sourceIndex": 0,
+  "herProductIds": [
+   "w-kurtiset-dhoti-02",
+   "w-jutti-01"
   ],
   "hisProductIds": [
    "m-indowest-drape-01",
-   "m-watch-01"
+   "m-mojari-01"
   ],
-  "price": 5297,
-  "description": "A matched-but-not-matchy festive pair for the garba calendar. She wears fuchsia mirror-work dhoti-pant kurta set; he wears fuchsia thread-embroidered draped kurta with asymmetric hem with rose gold stone-set ethnic-dial watch. Harmonised in Cobalt and Fuchsia so the photos stay timeless.",
-  "imageUrl": "/images/couples/garba-dandiya-walk.jpg",
-  "coupleId": "garba-dandiya-walk"
+  "price": 7196,
+  "description": "Eye contact over a shoulder touch in beside a marigold-lit pillar; a coordinated garba pairing with fuchsia mirror-work dhoti-pant kurta set for her and fuchsia thread-embroidered draped kurta with asymmetric hem for him. The colour story is Fuchsia and Indigo — complementary, never uniform.",
+  "imageUrl": "/images/couples/garba-05.jpg",
+  "imagePrompt": "original candid fashion photograph of an adult Indian couple at beside a marigold-lit pillar, eye contact over a shoulder touch, close candid frame, natural faces and genuine chemistry, varied Garba styling, no copied composition, no text, no logos, no watermark"
  },
  {
-  "id": "couple-garba-mirror-laugh",
-  "title": "Mirrorwork Laughs After Dark",
-  "mood": "candid",
+  "id": "couple-garba-06",
+  "coupleId": "garba-06",
+  "title": "Garba · Dandiya Walk",
+  "mood": "Gujarati mirrorwork in motion",
+  "world": "Garba",
   "occasions": [
    "Garba"
   ],
+  "scene": "through the late-evening crowd",
+  "pose": "matching their steps, sticks lowered",
+  "cameraFraming": "full-length walking frame",
+  "sourceImage": "/images/production-couple-garba-dupattahold.jpg",
+  "sourceIndex": 1,
   "herProductIds": [
-   "w-saree-drape-01"
-  ],
-  "hisProductIds": [
-   "m-kurt-set-jamawar-01",
-   "m-watch-01"
-  ],
-  "price": 8000,
-  "description": "A matched-but-not-matchy festive pair for the garba calendar. She wears wine zari-woven georgette saree with woven border; he wears wine jaal-lattice jamawar shawl kurta set with rose gold stone-set ethnic-dial watch. Harmonised in Parrot Green and Wine so the photos stay timeless.",
-  "imageUrl": "/images/couples/garba-mirror-laugh.jpg",
-  "coupleId": "garba-mirror-laugh"
- },
- {
-  "id": "couple-garba-terracotta-night",
-  "title": "Terracotta Garba Night",
-  "mood": "earthy",
-  "occasions": [
-   "Garba"
-  ],
-  "herProductIds": [
-   "w-saree-organza-02"
-  ],
-  "hisProductIds": [
-   "m-kurtiset-cotton-02",
-   "m-watch-01"
-  ],
-  "price": 4497,
-  "description": "A matched-but-not-matchy festive pair for the garba calendar. She wears ivory chikankari-worked organza saree with hand-embroidered buti; he wears ivory block-printed cotton kurta set with rose gold stone-set ethnic-dial watch. Harmonised in Terracotta and Ivory so the photos stay timeless.",
-  "imageUrl": "/images/couples/garba-terracotta-night.jpg",
-  "coupleId": "garba-terracotta-night"
- },
- {
-  "id": "couple-garba-indigo-ivory",
-  "title": "Indigo Kediyu & Ivory Chaniya",
-  "mood": "graphic",
-  "occasions": [
-   "Garba"
-  ],
-  "herProductIds": [
-   "w-saree-organza-02"
-  ],
-  "hisProductIds": [
-   "m-kurtiset-cotton-02",
-   "m-watch-01"
-  ],
-  "price": 4497,
-  "description": "A matched-but-not-matchy festive pair for the garba calendar. She wears ivory chikankari-worked organza saree with hand-embroidered buti; he wears ivory block-printed cotton kurta set with rose gold stone-set ethnic-dial watch. Harmonised in Midnight Navy and Ivory so the photos stay timeless.",
-  "imageUrl": "/images/couples/garba-indigo-ivory.jpg",
-  "coupleId": "garba-indigo-ivory"
- },
- {
-  "id": "couple-garba-peacock-pink",
-  "title": "Peacock Teal & Pink Circle",
-  "mood": "bright",
-  "occasions": [
-   "Garba"
-  ],
-  "herProductIds": [
-   "w-saree-drape-07"
+   "w-saree-drape-07",
+   "w-jutti-01"
   ],
   "hisProductIds": [
    "m-kurtiset-silk-01",
-   "m-watch-01"
+   "m-mojari-01"
   ],
   "price": 8000,
-  "description": "A matched-but-not-matchy festive pair for the garba calendar. She wears peacock teal zari-woven georgette saree with woven border; he wears ivory silk kurta set with rose gold stone-set ethnic-dial watch. Harmonised in Peacock Teal and Hot Pink so the photos stay timeless.",
-  "imageUrl": "/images/couples/garba-peacock-pink.jpg",
-  "coupleId": "garba-peacock-pink"
+  "description": "Matching their steps, sticks lowered in through the late-evening crowd; a coordinated garba pairing with peacock teal zari-woven georgette saree with woven border for her and ivory silk kurta set for him. The colour story is Peacock Teal and Mustard — complementary, never uniform.",
+  "imageUrl": "/images/couples/garba-06.jpg",
+  "imagePrompt": "original candid fashion photograph of an adult Indian couple at through the late-evening crowd, matching their steps, sticks lowered, full-length walking frame, natural faces and genuine chemistry, varied Garba styling, no copied composition, no text, no logos, no watermark"
  },
  {
-  "id": "couple-garba-sage-rust",
-  "title": "Sage and Rust Garba Pair",
-  "mood": "grounded",
+  "id": "couple-garba-07",
+  "coupleId": "garba-07",
+  "title": "Garba · Kediyu Laugh",
+  "mood": "Gujarati mirrorwork in motion",
+  "world": "Garba",
   "occasions": [
    "Garba"
   ],
+  "scene": "near the live folk percussion",
+  "pose": "her laugh catches him mid-sentence",
+  "cameraFraming": "medium two-shot",
+  "sourceImage": "/images/production-couple-garba-dandiya-wide.jpg",
+  "sourceIndex": 0,
   "herProductIds": [
-   "w-saree-drape-08"
+   "w-saree-georgette-soft-01",
+   "w-jutti-01"
   ],
   "hisProductIds": [
-   "m-waistcoat-set-02",
-   "m-watch-01"
+   "m-kurtiset-printed-05",
+   "m-mojari-01"
   ],
-  "price": 7197,
-  "description": "A matched-but-not-matchy festive pair for the garba calendar. She wears rust sequin-scattered georgette saree with woven border; he wears rust resham-threadworked waistcoat with straight kurta with rose gold stone-set ethnic-dial watch. Harmonised in Sage and Rust so the photos stay timeless.",
-  "imageUrl": "/images/couples/garba-sage-rust.jpg",
-  "coupleId": "garba-sage-rust"
+  "price": 5896,
+  "description": "Her laugh catches him mid-sentence in near the live folk percussion; a coordinated garba pairing with terracotta block-printed soft georgette everyday saree for her and terracotta printed kurta set for him. The colour story is Terracotta and Emerald — complementary, never uniform.",
+  "imageUrl": "/images/couples/garba-07.jpg",
+  "imagePrompt": "original candid fashion photograph of an adult Indian couple at near the live folk percussion, her laugh catches him mid-sentence, medium two-shot, natural faces and genuine chemistry, varied Garba styling, no copied composition, no text, no logos, no watermark"
  },
  {
-  "id": "couple-garba-gold-black",
-  "title": "Gold Mirror Black Garba",
-  "mood": "night",
+  "id": "couple-garba-08",
+  "coupleId": "garba-08",
+  "title": "Garba · Chaniya Spin",
+  "mood": "Gujarati mirrorwork in motion",
+  "world": "Garba",
   "occasions": [
    "Garba"
   ],
+  "scene": "under strings of warm bulbs",
+  "pose": "he reaches for her hand as the skirt opens",
+  "cameraFraming": "low-angle movement frame",
+  "sourceImage": "/images/production-couple-garba-dupattahold.jpg",
+  "sourceIndex": 1,
   "herProductIds": [
-   "w-saree-satin-slip-03"
+   "w-saree-satin-slip-01",
+   "w-jutti-01"
   ],
   "hisProductIds": [
-   "m-kurt-set-short-03",
-   "m-watch-01"
+   "m-kurtiset-silk-02",
+   "m-mojari-01"
   ],
-  "price": 6597,
-  "description": "A matched-but-not-matchy festive pair for the garba calendar. She wears antique gold sequin-scattered satin slip saree; he wears antique gold aari-stitched short kurta with trouser with rose gold stone-set ethnic-dial watch. Harmonised in Antique Gold and Black so the photos stay timeless.",
-  "imageUrl": "/images/couples/garba-gold-black.jpg",
-  "coupleId": "garba-gold-black"
+  "price": 8000,
+  "description": "He reaches for her hand as the skirt opens in under strings of warm bulbs; a coordinated garba pairing with midnight navy tone-on-tone satin slip saree for her and midnight navy buti-motif silk kurta set for him. The colour story is Hot Pink and Midnight Navy — complementary, never uniform.",
+  "imageUrl": "/images/couples/garba-08.jpg",
+  "imagePrompt": "original candid fashion photograph of an adult Indian couple at under strings of warm bulbs, he reaches for her hand as the skirt opens, low-angle movement frame, natural faces and genuine chemistry, varied Garba styling, no copied composition, no text, no logos, no watermark"
  },
  {
-  "id": "couple-garba-sunlit-yellow",
-  "title": "Sunlit Yellow Dandiya Pair",
-  "mood": "sunlit",
+  "id": "couple-garba-09",
+  "coupleId": "garba-09",
+  "title": "Garba · Quiet Between Beats",
+  "mood": "Gujarati mirrorwork in motion",
+  "world": "Garba",
   "occasions": [
    "Garba"
   ],
+  "scene": "at the shaded edge of the ground",
+  "pose": "a quiet check-in before the next song",
+  "cameraFraming": "waist-up conversational frame",
+  "sourceImage": "/images/production-couple-garba-dandiya-wide.jpg",
+  "sourceIndex": 0,
   "herProductIds": [
-   "w-saree-banarasi-01"
+   "w-kurtiset-dhoti-02",
+   "w-jutti-01"
   ],
   "hisProductIds": [
-   "m-kurtiset-printed-03",
-   "m-watch-01"
+   "m-indowest-drape-01",
+   "m-mojari-01"
   ],
-  "price": 7997,
-  "description": "A matched-but-not-matchy festive pair for the garba calendar. She wears emerald banarasi-woven banarasi silk saree; he wears sunflower yellow kalamkari-painted printed kurta set with rose gold stone-set ethnic-dial watch. Harmonised in Sunflower Yellow and Emerald so the photos stay timeless.",
-  "imageUrl": "/images/couples/garba-sunlit-yellow.jpg",
-  "coupleId": "garba-sunlit-yellow"
+  "price": 7196,
+  "description": "A quiet check-in before the next song in at the shaded edge of the ground; a coordinated garba pairing with fuchsia mirror-work dhoti-pant kurta set for her and fuchsia thread-embroidered draped kurta with asymmetric hem for him. The colour story is Fuchsia and Indigo — complementary, never uniform.",
+  "imageUrl": "/images/couples/garba-09.jpg",
+  "imagePrompt": "original candid fashion photograph of an adult Indian couple at at the shaded edge of the ground, a quiet check-in before the next song, waist-up conversational frame, natural faces and genuine chemistry, varied Garba styling, no copied composition, no text, no logos, no watermark"
  },
  {
-  "id": "couple-navratri-cobalt",
-  "title": "Navratri Cobalt Motion",
-  "mood": "kinetic",
+  "id": "couple-garba-10",
+  "coupleId": "garba-10",
+  "title": "Garba · Kutch Detail",
+  "mood": "Gujarati mirrorwork in motion",
+  "world": "Garba",
+  "occasions": [
+   "Garba"
+  ],
+  "scene": "beside a bandhani textile stall",
+  "pose": "she adjusts his stole with a grin",
+  "cameraFraming": "over-the-shoulder frame",
+  "sourceImage": "/images/production-couple-garba-dupattahold.jpg",
+  "sourceIndex": 1,
+  "herProductIds": [
+   "w-saree-drape-07",
+   "w-jutti-01"
+  ],
+  "hisProductIds": [
+   "m-kurtiset-silk-01",
+   "m-mojari-01"
+  ],
+  "price": 8000,
+  "description": "She adjusts his stole with a grin in beside a bandhani textile stall; a coordinated garba pairing with peacock teal zari-woven georgette saree with woven border for her and ivory silk kurta set for him. The colour story is Peacock Teal and Mustard — complementary, never uniform.",
+  "imageUrl": "/images/couples/garba-10.jpg",
+  "imagePrompt": "original candid fashion photograph of an adult Indian couple at beside a bandhani textile stall, she adjusts his stole with a grin, over-the-shoulder frame, natural faces and genuine chemistry, varied Garba styling, no copied composition, no text, no logos, no watermark"
+ },
+ {
+  "id": "couple-garba-11",
+  "coupleId": "garba-11",
+  "title": "Garba · Colour in Motion",
+  "mood": "Gujarati mirrorwork in motion",
+  "world": "Garba",
+  "occasions": [
+   "Garba"
+  ],
+  "scene": "on the open earthen dance floor",
+  "pose": "shoulder-to-shoulder through a circle",
+  "cameraFraming": "wide environmental frame",
+  "sourceImage": "/images/production-couple-garba-dandiya-wide.jpg",
+  "sourceIndex": 0,
+  "herProductIds": [
+   "w-saree-georgette-soft-01",
+   "w-jutti-01"
+  ],
+  "hisProductIds": [
+   "m-kurtiset-printed-05",
+   "m-mojari-01"
+  ],
+  "price": 5896,
+  "description": "Shoulder-to-shoulder through a circle in on the open earthen dance floor; a coordinated garba pairing with terracotta block-printed soft georgette everyday saree for her and terracotta printed kurta set for him. The colour story is Terracotta and Emerald — complementary, never uniform.",
+  "imageUrl": "/images/couples/garba-11.jpg",
+  "imagePrompt": "original candid fashion photograph of an adult Indian couple at on the open earthen dance floor, shoulder-to-shoulder through a circle, wide environmental frame, natural faces and genuine chemistry, varied Garba styling, no copied composition, no text, no logos, no watermark"
+ },
+ {
+  "id": "couple-garba-12",
+  "coupleId": "garba-12",
+  "title": "Garba · Dandiya Cross",
+  "mood": "Gujarati mirrorwork in motion",
+  "world": "Garba",
+  "occasions": [
+   "Garba"
+  ],
+  "scene": "beneath the festival lights",
+  "pose": "sticks cross while they look at one another",
+  "cameraFraming": "dynamic diagonal frame",
+  "sourceImage": "/images/production-couple-garba-dupattahold.jpg",
+  "sourceIndex": 1,
+  "herProductIds": [
+   "w-saree-satin-slip-01",
+   "w-jutti-01"
+  ],
+  "hisProductIds": [
+   "m-kurtiset-silk-02",
+   "m-mojari-01"
+  ],
+  "price": 8000,
+  "description": "Sticks cross while they look at one another in beneath the festival lights; a coordinated garba pairing with midnight navy tone-on-tone satin slip saree for her and midnight navy buti-motif silk kurta set for him. The colour story is Hot Pink and Midnight Navy — complementary, never uniform.",
+  "imageUrl": "/images/couples/garba-12.jpg",
+  "imagePrompt": "original candid fashion photograph of an adult Indian couple at beneath the festival lights, sticks cross while they look at one another, dynamic diagonal frame, natural faces and genuine chemistry, varied Garba styling, no copied composition, no text, no logos, no watermark"
+ },
+ {
+  "id": "couple-garba-13",
+  "coupleId": "garba-13",
+  "title": "Garba · Mirror Border",
+  "mood": "Gujarati mirrorwork in motion",
+  "world": "Garba",
+  "occasions": [
+   "Garba"
+  ],
+  "scene": "near the hand-painted entrance",
+  "pose": "her hand rests lightly on his arm",
+  "cameraFraming": "portrait crop with bokeh",
+  "sourceImage": "/images/production-couple-garba-dandiya-wide.jpg",
+  "sourceIndex": 0,
+  "herProductIds": [
+   "w-kurtiset-dhoti-02",
+   "w-jutti-01"
+  ],
+  "hisProductIds": [
+   "m-indowest-drape-01",
+   "m-mojari-01"
+  ],
+  "price": 7196,
+  "description": "Her hand rests lightly on his arm in near the hand-painted entrance; a coordinated garba pairing with fuchsia mirror-work dhoti-pant kurta set for her and fuchsia thread-embroidered draped kurta with asymmetric hem for him. The colour story is Fuchsia and Indigo — complementary, never uniform.",
+  "imageUrl": "/images/couples/garba-13.jpg",
+  "imagePrompt": "original candid fashion photograph of an adult Indian couple at near the hand-painted entrance, her hand rests lightly on his arm, portrait crop with bokeh, natural faces and genuine chemistry, varied Garba styling, no copied composition, no text, no logos, no watermark"
+ },
+ {
+  "id": "couple-garba-14",
+  "coupleId": "garba-14",
+  "title": "Garba · Last Song",
+  "mood": "Gujarati mirrorwork in motion",
+  "world": "Garba",
+  "occasions": [
+   "Garba"
+  ],
+  "scene": "after the final Garba round",
+  "pose": "tired smiles and linked hands",
+  "cameraFraming": "natural low-light frame",
+  "sourceImage": "/images/production-couple-garba-dupattahold.jpg",
+  "sourceIndex": 1,
+  "herProductIds": [
+   "w-saree-drape-07",
+   "w-jutti-01"
+  ],
+  "hisProductIds": [
+   "m-kurtiset-silk-01",
+   "m-mojari-01"
+  ],
+  "price": 8000,
+  "description": "Tired smiles and linked hands in after the final Garba round; a coordinated garba pairing with peacock teal zari-woven georgette saree with woven border for her and ivory silk kurta set for him. The colour story is Peacock Teal and Mustard — complementary, never uniform.",
+  "imageUrl": "/images/couples/garba-14.jpg",
+  "imagePrompt": "original candid fashion photograph of an adult Indian couple at after the final Garba round, tired smiles and linked hands, natural low-light frame, natural faces and genuine chemistry, varied Garba styling, no copied composition, no text, no logos, no watermark"
+ },
+ {
+  "id": "couple-garba-15",
+  "coupleId": "garba-15",
+  "title": "Garba · Teal and Fuchsia",
+  "mood": "Gujarati mirrorwork in motion",
+  "world": "Garba",
+  "occasions": [
+   "Garba"
+  ],
+  "scene": "beside the draped textile backdrop",
+  "pose": "a playful almost-dance step",
+  "cameraFraming": "three-quarter frame",
+  "sourceImage": "/images/production-couple-garba-dandiya-wide.jpg",
+  "sourceIndex": 0,
+  "herProductIds": [
+   "w-saree-georgette-soft-01",
+   "w-jutti-01"
+  ],
+  "hisProductIds": [
+   "m-kurtiset-printed-05",
+   "m-mojari-01"
+  ],
+  "price": 5896,
+  "description": "A playful almost-dance step in beside the draped textile backdrop; a coordinated garba pairing with terracotta block-printed soft georgette everyday saree for her and terracotta printed kurta set for him. The colour story is Terracotta and Emerald — complementary, never uniform.",
+  "imageUrl": "/images/couples/garba-15.jpg",
+  "imagePrompt": "original candid fashion photograph of an adult Indian couple at beside the draped textile backdrop, a playful almost-dance step, three-quarter frame, natural faces and genuine chemistry, varied Garba styling, no copied composition, no text, no logos, no watermark"
+ },
+ {
+  "id": "couple-garba-16",
+  "coupleId": "garba-16",
+  "title": "Garba · Garba Greeting",
+  "mood": "Gujarati mirrorwork in motion",
+  "world": "Garba",
+  "occasions": [
+   "Garba"
+  ],
+  "scene": "at a family-friendly festival courtyard",
+  "pose": "a warm hello before joining friends",
+  "cameraFraming": "mid-distance social frame",
+  "sourceImage": "/images/production-couple-garba-dupattahold.jpg",
+  "sourceIndex": 1,
+  "herProductIds": [
+   "w-saree-satin-slip-01",
+   "w-jutti-01"
+  ],
+  "hisProductIds": [
+   "m-kurtiset-silk-02",
+   "m-mojari-01"
+  ],
+  "price": 8000,
+  "description": "A warm hello before joining friends in at a family-friendly festival courtyard; a coordinated garba pairing with midnight navy tone-on-tone satin slip saree for her and midnight navy buti-motif silk kurta set for him. The colour story is Hot Pink and Midnight Navy — complementary, never uniform.",
+  "imageUrl": "/images/couples/garba-16.jpg",
+  "imagePrompt": "original candid fashion photograph of an adult Indian couple at at a family-friendly festival courtyard, a warm hello before joining friends, mid-distance social frame, natural faces and genuine chemistry, varied Garba styling, no copied composition, no text, no logos, no watermark"
+ },
+ {
+  "id": "couple-garba-17",
+  "coupleId": "garba-17",
+  "title": "Garba · Footwork Lesson",
+  "mood": "Gujarati mirrorwork in motion",
+  "world": "Garba",
+  "occasions": [
+   "Garba"
+  ],
+  "scene": "on the outer ring of the ground",
+  "pose": "he follows her confident step",
+  "cameraFraming": "candid action frame",
+  "sourceImage": "/images/production-couple-garba-dandiya-wide.jpg",
+  "sourceIndex": 0,
+  "herProductIds": [
+   "w-kurtiset-dhoti-02",
+   "w-jutti-01"
+  ],
+  "hisProductIds": [
+   "m-indowest-drape-01",
+   "m-mojari-01"
+  ],
+  "price": 7196,
+  "description": "He follows her confident step in on the outer ring of the ground; a coordinated garba pairing with fuchsia mirror-work dhoti-pant kurta set for her and fuchsia thread-embroidered draped kurta with asymmetric hem for him. The colour story is Fuchsia and Indigo — complementary, never uniform.",
+  "imageUrl": "/images/couples/garba-17.jpg",
+  "imagePrompt": "original candid fashion photograph of an adult Indian couple at on the outer ring of the ground, he follows her confident step, candid action frame, natural faces and genuine chemistry, varied Garba styling, no copied composition, no text, no logos, no watermark"
+ },
+ {
+  "id": "couple-garba-18",
+  "coupleId": "garba-18",
+  "title": "Garba · Marigold Turn",
+  "mood": "Gujarati mirrorwork in motion",
+  "world": "Garba",
+  "occasions": [
+   "Garba"
+  ],
+  "scene": "framed by marigold strings",
+  "pose": "a gentle turn with eyes locked",
+  "cameraFraming": "vertical editorial frame",
+  "sourceImage": "/images/production-couple-garba-dupattahold.jpg",
+  "sourceIndex": 1,
+  "herProductIds": [
+   "w-saree-drape-07",
+   "w-jutti-01"
+  ],
+  "hisProductIds": [
+   "m-kurtiset-silk-01",
+   "m-mojari-01"
+  ],
+  "price": 8000,
+  "description": "A gentle turn with eyes locked in framed by marigold strings; a coordinated garba pairing with peacock teal zari-woven georgette saree with woven border for her and ivory silk kurta set for him. The colour story is Peacock Teal and Mustard — complementary, never uniform.",
+  "imageUrl": "/images/couples/garba-18.jpg",
+  "imagePrompt": "original candid fashion photograph of an adult Indian couple at framed by marigold strings, a gentle turn with eyes locked, vertical editorial frame, natural faces and genuine chemistry, varied Garba styling, no copied composition, no text, no logos, no watermark"
+ },
+ {
+  "id": "couple-garba-19",
+  "coupleId": "garba-19",
+  "title": "Garba · Night Ground",
+  "mood": "Gujarati mirrorwork in motion",
+  "world": "Garba",
+  "occasions": [
+   "Garba"
+  ],
+  "scene": "under deep-blue evening sky",
+  "pose": "walking home from the dance circle",
+  "cameraFraming": "wide night frame",
+  "sourceImage": "/images/production-couple-garba-dandiya-wide.jpg",
+  "sourceIndex": 0,
+  "herProductIds": [
+   "w-saree-georgette-soft-01",
+   "w-jutti-01"
+  ],
+  "hisProductIds": [
+   "m-kurtiset-printed-05",
+   "m-mojari-01"
+  ],
+  "price": 5896,
+  "description": "Walking home from the dance circle in under deep-blue evening sky; a coordinated garba pairing with terracotta block-printed soft georgette everyday saree for her and terracotta printed kurta set for him. The colour story is Terracotta and Emerald — complementary, never uniform.",
+  "imageUrl": "/images/couples/garba-19.jpg",
+  "imagePrompt": "original candid fashion photograph of an adult Indian couple at under deep-blue evening sky, walking home from the dance circle, wide night frame, natural faces and genuine chemistry, varied Garba styling, no copied composition, no text, no logos, no watermark"
+ },
+ {
+  "id": "couple-garba-20",
+  "coupleId": "garba-20",
+  "title": "Garba · Shared Sticks",
+  "mood": "Gujarati mirrorwork in motion",
+  "world": "Garba",
+  "occasions": [
+   "Garba"
+  ],
+  "scene": "near the percussion stage",
+  "pose": "one pair of dandiya, two laughing hands",
+  "cameraFraming": "close hand-and-face frame",
+  "sourceImage": "/images/production-couple-garba-dupattahold.jpg",
+  "sourceIndex": 1,
+  "herProductIds": [
+   "w-saree-satin-slip-01",
+   "w-jutti-01"
+  ],
+  "hisProductIds": [
+   "m-kurtiset-silk-02",
+   "m-mojari-01"
+  ],
+  "price": 8000,
+  "description": "One pair of dandiya, two laughing hands in near the percussion stage; a coordinated garba pairing with midnight navy tone-on-tone satin slip saree for her and midnight navy buti-motif silk kurta set for him. The colour story is Hot Pink and Midnight Navy — complementary, never uniform.",
+  "imageUrl": "/images/couples/garba-20.jpg",
+  "imagePrompt": "original candid fashion photograph of an adult Indian couple at near the percussion stage, one pair of dandiya, two laughing hands, close hand-and-face frame, natural faces and genuine chemistry, varied Garba styling, no copied composition, no text, no logos, no watermark"
+ },
+ {
+  "id": "couple-navratri-01",
+  "coupleId": "navratri-01",
+  "title": "Navratri · Night One Steps",
+  "mood": "nine nights, nine rhythms",
+  "world": "Navratri",
   "occasions": [
    "Navratri"
   ],
+  "scene": "under the first string lights",
+  "pose": "learning the same rhythm together",
+  "cameraFraming": "wide dance-floor frame",
+  "sourceImage": "/images/production-couple-navratri-steps.jpg",
+  "sourceIndex": 0,
   "herProductIds": [
-   "w-saree-drape-01"
+   "w-kurtiset-dhoti-02",
+   "w-jutti-01"
   ],
   "hisProductIds": [
-   "m-kurtiset-cotton-01",
-   "m-watch-01"
+   "m-indowest-drape-01",
+   "m-mojari-01"
   ],
-  "price": 5797,
-  "description": "A matched-but-not-matchy festive pair for the navratri calendar. She wears wine zari-woven georgette saree with woven border; he wears sand chikankari-worked cotton kurta set with rose gold stone-set ethnic-dial watch. Harmonised in Cobalt and Silver so the photos stay timeless.",
-  "imageUrl": "/images/couples/navratri-cobalt.jpg",
-  "coupleId": "navratri-cobalt"
+  "price": 7196,
+  "description": "Learning the same rhythm together in under the first string lights; a coordinated navratri pairing with fuchsia mirror-work dhoti-pant kurta set for her and fuchsia thread-embroidered draped kurta with asymmetric hem for him. The colour story is Cobalt and Fuchsia — complementary, never uniform.",
+  "imageUrl": "/images/couples/navratri-01.jpg",
+  "imagePrompt": "original candid fashion photograph of an adult Indian couple at under the first string lights, learning the same rhythm together, wide dance-floor frame, natural faces and genuine chemistry, varied Navratri styling, no copied composition, no text, no logos, no watermark"
  },
  {
-  "id": "couple-navratri-mustard",
-  "title": "Mustard Bandhani Navratri Pair",
-  "mood": "heritage",
+  "id": "couple-navratri-02",
+  "coupleId": "navratri-02",
+  "title": "Navratri · Close Afterglow",
+  "mood": "nine nights, nine rhythms",
+  "world": "Navratri",
   "occasions": [
    "Navratri"
   ],
+  "scene": "by a softly lit festival wall",
+  "pose": "quiet eye contact after a fast round",
+  "cameraFraming": "close portrait frame",
+  "sourceImage": "/images/production-couple-navratri-close.jpg",
+  "sourceIndex": 1,
   "herProductIds": [
-   "w-saree-organza-03"
+   "w-saree-organza-03",
+   "w-jutti-01"
   ],
   "hisProductIds": [
    "m-kurtiset-printed-01",
-   "m-watch-01"
+   "m-mojari-01"
   ],
-  "price": 4897,
-  "description": "A matched-but-not-matchy festive pair for the navratri calendar. She wears mustard resham-threadworked organza saree with hand-embroidered buti; he wears mustard block-printed printed kurta set with rose gold stone-set ethnic-dial watch. Harmonised in Mustard and Bottle Green so the photos stay timeless.",
-  "imageUrl": "/images/couples/navratri-mustard.jpg",
-  "coupleId": "navratri-mustard"
+  "price": 6796,
+  "description": "Quiet eye contact after a fast round in by a softly lit festival wall; a coordinated navratri pairing with mustard resham-threadworked organza saree with hand-embroidered buti for her and mustard block-printed printed kurta set for him. The colour story is Mustard and Bottle Green — complementary, never uniform.",
+  "imageUrl": "/images/couples/navratri-02.jpg",
+  "imagePrompt": "original candid fashion photograph of an adult Indian couple at by a softly lit festival wall, quiet eye contact after a fast round, close portrait frame, natural faces and genuine chemistry, varied Navratri styling, no copied composition, no text, no logos, no watermark"
  },
  {
-  "id": "couple-navratri-rose",
-  "title": "Rose & Emerald Navratri Night",
-  "mood": "romantic",
+  "id": "couple-navratri-03",
+  "coupleId": "navratri-03",
+  "title": "Navratri · Odhani Check",
+  "mood": "nine nights, nine rhythms",
+  "world": "Navratri",
   "occasions": [
    "Navratri"
   ],
+  "scene": "beside a decorated stage",
+  "pose": "he checks the fall of her odhani",
+  "cameraFraming": "medium candid frame",
+  "sourceImage": "/images/production-couple-navratri-steps.jpg",
+  "sourceIndex": 0,
   "herProductIds": [
-   "w-saree-linen-03"
+   "w-leh-sequin-05",
+   "w-jutti-01"
   ],
   "hisProductIds": [
-   "m-kurtiset-chikankari-02",
-   "m-watch-01"
+   "m-kurta-jeans-02",
+   "m-mojari-01"
   ],
-  "price": 6897,
-  "description": "A matched-but-not-matchy festive pair for the navratri calendar. She wears rose block-printed linen saree with woven check; he wears rose kamdani-fine weave chikankari kurta set with rose gold stone-set ethnic-dial watch. Harmonised in Rose and Emerald so the photos stay timeless.",
-  "imageUrl": "/images/couples/navratri-rose.jpg",
-  "coupleId": "navratri-rose"
+  "price": 8000,
+  "description": "He checks the fall of her odhani in beside a decorated stage; a coordinated navratri pairing with coral sequin work lehenga for her and coral chikankari-worked kurta over denim set for him. The colour story is Coral and Indigo — complementary, never uniform.",
+  "imageUrl": "/images/couples/navratri-03.jpg",
+  "imagePrompt": "original candid fashion photograph of an adult Indian couple at beside a decorated stage, he checks the fall of her odhani, medium candid frame, natural faces and genuine chemistry, varied Navratri styling, no copied composition, no text, no logos, no watermark"
  },
  {
-  "id": "couple-navratri-copper",
-  "title": "Copper Mirrorwork Afterglow",
-  "mood": "warm",
+  "id": "couple-navratri-04",
+  "coupleId": "navratri-04",
+  "title": "Navratri · Nine-Night Walk",
+  "mood": "nine nights, nine rhythms",
+  "world": "Navratri",
   "occasions": [
    "Navratri"
   ],
+  "scene": "through the moving festival crowd",
+  "pose": "hands linked between songs",
+  "cameraFraming": "full-length documentary frame",
+  "sourceImage": "/images/production-couple-navratri-close.jpg",
+  "sourceIndex": 1,
   "herProductIds": [
-   "w-kurtiset-sharara-02"
+   "w-saree-predrape-satin-04",
+   "w-jutti-01"
   ],
   "hisProductIds": [
    "m-kurtiset-printed-02",
-   "m-watch-01"
+   "m-mojari-01"
   ],
-  "price": 5897,
-  "description": "A matched-but-not-matchy festive pair for the navratri calendar. She wears copper sequin-scattered sharara set; he wears copper ajrakh-printed printed kurta set with rose gold stone-set ethnic-dial watch. Harmonised in Copper and Indigo so the photos stay timeless.",
-  "imageUrl": "/images/couples/navratri-copper.jpg",
-  "coupleId": "navratri-copper"
+  "price": 8000,
+  "description": "Hands linked between songs in through the moving festival crowd; a coordinated navratri pairing with plum stone-set pre-draped saree gown (satin) for her and copper ajrakh-printed printed kurta set for him. The colour story is Plum and Copper — complementary, never uniform.",
+  "imageUrl": "/images/couples/navratri-04.jpg",
+  "imagePrompt": "original candid fashion photograph of an adult Indian couple at through the moving festival crowd, hands linked between songs, full-length documentary frame, natural faces and genuine chemistry, varied Navratri styling, no copied composition, no text, no logos, no watermark"
  },
  {
-  "id": "couple-navratri-coral",
-  "title": "Coral Odhani and Indigo Kurta",
-  "mood": "fresh",
+  "id": "couple-navratri-05",
+  "coupleId": "navratri-05",
+  "title": "Navratri · Cobalt Rhythm",
+  "mood": "nine nights, nine rhythms",
+  "world": "Navratri",
   "occasions": [
    "Navratri"
   ],
+  "scene": "under coloured festoon lights",
+  "pose": "a shared laugh mid-step",
+  "cameraFraming": "three-quarter action frame",
+  "sourceImage": "/images/production-couple-navratri-steps.jpg",
+  "sourceIndex": 0,
   "herProductIds": [
-   "w-leh-sequin-05"
-  ],
-  "hisProductIds": [
-   "m-kurta-jeans-02",
-   "m-watch-01"
-  ],
-  "price": 8000,
-  "description": "A matched-but-not-matchy festive pair for the navratri calendar. She wears coral sequin work lehenga; he wears coral chikankari-worked kurta over denim set with rose gold stone-set ethnic-dial watch. Harmonised in Coral and Indigo so the photos stay timeless.",
-  "imageUrl": "/images/couples/navratri-coral.jpg",
-  "coupleId": "navratri-coral"
- },
- {
-  "id": "couple-navratri-plum",
-  "title": "Plum Twirl Under String Lights",
-  "mood": "deep",
-  "occasions": [
-   "Navratri"
-  ],
-  "herProductIds": [
-   "w-saree-predrape-satin-04"
-  ],
-  "hisProductIds": [
-   "m-kurtiset-printed-01",
-   "m-watch-01"
-  ],
-  "price": 6497,
-  "description": "A matched-but-not-matchy festive pair for the navratri calendar. She wears plum stone-set pre-draped saree gown (satin); he wears mustard block-printed printed kurta set with rose gold stone-set ethnic-dial watch. Harmonised in Plum and Mustard so the photos stay timeless.",
-  "imageUrl": "/images/couples/navratri-plum.jpg",
-  "coupleId": "navratri-plum"
- },
- {
-  "id": "couple-navratri-mint",
-  "title": "Mint Dupatta Navratri Edit",
-  "mood": "light",
-  "occasions": [
-   "Navratri"
-  ],
-  "herProductIds": [
-   "w-saree-predrape-net-04"
-  ],
-  "hisProductIds": [
-   "m-kurtiset-cotton-02",
-   "m-watch-01"
-  ],
-  "price": 7097,
-  "description": "A matched-but-not-matchy festive pair for the navratri calendar. She wears mint sequin-scattered pre-draped net saree; he wears ivory block-printed cotton kurta set with rose gold stone-set ethnic-dial watch. Harmonised in Mint and Ivory so the photos stay timeless.",
-  "imageUrl": "/images/couples/navratri-mint.jpg",
-  "coupleId": "navratri-mint"
- },
- {
-  "id": "couple-navratri-fuchsia",
-  "title": "Fuchsia & Sand Dandiya Pair",
-  "mood": "vivid",
-  "occasions": [
-   "Navratri"
-  ],
-  "herProductIds": [
-   "w-saree-drape-03"
-  ],
-  "hisProductIds": [
-   "m-kurtiset-cotton-01",
-   "m-watch-01"
-  ],
-  "price": 7797,
-  "description": "A matched-but-not-matchy festive pair for the navratri calendar. She wears sand gotapatti-appliquéd georgette saree with woven border; he wears sand chikankari-worked cotton kurta set with rose gold stone-set ethnic-dial watch. Harmonised in Fuchsia and Sand so the photos stay timeless.",
-  "imageUrl": "/images/couples/navratri-fuchsia.jpg",
-  "coupleId": "navratri-fuchsia"
- },
- {
-  "id": "couple-diwali-lamps",
-  "title": "Diwali Lamps in Wine & Gold",
-  "mood": "glowing",
-  "occasions": [
-   "Diwali"
-  ],
-  "herProductIds": [
-   "w-saree-drape-01"
-  ],
-  "hisProductIds": [
-   "m-kurt-set-jamawar-01",
-   "m-watch-01"
-  ],
-  "price": 8000,
-  "description": "A matched-but-not-matchy festive pair for the diwali calendar. She wears wine zari-woven georgette saree with woven border; he wears wine jaal-lattice jamawar shawl kurta set with rose gold stone-set ethnic-dial watch. Harmonised in Wine and Antique Gold so the photos stay timeless.",
-  "imageUrl": "/images/couples/diwali-lamps.jpg",
-  "coupleId": "diwali-lamps"
- },
- {
-  "id": "couple-diwali-emerald",
-  "title": "Emerald Courtyard Diwali",
-  "mood": "polished",
-  "occasions": [
-   "Diwali"
-  ],
-  "herProductIds": [
-   "w-saree-organza-02"
-  ],
-  "hisProductIds": [
-   "m-kurtiset-cotton-02",
-   "m-watch-01"
-  ],
-  "price": 4497,
-  "description": "A matched-but-not-matchy festive pair for the diwali calendar. She wears ivory chikankari-worked organza saree with hand-embroidered buti; he wears ivory block-printed cotton kurta set with rose gold stone-set ethnic-dial watch. Harmonised in Emerald and Ivory so the photos stay timeless.",
-  "imageUrl": "/images/couples/diwali-emerald.jpg",
-  "coupleId": "diwali-emerald"
- },
- {
-  "id": "couple-diwali-marigold",
-  "title": "Marigold Terrace Conversation",
-  "mood": "warm",
-  "occasions": [
-   "Diwali"
-  ],
-  "herProductIds": [
-   "w-saree-banarasi-04"
-  ],
-  "hisProductIds": [
-   "m-kurtiset-cotton-05",
-   "m-watch-01"
-  ],
-  "price": 8000,
-  "description": "A matched-but-not-matchy festive pair for the diwali calendar. She wears marigold sequin-scattered banarasi silk saree; he wears marigold pearl-detailed cotton kurta set with rose gold stone-set ethnic-dial watch. Harmonised in Marigold and Charcoal so the photos stay timeless.",
-  "imageUrl": "/images/couples/diwali-marigold.jpg",
-  "coupleId": "diwali-marigold"
- },
- {
-  "id": "couple-diwali-rust",
-  "title": "Rust Silk Diwali Stroll",
-  "mood": "earthy",
-  "occasions": [
-   "Diwali"
-  ],
-  "herProductIds": [
-   "w-saree-drape-03"
-  ],
-  "hisProductIds": [
-   "m-kurtiset-cotton-01",
-   "m-watch-01"
-  ],
-  "price": 7797,
-  "description": "A matched-but-not-matchy festive pair for the diwali calendar. She wears sand gotapatti-appliquéd georgette saree with woven border; he wears sand chikankari-worked cotton kurta set with rose gold stone-set ethnic-dial watch. Harmonised in Rust and Sand so the photos stay timeless.",
-  "imageUrl": "/images/couples/diwali-rust.jpg",
-  "coupleId": "diwali-rust"
- },
- {
-  "id": "couple-diwali-plum",
-  "title": "Plum Silk by the Diyas",
-  "mood": "intimate",
-  "occasions": [
-   "Diwali"
-  ],
-  "herProductIds": [
-   "w-saree-predrape-satin-04"
-  ],
-  "hisProductIds": [
-   "m-kurt-set-brocade-01",
-   "m-watch-01"
-  ],
-  "price": 8000,
-  "description": "A matched-but-not-matchy festive pair for the diwali calendar. She wears plum stone-set pre-draped saree gown (satin); he wears champagne zari-woven brocade kurta set with rose gold stone-set ethnic-dial watch. Harmonised in Plum and Champagne so the photos stay timeless.",
-  "imageUrl": "/images/couples/diwali-plum.jpg",
-  "coupleId": "diwali-plum"
- },
- {
-  "id": "couple-diwali-peacock",
-  "title": "Peacock Teal Diwali Lights",
-  "mood": "luminous",
-  "occasions": [
-   "Diwali"
-  ],
-  "herProductIds": [
-   "w-saree-drape-07"
-  ],
-  "hisProductIds": [
-   "m-kurtiset-silk-01",
-   "m-watch-01"
-  ],
-  "price": 8000,
-  "description": "A matched-but-not-matchy festive pair for the diwali calendar. She wears peacock teal zari-woven georgette saree with woven border; he wears ivory silk kurta set with rose gold stone-set ethnic-dial watch. Harmonised in Peacock Teal and Mustard so the photos stay timeless.",
-  "imageUrl": "/images/couples/diwali-peacock.jpg",
-  "coupleId": "diwali-peacock"
- },
- {
-  "id": "couple-college-coral",
-  "title": "Campus Coral & Denim",
-  "mood": "youthful",
-  "occasions": [
-   "College Fest"
-  ],
-  "herProductIds": [
-   "w-leh-sequin-05"
-  ],
-  "hisProductIds": [
-   "m-kurta-jeans-02",
-   "m-watch-01"
-  ],
-  "price": 8000,
-  "description": "A matched-but-not-matchy festive pair for the college fest calendar. She wears coral sequin work lehenga; he wears coral chikankari-worked kurta over denim set with rose gold stone-set ethnic-dial watch. Harmonised in Coral and Indigo so the photos stay timeless.",
-  "imageUrl": "/images/couples/college-coral.jpg",
-  "coupleId": "college-coral"
- },
- {
-  "id": "couple-college-mint",
-  "title": "Mint & Rust Campus Pair",
-  "mood": "easy",
-  "occasions": [
-   "College Fest"
-  ],
-  "herProductIds": [
-   "w-saree-drape-08"
-  ],
-  "hisProductIds": [
-   "m-waistcoat-set-02",
-   "m-watch-01"
-  ],
-  "price": 7197,
-  "description": "A matched-but-not-matchy festive pair for the college fest calendar. She wears rust sequin-scattered georgette saree with woven border; he wears rust resham-threadworked waistcoat with straight kurta with rose gold stone-set ethnic-dial watch. Harmonised in Mint and Rust so the photos stay timeless.",
-  "imageUrl": "/images/couples/college-mint.jpg",
-  "coupleId": "college-mint"
- },
- {
-  "id": "couple-college-yellow",
-  "title": "Yellow Kurta Cultural Fest",
-  "mood": "bright",
-  "occasions": [
-   "College Fest"
-  ],
-  "herProductIds": [
-   "w-saree-buti-03"
-  ],
-  "hisProductIds": [
-   "m-kurt-set-dupatta-04",
-   "m-watch-01"
-  ],
-  "price": 6497,
-  "description": "A matched-but-not-matchy festive pair for the college fest calendar. She wears butter yellow chikankari-worked buti-motif georgette saree; he wears bottle green thread-embroidered kurta set with dupatta & stole with rose gold stone-set ethnic-dial watch. Harmonised in Butter Yellow and Bottle Green so the photos stay timeless.",
-  "imageUrl": "/images/couples/college-yellow.jpg",
-  "coupleId": "college-yellow"
- },
- {
-  "id": "couple-college-teal",
-  "title": "Teal Dupatta Campus Walk",
-  "mood": "candid",
-  "occasions": [
-   "College Fest"
-  ],
-  "herProductIds": [
-   "w-saree-organza-02"
-  ],
-  "hisProductIds": [
-   "m-kurtiset-cotton-02",
-   "m-watch-01"
-  ],
-  "price": 4497,
-  "description": "A matched-but-not-matchy festive pair for the college fest calendar. She wears ivory chikankari-worked organza saree with hand-embroidered buti; he wears ivory block-printed cotton kurta set with rose gold stone-set ethnic-dial watch. Harmonised in Teal and Ivory so the photos stay timeless.",
-  "imageUrl": "/images/couples/college-teal.jpg",
-  "coupleId": "college-teal"
- },
- {
-  "id": "couple-college-plum",
-  "title": "Plum & Sand Open-Air Fest",
-  "mood": "cool",
-  "occasions": [
-   "College Fest"
-  ],
-  "herProductIds": [
-   "w-saree-drape-03"
-  ],
-  "hisProductIds": [
-   "m-kurtiset-cotton-01",
-   "m-watch-01"
-  ],
-  "price": 7797,
-  "description": "A matched-but-not-matchy festive pair for the college fest calendar. She wears sand gotapatti-appliquéd georgette saree with woven border; he wears sand chikankari-worked cotton kurta set with rose gold stone-set ethnic-dial watch. Harmonised in Plum and Sand so the photos stay timeless.",
-  "imageUrl": "/images/couples/college-plum.jpg",
-  "coupleId": "college-plum"
- },
- {
-  "id": "couple-college-fuchsia",
-  "title": "Fuchsia & Indigo College Night",
-  "mood": "vivid",
-  "occasions": [
-   "College Fest"
-  ],
-  "herProductIds": [
-   "w-kurtiset-dhoti-02"
+   "w-kurtiset-dhoti-02",
+   "w-jutti-01"
   ],
   "hisProductIds": [
    "m-indowest-drape-01",
-   "m-watch-01"
+   "m-mojari-01"
   ],
-  "price": 5297,
-  "description": "A matched-but-not-matchy festive pair for the college fest calendar. She wears fuchsia mirror-work dhoti-pant kurta set; he wears fuchsia thread-embroidered draped kurta with asymmetric hem with rose gold stone-set ethnic-dial watch. Harmonised in Fuchsia and Indigo so the photos stay timeless.",
-  "imageUrl": "/images/couples/college-fuchsia.jpg",
-  "coupleId": "college-fuchsia"
+  "price": 7196,
+  "description": "A shared laugh mid-step in under coloured festoon lights; a coordinated navratri pairing with fuchsia mirror-work dhoti-pant kurta set for her and fuchsia thread-embroidered draped kurta with asymmetric hem for him. The colour story is Cobalt and Fuchsia — complementary, never uniform.",
+  "imageUrl": "/images/couples/navratri-05.jpg",
+  "imagePrompt": "original candid fashion photograph of an adult Indian couple at under coloured festoon lights, a shared laugh mid-step, three-quarter action frame, natural faces and genuine chemistry, varied Navratri styling, no copied composition, no text, no logos, no watermark"
+ },
+ {
+  "id": "couple-navratri-06",
+  "coupleId": "navratri-06",
+  "title": "Navratri · Pause at the Pillar",
+  "mood": "nine nights, nine rhythms",
+  "world": "Navratri",
+  "occasions": [
+   "Navratri"
+  ],
+  "scene": "near a painted courtyard pillar",
+  "pose": "shoulder-to-shoulder pause",
+  "cameraFraming": "vertical portrait crop",
+  "sourceImage": "/images/production-couple-navratri-close.jpg",
+  "sourceIndex": 1,
+  "herProductIds": [
+   "w-saree-organza-03",
+   "w-jutti-01"
+  ],
+  "hisProductIds": [
+   "m-kurtiset-printed-01",
+   "m-mojari-01"
+  ],
+  "price": 6796,
+  "description": "Shoulder-to-shoulder pause in near a painted courtyard pillar; a coordinated navratri pairing with mustard resham-threadworked organza saree with hand-embroidered buti for her and mustard block-printed printed kurta set for him. The colour story is Mustard and Bottle Green — complementary, never uniform.",
+  "imageUrl": "/images/couples/navratri-06.jpg",
+  "imagePrompt": "original candid fashion photograph of an adult Indian couple at near a painted courtyard pillar, shoulder-to-shoulder pause, vertical portrait crop, natural faces and genuine chemistry, varied Navratri styling, no copied composition, no text, no logos, no watermark"
+ },
+ {
+  "id": "couple-navratri-07",
+  "coupleId": "navratri-07",
+  "title": "Navratri · Bandhani Beat",
+  "mood": "nine nights, nine rhythms",
+  "world": "Navratri",
+  "occasions": [
+   "Navratri"
+  ],
+  "scene": "on the outer edge of the circle",
+  "pose": "her bracelet catches his hand",
+  "cameraFraming": "close hand-and-face frame",
+  "sourceImage": "/images/production-couple-navratri-steps.jpg",
+  "sourceIndex": 0,
+  "herProductIds": [
+   "w-leh-sequin-05",
+   "w-jutti-01"
+  ],
+  "hisProductIds": [
+   "m-kurta-jeans-02",
+   "m-mojari-01"
+  ],
+  "price": 8000,
+  "description": "Her bracelet catches his hand in on the outer edge of the circle; a coordinated navratri pairing with coral sequin work lehenga for her and coral chikankari-worked kurta over denim set for him. The colour story is Coral and Indigo — complementary, never uniform.",
+  "imageUrl": "/images/couples/navratri-07.jpg",
+  "imagePrompt": "original candid fashion photograph of an adult Indian couple at on the outer edge of the circle, her bracelet catches his hand, close hand-and-face frame, natural faces and genuine chemistry, varied Navratri styling, no copied composition, no text, no logos, no watermark"
+ },
+ {
+  "id": "couple-navratri-08",
+  "coupleId": "navratri-08",
+  "title": "Navratri · After the Claps",
+  "mood": "nine nights, nine rhythms",
+  "world": "Navratri",
+  "occasions": [
+   "Navratri"
+  ],
+  "scene": "beside the live music",
+  "pose": "turning toward one another",
+  "cameraFraming": "side-on conversational frame",
+  "sourceImage": "/images/production-couple-navratri-close.jpg",
+  "sourceIndex": 1,
+  "herProductIds": [
+   "w-saree-predrape-satin-04",
+   "w-jutti-01"
+  ],
+  "hisProductIds": [
+   "m-kurtiset-printed-02",
+   "m-mojari-01"
+  ],
+  "price": 8000,
+  "description": "Turning toward one another in beside the live music; a coordinated navratri pairing with plum stone-set pre-draped saree gown (satin) for her and copper ajrakh-printed printed kurta set for him. The colour story is Plum and Copper — complementary, never uniform.",
+  "imageUrl": "/images/couples/navratri-08.jpg",
+  "imagePrompt": "original candid fashion photograph of an adult Indian couple at beside the live music, turning toward one another, side-on conversational frame, natural faces and genuine chemistry, varied Navratri styling, no copied composition, no text, no logos, no watermark"
+ },
+ {
+  "id": "couple-navratri-09",
+  "coupleId": "navratri-09",
+  "title": "Navratri · Fuchsia Motion",
+  "mood": "nine nights, nine rhythms",
+  "world": "Navratri",
+  "occasions": [
+   "Navratri"
+  ],
+  "scene": "in the centre of the dance ground",
+  "pose": "a hand raised between steps",
+  "cameraFraming": "low-angle movement frame",
+  "sourceImage": "/images/production-couple-navratri-steps.jpg",
+  "sourceIndex": 0,
+  "herProductIds": [
+   "w-kurtiset-dhoti-02",
+   "w-jutti-01"
+  ],
+  "hisProductIds": [
+   "m-indowest-drape-01",
+   "m-mojari-01"
+  ],
+  "price": 7196,
+  "description": "A hand raised between steps in in the centre of the dance ground; a coordinated navratri pairing with fuchsia mirror-work dhoti-pant kurta set for her and fuchsia thread-embroidered draped kurta with asymmetric hem for him. The colour story is Cobalt and Fuchsia — complementary, never uniform.",
+  "imageUrl": "/images/couples/navratri-09.jpg",
+  "imagePrompt": "original candid fashion photograph of an adult Indian couple at in the centre of the dance ground, a hand raised between steps, low-angle movement frame, natural faces and genuine chemistry, varied Navratri styling, no copied composition, no text, no logos, no watermark"
+ },
+ {
+  "id": "couple-navratri-10",
+  "coupleId": "navratri-10",
+  "title": "Navratri · Dandiya Warm-Up",
+  "mood": "nine nights, nine rhythms",
+  "world": "Navratri",
+  "occasions": [
+   "Navratri"
+  ],
+  "scene": "at the festival entrance",
+  "pose": "sharing a last-minute step cue",
+  "cameraFraming": "over-the-shoulder frame",
+  "sourceImage": "/images/production-couple-navratri-close.jpg",
+  "sourceIndex": 1,
+  "herProductIds": [
+   "w-saree-organza-03",
+   "w-jutti-01"
+  ],
+  "hisProductIds": [
+   "m-kurtiset-printed-01",
+   "m-mojari-01"
+  ],
+  "price": 6796,
+  "description": "Sharing a last-minute step cue in at the festival entrance; a coordinated navratri pairing with mustard resham-threadworked organza saree with hand-embroidered buti for her and mustard block-printed printed kurta set for him. The colour story is Mustard and Bottle Green — complementary, never uniform.",
+  "imageUrl": "/images/couples/navratri-10.jpg",
+  "imagePrompt": "original candid fashion photograph of an adult Indian couple at at the festival entrance, sharing a last-minute step cue, over-the-shoulder frame, natural faces and genuine chemistry, varied Navratri styling, no copied composition, no text, no logos, no watermark"
+ },
+ {
+  "id": "couple-navratri-11",
+  "coupleId": "navratri-11",
+  "title": "Navratri · String-Light Smile",
+  "mood": "nine nights, nine rhythms",
+  "world": "Navratri",
+  "occasions": [
+   "Navratri"
+  ],
+  "scene": "under warm overhead bulbs",
+  "pose": "a relaxed smile before the music starts",
+  "cameraFraming": "medium two-shot",
+  "sourceImage": "/images/production-couple-navratri-steps.jpg",
+  "sourceIndex": 0,
+  "herProductIds": [
+   "w-leh-sequin-05",
+   "w-jutti-01"
+  ],
+  "hisProductIds": [
+   "m-kurta-jeans-02",
+   "m-mojari-01"
+  ],
+  "price": 8000,
+  "description": "A relaxed smile before the music starts in under warm overhead bulbs; a coordinated navratri pairing with coral sequin work lehenga for her and coral chikankari-worked kurta over denim set for him. The colour story is Coral and Indigo — complementary, never uniform.",
+  "imageUrl": "/images/couples/navratri-11.jpg",
+  "imagePrompt": "original candid fashion photograph of an adult Indian couple at under warm overhead bulbs, a relaxed smile before the music starts, medium two-shot, natural faces and genuine chemistry, varied Navratri styling, no copied composition, no text, no logos, no watermark"
+ },
+ {
+  "id": "couple-navratri-12",
+  "coupleId": "navratri-12",
+  "title": "Navratri · Navratri Blue Hour",
+  "mood": "nine nights, nine rhythms",
+  "world": "Navratri",
+  "occasions": [
+   "Navratri"
+  ],
+  "scene": "on the open ground at blue hour",
+  "pose": "walking in after the crowd gathers",
+  "cameraFraming": "wide environmental frame",
+  "sourceImage": "/images/production-couple-navratri-close.jpg",
+  "sourceIndex": 1,
+  "herProductIds": [
+   "w-saree-predrape-satin-04",
+   "w-jutti-01"
+  ],
+  "hisProductIds": [
+   "m-kurtiset-printed-02",
+   "m-mojari-01"
+  ],
+  "price": 8000,
+  "description": "Walking in after the crowd gathers in on the open ground at blue hour; a coordinated navratri pairing with plum stone-set pre-draped saree gown (satin) for her and copper ajrakh-printed printed kurta set for him. The colour story is Plum and Copper — complementary, never uniform.",
+  "imageUrl": "/images/couples/navratri-12.jpg",
+  "imagePrompt": "original candid fashion photograph of an adult Indian couple at on the open ground at blue hour, walking in after the crowd gathers, wide environmental frame, natural faces and genuine chemistry, varied Navratri styling, no copied composition, no text, no logos, no watermark"
+ },
+ {
+  "id": "couple-navratri-13",
+  "coupleId": "navratri-13",
+  "title": "Navratri · Mirrorwork Turn",
+  "mood": "nine nights, nine rhythms",
+  "world": "Navratri",
+  "occasions": [
+   "Navratri"
+  ],
+  "scene": "near a mirrorwork textile wall",
+  "pose": "he catches her turning dupatta",
+  "cameraFraming": "dynamic diagonal frame",
+  "sourceImage": "/images/production-couple-navratri-steps.jpg",
+  "sourceIndex": 0,
+  "herProductIds": [
+   "w-kurtiset-dhoti-02",
+   "w-jutti-01"
+  ],
+  "hisProductIds": [
+   "m-indowest-drape-01",
+   "m-mojari-01"
+  ],
+  "price": 7196,
+  "description": "He catches her turning dupatta in near a mirrorwork textile wall; a coordinated navratri pairing with fuchsia mirror-work dhoti-pant kurta set for her and fuchsia thread-embroidered draped kurta with asymmetric hem for him. The colour story is Cobalt and Fuchsia — complementary, never uniform.",
+  "imageUrl": "/images/couples/navratri-13.jpg",
+  "imagePrompt": "original candid fashion photograph of an adult Indian couple at near a mirrorwork textile wall, he catches her turning dupatta, dynamic diagonal frame, natural faces and genuine chemistry, varied Navratri styling, no copied composition, no text, no logos, no watermark"
+ },
+ {
+  "id": "couple-navratri-14",
+  "coupleId": "navratri-14",
+  "title": "Navratri · Shared Rhythm",
+  "mood": "nine nights, nine rhythms",
+  "world": "Navratri",
+  "occasions": [
+   "Navratri"
+  ],
+  "scene": "beside a marigold arch",
+  "pose": "moving in parallel, not in uniform",
+  "cameraFraming": "full-length walking frame",
+  "sourceImage": "/images/production-couple-navratri-close.jpg",
+  "sourceIndex": 1,
+  "herProductIds": [
+   "w-saree-organza-03",
+   "w-jutti-01"
+  ],
+  "hisProductIds": [
+   "m-kurtiset-printed-01",
+   "m-mojari-01"
+  ],
+  "price": 6796,
+  "description": "Moving in parallel, not in uniform in beside a marigold arch; a coordinated navratri pairing with mustard resham-threadworked organza saree with hand-embroidered buti for her and mustard block-printed printed kurta set for him. The colour story is Mustard and Bottle Green — complementary, never uniform.",
+  "imageUrl": "/images/couples/navratri-14.jpg",
+  "imagePrompt": "original candid fashion photograph of an adult Indian couple at beside a marigold arch, moving in parallel, not in uniform, full-length walking frame, natural faces and genuine chemistry, varied Navratri styling, no copied composition, no text, no logos, no watermark"
+ },
+ {
+  "id": "couple-navratri-15",
+  "coupleId": "navratri-15",
+  "title": "Navratri · Copper and Plum",
+  "mood": "nine nights, nine rhythms",
+  "world": "Navratri",
+  "occasions": [
+   "Navratri"
+  ],
+  "scene": "at the edge of the lit court",
+  "pose": "a close conversation over music",
+  "cameraFraming": "intimate waist-up frame",
+  "sourceImage": "/images/production-couple-navratri-steps.jpg",
+  "sourceIndex": 0,
+  "herProductIds": [
+   "w-leh-sequin-05",
+   "w-jutti-01"
+  ],
+  "hisProductIds": [
+   "m-kurta-jeans-02",
+   "m-mojari-01"
+  ],
+  "price": 8000,
+  "description": "A close conversation over music in at the edge of the lit court; a coordinated navratri pairing with coral sequin work lehenga for her and coral chikankari-worked kurta over denim set for him. The colour story is Coral and Indigo — complementary, never uniform.",
+  "imageUrl": "/images/couples/navratri-15.jpg",
+  "imagePrompt": "original candid fashion photograph of an adult Indian couple at at the edge of the lit court, a close conversation over music, intimate waist-up frame, natural faces and genuine chemistry, varied Navratri styling, no copied composition, no text, no logos, no watermark"
+ },
+ {
+  "id": "couple-navratri-16",
+  "coupleId": "navratri-16",
+  "title": "Navratri · Festival Portrait",
+  "mood": "nine nights, nine rhythms",
+  "world": "Navratri",
+  "occasions": [
+   "Navratri"
+  ],
+  "scene": "with dancers softened behind them",
+  "pose": "natural eye contact and a small grin",
+  "cameraFraming": "shallow-depth portrait frame",
+  "sourceImage": "/images/production-couple-navratri-close.jpg",
+  "sourceIndex": 1,
+  "herProductIds": [
+   "w-saree-predrape-satin-04",
+   "w-jutti-01"
+  ],
+  "hisProductIds": [
+   "m-kurtiset-printed-02",
+   "m-mojari-01"
+  ],
+  "price": 8000,
+  "description": "Natural eye contact and a small grin in with dancers softened behind them; a coordinated navratri pairing with plum stone-set pre-draped saree gown (satin) for her and copper ajrakh-printed printed kurta set for him. The colour story is Plum and Copper — complementary, never uniform.",
+  "imageUrl": "/images/couples/navratri-16.jpg",
+  "imagePrompt": "original candid fashion photograph of an adult Indian couple at with dancers softened behind them, natural eye contact and a small grin, shallow-depth portrait frame, natural faces and genuine chemistry, varied Navratri styling, no copied composition, no text, no logos, no watermark"
+ },
+ {
+  "id": "couple-navratri-17",
+  "coupleId": "navratri-17",
+  "title": "Navratri · Nightside Laugh",
+  "mood": "nine nights, nine rhythms",
+  "world": "Navratri",
+  "occasions": [
+   "Navratri"
+  ],
+  "scene": "beside a food-stall glow",
+  "pose": "laughing after missing a step",
+  "cameraFraming": "candid social frame",
+  "sourceImage": "/images/production-couple-navratri-steps.jpg",
+  "sourceIndex": 0,
+  "herProductIds": [
+   "w-kurtiset-dhoti-02",
+   "w-jutti-01"
+  ],
+  "hisProductIds": [
+   "m-indowest-drape-01",
+   "m-mojari-01"
+  ],
+  "price": 7196,
+  "description": "Laughing after missing a step in beside a food-stall glow; a coordinated navratri pairing with fuchsia mirror-work dhoti-pant kurta set for her and fuchsia thread-embroidered draped kurta with asymmetric hem for him. The colour story is Cobalt and Fuchsia — complementary, never uniform.",
+  "imageUrl": "/images/couples/navratri-17.jpg",
+  "imagePrompt": "original candid fashion photograph of an adult Indian couple at beside a food-stall glow, laughing after missing a step, candid social frame, natural faces and genuine chemistry, varied Navratri styling, no copied composition, no text, no logos, no watermark"
+ },
+ {
+  "id": "couple-navratri-18",
+  "coupleId": "navratri-18",
+  "title": "Navratri · Circle Break",
+  "mood": "nine nights, nine rhythms",
+  "world": "Navratri",
+  "occasions": [
+   "Navratri"
+  ],
+  "scene": "on the quiet edge of the venue",
+  "pose": "a supportive hand at the shoulder",
+  "cameraFraming": "three-quarter still frame",
+  "sourceImage": "/images/production-couple-navratri-close.jpg",
+  "sourceIndex": 1,
+  "herProductIds": [
+   "w-saree-organza-03",
+   "w-jutti-01"
+  ],
+  "hisProductIds": [
+   "m-kurtiset-printed-01",
+   "m-mojari-01"
+  ],
+  "price": 6796,
+  "description": "A supportive hand at the shoulder in on the quiet edge of the venue; a coordinated navratri pairing with mustard resham-threadworked organza saree with hand-embroidered buti for her and mustard block-printed printed kurta set for him. The colour story is Mustard and Bottle Green — complementary, never uniform.",
+  "imageUrl": "/images/couples/navratri-18.jpg",
+  "imagePrompt": "original candid fashion photograph of an adult Indian couple at on the quiet edge of the venue, a supportive hand at the shoulder, three-quarter still frame, natural faces and genuine chemistry, varied Navratri styling, no copied composition, no text, no logos, no watermark"
+ },
+ {
+  "id": "couple-navratri-19",
+  "coupleId": "navratri-19",
+  "title": "Navratri · Final Aarti Lights",
+  "mood": "nine nights, nine rhythms",
+  "world": "Navratri",
+  "occasions": [
+   "Navratri"
+  ],
+  "scene": "near the warm ceremonial lights",
+  "pose": "standing together after the last beat",
+  "cameraFraming": "warm low-light frame",
+  "sourceImage": "/images/production-couple-navratri-steps.jpg",
+  "sourceIndex": 0,
+  "herProductIds": [
+   "w-leh-sequin-05",
+   "w-jutti-01"
+  ],
+  "hisProductIds": [
+   "m-kurta-jeans-02",
+   "m-mojari-01"
+  ],
+  "price": 8000,
+  "description": "Standing together after the last beat in near the warm ceremonial lights; a coordinated navratri pairing with coral sequin work lehenga for her and coral chikankari-worked kurta over denim set for him. The colour story is Coral and Indigo — complementary, never uniform.",
+  "imageUrl": "/images/couples/navratri-19.jpg",
+  "imagePrompt": "original candid fashion photograph of an adult Indian couple at near the warm ceremonial lights, standing together after the last beat, warm low-light frame, natural faces and genuine chemistry, varied Navratri styling, no copied composition, no text, no logos, no watermark"
+ },
+ {
+  "id": "couple-navratri-20",
+  "coupleId": "navratri-20",
+  "title": "Navratri · Navratri Homeward",
+  "mood": "nine nights, nine rhythms",
+  "world": "Navratri",
+  "occasions": [
+   "Navratri"
+  ],
+  "scene": "on the decorated exit path",
+  "pose": "walking out with linked hands",
+  "cameraFraming": "wide exit frame",
+  "sourceImage": "/images/production-couple-navratri-close.jpg",
+  "sourceIndex": 1,
+  "herProductIds": [
+   "w-saree-predrape-satin-04",
+   "w-jutti-01"
+  ],
+  "hisProductIds": [
+   "m-kurtiset-printed-02",
+   "m-mojari-01"
+  ],
+  "price": 8000,
+  "description": "Walking out with linked hands in on the decorated exit path; a coordinated navratri pairing with plum stone-set pre-draped saree gown (satin) for her and copper ajrakh-printed printed kurta set for him. The colour story is Plum and Copper — complementary, never uniform.",
+  "imageUrl": "/images/couples/navratri-20.jpg",
+  "imagePrompt": "original candid fashion photograph of an adult Indian couple at on the decorated exit path, walking out with linked hands, wide exit frame, natural faces and genuine chemistry, varied Navratri styling, no copied composition, no text, no logos, no watermark"
+ },
+ {
+  "id": "couple-diwali-01",
+  "coupleId": "diwali-01",
+  "title": "Diwali · Balcony Diyas",
+  "mood": "lamplight, colour and easy intimacy",
+  "world": "Diwali",
+  "occasions": [
+   "Diwali"
+  ],
+  "scene": "on a balcony lined with diyas",
+  "pose": "sharing a quiet laugh beside the lamps",
+  "cameraFraming": "wide warm-light frame",
+  "sourceImage": "/images/production-couple-diwali-balcony.jpg",
+  "sourceIndex": 0,
+  "herProductIds": [
+   "w-saree-drape-01",
+   "w-jutti-01"
+  ],
+  "hisProductIds": [
+   "m-kurt-set-jamawar-01",
+   "m-mojari-01"
+  ],
+  "price": 8000,
+  "description": "Sharing a quiet laugh beside the lamps in on a balcony lined with diyas; a coordinated diwali pairing with wine zari-woven georgette saree with woven border for her and wine jaal-lattice jamawar shawl kurta set for him. The colour story is Wine and Antique Gold — complementary, never uniform.",
+  "imageUrl": "/images/couples/diwali-01.jpg",
+  "imagePrompt": "original candid fashion photograph of an adult Indian couple at on a balcony lined with diyas, sharing a quiet laugh beside the lamps, wide warm-light frame, natural faces and genuine chemistry, varied Diwali styling, no copied composition, no text, no logos, no watermark"
+ },
+ {
+  "id": "couple-diwali-02",
+  "coupleId": "diwali-02",
+  "title": "Diwali · Doorway Welcome",
+  "mood": "lamplight, colour and easy intimacy",
+  "world": "Diwali",
+  "occasions": [
+   "Diwali"
+  ],
+  "scene": "at a marigold-trimmed doorway",
+  "pose": "walking in hand in hand",
+  "cameraFraming": "full-length doorway frame",
+  "sourceImage": "/images/production-couple-diwali-doorway.jpg",
+  "sourceIndex": 1,
+  "herProductIds": [
+   "w-saree-organza-02",
+   "w-jutti-01"
+  ],
+  "hisProductIds": [
+   "m-kurtiset-cotton-02",
+   "m-mojari-01"
+  ],
+  "price": 6396,
+  "description": "Walking in hand in hand in at a marigold-trimmed doorway; a coordinated diwali pairing with ivory chikankari-worked organza saree with hand-embroidered buti for her and ivory block-printed cotton kurta set for him. The colour story is Emerald and Ivory — complementary, never uniform.",
+  "imageUrl": "/images/couples/diwali-02.jpg",
+  "imagePrompt": "original candid fashion photograph of an adult Indian couple at at a marigold-trimmed doorway, walking in hand in hand, full-length doorway frame, natural faces and genuine chemistry, varied Diwali styling, no copied composition, no text, no logos, no watermark"
+ },
+ {
+  "id": "couple-diwali-03",
+  "coupleId": "diwali-03",
+  "title": "Diwali · Rangoli Pause",
+  "mood": "lamplight, colour and easy intimacy",
+  "world": "Diwali",
+  "occasions": [
+   "Diwali"
+  ],
+  "scene": "beside a hand-painted rangoli",
+  "pose": "he points out a detail and she smiles",
+  "cameraFraming": "medium conversational frame",
+  "sourceImage": "/images/production-couple-diwali-balcony.jpg",
+  "sourceIndex": 0,
+  "herProductIds": [
+   "w-saree-drape-03",
+   "w-jutti-01"
+  ],
+  "hisProductIds": [
+   "m-kurtiset-cotton-01",
+   "m-mojari-01"
+  ],
+  "price": 8000,
+  "description": "He points out a detail and she smiles in beside a hand-painted rangoli; a coordinated diwali pairing with sand gotapatti-appliquéd georgette saree with woven border for her and sand chikankari-worked cotton kurta set for him. The colour story is Rust and Sand — complementary, never uniform.",
+  "imageUrl": "/images/couples/diwali-03.jpg",
+  "imagePrompt": "original candid fashion photograph of an adult Indian couple at beside a hand-painted rangoli, he points out a detail and she smiles, medium conversational frame, natural faces and genuine chemistry, varied Diwali styling, no copied composition, no text, no logos, no watermark"
+ },
+ {
+  "id": "couple-diwali-04",
+  "coupleId": "diwali-04",
+  "title": "Diwali · Terrace Lights",
+  "mood": "lamplight, colour and easy intimacy",
+  "world": "Diwali",
+  "occasions": [
+   "Diwali"
+  ],
+  "scene": "under a terrace canopy of bulbs",
+  "pose": "standing close without posing",
+  "cameraFraming": "three-quarter evening frame",
+  "sourceImage": "/images/production-couple-diwali-doorway.jpg",
+  "sourceIndex": 1,
+  "herProductIds": [
+   "w-saree-drape-07",
+   "w-jutti-01"
+  ],
+  "hisProductIds": [
+   "m-kurtiset-silk-01",
+   "m-mojari-01"
+  ],
+  "price": 8000,
+  "description": "Standing close without posing in under a terrace canopy of bulbs; a coordinated diwali pairing with peacock teal zari-woven georgette saree with woven border for her and ivory silk kurta set for him. The colour story is Peacock Teal and Mustard — complementary, never uniform.",
+  "imageUrl": "/images/couples/diwali-04.jpg",
+  "imagePrompt": "original candid fashion photograph of an adult Indian couple at under a terrace canopy of bulbs, standing close without posing, three-quarter evening frame, natural faces and genuine chemistry, varied Diwali styling, no copied composition, no text, no logos, no watermark"
+ },
+ {
+  "id": "couple-diwali-05",
+  "coupleId": "diwali-05",
+  "title": "Diwali · Puja Hour",
+  "mood": "lamplight, colour and easy intimacy",
+  "world": "Diwali",
+  "occasions": [
+   "Diwali"
+  ],
+  "scene": "near a softly lit home shrine",
+  "pose": "a respectful shoulder-to-shoulder moment",
+  "cameraFraming": "quiet portrait frame",
+  "sourceImage": "/images/production-couple-diwali-balcony.jpg",
+  "sourceIndex": 0,
+  "herProductIds": [
+   "w-saree-drape-01",
+   "w-jutti-01"
+  ],
+  "hisProductIds": [
+   "m-kurt-set-jamawar-01",
+   "m-mojari-01"
+  ],
+  "price": 8000,
+  "description": "A respectful shoulder-to-shoulder moment in near a softly lit home shrine; a coordinated diwali pairing with wine zari-woven georgette saree with woven border for her and wine jaal-lattice jamawar shawl kurta set for him. The colour story is Wine and Antique Gold — complementary, never uniform.",
+  "imageUrl": "/images/couples/diwali-05.jpg",
+  "imagePrompt": "original candid fashion photograph of an adult Indian couple at near a softly lit home shrine, a respectful shoulder-to-shoulder moment, quiet portrait frame, natural faces and genuine chemistry, varied Diwali styling, no copied composition, no text, no logos, no watermark"
+ },
+ {
+  "id": "couple-diwali-06",
+  "coupleId": "diwali-06",
+  "title": "Diwali · Diya in Hand",
+  "mood": "lamplight, colour and easy intimacy",
+  "world": "Diwali",
+  "occasions": [
+   "Diwali"
+  ],
+  "scene": "along a candlelit balcony rail",
+  "pose": "hands meeting around a diya",
+  "cameraFraming": "close hands-and-faces frame",
+  "sourceImage": "/images/production-couple-diwali-doorway.jpg",
+  "sourceIndex": 1,
+  "herProductIds": [
+   "w-saree-organza-02",
+   "w-jutti-01"
+  ],
+  "hisProductIds": [
+   "m-kurtiset-cotton-02",
+   "m-mojari-01"
+  ],
+  "price": 6396,
+  "description": "Hands meeting around a diya in along a candlelit balcony rail; a coordinated diwali pairing with ivory chikankari-worked organza saree with hand-embroidered buti for her and ivory block-printed cotton kurta set for him. The colour story is Emerald and Ivory — complementary, never uniform.",
+  "imageUrl": "/images/couples/diwali-06.jpg",
+  "imagePrompt": "original candid fashion photograph of an adult Indian couple at along a candlelit balcony rail, hands meeting around a diya, close hands-and-faces frame, natural faces and genuine chemistry, varied Diwali styling, no copied composition, no text, no logos, no watermark"
+ },
+ {
+  "id": "couple-diwali-07",
+  "coupleId": "diwali-07",
+  "title": "Diwali · Doorstep Laugh",
+  "mood": "lamplight, colour and easy intimacy",
+  "world": "Diwali",
+  "occasions": [
+   "Diwali"
+  ],
+  "scene": "on a decorated front step",
+  "pose": "a shared joke before guests arrive",
+  "cameraFraming": "candid seated frame",
+  "sourceImage": "/images/production-couple-diwali-balcony.jpg",
+  "sourceIndex": 0,
+  "herProductIds": [
+   "w-saree-drape-03",
+   "w-jutti-01"
+  ],
+  "hisProductIds": [
+   "m-kurtiset-cotton-01",
+   "m-mojari-01"
+  ],
+  "price": 8000,
+  "description": "A shared joke before guests arrive in on a decorated front step; a coordinated diwali pairing with sand gotapatti-appliquéd georgette saree with woven border for her and sand chikankari-worked cotton kurta set for him. The colour story is Rust and Sand — complementary, never uniform.",
+  "imageUrl": "/images/couples/diwali-07.jpg",
+  "imagePrompt": "original candid fashion photograph of an adult Indian couple at on a decorated front step, a shared joke before guests arrive, candid seated frame, natural faces and genuine chemistry, varied Diwali styling, no copied composition, no text, no logos, no watermark"
+ },
+ {
+  "id": "couple-diwali-08",
+  "coupleId": "diwali-08",
+  "title": "Diwali · Silk at Blue Hour",
+  "mood": "lamplight, colour and easy intimacy",
+  "world": "Diwali",
+  "occasions": [
+   "Diwali"
+  ],
+  "scene": "on a terrace after sunset",
+  "pose": "looking out, then back at one another",
+  "cameraFraming": "side-on environmental frame",
+  "sourceImage": "/images/production-couple-diwali-doorway.jpg",
+  "sourceIndex": 1,
+  "herProductIds": [
+   "w-saree-drape-07",
+   "w-jutti-01"
+  ],
+  "hisProductIds": [
+   "m-kurtiset-silk-01",
+   "m-mojari-01"
+  ],
+  "price": 8000,
+  "description": "Looking out, then back at one another in on a terrace after sunset; a coordinated diwali pairing with peacock teal zari-woven georgette saree with woven border for her and ivory silk kurta set for him. The colour story is Peacock Teal and Mustard — complementary, never uniform.",
+  "imageUrl": "/images/couples/diwali-08.jpg",
+  "imagePrompt": "original candid fashion photograph of an adult Indian couple at on a terrace after sunset, looking out, then back at one another, side-on environmental frame, natural faces and genuine chemistry, varied Diwali styling, no copied composition, no text, no logos, no watermark"
+ },
+ {
+  "id": "couple-diwali-09",
+  "coupleId": "diwali-09",
+  "title": "Diwali · Marigold Entry",
+  "mood": "lamplight, colour and easy intimacy",
+  "world": "Diwali",
+  "occasions": [
+   "Diwali"
+  ],
+  "scene": "framed by marigold garlands",
+  "pose": "he opens the door while she looks back",
+  "cameraFraming": "moving doorway frame",
+  "sourceImage": "/images/production-couple-diwali-balcony.jpg",
+  "sourceIndex": 0,
+  "herProductIds": [
+   "w-saree-drape-01",
+   "w-jutti-01"
+  ],
+  "hisProductIds": [
+   "m-kurt-set-jamawar-01",
+   "m-mojari-01"
+  ],
+  "price": 8000,
+  "description": "He opens the door while she looks back in framed by marigold garlands; a coordinated diwali pairing with wine zari-woven georgette saree with woven border for her and wine jaal-lattice jamawar shawl kurta set for him. The colour story is Wine and Antique Gold — complementary, never uniform.",
+  "imageUrl": "/images/couples/diwali-09.jpg",
+  "imagePrompt": "original candid fashion photograph of an adult Indian couple at framed by marigold garlands, he opens the door while she looks back, moving doorway frame, natural faces and genuine chemistry, varied Diwali styling, no copied composition, no text, no logos, no watermark"
+ },
+ {
+  "id": "couple-diwali-10",
+  "coupleId": "diwali-10",
+  "title": "Diwali · Warm Balcony",
+  "mood": "lamplight, colour and easy intimacy",
+  "world": "Diwali",
+  "occasions": [
+   "Diwali"
+  ],
+  "scene": "beside potted jasmine and lamps",
+  "pose": "a light touch at the waist",
+  "cameraFraming": "intimate waist-up frame",
+  "sourceImage": "/images/production-couple-diwali-doorway.jpg",
+  "sourceIndex": 1,
+  "herProductIds": [
+   "w-saree-organza-02",
+   "w-jutti-01"
+  ],
+  "hisProductIds": [
+   "m-kurtiset-cotton-02",
+   "m-mojari-01"
+  ],
+  "price": 6396,
+  "description": "A light touch at the waist in beside potted jasmine and lamps; a coordinated diwali pairing with ivory chikankari-worked organza saree with hand-embroidered buti for her and ivory block-printed cotton kurta set for him. The colour story is Emerald and Ivory — complementary, never uniform.",
+  "imageUrl": "/images/couples/diwali-10.jpg",
+  "imagePrompt": "original candid fashion photograph of an adult Indian couple at beside potted jasmine and lamps, a light touch at the waist, intimate waist-up frame, natural faces and genuine chemistry, varied Diwali styling, no copied composition, no text, no logos, no watermark"
+ },
+ {
+  "id": "couple-diwali-11",
+  "coupleId": "diwali-11",
+  "title": "Diwali · Copper Glow",
+  "mood": "lamplight, colour and easy intimacy",
+  "world": "Diwali",
+  "occasions": [
+   "Diwali"
+  ],
+  "scene": "near brass lamps and flowers",
+  "pose": "comparing festive details with a smile",
+  "cameraFraming": "medium two-shot",
+  "sourceImage": "/images/production-couple-diwali-balcony.jpg",
+  "sourceIndex": 0,
+  "herProductIds": [
+   "w-saree-drape-03",
+   "w-jutti-01"
+  ],
+  "hisProductIds": [
+   "m-kurtiset-cotton-01",
+   "m-mojari-01"
+  ],
+  "price": 8000,
+  "description": "Comparing festive details with a smile in near brass lamps and flowers; a coordinated diwali pairing with sand gotapatti-appliquéd georgette saree with woven border for her and sand chikankari-worked cotton kurta set for him. The colour story is Rust and Sand — complementary, never uniform.",
+  "imageUrl": "/images/couples/diwali-11.jpg",
+  "imagePrompt": "original candid fashion photograph of an adult Indian couple at near brass lamps and flowers, comparing festive details with a smile, medium two-shot, natural faces and genuine chemistry, varied Diwali styling, no copied composition, no text, no logos, no watermark"
+ },
+ {
+  "id": "couple-diwali-12",
+  "coupleId": "diwali-12",
+  "title": "Diwali · Rooftop Diyas",
+  "mood": "lamplight, colour and easy intimacy",
+  "world": "Diwali",
+  "occasions": [
+   "Diwali"
+  ],
+  "scene": "on a city rooftop at night",
+  "pose": "standing under a line of lights",
+  "cameraFraming": "wide city-bokeh frame",
+  "sourceImage": "/images/production-couple-diwali-doorway.jpg",
+  "sourceIndex": 1,
+  "herProductIds": [
+   "w-saree-drape-07",
+   "w-jutti-01"
+  ],
+  "hisProductIds": [
+   "m-kurtiset-silk-01",
+   "m-mojari-01"
+  ],
+  "price": 8000,
+  "description": "Standing under a line of lights in on a city rooftop at night; a coordinated diwali pairing with peacock teal zari-woven georgette saree with woven border for her and ivory silk kurta set for him. The colour story is Peacock Teal and Mustard — complementary, never uniform.",
+  "imageUrl": "/images/couples/diwali-12.jpg",
+  "imagePrompt": "original candid fashion photograph of an adult Indian couple at on a city rooftop at night, standing under a line of lights, wide city-bokeh frame, natural faces and genuine chemistry, varied Diwali styling, no copied composition, no text, no logos, no watermark"
+ },
+ {
+  "id": "couple-diwali-13",
+  "coupleId": "diwali-13",
+  "title": "Diwali · Festive Threshold",
+  "mood": "lamplight, colour and easy intimacy",
+  "world": "Diwali",
+  "occasions": [
+   "Diwali"
+  ],
+  "scene": "at a carved wooden threshold",
+  "pose": "a gentle handhold between greetings",
+  "cameraFraming": "vertical editorial frame",
+  "sourceImage": "/images/production-couple-diwali-balcony.jpg",
+  "sourceIndex": 0,
+  "herProductIds": [
+   "w-saree-drape-01",
+   "w-jutti-01"
+  ],
+  "hisProductIds": [
+   "m-kurt-set-jamawar-01",
+   "m-mojari-01"
+  ],
+  "price": 8000,
+  "description": "A gentle handhold between greetings in at a carved wooden threshold; a coordinated diwali pairing with wine zari-woven georgette saree with woven border for her and wine jaal-lattice jamawar shawl kurta set for him. The colour story is Wine and Antique Gold — complementary, never uniform.",
+  "imageUrl": "/images/couples/diwali-13.jpg",
+  "imagePrompt": "original candid fashion photograph of an adult Indian couple at at a carved wooden threshold, a gentle handhold between greetings, vertical editorial frame, natural faces and genuine chemistry, varied Diwali styling, no copied composition, no text, no logos, no watermark"
+ },
+ {
+  "id": "couple-diwali-14",
+  "coupleId": "diwali-14",
+  "title": "Diwali · Lamp Trail",
+  "mood": "lamplight, colour and easy intimacy",
+  "world": "Diwali",
+  "occasions": [
+   "Diwali"
+  ],
+  "scene": "following a trail of small diyas",
+  "pose": "walking slowly side by side",
+  "cameraFraming": "full-length walking frame",
+  "sourceImage": "/images/production-couple-diwali-doorway.jpg",
+  "sourceIndex": 1,
+  "herProductIds": [
+   "w-saree-organza-02",
+   "w-jutti-01"
+  ],
+  "hisProductIds": [
+   "m-kurtiset-cotton-02",
+   "m-mojari-01"
+  ],
+  "price": 6396,
+  "description": "Walking slowly side by side in following a trail of small diyas; a coordinated diwali pairing with ivory chikankari-worked organza saree with hand-embroidered buti for her and ivory block-printed cotton kurta set for him. The colour story is Emerald and Ivory — complementary, never uniform.",
+  "imageUrl": "/images/couples/diwali-14.jpg",
+  "imagePrompt": "original candid fashion photograph of an adult Indian couple at following a trail of small diyas, walking slowly side by side, full-length walking frame, natural faces and genuine chemistry, varied Diwali styling, no copied composition, no text, no logos, no watermark"
+ },
+ {
+  "id": "couple-diwali-15",
+  "coupleId": "diwali-15",
+  "title": "Diwali · Emerald Evening",
+  "mood": "lamplight, colour and easy intimacy",
+  "world": "Diwali",
+  "occasions": [
+   "Diwali"
+  ],
+  "scene": "in a warm indoor courtyard",
+  "pose": "eyes meeting over a conversation",
+  "cameraFraming": "close candid frame",
+  "sourceImage": "/images/production-couple-diwali-balcony.jpg",
+  "sourceIndex": 0,
+  "herProductIds": [
+   "w-saree-drape-03",
+   "w-jutti-01"
+  ],
+  "hisProductIds": [
+   "m-kurtiset-cotton-01",
+   "m-mojari-01"
+  ],
+  "price": 8000,
+  "description": "Eyes meeting over a conversation in in a warm indoor courtyard; a coordinated diwali pairing with sand gotapatti-appliquéd georgette saree with woven border for her and sand chikankari-worked cotton kurta set for him. The colour story is Rust and Sand — complementary, never uniform.",
+  "imageUrl": "/images/couples/diwali-15.jpg",
+  "imagePrompt": "original candid fashion photograph of an adult Indian couple at in a warm indoor courtyard, eyes meeting over a conversation, close candid frame, natural faces and genuine chemistry, varied Diwali styling, no copied composition, no text, no logos, no watermark"
+ },
+ {
+  "id": "couple-diwali-16",
+  "coupleId": "diwali-16",
+  "title": "Diwali · Saree and Kurta",
+  "mood": "lamplight, colour and easy intimacy",
+  "world": "Diwali",
+  "occasions": [
+   "Diwali"
+  ],
+  "scene": "beside a flower-draped balcony",
+  "pose": "her dupatta moves as he laughs",
+  "cameraFraming": "three-quarter movement frame",
+  "sourceImage": "/images/production-couple-diwali-doorway.jpg",
+  "sourceIndex": 1,
+  "herProductIds": [
+   "w-saree-drape-07",
+   "w-jutti-01"
+  ],
+  "hisProductIds": [
+   "m-kurtiset-silk-01",
+   "m-mojari-01"
+  ],
+  "price": 8000,
+  "description": "Her dupatta moves as he laughs in beside a flower-draped balcony; a coordinated diwali pairing with peacock teal zari-woven georgette saree with woven border for her and ivory silk kurta set for him. The colour story is Peacock Teal and Mustard — complementary, never uniform.",
+  "imageUrl": "/images/couples/diwali-16.jpg",
+  "imagePrompt": "original candid fashion photograph of an adult Indian couple at beside a flower-draped balcony, her dupatta moves as he laughs, three-quarter movement frame, natural faces and genuine chemistry, varied Diwali styling, no copied composition, no text, no logos, no watermark"
+ },
+ {
+  "id": "couple-diwali-17",
+  "coupleId": "diwali-17",
+  "title": "Diwali · Quiet Firelight",
+  "mood": "lamplight, colour and easy intimacy",
+  "world": "Diwali",
+  "occasions": [
+   "Diwali"
+  ],
+  "scene": "by a cluster of glowing lamps",
+  "pose": "a soft check-in before dinner",
+  "cameraFraming": "low-light portrait frame",
+  "sourceImage": "/images/production-couple-diwali-balcony.jpg",
+  "sourceIndex": 0,
+  "herProductIds": [
+   "w-saree-drape-01",
+   "w-jutti-01"
+  ],
+  "hisProductIds": [
+   "m-kurt-set-jamawar-01",
+   "m-mojari-01"
+  ],
+  "price": 8000,
+  "description": "A soft check-in before dinner in by a cluster of glowing lamps; a coordinated diwali pairing with wine zari-woven georgette saree with woven border for her and wine jaal-lattice jamawar shawl kurta set for him. The colour story is Wine and Antique Gold — complementary, never uniform.",
+  "imageUrl": "/images/couples/diwali-17.jpg",
+  "imagePrompt": "original candid fashion photograph of an adult Indian couple at by a cluster of glowing lamps, a soft check-in before dinner, low-light portrait frame, natural faces and genuine chemistry, varied Diwali styling, no copied composition, no text, no logos, no watermark"
+ },
+ {
+  "id": "couple-diwali-18",
+  "coupleId": "diwali-18",
+  "title": "Diwali · Doorway Portrait",
+  "mood": "lamplight, colour and easy intimacy",
+  "world": "Diwali",
+  "occasions": [
+   "Diwali"
+  ],
+  "scene": "under the entryway lanterns",
+  "pose": "natural smiles, relaxed shoulders",
+  "cameraFraming": "documentary portrait frame",
+  "sourceImage": "/images/production-couple-diwali-doorway.jpg",
+  "sourceIndex": 1,
+  "herProductIds": [
+   "w-saree-organza-02",
+   "w-jutti-01"
+  ],
+  "hisProductIds": [
+   "m-kurtiset-cotton-02",
+   "m-mojari-01"
+  ],
+  "price": 6396,
+  "description": "Natural smiles, relaxed shoulders in under the entryway lanterns; a coordinated diwali pairing with ivory chikankari-worked organza saree with hand-embroidered buti for her and ivory block-printed cotton kurta set for him. The colour story is Emerald and Ivory — complementary, never uniform.",
+  "imageUrl": "/images/couples/diwali-18.jpg",
+  "imagePrompt": "original candid fashion photograph of an adult Indian couple at under the entryway lanterns, natural smiles, relaxed shoulders, documentary portrait frame, natural faces and genuine chemistry, varied Diwali styling, no copied composition, no text, no logos, no watermark"
+ },
+ {
+  "id": "couple-diwali-19",
+  "coupleId": "diwali-19",
+  "title": "Diwali · Late Diwali Walk",
+  "mood": "lamplight, colour and easy intimacy",
+  "world": "Diwali",
+  "occasions": [
+   "Diwali"
+  ],
+  "scene": "on a softly lit verandah",
+  "pose": "walking home from the terrace",
+  "cameraFraming": "wide verandah frame",
+  "sourceImage": "/images/production-couple-diwali-balcony.jpg",
+  "sourceIndex": 0,
+  "herProductIds": [
+   "w-saree-drape-03",
+   "w-jutti-01"
+  ],
+  "hisProductIds": [
+   "m-kurtiset-cotton-01",
+   "m-mojari-01"
+  ],
+  "price": 8000,
+  "description": "Walking home from the terrace in on a softly lit verandah; a coordinated diwali pairing with sand gotapatti-appliquéd georgette saree with woven border for her and sand chikankari-worked cotton kurta set for him. The colour story is Rust and Sand — complementary, never uniform.",
+  "imageUrl": "/images/couples/diwali-19.jpg",
+  "imagePrompt": "original candid fashion photograph of an adult Indian couple at on a softly lit verandah, walking home from the terrace, wide verandah frame, natural faces and genuine chemistry, varied Diwali styling, no copied composition, no text, no logos, no watermark"
+ },
+ {
+  "id": "couple-diwali-20",
+  "coupleId": "diwali-20",
+  "title": "Diwali · Last Diya",
+  "mood": "lamplight, colour and easy intimacy",
+  "world": "Diwali",
+  "occasions": [
+   "Diwali"
+  ],
+  "scene": "beside the final lamp of the evening",
+  "pose": "hands joined, looking toward the glow",
+  "cameraFraming": "close warm-light frame",
+  "sourceImage": "/images/production-couple-diwali-doorway.jpg",
+  "sourceIndex": 1,
+  "herProductIds": [
+   "w-saree-drape-07",
+   "w-jutti-01"
+  ],
+  "hisProductIds": [
+   "m-kurtiset-silk-01",
+   "m-mojari-01"
+  ],
+  "price": 8000,
+  "description": "Hands joined, looking toward the glow in beside the final lamp of the evening; a coordinated diwali pairing with peacock teal zari-woven georgette saree with woven border for her and ivory silk kurta set for him. The colour story is Peacock Teal and Mustard — complementary, never uniform.",
+  "imageUrl": "/images/couples/diwali-20.jpg",
+  "imagePrompt": "original candid fashion photograph of an adult Indian couple at beside the final lamp of the evening, hands joined, looking toward the glow, close warm-light frame, natural faces and genuine chemistry, varied Diwali styling, no copied composition, no text, no logos, no watermark"
+ },
+ {
+  "id": "couple-festive-party-01",
+  "coupleId": "festive-party-01",
+  "title": "Festive Party · Dinner Conversation",
+  "mood": "social evenings with polished ease",
+  "world": "Festive Party",
+  "occasions": [
+   "Festive Party"
+  ],
+  "scene": "on a softly lit party step",
+  "pose": "mid-story laughter across the conversation",
+  "cameraFraming": "seated two-shot",
+  "sourceImage": "/images/production-couple-festive-conversation.jpg",
+  "sourceIndex": 0,
+  "herProductIds": [
+   "w-saree-drape-08",
+   "w-jutti-01"
+  ],
+  "hisProductIds": [
+   "m-waistcoat-set-02",
+   "m-mojari-01"
+  ],
+  "price": 8000,
+  "description": "Mid-story laughter across the conversation in on a softly lit party step; a coordinated festive party pairing with rust sequin-scattered georgette saree with woven border for her and rust resham-threadworked waistcoat with straight kurta for him. The colour story is Teal and Rust — complementary, never uniform.",
+  "imageUrl": "/images/couples/festive-party-01.jpg",
+  "imagePrompt": "original candid fashion photograph of an adult Indian couple at on a softly lit party step, mid-story laughter across the conversation, seated two-shot, natural faces and genuine chemistry, varied Festive Party styling, no copied composition, no text, no logos, no watermark"
+ },
+ {
+  "id": "couple-festive-party-02",
+  "coupleId": "festive-party-02",
+  "title": "Festive Party · Marigold Walk",
+  "mood": "social evenings with polished ease",
+  "world": "Festive Party",
+  "occasions": [
+   "Festive Party"
+  ],
+  "scene": "through a marigold-trimmed venue",
+  "pose": "walking in with an easy handhold",
+  "cameraFraming": "full-length walking frame",
+  "sourceImage": "/images/production-couple-festive-walk.jpg",
+  "sourceIndex": 1,
+  "herProductIds": [
+   "w-saree-drape-02",
+   "w-jutti-01"
+  ],
+  "hisProductIds": [
+   "m-coat-set-01",
+   "m-mojari-01"
+  ],
+  "price": 8000,
+  "description": "Walking in with an easy handhold in through a marigold-trimmed venue; a coordinated festive party pairing with olive sequin-scattered georgette saree with woven border for her and olive pearl-detailed long coat kurta set for him. The colour story is Olive and Blush Pink — complementary, never uniform.",
+  "imageUrl": "/images/couples/festive-party-02.jpg",
+  "imagePrompt": "original candid fashion photograph of an adult Indian couple at through a marigold-trimmed venue, walking in with an easy handhold, full-length walking frame, natural faces and genuine chemistry, varied Festive Party styling, no copied composition, no text, no logos, no watermark"
+ },
+ {
+  "id": "couple-festive-party-03",
+  "coupleId": "festive-party-03",
+  "title": "Festive Party · Balcony Chat",
+  "mood": "social evenings with polished ease",
+  "world": "Festive Party",
+  "occasions": [
+   "Festive Party"
+  ],
+  "scene": "beside a city-view balcony",
+  "pose": "listening with a shoulder lean",
+  "cameraFraming": "side-on candid frame",
+  "sourceImage": "/images/production-couple-festive-conversation.jpg",
+  "sourceIndex": 0,
+  "herProductIds": [
+   "w-saree-organza-02",
+   "w-jutti-01"
+  ],
+  "hisProductIds": [
+   "m-kurtiset-cotton-02",
+   "m-mojari-01"
+  ],
+  "price": 6396,
+  "description": "Listening with a shoulder lean in beside a city-view balcony; a coordinated festive party pairing with ivory chikankari-worked organza saree with hand-embroidered buti for her and ivory block-printed cotton kurta set for him. The colour story is Copper and Ivory — complementary, never uniform.",
+  "imageUrl": "/images/couples/festive-party-03.jpg",
+  "imagePrompt": "original candid fashion photograph of an adult Indian couple at beside a city-view balcony, listening with a shoulder lean, side-on candid frame, natural faces and genuine chemistry, varied Festive Party styling, no copied composition, no text, no logos, no watermark"
+ },
+ {
+  "id": "couple-festive-party-04",
+  "coupleId": "festive-party-04",
+  "title": "Festive Party · Party Arrival",
+  "mood": "social evenings with polished ease",
+  "world": "Festive Party",
+  "occasions": [
+   "Festive Party"
+  ],
+  "scene": "under the venue entrance lights",
+  "pose": "turning toward one another after arriving",
+  "cameraFraming": "wide social frame",
+  "sourceImage": "/images/production-couple-festive-walk.jpg",
+  "sourceIndex": 1,
+  "herProductIds": [
+   "w-saree-satin-slip-01",
+   "w-jutti-01"
+  ],
+  "hisProductIds": [
+   "m-kurtiset-silk-02",
+   "m-mojari-01"
+  ],
+  "price": 8000,
+  "description": "Turning toward one another after arriving in under the venue entrance lights; a coordinated festive party pairing with midnight navy tone-on-tone satin slip saree for her and midnight navy buti-motif silk kurta set for him. The colour story is Midnight Navy and Rose — complementary, never uniform.",
+  "imageUrl": "/images/couples/festive-party-04.jpg",
+  "imagePrompt": "original candid fashion photograph of an adult Indian couple at under the venue entrance lights, turning toward one another after arriving, wide social frame, natural faces and genuine chemistry, varied Festive Party styling, no copied composition, no text, no logos, no watermark"
+ },
+ {
+  "id": "couple-festive-party-05",
+  "coupleId": "festive-party-05",
+  "title": "Festive Party · Terrace Toast",
+  "mood": "social evenings with polished ease",
+  "world": "Festive Party",
+  "occasions": [
+   "Festive Party"
+  ],
+  "scene": "on a terrace with warm bokeh",
+  "pose": "hands lifted in a small celebratory gesture",
+  "cameraFraming": "medium evening frame",
+  "sourceImage": "/images/production-couple-festive-conversation.jpg",
+  "sourceIndex": 0,
+  "herProductIds": [
+   "w-saree-drape-08",
+   "w-jutti-01"
+  ],
+  "hisProductIds": [
+   "m-waistcoat-set-02",
+   "m-mojari-01"
+  ],
+  "price": 8000,
+  "description": "Hands lifted in a small celebratory gesture in on a terrace with warm bokeh; a coordinated festive party pairing with rust sequin-scattered georgette saree with woven border for her and rust resham-threadworked waistcoat with straight kurta for him. The colour story is Teal and Rust — complementary, never uniform.",
+  "imageUrl": "/images/couples/festive-party-05.jpg",
+  "imagePrompt": "original candid fashion photograph of an adult Indian couple at on a terrace with warm bokeh, hands lifted in a small celebratory gesture, medium evening frame, natural faces and genuine chemistry, varied Festive Party styling, no copied composition, no text, no logos, no watermark"
+ },
+ {
+  "id": "couple-festive-party-06",
+  "coupleId": "festive-party-06",
+  "title": "Festive Party · Seated Laugh",
+  "mood": "social evenings with polished ease",
+  "world": "Festive Party",
+  "occasions": [
+   "Festive Party"
+  ],
+  "scene": "on broad venue steps",
+  "pose": "laughing between dinner courses",
+  "cameraFraming": "close seated frame",
+  "sourceImage": "/images/production-couple-festive-walk.jpg",
+  "sourceIndex": 1,
+  "herProductIds": [
+   "w-saree-drape-02",
+   "w-jutti-01"
+  ],
+  "hisProductIds": [
+   "m-coat-set-01",
+   "m-mojari-01"
+  ],
+  "price": 8000,
+  "description": "Laughing between dinner courses in on broad venue steps; a coordinated festive party pairing with olive sequin-scattered georgette saree with woven border for her and olive pearl-detailed long coat kurta set for him. The colour story is Olive and Blush Pink — complementary, never uniform.",
+  "imageUrl": "/images/couples/festive-party-06.jpg",
+  "imagePrompt": "original candid fashion photograph of an adult Indian couple at on broad venue steps, laughing between dinner courses, close seated frame, natural faces and genuine chemistry, varied Festive Party styling, no copied composition, no text, no logos, no watermark"
+ },
+ {
+  "id": "couple-festive-party-07",
+  "coupleId": "festive-party-07",
+  "title": "Festive Party · Printed Layers",
+  "mood": "social evenings with polished ease",
+  "world": "Festive Party",
+  "occasions": [
+   "Festive Party"
+  ],
+  "scene": "near a flower-draped lounge",
+  "pose": "he adjusts his cuff while she watches",
+  "cameraFraming": "three-quarter portrait frame",
+  "sourceImage": "/images/production-couple-festive-conversation.jpg",
+  "sourceIndex": 0,
+  "herProductIds": [
+   "w-saree-organza-02",
+   "w-jutti-01"
+  ],
+  "hisProductIds": [
+   "m-kurtiset-cotton-02",
+   "m-mojari-01"
+  ],
+  "price": 6396,
+  "description": "He adjusts his cuff while she watches in near a flower-draped lounge; a coordinated festive party pairing with ivory chikankari-worked organza saree with hand-embroidered buti for her and ivory block-printed cotton kurta set for him. The colour story is Copper and Ivory — complementary, never uniform.",
+  "imageUrl": "/images/couples/festive-party-07.jpg",
+  "imagePrompt": "original candid fashion photograph of an adult Indian couple at near a flower-draped lounge, he adjusts his cuff while she watches, three-quarter portrait frame, natural faces and genuine chemistry, varied Festive Party styling, no copied composition, no text, no logos, no watermark"
+ },
+ {
+  "id": "couple-festive-party-08",
+  "coupleId": "festive-party-08",
+  "title": "Festive Party · After Work, Before Dinner",
+  "mood": "social evenings with polished ease",
+  "world": "Festive Party",
+  "occasions": [
+   "Festive Party"
+  ],
+  "scene": "on a softly decorated walkway",
+  "pose": "walking side by side mid-conversation",
+  "cameraFraming": "documentary walking frame",
+  "sourceImage": "/images/production-couple-festive-walk.jpg",
+  "sourceIndex": 1,
+  "herProductIds": [
+   "w-saree-satin-slip-01",
+   "w-jutti-01"
+  ],
+  "hisProductIds": [
+   "m-kurtiset-silk-02",
+   "m-mojari-01"
+  ],
+  "price": 8000,
+  "description": "Walking side by side mid-conversation in on a softly decorated walkway; a coordinated festive party pairing with midnight navy tone-on-tone satin slip saree for her and midnight navy buti-motif silk kurta set for him. The colour story is Midnight Navy and Rose — complementary, never uniform.",
+  "imageUrl": "/images/couples/festive-party-08.jpg",
+  "imagePrompt": "original candid fashion photograph of an adult Indian couple at on a softly decorated walkway, walking side by side mid-conversation, documentary walking frame, natural faces and genuine chemistry, varied Festive Party styling, no copied composition, no text, no logos, no watermark"
+ },
+ {
+  "id": "couple-festive-party-09",
+  "coupleId": "festive-party-09",
+  "title": "Festive Party · House Party Glow",
+  "mood": "social evenings with polished ease",
+  "world": "Festive Party",
+  "occasions": [
+   "Festive Party"
+  ],
+  "scene": "beside a warm indoor bar cart",
+  "pose": "a natural shoulder touch",
+  "cameraFraming": "intimate waist-up frame",
+  "sourceImage": "/images/production-couple-festive-conversation.jpg",
+  "sourceIndex": 0,
+  "herProductIds": [
+   "w-saree-drape-08",
+   "w-jutti-01"
+  ],
+  "hisProductIds": [
+   "m-waistcoat-set-02",
+   "m-mojari-01"
+  ],
+  "price": 8000,
+  "description": "A natural shoulder touch in beside a warm indoor bar cart; a coordinated festive party pairing with rust sequin-scattered georgette saree with woven border for her and rust resham-threadworked waistcoat with straight kurta for him. The colour story is Teal and Rust — complementary, never uniform.",
+  "imageUrl": "/images/couples/festive-party-09.jpg",
+  "imagePrompt": "original candid fashion photograph of an adult Indian couple at beside a warm indoor bar cart, a natural shoulder touch, intimate waist-up frame, natural faces and genuine chemistry, varied Festive Party styling, no copied composition, no text, no logos, no watermark"
+ },
+ {
+  "id": "couple-festive-party-10",
+  "coupleId": "festive-party-10",
+  "title": "Festive Party · Garden String Lights",
+  "mood": "social evenings with polished ease",
+  "world": "Festive Party",
+  "occasions": [
+   "Festive Party"
+  ],
+  "scene": "under garden festoon lights",
+  "pose": "a playful step toward the camera",
+  "cameraFraming": "wide garden frame",
+  "sourceImage": "/images/production-couple-festive-walk.jpg",
+  "sourceIndex": 1,
+  "herProductIds": [
+   "w-saree-drape-02",
+   "w-jutti-01"
+  ],
+  "hisProductIds": [
+   "m-coat-set-01",
+   "m-mojari-01"
+  ],
+  "price": 8000,
+  "description": "A playful step toward the camera in under garden festoon lights; a coordinated festive party pairing with olive sequin-scattered georgette saree with woven border for her and olive pearl-detailed long coat kurta set for him. The colour story is Olive and Blush Pink — complementary, never uniform.",
+  "imageUrl": "/images/couples/festive-party-10.jpg",
+  "imagePrompt": "original candid fashion photograph of an adult Indian couple at under garden festoon lights, a playful step toward the camera, wide garden frame, natural faces and genuine chemistry, varied Festive Party styling, no copied composition, no text, no logos, no watermark"
+ },
+ {
+  "id": "couple-festive-party-11",
+  "coupleId": "festive-party-11",
+  "title": "Festive Party · Rust and Teal",
+  "mood": "social evenings with polished ease",
+  "world": "Festive Party",
+  "occasions": [
+   "Festive Party"
+  ],
+  "scene": "beside a patterned textile wall",
+  "pose": "sharing a look while friends blur behind",
+  "cameraFraming": "shallow-depth frame",
+  "sourceImage": "/images/production-couple-festive-conversation.jpg",
+  "sourceIndex": 0,
+  "herProductIds": [
+   "w-saree-organza-02",
+   "w-jutti-01"
+  ],
+  "hisProductIds": [
+   "m-kurtiset-cotton-02",
+   "m-mojari-01"
+  ],
+  "price": 6396,
+  "description": "Sharing a look while friends blur behind in beside a patterned textile wall; a coordinated festive party pairing with ivory chikankari-worked organza saree with hand-embroidered buti for her and ivory block-printed cotton kurta set for him. The colour story is Copper and Ivory — complementary, never uniform.",
+  "imageUrl": "/images/couples/festive-party-11.jpg",
+  "imagePrompt": "original candid fashion photograph of an adult Indian couple at beside a patterned textile wall, sharing a look while friends blur behind, shallow-depth frame, natural faces and genuine chemistry, varied Festive Party styling, no copied composition, no text, no logos, no watermark"
+ },
+ {
+  "id": "couple-festive-party-12",
+  "coupleId": "festive-party-12",
+  "title": "Festive Party · Conversation Corner",
+  "mood": "social evenings with polished ease",
+  "world": "Festive Party",
+  "occasions": [
+   "Festive Party"
+  ],
+  "scene": "in a quiet corner of the venue",
+  "pose": "leaning in to hear one another",
+  "cameraFraming": "close conversational frame",
+  "sourceImage": "/images/production-couple-festive-walk.jpg",
+  "sourceIndex": 1,
+  "herProductIds": [
+   "w-saree-satin-slip-01",
+   "w-jutti-01"
+  ],
+  "hisProductIds": [
+   "m-kurtiset-silk-02",
+   "m-mojari-01"
+  ],
+  "price": 8000,
+  "description": "Leaning in to hear one another in in a quiet corner of the venue; a coordinated festive party pairing with midnight navy tone-on-tone satin slip saree for her and midnight navy buti-motif silk kurta set for him. The colour story is Midnight Navy and Rose — complementary, never uniform.",
+  "imageUrl": "/images/couples/festive-party-12.jpg",
+  "imagePrompt": "original candid fashion photograph of an adult Indian couple at in a quiet corner of the venue, leaning in to hear one another, close conversational frame, natural faces and genuine chemistry, varied Festive Party styling, no copied composition, no text, no logos, no watermark"
+ },
+ {
+  "id": "couple-festive-party-13",
+  "coupleId": "festive-party-13",
+  "title": "Festive Party · Arrival Portrait",
+  "mood": "social evenings with polished ease",
+  "world": "Festive Party",
+  "occasions": [
+   "Festive Party"
+  ],
+  "scene": "framed by the entrance garland",
+  "pose": "relaxed smiles after a long week",
+  "cameraFraming": "vertical editorial frame",
+  "sourceImage": "/images/production-couple-festive-conversation.jpg",
+  "sourceIndex": 0,
+  "herProductIds": [
+   "w-saree-drape-08",
+   "w-jutti-01"
+  ],
+  "hisProductIds": [
+   "m-waistcoat-set-02",
+   "m-mojari-01"
+  ],
+  "price": 8000,
+  "description": "Relaxed smiles after a long week in framed by the entrance garland; a coordinated festive party pairing with rust sequin-scattered georgette saree with woven border for her and rust resham-threadworked waistcoat with straight kurta for him. The colour story is Teal and Rust — complementary, never uniform.",
+  "imageUrl": "/images/couples/festive-party-13.jpg",
+  "imagePrompt": "original candid fashion photograph of an adult Indian couple at framed by the entrance garland, relaxed smiles after a long week, vertical editorial frame, natural faces and genuine chemistry, varied Festive Party styling, no copied composition, no text, no logos, no watermark"
+ },
+ {
+  "id": "couple-festive-party-14",
+  "coupleId": "festive-party-14",
+  "title": "Festive Party · Evening Stroll",
+  "mood": "social evenings with polished ease",
+  "world": "Festive Party",
+  "occasions": [
+   "Festive Party"
+  ],
+  "scene": "along a lantern-lit path",
+  "pose": "linked elbows and matching pace",
+  "cameraFraming": "full-length path frame",
+  "sourceImage": "/images/production-couple-festive-walk.jpg",
+  "sourceIndex": 1,
+  "herProductIds": [
+   "w-saree-drape-02",
+   "w-jutti-01"
+  ],
+  "hisProductIds": [
+   "m-coat-set-01",
+   "m-mojari-01"
+  ],
+  "price": 8000,
+  "description": "Linked elbows and matching pace in along a lantern-lit path; a coordinated festive party pairing with olive sequin-scattered georgette saree with woven border for her and olive pearl-detailed long coat kurta set for him. The colour story is Olive and Blush Pink — complementary, never uniform.",
+  "imageUrl": "/images/couples/festive-party-14.jpg",
+  "imagePrompt": "original candid fashion photograph of an adult Indian couple at along a lantern-lit path, linked elbows and matching pace, full-length path frame, natural faces and genuine chemistry, varied Festive Party styling, no copied composition, no text, no logos, no watermark"
+ },
+ {
+  "id": "couple-festive-party-15",
+  "coupleId": "festive-party-15",
+  "title": "Festive Party · Seated Side Note",
+  "mood": "social evenings with polished ease",
+  "world": "Festive Party",
+  "occasions": [
+   "Festive Party"
+  ],
+  "scene": "on the venue steps after sunset",
+  "pose": "a quick private joke",
+  "cameraFraming": "medium seated frame",
+  "sourceImage": "/images/production-couple-festive-conversation.jpg",
+  "sourceIndex": 0,
+  "herProductIds": [
+   "w-saree-organza-02",
+   "w-jutti-01"
+  ],
+  "hisProductIds": [
+   "m-kurtiset-cotton-02",
+   "m-mojari-01"
+  ],
+  "price": 6396,
+  "description": "A quick private joke in on the venue steps after sunset; a coordinated festive party pairing with ivory chikankari-worked organza saree with hand-embroidered buti for her and ivory block-printed cotton kurta set for him. The colour story is Copper and Ivory — complementary, never uniform.",
+  "imageUrl": "/images/couples/festive-party-15.jpg",
+  "imagePrompt": "original candid fashion photograph of an adult Indian couple at on the venue steps after sunset, a quick private joke, medium seated frame, natural faces and genuine chemistry, varied Festive Party styling, no copied composition, no text, no logos, no watermark"
+ },
+ {
+  "id": "couple-festive-party-16",
+  "coupleId": "festive-party-16",
+  "title": "Festive Party · Copper Detail",
+  "mood": "social evenings with polished ease",
+  "world": "Festive Party",
+  "occasions": [
+   "Festive Party"
+  ],
+  "scene": "near warm floral arrangements",
+  "pose": "her hand rests on his forearm",
+  "cameraFraming": "close hands-and-faces frame",
+  "sourceImage": "/images/production-couple-festive-walk.jpg",
+  "sourceIndex": 1,
+  "herProductIds": [
+   "w-saree-satin-slip-01",
+   "w-jutti-01"
+  ],
+  "hisProductIds": [
+   "m-kurtiset-silk-02",
+   "m-mojari-01"
+  ],
+  "price": 8000,
+  "description": "Her hand rests on his forearm in near warm floral arrangements; a coordinated festive party pairing with midnight navy tone-on-tone satin slip saree for her and midnight navy buti-motif silk kurta set for him. The colour story is Midnight Navy and Rose — complementary, never uniform.",
+  "imageUrl": "/images/couples/festive-party-16.jpg",
+  "imagePrompt": "original candid fashion photograph of an adult Indian couple at near warm floral arrangements, her hand rests on his forearm, close hands-and-faces frame, natural faces and genuine chemistry, varied Festive Party styling, no copied composition, no text, no logos, no watermark"
+ },
+ {
+  "id": "couple-festive-party-17",
+  "coupleId": "festive-party-17",
+  "title": "Festive Party · Party Pause",
+  "mood": "social evenings with polished ease",
+  "world": "Festive Party",
+  "occasions": [
+   "Festive Party"
+  ],
+  "scene": "by the edge of the music room",
+  "pose": "a calm pause between greetings",
+  "cameraFraming": "three-quarter still frame",
+  "sourceImage": "/images/production-couple-festive-conversation.jpg",
+  "sourceIndex": 0,
+  "herProductIds": [
+   "w-saree-drape-08",
+   "w-jutti-01"
+  ],
+  "hisProductIds": [
+   "m-waistcoat-set-02",
+   "m-mojari-01"
+  ],
+  "price": 8000,
+  "description": "A calm pause between greetings in by the edge of the music room; a coordinated festive party pairing with rust sequin-scattered georgette saree with woven border for her and rust resham-threadworked waistcoat with straight kurta for him. The colour story is Teal and Rust — complementary, never uniform.",
+  "imageUrl": "/images/couples/festive-party-17.jpg",
+  "imagePrompt": "original candid fashion photograph of an adult Indian couple at by the edge of the music room, a calm pause between greetings, three-quarter still frame, natural faces and genuine chemistry, varied Festive Party styling, no copied composition, no text, no logos, no watermark"
+ },
+ {
+  "id": "couple-festive-party-18",
+  "coupleId": "festive-party-18",
+  "title": "Festive Party · Midnight Blue",
+  "mood": "social evenings with polished ease",
+  "world": "Festive Party",
+  "occasions": [
+   "Festive Party"
+  ],
+  "scene": "under a blue-hour terrace sky",
+  "pose": "standing apart, eyes meeting",
+  "cameraFraming": "wide environmental frame",
+  "sourceImage": "/images/production-couple-festive-walk.jpg",
+  "sourceIndex": 1,
+  "herProductIds": [
+   "w-saree-drape-02",
+   "w-jutti-01"
+  ],
+  "hisProductIds": [
+   "m-coat-set-01",
+   "m-mojari-01"
+  ],
+  "price": 8000,
+  "description": "Standing apart, eyes meeting in under a blue-hour terrace sky; a coordinated festive party pairing with olive sequin-scattered georgette saree with woven border for her and olive pearl-detailed long coat kurta set for him. The colour story is Olive and Blush Pink — complementary, never uniform.",
+  "imageUrl": "/images/couples/festive-party-18.jpg",
+  "imagePrompt": "original candid fashion photograph of an adult Indian couple at under a blue-hour terrace sky, standing apart, eyes meeting, wide environmental frame, natural faces and genuine chemistry, varied Festive Party styling, no copied composition, no text, no logos, no watermark"
+ },
+ {
+  "id": "couple-festive-party-19",
+  "coupleId": "festive-party-19",
+  "title": "Festive Party · Last Guests",
+  "mood": "social evenings with polished ease",
+  "world": "Festive Party",
+  "occasions": [
+   "Festive Party"
+  ],
+  "scene": "on the venue exit walkway",
+  "pose": "walking out together, still smiling",
+  "cameraFraming": "backlit walking frame",
+  "sourceImage": "/images/production-couple-festive-conversation.jpg",
+  "sourceIndex": 0,
+  "herProductIds": [
+   "w-saree-organza-02",
+   "w-jutti-01"
+  ],
+  "hisProductIds": [
+   "m-kurtiset-cotton-02",
+   "m-mojari-01"
+  ],
+  "price": 6396,
+  "description": "Walking out together, still smiling in on the venue exit walkway; a coordinated festive party pairing with ivory chikankari-worked organza saree with hand-embroidered buti for her and ivory block-printed cotton kurta set for him. The colour story is Copper and Ivory — complementary, never uniform.",
+  "imageUrl": "/images/couples/festive-party-19.jpg",
+  "imagePrompt": "original candid fashion photograph of an adult Indian couple at on the venue exit walkway, walking out together, still smiling, backlit walking frame, natural faces and genuine chemistry, varied Festive Party styling, no copied composition, no text, no logos, no watermark"
+ },
+ {
+  "id": "couple-festive-party-20",
+  "coupleId": "festive-party-20",
+  "title": "Festive Party · One More Story",
+  "mood": "social evenings with polished ease",
+  "world": "Festive Party",
+  "occasions": [
+   "Festive Party"
+  ],
+  "scene": "beside the final string lights",
+  "pose": "a relaxed end-of-night conversation",
+  "cameraFraming": "warm portrait frame",
+  "sourceImage": "/images/production-couple-festive-walk.jpg",
+  "sourceIndex": 1,
+  "herProductIds": [
+   "w-saree-satin-slip-01",
+   "w-jutti-01"
+  ],
+  "hisProductIds": [
+   "m-kurtiset-silk-02",
+   "m-mojari-01"
+  ],
+  "price": 8000,
+  "description": "A relaxed end-of-night conversation in beside the final string lights; a coordinated festive party pairing with midnight navy tone-on-tone satin slip saree for her and midnight navy buti-motif silk kurta set for him. The colour story is Midnight Navy and Rose — complementary, never uniform.",
+  "imageUrl": "/images/couples/festive-party-20.jpg",
+  "imagePrompt": "original candid fashion photograph of an adult Indian couple at beside the final string lights, a relaxed end-of-night conversation, warm portrait frame, natural faces and genuine chemistry, varied Festive Party styling, no copied composition, no text, no logos, no watermark"
+ },
+ {
+  "id": "couple-college-fest-01",
+  "coupleId": "college-fest-01",
+  "title": "College Fest · Campus Walk",
+  "mood": "campus colour with real-world comfort",
+  "world": "College Fest",
+  "occasions": [
+   "College Fest"
+  ],
+  "scene": "through a busy festival quad",
+  "pose": "sharing a screen and an easy laugh",
+  "cameraFraming": "full-length campus frame",
+  "sourceImage": "/images/production-couple-college-campus.jpg",
+  "sourceIndex": 0,
+  "herProductIds": [
+   "w-leh-sequin-05",
+   "w-jutti-01"
+  ],
+  "hisProductIds": [
+   "m-kurta-jeans-02",
+   "m-mojari-01"
+  ],
+  "price": 8000,
+  "description": "Sharing a screen and an easy laugh in through a busy festival quad; a coordinated college fest pairing with coral sequin work lehenga for her and coral chikankari-worked kurta over denim set for him. The colour story is Coral and Indigo — complementary, never uniform.",
+  "imageUrl": "/images/couples/college-fest-01.jpg",
+  "imagePrompt": "original candid fashion photograph of an adult Indian couple at through a busy festival quad, sharing a screen and an easy laugh, full-length campus frame, natural faces and genuine chemistry, varied College Fest styling, no copied composition, no text, no logos, no watermark"
+ },
+ {
+  "id": "couple-college-fest-02",
+  "coupleId": "college-fest-02",
+  "title": "College Fest · Mirror Check",
+  "mood": "campus colour with real-world comfort",
+  "world": "College Fest",
+  "occasions": [
+   "College Fest"
+  ],
+  "scene": "near a student mirror installation",
+  "pose": "fixing a collar before the next event",
+  "cameraFraming": "reflective three-quarter frame",
+  "sourceImage": "/images/production-couple-college-mirror.jpg",
+  "sourceIndex": 1,
+  "herProductIds": [
+   "w-saree-drape-08",
+   "w-jutti-01"
+  ],
+  "hisProductIds": [
+   "m-waistcoat-set-02",
+   "m-mojari-01"
+  ],
+  "price": 8000,
+  "description": "Fixing a collar before the next event in near a student mirror installation; a coordinated college fest pairing with rust sequin-scattered georgette saree with woven border for her and rust resham-threadworked waistcoat with straight kurta for him. The colour story is Mint and Rust — complementary, never uniform.",
+  "imageUrl": "/images/couples/college-fest-02.jpg",
+  "imagePrompt": "original candid fashion photograph of an adult Indian couple at near a student mirror installation, fixing a collar before the next event, reflective three-quarter frame, natural faces and genuine chemistry, varied College Fest styling, no copied composition, no text, no logos, no watermark"
+ },
+ {
+  "id": "couple-college-fest-03",
+  "coupleId": "college-fest-03",
+  "title": "College Fest · Food Stall Detour",
+  "mood": "campus colour with real-world comfort",
+  "world": "College Fest",
+  "occasions": [
+   "College Fest"
+  ],
+  "scene": "between campus food stalls",
+  "pose": "walking shoulder to shoulder",
+  "cameraFraming": "documentary street frame",
+  "sourceImage": "/images/production-couple-college-campus.jpg",
+  "sourceIndex": 0,
+  "herProductIds": [
+   "w-saree-buti-03",
+   "w-jutti-01"
+  ],
+  "hisProductIds": [
+   "m-kurt-set-dupatta-04",
+   "m-mojari-01"
+  ],
+  "price": 8000,
+  "description": "Walking shoulder to shoulder in between campus food stalls; a coordinated college fest pairing with butter yellow chikankari-worked buti-motif georgette saree for her and bottle green thread-embroidered kurta set with dupatta & stole for him. The colour story is Butter Yellow and Bottle Green — complementary, never uniform.",
+  "imageUrl": "/images/couples/college-fest-03.jpg",
+  "imagePrompt": "original candid fashion photograph of an adult Indian couple at between campus food stalls, walking shoulder to shoulder, documentary street frame, natural faces and genuine chemistry, varied College Fest styling, no copied composition, no text, no logos, no watermark"
+ },
+ {
+  "id": "couple-college-fest-04",
+  "coupleId": "college-fest-04",
+  "title": "College Fest · Cultural Stage",
+  "mood": "campus colour with real-world comfort",
+  "world": "College Fest",
+  "occasions": [
+   "College Fest"
+  ],
+  "scene": "outside the open-air stage",
+  "pose": "looking toward the music together",
+  "cameraFraming": "wide crowd frame",
+  "sourceImage": "/images/production-couple-college-mirror.jpg",
+  "sourceIndex": 1,
+  "herProductIds": [
+   "w-saree-organza-02",
+   "w-jutti-01"
+  ],
+  "hisProductIds": [
+   "m-kurtiset-cotton-02",
+   "m-mojari-01"
+  ],
+  "price": 6396,
+  "description": "Looking toward the music together in outside the open-air stage; a coordinated college fest pairing with ivory chikankari-worked organza saree with hand-embroidered buti for her and ivory block-printed cotton kurta set for him. The colour story is Teal and Ivory — complementary, never uniform.",
+  "imageUrl": "/images/couples/college-fest-04.jpg",
+  "imagePrompt": "original candid fashion photograph of an adult Indian couple at outside the open-air stage, looking toward the music together, wide crowd frame, natural faces and genuine chemistry, varied College Fest styling, no copied composition, no text, no logos, no watermark"
+ },
+ {
+  "id": "couple-college-fest-05",
+  "coupleId": "college-fest-05",
+  "title": "College Fest · Library Steps",
+  "mood": "campus colour with real-world comfort",
+  "world": "College Fest",
+  "occasions": [
+   "College Fest"
+  ],
+  "scene": "on broad campus steps",
+  "pose": "a relaxed seated conversation",
+  "cameraFraming": "seated environmental frame",
+  "sourceImage": "/images/production-couple-college-campus.jpg",
+  "sourceIndex": 0,
+  "herProductIds": [
+   "w-leh-sequin-05",
+   "w-jutti-01"
+  ],
+  "hisProductIds": [
+   "m-kurta-jeans-02",
+   "m-mojari-01"
+  ],
+  "price": 8000,
+  "description": "A relaxed seated conversation in on broad campus steps; a coordinated college fest pairing with coral sequin work lehenga for her and coral chikankari-worked kurta over denim set for him. The colour story is Coral and Indigo — complementary, never uniform.",
+  "imageUrl": "/images/couples/college-fest-05.jpg",
+  "imagePrompt": "original candid fashion photograph of an adult Indian couple at on broad campus steps, a relaxed seated conversation, seated environmental frame, natural faces and genuine chemistry, varied College Fest styling, no copied composition, no text, no logos, no watermark"
+ },
+ {
+  "id": "couple-college-fest-06",
+  "coupleId": "college-fest-06",
+  "title": "College Fest · Poster Wall",
+  "mood": "campus colour with real-world comfort",
+  "world": "College Fest",
+  "occasions": [
+   "College Fest"
+  ],
+  "scene": "beside a student poster wall",
+  "pose": "pointing out an event detail",
+  "cameraFraming": "medium conversational frame",
+  "sourceImage": "/images/production-couple-college-mirror.jpg",
+  "sourceIndex": 1,
+  "herProductIds": [
+   "w-saree-drape-08",
+   "w-jutti-01"
+  ],
+  "hisProductIds": [
+   "m-waistcoat-set-02",
+   "m-mojari-01"
+  ],
+  "price": 8000,
+  "description": "Pointing out an event detail in beside a student poster wall; a coordinated college fest pairing with rust sequin-scattered georgette saree with woven border for her and rust resham-threadworked waistcoat with straight kurta for him. The colour story is Mint and Rust — complementary, never uniform.",
+  "imageUrl": "/images/couples/college-fest-06.jpg",
+  "imagePrompt": "original candid fashion photograph of an adult Indian couple at beside a student poster wall, pointing out an event detail, medium conversational frame, natural faces and genuine chemistry, varied College Fest styling, no copied composition, no text, no logos, no watermark"
+ },
+ {
+  "id": "couple-college-fest-07",
+  "coupleId": "college-fest-07",
+  "title": "College Fest · Festival Textures",
+  "mood": "campus colour with real-world comfort",
+  "world": "College Fest",
+  "occasions": [
+   "College Fest"
+  ],
+  "scene": "under campus festoon lights",
+  "pose": "laughing while crossing the quad",
+  "cameraFraming": "three-quarter walking frame",
+  "sourceImage": "/images/production-couple-college-campus.jpg",
+  "sourceIndex": 0,
+  "herProductIds": [
+   "w-saree-buti-03",
+   "w-jutti-01"
+  ],
+  "hisProductIds": [
+   "m-kurt-set-dupatta-04",
+   "m-mojari-01"
+  ],
+  "price": 8000,
+  "description": "Laughing while crossing the quad in under campus festoon lights; a coordinated college fest pairing with butter yellow chikankari-worked buti-motif georgette saree for her and bottle green thread-embroidered kurta set with dupatta & stole for him. The colour story is Butter Yellow and Bottle Green — complementary, never uniform.",
+  "imageUrl": "/images/couples/college-fest-07.jpg",
+  "imagePrompt": "original candid fashion photograph of an adult Indian couple at under campus festoon lights, laughing while crossing the quad, three-quarter walking frame, natural faces and genuine chemistry, varied College Fest styling, no copied composition, no text, no logos, no watermark"
+ },
+ {
+  "id": "couple-college-fest-08",
+  "coupleId": "college-fest-08",
+  "title": "College Fest · Shared Headphones",
+  "mood": "campus colour with real-world comfort",
+  "world": "College Fest",
+  "occasions": [
+   "College Fest"
+  ],
+  "scene": "near a shaded campus corridor",
+  "pose": "leaning in to share a song",
+  "cameraFraming": "close candid frame",
+  "sourceImage": "/images/production-couple-college-mirror.jpg",
+  "sourceIndex": 1,
+  "herProductIds": [
+   "w-saree-organza-02",
+   "w-jutti-01"
+  ],
+  "hisProductIds": [
+   "m-kurtiset-cotton-02",
+   "m-mojari-01"
+  ],
+  "price": 6396,
+  "description": "Leaning in to share a song in near a shaded campus corridor; a coordinated college fest pairing with ivory chikankari-worked organza saree with hand-embroidered buti for her and ivory block-printed cotton kurta set for him. The colour story is Teal and Ivory — complementary, never uniform.",
+  "imageUrl": "/images/couples/college-fest-08.jpg",
+  "imagePrompt": "original candid fashion photograph of an adult Indian couple at near a shaded campus corridor, leaning in to share a song, close candid frame, natural faces and genuine chemistry, varied College Fest styling, no copied composition, no text, no logos, no watermark"
+ },
+ {
+  "id": "couple-college-fest-09",
+  "coupleId": "college-fest-09",
+  "title": "College Fest · Sneaker Steps",
+  "mood": "campus colour with real-world comfort",
+  "world": "College Fest",
+  "occasions": [
+   "College Fest"
+  ],
+  "scene": "on the open plaza",
+  "pose": "moving quickly between events",
+  "cameraFraming": "low-angle movement frame",
+  "sourceImage": "/images/production-couple-college-campus.jpg",
+  "sourceIndex": 0,
+  "herProductIds": [
+   "w-leh-sequin-05",
+   "w-jutti-01"
+  ],
+  "hisProductIds": [
+   "m-kurta-jeans-02",
+   "m-mojari-01"
+  ],
+  "price": 8000,
+  "description": "Moving quickly between events in on the open plaza; a coordinated college fest pairing with coral sequin work lehenga for her and coral chikankari-worked kurta over denim set for him. The colour story is Coral and Indigo — complementary, never uniform.",
+  "imageUrl": "/images/couples/college-fest-09.jpg",
+  "imagePrompt": "original candid fashion photograph of an adult Indian couple at on the open plaza, moving quickly between events, low-angle movement frame, natural faces and genuine chemistry, varied College Fest styling, no copied composition, no text, no logos, no watermark"
+ },
+ {
+  "id": "couple-college-fest-10",
+  "coupleId": "college-fest-10",
+  "title": "College Fest · Club Booth",
+  "mood": "campus colour with real-world comfort",
+  "world": "College Fest",
+  "occasions": [
+   "College Fest"
+  ],
+  "scene": "beside a handmade club booth",
+  "pose": "a playful hand gesture over a joke",
+  "cameraFraming": "social two-shot",
+  "sourceImage": "/images/production-couple-college-mirror.jpg",
+  "sourceIndex": 1,
+  "herProductIds": [
+   "w-saree-drape-08",
+   "w-jutti-01"
+  ],
+  "hisProductIds": [
+   "m-waistcoat-set-02",
+   "m-mojari-01"
+  ],
+  "price": 8000,
+  "description": "A playful hand gesture over a joke in beside a handmade club booth; a coordinated college fest pairing with rust sequin-scattered georgette saree with woven border for her and rust resham-threadworked waistcoat with straight kurta for him. The colour story is Mint and Rust — complementary, never uniform.",
+  "imageUrl": "/images/couples/college-fest-10.jpg",
+  "imagePrompt": "original candid fashion photograph of an adult Indian couple at beside a handmade club booth, a playful hand gesture over a joke, social two-shot, natural faces and genuine chemistry, varied College Fest styling, no copied composition, no text, no logos, no watermark"
+ },
+ {
+  "id": "couple-college-fest-11",
+  "coupleId": "college-fest-11",
+  "title": "College Fest · Campus Blue Hour",
+  "mood": "campus colour with real-world comfort",
+  "world": "College Fest",
+  "occasions": [
+   "College Fest"
+  ],
+  "scene": "outside the evening stage",
+  "pose": "walking after the crowd thins",
+  "cameraFraming": "wide blue-hour frame",
+  "sourceImage": "/images/production-couple-college-campus.jpg",
+  "sourceIndex": 0,
+  "herProductIds": [
+   "w-saree-buti-03",
+   "w-jutti-01"
+  ],
+  "hisProductIds": [
+   "m-kurt-set-dupatta-04",
+   "m-mojari-01"
+  ],
+  "price": 8000,
+  "description": "Walking after the crowd thins in outside the evening stage; a coordinated college fest pairing with butter yellow chikankari-worked buti-motif georgette saree for her and bottle green thread-embroidered kurta set with dupatta & stole for him. The colour story is Butter Yellow and Bottle Green — complementary, never uniform.",
+  "imageUrl": "/images/couples/college-fest-11.jpg",
+  "imagePrompt": "original candid fashion photograph of an adult Indian couple at outside the evening stage, walking after the crowd thins, wide blue-hour frame, natural faces and genuine chemistry, varied College Fest styling, no copied composition, no text, no logos, no watermark"
+ },
+ {
+  "id": "couple-college-fest-12",
+  "coupleId": "college-fest-12",
+  "title": "College Fest · Mirrorwork Detail",
+  "mood": "campus colour with real-world comfort",
+  "world": "College Fest",
+  "occasions": [
+   "College Fest"
+  ],
+  "scene": "near a reflective installation",
+  "pose": "checking a sleeve and smiling at one another",
+  "cameraFraming": "close reflective frame",
+  "sourceImage": "/images/production-couple-college-mirror.jpg",
+  "sourceIndex": 1,
+  "herProductIds": [
+   "w-saree-organza-02",
+   "w-jutti-01"
+  ],
+  "hisProductIds": [
+   "m-kurtiset-cotton-02",
+   "m-mojari-01"
+  ],
+  "price": 6396,
+  "description": "Checking a sleeve and smiling at one another in near a reflective installation; a coordinated college fest pairing with ivory chikankari-worked organza saree with hand-embroidered buti for her and ivory block-printed cotton kurta set for him. The colour story is Teal and Ivory — complementary, never uniform.",
+  "imageUrl": "/images/couples/college-fest-12.jpg",
+  "imagePrompt": "original candid fashion photograph of an adult Indian couple at near a reflective installation, checking a sleeve and smiling at one another, close reflective frame, natural faces and genuine chemistry, varied College Fest styling, no copied composition, no text, no logos, no watermark"
+ },
+ {
+  "id": "couple-college-fest-13",
+  "coupleId": "college-fest-13",
+  "title": "College Fest · Canteen Conversation",
+  "mood": "campus colour with real-world comfort",
+  "world": "College Fest",
+  "occasions": [
+   "College Fest"
+  ],
+  "scene": "outside the campus canteen",
+  "pose": "talking over a shared snack",
+  "cameraFraming": "seated documentary frame",
+  "sourceImage": "/images/production-couple-college-campus.jpg",
+  "sourceIndex": 0,
+  "herProductIds": [
+   "w-leh-sequin-05",
+   "w-jutti-01"
+  ],
+  "hisProductIds": [
+   "m-kurta-jeans-02",
+   "m-mojari-01"
+  ],
+  "price": 8000,
+  "description": "Talking over a shared snack in outside the campus canteen; a coordinated college fest pairing with coral sequin work lehenga for her and coral chikankari-worked kurta over denim set for him. The colour story is Coral and Indigo — complementary, never uniform.",
+  "imageUrl": "/images/couples/college-fest-13.jpg",
+  "imagePrompt": "original candid fashion photograph of an adult Indian couple at outside the campus canteen, talking over a shared snack, seated documentary frame, natural faces and genuine chemistry, varied College Fest styling, no copied composition, no text, no logos, no watermark"
+ },
+ {
+  "id": "couple-college-fest-14",
+  "coupleId": "college-fest-14",
+  "title": "College Fest · Open Mic Queue",
+  "mood": "campus colour with real-world comfort",
+  "world": "College Fest",
+  "occasions": [
+   "College Fest"
+  ],
+  "scene": "in line beside the open mic stage",
+  "pose": "a supportive shoulder touch",
+  "cameraFraming": "medium queue frame",
+  "sourceImage": "/images/production-couple-college-mirror.jpg",
+  "sourceIndex": 1,
+  "herProductIds": [
+   "w-saree-drape-08",
+   "w-jutti-01"
+  ],
+  "hisProductIds": [
+   "m-waistcoat-set-02",
+   "m-mojari-01"
+  ],
+  "price": 8000,
+  "description": "A supportive shoulder touch in in line beside the open mic stage; a coordinated college fest pairing with rust sequin-scattered georgette saree with woven border for her and rust resham-threadworked waistcoat with straight kurta for him. The colour story is Mint and Rust — complementary, never uniform.",
+  "imageUrl": "/images/couples/college-fest-14.jpg",
+  "imagePrompt": "original candid fashion photograph of an adult Indian couple at in line beside the open mic stage, a supportive shoulder touch, medium queue frame, natural faces and genuine chemistry, varied College Fest styling, no copied composition, no text, no logos, no watermark"
+ },
+ {
+  "id": "couple-college-fest-15",
+  "coupleId": "college-fest-15",
+  "title": "College Fest · Campus Colour",
+  "mood": "campus colour with real-world comfort",
+  "world": "College Fest",
+  "occasions": [
+   "College Fest"
+  ],
+  "scene": "between painted festival flags",
+  "pose": "moving in parallel through friends",
+  "cameraFraming": "wide environmental frame",
+  "sourceImage": "/images/production-couple-college-campus.jpg",
+  "sourceIndex": 0,
+  "herProductIds": [
+   "w-saree-buti-03",
+   "w-jutti-01"
+  ],
+  "hisProductIds": [
+   "m-kurt-set-dupatta-04",
+   "m-mojari-01"
+  ],
+  "price": 8000,
+  "description": "Moving in parallel through friends in between painted festival flags; a coordinated college fest pairing with butter yellow chikankari-worked buti-motif georgette saree for her and bottle green thread-embroidered kurta set with dupatta & stole for him. The colour story is Butter Yellow and Bottle Green — complementary, never uniform.",
+  "imageUrl": "/images/couples/college-fest-15.jpg",
+  "imagePrompt": "original candid fashion photograph of an adult Indian couple at between painted festival flags, moving in parallel through friends, wide environmental frame, natural faces and genuine chemistry, varied College Fest styling, no copied composition, no text, no logos, no watermark"
+ },
+ {
+  "id": "couple-college-fest-16",
+  "coupleId": "college-fest-16",
+  "title": "College Fest · Post-Event Walk",
+  "mood": "campus colour with real-world comfort",
+  "world": "College Fest",
+  "occasions": [
+   "College Fest"
+  ],
+  "scene": "on the tree-lined campus path",
+  "pose": "hands linked after the show",
+  "cameraFraming": "full-length path frame",
+  "sourceImage": "/images/production-couple-college-mirror.jpg",
+  "sourceIndex": 1,
+  "herProductIds": [
+   "w-saree-organza-02",
+   "w-jutti-01"
+  ],
+  "hisProductIds": [
+   "m-kurtiset-cotton-02",
+   "m-mojari-01"
+  ],
+  "price": 6396,
+  "description": "Hands linked after the show in on the tree-lined campus path; a coordinated college fest pairing with ivory chikankari-worked organza saree with hand-embroidered buti for her and ivory block-printed cotton kurta set for him. The colour story is Teal and Ivory — complementary, never uniform.",
+  "imageUrl": "/images/couples/college-fest-16.jpg",
+  "imagePrompt": "original candid fashion photograph of an adult Indian couple at on the tree-lined campus path, hands linked after the show, full-length path frame, natural faces and genuine chemistry, varied College Fest styling, no copied composition, no text, no logos, no watermark"
+ },
+ {
+  "id": "couple-college-fest-17",
+  "coupleId": "college-fest-17",
+  "title": "College Fest · Cultural Night",
+  "mood": "campus colour with real-world comfort",
+  "world": "College Fest",
+  "occasions": [
+   "College Fest"
+  ],
+  "scene": "under the night-stage lights",
+  "pose": "turning toward a shared cheer",
+  "cameraFraming": "crowd-bokeh frame",
+  "sourceImage": "/images/production-couple-college-campus.jpg",
+  "sourceIndex": 0,
+  "herProductIds": [
+   "w-leh-sequin-05",
+   "w-jutti-01"
+  ],
+  "hisProductIds": [
+   "m-kurta-jeans-02",
+   "m-mojari-01"
+  ],
+  "price": 8000,
+  "description": "Turning toward a shared cheer in under the night-stage lights; a coordinated college fest pairing with coral sequin work lehenga for her and coral chikankari-worked kurta over denim set for him. The colour story is Coral and Indigo — complementary, never uniform.",
+  "imageUrl": "/images/couples/college-fest-17.jpg",
+  "imagePrompt": "original candid fashion photograph of an adult Indian couple at under the night-stage lights, turning toward a shared cheer, crowd-bokeh frame, natural faces and genuine chemistry, varied College Fest styling, no copied composition, no text, no logos, no watermark"
+ },
+ {
+  "id": "couple-college-fest-18",
+  "coupleId": "college-fest-18",
+  "title": "College Fest · Collar Adjustment",
+  "mood": "campus colour with real-world comfort",
+  "world": "College Fest",
+  "occasions": [
+   "College Fest"
+  ],
+  "scene": "near the reflective campus wall",
+  "pose": "she fixes his collar with a grin",
+  "cameraFraming": "intimate portrait frame",
+  "sourceImage": "/images/production-couple-college-mirror.jpg",
+  "sourceIndex": 1,
+  "herProductIds": [
+   "w-saree-drape-08",
+   "w-jutti-01"
+  ],
+  "hisProductIds": [
+   "m-waistcoat-set-02",
+   "m-mojari-01"
+  ],
+  "price": 8000,
+  "description": "She fixes his collar with a grin in near the reflective campus wall; a coordinated college fest pairing with rust sequin-scattered georgette saree with woven border for her and rust resham-threadworked waistcoat with straight kurta for him. The colour story is Mint and Rust — complementary, never uniform.",
+  "imageUrl": "/images/couples/college-fest-18.jpg",
+  "imagePrompt": "original candid fashion photograph of an adult Indian couple at near the reflective campus wall, she fixes his collar with a grin, intimate portrait frame, natural faces and genuine chemistry, varied College Fest styling, no copied composition, no text, no logos, no watermark"
+ },
+ {
+  "id": "couple-college-fest-19",
+  "coupleId": "college-fest-19",
+  "title": "College Fest · Last Shuttle",
+  "mood": "campus colour with real-world comfort",
+  "world": "College Fest",
+  "occasions": [
+   "College Fest"
+  ],
+  "scene": "by the campus exit",
+  "pose": "laughing while looking for their ride",
+  "cameraFraming": "candid exit frame",
+  "sourceImage": "/images/production-couple-college-campus.jpg",
+  "sourceIndex": 0,
+  "herProductIds": [
+   "w-saree-buti-03",
+   "w-jutti-01"
+  ],
+  "hisProductIds": [
+   "m-kurt-set-dupatta-04",
+   "m-mojari-01"
+  ],
+  "price": 8000,
+  "description": "Laughing while looking for their ride in by the campus exit; a coordinated college fest pairing with butter yellow chikankari-worked buti-motif georgette saree for her and bottle green thread-embroidered kurta set with dupatta & stole for him. The colour story is Butter Yellow and Bottle Green — complementary, never uniform.",
+  "imageUrl": "/images/couples/college-fest-19.jpg",
+  "imagePrompt": "original candid fashion photograph of an adult Indian couple at by the campus exit, laughing while looking for their ride, candid exit frame, natural faces and genuine chemistry, varied College Fest styling, no copied composition, no text, no logos, no watermark"
+ },
+ {
+  "id": "couple-college-fest-20",
+  "coupleId": "college-fest-20",
+  "title": "College Fest · Festival Friends",
+  "mood": "campus colour with real-world comfort",
+  "world": "College Fest",
+  "occasions": [
+   "College Fest"
+  ],
+  "scene": "in the bright central quad",
+  "pose": "a natural pause before rejoining friends",
+  "cameraFraming": "mid-distance social frame",
+  "sourceImage": "/images/production-couple-college-mirror.jpg",
+  "sourceIndex": 1,
+  "herProductIds": [
+   "w-saree-organza-02",
+   "w-jutti-01"
+  ],
+  "hisProductIds": [
+   "m-kurtiset-cotton-02",
+   "m-mojari-01"
+  ],
+  "price": 6396,
+  "description": "A natural pause before rejoining friends in in the bright central quad; a coordinated college fest pairing with ivory chikankari-worked organza saree with hand-embroidered buti for her and ivory block-printed cotton kurta set for him. The colour story is Teal and Ivory — complementary, never uniform.",
+  "imageUrl": "/images/couples/college-fest-20.jpg",
+  "imagePrompt": "original candid fashion photograph of an adult Indian couple at in the bright central quad, a natural pause before rejoining friends, mid-distance social frame, natural faces and genuine chemistry, varied College Fest styling, no copied composition, no text, no logos, no watermark"
  }
 ]

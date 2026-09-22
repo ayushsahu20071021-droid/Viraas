@@ -17,11 +17,14 @@ const products = JSON.parse(readFileSync(join(ROOT, 'src/data/catalog/products.j
 const couples = JSON.parse(readFileSync(join(ROOT, 'src/data/catalog/couples.json'), 'utf8'))
 const failures = []
 if (products.length !== 653) failures.push(`expected 653 products, got ${products.length}`)
-if (couples.length !== 60) failures.push(`expected 60 Couple Edit looks, got ${couples.length}`)
+if (couples.length !== 100) failures.push(`expected 100 Couple Edit looks, got ${couples.length}`)
 if (products.some((p) => !/\.jpg$/i.test(p.imageUrl || ''))) failures.push('an individual product still has a non-JPG primary')
 if (products.some((p) => p.price > 8000)) failures.push('a product exceeds ₹8,000')
 if (couples.some((c) => !/\.jpg$/i.test(c.imageUrl || '') || !/\/images\/couples\//.test(c.imageUrl))) failures.push('a Couple Edit look does not use a couples JPG')
 if (couples.some((c) => /mannequin|faceless|blank face/i.test(c.imagePrompt || ''))) failures.push('a couple image prompt leaks mannequin/blank-face language')
+const worlds = ['Garba', 'Navratri', 'Diwali', 'Festive Party', 'College Fest']
+for (const world of worlds) if (couples.filter((c) => c.world === world).length !== 20) failures.push(`${world} must render exactly 20 Couple Edit looks`)
+if (new Set(couples.map((c) => c.imageUrl)).size !== 100) failures.push('Couple Edit image paths must be unique')
 if (failures.length) { console.error(failures.join('\n')); process.exit(1) }
 const run = spawnSync('npm', ['run', 'render-smoke'], { cwd: ROOT, encoding: 'utf8', stdio: 'inherit' })
 if (run.status !== 0) process.exit(run.status || 1)

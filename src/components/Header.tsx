@@ -157,7 +157,7 @@ export default function Header() {
               <div>
                 <p className="text-xs font-semibold tracking-widest text-[#B7945A] uppercase mb-4">Occasions</p>
                 <ul className="space-y-2">
-                  {featuredOccasions.slice(0, 9).map(o => (
+                  {featuredOccasions.map(o => (
                     <li key={o.id}>
                       <Link
                         to={`/occasions/${o.id}`}
@@ -170,7 +170,7 @@ export default function Header() {
                   ))}
                   <li>
                     <Link to="/occasions" className="text-sm font-semibold text-[#D95E3F] hover:underline" onClick={() => setActiveMenu(null)}>
-                      All 18 occasion edits →
+                      Explore all occasions →
                     </Link>
                   </li>
                 </ul>
@@ -233,7 +233,7 @@ export default function Header() {
               <div>
                 <p className="text-xs font-semibold tracking-widest text-[#B7945A] uppercase mb-4">Occasions</p>
                 <ul className="space-y-2">
-                  {featuredOccasions.slice(0, 9).map(o => (
+                  {featuredOccasions.map(o => (
                     <li key={o.id}>
                       <Link
                         to={`/occasions/${o.id}`}
@@ -246,7 +246,7 @@ export default function Header() {
                   ))}
                   <li>
                     <Link to="/occasions" className="text-sm font-semibold text-[#D95E3F] hover:underline" onClick={() => setActiveMenu(null)}>
-                      All 18 occasion edits →
+                      Explore all occasions →
                     </Link>
                   </li>
                 </ul>
@@ -365,7 +365,7 @@ export default function Header() {
               </button>
             </form>
             <div className="mt-4 flex flex-wrap gap-2">
-              {['Diwali outfits', 'Pre-draped saree', 'Kurta jacket', 'Navratri look', 'Wedding guest'].map(s => (
+              {['Diwali outfits', 'Pre-draped saree', 'Kurta jacket', 'Navratri look', 'Festive party'].map(s => (
                 <button
                   key={s}
                   onClick={() => {
