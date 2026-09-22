@@ -17,6 +17,18 @@
 // ─────────────────────────────────────────────────────────────────────────────
 
 export const AFFILIATE_LINKS: Record<string, string> = {
+  "w-garba-cc-01": "",
+  "w-garba-cc-02": "",
+  "w-garba-cc-03": "",
+  "w-garba-cc-04": "",
+  "w-garba-cc-05": "",
+  "w-garba-cc-06": "",
+  "w-garba-cc-07": "",
+  "w-garba-cc-08": "",
+  "w-garba-cc-09": "",
+  "w-garba-cc-10": "",
+  "w-garba-cc-11": "",
+  "w-garba-cc-12": "",
   "w-saree-drape-01": "",
   "w-saree-drape-02": "",
   "w-saree-drape-03": "",

@@ -51,6 +51,7 @@ const CRAFTS = {
   'Kamdani': { adj: 'kamdani-fine weave', type: 'weave' }, 'Banarasi Weave': { adj: 'Banarasi-woven', type: 'weave' },
   'Jamdani Weave': { adj: 'Jamdani-woven', type: 'weave' }, 'Patola Weave': { adj: 'Patola-woven', type: 'weave' },
   'Ikat Weave': { adj: 'ikat-dyed', type: 'weave' }, 'Bandhani': { adj: 'Bandhani-tied', type: 'pattern' },
+  'Kutch Embroidery': { adj: 'Kutch-embroidered', type: 'embroidery' }, 'Gamthi Embroidery': { adj: 'Gamthi-embroidered', type: 'embroidery' }, 'Patchwork': { adj: 'patchwork-panelled', type: 'pattern' },
   'Block Print': { adj: 'block-printed', type: 'pattern' }, 'Kalamkari': { adj: 'Kalamkari-painted', type: 'pattern' },
   'Ajrakh Print': { adj: 'Ajrakh-printed', type: 'pattern' }, 'Bagru Print': { adj: 'Bagru-printed', type: 'pattern' },
   'Buti Motifs': { adj: 'buti-motif', type: 'pattern' }, 'Jaal Lattice': { adj: 'jaal-lattice', type: 'pattern' },
@@ -87,6 +88,7 @@ const PALETTE = {
   warm: ['Ivory', 'Peach', 'Marigold', 'Terracotta', 'Rose', 'Mustard'],
   jewelDeep: ['Emerald', 'Wine', 'Midnight Navy', 'Aubergine', 'Forest Green', 'Royal Blue'],
   mutedEarth: ['Sage', 'Greige', 'Sand', 'Olive', 'Stone Grey', 'Chocolate'],
+  garba: ['Onyx Black', 'Fuchsia', 'Peacock Teal', 'Rust', 'Royal Blue', 'Mustard', 'Emerald', 'Wine', 'Teal', 'Hot Pink', 'Forest Green', 'Ivory']
 }
 
 // ── merchants (whitelist only, never banned marketplaces) ─────────────────────────────────────────────────
@@ -215,6 +217,7 @@ const DESC = {
   sherwani: (f, c, col) => `Heirloom-weight ${f} sherwani in ${col.toLowerCase()}, with ${c.toLowerCase()} climbing the asymmetrical placket and repeating at the cuff. Internal drawstring for post-lunch comfort, fully lined in breathable viscose, and buttons hand-bound in fabric so the front reads as one continuous band of ornament.`,
   coord: (f, c, col) => `A ${col.toLowerCase()} ${f} co-ord: cropped ${c.toLowerCase()}-flecked top with an elastic back and a matching pull-on bottom that actually has real pockets. Made as one suit, but styled to separate — the top works over jeans, the bottom under an oversized shirt. Finished edges throughout; no raw seams to pill.`,
   kurti: (f, c, col) => `An everyday ${f} kurti in ${col.toLowerCase()} with a ${c.toLowerCase()} placket and hem — the kind built to be worn on a Tuesday, not stored for a wedding. Curled side slits, a Mandarin collar that survives a laptop bag, and a fabric weight that hides a peticoat-line. Pair with straight pants or jeans.`,
+  chaniya: (f, c, col) => `A fully flared, gathered ${f} chaniya skirt with a fitted choli and a coordinating odhani, in ${col.toLowerCase()} with ${c.toLowerCase()} — the classic Gujarati Garba trio, cut for eight rounds of dandiya. The skirt swings wide without weight; the choli stays put through every clap-and-turn; the odhani is pinned-ready with fall already engineered. Oxidised-silver jewellery pairs naturally with the mirror and thread detailing.`,
   kurtaMen: (f, c, col) => `A ${col.toLowerCase()} ${f} kurta with a ${c.toLowerCase()} placket that stops below the chest, so it reads refined under a jacket and complete on its own. Straight grain cut to fall without flare; side slits with bar-tacked tops; mother-of-pearl-look buttons on a hidden placket. Includes matching bottom as listed.`,
   drape: (f, c, col) => `A pre-pleated, pre-stitched ${f} drape in ${col.toLowerCase()} — six yards of behaviour, solved. The ${c.toLowerCase()} sits exactly where it should because the pleats are machine-tacked at the waist band; safety-strap loops and a hidden pocket in the waistband are sewn in. Comes with the peticoat shown; blouse is separate unless listed.`,
   footwear: (f, c, col) => `Hand-finished ${f} ${/heel|wedge/.test(f) ? 'shoes' : 'shoes/jutti'} in ${col.toLowerCase()}, with ${c.toLowerCase()} on the vamp and a padded leather-look footbed that survives eight-hour events. Anti-skid sole, reinforced heel counter; the ${/jutti|mojari|kolhapuri/.test(f) ? 'turn-down topline prevents blisters' : 'straps are backed so they do not cut'}.`,
@@ -342,6 +345,7 @@ set('m-coord-suit', 'Festive Co-ord Suit', 'men-co-ord', 5, ['Tone-on-Tone', 'Pe
 set('m-coat-set', 'Long Coat Kurta Set', 'men-sherwani', 3, ['Pearl Detailing', 'Sequit Work', 'Dabka', 'Jaal Lattice', 'Resham Threadwork'], [PALETTE.mutedEarth, PALETTE.heirloom], ['Linen', 'Wool Blend'], ['casual', 'winter', 'reception'], 'indowestern-sets', [2999, 5999], 'kurtaMen', { gender: 'men', cat: 'men-jackets' })
 set('m-asym-coord', 'Asymmetric Co-ord with Stole', 'men-co-ord', 4, ['Thread Embroidery', 'Block Print', 'Tone-on-Tone'], [PALETTE.brights, PALETTE.metal], ['Modal', 'Linen'], ['sangeet', 'college', 'party'], 'indowestern-sets', [1999, 4499], 'coord', { gender: 'men', cat: 'indowestern-sets' })
 set('m-fusion-set', 'Jacket-over-Shirt Fusion Set', 'men-kurta-jacket', 3, ['Tone-on-Tone', 'Zari', 'Chikankari', 'Sequit Work', 'Aari', 'Pearl Detailing', 'Jaal Lattice'], [PALETTE.evening, PALETTE.warm, PALETTE.heirloom], ['Cotton', 'Raw Mango'], ['college', 'party', 'reception', 'sangeet'], 'indowestern-sets', [1999, 4499], 'jacket', { gender: 'men', cat: 'indowestern-sets' })
+set('w-garba-cc', 'Chaniya Choli with Odhani', 'chaniya-choli', 12, ['Mirror Work', 'Bandhani', 'Kutch Embroidery', 'Gamthi Embroidery', 'Patchwork', 'Gotapatti'], [PALETTE.garba], ['Cotton Silk', 'Rayon', 'Georgette', 'Raw Silk'], ['garba', 'navratri', 'festive', 'mehendi'], 'garba-chaniya', [1499, 3999], 'chaniya', { gender: 'women', cat: 'garba-chaniya' })
 set('m-garba-kediyu', 'Garba Kediyu Set', 'men-kurta-garba', 7, ['Mirror Work', 'Bandhani', 'Block Print', 'Resham Threadwork', 'Dried Flower Work', 'Bagru Print'], [PALETTE.warm, PALETTE.brights, PALETTE.heirloom], ['Cotton', 'Rayon'], ['garba', 'navratri', 'college'], 'garba-chaniya', [899, 2499], 'kurtaMen', { gender: 'men', cat: 'garba-chaniya' })
 set('m-garba-kafni', 'Kafni & Kurta Dance Set', 'men-kurta-garba', 4, ['Bandhani', 'Mirror Work', 'Block Print'], [PALETTE.metal, PALETTE.warm], ['Rayon', 'Cotton'], ['garba', 'navratri', 'college'], 'garba-chaniya', [999, 2299], 'kurtaMen', { gender: 'men', cat: 'garba-chaniya' })
 set('m-garba-vest', 'Embroidered Garba Vest Set', 'men-kurta-garba', 4, ['Mirror Work', 'Kamdani', 'Sequit Work'], [PALETTE.brights], ['Cotton'], ['garba', 'navratri'], 'garba-chaniya', [1199, 2499], 'kurtaMen', { gender: 'men', cat: 'garba-chaniya' })
@@ -666,12 +670,21 @@ try { prevCouples = JSON.parse(readFileSync(join(OUT_DATA, 'couples.json'), 'utf
 const prevCoupleById = new Map(prevCouples.map(c => [c.coupleId, c]))
 for (const [cid, title, occLabel, tag, cols] of COUPLES) {
   // colour-family aliasing: exact catalogue colours do not exist for every story
-  const COLOUR_FAMILY = { 'Rani Pink': ['Rani Pink', 'Hot Pink', 'Fuchsia'], 'Fuchsia': ['Fuchsia', 'Rani Pink', 'Hot Pink'], 'Hot Pink': ['Hot Pink', 'Rani Pink', 'Fuchsia'], 'Blush': ['Blush', 'Blush Pink', 'Rose'], 'Rose': ['Rose', 'Blush Pink', 'Blush'], 'Navy': ['Navy', 'Midnight Navy', 'Royal Blue'], 'Royal Blue': ['Royal Blue', 'Midnight Navy', 'Navy'], 'Midnight Navy': ['Midnight Navy', 'Navy', 'Royal Blue'], 'Onyx Black': ['Onyx Black', 'Black', 'Charcoal'], 'Charcoal': ['Charcoal', 'Onyx Black', 'Stone Grey'], 'Jade': ['Jade', 'Sage', 'Mint'], 'Cream': ['Cream', 'Ivory', 'Oat Melange', 'Sand'], 'Ivory': ['Ivory', 'Cream', 'White', 'Oat Melange'], 'Deep Green': ['Deep Green', 'Forest Green', 'Bottle Green'], 'Peacock Teal': ['Peacock Teal', 'Turquoise'], 'Champagne': ['Champagne', 'Antique Gold', 'Sand'], 'Powder Blue': ['Powder Blue', 'Ice Blue'], 'Mint': ['Mint', 'Sage', 'Jade'], 'Wine': ['Wine', 'Deep Maroon', 'Maroon'] }
+  const COLOUR_FAMILY = { 'Rani Pink': ['Rani Pink', 'Hot Pink', 'Fuchsia'], 'Fuchsia': ['Fuchsia', 'Rani Pink', 'Hot Pink'], 'Hot Pink': ['Hot Pink', 'Rani Pink', 'Fuchsia'], 'Blush': ['Blush', 'Blush Pink', 'Rose'], 'Rose': ['Rose', 'Blush Pink', 'Blush'], 'Navy': ['Navy', 'Midnight Navy', 'Royal Blue'], 'Royal Blue': ['Royal Blue', 'Midnight Navy', 'Navy'], 'Midnight Navy': ['Midnight Navy', 'Navy', 'Royal Blue'], 'Onyx Black': ['Onyx Black', 'Black', 'Charcoal'], 'Black': ['Black', 'Onyx Black', 'Charcoal'], 'Charcoal': ['Charcoal', 'Onyx Black', 'Stone Grey'], 'Jade': ['Jade', 'Sage', 'Mint'], 'Cream': ['Cream', 'Ivory', 'Oat Melange', 'Sand'], 'Ivory': ['Ivory', 'Cream', 'White', 'Oat Melange'], 'Deep Green': ['Deep Green', 'Forest Green', 'Bottle Green'], 'Peacock Teal': ['Peacock Teal', 'Turquoise'], 'Champagne': ['Champagne', 'Antique Gold', 'Sand'], 'Powder Blue': ['Powder Blue', 'Ice Blue'], 'Mint': ['Mint', 'Sage', 'Jade'], 'Wine': ['Wine', 'Deep Maroon', 'Maroon'] }
   const familyOf = (c) => COLOUR_FAMILY[c] || [c]
   const findC = (g, colour) => products.find(p => p.gender === g && familyOf(colour).includes(p.colour) && APPAREL(p))
   const findAny = (g) => products.find(p => p.gender === g && cols.some(c => p.colour === c) && APPAREL(p))
   let her = findC('women', cols[0]) || findAny('women') || products.find(p => p.gender === 'women' && APPAREL(p))
   let his = findC('men', cols[1] || cols[0]) || findAny('men') || products.find(p => p.gender === 'men' && APPAREL(p))
+  // Garba/Navratri couples follow directive §10: HER primary = chaniya choli, HIS primary = kediyu/kafni/vest family — never a generic saree pair
+  if (occLabel === 'Garba' || occLabel === 'Navratri') {
+    const ccPool = products.filter(p => p.gender === 'women' && p.category === 'garba' && /chaniya/i.test(p.title))
+    const ccHit = ccPool.find(p => familyOf(cols[0]).includes(p.colour)) || ccPool[hashStr(cid) % Math.max(1, ccPool.length)]
+    if (ccHit) her = ccHit
+    const kdPool = products.filter(p => p.gender === 'men' && p.category === 'garba')
+    const kdHit = kdPool.find(p => familyOf(cols[1] || cols[0]).includes(p.colour)) || kdPool[hashStr(cid + 'm') % Math.max(1, kdPool.length)]
+    if (kdHit) his = kdHit
+  }
   const prevCouple = prevCoupleById.get(cid)
   if (prevCouple && existsSync(join(OUT_COUPLE, `${cid}.jpg`))) {
     const prevHer = products.find(p => p.id === prevCouple.herProductIds[0])

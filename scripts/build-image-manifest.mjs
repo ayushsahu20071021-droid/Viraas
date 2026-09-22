@@ -98,7 +98,11 @@ function apparelPrompt(p, extra = '') {
   const env = pick(ENVIRONMENTS, p.id + 'env')
   const pose = p.gender === 'men' ? pick(POSES_M, p.id + 'pose') : pick(POSES_F, p.id + 'pose')
   const light = pick(LIGHT, p.id + 'light')
-  return `Luxury contemporary Indian fashion editorial photograph, ${MANNEQUIN} wearing ${p.title.toLowerCase()} — a ${p.silhouette.toLowerCase()} styled for ${occOf(p)}, in ${p.colour.toLowerCase()}${colour2}${craft}, ${fabOf(p) ? fabOf(p).toLowerCase() + ' with realistic weave and texture' : 'realistic textile texture'}. ${pose}, set in ${env}, ${light}. Modern 2026 Indian traditional fashion aesthetic for young adults, natural garment drape and realistic folds, detailed stitching, complete outfit visible head to toe with matching Indian footwear visible, full-body composition with headroom, premium magazine quality, original composition, ${extra}no face, no text, no logos, no watermark. ${NEGATIVE}`
+  // Gujarati Garba visual language (directive §7/§8): must pass the "cover the word Garba" test
+  const ccExtra = /chaniya/i.test(p.silhouette)
+    ? 'The outfit is the classic Gujarati Garba trio — a fully flared gathered chaniya skirt with contrast border, a fitted choli, and a coordinating odhani dupatta draped over one shoulder — with traditional mirror/Bandhani/Kutchi detailing and a single oxidised-silver jewellery accent, dandiya-ready with visible twirl in the skirt. '
+    : ''
+  return `Luxury contemporary Indian fashion editorial photograph, ${MANNEQUIN} wearing ${p.title.toLowerCase()} — a ${p.silhouette.toLowerCase()} styled for ${occOf(p)}, in ${p.colour.toLowerCase()}${colour2}${craft}, ${fabOf(p) ? fabOf(p).toLowerCase() + ' with realistic weave and texture' : 'realistic textile texture'}. ${ccExtra}${pose}, set in ${env}, ${light}. Modern 2026 Indian traditional fashion aesthetic for young adults, natural garment drape and realistic folds, detailed stitching, complete outfit visible head to toe with matching Indian footwear visible, full-body composition with headroom, premium magazine quality, original composition, ${extra}no face, no text, no logos, no watermark. ${NEGATIVE}`
 }
 
 function accessoryPrompt(p) {

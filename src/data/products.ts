@@ -385,6 +385,32 @@ export function filterProducts(
     sort === 'newest' ? (b.styleTags.includes('New In') ? 1 : 0) - (a.styleTags.includes('New In') ? 1 : 0) || b.price - a.price :
     (b.styleTags.length - a.styleTags.length) || (b.occasions.length - a.occasions.length) || b.price - a.price,
   )
+  // Silhouette-diversity presentation (visual-mix directive): the default
+  // "recommended" view interleaves categories round-robin so no first page
+  // reads as a wall of one garment type. Filters/sorting still order normally
+  // within their pools; search ranking is untouched.
+  if (sort === 'recommended' && pool.length > 6) {
+    const byCat = new Map<string, Product[]>()
+    for (const p of pool) {
+      const arr = byCat.get(p.category)
+      if (arr) arr.push(p)
+      else byCat.set(p.category, [p])
+    }
+    if (byCat.size > 1) {
+      const cats = [...byCat.values()].sort((a, b) => b.length - a.length)
+      const mixed: Product[] = []
+      let added = true
+      while (added) {
+        added = false
+        for (const c of cats) {
+          const next = c.shift()
+          if (next) { mixed.push(next); added = true }
+        }
+      }
+      pool.length = 0
+      pool.push(...mixed)
+    }
+  }
   const pageSize = opts.pageSize ?? pool.length
   const pages = Math.max(1, Math.ceil(pool.length / pageSize))
   const page = Math.min(Math.max(1, opts.page ?? 1), pages)
