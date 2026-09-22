@@ -2,7 +2,7 @@ import { useState, useEffect, useRef } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { Search, Heart, Sparkles, Menu, X, ChevronDown } from 'lucide-react';
 import { categoriesForGender, getProductsByOccasion } from '../data/products';
-import { occasions } from '../data/occasions';
+import { featuredOccasions } from '../data/occasions';
 import { BUDGET_RANGES } from '../data/products';
 
 const womenCategories = categoriesForGender('women').map((c) => ({ key: c.key, label: c.label, count: c.count }));
@@ -157,7 +157,7 @@ export default function Header() {
               <div>
                 <p className="text-xs font-semibold tracking-widest text-[#B7945A] uppercase mb-4">Occasions</p>
                 <ul className="space-y-2">
-                  {occasions.slice(0, 9).map(o => (
+                  {featuredOccasions.slice(0, 9).map(o => (
                     <li key={o.id}>
                       <Link
                         to={`/occasions/${o.id}`}
@@ -233,7 +233,7 @@ export default function Header() {
               <div>
                 <p className="text-xs font-semibold tracking-widest text-[#B7945A] uppercase mb-4">Occasions</p>
                 <ul className="space-y-2">
-                  {occasions.slice(0, 9).map(o => (
+                  {featuredOccasions.slice(0, 9).map(o => (
                     <li key={o.id}>
                       <Link
                         to={`/occasions/${o.id}`}
@@ -291,7 +291,7 @@ export default function Header() {
             <div className="max-w-screen-xl mx-auto px-8 py-8">
               <p className="text-xs font-semibold tracking-widest text-[#B7945A] uppercase mb-6">Shop by Occasion</p>
               <div className="grid grid-cols-4 gap-4">
-                {occasions.map(o => (
+                {featuredOccasions.map(o => (
                   <Link
                     key={o.id}
                     to={`/occasions/${o.id}`}

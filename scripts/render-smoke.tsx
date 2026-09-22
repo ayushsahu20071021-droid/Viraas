@@ -77,6 +77,9 @@ const pages: Array<[string, React.ReactElement]> = [
   ['/try-on', <TryOnPage />],
   ['/occasions', <OccasionsPage />],
   ['/occasions/diwali', <OccasionsPage />],
+  ['/occasions/garba', <OccasionsPage />],
+  ['/occasions/navratri', <OccasionsPage />],
+  ['/occasions/college-fest', <OccasionsPage />],
   ['/journal', <JournalPage />],
   ['/journal/the-organza-decode', <JournalPage />],
   ['/about', <AboutPage />], ['/contact', <ContactPage />], ['/faq', <FAQPage />], ['/privacy', <PrivacyPage />],
@@ -93,7 +96,7 @@ for (const [name, el] of pages) {
     let route = <Route path={name.split('?')[0]} element={el} />
     let initial = name
     if (name === '/search?q=saree') { route = <Route path="/search" element={el} />; initial = '/search?q=saree' }
-    if (name === '/occasions/diwali') { route = <Route path="/occasions/:id" element={el} />; initial = '/occasions/diwali' }
+    if (name.startsWith('/occasions/')) { route = <Route path="/occasions/:id" element={el} />; initial = name }
     if (name === '/journal/the-organza-decode') { route = <Route path="/journal/:slug" element={el} />; initial = '/journal/the-organza-decode' }
     const html = renderToStaticMarkup(<MemoryRouter initialEntries={[initial]}><Routes>{route}</Routes></MemoryRouter>)
     if (!html || html.length < 50) fail(`page ${name} (empty output)`, 'too short')
@@ -125,6 +128,12 @@ for (const lid of [looksJson[0]?.id, 'couple-sage-silk', couplesJson[0]?.id].fil
     ok(`page /look/${lid}`)
   } catch (e) { fail(`page /look/${lid}`, e) }
 }
+
+// Required production priority route: Garba category filter.
+try {
+  renderToStaticMarkup(<MemoryRouter initialEntries={['/men?category=garba']}><Routes><Route path="/men" element={<CategoryPage gender="men" title="For Him" subtitle="s" heroImage="/images/hero-men.jpg" />} /></Routes></MemoryRouter>)
+  ok('page /men?category=garba')
+} catch (e) { fail('page /men?category=garba', e) }
 
 // filtered category page (all query facets at once)
 try {

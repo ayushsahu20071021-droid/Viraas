@@ -1,0 +1,4351 @@
+{
+ "generatedAt": "2026-09-20",
+ "productPrimaryFormat": "jpg",
+ "productPrimaryCount": 653,
+ "couplePrimaryFormat": "jpg",
+ "couplePrimaryCount": 60,
+ "productPrimaryDirectory": "/images/production-products",
+ "preservedFallbackDirectory": "/images/products",
+ "productPrimaries": [
+  {
+   "id": "w-saree-drape-01",
+   "imageUrl": "/images/production-products/w-saree-drape-01.jpg",
+   "category": "sarees",
+   "gender": "women"
+  },
+  {
+   "id": "w-saree-drape-02",
+   "imageUrl": "/images/production-products/w-saree-drape-02.jpg",
+   "category": "sarees",
+   "gender": "women"
+  },
+  {
+   "id": "w-saree-drape-03",
+   "imageUrl": "/images/production-products/w-saree-drape-03.jpg",
+   "category": "sarees",
+   "gender": "women"
+  },
+  {
+   "id": "w-saree-drape-04",
+   "imageUrl": "/images/production-products/w-saree-drape-04.jpg",
+   "category": "sarees",
+   "gender": "women"
+  },
+  {
+   "id": "w-saree-drape-05",
+   "imageUrl": "/images/production-products/w-saree-drape-05.jpg",
+   "category": "sarees",
+   "gender": "women"
+  },
+  {
+   "id": "w-saree-drape-06",
+   "imageUrl": "/images/production-products/w-saree-drape-06.jpg",
+   "category": "sarees",
+   "gender": "women"
+  },
+  {
+   "id": "w-saree-drape-07",
+   "imageUrl": "/images/production-products/w-saree-drape-07.jpg",
+   "category": "sarees",
+   "gender": "women"
+  },
+  {
+   "id": "w-saree-drape-08",
+   "imageUrl": "/images/production-products/w-saree-drape-08.jpg",
+   "category": "sarees",
+   "gender": "women"
+  },
+  {
+   "id": "w-saree-predrape-satin-01",
+   "imageUrl": "/images/production-products/w-saree-predrape-satin-01.jpg",
+   "category": "sarees",
+   "gender": "women"
+  },
+  {
+   "id": "w-saree-predrape-satin-02",
+   "imageUrl": "/images/production-products/w-saree-predrape-satin-02.jpg",
+   "category": "sarees",
+   "gender": "women"
+  },
+  {
+   "id": "w-saree-predrape-satin-03",
+   "imageUrl": "/images/production-products/w-saree-predrape-satin-03.jpg",
+   "category": "sarees",
+   "gender": "women"
+  },
+  {
+   "id": "w-saree-predrape-satin-04",
+   "imageUrl": "/images/production-products/w-saree-predrape-satin-04.jpg",
+   "category": "sarees",
+   "gender": "women"
+  },
+  {
+   "id": "w-saree-predrape-satin-05",
+   "imageUrl": "/images/production-products/w-saree-predrape-satin-05.jpg",
+   "category": "sarees",
+   "gender": "women"
+  },
+  {
+   "id": "w-saree-predrape-net-01",
+   "imageUrl": "/images/production-products/w-saree-predrape-net-01.jpg",
+   "category": "sarees",
+   "gender": "women"
+  },
+  {
+   "id": "w-saree-predrape-net-02",
+   "imageUrl": "/images/production-products/w-saree-predrape-net-02.jpg",
+   "category": "sarees",
+   "gender": "women"
+  },
+  {
+   "id": "w-saree-predrape-net-03",
+   "imageUrl": "/images/production-products/w-saree-predrape-net-03.jpg",
+   "category": "sarees",
+   "gender": "women"
+  },
+  {
+   "id": "w-saree-predrape-net-04",
+   "imageUrl": "/images/production-products/w-saree-predrape-net-04.jpg",
+   "category": "sarees",
+   "gender": "women"
+  },
+  {
+   "id": "w-saree-organza-01",
+   "imageUrl": "/images/production-products/w-saree-organza-01.jpg",
+   "category": "sarees",
+   "gender": "women"
+  },
+  {
+   "id": "w-saree-organza-02",
+   "imageUrl": "/images/production-products/w-saree-organza-02.jpg",
+   "category": "sarees",
+   "gender": "women"
+  },
+  {
+   "id": "w-saree-organza-03",
+   "imageUrl": "/images/production-products/w-saree-organza-03.jpg",
+   "category": "sarees",
+   "gender": "women"
+  },
+  {
+   "id": "w-saree-organza-04",
+   "imageUrl": "/images/production-products/w-saree-organza-04.jpg",
+   "category": "sarees",
+   "gender": "women"
+  },
+  {
+   "id": "w-saree-organza-05",
+   "imageUrl": "/images/production-products/w-saree-organza-05.jpg",
+   "category": "sarees",
+   "gender": "women"
+  },
+  {
+   "id": "w-saree-organza-06",
+   "imageUrl": "/images/production-products/w-saree-organza-06.jpg",
+   "category": "sarees",
+   "gender": "women"
+  },
+  {
+   "id": "w-saree-georgette-soft-01",
+   "imageUrl": "/images/production-products/w-saree-georgette-soft-01.jpg",
+   "category": "sarees",
+   "gender": "women"
+  },
+  {
+   "id": "w-saree-georgette-soft-02",
+   "imageUrl": "/images/production-products/w-saree-georgette-soft-02.jpg",
+   "category": "sarees",
+   "gender": "women"
+  },
+  {
+   "id": "w-saree-georgette-soft-03",
+   "imageUrl": "/images/production-products/w-saree-georgette-soft-03.jpg",
+   "category": "sarees",
+   "gender": "women"
+  },
+  {
+   "id": "w-saree-georgette-soft-04",
+   "imageUrl": "/images/production-products/w-saree-georgette-soft-04.jpg",
+   "category": "sarees",
+   "gender": "women"
+  },
+  {
+   "id": "w-saree-georgette-soft-05",
+   "imageUrl": "/images/production-products/w-saree-georgette-soft-05.jpg",
+   "category": "sarees",
+   "gender": "women"
+  },
+  {
+   "id": "w-saree-georgette-soft-06",
+   "imageUrl": "/images/production-products/w-saree-georgette-soft-06.jpg",
+   "category": "sarees",
+   "gender": "women"
+  },
+  {
+   "id": "w-saree-tissue-01",
+   "imageUrl": "/images/production-products/w-saree-tissue-01.jpg",
+   "category": "sarees",
+   "gender": "women"
+  },
+  {
+   "id": "w-saree-tissue-02",
+   "imageUrl": "/images/production-products/w-saree-tissue-02.jpg",
+   "category": "sarees",
+   "gender": "women"
+  },
+  {
+   "id": "w-saree-tissue-03",
+   "imageUrl": "/images/production-products/w-saree-tissue-03.jpg",
+   "category": "sarees",
+   "gender": "women"
+  },
+  {
+   "id": "w-saree-chanderi-01",
+   "imageUrl": "/images/production-products/w-saree-chanderi-01.jpg",
+   "category": "sarees",
+   "gender": "women"
+  },
+  {
+   "id": "w-saree-chanderi-02",
+   "imageUrl": "/images/production-products/w-saree-chanderi-02.jpg",
+   "category": "sarees",
+   "gender": "women"
+  },
+  {
+   "id": "w-saree-chanderi-03",
+   "imageUrl": "/images/production-products/w-saree-chanderi-03.jpg",
+   "category": "sarees",
+   "gender": "women"
+  },
+  {
+   "id": "w-saree-chanderi-04",
+   "imageUrl": "/images/production-products/w-saree-chanderi-04.jpg",
+   "category": "sarees",
+   "gender": "women"
+  },
+  {
+   "id": "w-saree-silk-01",
+   "imageUrl": "/images/production-products/w-saree-silk-01.jpg",
+   "category": "sarees",
+   "gender": "women"
+  },
+  {
+   "id": "w-saree-silk-02",
+   "imageUrl": "/images/production-products/w-saree-silk-02.jpg",
+   "category": "sarees",
+   "gender": "women"
+  },
+  {
+   "id": "w-saree-silk-03",
+   "imageUrl": "/images/production-products/w-saree-silk-03.jpg",
+   "category": "sarees",
+   "gender": "women"
+  },
+  {
+   "id": "w-saree-silk-04",
+   "imageUrl": "/images/production-products/w-saree-silk-04.jpg",
+   "category": "sarees",
+   "gender": "women"
+  },
+  {
+   "id": "w-saree-silk-05",
+   "imageUrl": "/images/production-products/w-saree-silk-05.jpg",
+   "category": "sarees",
+   "gender": "women"
+  },
+  {
+   "id": "w-saree-satin-slip-01",
+   "imageUrl": "/images/production-products/w-saree-satin-slip-01.jpg",
+   "category": "sarees",
+   "gender": "women"
+  },
+  {
+   "id": "w-saree-satin-slip-02",
+   "imageUrl": "/images/production-products/w-saree-satin-slip-02.jpg",
+   "category": "sarees",
+   "gender": "women"
+  },
+  {
+   "id": "w-saree-satin-slip-03",
+   "imageUrl": "/images/production-products/w-saree-satin-slip-03.jpg",
+   "category": "sarees",
+   "gender": "women"
+  },
+  {
+   "id": "w-saree-satin-slip-04",
+   "imageUrl": "/images/production-products/w-saree-satin-slip-04.jpg",
+   "category": "sarees",
+   "gender": "women"
+  },
+  {
+   "id": "w-saree-velvet-01",
+   "imageUrl": "/images/production-products/w-saree-velvet-01.jpg",
+   "category": "sarees",
+   "gender": "women"
+  },
+  {
+   "id": "w-saree-velvet-02",
+   "imageUrl": "/images/production-products/w-saree-velvet-02.jpg",
+   "category": "sarees",
+   "gender": "women"
+  },
+  {
+   "id": "w-saree-velvet-03",
+   "imageUrl": "/images/production-products/w-saree-velvet-03.jpg",
+   "category": "sarees",
+   "gender": "women"
+  },
+  {
+   "id": "w-saree-linen-01",
+   "imageUrl": "/images/production-products/w-saree-linen-01.jpg",
+   "category": "sarees",
+   "gender": "women"
+  },
+  {
+   "id": "w-saree-linen-02",
+   "imageUrl": "/images/production-products/w-saree-linen-02.jpg",
+   "category": "sarees",
+   "gender": "women"
+  },
+  {
+   "id": "w-saree-linen-03",
+   "imageUrl": "/images/production-products/w-saree-linen-03.jpg",
+   "category": "sarees",
+   "gender": "women"
+  },
+  {
+   "id": "w-saree-linen-04",
+   "imageUrl": "/images/production-products/w-saree-linen-04.jpg",
+   "category": "sarees",
+   "gender": "women"
+  },
+  {
+   "id": "w-saree-hcotton-01",
+   "imageUrl": "/images/production-products/w-saree-hcotton-01.jpg",
+   "category": "sarees",
+   "gender": "women"
+  },
+  {
+   "id": "w-saree-hcotton-02",
+   "imageUrl": "/images/production-products/w-saree-hcotton-02.jpg",
+   "category": "sarees",
+   "gender": "women"
+  },
+  {
+   "id": "w-saree-hcotton-03",
+   "imageUrl": "/images/production-products/w-saree-hcotton-03.jpg",
+   "category": "sarees",
+   "gender": "women"
+  },
+  {
+   "id": "w-saree-hcotton-04",
+   "imageUrl": "/images/production-products/w-saree-hcotton-04.jpg",
+   "category": "sarees",
+   "gender": "women"
+  },
+  {
+   "id": "w-saree-buti-01",
+   "imageUrl": "/images/production-products/w-saree-buti-01.jpg",
+   "category": "sarees",
+   "gender": "women"
+  },
+  {
+   "id": "w-saree-buti-02",
+   "imageUrl": "/images/production-products/w-saree-buti-02.jpg",
+   "category": "sarees",
+   "gender": "women"
+  },
+  {
+   "id": "w-saree-buti-03",
+   "imageUrl": "/images/production-products/w-saree-buti-03.jpg",
+   "category": "sarees",
+   "gender": "women"
+  },
+  {
+   "id": "w-saree-banarasi-01",
+   "imageUrl": "/images/production-products/w-saree-banarasi-01.jpg",
+   "category": "sarees",
+   "gender": "women"
+  },
+  {
+   "id": "w-saree-banarasi-02",
+   "imageUrl": "/images/production-products/w-saree-banarasi-02.jpg",
+   "category": "sarees",
+   "gender": "women"
+  },
+  {
+   "id": "w-saree-banarasi-03",
+   "imageUrl": "/images/production-products/w-saree-banarasi-03.jpg",
+   "category": "sarees",
+   "gender": "women"
+  },
+  {
+   "id": "w-saree-banarasi-04",
+   "imageUrl": "/images/production-products/w-saree-banarasi-04.jpg",
+   "category": "sarees",
+   "gender": "women"
+  },
+  {
+   "id": "w-saree-handloom-ikkat-01",
+   "imageUrl": "/images/production-products/w-saree-handloom-ikkat-01.jpg",
+   "category": "sarees",
+   "gender": "women"
+  },
+  {
+   "id": "w-saree-handloom-ikkat-02",
+   "imageUrl": "/images/production-products/w-saree-handloom-ikkat-02.jpg",
+   "category": "sarees",
+   "gender": "women"
+  },
+  {
+   "id": "w-saree-handloom-ikkat-03",
+   "imageUrl": "/images/production-products/w-saree-handloom-ikkat-03.jpg",
+   "category": "sarees",
+   "gender": "women"
+  },
+  {
+   "id": "w-saree-handloom-ikkat-04",
+   "imageUrl": "/images/production-products/w-saree-handloom-ikkat-04.jpg",
+   "category": "sarees",
+   "gender": "women"
+  },
+  {
+   "id": "w-predrape-banarasi-01",
+   "imageUrl": "/images/production-products/w-predrape-banarasi-01.jpg",
+   "category": "sarees",
+   "gender": "women"
+  },
+  {
+   "id": "w-predrape-banarasi-02",
+   "imageUrl": "/images/production-products/w-predrape-banarasi-02.jpg",
+   "category": "sarees",
+   "gender": "women"
+  },
+  {
+   "id": "w-predrape-banarasi-03",
+   "imageUrl": "/images/production-products/w-predrape-banarasi-03.jpg",
+   "category": "sarees",
+   "gender": "women"
+  },
+  {
+   "id": "w-predrape-organza-01",
+   "imageUrl": "/images/production-products/w-predrape-organza-01.jpg",
+   "category": "sarees",
+   "gender": "women"
+  },
+  {
+   "id": "w-predrape-organza-02",
+   "imageUrl": "/images/production-products/w-predrape-organza-02.jpg",
+   "category": "sarees",
+   "gender": "women"
+  },
+  {
+   "id": "w-predrape-organza-03",
+   "imageUrl": "/images/production-products/w-predrape-organza-03.jpg",
+   "category": "sarees",
+   "gender": "women"
+  },
+  {
+   "id": "w-predrape-organza-04",
+   "imageUrl": "/images/production-products/w-predrape-organza-04.jpg",
+   "category": "sarees",
+   "gender": "women"
+  },
+  {
+   "id": "w-predrape-organza-05",
+   "imageUrl": "/images/production-products/w-predrape-organza-05.jpg",
+   "category": "sarees",
+   "gender": "women"
+  },
+  {
+   "id": "w-predrape-chiffon-01",
+   "imageUrl": "/images/production-products/w-predrape-chiffon-01.jpg",
+   "category": "sarees",
+   "gender": "women"
+  },
+  {
+   "id": "w-predrape-chiffon-02",
+   "imageUrl": "/images/production-products/w-predrape-chiffon-02.jpg",
+   "category": "sarees",
+   "gender": "women"
+  },
+  {
+   "id": "w-predrape-chiffon-03",
+   "imageUrl": "/images/production-products/w-predrape-chiffon-03.jpg",
+   "category": "sarees",
+   "gender": "women"
+  },
+  {
+   "id": "w-saree-concept-1-01",
+   "imageUrl": "/images/production-products/w-saree-concept-1-01.jpg",
+   "category": "sarees",
+   "gender": "women"
+  },
+  {
+   "id": "w-saree-concept-1-02",
+   "imageUrl": "/images/production-products/w-saree-concept-1-02.jpg",
+   "category": "sarees",
+   "gender": "women"
+  },
+  {
+   "id": "w-saree-concept-1-03",
+   "imageUrl": "/images/production-products/w-saree-concept-1-03.jpg",
+   "category": "sarees",
+   "gender": "women"
+  },
+  {
+   "id": "w-saree-concept-2-01",
+   "imageUrl": "/images/production-products/w-saree-concept-2-01.jpg",
+   "category": "sarees",
+   "gender": "women"
+  },
+  {
+   "id": "w-saree-concept-2-02",
+   "imageUrl": "/images/production-products/w-saree-concept-2-02.jpg",
+   "category": "sarees",
+   "gender": "women"
+  },
+  {
+   "id": "w-saree-concept-2-03",
+   "imageUrl": "/images/production-products/w-saree-concept-2-03.jpg",
+   "category": "sarees",
+   "gender": "women"
+  },
+  {
+   "id": "w-saree-concept-3-01",
+   "imageUrl": "/images/production-products/w-saree-concept-3-01.jpg",
+   "category": "sarees",
+   "gender": "women"
+  },
+  {
+   "id": "w-saree-concept-3-02",
+   "imageUrl": "/images/production-products/w-saree-concept-3-02.jpg",
+   "category": "sarees",
+   "gender": "women"
+  },
+  {
+   "id": "w-saree-concept-3-03",
+   "imageUrl": "/images/production-products/w-saree-concept-3-03.jpg",
+   "category": "sarees",
+   "gender": "women"
+  },
+  {
+   "id": "w-saree-gown-01",
+   "imageUrl": "/images/production-products/w-saree-gown-01.jpg",
+   "category": "sarees",
+   "gender": "women"
+  },
+  {
+   "id": "w-saree-gown-02",
+   "imageUrl": "/images/production-products/w-saree-gown-02.jpg",
+   "category": "sarees",
+   "gender": "women"
+  },
+  {
+   "id": "w-saree-gown-03",
+   "imageUrl": "/images/production-products/w-saree-gown-03.jpg",
+   "category": "sarees",
+   "gender": "women"
+  },
+  {
+   "id": "w-kurtiset-anarkali-01",
+   "imageUrl": "/images/production-products/w-kurtiset-anarkali-01.jpg",
+   "category": "kurta-sets",
+   "gender": "women"
+  },
+  {
+   "id": "w-kurtiset-anarkali-02",
+   "imageUrl": "/images/production-products/w-kurtiset-anarkali-02.jpg",
+   "category": "kurta-sets",
+   "gender": "women"
+  },
+  {
+   "id": "w-kurtiset-anarkali-03",
+   "imageUrl": "/images/production-products/w-kurtiset-anarkali-03.jpg",
+   "category": "kurta-sets",
+   "gender": "women"
+  },
+  {
+   "id": "w-kurtiset-anarkali-04",
+   "imageUrl": "/images/production-products/w-kurtiset-anarkali-04.jpg",
+   "category": "kurta-sets",
+   "gender": "women"
+  },
+  {
+   "id": "w-kurtiset-anarkali-05",
+   "imageUrl": "/images/production-products/w-kurtiset-anarkali-05.jpg",
+   "category": "kurta-sets",
+   "gender": "women"
+  },
+  {
+   "id": "w-kurtiset-anarkali-06",
+   "imageUrl": "/images/production-products/w-kurtiset-anarkali-06.jpg",
+   "category": "kurta-sets",
+   "gender": "women"
+  },
+  {
+   "id": "w-kurtiset-sharara-01",
+   "imageUrl": "/images/production-products/w-kurtiset-sharara-01.jpg",
+   "category": "kurta-sets",
+   "gender": "women"
+  },
+  {
+   "id": "w-kurtiset-sharara-02",
+   "imageUrl": "/images/production-products/w-kurtiset-sharara-02.jpg",
+   "category": "kurta-sets",
+   "gender": "women"
+  },
+  {
+   "id": "w-kurtiset-sharara-03",
+   "imageUrl": "/images/production-products/w-kurtiset-sharara-03.jpg",
+   "category": "kurta-sets",
+   "gender": "women"
+  },
+  {
+   "id": "w-kurtiset-sharara-04",
+   "imageUrl": "/images/production-products/w-kurtiset-sharara-04.jpg",
+   "category": "kurta-sets",
+   "gender": "women"
+  },
+  {
+   "id": "w-kurtiset-gharara-01",
+   "imageUrl": "/images/production-products/w-kurtiset-gharara-01.jpg",
+   "category": "kurta-sets",
+   "gender": "women"
+  },
+  {
+   "id": "w-kurtiset-gharara-02",
+   "imageUrl": "/images/production-products/w-kurtiset-gharara-02.jpg",
+   "category": "kurta-sets",
+   "gender": "women"
+  },
+  {
+   "id": "w-kurtiset-gharara-03",
+   "imageUrl": "/images/production-products/w-kurtiset-gharara-03.jpg",
+   "category": "kurta-sets",
+   "gender": "women"
+  },
+  {
+   "id": "w-kurtiset-palazzo-01",
+   "imageUrl": "/images/production-products/w-kurtiset-palazzo-01.jpg",
+   "category": "kurta-sets",
+   "gender": "women"
+  },
+  {
+   "id": "w-kurtiset-palazzo-02",
+   "imageUrl": "/images/production-products/w-kurtiset-palazzo-02.jpg",
+   "category": "kurta-sets",
+   "gender": "women"
+  },
+  {
+   "id": "w-kurtiset-palazzo-03",
+   "imageUrl": "/images/production-products/w-kurtiset-palazzo-03.jpg",
+   "category": "kurta-sets",
+   "gender": "women"
+  },
+  {
+   "id": "w-kurtiset-palazzo-04",
+   "imageUrl": "/images/production-products/w-kurtiset-palazzo-04.jpg",
+   "category": "kurta-sets",
+   "gender": "women"
+  },
+  {
+   "id": "w-kurtiset-palazzo-05",
+   "imageUrl": "/images/production-products/w-kurtiset-palazzo-05.jpg",
+   "category": "kurta-sets",
+   "gender": "women"
+  },
+  {
+   "id": "w-kurtiset-silk-01",
+   "imageUrl": "/images/production-products/w-kurtiset-silk-01.jpg",
+   "category": "kurta-sets",
+   "gender": "women"
+  },
+  {
+   "id": "w-kurtiset-silk-02",
+   "imageUrl": "/images/production-products/w-kurtiset-silk-02.jpg",
+   "category": "kurta-sets",
+   "gender": "women"
+  },
+  {
+   "id": "w-kurtiset-silk-03",
+   "imageUrl": "/images/production-products/w-kurtiset-silk-03.jpg",
+   "category": "kurta-sets",
+   "gender": "women"
+  },
+  {
+   "id": "w-kurtiset-silk-04",
+   "imageUrl": "/images/production-products/w-kurtiset-silk-04.jpg",
+   "category": "kurta-sets",
+   "gender": "women"
+  },
+  {
+   "id": "w-kurtiset-straight-01",
+   "imageUrl": "/images/production-products/w-kurtiset-straight-01.jpg",
+   "category": "kurta-sets",
+   "gender": "women"
+  },
+  {
+   "id": "w-kurtiset-straight-02",
+   "imageUrl": "/images/production-products/w-kurtiset-straight-02.jpg",
+   "category": "kurta-sets",
+   "gender": "women"
+  },
+  {
+   "id": "w-kurtiset-straight-03",
+   "imageUrl": "/images/production-products/w-kurtiset-straight-03.jpg",
+   "category": "kurta-sets",
+   "gender": "women"
+  },
+  {
+   "id": "w-kurtiset-straight-04",
+   "imageUrl": "/images/production-products/w-kurtiset-straight-04.jpg",
+   "category": "kurta-sets",
+   "gender": "women"
+  },
+  {
+   "id": "w-kurtiset-straight-05",
+   "imageUrl": "/images/production-products/w-kurtiset-straight-05.jpg",
+   "category": "kurta-sets",
+   "gender": "women"
+  },
+  {
+   "id": "w-kurtiset-straight-06",
+   "imageUrl": "/images/production-products/w-kurtiset-straight-06.jpg",
+   "category": "kurta-sets",
+   "gender": "women"
+  },
+  {
+   "id": "w-kurtiset-straight-07",
+   "imageUrl": "/images/production-products/w-kurtiset-straight-07.jpg",
+   "category": "kurta-sets",
+   "gender": "women"
+  },
+  {
+   "id": "w-kurtiset-straight-08",
+   "imageUrl": "/images/production-products/w-kurtiset-straight-08.jpg",
+   "category": "kurta-sets",
+   "gender": "women"
+  },
+  {
+   "id": "w-kurtiset-aline-01",
+   "imageUrl": "/images/production-products/w-kurtiset-aline-01.jpg",
+   "category": "kurta-sets",
+   "gender": "women"
+  },
+  {
+   "id": "w-kurtiset-aline-02",
+   "imageUrl": "/images/production-products/w-kurtiset-aline-02.jpg",
+   "category": "kurta-sets",
+   "gender": "women"
+  },
+  {
+   "id": "w-kurtiset-aline-03",
+   "imageUrl": "/images/production-products/w-kurtiset-aline-03.jpg",
+   "category": "kurta-sets",
+   "gender": "women"
+  },
+  {
+   "id": "w-kurtiset-aline-04",
+   "imageUrl": "/images/production-products/w-kurtiset-aline-04.jpg",
+   "category": "kurta-sets",
+   "gender": "women"
+  },
+  {
+   "id": "w-kurtiset-aline-05",
+   "imageUrl": "/images/production-products/w-kurtiset-aline-05.jpg",
+   "category": "kurta-sets",
+   "gender": "women"
+  },
+  {
+   "id": "w-kurtiset-aline-06",
+   "imageUrl": "/images/production-products/w-kurtiset-aline-06.jpg",
+   "category": "kurta-sets",
+   "gender": "women"
+  },
+  {
+   "id": "w-kurtiset-highlow-01",
+   "imageUrl": "/images/production-products/w-kurtiset-highlow-01.jpg",
+   "category": "kurta-sets",
+   "gender": "women"
+  },
+  {
+   "id": "w-kurtiset-highlow-02",
+   "imageUrl": "/images/production-products/w-kurtiset-highlow-02.jpg",
+   "category": "kurta-sets",
+   "gender": "women"
+  },
+  {
+   "id": "w-kurtiset-highlow-03",
+   "imageUrl": "/images/production-products/w-kurtiset-highlow-03.jpg",
+   "category": "kurta-sets",
+   "gender": "women"
+  },
+  {
+   "id": "w-kurtiset-highlow-04",
+   "imageUrl": "/images/production-products/w-kurtiset-highlow-04.jpg",
+   "category": "kurta-sets",
+   "gender": "women"
+  },
+  {
+   "id": "w-kurtiset-asym-01",
+   "imageUrl": "/images/production-products/w-kurtiset-asym-01.jpg",
+   "category": "kurta-sets",
+   "gender": "women"
+  },
+  {
+   "id": "w-kurtiset-asym-02",
+   "imageUrl": "/images/production-products/w-kurtiset-asym-02.jpg",
+   "category": "kurta-sets",
+   "gender": "women"
+  },
+  {
+   "id": "w-kurtiset-asym-03",
+   "imageUrl": "/images/production-products/w-kurtiset-asym-03.jpg",
+   "category": "kurta-sets",
+   "gender": "women"
+  },
+  {
+   "id": "w-kurtiset-asym-04",
+   "imageUrl": "/images/production-products/w-kurtiset-asym-04.jpg",
+   "category": "kurta-sets",
+   "gender": "women"
+  },
+  {
+   "id": "w-kurtiset-dhoti-01",
+   "imageUrl": "/images/production-products/w-kurtiset-dhoti-01.jpg",
+   "category": "kurta-sets",
+   "gender": "women"
+  },
+  {
+   "id": "w-kurtiset-dhoti-02",
+   "imageUrl": "/images/production-products/w-kurtiset-dhoti-02.jpg",
+   "category": "kurta-sets",
+   "gender": "women"
+  },
+  {
+   "id": "w-kurtiset-dhoti-03",
+   "imageUrl": "/images/production-products/w-kurtiset-dhoti-03.jpg",
+   "category": "kurta-sets",
+   "gender": "women"
+  },
+  {
+   "id": "w-kurtiset-dupatta-01",
+   "imageUrl": "/images/production-products/w-kurtiset-dupatta-01.jpg",
+   "category": "kurta-sets",
+   "gender": "women"
+  },
+  {
+   "id": "w-kurtiset-dupatta-02",
+   "imageUrl": "/images/production-products/w-kurtiset-dupatta-02.jpg",
+   "category": "kurta-sets",
+   "gender": "women"
+  },
+  {
+   "id": "w-kurtiset-dupatta-03",
+   "imageUrl": "/images/production-products/w-kurtiset-dupatta-03.jpg",
+   "category": "kurta-sets",
+   "gender": "women"
+  },
+  {
+   "id": "w-kurtiset-dupatta-04",
+   "imageUrl": "/images/production-products/w-kurtiset-dupatta-04.jpg",
+   "category": "kurta-sets",
+   "gender": "women"
+  },
+  {
+   "id": "w-kurtiset-dupatta-05",
+   "imageUrl": "/images/production-products/w-kurtiset-dupatta-05.jpg",
+   "category": "kurta-sets",
+   "gender": "women"
+  },
+  {
+   "id": "w-kurtiset-print-01",
+   "imageUrl": "/images/production-products/w-kurtiset-print-01.jpg",
+   "category": "kurta-sets",
+   "gender": "women"
+  },
+  {
+   "id": "w-kurtiset-print-02",
+   "imageUrl": "/images/production-products/w-kurtiset-print-02.jpg",
+   "category": "kurta-sets",
+   "gender": "women"
+  },
+  {
+   "id": "w-kurtiset-print-03",
+   "imageUrl": "/images/production-products/w-kurtiset-print-03.jpg",
+   "category": "kurta-sets",
+   "gender": "women"
+  },
+  {
+   "id": "w-kurtiset-print-04",
+   "imageUrl": "/images/production-products/w-kurtiset-print-04.jpg",
+   "category": "kurta-sets",
+   "gender": "women"
+  },
+  {
+   "id": "w-kurtiset-jacket-01",
+   "imageUrl": "/images/production-products/w-kurtiset-jacket-01.jpg",
+   "category": "kurta-sets",
+   "gender": "women"
+  },
+  {
+   "id": "w-kurtiset-jacket-02",
+   "imageUrl": "/images/production-products/w-kurtiset-jacket-02.jpg",
+   "category": "kurta-sets",
+   "gender": "women"
+  },
+  {
+   "id": "w-kurtiset-jacket-03",
+   "imageUrl": "/images/production-products/w-kurtiset-jacket-03.jpg",
+   "category": "kurta-sets",
+   "gender": "women"
+  },
+  {
+   "id": "w-kurtiset-jacket-04",
+   "imageUrl": "/images/production-products/w-kurtiset-jacket-04.jpg",
+   "category": "kurta-sets",
+   "gender": "women"
+  },
+  {
+   "id": "w-kurtiset-cape-01",
+   "imageUrl": "/images/production-products/w-kurtiset-cape-01.jpg",
+   "category": "kurta-sets",
+   "gender": "women"
+  },
+  {
+   "id": "w-kurtiset-cape-02",
+   "imageUrl": "/images/production-products/w-kurtiset-cape-02.jpg",
+   "category": "kurta-sets",
+   "gender": "women"
+  },
+  {
+   "id": "w-kurtiset-cape-03",
+   "imageUrl": "/images/production-products/w-kurtiset-cape-03.jpg",
+   "category": "kurta-sets",
+   "gender": "women"
+  },
+  {
+   "id": "w-coord-silk-01",
+   "imageUrl": "/images/production-products/w-coord-silk-01.jpg",
+   "category": "kurta-sets",
+   "gender": "women"
+  },
+  {
+   "id": "w-coord-silk-02",
+   "imageUrl": "/images/production-products/w-coord-silk-02.jpg",
+   "category": "kurta-sets",
+   "gender": "women"
+  },
+  {
+   "id": "w-coord-silk-03",
+   "imageUrl": "/images/production-products/w-coord-silk-03.jpg",
+   "category": "kurta-sets",
+   "gender": "women"
+  },
+  {
+   "id": "w-coord-silk-04",
+   "imageUrl": "/images/production-products/w-coord-silk-04.jpg",
+   "category": "kurta-sets",
+   "gender": "women"
+  },
+  {
+   "id": "w-coord-rawmango-01",
+   "imageUrl": "/images/production-products/w-coord-rawmango-01.jpg",
+   "category": "kurta-sets",
+   "gender": "women"
+  },
+  {
+   "id": "w-coord-rawmango-02",
+   "imageUrl": "/images/production-products/w-coord-rawmango-02.jpg",
+   "category": "kurta-sets",
+   "gender": "women"
+  },
+  {
+   "id": "w-coord-rawmango-03",
+   "imageUrl": "/images/production-products/w-coord-rawmango-03.jpg",
+   "category": "kurta-sets",
+   "gender": "women"
+  },
+  {
+   "id": "w-coord-rawmango-04",
+   "imageUrl": "/images/production-products/w-coord-rawmango-04.jpg",
+   "category": "kurta-sets",
+   "gender": "women"
+  },
+  {
+   "id": "w-coord-cotton-01",
+   "imageUrl": "/images/production-products/w-coord-cotton-01.jpg",
+   "category": "kurta-sets",
+   "gender": "women"
+  },
+  {
+   "id": "w-coord-cotton-02",
+   "imageUrl": "/images/production-products/w-coord-cotton-02.jpg",
+   "category": "kurta-sets",
+   "gender": "women"
+  },
+  {
+   "id": "w-coord-cotton-03",
+   "imageUrl": "/images/production-products/w-coord-cotton-03.jpg",
+   "category": "kurta-sets",
+   "gender": "women"
+  },
+  {
+   "id": "w-coord-cotton-04",
+   "imageUrl": "/images/production-products/w-coord-cotton-04.jpg",
+   "category": "kurta-sets",
+   "gender": "women"
+  },
+  {
+   "id": "w-coord-cotton-05",
+   "imageUrl": "/images/production-products/w-coord-cotton-05.jpg",
+   "category": "kurta-sets",
+   "gender": "women"
+  },
+  {
+   "id": "w-coord-viscose-01",
+   "imageUrl": "/images/production-products/w-coord-viscose-01.jpg",
+   "category": "kurta-sets",
+   "gender": "women"
+  },
+  {
+   "id": "w-coord-viscose-02",
+   "imageUrl": "/images/production-products/w-coord-viscose-02.jpg",
+   "category": "kurta-sets",
+   "gender": "women"
+  },
+  {
+   "id": "w-coord-viscose-03",
+   "imageUrl": "/images/production-products/w-coord-viscose-03.jpg",
+   "category": "kurta-sets",
+   "gender": "women"
+  },
+  {
+   "id": "w-coord-viscose-04",
+   "imageUrl": "/images/production-products/w-coord-viscose-04.jpg",
+   "category": "kurta-sets",
+   "gender": "women"
+  },
+  {
+   "id": "w-coord-satin-01",
+   "imageUrl": "/images/production-products/w-coord-satin-01.jpg",
+   "category": "kurta-sets",
+   "gender": "women"
+  },
+  {
+   "id": "w-coord-satin-02",
+   "imageUrl": "/images/production-products/w-coord-satin-02.jpg",
+   "category": "kurta-sets",
+   "gender": "women"
+  },
+  {
+   "id": "w-coord-satin-03",
+   "imageUrl": "/images/production-products/w-coord-satin-03.jpg",
+   "category": "kurta-sets",
+   "gender": "women"
+  },
+  {
+   "id": "w-coord-linen-01",
+   "imageUrl": "/images/production-products/w-coord-linen-01.jpg",
+   "category": "kurta-sets",
+   "gender": "women"
+  },
+  {
+   "id": "w-coord-linen-02",
+   "imageUrl": "/images/production-products/w-coord-linen-02.jpg",
+   "category": "kurta-sets",
+   "gender": "women"
+  },
+  {
+   "id": "w-coord-linen-03",
+   "imageUrl": "/images/production-products/w-coord-linen-03.jpg",
+   "category": "kurta-sets",
+   "gender": "women"
+  },
+  {
+   "id": "w-coord-crop-01",
+   "imageUrl": "/images/production-products/w-coord-crop-01.jpg",
+   "category": "kurta-sets",
+   "gender": "women"
+  },
+  {
+   "id": "w-coord-crop-02",
+   "imageUrl": "/images/production-products/w-coord-crop-02.jpg",
+   "category": "kurta-sets",
+   "gender": "women"
+  },
+  {
+   "id": "w-coord-crop-03",
+   "imageUrl": "/images/production-products/w-coord-crop-03.jpg",
+   "category": "kurta-sets",
+   "gender": "women"
+  },
+  {
+   "id": "w-coord-palazzo-01",
+   "imageUrl": "/images/production-products/w-coord-palazzo-01.jpg",
+   "category": "kurta-sets",
+   "gender": "women"
+  },
+  {
+   "id": "w-coord-palazzo-02",
+   "imageUrl": "/images/production-products/w-coord-palazzo-02.jpg",
+   "category": "kurta-sets",
+   "gender": "women"
+  },
+  {
+   "id": "w-coord-palazzo-03",
+   "imageUrl": "/images/production-products/w-coord-palazzo-03.jpg",
+   "category": "kurta-sets",
+   "gender": "women"
+  },
+  {
+   "id": "w-coord-skirt-01",
+   "imageUrl": "/images/production-products/w-coord-skirt-01.jpg",
+   "category": "kurta-sets",
+   "gender": "women"
+  },
+  {
+   "id": "w-coord-skirt-02",
+   "imageUrl": "/images/production-products/w-coord-skirt-02.jpg",
+   "category": "kurta-sets",
+   "gender": "women"
+  },
+  {
+   "id": "w-coord-print-01",
+   "imageUrl": "/images/production-products/w-coord-print-01.jpg",
+   "category": "kurta-sets",
+   "gender": "women"
+  },
+  {
+   "id": "w-coord-print-02",
+   "imageUrl": "/images/production-products/w-coord-print-02.jpg",
+   "category": "kurta-sets",
+   "gender": "women"
+  },
+  {
+   "id": "w-coord-print-03",
+   "imageUrl": "/images/production-products/w-coord-print-03.jpg",
+   "category": "kurta-sets",
+   "gender": "women"
+  },
+  {
+   "id": "w-coord-dupatta-01",
+   "imageUrl": "/images/production-products/w-coord-dupatta-01.jpg",
+   "category": "kurta-sets",
+   "gender": "women"
+  },
+  {
+   "id": "w-coord-dupatta-02",
+   "imageUrl": "/images/production-products/w-coord-dupatta-02.jpg",
+   "category": "kurta-sets",
+   "gender": "women"
+  },
+  {
+   "id": "w-coord-dupatta-03",
+   "imageUrl": "/images/production-products/w-coord-dupatta-03.jpg",
+   "category": "kurta-sets",
+   "gender": "women"
+  },
+  {
+   "id": "w-leh-classic-01",
+   "imageUrl": "/images/production-products/w-leh-classic-01.jpg",
+   "category": "lehenga",
+   "gender": "women"
+  },
+  {
+   "id": "w-leh-classic-02",
+   "imageUrl": "/images/production-products/w-leh-classic-02.jpg",
+   "category": "lehenga",
+   "gender": "women"
+  },
+  {
+   "id": "w-leh-classic-03",
+   "imageUrl": "/images/production-products/w-leh-classic-03.jpg",
+   "category": "lehenga",
+   "gender": "women"
+  },
+  {
+   "id": "w-leh-classic-04",
+   "imageUrl": "/images/production-products/w-leh-classic-04.jpg",
+   "category": "lehenga",
+   "gender": "women"
+  },
+  {
+   "id": "w-leh-classic-05",
+   "imageUrl": "/images/production-products/w-leh-classic-05.jpg",
+   "category": "lehenga",
+   "gender": "women"
+  },
+  {
+   "id": "w-leh-classic-06",
+   "imageUrl": "/images/production-products/w-leh-classic-06.jpg",
+   "category": "lehenga",
+   "gender": "women"
+  },
+  {
+   "id": "w-leh-net-01",
+   "imageUrl": "/images/production-products/w-leh-net-01.jpg",
+   "category": "lehenga",
+   "gender": "women"
+  },
+  {
+   "id": "w-leh-net-02",
+   "imageUrl": "/images/production-products/w-leh-net-02.jpg",
+   "category": "lehenga",
+   "gender": "women"
+  },
+  {
+   "id": "w-leh-net-03",
+   "imageUrl": "/images/production-products/w-leh-net-03.jpg",
+   "category": "lehenga",
+   "gender": "women"
+  },
+  {
+   "id": "w-leh-net-04",
+   "imageUrl": "/images/production-products/w-leh-net-04.jpg",
+   "category": "lehenga",
+   "gender": "women"
+  },
+  {
+   "id": "w-leh-net-05",
+   "imageUrl": "/images/production-products/w-leh-net-05.jpg",
+   "category": "lehenga",
+   "gender": "women"
+  },
+  {
+   "id": "w-leh-net-06",
+   "imageUrl": "/images/production-products/w-leh-net-06.jpg",
+   "category": "lehenga",
+   "gender": "women"
+  },
+  {
+   "id": "w-leh-satin-01",
+   "imageUrl": "/images/production-products/w-leh-satin-01.jpg",
+   "category": "lehenga",
+   "gender": "women"
+  },
+  {
+   "id": "w-leh-satin-02",
+   "imageUrl": "/images/production-products/w-leh-satin-02.jpg",
+   "category": "lehenga",
+   "gender": "women"
+  },
+  {
+   "id": "w-leh-satin-03",
+   "imageUrl": "/images/production-products/w-leh-satin-03.jpg",
+   "category": "lehenga",
+   "gender": "women"
+  },
+  {
+   "id": "w-leh-satin-04",
+   "imageUrl": "/images/production-products/w-leh-satin-04.jpg",
+   "category": "lehenga",
+   "gender": "women"
+  },
+  {
+   "id": "w-leh-velvet-01",
+   "imageUrl": "/images/production-products/w-leh-velvet-01.jpg",
+   "category": "lehenga",
+   "gender": "women"
+  },
+  {
+   "id": "w-leh-velvet-02",
+   "imageUrl": "/images/production-products/w-leh-velvet-02.jpg",
+   "category": "lehenga",
+   "gender": "women"
+  },
+  {
+   "id": "w-leh-velvet-03",
+   "imageUrl": "/images/production-products/w-leh-velvet-03.jpg",
+   "category": "lehenga",
+   "gender": "women"
+  },
+  {
+   "id": "w-leh-sequin-01",
+   "imageUrl": "/images/production-products/w-leh-sequin-01.jpg",
+   "category": "lehenga",
+   "gender": "women"
+  },
+  {
+   "id": "w-leh-sequin-02",
+   "imageUrl": "/images/production-products/w-leh-sequin-02.jpg",
+   "category": "lehenga",
+   "gender": "women"
+  },
+  {
+   "id": "w-leh-sequin-03",
+   "imageUrl": "/images/production-products/w-leh-sequin-03.jpg",
+   "category": "lehenga",
+   "gender": "women"
+  },
+  {
+   "id": "w-leh-sequin-04",
+   "imageUrl": "/images/production-products/w-leh-sequin-04.jpg",
+   "category": "lehenga",
+   "gender": "women"
+  },
+  {
+   "id": "w-leh-sequin-05",
+   "imageUrl": "/images/production-products/w-leh-sequin-05.jpg",
+   "category": "lehenga",
+   "gender": "women"
+  },
+  {
+   "id": "w-leh-print-01",
+   "imageUrl": "/images/production-products/w-leh-print-01.jpg",
+   "category": "lehenga",
+   "gender": "women"
+  },
+  {
+   "id": "w-leh-print-02",
+   "imageUrl": "/images/production-products/w-leh-print-02.jpg",
+   "category": "lehenga",
+   "gender": "women"
+  },
+  {
+   "id": "w-leh-print-03",
+   "imageUrl": "/images/production-products/w-leh-print-03.jpg",
+   "category": "lehenga",
+   "gender": "women"
+  },
+  {
+   "id": "w-leh-skirt-01",
+   "imageUrl": "/images/production-products/w-leh-skirt-01.jpg",
+   "category": "lehenga",
+   "gender": "women"
+  },
+  {
+   "id": "w-leh-skirt-02",
+   "imageUrl": "/images/production-products/w-leh-skirt-02.jpg",
+   "category": "lehenga",
+   "gender": "women"
+  },
+  {
+   "id": "w-leh-skirt-03",
+   "imageUrl": "/images/production-products/w-leh-skirt-03.jpg",
+   "category": "lehenga",
+   "gender": "women"
+  },
+  {
+   "id": "w-leh-skirt-04",
+   "imageUrl": "/images/production-products/w-leh-skirt-04.jpg",
+   "category": "lehenga",
+   "gender": "women"
+  },
+  {
+   "id": "w-leh-modern-01",
+   "imageUrl": "/images/production-products/w-leh-modern-01.jpg",
+   "category": "lehenga",
+   "gender": "women"
+  },
+  {
+   "id": "w-leh-modern-02",
+   "imageUrl": "/images/production-products/w-leh-modern-02.jpg",
+   "category": "lehenga",
+   "gender": "women"
+  },
+  {
+   "id": "w-leh-modern-03",
+   "imageUrl": "/images/production-products/w-leh-modern-03.jpg",
+   "category": "lehenga",
+   "gender": "women"
+  },
+  {
+   "id": "w-leh-shortsuit-01",
+   "imageUrl": "/images/production-products/w-leh-shortsuit-01.jpg",
+   "category": "lehenga",
+   "gender": "women"
+  },
+  {
+   "id": "w-leh-shortsuit-02",
+   "imageUrl": "/images/production-products/w-leh-shortsuit-02.jpg",
+   "category": "lehenga",
+   "gender": "women"
+  },
+  {
+   "id": "w-leh-shortsuit-03",
+   "imageUrl": "/images/production-products/w-leh-shortsuit-03.jpg",
+   "category": "lehenga",
+   "gender": "women"
+  },
+  {
+   "id": "w-fusion-indowest-01",
+   "imageUrl": "/images/production-products/w-fusion-indowest-01.jpg",
+   "category": "indowestern",
+   "gender": "women"
+  },
+  {
+   "id": "w-fusion-indowest-02",
+   "imageUrl": "/images/production-products/w-fusion-indowest-02.jpg",
+   "category": "indowestern",
+   "gender": "women"
+  },
+  {
+   "id": "w-fusion-indowest-03",
+   "imageUrl": "/images/production-products/w-fusion-indowest-03.jpg",
+   "category": "indowestern",
+   "gender": "women"
+  },
+  {
+   "id": "w-fusion-indowest-04",
+   "imageUrl": "/images/production-products/w-fusion-indowest-04.jpg",
+   "category": "indowestern",
+   "gender": "women"
+  },
+  {
+   "id": "w-fusion-indowest-05",
+   "imageUrl": "/images/production-products/w-fusion-indowest-05.jpg",
+   "category": "indowestern",
+   "gender": "women"
+  },
+  {
+   "id": "w-fusion-indowest-06",
+   "imageUrl": "/images/production-products/w-fusion-indowest-06.jpg",
+   "category": "indowestern",
+   "gender": "women"
+  },
+  {
+   "id": "w-fusion-kurti-jeans-01",
+   "imageUrl": "/images/production-products/w-fusion-kurti-jeans-01.jpg",
+   "category": "indowestern",
+   "gender": "women"
+  },
+  {
+   "id": "w-fusion-kurti-jeans-02",
+   "imageUrl": "/images/production-products/w-fusion-kurti-jeans-02.jpg",
+   "category": "indowestern",
+   "gender": "women"
+  },
+  {
+   "id": "w-fusion-kurti-jeans-03",
+   "imageUrl": "/images/production-products/w-fusion-kurti-jeans-03.jpg",
+   "category": "indowestern",
+   "gender": "women"
+  },
+  {
+   "id": "w-fusion-kurti-jeans-04",
+   "imageUrl": "/images/production-products/w-fusion-kurti-jeans-04.jpg",
+   "category": "indowestern",
+   "gender": "women"
+  },
+  {
+   "id": "w-fusion-kurti-jeans-05",
+   "imageUrl": "/images/production-products/w-fusion-kurti-jeans-05.jpg",
+   "category": "indowestern",
+   "gender": "women"
+  },
+  {
+   "id": "w-fusion-gown-01",
+   "imageUrl": "/images/production-products/w-fusion-gown-01.jpg",
+   "category": "indowestern",
+   "gender": "women"
+  },
+  {
+   "id": "w-fusion-gown-02",
+   "imageUrl": "/images/production-products/w-fusion-gown-02.jpg",
+   "category": "indowestern",
+   "gender": "women"
+  },
+  {
+   "id": "w-fusion-gown-03",
+   "imageUrl": "/images/production-products/w-fusion-gown-03.jpg",
+   "category": "indowestern",
+   "gender": "women"
+  },
+  {
+   "id": "w-fusion-drape-01",
+   "imageUrl": "/images/production-products/w-fusion-drape-01.jpg",
+   "category": "indowestern",
+   "gender": "women"
+  },
+  {
+   "id": "w-fusion-drape-02",
+   "imageUrl": "/images/production-products/w-fusion-drape-02.jpg",
+   "category": "indowestern",
+   "gender": "women"
+  },
+  {
+   "id": "w-fusion-drape-03",
+   "imageUrl": "/images/production-products/w-fusion-drape-03.jpg",
+   "category": "indowestern",
+   "gender": "women"
+  },
+  {
+   "id": "w-fusion-pantsuit-01",
+   "imageUrl": "/images/production-products/w-fusion-pantsuit-01.jpg",
+   "category": "indowestern",
+   "gender": "women"
+  },
+  {
+   "id": "w-fusion-pantsuit-02",
+   "imageUrl": "/images/production-products/w-fusion-pantsuit-02.jpg",
+   "category": "indowestern",
+   "gender": "women"
+  },
+  {
+   "id": "w-fusion-pantsuit-03",
+   "imageUrl": "/images/production-products/w-fusion-pantsuit-03.jpg",
+   "category": "indowestern",
+   "gender": "women"
+  },
+  {
+   "id": "w-fusion-dhoti-01",
+   "imageUrl": "/images/production-products/w-fusion-dhoti-01.jpg",
+   "category": "indowestern",
+   "gender": "women"
+  },
+  {
+   "id": "w-fusion-dhoti-02",
+   "imageUrl": "/images/production-products/w-fusion-dhoti-02.jpg",
+   "category": "indowestern",
+   "gender": "women"
+  },
+  {
+   "id": "w-fusion-dhoti-03",
+   "imageUrl": "/images/production-products/w-fusion-dhoti-03.jpg",
+   "category": "indowestern",
+   "gender": "women"
+  },
+  {
+   "id": "w-fusion-shirt-01",
+   "imageUrl": "/images/production-products/w-fusion-shirt-01.jpg",
+   "category": "indowestern",
+   "gender": "women"
+  },
+  {
+   "id": "w-fusion-shirt-02",
+   "imageUrl": "/images/production-products/w-fusion-shirt-02.jpg",
+   "category": "indowestern",
+   "gender": "women"
+  },
+  {
+   "id": "w-fusion-shirt-03",
+   "imageUrl": "/images/production-products/w-fusion-shirt-03.jpg",
+   "category": "indowestern",
+   "gender": "women"
+  },
+  {
+   "id": "w-fusion-shirt-04",
+   "imageUrl": "/images/production-products/w-fusion-shirt-04.jpg",
+   "category": "indowestern",
+   "gender": "women"
+  },
+  {
+   "id": "w-fusion-shirt-05",
+   "imageUrl": "/images/production-products/w-fusion-shirt-05.jpg",
+   "category": "indowestern",
+   "gender": "women"
+  },
+  {
+   "id": "w-fusion-jacket-01",
+   "imageUrl": "/images/production-products/w-fusion-jacket-01.jpg",
+   "category": "indowestern",
+   "gender": "women"
+  },
+  {
+   "id": "w-fusion-jacket-02",
+   "imageUrl": "/images/production-products/w-fusion-jacket-02.jpg",
+   "category": "indowestern",
+   "gender": "women"
+  },
+  {
+   "id": "w-fusion-jacket-03",
+   "imageUrl": "/images/production-products/w-fusion-jacket-03.jpg",
+   "category": "indowestern",
+   "gender": "women"
+  },
+  {
+   "id": "w-kurti-straight-01",
+   "imageUrl": "/images/production-products/w-kurti-straight-01.jpg",
+   "category": "kurta-sets",
+   "gender": "women"
+  },
+  {
+   "id": "w-kurti-straight-02",
+   "imageUrl": "/images/production-products/w-kurti-straight-02.jpg",
+   "category": "kurta-sets",
+   "gender": "women"
+  },
+  {
+   "id": "w-kurti-straight-03",
+   "imageUrl": "/images/production-products/w-kurti-straight-03.jpg",
+   "category": "kurta-sets",
+   "gender": "women"
+  },
+  {
+   "id": "w-kurti-straight-04",
+   "imageUrl": "/images/production-products/w-kurti-straight-04.jpg",
+   "category": "kurta-sets",
+   "gender": "women"
+  },
+  {
+   "id": "w-kurti-straight-05",
+   "imageUrl": "/images/production-products/w-kurti-straight-05.jpg",
+   "category": "kurta-sets",
+   "gender": "women"
+  },
+  {
+   "id": "w-kurti-print-01",
+   "imageUrl": "/images/production-products/w-kurti-print-01.jpg",
+   "category": "kurta-sets",
+   "gender": "women"
+  },
+  {
+   "id": "w-kurti-print-02",
+   "imageUrl": "/images/production-products/w-kurti-print-02.jpg",
+   "category": "kurta-sets",
+   "gender": "women"
+  },
+  {
+   "id": "w-kurti-print-03",
+   "imageUrl": "/images/production-products/w-kurti-print-03.jpg",
+   "category": "kurta-sets",
+   "gender": "women"
+  },
+  {
+   "id": "w-kurti-print-04",
+   "imageUrl": "/images/production-products/w-kurti-print-04.jpg",
+   "category": "kurta-sets",
+   "gender": "women"
+  },
+  {
+   "id": "w-kurti-print-05",
+   "imageUrl": "/images/production-products/w-kurti-print-05.jpg",
+   "category": "kurta-sets",
+   "gender": "women"
+  },
+  {
+   "id": "w-kurti-chikan-01",
+   "imageUrl": "/images/production-products/w-kurti-chikan-01.jpg",
+   "category": "kurta-sets",
+   "gender": "women"
+  },
+  {
+   "id": "w-kurti-chikan-02",
+   "imageUrl": "/images/production-products/w-kurti-chikan-02.jpg",
+   "category": "kurta-sets",
+   "gender": "women"
+  },
+  {
+   "id": "w-kurti-chikan-03",
+   "imageUrl": "/images/production-products/w-kurti-chikan-03.jpg",
+   "category": "kurta-sets",
+   "gender": "women"
+  },
+  {
+   "id": "w-kurti-chikan-04",
+   "imageUrl": "/images/production-products/w-kurti-chikan-04.jpg",
+   "category": "kurta-sets",
+   "gender": "women"
+  },
+  {
+   "id": "w-kurti-chikan-05",
+   "imageUrl": "/images/production-products/w-kurti-chikan-05.jpg",
+   "category": "kurta-sets",
+   "gender": "women"
+  },
+  {
+   "id": "w-kurti-chikan-06",
+   "imageUrl": "/images/production-products/w-kurti-chikan-06.jpg",
+   "category": "kurta-sets",
+   "gender": "women"
+  },
+  {
+   "id": "w-kurti-east-01",
+   "imageUrl": "/images/production-products/w-kurti-east-01.jpg",
+   "category": "kurta-sets",
+   "gender": "women"
+  },
+  {
+   "id": "w-kurti-east-02",
+   "imageUrl": "/images/production-products/w-kurti-east-02.jpg",
+   "category": "kurta-sets",
+   "gender": "women"
+  },
+  {
+   "id": "w-kurti-east-03",
+   "imageUrl": "/images/production-products/w-kurti-east-03.jpg",
+   "category": "kurta-sets",
+   "gender": "women"
+  },
+  {
+   "id": "w-kurti-highlow-01",
+   "imageUrl": "/images/production-products/w-kurti-highlow-01.jpg",
+   "category": "kurta-sets",
+   "gender": "women"
+  },
+  {
+   "id": "w-kurti-highlow-02",
+   "imageUrl": "/images/production-products/w-kurti-highlow-02.jpg",
+   "category": "kurta-sets",
+   "gender": "women"
+  },
+  {
+   "id": "w-kurti-highlow-03",
+   "imageUrl": "/images/production-products/w-kurti-highlow-03.jpg",
+   "category": "kurta-sets",
+   "gender": "women"
+  },
+  {
+   "id": "m-kurtiset-cotton-01",
+   "imageUrl": "/images/production-products/m-kurtiset-cotton-01.jpg",
+   "category": "kurta-sets",
+   "gender": "men"
+  },
+  {
+   "id": "m-kurtiset-cotton-02",
+   "imageUrl": "/images/production-products/m-kurtiset-cotton-02.jpg",
+   "category": "kurta-sets",
+   "gender": "men"
+  },
+  {
+   "id": "m-kurtiset-cotton-03",
+   "imageUrl": "/images/production-products/m-kurtiset-cotton-03.jpg",
+   "category": "kurta-sets",
+   "gender": "men"
+  },
+  {
+   "id": "m-kurtiset-cotton-04",
+   "imageUrl": "/images/production-products/m-kurtiset-cotton-04.jpg",
+   "category": "kurta-sets",
+   "gender": "men"
+  },
+  {
+   "id": "m-kurtiset-cotton-05",
+   "imageUrl": "/images/production-products/m-kurtiset-cotton-05.jpg",
+   "category": "kurta-sets",
+   "gender": "men"
+  },
+  {
+   "id": "m-kurtiset-cotton-06",
+   "imageUrl": "/images/production-products/m-kurtiset-cotton-06.jpg",
+   "category": "kurta-sets",
+   "gender": "men"
+  },
+  {
+   "id": "m-kurtiset-cotton-07",
+   "imageUrl": "/images/production-products/m-kurtiset-cotton-07.jpg",
+   "category": "kurta-sets",
+   "gender": "men"
+  },
+  {
+   "id": "m-kurtiset-cotton-08",
+   "imageUrl": "/images/production-products/m-kurtiset-cotton-08.jpg",
+   "category": "kurta-sets",
+   "gender": "men"
+  },
+  {
+   "id": "m-kurtiset-silk-01",
+   "imageUrl": "/images/production-products/m-kurtiset-silk-01.jpg",
+   "category": "kurta-sets",
+   "gender": "men"
+  },
+  {
+   "id": "m-kurtiset-silk-02",
+   "imageUrl": "/images/production-products/m-kurtiset-silk-02.jpg",
+   "category": "kurta-sets",
+   "gender": "men"
+  },
+  {
+   "id": "m-kurtiset-silk-03",
+   "imageUrl": "/images/production-products/m-kurtiset-silk-03.jpg",
+   "category": "kurta-sets",
+   "gender": "men"
+  },
+  {
+   "id": "m-kurtiset-silk-04",
+   "imageUrl": "/images/production-products/m-kurtiset-silk-04.jpg",
+   "category": "kurta-sets",
+   "gender": "men"
+  },
+  {
+   "id": "m-kurtiset-silk-05",
+   "imageUrl": "/images/production-products/m-kurtiset-silk-05.jpg",
+   "category": "kurta-sets",
+   "gender": "men"
+  },
+  {
+   "id": "m-kurtiset-silk-06",
+   "imageUrl": "/images/production-products/m-kurtiset-silk-06.jpg",
+   "category": "kurta-sets",
+   "gender": "men"
+  },
+  {
+   "id": "m-kurtiset-chikankari-01",
+   "imageUrl": "/images/production-products/m-kurtiset-chikankari-01.jpg",
+   "category": "kurta-sets",
+   "gender": "men"
+  },
+  {
+   "id": "m-kurtiset-chikankari-02",
+   "imageUrl": "/images/production-products/m-kurtiset-chikankari-02.jpg",
+   "category": "kurta-sets",
+   "gender": "men"
+  },
+  {
+   "id": "m-kurtiset-chikankari-03",
+   "imageUrl": "/images/production-products/m-kurtiset-chikankari-03.jpg",
+   "category": "kurta-sets",
+   "gender": "men"
+  },
+  {
+   "id": "m-kurtiset-chikankari-04",
+   "imageUrl": "/images/production-products/m-kurtiset-chikankari-04.jpg",
+   "category": "kurta-sets",
+   "gender": "men"
+  },
+  {
+   "id": "m-kurtiset-chikankari-05",
+   "imageUrl": "/images/production-products/m-kurtiset-chikankari-05.jpg",
+   "category": "kurta-sets",
+   "gender": "men"
+  },
+  {
+   "id": "m-kurtiset-printed-01",
+   "imageUrl": "/images/production-products/m-kurtiset-printed-01.jpg",
+   "category": "kurta-sets",
+   "gender": "men"
+  },
+  {
+   "id": "m-kurtiset-printed-02",
+   "imageUrl": "/images/production-products/m-kurtiset-printed-02.jpg",
+   "category": "kurta-sets",
+   "gender": "men"
+  },
+  {
+   "id": "m-kurtiset-printed-03",
+   "imageUrl": "/images/production-products/m-kurtiset-printed-03.jpg",
+   "category": "kurta-sets",
+   "gender": "men"
+  },
+  {
+   "id": "m-kurtiset-printed-04",
+   "imageUrl": "/images/production-products/m-kurtiset-printed-04.jpg",
+   "category": "kurta-sets",
+   "gender": "men"
+  },
+  {
+   "id": "m-kurtiset-printed-05",
+   "imageUrl": "/images/production-products/m-kurtiset-printed-05.jpg",
+   "category": "kurta-sets",
+   "gender": "men"
+  },
+  {
+   "id": "m-kurtiset-pathani-01",
+   "imageUrl": "/images/production-products/m-kurtiset-pathani-01.jpg",
+   "category": "kurta-sets",
+   "gender": "men"
+  },
+  {
+   "id": "m-kurtiset-pathani-02",
+   "imageUrl": "/images/production-products/m-kurtiset-pathani-02.jpg",
+   "category": "kurta-sets",
+   "gender": "men"
+  },
+  {
+   "id": "m-kurtiset-pathani-03",
+   "imageUrl": "/images/production-products/m-kurtiset-pathani-03.jpg",
+   "category": "kurta-sets",
+   "gender": "men"
+  },
+  {
+   "id": "m-kurtiset-pathani-04",
+   "imageUrl": "/images/production-products/m-kurtiset-pathani-04.jpg",
+   "category": "kurta-sets",
+   "gender": "men"
+  },
+  {
+   "id": "m-kurtiset-linen-01",
+   "imageUrl": "/images/production-products/m-kurtiset-linen-01.jpg",
+   "category": "kurta-sets",
+   "gender": "men"
+  },
+  {
+   "id": "m-kurtiset-linen-02",
+   "imageUrl": "/images/production-products/m-kurtiset-linen-02.jpg",
+   "category": "kurta-sets",
+   "gender": "men"
+  },
+  {
+   "id": "m-kurtiset-linen-03",
+   "imageUrl": "/images/production-products/m-kurtiset-linen-03.jpg",
+   "category": "kurta-sets",
+   "gender": "men"
+  },
+  {
+   "id": "m-kurtiset-linen-04",
+   "imageUrl": "/images/production-products/m-kurtiset-linen-04.jpg",
+   "category": "kurta-sets",
+   "gender": "men"
+  },
+  {
+   "id": "m-kurt-set-jamawar-01",
+   "imageUrl": "/images/production-products/m-kurt-set-jamawar-01.jpg",
+   "category": "kurta-sets",
+   "gender": "men"
+  },
+  {
+   "id": "m-kurt-set-jamawar-02",
+   "imageUrl": "/images/production-products/m-kurt-set-jamawar-02.jpg",
+   "category": "kurta-sets",
+   "gender": "men"
+  },
+  {
+   "id": "m-kurt-set-jamawar-03",
+   "imageUrl": "/images/production-products/m-kurt-set-jamawar-03.jpg",
+   "category": "kurta-sets",
+   "gender": "men"
+  },
+  {
+   "id": "m-kurt-set-brocade-01",
+   "imageUrl": "/images/production-products/m-kurt-set-brocade-01.jpg",
+   "category": "kurta-sets",
+   "gender": "men"
+  },
+  {
+   "id": "m-kurt-set-brocade-02",
+   "imageUrl": "/images/production-products/m-kurt-set-brocade-02.jpg",
+   "category": "kurta-sets",
+   "gender": "men"
+  },
+  {
+   "id": "m-kurt-set-brocade-03",
+   "imageUrl": "/images/production-products/m-kurt-set-brocade-03.jpg",
+   "category": "kurta-sets",
+   "gender": "men"
+  },
+  {
+   "id": "m-kurt-set-jacket-01",
+   "imageUrl": "/images/production-products/m-kurt-set-jacket-01.jpg",
+   "category": "kurta-sets",
+   "gender": "men"
+  },
+  {
+   "id": "m-kurt-set-jacket-02",
+   "imageUrl": "/images/production-products/m-kurt-set-jacket-02.jpg",
+   "category": "kurta-sets",
+   "gender": "men"
+  },
+  {
+   "id": "m-kurt-set-jacket-03",
+   "imageUrl": "/images/production-products/m-kurt-set-jacket-03.jpg",
+   "category": "kurta-sets",
+   "gender": "men"
+  },
+  {
+   "id": "m-kurt-set-jacket-04",
+   "imageUrl": "/images/production-products/m-kurt-set-jacket-04.jpg",
+   "category": "kurta-sets",
+   "gender": "men"
+  },
+  {
+   "id": "m-kurt-set-jacket-05",
+   "imageUrl": "/images/production-products/m-kurt-set-jacket-05.jpg",
+   "category": "kurta-sets",
+   "gender": "men"
+  },
+  {
+   "id": "m-kurt-set-dupatta-01",
+   "imageUrl": "/images/production-products/m-kurt-set-dupatta-01.jpg",
+   "category": "kurta-sets",
+   "gender": "men"
+  },
+  {
+   "id": "m-kurt-set-dupatta-02",
+   "imageUrl": "/images/production-products/m-kurt-set-dupatta-02.jpg",
+   "category": "kurta-sets",
+   "gender": "men"
+  },
+  {
+   "id": "m-kurt-set-dupatta-03",
+   "imageUrl": "/images/production-products/m-kurt-set-dupatta-03.jpg",
+   "category": "kurta-sets",
+   "gender": "men"
+  },
+  {
+   "id": "m-kurt-set-dupatta-04",
+   "imageUrl": "/images/production-products/m-kurt-set-dupatta-04.jpg",
+   "category": "kurta-sets",
+   "gender": "men"
+  },
+  {
+   "id": "m-kurt-set-dupatta-05",
+   "imageUrl": "/images/production-products/m-kurt-set-dupatta-05.jpg",
+   "category": "kurta-sets",
+   "gender": "men"
+  },
+  {
+   "id": "m-kurt-set-short-01",
+   "imageUrl": "/images/production-products/m-kurt-set-short-01.jpg",
+   "category": "kurta-sets",
+   "gender": "men"
+  },
+  {
+   "id": "m-kurt-set-short-02",
+   "imageUrl": "/images/production-products/m-kurt-set-short-02.jpg",
+   "category": "kurta-sets",
+   "gender": "men"
+  },
+  {
+   "id": "m-kurt-set-short-03",
+   "imageUrl": "/images/production-products/m-kurt-set-short-03.jpg",
+   "category": "kurta-sets",
+   "gender": "men"
+  },
+  {
+   "id": "m-kurt-set-short-04",
+   "imageUrl": "/images/production-products/m-kurt-set-short-04.jpg",
+   "category": "kurta-sets",
+   "gender": "men"
+  },
+  {
+   "id": "m-jacket-brocade-01",
+   "imageUrl": "/images/production-products/m-jacket-brocade-01.jpg",
+   "category": "jackets",
+   "gender": "men"
+  },
+  {
+   "id": "m-jacket-brocade-02",
+   "imageUrl": "/images/production-products/m-jacket-brocade-02.jpg",
+   "category": "jackets",
+   "gender": "men"
+  },
+  {
+   "id": "m-jacket-brocade-03",
+   "imageUrl": "/images/production-products/m-jacket-brocade-03.jpg",
+   "category": "jackets",
+   "gender": "men"
+  },
+  {
+   "id": "m-jacket-brocade-04",
+   "imageUrl": "/images/production-products/m-jacket-brocade-04.jpg",
+   "category": "jackets",
+   "gender": "men"
+  },
+  {
+   "id": "m-jacket-brocade-05",
+   "imageUrl": "/images/production-products/m-jacket-brocade-05.jpg",
+   "category": "jackets",
+   "gender": "men"
+  },
+  {
+   "id": "m-jacket-velvet-01",
+   "imageUrl": "/images/production-products/m-jacket-velvet-01.jpg",
+   "category": "jackets",
+   "gender": "men"
+  },
+  {
+   "id": "m-jacket-velvet-02",
+   "imageUrl": "/images/production-products/m-jacket-velvet-02.jpg",
+   "category": "jackets",
+   "gender": "men"
+  },
+  {
+   "id": "m-jacket-velvet-03",
+   "imageUrl": "/images/production-products/m-jacket-velvet-03.jpg",
+   "category": "jackets",
+   "gender": "men"
+  },
+  {
+   "id": "m-jacket-velvet-04",
+   "imageUrl": "/images/production-products/m-jacket-velvet-04.jpg",
+   "category": "jackets",
+   "gender": "men"
+  },
+  {
+   "id": "m-jacket-rawmango-01",
+   "imageUrl": "/images/production-products/m-jacket-rawmango-01.jpg",
+   "category": "jackets",
+   "gender": "men"
+  },
+  {
+   "id": "m-jacket-rawmango-02",
+   "imageUrl": "/images/production-products/m-jacket-rawmango-02.jpg",
+   "category": "jackets",
+   "gender": "men"
+  },
+  {
+   "id": "m-jacket-rawmango-03",
+   "imageUrl": "/images/production-products/m-jacket-rawmango-03.jpg",
+   "category": "jackets",
+   "gender": "men"
+  },
+  {
+   "id": "m-bandhgala-silk-01",
+   "imageUrl": "/images/production-products/m-bandhgala-silk-01.jpg",
+   "category": "jackets",
+   "gender": "men"
+  },
+  {
+   "id": "m-bandhgala-silk-02",
+   "imageUrl": "/images/production-products/m-bandhgala-silk-02.jpg",
+   "category": "jackets",
+   "gender": "men"
+  },
+  {
+   "id": "m-bandhgala-silk-03",
+   "imageUrl": "/images/production-products/m-bandhgala-silk-03.jpg",
+   "category": "jackets",
+   "gender": "men"
+  },
+  {
+   "id": "m-bandhgala-silk-04",
+   "imageUrl": "/images/production-products/m-bandhgala-silk-04.jpg",
+   "category": "jackets",
+   "gender": "men"
+  },
+  {
+   "id": "m-bandhgala-silk-05",
+   "imageUrl": "/images/production-products/m-bandhgala-silk-05.jpg",
+   "category": "jackets",
+   "gender": "men"
+  },
+  {
+   "id": "m-bandhgala-silk-06",
+   "imageUrl": "/images/production-products/m-bandhgala-silk-06.jpg",
+   "category": "jackets",
+   "gender": "men"
+  },
+  {
+   "id": "m-sherwani-01",
+   "imageUrl": "/images/production-products/m-sherwani-01.jpg",
+   "category": "jackets",
+   "gender": "men"
+  },
+  {
+   "id": "m-sherwani-02",
+   "imageUrl": "/images/production-products/m-sherwani-02.jpg",
+   "category": "jackets",
+   "gender": "men"
+  },
+  {
+   "id": "m-sherwani-03",
+   "imageUrl": "/images/production-products/m-sherwani-03.jpg",
+   "category": "jackets",
+   "gender": "men"
+  },
+  {
+   "id": "m-sherwani-04",
+   "imageUrl": "/images/production-products/m-sherwani-04.jpg",
+   "category": "jackets",
+   "gender": "men"
+  },
+  {
+   "id": "m-jacket-printed-01",
+   "imageUrl": "/images/production-products/m-jacket-printed-01.jpg",
+   "category": "jackets",
+   "gender": "men"
+  },
+  {
+   "id": "m-jacket-printed-02",
+   "imageUrl": "/images/production-products/m-jacket-printed-02.jpg",
+   "category": "jackets",
+   "gender": "men"
+  },
+  {
+   "id": "m-jacket-printed-03",
+   "imageUrl": "/images/production-products/m-jacket-printed-03.jpg",
+   "category": "jackets",
+   "gender": "men"
+  },
+  {
+   "id": "m-jacket-emb-01",
+   "imageUrl": "/images/production-products/m-jacket-emb-01.jpg",
+   "category": "jackets",
+   "gender": "men"
+  },
+  {
+   "id": "m-jacket-emb-02",
+   "imageUrl": "/images/production-products/m-jacket-emb-02.jpg",
+   "category": "jackets",
+   "gender": "men"
+  },
+  {
+   "id": "m-jacket-emb-03",
+   "imageUrl": "/images/production-products/m-jacket-emb-03.jpg",
+   "category": "jackets",
+   "gender": "men"
+  },
+  {
+   "id": "m-indowest-drape-01",
+   "imageUrl": "/images/production-products/m-indowest-drape-01.jpg",
+   "category": "indowestern",
+   "gender": "men"
+  },
+  {
+   "id": "m-indowest-drape-02",
+   "imageUrl": "/images/production-products/m-indowest-drape-02.jpg",
+   "category": "indowestern",
+   "gender": "men"
+  },
+  {
+   "id": "m-indowest-drape-03",
+   "imageUrl": "/images/production-products/m-indowest-drape-03.jpg",
+   "category": "indowestern",
+   "gender": "men"
+  },
+  {
+   "id": "m-indowest-drape-04",
+   "imageUrl": "/images/production-products/m-indowest-drape-04.jpg",
+   "category": "indowestern",
+   "gender": "men"
+  },
+  {
+   "id": "m-indowest-skirt-01",
+   "imageUrl": "/images/production-products/m-indowest-skirt-01.jpg",
+   "category": "indowestern",
+   "gender": "men"
+  },
+  {
+   "id": "m-indowest-skirt-02",
+   "imageUrl": "/images/production-products/m-indowest-skirt-02.jpg",
+   "category": "indowestern",
+   "gender": "men"
+  },
+  {
+   "id": "m-indowest-skirt-03",
+   "imageUrl": "/images/production-products/m-indowest-skirt-03.jpg",
+   "category": "indowestern",
+   "gender": "men"
+  },
+  {
+   "id": "m-indowest-skirt-04",
+   "imageUrl": "/images/production-products/m-indowest-skirt-04.jpg",
+   "category": "indowestern",
+   "gender": "men"
+  },
+  {
+   "id": "m-waistcoat-set-01",
+   "imageUrl": "/images/production-products/m-waistcoat-set-01.jpg",
+   "category": "indowestern",
+   "gender": "men"
+  },
+  {
+   "id": "m-waistcoat-set-02",
+   "imageUrl": "/images/production-products/m-waistcoat-set-02.jpg",
+   "category": "indowestern",
+   "gender": "men"
+  },
+  {
+   "id": "m-waistcoat-set-03",
+   "imageUrl": "/images/production-products/m-waistcoat-set-03.jpg",
+   "category": "indowestern",
+   "gender": "men"
+  },
+  {
+   "id": "m-waistcoat-set-04",
+   "imageUrl": "/images/production-products/m-waistcoat-set-04.jpg",
+   "category": "indowestern",
+   "gender": "men"
+  },
+  {
+   "id": "m-waistcoat-set-05",
+   "imageUrl": "/images/production-products/m-waistcoat-set-05.jpg",
+   "category": "indowestern",
+   "gender": "men"
+  },
+  {
+   "id": "m-waistcoat-set-06",
+   "imageUrl": "/images/production-products/m-waistcoat-set-06.jpg",
+   "category": "indowestern",
+   "gender": "men"
+  },
+  {
+   "id": "m-kurta-jeans-01",
+   "imageUrl": "/images/production-products/m-kurta-jeans-01.jpg",
+   "category": "indowestern",
+   "gender": "men"
+  },
+  {
+   "id": "m-kurta-jeans-02",
+   "imageUrl": "/images/production-products/m-kurta-jeans-02.jpg",
+   "category": "indowestern",
+   "gender": "men"
+  },
+  {
+   "id": "m-kurta-jeans-03",
+   "imageUrl": "/images/production-products/m-kurta-jeans-03.jpg",
+   "category": "indowestern",
+   "gender": "men"
+  },
+  {
+   "id": "m-kurta-jeans-04",
+   "imageUrl": "/images/production-products/m-kurta-jeans-04.jpg",
+   "category": "indowestern",
+   "gender": "men"
+  },
+  {
+   "id": "m-shirt-trouser-01",
+   "imageUrl": "/images/production-products/m-shirt-trouser-01.jpg",
+   "category": "indowestern",
+   "gender": "men"
+  },
+  {
+   "id": "m-shirt-trouser-02",
+   "imageUrl": "/images/production-products/m-shirt-trouser-02.jpg",
+   "category": "indowestern",
+   "gender": "men"
+  },
+  {
+   "id": "m-shirt-trouser-03",
+   "imageUrl": "/images/production-products/m-shirt-trouser-03.jpg",
+   "category": "indowestern",
+   "gender": "men"
+  },
+  {
+   "id": "m-shirt-trouser-04",
+   "imageUrl": "/images/production-products/m-shirt-trouser-04.jpg",
+   "category": "indowestern",
+   "gender": "men"
+  },
+  {
+   "id": "m-coord-suit-01",
+   "imageUrl": "/images/production-products/m-coord-suit-01.jpg",
+   "category": "indowestern",
+   "gender": "men"
+  },
+  {
+   "id": "m-coord-suit-02",
+   "imageUrl": "/images/production-products/m-coord-suit-02.jpg",
+   "category": "indowestern",
+   "gender": "men"
+  },
+  {
+   "id": "m-coord-suit-03",
+   "imageUrl": "/images/production-products/m-coord-suit-03.jpg",
+   "category": "indowestern",
+   "gender": "men"
+  },
+  {
+   "id": "m-coord-suit-04",
+   "imageUrl": "/images/production-products/m-coord-suit-04.jpg",
+   "category": "indowestern",
+   "gender": "men"
+  },
+  {
+   "id": "m-coord-suit-05",
+   "imageUrl": "/images/production-products/m-coord-suit-05.jpg",
+   "category": "indowestern",
+   "gender": "men"
+  },
+  {
+   "id": "m-coat-set-01",
+   "imageUrl": "/images/production-products/m-coat-set-01.jpg",
+   "category": "indowestern",
+   "gender": "men"
+  },
+  {
+   "id": "m-coat-set-02",
+   "imageUrl": "/images/production-products/m-coat-set-02.jpg",
+   "category": "indowestern",
+   "gender": "men"
+  },
+  {
+   "id": "m-coat-set-03",
+   "imageUrl": "/images/production-products/m-coat-set-03.jpg",
+   "category": "indowestern",
+   "gender": "men"
+  },
+  {
+   "id": "m-asym-coord-01",
+   "imageUrl": "/images/production-products/m-asym-coord-01.jpg",
+   "category": "indowestern",
+   "gender": "men"
+  },
+  {
+   "id": "m-asym-coord-02",
+   "imageUrl": "/images/production-products/m-asym-coord-02.jpg",
+   "category": "indowestern",
+   "gender": "men"
+  },
+  {
+   "id": "m-asym-coord-03",
+   "imageUrl": "/images/production-products/m-asym-coord-03.jpg",
+   "category": "indowestern",
+   "gender": "men"
+  },
+  {
+   "id": "m-asym-coord-04",
+   "imageUrl": "/images/production-products/m-asym-coord-04.jpg",
+   "category": "indowestern",
+   "gender": "men"
+  },
+  {
+   "id": "m-fusion-set-01",
+   "imageUrl": "/images/production-products/m-fusion-set-01.jpg",
+   "category": "indowestern",
+   "gender": "men"
+  },
+  {
+   "id": "m-fusion-set-02",
+   "imageUrl": "/images/production-products/m-fusion-set-02.jpg",
+   "category": "indowestern",
+   "gender": "men"
+  },
+  {
+   "id": "m-fusion-set-03",
+   "imageUrl": "/images/production-products/m-fusion-set-03.jpg",
+   "category": "indowestern",
+   "gender": "men"
+  },
+  {
+   "id": "m-garba-kediyu-01",
+   "imageUrl": "/images/production-products/m-garba-kediyu-01.jpg",
+   "category": "garba",
+   "gender": "men"
+  },
+  {
+   "id": "m-garba-kediyu-02",
+   "imageUrl": "/images/production-products/m-garba-kediyu-02.jpg",
+   "category": "garba",
+   "gender": "men"
+  },
+  {
+   "id": "m-garba-kediyu-03",
+   "imageUrl": "/images/production-products/m-garba-kediyu-03.jpg",
+   "category": "garba",
+   "gender": "men"
+  },
+  {
+   "id": "m-garba-kediyu-04",
+   "imageUrl": "/images/production-products/m-garba-kediyu-04.jpg",
+   "category": "garba",
+   "gender": "men"
+  },
+  {
+   "id": "m-garba-kediyu-05",
+   "imageUrl": "/images/production-products/m-garba-kediyu-05.jpg",
+   "category": "garba",
+   "gender": "men"
+  },
+  {
+   "id": "m-garba-kediyu-06",
+   "imageUrl": "/images/production-products/m-garba-kediyu-06.jpg",
+   "category": "garba",
+   "gender": "men"
+  },
+  {
+   "id": "m-garba-kediyu-07",
+   "imageUrl": "/images/production-products/m-garba-kediyu-07.jpg",
+   "category": "garba",
+   "gender": "men"
+  },
+  {
+   "id": "m-garba-kafni-01",
+   "imageUrl": "/images/production-products/m-garba-kafni-01.jpg",
+   "category": "garba",
+   "gender": "men"
+  },
+  {
+   "id": "m-garba-kafni-02",
+   "imageUrl": "/images/production-products/m-garba-kafni-02.jpg",
+   "category": "garba",
+   "gender": "men"
+  },
+  {
+   "id": "m-garba-kafni-03",
+   "imageUrl": "/images/production-products/m-garba-kafni-03.jpg",
+   "category": "garba",
+   "gender": "men"
+  },
+  {
+   "id": "m-garba-kafni-04",
+   "imageUrl": "/images/production-products/m-garba-kafni-04.jpg",
+   "category": "garba",
+   "gender": "men"
+  },
+  {
+   "id": "m-garba-vest-01",
+   "imageUrl": "/images/production-products/m-garba-vest-01.jpg",
+   "category": "garba",
+   "gender": "men"
+  },
+  {
+   "id": "m-garba-vest-02",
+   "imageUrl": "/images/production-products/m-garba-vest-02.jpg",
+   "category": "garba",
+   "gender": "men"
+  },
+  {
+   "id": "m-garba-vest-03",
+   "imageUrl": "/images/production-products/m-garba-vest-03.jpg",
+   "category": "garba",
+   "gender": "men"
+  },
+  {
+   "id": "m-garba-vest-04",
+   "imageUrl": "/images/production-products/m-garba-vest-04.jpg",
+   "category": "garba",
+   "gender": "men"
+  },
+  {
+   "id": "m-coord-linen-01",
+   "imageUrl": "/images/production-products/m-coord-linen-01.jpg",
+   "category": "indowestern",
+   "gender": "men"
+  },
+  {
+   "id": "m-coord-linen-02",
+   "imageUrl": "/images/production-products/m-coord-linen-02.jpg",
+   "category": "indowestern",
+   "gender": "men"
+  },
+  {
+   "id": "m-coord-linen-03",
+   "imageUrl": "/images/production-products/m-coord-linen-03.jpg",
+   "category": "indowestern",
+   "gender": "men"
+  },
+  {
+   "id": "m-coord-cotton-01",
+   "imageUrl": "/images/production-products/m-coord-cotton-01.jpg",
+   "category": "indowestern",
+   "gender": "men"
+  },
+  {
+   "id": "m-coord-cotton-02",
+   "imageUrl": "/images/production-products/m-coord-cotton-02.jpg",
+   "category": "indowestern",
+   "gender": "men"
+  },
+  {
+   "id": "m-coord-cotton-03",
+   "imageUrl": "/images/production-products/m-coord-cotton-03.jpg",
+   "category": "indowestern",
+   "gender": "men"
+  },
+  {
+   "id": "m-coord-silk-01",
+   "imageUrl": "/images/production-products/m-coord-silk-01.jpg",
+   "category": "indowestern",
+   "gender": "men"
+  },
+  {
+   "id": "m-coord-silk-02",
+   "imageUrl": "/images/production-products/m-coord-silk-02.jpg",
+   "category": "indowestern",
+   "gender": "men"
+  },
+  {
+   "id": "m-dhoti-kurta-01",
+   "imageUrl": "/images/production-products/m-dhoti-kurta-01.jpg",
+   "category": "kurta-sets",
+   "gender": "men"
+  },
+  {
+   "id": "m-dhoti-kurta-02",
+   "imageUrl": "/images/production-products/m-dhoti-kurta-02.jpg",
+   "category": "kurta-sets",
+   "gender": "men"
+  },
+  {
+   "id": "m-dhoti-kurta-03",
+   "imageUrl": "/images/production-products/m-dhoti-kurta-03.jpg",
+   "category": "kurta-sets",
+   "gender": "men"
+  },
+  {
+   "id": "w-ear-jhumka-01",
+   "imageUrl": "/images/production-products/w-ear-jhumka-01.jpg",
+   "category": "jewellery",
+   "gender": "women"
+  },
+  {
+   "id": "w-ear-jhumka-02",
+   "imageUrl": "/images/production-products/w-ear-jhumka-02.jpg",
+   "category": "jewellery",
+   "gender": "women"
+  },
+  {
+   "id": "w-ear-jhumka-03",
+   "imageUrl": "/images/production-products/w-ear-jhumka-03.jpg",
+   "category": "jewellery",
+   "gender": "women"
+  },
+  {
+   "id": "w-ear-chandbali-01",
+   "imageUrl": "/images/production-products/w-ear-chandbali-01.jpg",
+   "category": "jewellery",
+   "gender": "women"
+  },
+  {
+   "id": "w-ear-chandbali-02",
+   "imageUrl": "/images/production-products/w-ear-chandbali-02.jpg",
+   "category": "jewellery",
+   "gender": "women"
+  },
+  {
+   "id": "w-ear-stud-01",
+   "imageUrl": "/images/production-products/w-ear-stud-01.jpg",
+   "category": "jewellery",
+   "gender": "women"
+  },
+  {
+   "id": "w-ear-stud-02",
+   "imageUrl": "/images/production-products/w-ear-stud-02.jpg",
+   "category": "jewellery",
+   "gender": "women"
+  },
+  {
+   "id": "w-ear-hoop-01",
+   "imageUrl": "/images/production-products/w-ear-hoop-01.jpg",
+   "category": "jewellery",
+   "gender": "women"
+  },
+  {
+   "id": "w-ear-hoop-02",
+   "imageUrl": "/images/production-products/w-ear-hoop-02.jpg",
+   "category": "jewellery",
+   "gender": "women"
+  },
+  {
+   "id": "w-ear-kundan-01",
+   "imageUrl": "/images/production-products/w-ear-kundan-01.jpg",
+   "category": "jewellery",
+   "gender": "women"
+  },
+  {
+   "id": "w-ear-kundan-02",
+   "imageUrl": "/images/production-products/w-ear-kundan-02.jpg",
+   "category": "jewellery",
+   "gender": "women"
+  },
+  {
+   "id": "w-ear-polki-01",
+   "imageUrl": "/images/production-products/w-ear-polki-01.jpg",
+   "category": "jewellery",
+   "gender": "women"
+  },
+  {
+   "id": "w-ear-polki-02",
+   "imageUrl": "/images/production-products/w-ear-polki-02.jpg",
+   "category": "jewellery",
+   "gender": "women"
+  },
+  {
+   "id": "w-ear-drop-01",
+   "imageUrl": "/images/production-products/w-ear-drop-01.jpg",
+   "category": "jewellery",
+   "gender": "women"
+  },
+  {
+   "id": "w-ear-drop-02",
+   "imageUrl": "/images/production-products/w-ear-drop-02.jpg",
+   "category": "jewellery",
+   "gender": "women"
+  },
+  {
+   "id": "w-ear-thread-01",
+   "imageUrl": "/images/production-products/w-ear-thread-01.jpg",
+   "category": "jewellery",
+   "gender": "women"
+  },
+  {
+   "id": "w-ear-thread-02",
+   "imageUrl": "/images/production-products/w-ear-thread-02.jpg",
+   "category": "jewellery",
+   "gender": "women"
+  },
+  {
+   "id": "w-ear-cuff-01",
+   "imageUrl": "/images/production-products/w-ear-cuff-01.jpg",
+   "category": "jewellery",
+   "gender": "women"
+  },
+  {
+   "id": "w-ear-cuff-02",
+   "imageUrl": "/images/production-products/w-ear-cuff-02.jpg",
+   "category": "jewellery",
+   "gender": "women"
+  },
+  {
+   "id": "w-ear-climber-01",
+   "imageUrl": "/images/production-products/w-ear-climber-01.jpg",
+   "category": "jewellery",
+   "gender": "women"
+  },
+  {
+   "id": "w-ear-climber-02",
+   "imageUrl": "/images/production-products/w-ear-climber-02.jpg",
+   "category": "jewellery",
+   "gender": "women"
+  },
+  {
+   "id": "w-neck-choker-01",
+   "imageUrl": "/images/production-products/w-neck-choker-01.jpg",
+   "category": "jewellery",
+   "gender": "women"
+  },
+  {
+   "id": "w-neck-choker-02",
+   "imageUrl": "/images/production-products/w-neck-choker-02.jpg",
+   "category": "jewellery",
+   "gender": "women"
+  },
+  {
+   "id": "w-neck-lac-01",
+   "imageUrl": "/images/production-products/w-neck-lac-01.jpg",
+   "category": "jewellery",
+   "gender": "women"
+  },
+  {
+   "id": "w-neck-lac-02",
+   "imageUrl": "/images/production-products/w-neck-lac-02.jpg",
+   "category": "jewellery",
+   "gender": "women"
+  },
+  {
+   "id": "w-neck-long-01",
+   "imageUrl": "/images/production-products/w-neck-long-01.jpg",
+   "category": "jewellery",
+   "gender": "women"
+  },
+  {
+   "id": "w-neck-long-02",
+   "imageUrl": "/images/production-products/w-neck-long-02.jpg",
+   "category": "jewellery",
+   "gender": "women"
+  },
+  {
+   "id": "w-neck-collar-01",
+   "imageUrl": "/images/production-products/w-neck-collar-01.jpg",
+   "category": "jewellery",
+   "gender": "women"
+  },
+  {
+   "id": "w-neck-collar-02",
+   "imageUrl": "/images/production-products/w-neck-collar-02.jpg",
+   "category": "jewellery",
+   "gender": "women"
+  },
+  {
+   "id": "w-neck-kundan-01",
+   "imageUrl": "/images/production-products/w-neck-kundan-01.jpg",
+   "category": "jewellery",
+   "gender": "women"
+  },
+  {
+   "id": "w-neck-kundan-02",
+   "imageUrl": "/images/production-products/w-neck-kundan-02.jpg",
+   "category": "jewellery",
+   "gender": "women"
+  },
+  {
+   "id": "w-neck-coin-01",
+   "imageUrl": "/images/production-products/w-neck-coin-01.jpg",
+   "category": "jewellery",
+   "gender": "women"
+  },
+  {
+   "id": "w-neck-coin-02",
+   "imageUrl": "/images/production-products/w-neck-coin-02.jpg",
+   "category": "jewellery",
+   "gender": "women"
+  },
+  {
+   "id": "w-neck-thread-01",
+   "imageUrl": "/images/production-products/w-neck-thread-01.jpg",
+   "category": "jewellery",
+   "gender": "women"
+  },
+  {
+   "id": "w-neck-thread-02",
+   "imageUrl": "/images/production-products/w-neck-thread-02.jpg",
+   "category": "jewellery",
+   "gender": "women"
+  },
+  {
+   "id": "w-rings-01",
+   "imageUrl": "/images/production-products/w-rings-01.jpg",
+   "category": "jewellery",
+   "gender": "women"
+  },
+  {
+   "id": "w-rings-02",
+   "imageUrl": "/images/production-products/w-rings-02.jpg",
+   "category": "jewellery",
+   "gender": "women"
+  },
+  {
+   "id": "w-ring-cocktail-01",
+   "imageUrl": "/images/production-products/w-ring-cocktail-01.jpg",
+   "category": "jewellery",
+   "gender": "women"
+  },
+  {
+   "id": "w-ring-cocktail-02",
+   "imageUrl": "/images/production-products/w-ring-cocktail-02.jpg",
+   "category": "jewellery",
+   "gender": "women"
+  },
+  {
+   "id": "w-ring-stack-01",
+   "imageUrl": "/images/production-products/w-ring-stack-01.jpg",
+   "category": "jewellery",
+   "gender": "women"
+  },
+  {
+   "id": "w-ring-stack-02",
+   "imageUrl": "/images/production-products/w-ring-stack-02.jpg",
+   "category": "jewellery",
+   "gender": "women"
+  },
+  {
+   "id": "w-bangles-01",
+   "imageUrl": "/images/production-products/w-bangles-01.jpg",
+   "category": "jewellery",
+   "gender": "women"
+  },
+  {
+   "id": "w-bangles-02",
+   "imageUrl": "/images/production-products/w-bangles-02.jpg",
+   "category": "jewellery",
+   "gender": "women"
+  },
+  {
+   "id": "w-kada-01",
+   "imageUrl": "/images/production-products/w-kada-01.jpg",
+   "category": "jewellery",
+   "gender": "women"
+  },
+  {
+   "id": "w-kada-02",
+   "imageUrl": "/images/production-products/w-kada-02.jpg",
+   "category": "jewellery",
+   "gender": "women"
+  },
+  {
+   "id": "w-bracelet-01",
+   "imageUrl": "/images/production-products/w-bracelet-01.jpg",
+   "category": "jewellery",
+   "gender": "women"
+  },
+  {
+   "id": "w-bracelet-02",
+   "imageUrl": "/images/production-products/w-bracelet-02.jpg",
+   "category": "jewellery",
+   "gender": "women"
+  },
+  {
+   "id": "w-tikka-01",
+   "imageUrl": "/images/production-products/w-tikka-01.jpg",
+   "category": "jewellery",
+   "gender": "women"
+  },
+  {
+   "id": "w-tikka-02",
+   "imageUrl": "/images/production-products/w-tikka-02.jpg",
+   "category": "jewellery",
+   "gender": "women"
+  },
+  {
+   "id": "w-patti-01",
+   "imageUrl": "/images/production-products/w-patti-01.jpg",
+   "category": "jewellery",
+   "gender": "women"
+  },
+  {
+   "id": "w-patti-02",
+   "imageUrl": "/images/production-products/w-patti-02.jpg",
+   "category": "jewellery",
+   "gender": "women"
+  },
+  {
+   "id": "w-passa-01",
+   "imageUrl": "/images/production-products/w-passa-01.jpg",
+   "category": "jewellery",
+   "gender": "women"
+  },
+  {
+   "id": "w-passa-02",
+   "imageUrl": "/images/production-products/w-passa-02.jpg",
+   "category": "jewellery",
+   "gender": "women"
+  },
+  {
+   "id": "w-hairpin-01",
+   "imageUrl": "/images/production-products/w-hairpin-01.jpg",
+   "category": "jewellery",
+   "gender": "women"
+  },
+  {
+   "id": "w-hairpin-02",
+   "imageUrl": "/images/production-products/w-hairpin-02.jpg",
+   "category": "jewellery",
+   "gender": "women"
+  },
+  {
+   "id": "w-hair-jassa-01",
+   "imageUrl": "/images/production-products/w-hair-jassa-01.jpg",
+   "category": "jewellery",
+   "gender": "women"
+  },
+  {
+   "id": "w-hair-jassa-02",
+   "imageUrl": "/images/production-products/w-hair-jassa-02.jpg",
+   "category": "jewellery",
+   "gender": "women"
+  },
+  {
+   "id": "w-brooch-01",
+   "imageUrl": "/images/production-products/w-brooch-01.jpg",
+   "category": "jewellery",
+   "gender": "women"
+  },
+  {
+   "id": "w-brooch-02",
+   "imageUrl": "/images/production-products/w-brooch-02.jpg",
+   "category": "jewellery",
+   "gender": "women"
+  },
+  {
+   "id": "w-waistbelt-01",
+   "imageUrl": "/images/production-products/w-waistbelt-01.jpg",
+   "category": "jewellery",
+   "gender": "women"
+  },
+  {
+   "id": "w-waistbelt-02",
+   "imageUrl": "/images/production-products/w-waistbelt-02.jpg",
+   "category": "jewellery",
+   "gender": "women"
+  },
+  {
+   "id": "w-potli-01",
+   "imageUrl": "/images/production-products/w-potli-01.jpg",
+   "category": "bags",
+   "gender": "women"
+  },
+  {
+   "id": "w-potli-02",
+   "imageUrl": "/images/production-products/w-potli-02.jpg",
+   "category": "bags",
+   "gender": "women"
+  },
+  {
+   "id": "w-potli-03",
+   "imageUrl": "/images/production-products/w-potli-03.jpg",
+   "category": "bags",
+   "gender": "women"
+  },
+  {
+   "id": "w-clutch-01",
+   "imageUrl": "/images/production-products/w-clutch-01.jpg",
+   "category": "bags",
+   "gender": "women"
+  },
+  {
+   "id": "w-clutch-02",
+   "imageUrl": "/images/production-products/w-clutch-02.jpg",
+   "category": "bags",
+   "gender": "women"
+  },
+  {
+   "id": "w-clutch-cane-01",
+   "imageUrl": "/images/production-products/w-clutch-cane-01.jpg",
+   "category": "bags",
+   "gender": "women"
+  },
+  {
+   "id": "w-clutch-cane-02",
+   "imageUrl": "/images/production-products/w-clutch-cane-02.jpg",
+   "category": "bags",
+   "gender": "women"
+  },
+  {
+   "id": "w-sling-01",
+   "imageUrl": "/images/production-products/w-sling-01.jpg",
+   "category": "bags",
+   "gender": "women"
+  },
+  {
+   "id": "w-sling-02",
+   "imageUrl": "/images/production-products/w-sling-02.jpg",
+   "category": "bags",
+   "gender": "women"
+  },
+  {
+   "id": "w-handbag-01",
+   "imageUrl": "/images/production-products/w-handbag-01.jpg",
+   "category": "bags",
+   "gender": "women"
+  },
+  {
+   "id": "w-handbag-02",
+   "imageUrl": "/images/production-products/w-handbag-02.jpg",
+   "category": "bags",
+   "gender": "women"
+  },
+  {
+   "id": "w-bag-emb-01",
+   "imageUrl": "/images/production-products/w-bag-emb-01.jpg",
+   "category": "bags",
+   "gender": "women"
+  },
+  {
+   "id": "w-bag-emb-02",
+   "imageUrl": "/images/production-products/w-bag-emb-02.jpg",
+   "category": "bags",
+   "gender": "women"
+  },
+  {
+   "id": "w-bag-embroidered-01",
+   "imageUrl": "/images/production-products/w-bag-embroidered-01.jpg",
+   "category": "bags",
+   "gender": "women"
+  },
+  {
+   "id": "w-bag-embroidered-02",
+   "imageUrl": "/images/production-products/w-bag-embroidered-02.jpg",
+   "category": "bags",
+   "gender": "women"
+  },
+  {
+   "id": "w-jutti-01",
+   "imageUrl": "/images/production-products/w-jutti-01.jpg",
+   "category": "footwear",
+   "gender": "women"
+  },
+  {
+   "id": "w-jutti-02",
+   "imageUrl": "/images/production-products/w-jutti-02.jpg",
+   "category": "footwear",
+   "gender": "women"
+  },
+  {
+   "id": "w-shoe-emb-01",
+   "imageUrl": "/images/production-products/w-shoe-emb-01.jpg",
+   "category": "footwear",
+   "gender": "women"
+  },
+  {
+   "id": "w-shoe-emb-02",
+   "imageUrl": "/images/production-products/w-shoe-emb-02.jpg",
+   "category": "footwear",
+   "gender": "women"
+  },
+  {
+   "id": "w-shoe-kolhapuri-01",
+   "imageUrl": "/images/production-products/w-shoe-kolhapuri-01.jpg",
+   "category": "footwear",
+   "gender": "women"
+  },
+  {
+   "id": "w-shoe-kolhapuri-02",
+   "imageUrl": "/images/production-products/w-shoe-kolhapuri-02.jpg",
+   "category": "footwear",
+   "gender": "women"
+  },
+  {
+   "id": "w-shoe-heeled-01",
+   "imageUrl": "/images/production-products/w-shoe-heeled-01.jpg",
+   "category": "footwear",
+   "gender": "women"
+  },
+  {
+   "id": "w-shoe-heeled-02",
+   "imageUrl": "/images/production-products/w-shoe-heeled-02.jpg",
+   "category": "footwear",
+   "gender": "women"
+  },
+  {
+   "id": "w-shoe-wedge-01",
+   "imageUrl": "/images/production-products/w-shoe-wedge-01.jpg",
+   "category": "footwear",
+   "gender": "women"
+  },
+  {
+   "id": "w-shoe-wedge-02",
+   "imageUrl": "/images/production-products/w-shoe-wedge-02.jpg",
+   "category": "footwear",
+   "gender": "women"
+  },
+  {
+   "id": "w-shoe-mule-01",
+   "imageUrl": "/images/production-products/w-shoe-mule-01.jpg",
+   "category": "footwear",
+   "gender": "women"
+  },
+  {
+   "id": "w-shoe-mule-02",
+   "imageUrl": "/images/production-products/w-shoe-mule-02.jpg",
+   "category": "footwear",
+   "gender": "women"
+  },
+  {
+   "id": "w-shoe-festive-01",
+   "imageUrl": "/images/production-products/w-shoe-festive-01.jpg",
+   "category": "footwear",
+   "gender": "women"
+  },
+  {
+   "id": "w-shoe-festive-02",
+   "imageUrl": "/images/production-products/w-shoe-festive-02.jpg",
+   "category": "footwear",
+   "gender": "women"
+  },
+  {
+   "id": "m-mojari-01",
+   "imageUrl": "/images/production-products/m-mojari-01.jpg",
+   "category": "footwear",
+   "gender": "men"
+  },
+  {
+   "id": "m-mojari-02",
+   "imageUrl": "/images/production-products/m-mojari-02.jpg",
+   "category": "footwear",
+   "gender": "men"
+  },
+  {
+   "id": "m-mojari-03",
+   "imageUrl": "/images/production-products/m-mojari-03.jpg",
+   "category": "footwear",
+   "gender": "men"
+  },
+  {
+   "id": "m-jutti-01",
+   "imageUrl": "/images/production-products/m-jutti-01.jpg",
+   "category": "footwear",
+   "gender": "men"
+  },
+  {
+   "id": "m-jutti-02",
+   "imageUrl": "/images/production-products/m-jutti-02.jpg",
+   "category": "footwear",
+   "gender": "men"
+  },
+  {
+   "id": "m-kolhapuri-01",
+   "imageUrl": "/images/production-products/m-kolhapuri-01.jpg",
+   "category": "footwear",
+   "gender": "men"
+  },
+  {
+   "id": "m-kolhapuri-02",
+   "imageUrl": "/images/production-products/m-kolhapuri-02.jpg",
+   "category": "footwear",
+   "gender": "men"
+  },
+  {
+   "id": "m-sandal-01",
+   "imageUrl": "/images/production-products/m-sandal-01.jpg",
+   "category": "footwear",
+   "gender": "men"
+  },
+  {
+   "id": "m-sandal-02",
+   "imageUrl": "/images/production-products/m-sandal-02.jpg",
+   "category": "footwear",
+   "gender": "men"
+  },
+  {
+   "id": "m-loafer-01",
+   "imageUrl": "/images/production-products/m-loafer-01.jpg",
+   "category": "footwear",
+   "gender": "men"
+  },
+  {
+   "id": "m-loafer-02",
+   "imageUrl": "/images/production-products/m-loafer-02.jpg",
+   "category": "footwear",
+   "gender": "men"
+  },
+  {
+   "id": "m-watch-01",
+   "imageUrl": "/images/production-products/m-watch-01.jpg",
+   "category": "watches",
+   "gender": "men"
+  },
+  {
+   "id": "m-watch-02",
+   "imageUrl": "/images/production-products/m-watch-02.jpg",
+   "category": "watches",
+   "gender": "men"
+  },
+  {
+   "id": "m-watch-03",
+   "imageUrl": "/images/production-products/m-watch-03.jpg",
+   "category": "watches",
+   "gender": "men"
+  },
+  {
+   "id": "m-watch-04",
+   "imageUrl": "/images/production-products/m-watch-04.jpg",
+   "category": "watches",
+   "gender": "men"
+  },
+  {
+   "id": "m-bracelet-01",
+   "imageUrl": "/images/production-products/m-bracelet-01.jpg",
+   "category": "accessories",
+   "gender": "men"
+  },
+  {
+   "id": "m-bracelet-02",
+   "imageUrl": "/images/production-products/m-bracelet-02.jpg",
+   "category": "accessories",
+   "gender": "men"
+  },
+  {
+   "id": "m-ring-01",
+   "imageUrl": "/images/production-products/m-ring-01.jpg",
+   "category": "accessories",
+   "gender": "men"
+  },
+  {
+   "id": "m-ring-02",
+   "imageUrl": "/images/production-products/m-ring-02.jpg",
+   "category": "accessories",
+   "gender": "men"
+  },
+  {
+   "id": "m-cufflinks-01",
+   "imageUrl": "/images/production-products/m-cufflinks-01.jpg",
+   "category": "accessories",
+   "gender": "men"
+  },
+  {
+   "id": "m-cufflinks-02",
+   "imageUrl": "/images/production-products/m-cufflinks-02.jpg",
+   "category": "accessories",
+   "gender": "men"
+  },
+  {
+   "id": "m-brooch-01",
+   "imageUrl": "/images/production-products/m-brooch-01.jpg",
+   "category": "accessories",
+   "gender": "men"
+  },
+  {
+   "id": "m-brooch-02",
+   "imageUrl": "/images/production-products/m-brooch-02.jpg",
+   "category": "accessories",
+   "gender": "men"
+  },
+  {
+   "id": "m-pocket-01",
+   "imageUrl": "/images/production-products/m-pocket-01.jpg",
+   "category": "accessories",
+   "gender": "men"
+  },
+  {
+   "id": "m-pocket-02",
+   "imageUrl": "/images/production-products/m-pocket-02.jpg",
+   "category": "accessories",
+   "gender": "men"
+  },
+  {
+   "id": "m-stole-01",
+   "imageUrl": "/images/production-products/m-stole-01.jpg",
+   "category": "accessories",
+   "gender": "men"
+  },
+  {
+   "id": "m-stole-02",
+   "imageUrl": "/images/production-products/m-stole-02.jpg",
+   "category": "accessories",
+   "gender": "men"
+  },
+  {
+   "id": "m-stole-03",
+   "imageUrl": "/images/production-products/m-stole-03.jpg",
+   "category": "accessories",
+   "gender": "men"
+  },
+  {
+   "id": "m-scarf-01",
+   "imageUrl": "/images/production-products/m-scarf-01.jpg",
+   "category": "accessories",
+   "gender": "men"
+  },
+  {
+   "id": "m-scarf-02",
+   "imageUrl": "/images/production-products/m-scarf-02.jpg",
+   "category": "accessories",
+   "gender": "men"
+  },
+  {
+   "id": "m-belt-01",
+   "imageUrl": "/images/production-products/m-belt-01.jpg",
+   "category": "accessories",
+   "gender": "men"
+  },
+  {
+   "id": "m-belt-02",
+   "imageUrl": "/images/production-products/m-belt-02.jpg",
+   "category": "accessories",
+   "gender": "men"
+  },
+  {
+   "id": "m-wallet-01",
+   "imageUrl": "/images/production-products/m-wallet-01.jpg",
+   "category": "accessories",
+   "gender": "men"
+  },
+  {
+   "id": "m-wallet-02",
+   "imageUrl": "/images/production-products/m-wallet-02.jpg",
+   "category": "accessories",
+   "gender": "men"
+  },
+  {
+   "id": "m-sunglasses-01",
+   "imageUrl": "/images/production-products/m-sunglasses-01.jpg",
+   "category": "accessories",
+   "gender": "men"
+  },
+  {
+   "id": "m-sunglasses-02",
+   "imageUrl": "/images/production-products/m-sunglasses-02.jpg",
+   "category": "accessories",
+   "gender": "men"
+  },
+  {
+   "id": "m-groom-kit-01",
+   "imageUrl": "/images/production-products/m-groom-kit-01.jpg",
+   "category": "accessories",
+   "gender": "men"
+  },
+  {
+   "id": "m-groom-kit-02",
+   "imageUrl": "/images/production-products/m-groom-kit-02.jpg",
+   "category": "accessories",
+   "gender": "men"
+  },
+  {
+   "id": "m-safa-01",
+   "imageUrl": "/images/production-products/m-safa-01.jpg",
+   "category": "accessories",
+   "gender": "men"
+  },
+  {
+   "id": "m-safa-02",
+   "imageUrl": "/images/production-products/m-safa-02.jpg",
+   "category": "accessories",
+   "gender": "men"
+  },
+  {
+   "id": "m-pagdi-01",
+   "imageUrl": "/images/production-products/m-pagdi-01.jpg",
+   "category": "accessories",
+   "gender": "men"
+  },
+  {
+   "id": "b-eye-palette-01",
+   "imageUrl": "/images/production-products/b-eye-palette-01.jpg",
+   "category": "beauty",
+   "gender": "women"
+  },
+  {
+   "id": "b-eye-palette-02",
+   "imageUrl": "/images/production-products/b-eye-palette-02.jpg",
+   "category": "beauty",
+   "gender": "women"
+  },
+  {
+   "id": "b-eye-palette-03",
+   "imageUrl": "/images/production-products/b-eye-palette-03.jpg",
+   "category": "beauty",
+   "gender": "women"
+  },
+  {
+   "id": "b-kajal-01",
+   "imageUrl": "/images/production-products/b-kajal-01.jpg",
+   "category": "beauty",
+   "gender": "women"
+  },
+  {
+   "id": "b-kajal-02",
+   "imageUrl": "/images/production-products/b-kajal-02.jpg",
+   "category": "beauty",
+   "gender": "women"
+  },
+  {
+   "id": "b-bottle-glow-01",
+   "imageUrl": "/images/production-products/b-bottle-glow-01.jpg",
+   "category": "beauty",
+   "gender": "women"
+  },
+  {
+   "id": "b-bottle-glow-02",
+   "imageUrl": "/images/production-products/b-bottle-glow-02.jpg",
+   "category": "beauty",
+   "gender": "women"
+  },
+  {
+   "id": "b-bottle-makeup-01",
+   "imageUrl": "/images/production-products/b-bottle-makeup-01.jpg",
+   "category": "beauty",
+   "gender": "women"
+  },
+  {
+   "id": "b-bottle-makeup-02",
+   "imageUrl": "/images/production-products/b-bottle-makeup-02.jpg",
+   "category": "beauty",
+   "gender": "women"
+  },
+  {
+   "id": "b-bottle-hair-01",
+   "imageUrl": "/images/production-products/b-bottle-hair-01.jpg",
+   "category": "beauty",
+   "gender": "women"
+  },
+  {
+   "id": "b-bottle-hair-02",
+   "imageUrl": "/images/production-products/b-bottle-hair-02.jpg",
+   "category": "beauty",
+   "gender": "women"
+  },
+  {
+   "id": "b-bottle-lip-01",
+   "imageUrl": "/images/production-products/b-bottle-lip-01.jpg",
+   "category": "beauty",
+   "gender": "women"
+  },
+  {
+   "id": "b-bottle-lip-02",
+   "imageUrl": "/images/production-products/b-bottle-lip-02.jpg",
+   "category": "beauty",
+   "gender": "women"
+  },
+  {
+   "id": "b-bottle-body-01",
+   "imageUrl": "/images/production-products/b-bottle-body-01.jpg",
+   "category": "beauty",
+   "gender": "women"
+  },
+  {
+   "id": "b-bottle-body-02",
+   "imageUrl": "/images/production-products/b-bottle-body-02.jpg",
+   "category": "beauty",
+   "gender": "women"
+  },
+  {
+   "id": "b-kajal-deos-01",
+   "imageUrl": "/images/production-products/b-kajal-deos-01.jpg",
+   "category": "beauty",
+   "gender": "women"
+  },
+  {
+   "id": "b-kajal-deos-02",
+   "imageUrl": "/images/production-products/b-kajal-deos-02.jpg",
+   "category": "beauty",
+   "gender": "women"
+  },
+  {
+   "id": "b-kajal-deos-03",
+   "imageUrl": "/images/production-products/b-kajal-deos-03.jpg",
+   "category": "beauty",
+   "gender": "women"
+  },
+  {
+   "id": "b-kit-brush-01",
+   "imageUrl": "/images/production-products/b-kit-brush-01.jpg",
+   "category": "beauty",
+   "gender": "women"
+  },
+  {
+   "id": "b-kit-brush-02",
+   "imageUrl": "/images/production-products/b-kit-brush-02.jpg",
+   "category": "beauty",
+   "gender": "women"
+  },
+  {
+   "id": "b-stick-lip-01",
+   "imageUrl": "/images/production-products/b-stick-lip-01.jpg",
+   "category": "beauty",
+   "gender": "women"
+  },
+  {
+   "id": "b-stick-lip-02",
+   "imageUrl": "/images/production-products/b-stick-lip-02.jpg",
+   "category": "beauty",
+   "gender": "women"
+  },
+  {
+   "id": "b-stick-lip-03",
+   "imageUrl": "/images/production-products/b-stick-lip-03.jpg",
+   "category": "beauty",
+   "gender": "women"
+  },
+  {
+   "id": "b-palette-compact-01",
+   "imageUrl": "/images/production-products/b-palette-compact-01.jpg",
+   "category": "beauty",
+   "gender": "women"
+  },
+  {
+   "id": "b-palette-compact-02",
+   "imageUrl": "/images/production-products/b-palette-compact-02.jpg",
+   "category": "beauty",
+   "gender": "women"
+  },
+  {
+   "id": "w-garba-chaniya-production-01",
+   "imageUrl": "/images/production-products/w-garba-chaniya-production-01.jpg",
+   "category": "garba",
+   "gender": "women"
+  },
+  {
+   "id": "w-garba-chaniya-production-02",
+   "imageUrl": "/images/production-products/w-garba-chaniya-production-02.jpg",
+   "category": "garba",
+   "gender": "women"
+  },
+  {
+   "id": "w-garba-chaniya-production-03",
+   "imageUrl": "/images/production-products/w-garba-chaniya-production-03.jpg",
+   "category": "garba",
+   "gender": "women"
+  },
+  {
+   "id": "w-garba-chaniya-production-04",
+   "imageUrl": "/images/production-products/w-garba-chaniya-production-04.jpg",
+   "category": "garba",
+   "gender": "women"
+  },
+  {
+   "id": "w-garba-chaniya-production-05",
+   "imageUrl": "/images/production-products/w-garba-chaniya-production-05.jpg",
+   "category": "garba",
+   "gender": "women"
+  },
+  {
+   "id": "w-garba-chaniya-production-06",
+   "imageUrl": "/images/production-products/w-garba-chaniya-production-06.jpg",
+   "category": "garba",
+   "gender": "women"
+  },
+  {
+   "id": "w-garba-chaniya-production-07",
+   "imageUrl": "/images/production-products/w-garba-chaniya-production-07.jpg",
+   "category": "garba",
+   "gender": "women"
+  },
+  {
+   "id": "w-garba-chaniya-production-08",
+   "imageUrl": "/images/production-products/w-garba-chaniya-production-08.jpg",
+   "category": "garba",
+   "gender": "women"
+  },
+  {
+   "id": "w-garba-chaniya-production-09",
+   "imageUrl": "/images/production-products/w-garba-chaniya-production-09.jpg",
+   "category": "garba",
+   "gender": "women"
+  },
+  {
+   "id": "w-garba-chaniya-production-10",
+   "imageUrl": "/images/production-products/w-garba-chaniya-production-10.jpg",
+   "category": "garba",
+   "gender": "women"
+  },
+  {
+   "id": "w-garba-chaniya-production-11",
+   "imageUrl": "/images/production-products/w-garba-chaniya-production-11.jpg",
+   "category": "garba",
+   "gender": "women"
+  },
+  {
+   "id": "w-garba-chaniya-production-12",
+   "imageUrl": "/images/production-products/w-garba-chaniya-production-12.jpg",
+   "category": "garba",
+   "gender": "women"
+  },
+  {
+   "id": "w-garba-chaniya-production-13",
+   "imageUrl": "/images/production-products/w-garba-chaniya-production-13.jpg",
+   "category": "garba",
+   "gender": "women"
+  },
+  {
+   "id": "w-garba-chaniya-production-14",
+   "imageUrl": "/images/production-products/w-garba-chaniya-production-14.jpg",
+   "category": "garba",
+   "gender": "women"
+  },
+  {
+   "id": "w-garba-chaniya-production-15",
+   "imageUrl": "/images/production-products/w-garba-chaniya-production-15.jpg",
+   "category": "garba",
+   "gender": "women"
+  },
+  {
+   "id": "w-garba-chaniya-production-16",
+   "imageUrl": "/images/production-products/w-garba-chaniya-production-16.jpg",
+   "category": "garba",
+   "gender": "women"
+  },
+  {
+   "id": "w-garba-chaniya-production-17",
+   "imageUrl": "/images/production-products/w-garba-chaniya-production-17.jpg",
+   "category": "garba",
+   "gender": "women"
+  },
+  {
+   "id": "w-garba-chaniya-production-18",
+   "imageUrl": "/images/production-products/w-garba-chaniya-production-18.jpg",
+   "category": "garba",
+   "gender": "women"
+  },
+  {
+   "id": "w-navratri-lehenga-production-01",
+   "imageUrl": "/images/production-products/w-navratri-lehenga-production-01.jpg",
+   "category": "lehenga",
+   "gender": "women"
+  },
+  {
+   "id": "w-navratri-lehenga-production-02",
+   "imageUrl": "/images/production-products/w-navratri-lehenga-production-02.jpg",
+   "category": "lehenga",
+   "gender": "women"
+  },
+  {
+   "id": "w-navratri-lehenga-production-03",
+   "imageUrl": "/images/production-products/w-navratri-lehenga-production-03.jpg",
+   "category": "lehenga",
+   "gender": "women"
+  },
+  {
+   "id": "w-navratri-lehenga-production-04",
+   "imageUrl": "/images/production-products/w-navratri-lehenga-production-04.jpg",
+   "category": "lehenga",
+   "gender": "women"
+  },
+  {
+   "id": "w-navratri-lehenga-production-05",
+   "imageUrl": "/images/production-products/w-navratri-lehenga-production-05.jpg",
+   "category": "lehenga",
+   "gender": "women"
+  },
+  {
+   "id": "w-navratri-lehenga-production-06",
+   "imageUrl": "/images/production-products/w-navratri-lehenga-production-06.jpg",
+   "category": "lehenga",
+   "gender": "women"
+  },
+  {
+   "id": "w-navratri-lehenga-production-07",
+   "imageUrl": "/images/production-products/w-navratri-lehenga-production-07.jpg",
+   "category": "lehenga",
+   "gender": "women"
+  },
+  {
+   "id": "w-navratri-lehenga-production-08",
+   "imageUrl": "/images/production-products/w-navratri-lehenga-production-08.jpg",
+   "category": "lehenga",
+   "gender": "women"
+  },
+  {
+   "id": "w-navratri-lehenga-production-09",
+   "imageUrl": "/images/production-products/w-navratri-lehenga-production-09.jpg",
+   "category": "lehenga",
+   "gender": "women"
+  },
+  {
+   "id": "w-navratri-lehenga-production-10",
+   "imageUrl": "/images/production-products/w-navratri-lehenga-production-10.jpg",
+   "category": "lehenga",
+   "gender": "women"
+  },
+  {
+   "id": "w-navratri-lehenga-production-11",
+   "imageUrl": "/images/production-products/w-navratri-lehenga-production-11.jpg",
+   "category": "lehenga",
+   "gender": "women"
+  },
+  {
+   "id": "w-navratri-lehenga-production-12",
+   "imageUrl": "/images/production-products/w-navratri-lehenga-production-12.jpg",
+   "category": "lehenga",
+   "gender": "women"
+  },
+  {
+   "id": "w-navratri-lehenga-production-13",
+   "imageUrl": "/images/production-products/w-navratri-lehenga-production-13.jpg",
+   "category": "lehenga",
+   "gender": "women"
+  },
+  {
+   "id": "w-navratri-lehenga-production-14",
+   "imageUrl": "/images/production-products/w-navratri-lehenga-production-14.jpg",
+   "category": "lehenga",
+   "gender": "women"
+  },
+  {
+   "id": "m-garba-kediyu-production-01",
+   "imageUrl": "/images/production-products/m-garba-kediyu-production-01.jpg",
+   "category": "garba",
+   "gender": "men"
+  },
+  {
+   "id": "m-garba-kediyu-production-02",
+   "imageUrl": "/images/production-products/m-garba-kediyu-production-02.jpg",
+   "category": "garba",
+   "gender": "men"
+  },
+  {
+   "id": "m-garba-kediyu-production-03",
+   "imageUrl": "/images/production-products/m-garba-kediyu-production-03.jpg",
+   "category": "garba",
+   "gender": "men"
+  },
+  {
+   "id": "m-garba-kediyu-production-04",
+   "imageUrl": "/images/production-products/m-garba-kediyu-production-04.jpg",
+   "category": "garba",
+   "gender": "men"
+  },
+  {
+   "id": "m-garba-kediyu-production-05",
+   "imageUrl": "/images/production-products/m-garba-kediyu-production-05.jpg",
+   "category": "garba",
+   "gender": "men"
+  },
+  {
+   "id": "m-garba-kediyu-production-06",
+   "imageUrl": "/images/production-products/m-garba-kediyu-production-06.jpg",
+   "category": "garba",
+   "gender": "men"
+  },
+  {
+   "id": "m-garba-kediyu-production-07",
+   "imageUrl": "/images/production-products/m-garba-kediyu-production-07.jpg",
+   "category": "garba",
+   "gender": "men"
+  },
+  {
+   "id": "m-garba-kediyu-production-08",
+   "imageUrl": "/images/production-products/m-garba-kediyu-production-08.jpg",
+   "category": "garba",
+   "gender": "men"
+  },
+  {
+   "id": "m-garba-kediyu-production-09",
+   "imageUrl": "/images/production-products/m-garba-kediyu-production-09.jpg",
+   "category": "garba",
+   "gender": "men"
+  },
+  {
+   "id": "m-garba-kediyu-production-10",
+   "imageUrl": "/images/production-products/m-garba-kediyu-production-10.jpg",
+   "category": "garba",
+   "gender": "men"
+  },
+  {
+   "id": "m-garba-kediyu-production-11",
+   "imageUrl": "/images/production-products/m-garba-kediyu-production-11.jpg",
+   "category": "garba",
+   "gender": "men"
+  },
+  {
+   "id": "m-garba-kediyu-production-12",
+   "imageUrl": "/images/production-products/m-garba-kediyu-production-12.jpg",
+   "category": "garba",
+   "gender": "men"
+  },
+  {
+   "id": "m-garba-kediyu-production-13",
+   "imageUrl": "/images/production-products/m-garba-kediyu-production-13.jpg",
+   "category": "garba",
+   "gender": "men"
+  },
+  {
+   "id": "m-garba-kediyu-production-14",
+   "imageUrl": "/images/production-products/m-garba-kediyu-production-14.jpg",
+   "category": "garba",
+   "gender": "men"
+  },
+  {
+   "id": "m-festive-layer-production-01",
+   "imageUrl": "/images/production-products/m-festive-layer-production-01.jpg",
+   "category": "kurta-sets",
+   "gender": "men"
+  },
+  {
+   "id": "m-festive-layer-production-02",
+   "imageUrl": "/images/production-products/m-festive-layer-production-02.jpg",
+   "category": "kurta-sets",
+   "gender": "men"
+  },
+  {
+   "id": "m-festive-layer-production-03",
+   "imageUrl": "/images/production-products/m-festive-layer-production-03.jpg",
+   "category": "kurta-sets",
+   "gender": "men"
+  },
+  {
+   "id": "m-festive-layer-production-04",
+   "imageUrl": "/images/production-products/m-festive-layer-production-04.jpg",
+   "category": "kurta-sets",
+   "gender": "men"
+  },
+  {
+   "id": "m-festive-layer-production-05",
+   "imageUrl": "/images/production-products/m-festive-layer-production-05.jpg",
+   "category": "kurta-sets",
+   "gender": "men"
+  },
+  {
+   "id": "m-festive-layer-production-06",
+   "imageUrl": "/images/production-products/m-festive-layer-production-06.jpg",
+   "category": "kurta-sets",
+   "gender": "men"
+  },
+  {
+   "id": "m-festive-layer-production-07",
+   "imageUrl": "/images/production-products/m-festive-layer-production-07.jpg",
+   "category": "kurta-sets",
+   "gender": "men"
+  },
+  {
+   "id": "m-festive-layer-production-08",
+   "imageUrl": "/images/production-products/m-festive-layer-production-08.jpg",
+   "category": "kurta-sets",
+   "gender": "men"
+  },
+  {
+   "id": "m-festive-layer-production-09",
+   "imageUrl": "/images/production-products/m-festive-layer-production-09.jpg",
+   "category": "kurta-sets",
+   "gender": "men"
+  },
+  {
+   "id": "m-festive-layer-production-10",
+   "imageUrl": "/images/production-products/m-festive-layer-production-10.jpg",
+   "category": "kurta-sets",
+   "gender": "men"
+  },
+  {
+   "id": "m-festive-layer-production-11",
+   "imageUrl": "/images/production-products/m-festive-layer-production-11.jpg",
+   "category": "kurta-sets",
+   "gender": "men"
+  },
+  {
+   "id": "m-festive-layer-production-12",
+   "imageUrl": "/images/production-products/m-festive-layer-production-12.jpg",
+   "category": "kurta-sets",
+   "gender": "men"
+  },
+  {
+   "id": "cp-set-01",
+   "imageUrl": "/images/couples/sage-silk.jpg",
+   "category": "couple-edit",
+   "gender": "couple"
+  },
+  {
+   "id": "cp-set-02",
+   "imageUrl": "/images/couples/ivory-gold.jpg",
+   "category": "couple-edit",
+   "gender": "couple"
+  },
+  {
+   "id": "cp-set-03",
+   "imageUrl": "/images/couples/terracotta-fiesta.jpg",
+   "category": "couple-edit",
+   "gender": "couple"
+  },
+  {
+   "id": "cp-set-04",
+   "imageUrl": "/images/couples/midnight-velvet.jpg",
+   "category": "couple-edit",
+   "gender": "couple"
+  },
+  {
+   "id": "cp-set-05",
+   "imageUrl": "/images/couples/marigold-day.jpg",
+   "category": "couple-edit",
+   "gender": "couple"
+  },
+  {
+   "id": "cp-set-06",
+   "imageUrl": "/images/couples/monsoon-pastel.jpg",
+   "category": "couple-edit",
+   "gender": "couple"
+  },
+  {
+   "id": "cp-set-07",
+   "imageUrl": "/images/couples/diwali-heirloom.jpg",
+   "category": "couple-edit",
+   "gender": "couple"
+  },
+  {
+   "id": "cp-set-08",
+   "imageUrl": "/images/couples/navratri-neon.jpg",
+   "category": "couple-edit",
+   "gender": "couple"
+  },
+  {
+   "id": "cp-set-09",
+   "imageUrl": "/images/couples/destination-white.jpg",
+   "category": "couple-edit",
+   "gender": "couple"
+  },
+  {
+   "id": "cp-set-10",
+   "imageUrl": "/images/couples/college-duo.jpg",
+   "category": "couple-edit",
+   "gender": "couple"
+  },
+  {
+   "id": "cp-set-11",
+   "imageUrl": "/images/couples/wedding-guest-olive.jpg",
+   "category": "couple-edit",
+   "gender": "couple"
+  },
+  {
+   "id": "cp-set-12",
+   "imageUrl": "/images/couples/winter-wedding.jpg",
+   "category": "couple-edit",
+   "gender": "couple"
+  },
+  {
+   "id": "cp-set-13",
+   "imageUrl": "/images/couples/family-function.jpg",
+   "category": "couple-edit",
+   "gender": "couple"
+  },
+  {
+   "id": "cp-set-14",
+   "imageUrl": "/images/couples/date-evening.jpg",
+   "category": "couple-edit",
+   "gender": "couple"
+  },
+  {
+   "id": "cp-set-15",
+   "imageUrl": "/images/couples/mehendi-mint.jpg",
+   "category": "couple-edit",
+   "gender": "couple"
+  },
+  {
+   "id": "cp-set-16",
+   "imageUrl": "/images/couples/festive-brass.jpg",
+   "category": "couple-edit",
+   "gender": "couple"
+  }
+ ],
+ "couplePrimaries": [
+  {
+   "id": "couple-sage-silk",
+   "imageUrl": "/images/couples/sage-silk.jpg",
+   "occasions": [
+    "Sangeet"
+   ]
+  },
+  {
+   "id": "couple-ivory-gold",
+   "imageUrl": "/images/couples/ivory-gold.jpg",
+   "occasions": [
+    "Reception"
+   ]
+  },
+  {
+   "id": "couple-terracotta-fiesta",
+   "imageUrl": "/images/couples/terracotta-fiesta.jpg",
+   "occasions": [
+    "Mehendi"
+   ]
+  },
+  {
+   "id": "couple-midnight-velvet",
+   "imageUrl": "/images/couples/midnight-velvet.jpg",
+   "occasions": [
+    "Evening"
+   ]
+  },
+  {
+   "id": "couple-marigold-day",
+   "imageUrl": "/images/couples/marigold-day.jpg",
+   "occasions": [
+    "Wedding"
+   ]
+  },
+  {
+   "id": "couple-monsoon-pastel",
+   "imageUrl": "/images/couples/monsoon-pastel.jpg",
+   "occasions": [
+    "Engagement"
+   ]
+  },
+  {
+   "id": "couple-diwali-heirloom",
+   "imageUrl": "/images/couples/diwali-heirloom.jpg",
+   "occasions": [
+    "Diwali"
+   ]
+  },
+  {
+   "id": "couple-navratri-neon",
+   "imageUrl": "/images/couples/navratri-neon.jpg",
+   "occasions": [
+    "Garba"
+   ]
+  },
+  {
+   "id": "couple-destination-white",
+   "imageUrl": "/images/couples/destination-white.jpg",
+   "occasions": [
+    "Travel"
+   ]
+  },
+  {
+   "id": "couple-college-duo",
+   "imageUrl": "/images/couples/college-duo.jpg",
+   "occasions": [
+    "College"
+   ]
+  },
+  {
+   "id": "couple-wedding-guest-olive",
+   "imageUrl": "/images/couples/wedding-guest-olive.jpg",
+   "occasions": [
+    "Guest"
+   ]
+  },
+  {
+   "id": "couple-winter-wedding",
+   "imageUrl": "/images/couples/winter-wedding.jpg",
+   "occasions": [
+    "Winter"
+   ]
+  },
+  {
+   "id": "couple-family-function",
+   "imageUrl": "/images/couples/family-function.jpg",
+   "occasions": [
+    "Family"
+   ]
+  },
+  {
+   "id": "couple-date-evening",
+   "imageUrl": "/images/couples/date-evening.jpg",
+   "occasions": [
+    "Date"
+   ]
+  },
+  {
+   "id": "couple-mehendi-mint",
+   "imageUrl": "/images/couples/mehendi-mint.jpg",
+   "occasions": [
+    "Mehendi"
+   ]
+  },
+  {
+   "id": "couple-festive-brass",
+   "imageUrl": "/images/couples/festive-brass.jpg",
+   "occasions": [
+    "Family"
+   ]
+  },
+  {
+   "id": "couple-garba-black-gold",
+   "imageUrl": "/images/couples/garba-black-gold.jpg",
+   "occasions": [
+    "Garba"
+   ]
+  },
+  {
+   "id": "couple-diwali-wine-ivory",
+   "imageUrl": "/images/couples/diwali-wine-ivory.jpg",
+   "occasions": [
+    "Diwali"
+   ]
+  },
+  {
+   "id": "couple-sangeet-emerald-cream",
+   "imageUrl": "/images/couples/sangeet-emerald-cream.jpg",
+   "occasions": [
+    "Sangeet"
+   ]
+  },
+  {
+   "id": "couple-wedding-maroon-champagne",
+   "imageUrl": "/images/couples/wedding-maroon-champagne.jpg",
+   "occasions": [
+    "Wedding"
+   ]
+  },
+  {
+   "id": "couple-haldi-mustard-ivory",
+   "imageUrl": "/images/couples/haldi-mustard-ivory.jpg",
+   "occasions": [
+    "Haldi"
+   ]
+  },
+  {
+   "id": "couple-cocktail-charcoal-rose",
+   "imageUrl": "/images/couples/cocktail-charcoal-rose.jpg",
+   "occasions": [
+    "Reception"
+   ]
+  },
+  {
+   "id": "couple-navratri-rust-cream",
+   "imageUrl": "/images/couples/navratri-rust-cream.jpg",
+   "occasions": [
+    "Garba"
+   ]
+  },
+  {
+   "id": "couple-reception-navy-peach",
+   "imageUrl": "/images/couples/reception-navy-peach.jpg",
+   "occasions": [
+    "Reception"
+   ]
+  },
+  {
+   "id": "couple-college-fest-sage-ivory",
+   "imageUrl": "/images/couples/college-fest-sage-ivory.jpg",
+   "occasions": [
+    "College"
+   ]
+  },
+  {
+   "id": "couple-mehendi-forest-rose",
+   "imageUrl": "/images/couples/mehendi-forest-rose.jpg",
+   "occasions": [
+    "Mehendi"
+   ]
+  },
+  {
+   "id": "couple-engagement-powder-ivory",
+   "imageUrl": "/images/couples/engagement-powder-ivory.jpg",
+   "occasions": [
+    "Engagement"
+   ]
+  },
+  {
+   "id": "couple-puja-terracotta-cream",
+   "imageUrl": "/images/couples/puja-terracotta-cream.jpg",
+   "occasions": [
+    "Puja & Temple"
+   ]
+  },
+  {
+   "id": "couple-festive-plum-blush",
+   "imageUrl": "/images/couples/festive-plum-blush.jpg",
+   "occasions": [
+    "Festive Party"
+   ]
+  },
+  {
+   "id": "couple-wedding-guest-deepgreen-sand",
+   "imageUrl": "/images/couples/wedding-guest-deepgreen-sand.jpg",
+   "occasions": [
+    "Wedding Guest"
+   ]
+  },
+  {
+   "id": "couple-winter-burgundy-ivory",
+   "imageUrl": "/images/couples/winter-burgundy-ivory.jpg",
+   "occasions": [
+    "Winter"
+   ]
+  },
+  {
+   "id": "couple-date-night-chocolate-cream",
+   "imageUrl": "/images/couples/date-night-chocolate-cream.jpg",
+   "occasions": [
+    "Date Night"
+   ]
+  },
+  {
+   "id": "couple-garba-dandiya-walk",
+   "imageUrl": "/images/couples/garba-dandiya-walk.jpg",
+   "occasions": [
+    "Garba"
+   ]
+  },
+  {
+   "id": "couple-garba-mirror-laugh",
+   "imageUrl": "/images/couples/garba-mirror-laugh.jpg",
+   "occasions": [
+    "Garba"
+   ]
+  },
+  {
+   "id": "couple-garba-terracotta-night",
+   "imageUrl": "/images/couples/garba-terracotta-night.jpg",
+   "occasions": [
+    "Garba"
+   ]
+  },
+  {
+   "id": "couple-garba-indigo-ivory",
+   "imageUrl": "/images/couples/garba-indigo-ivory.jpg",
+   "occasions": [
+    "Garba"
+   ]
+  },
+  {
+   "id": "couple-garba-peacock-pink",
+   "imageUrl": "/images/couples/garba-peacock-pink.jpg",
+   "occasions": [
+    "Garba"
+   ]
+  },
+  {
+   "id": "couple-garba-sage-rust",
+   "imageUrl": "/images/couples/garba-sage-rust.jpg",
+   "occasions": [
+    "Garba"
+   ]
+  },
+  {
+   "id": "couple-garba-gold-black",
+   "imageUrl": "/images/couples/garba-gold-black.jpg",
+   "occasions": [
+    "Garba"
+   ]
+  },
+  {
+   "id": "couple-garba-sunlit-yellow",
+   "imageUrl": "/images/couples/garba-sunlit-yellow.jpg",
+   "occasions": [
+    "Garba"
+   ]
+  },
+  {
+   "id": "couple-navratri-cobalt",
+   "imageUrl": "/images/couples/navratri-cobalt.jpg",
+   "occasions": [
+    "Navratri"
+   ]
+  },
+  {
+   "id": "couple-navratri-mustard",
+   "imageUrl": "/images/couples/navratri-mustard.jpg",
+   "occasions": [
+    "Navratri"
+   ]
+  },
+  {
+   "id": "couple-navratri-rose",
+   "imageUrl": "/images/couples/navratri-rose.jpg",
+   "occasions": [
+    "Navratri"
+   ]
+  },
+  {
+   "id": "couple-navratri-copper",
+   "imageUrl": "/images/couples/navratri-copper.jpg",
+   "occasions": [
+    "Navratri"
+   ]
+  },
+  {
+   "id": "couple-navratri-coral",
+   "imageUrl": "/images/couples/navratri-coral.jpg",
+   "occasions": [
+    "Navratri"
+   ]
+  },
+  {
+   "id": "couple-navratri-plum",
+   "imageUrl": "/images/couples/navratri-plum.jpg",
+   "occasions": [
+    "Navratri"
+   ]
+  },
+  {
+   "id": "couple-navratri-mint",
+   "imageUrl": "/images/couples/navratri-mint.jpg",
+   "occasions": [
+    "Navratri"
+   ]
+  },
+  {
+   "id": "couple-navratri-fuchsia",
+   "imageUrl": "/images/couples/navratri-fuchsia.jpg",
+   "occasions": [
+    "Navratri"
+   ]
+  },
+  {
+   "id": "couple-diwali-lamps",
+   "imageUrl": "/images/couples/diwali-lamps.jpg",
+   "occasions": [
+    "Diwali"
+   ]
+  },
+  {
+   "id": "couple-diwali-emerald",
+   "imageUrl": "/images/couples/diwali-emerald.jpg",
+   "occasions": [
+    "Diwali"
+   ]
+  },
+  {
+   "id": "couple-diwali-marigold",
+   "imageUrl": "/images/couples/diwali-marigold.jpg",
+   "occasions": [
+    "Diwali"
+   ]
+  },
+  {
+   "id": "couple-diwali-rust",
+   "imageUrl": "/images/couples/diwali-rust.jpg",
+   "occasions": [
+    "Diwali"
+   ]
+  },
+  {
+   "id": "couple-diwali-plum",
+   "imageUrl": "/images/couples/diwali-plum.jpg",
+   "occasions": [
+    "Diwali"
+   ]
+  },
+  {
+   "id": "couple-diwali-peacock",
+   "imageUrl": "/images/couples/diwali-peacock.jpg",
+   "occasions": [
+    "Diwali"
+   ]
+  },
+  {
+   "id": "couple-college-coral",
+   "imageUrl": "/images/couples/college-coral.jpg",
+   "occasions": [
+    "College Fest"
+   ]
+  },
+  {
+   "id": "couple-college-mint",
+   "imageUrl": "/images/couples/college-mint.jpg",
+   "occasions": [
+    "College Fest"
+   ]
+  },
+  {
+   "id": "couple-college-yellow",
+   "imageUrl": "/images/couples/college-yellow.jpg",
+   "occasions": [
+    "College Fest"
+   ]
+  },
+  {
+   "id": "couple-college-teal",
+   "imageUrl": "/images/couples/college-teal.jpg",
+   "occasions": [
+    "College Fest"
+   ]
+  },
+  {
+   "id": "couple-college-plum",
+   "imageUrl": "/images/couples/college-plum.jpg",
+   "occasions": [
+    "College Fest"
+   ]
+  },
+  {
+   "id": "couple-college-fuchsia",
+   "imageUrl": "/images/couples/college-fuchsia.jpg",
+   "occasions": [
+    "College Fest"
+   ]
+  }
+ ]
+}

@@ -23,6 +23,11 @@ const O = (
 ): Occasion => ({ id, tag: OCCASION_TAG_BY_ID[id] || title, title, subtitle, image, intro, dressCode, styling, palette, related })
 
 export const occasions: Occasion[] = [
+  O('garba', 'Garba', 'Gujarati colour, craft and circular energy', '/images/occasion-navratri.jpg',
+    ['Garba is the fashion brief at its most specific: a chaniya that opens when you turn, a choli built for movement, mirrorwork that catches the light and a dupatta that stays put after the third round. VIRAAS keeps the edit rooted in Gujarati craft without turning it into costume.', 'For men, the kediyu is the hero — contemporary proportions, breathable cotton and considered mirrorwork instead of a wall of decoration. Pair both sides in colour, never in identical outfits.'],
+    { women: 'Chaniya-choli with mirrorwork, bandhani or Kutch-inspired details', men: 'Modern kediyu or kafni set with tapered trousers and clean juttis' },
+    ['Choose a flared hem that can clear your feet; dance is the fit test', 'Secure the dupatta with a hidden shoulder tack and a soft waist tie', 'Mirrorwork earns the spotlight — keep the rest of the jewellery edited'],
+    ['Fuchsia', 'Peacock Teal', 'Mustard', 'Indigo', 'Terracotta'], ['navratri', 'college-fest', 'festive-party']),
   O('diwali', 'Diwali', 'Lakshmi, lamps and the loudest colour of the year', '/images/occasion-diwali.jpg',
     ['Diwali dressing is warm-light dressing: colours that read against marigold garlands and brass, fabrics that survive a full evening of hovering over thali tables. Our edit leans jewel-toned silk, handloom cotton for the puja hour and just enough zari to catch every diya.', 'The rule we style by: one shine, one matte. If the saree carries zari, keep jewellery antique and understated; if the kurta is quiet cotton, let the dupatta and jhumkas be loud.'],
     { women: 'Silk or tissue saree, or a chikan kurta-set with a statement dupatta', men: 'Kurta-set in art silk or cotton silk with a Nehru jacket for evening' },
@@ -93,7 +98,7 @@ export const occasions: Occasion[] = [
     { women: 'Draped gown-saree, co-ord in satin, statement-earring-only', men: 'Short kurta over tailored trousers, or a jacket over a plain shirt' },
     ['Cross-body over clutch — you will need hands', 'Matte base, gloss lip (or the reverse); both gloss reads like a spill', 'One backup pin in your pocket is the whole survival kit'],
     ['Onyx Black', 'Wine', 'Emerald', 'Midnight Navy'], ['date-night', 'festive-party', 'sangeet']),
-  O('date-night', 'Date Night', 'Dinner for two, dressing for one', '/images/couple-edit.jpg',
+  O('date-night', 'Date Night', 'Dinner for two, dressing for one', '/images/production-couple-diwali.jpg',
     ['Date-night festive dressing should say "I tried, lightly" — a kurti-jacket combo, a pre-draped saree without bridal weight, a bandhgala without the wedding entourage. Fit matters more than fabric. Comfort matters more than sparkle.', 'Plan around the venue: courtyard = linens; AC restaurant = satins; rooftop = bring a stole and share it.'],
     { women: 'Slip-saree or asymmetric hem set, small necklace', men: 'Linen kurta with jacket, or a clean co-ord suit with a watch' },
     ['Avoid jhumkas over hoop earrings — tangles are real', 'Scent applied to clothes, not wrists, survives dinner', 'The best couple look is harmonised, not matched'],
@@ -114,6 +119,10 @@ export const occasions: Occasion[] = [
     ['Layer weight on top, warmth at the ankle — feet decide the evening length', 'Deep jewel tones read richer than black in winter light', 'Carry a compact stole; it doubles as warmth, temple cover and camera prop'],
     ['Bottle Green', 'Plum', 'Chocolate', 'Wine'], ['reception', 'diwali', 'night-out']),
 ]
+
+/** The compact public occasion nav. Older editorial routes remain addressable. */
+export const PRIMARY_OCCASION_IDS = ['garba', 'navratri', 'diwali', 'festive-party', 'college-fest'] as const
+export const featuredOccasions = occasions.filter((o) => PRIMARY_OCCASION_IDS.includes(o.id as (typeof PRIMARY_OCCASION_IDS)[number]))
 
 export const getOccasion = (id: string) => occasions.find((o) => o.id === id)
 

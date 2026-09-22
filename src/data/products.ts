@@ -1,7 +1,8 @@
 // ─────────────────────────────────────────────────────────────────────────────
 // VIRAAS product core — backed by the generated catalog (scripts/generate-catalog.mjs).
-// Every apparel/beauty/accessory entry carries its own metadata and its own
-// original SVG plate; nothing here reuses hero photography as product art.
+// Every catalog entry carries structured metadata and a production raster
+// primary image. Original SVG plates remain on disk as preserved fallbacks,
+// but are never used as the primary product visual.
 // Prices/status are editorial scaffolding marked CHECK until manually verified
 // against the retailer — never presented as live data.
 // ─────────────────────────────────────────────────────────────────────────────
@@ -84,7 +85,7 @@ export function categoriesForGender(gender: Gender | 'accessories'): { key: stri
 }
 
 export const OCCASION_TAGS = [
-  'Wedding', 'Sangeet', 'Reception', 'Mehendi', 'Festive Party', 'Diwali Party', 'Navratri',
+  'Wedding', 'Sangeet', 'Reception', 'Mehendi', 'Festive Party', 'Diwali Party', 'Garba', 'Navratri',
   'College Fest', 'Work-to-Dinner', 'Night Out', 'Destination Wedding', 'Daywear', 'Puja & Temple',
   'Engagement', 'Wedding Guest', 'Family Function', 'Date Night', 'Winter Festive',
 ] as const
@@ -254,7 +255,7 @@ export function filterProducts(
 // ── occasion page ids ↔ product tags ─────────────────────────────────────────
 export const OCCASION_TAG_BY_ID: Record<string, string> = {
   wedding: 'Wedding', sangeet: 'Sangeet', reception: 'Reception', mehendi: 'Mehendi',
-  'festive-party': 'Festive Party', diwali: 'Diwali Party', navratri: 'Navratri',
+  'festive-party': 'Festive Party', diwali: 'Diwali Party', garba: 'Garba', navratri: 'Navratri',
   'college-fest': 'College Fest', workwear: 'Work-to-Dinner', 'night-out': 'Night Out',
   'destination-wedding': 'Destination Wedding', daywear: 'Daywear', puja: 'Puja & Temple',
   engagement: 'Engagement', 'wedding-guest': 'Wedding Guest', 'family-function': 'Family Function',

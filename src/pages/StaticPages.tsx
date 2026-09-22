@@ -287,7 +287,7 @@ export function CoupleEditPage() {
   return (
     <div className="min-h-screen bg-[#F6F0E6] pt-16 lg:pt-20">
       <div className="relative py-20 overflow-hidden">
-        <div className="absolute inset-0 bg-cover bg-center" style={{ backgroundImage: 'url(/images/couple-edit.jpg)' }} />
+        <div className="absolute inset-0 bg-cover bg-center" style={{ backgroundImage: 'url(/images/production-couple-garba.jpg)' }} />
         <div className="absolute inset-0 bg-gradient-to-b from-[#171918]/70 to-[#103C35]/85" />
         <div className="relative z-10 max-w-screen-xl mx-auto px-4 sm:px-8 text-center">
           <p className="text-xs font-semibold tracking-[0.3em] text-[#B7945A] uppercase mb-4">Dressed Together · {coupleLooks.length} Looks</p>

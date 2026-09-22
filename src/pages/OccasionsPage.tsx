@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { Link, useParams } from 'react-router-dom';
 import { ArrowRight, Check, ShoppingBag, Sparkles } from 'lucide-react';
-import { occasions, getOccasion } from '../data/occasions';
+import { featuredOccasions, getOccasion } from '../data/occasions';
 import { getProductsByOccasion, products, type Product } from '../data/products';
 import { looksForOccasion } from '../data/looks';
 import ProductCard from '../components/ProductCard';
@@ -21,8 +21,8 @@ export default function OccasionsPage() {
         <div className="min-h-screen flex items-center justify-center bg-[#F6F0E6] pt-20">
           <div className="text-center px-4">
             <h1 className="font-playfair text-3xl text-[#171918] mb-4">Occasion not found</h1>
-            <p className="text-sm text-[#AEB8A0] mb-6">We publish 18 occasion edits — pick one from the index.</p>
-            <Link to="/occasions" className="px-6 py-2.5 rounded-full bg-[#103C35] text-white text-sm font-semibold">All Occasions</Link>
+            <p className="text-sm text-[#AEB8A0] mb-6">We publish five priority occasion edits — pick one from the index.</p>
+            <Link to="/occasions" className="px-6 py-2.5 rounded-full bg-[#103C35] text-white text-sm font-semibold">Priority Occasions</Link>
           </div>
         </div>
       );
@@ -41,7 +41,7 @@ export default function OccasionsPage() {
             <div className="absolute inset-0 bg-cover bg-center" style={{ backgroundImage: `url(${occasion.image})` }} />
             <div className="absolute inset-0 bg-gradient-to-b from-[#171918]/75 to-[#103C35]/85" />
             <div className="relative z-10 max-w-screen-xl mx-auto px-4 sm:px-8 text-center">
-              <Link to="/occasions" className="text-xs text-[#AEB8A0] hover:text-white uppercase tracking-widest">All Occasions</Link>
+              <Link to="/occasions" className="text-xs text-[#AEB8A0] hover:text-white uppercase tracking-widest">Priority Occasions</Link>
               <h1 className="font-playfair text-4xl lg:text-7xl text-white mb-4 mt-3">{occasion.title}</h1>
               <p className="text-[#E9E1D4]/85 text-base max-w-xl mx-auto">{occasion.subtitle}</p>
               <div className="mt-8 flex flex-wrap justify-center gap-3">
@@ -177,13 +177,13 @@ export default function OccasionsPage() {
     <div className="min-h-screen bg-[#F6F0E6] pt-16 lg:pt-20">
       <div className="bg-[#171918] py-20 lg:py-24 px-4 sm:px-8">
         <div className="max-w-screen-xl mx-auto">
-          <p className="text-xs font-semibold tracking-[0.3em] text-[#B7945A] uppercase mb-4">18 living edits</p>
+          <p className="text-xs font-semibold tracking-[0.3em] text-[#B7945A] uppercase mb-4">Five priority edits</p>
           <h1 className="font-playfair text-4xl lg:text-6xl text-white mb-3">Dress for the Moment</h1>
           <p className="text-[#AEB8A0] text-sm max-w-xl">Each occasion page is a real filter over {products.length.toLocaleString('en-IN')} catalog pieces — live counts, styling rules, colour stories and complete looks, not a banner with four products.</p>
         </div>
       </div>
       <div className="max-w-screen-xl mx-auto px-4 sm:px-8 py-14 grid grid-cols-2 md:grid-cols-3 gap-4 lg:gap-6">
-        {occasions.map((o) => {
+        {featuredOccasions.map((o) => {
           const n = getProductsByOccasion(o.tag).length;
           return (
             <Link key={o.id} to={`/occasions/${o.id}`} className="group relative rounded-3xl overflow-hidden aspect-[3/4] lg:aspect-[4/5] bg-[#E9E1D4]">
