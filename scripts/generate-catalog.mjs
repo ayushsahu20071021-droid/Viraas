@@ -217,6 +217,7 @@ const DESC = {
   sherwani: (f, c, col) => `Heirloom-weight ${f} sherwani in ${col.toLowerCase()}, with ${c.toLowerCase()} climbing the asymmetrical placket and repeating at the cuff. Internal drawstring for post-lunch comfort, fully lined in breathable viscose, and buttons hand-bound in fabric so the front reads as one continuous band of ornament.`,
   coord: (f, c, col) => `A ${col.toLowerCase()} ${f} co-ord: cropped ${c.toLowerCase()}-flecked top with an elastic back and a matching pull-on bottom that actually has real pockets. Made as one suit, but styled to separate — the top works over jeans, the bottom under an oversized shirt. Finished edges throughout; no raw seams to pill.`,
   kurti: (f, c, col) => `An everyday ${f} kurti in ${col.toLowerCase()} with a ${c.toLowerCase()} placket and hem — the kind built to be worn on a Tuesday, not stored for a wedding. Curled side slits, a Mandarin collar that survives a laptop bag, and a fabric weight that hides a peticoat-line. Pair with straight pants or jeans.`,
+  ethnicShirt: (f, c, col) => `A ${col.toLowerCase()} ${f} ethnic shirt with a refined band collar and a ${c.toLowerCase()} front — cut like a shirt, worn like a kurta. Relaxed-but-tailored through the body so it tucks or hangs cleanly; pairs with the matching-tone trousers listed for a full festive set. Side seams are finished, buttons are matte and secure, and the collar holds its shape past midnight.`,
   chaniya: (f, c, col) => `A fully flared, gathered ${f} chaniya skirt with a fitted choli and a coordinating odhani, in ${col.toLowerCase()} with ${c.toLowerCase()} — the classic Gujarati Garba trio, cut for eight rounds of dandiya. The skirt swings wide without weight; the choli stays put through every clap-and-turn; the odhani is pinned-ready with fall already engineered. Oxidised-silver jewellery pairs naturally with the mirror and thread detailing.`,
   kurtaMen: (f, c, col) => `A ${col.toLowerCase()} ${f} kurta with a ${c.toLowerCase()} placket that stops below the chest, so it reads refined under a jacket and complete on its own. Straight grain cut to fall without flare; side slits with bar-tacked tops; mother-of-pearl-look buttons on a hidden placket. Includes matching bottom as listed.`,
   drape: (f, c, col) => `A pre-pleated, pre-stitched ${f} drape in ${col.toLowerCase()} — six yards of behaviour, solved. The ${c.toLowerCase()} sits exactly where it should because the pleats are machine-tacked at the waist band; safety-strap loops and a hidden pocket in the waistband are sewn in. Comes with the peticoat shown; blouse is separate unless listed.`,
@@ -351,6 +352,10 @@ set('m-garba-kafni', 'Kafni & Kurta Dance Set', 'men-kurta-garba', 4, ['Bandhani
 set('m-garba-vest', 'Embroidered Garba Vest Set', 'men-kurta-garba', 4, ['Mirror Work', 'Kamdani', 'Sequit Work'], [PALETTE.brights], ['Cotton'], ['garba', 'navratri'], 'garba-chaniya', [1199, 2499], 'kurtaMen', { gender: 'men', cat: 'garba-chaniya' })
 set('m-coord-linen', 'Linen Summer Co-ord (Men)', 'men-co-ord', 3, ['Tone-on-Tone', 'Aari', 'Block Print'], [PALETTE.neuters, PALETTE.pastels], ['Linen'], ['workwear', 'casual', 'date'], 'top-bottom-wear', [1499, 2999], 'coord', { gender: 'men', cat: 'indowestern-sets' })
 set('m-coord-cotton', 'Cotton Casual Co-ord (Men)', 'men-co-ord', 3, ['Pearl Detailing', 'Chikankari', 'Sequit Work'], [PALETTE.heirloom, PALETTE.warm], ['Cotton'], ['college', 'casual'], 'top-bottom-wear', [999, 1999], 'coord', { gender: 'men', cat: 'indowestern-sets' })
+// Men's ethnic shirts (directive §12/§13/§39/§53): band-collar/printed/embroidered
+// festive shirts with tailored trousers — a distinct menswear architecture,
+// not another kurta.
+set('m-shirt-ethnic', 'Festive Ethnic Shirt', 'ethnic-shirt', 6, ['Block Print', 'Thread Embroidery', 'Textured Weave', 'Mirror Work', 'Kamdani', 'Chikankari'], [PALETTE.warm, PALETTE.brights, PALETTE.heirloom], ['Cotton', 'Linen', 'Cotton Silk'], ['festive', 'diwali', 'college', 'party'], 'shirts', [699, 2499], 'ethnicShirt', { gender: 'men', cat: 'mens-shirts' })
 set('m-coord-silk', 'Silk Formal Co-ord (Men)', 'men-co-ord', 2, ['Dabka', 'Pearl Detailing', 'Zari'], [PALETTE.festiveJewel, PALETTE.evening], ['Silk Blend'], ['wedding', 'reception', 'festive'], 'top-bottom-wear', [2499, 4999], 'coord', { gender: 'men', cat: 'indowestern-sets' })
 set('m-dhoti-kurta', 'Dhoti & Kurta Set', 'men-dhoti', 3, ['Gold Border', 'Tone-on-Tone', 'Sequit Work'], [PALETTE.neuters], ['Cotton Silk', 'Kerala Kasavu'], ['festive', 'puja', 'family'], 'men-kurtas-sets', [1799, 3999], 'kurtaMen', { gender: 'men', cat: 'men-kurtas-sets' })
 
@@ -539,6 +544,7 @@ const FAMILY_RETAG = [
   [/^m-coord-suit/, 'co-ord-sets'],
   [/^m-coord-cotton/, 'co-ord-sets'],
   [/^m-coord-silk/, 'co-ord-sets'],
+  [/^m-shirt-ethnic/, 'ethnic-shirts'],
 ]
 for (const p of products) for (const [re, cat] of FAMILY_RETAG) if (re.test(p.id)) { p.category = cat; break }
 // 2) Price bands (directive §24–§28): hard ceiling ₹7,999, research-backed

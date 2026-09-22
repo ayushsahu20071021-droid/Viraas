@@ -76,6 +76,7 @@ export const CATEGORY_LABELS: Record<string, string> = {
 export const MEN_CATEGORY_LABELS: Record<string, string> = {
   'kurta-sets': 'Kurta Sets', jackets: 'Jackets & Bandhgala', garba: 'Garba & Navratri',
   formals: 'Wedding Formals', 'co-ord-sets': 'Festive Co-ords', indowestern: 'Indo-Western & Fusion',
+  'ethnic-shirts': 'Ethnic Shirts',
   accessories: 'Grooming & Accessories', footwear: 'Footwear', watches: 'Watches',
 }
 export function categoryLabel(gender: Gender | 'accessories' | undefined, category: string): string {

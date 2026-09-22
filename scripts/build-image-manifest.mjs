@@ -142,7 +142,7 @@ function couplePrompt(c) {
 }
 
 // ── slot selection ────────────────────────────────────────────────────────────
-const APPAREL = ['sarees', 'kurta-sets', 'lehenga', 'co-ord-sets', 'sharara-gharara', 'indowestern', 'garba', 'jackets', 'formals']
+const APPAREL = ['sarees', 'kurta-sets', 'lehenga', 'co-ord-sets', 'sharara-gharara', 'indowestern', 'garba', 'jackets', 'formals', 'ethnic-shirts']
 const ACC = ['jewellery', 'bags', 'footwear', 'watches', 'accessories', 'beauty']
 
 // women: 166 of 280 — round-robin across the 4 apparel categories, diverse colours first

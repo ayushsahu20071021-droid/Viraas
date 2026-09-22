@@ -23,7 +23,7 @@ const products = readJson('src/data/catalog/products.json')
 const looks = readJson('src/data/catalog/looks.json')
 const couples = readJson('src/data/catalog/couples.json')
 
-const APPAREL = ['sarees', 'kurta-sets', 'lehenga', 'co-ord-sets', 'indowestern', 'garba', 'jackets', 'formals']
+const APPAREL = ['sarees', 'kurta-sets', 'lehenga', 'co-ord-sets', 'indowestern', 'garba', 'jackets', 'formals', 'sharara-gharara', 'ethnic-shirts']
 const ACC = ['jewellery', 'bags', 'footwear', 'watches', 'accessories', 'beauty']
 
 const refs = new Map() // file → [referrers]
