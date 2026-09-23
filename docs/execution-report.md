@@ -98,4 +98,12 @@ Garba and Navratri also share the inherited occasion hero; that reuse is reporte
 - `src/data/catalog/generation-queue.json`: persistent prompts, phases, paths, hashes, candidate attempts and unpassed review state
 - `public/images/original-couples/`: ten compressed original calibration candidates, preserved for review
 
-The working branch will be pushed as an **open draft PR**, with the final commit/PR details reported alongside this document. PR #6 remains open and unmerged. Do not represent this checkpoint as COMPLETE.
+## GitHub checkpoint
+
+- Branch: `arena/01a0cdd1-viraas`
+- Audited implementation commit: `b0301758014367bf2d3546e2c7694f7fc9d72eb7`
+- Continuation: [PR #7](https://github.com/ayushsahu20071021-droid/Viraas/pull/7), **OPEN / DRAFT**, into `main`
+- PR #6: **OPEN / UNMERGED**, with a comment documenting the recovered duplicate-image findings
+- Remote implementation HEAD was verified equal to local HEAD; subsequent report-only commit records this PR information.
+
+Do not represent this checkpoint as COMPLETE. The visual and remaining research blockers are preserved, not waived.
