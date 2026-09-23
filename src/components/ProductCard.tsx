@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Heart, Sparkles, ShoppingBag, AlertTriangle } from 'lucide-react';
 import { type Product } from '../data/products';
+import { resolveShopUrl } from '../data/affiliate-links';
 import { toggleSavedLook, isLookSaved } from '../utils/savedLooks';
 import { trackAffiliateClick, trackEvent } from '../utils/analytics';
 import { formatPrice, isMoney, discountPct } from '../utils/format';
@@ -36,7 +37,7 @@ export default function ProductCard({ product, onTryOn }: Props) {
   const handleShop = (e: React.MouseEvent) => {
     e.preventDefault();
     e.stopPropagation();
-    const url = product.affiliateUrl || product.merchantUrl;
+    const url = resolveShopUrl(product);
     if (url) {
       trackAffiliateClick(product.id, product.merchantLabel, product.category);
       window.open(url, '_blank', 'noopener,noreferrer');
@@ -81,7 +82,7 @@ export default function ProductCard({ product, onTryOn }: Props) {
             title={imgFailed ? 'Product visual pending — replace before publishing' : 'Details pending manual verification against the retailer'}
             className={`absolute top-3 left-3 flex items-center gap-1 px-2 py-1 text-[10px] font-semibold tracking-wide rounded-full ${imgFailed ? 'bg-[#171918]/80 text-[#F6F0E6]' : 'bg-[#F6F0E6]/90 text-[#B7945A]'} ${discount ? 'top-10' : ''}`}
           >
-            <AlertTriangle size={10} /> {imgFailed ? 'CHECK · REPLACE' : 'CHECK'}
+            <AlertTriangle size={10} /> {imgFailed ? 'CHECK · REPLACE' : product.visualStatus === 'PENDING_REPLACEMENT' ? 'VISUAL PENDING' : 'CHECK'}
           </span>
         )}
 
@@ -137,6 +138,7 @@ export default function ProductCard({ product, onTryOn }: Props) {
           )}
           {product.brand && <span className="text-xs text-[#AEB8A0] ml-auto">{product.brand}</span>}
         </div>
+        <p className="text-[10px] text-[#171918]/55 mt-1">{product.priceBasis === 'market-comparable-estimate' ? 'Comparable price estimate' : 'Price unverified'}</p>
         <div className="flex flex-wrap gap-1 mt-2">
           {(product.styleTags ?? []).slice(0, 2).map((tag) => (
             <span key={tag} className="text-xs text-[#AEB8A0] bg-[#F6F0E6] px-2 py-0.5 rounded-full">{tag}</span>

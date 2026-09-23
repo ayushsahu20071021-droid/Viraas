@@ -64,7 +64,7 @@ export const articles: Article[] = [
         'Soak, do not scrub: cool water, mild liquid detergent, ten minutes, gentle squeeze. Dry flat in shade with the embroidery face up, never on a line (stretches run). Store folded with a cotton layer between folds so thread ridges do not print into the next fabric. Press on the reverse with a iron on silk setting — an iron touching raised murri flattens it forever.',
       ] },
     ],
-    rail: { title: 'Chikankari, currently in stock at VIRAAS', note: 'Filtered by our catalog craft field — pieces labelled for chikan work.', select: byCraft('Chikankari', 6) },
+    rail: { title: 'Chikankari, in the VIRAAS styling catalog', note: 'Filtered by our catalog craft field — pieces labelled for chikan work.', select: byCraft('Chikankari', 6) },
   },
   {
     id: 'a3', slug: 'garba-physics', title: 'Garba physics: the complete kit for nine nights without chafing, blisters or wardrobe failure',
@@ -102,7 +102,7 @@ export const articles: Article[] = [
         'Order two sizes, plan returns before you pay. When it arrives: try it on with the shoes and undershirt you will actually wear, stand at a mirror at an angle (front seams lie head-on), and check the shoulder with a 20-second side view before touching the tag. Keep the packaging until you decide. VIRAAS product pages list the brand and the retailer — the return rules live with the retailer, not us.',
       ] },
     ],
-    rail: { title: 'Structured starts for men', note: 'Jackets and bandhgalas with shoulder-first construction.', select: (all) => all.filter((p) => p.gender === 'men' && (p.category === 'jackets' || p.category === 'kurta-sets')).slice(0, 6) },
+    rail: { title: 'Structured starts for men', note: 'Jackets and bandhgalas with shoulder-first construction.', select: (all) => all.filter((p) => p.gender === 'men' && (p.category === 'traditional-festive-set' || p.category === 'kurta-sets')).slice(0, 6) },
   },
   {
     id: 'a5', slug: 'accessory-architecture', title: 'Accessory architecture: jhumka, kada, potli — building a look in three pieces',
@@ -124,7 +124,7 @@ export const articles: Article[] = [
   },
   {
     id: 'a6', slug: 'festive-budget-playbook', title: 'The ₹3,000 festive playbook: one event, full outfit, zero debt',
-    excerpt: 'A complete worked example of building a Diwali-to-wedding-season wardrobe on a hard three-thousand budget, with the exact allocation logic.',
+    excerpt: 'A complete worked example of building a Diwali-to-festive-party wardrobe on a hard three-thousand budget, with the exact allocation logic.',
     category: 'Index', readTime: 6, date: '2026-06-27', image: '/images/journal-budget-festive.jpg', tags: ['Budget', 'Capsule', 'Diwali'],
     intro: 'Budget festive dressing fails when it is spent evenly. The winning allocation is barbell: heavy on what photographs and survives (footwear, one anchor piece), light on what is decorative from the waist up (the kurta body), zero on things only you notice (lining thread colour).',
     sections: [
@@ -143,7 +143,7 @@ export const articles: Article[] = [
   {
     id: 'a7', slug: 'the-couple-harmony-rule', title: 'The couple harmony rule: match the palette, not the outfit',
     excerpt: 'Twinning is a costume. Here is the professional styling logic behind the two-shot that makes both people look deliberately dressed.',
-    category: 'Styling', readTime: 4, date: '2026-06-13', image: '/images/journal-couple-edit.jpg', tags: ['Couple', 'Wedding', 'Styling'],
+    category: 'Styling', readTime: 4, date: '2026-06-13', image: '/images/journal-couple-edit.jpg', tags: ['Couple', 'Festive Party', 'Styling'],
     intro: 'Every couple photograph that ages well runs on one principle: shared colour, separate silhouettes. The eye reads "together" from a 20% colour overlap anywhere in the frame — not from identical fabric. This is why our Couple Edit styles her saree against his stole, not his matching set.',
     sections: [
       { heading: 'The 20% rule', paras: [
@@ -156,46 +156,65 @@ export const articles: Article[] = [
         'Finish dressing 30 minutes apart, not together — matching schedules produce matching creases, and one of you will need a stitch fixed. Shoot the formal set before the mehendi gets fully dark: henna transfer on ivory silk is the one styling failure that ends in tears. And keep the shoes you will actually dance in visible in the frame — comfort reads as confidence in the last four hours of any event.',
       ] },
     ],
-    rail: { title: 'Couple Edit looks', note: 'Already styled to the 20% rule across her/him pieces.', select: byOccasion('Wedding', 6) },
+    rail: { title: 'Couple Edit looks', note: 'Already styled to the 20% rule across her/him pieces.', select: byOccasion('Festive Party', 6) },
   },
   {
-    id: 'a8', slug: 'indowestern-without-the-costume', title: 'Indo-Western without the costume department',
-    excerpt: 'The gap between "fusion" and "fancy dress" is one garment. A sober framework for borrowed-tailoring dressing that passes the airport test.',
-    category: 'Styling', readTime: 5, date: '2026-05-30', image: '/images/journal-indo-western.jpg', tags: ['Fusion', 'Everyday', 'Styling'],
-    intro: 'Indo-western dressing fails the moment both halves argue. A jacket over a kurta works because the jacket is doing one job: structure. A cape over an anarkali fails because the cape is doing the same job the anarkali is already doing: volume. Fusion is one borrowed garment, not two.',
-    sections: [
-      { heading: 'The one-borrow rule', paras: [
-        'Choose which half of the outfit is borrowed from western tailoring — the jacket, the trouser, the shirt cut — and make the ethnic half unambiguously ethnic: real drape, real weave, regional craft. Two halves at 50/50 read as a rental. Ninety-ten reads as a point of view.',
-      ] },
-      { heading: 'Fabrics that pass', paras: [
-        'Raw mango, linen, and structured cotton-silk hold western cuts without polyester shine. Satin under a jacket reads evening; the same satin as a kurta reads day-event. For daytime Indo-western, choose grain: khadi-blend jackets over chanderi kurtas.',
-      ] },
-      { heading: 'The airport test', paras: [
-        'If you cannot wear the two pieces separately through a full travel day without changing anything, the "fusion" is decorative. Our favourite verified pairings: Nehru-jacket over plain silk kurta (trousers day one, pajama night two), dhoti-skirt over oversized shirt, waistcoat over linen co-ord.',
-      ] },
+    "id": "a8",
+    "slug": "college-fest-ethnic-style",
+    "title": "College Fest: Indian silhouettes with room to move",
+    "excerpt": "Chaniya choli, sharara, colourful sarees and printed kurtas without the ceremonial stiffness.",
+    "category": "Styling",
+    "image": "/images/occasion-college.jpg",
+    "tags": [
+        "College Fest",
+        "Kurta",
+        "Sharara"
     ],
-    rail: { title: 'Fusion pieces that pass the test', note: 'Jackets, draped sets and waistcoats from the edit.', select: (all) => all.filter((p) => p.styleTags.includes('Indo-Western') && p.category !== 'couple-edit').slice(0, 6) },
-  },
+    "intro": "Start with the campus, not the stage photograph. A college fest means walking between venues, sitting with friends and dancing after sunset. Choose a silhouette you can comfortably move in.",
+    "sections": [
+        {
+            "heading": "Her silhouette, her choice",
+            "paras": [
+                "A lightweight chaniya choli brings flare; a sharara or gharara gives freedom through the leg. A colourful saree or pre-draped saree works when the hem clears the shoes. Secure the dupatta without pulling the neckline."
+            ]
+        },
+        {
+            "heading": "His outfit needs a point of view",
+            "paras": [
+                "Try a navy printed kurta, burgundy embroidered kurta or colourful ethnic shirt. White or ivory straight bottoms keep the combination clear. Avoid stiff collars and oversized gold embroidery; one considered textile detail is enough."
+            ]
+        },
+        {
+            "heading": "Build a realistic budget",
+            "paras": [
+                "Compare the garment, not the editorial photograph. Confirm whether a listing includes bottoms, blouse and dupatta. VIRAAS research prices are estimates from comparable listings, not a promise that the pictured outfit is available at that price."
+            ]
+        }
+    ],
+    "readTime": 3,
+    "date": "2026-09-23"
+},
+
   {
-    id: 'a9', slug: 'silk-vs-silk-grade', title: 'Mulberry, art, cuscen: silk grade decoded before the wedding',
+    id: 'a9', slug: 'silk-vs-silk-grade', title: 'Mulberry, art, cuscen: silk grade decoded for Diwali',
     excerpt: '"Pure silk" is a spectrum with a grading system. What the certification actually guarantees — and when art silk is the smarter buy.',
-    category: 'Care', readTime: 7, date: '2026-05-16', image: '/images/journal-saree-drape.jpg', tags: ['Silk', 'Saree', 'Wedding'],
-    intro: 'The silk label that matters is not "pure" — it is who tested which metre. Silk Mark guarantees fibre on the fabric body for mulberry silk; zari purity and dyefastness are separate questions, and they are where wedding-season money disappears.',
+    category: 'Care', readTime: 7, date: '2026-05-16', image: '/images/journal-saree-drape.jpg', tags: ['Silk', 'Saree', 'Diwali'],
+    intro: 'The silk label that matters is not "pure" — it is who tested which metre. Silk Mark guarantees fibre on the fabric body for mulberry silk; zari purity and dyefastness are separate questions, and they are where festive-season money disappears.',
     sections: [
       { heading: 'Fibre', paras: [
         'Mulberry (the certified one) is smooth, light-reflective, and creases at fold lines. Tussar and wild silks carry texture and read matte; they hide creases but show every stain. Art silk (polyester-silk blends) now weaves so close that you must burn a thread sample to be sure — which is fine, because art silk at ₹2,400 and mulberry at ₹9,000 can be the same outfit decision for different events. The wrong one is paying the mulberry price for the art silk.',
       ] },
       { heading: 'Zari', paras: [
-        'Real zari is silver wire plated with gold; test with a loupe at the border edge (plating has a seam under magnification). "Half-fine" is the industry\'s honest middle. Test before buying at wedding prices: the border is where the ₹3,000 difference lives, and where photographs judge you.',
+        'Real zari is silver wire plated with gold; test with a loupe at the border edge (plating has a seam under magnification). "Half-fine" is the industry\'s honest middle. Test before buying at premium prices: the border is where the ₹3,000 difference lives, and where photographs judge you.',
       ] },
       { heading: 'Dye', paras: [
-        'Ask for colourfastness. On a wedding saree, wet a hidden inner edge, press white cotton, wait five minutes. A wedding saree is a three-wear lifetime item; a wedding saree you cannot spot-clean because the maroon bleeds is a three-day item.',
+        'Ask for colourfastness. On a festive saree, wet a hidden inner edge, press white cotton, wait five minutes. A festive saree is a three-wear lifetime item; a festive saree you cannot spot-clean because the maroon bleeds is a three-day item.',
       ] },
     ],
     rail: { title: 'Silk-grade pieces in the edit', note: 'Loom-weight picks, mulberry and honest art-silk both flagged in product notes.', select: (all) => all.filter((p) => /silk/i.test(p.fabric) && p.price > 3000).slice(0, 6) },
   },
   {
-    id: 'a10', slug: 'monsoon-festive-survival', title: 'Monsoon festive: July pujas, August cousins, September humidity',
+    id: 'a10', slug: 'monsoon-festive-survival', title: 'Monsoon festive: breathable layers for humid festival evenings',
     excerpt: 'A practical guide to Indian festive dressing in the worst weather of the year without surrendering the outfit entirely.',
     category: 'Styling', readTime: 4, date: '2026-04-28', image: '/images/occasion-college.jpg', tags: ['Monsoon', 'Everyday', 'Care'],
     intro: 'Half the festive calendar lands in the monsoon, and festive fabrics are allergic to it. The compromise is fibre order: linen and cotton-silk up top, georgette where a saree is mandatory, and nothing below the ankle touching a puddle. Velvet and satin survive the monsoon exactly once — indoors, dry, photographed.',
@@ -218,7 +237,7 @@ export const articles: Article[] = [
     intro: 'Every regional drape was engineered for a climate, a loom width and a set of tasks. The one that flatters you is usually the one whose mechanics were solving a problem similar to yours.',
     sections: [
       { heading: 'The mechanics', paras: [
-        'Madisar (Maharashtra) — nine yards, dhoti-back, structured front: locks for all-day sitting, the only drape that stays locked at a 3pm function. Nauvari — the warrior drape, crotch-height gather; freedom of movement is the point, modesty requires the right petticoat height. Seedha pallu (Gujarat) — front-facing pallu over a tucked choli: designed to be seen from the front, best for people whose drape lives on the camera side. Gujartha/Rajasthani — shorter, heavily pinned, built to move in circles (see also: garba). Bengali — no pleats, two front falls wrapped by hand: reads relaxed, demands a firm blouse to survive wind.',
+        'Madisar is a nine-yard draping tradition associated with Tamil communities; construction varies by community and should be learned from an experienced wearer. Nauvari — the warrior drape, crotch-height gather; freedom of movement is the point, modesty requires the right petticoat height. Seedha pallu (Gujarat) — front-facing pallu over a tucked choli: designed to be seen from the front, best for people whose drape lives on the camera side. Gujartha/Rajasthani — shorter, heavily pinned, built to move in circles (see also: garba). Bengali — no pleats, two front falls wrapped by hand: reads relaxed, demands a firm blouse to survive wind.',
       ] },
       { heading: 'Choosing by body, not trend', paras: [
         'Short torso: tuck-and-pull the pallu high, the vertical line of the fall is your best asset. Long torso: wider pleat fan at the waist breaks the line without cutting height. Broad shoulders: skip the shoulder-crossed pallu, wear the front-facing Gujartha drape. Straight hips: double pleat for volume, single for a clean fall — both work; the choice is which shoulder you want the photograph to land on.',
@@ -239,10 +258,10 @@ export const articles: Article[] = [
         'Shoulder seam exactly at the bone. No lapel roll (these are collarless by definition; a roll means bad interfacing, return it). The jacket hem must end where the kurta hem is not: mid-thigh kurta needs a hip-length jacket. And the button stance must close the V without pulling: one hand\'s width between sternum and fabric when the top button is fastened, zero gap between buttons.',
       ] },
       { heading: 'Fabric pairings that work', paras: [
-        'Brocade or velvet jacket over plain silk kurta — the only combination for a wedding where you are guest-side but photographed. Raw-mango or jacquard jacket over cotton kurta — daytime reception, survives the drive. Never: two textures with equal shine; the jacket disappears into the kurta and both look like fabric.',
+        'Brocade or velvet jacket over plain silk kurta — the only combination for a festive party. Raw-mango or jacquard jacket over cotton kurta — daytime Diwali celebration, survives the drive. Never: two textures with equal shine; the jacket disappears into the kurta and both look like fabric.',
       ] },
     ],
-    rail: { title: 'Jackets that do the job', note: 'All jacket categories in our men\'s edit, hem-length noted per product.', select: (all) => all.filter((p) => p.category === 'jackets').slice(0, 6) },
+    rail: { title: 'Jackets that do the job', note: 'All jacket categories in our men\'s edit, hem-length noted per product.', select: (all) => all.filter((p) => p.category === 'traditional-festive-set').slice(0, 6) },
   },
   {
     id: 'a13', slug: 'storage-after-the-season', title: 'After the season: store festive fabrics like an archivist, not an optimiser',
@@ -262,41 +281,79 @@ export const articles: Article[] = [
     ],
   },
   {
-    id: 'a14', slug: 'buying-one-bridal-heirloom', title: 'Buying one heirloom: a 45-minute guide to buying your "forever" piece',
-    excerpt: 'You do not need five expensive saris. You need one with construction and dye that a daughter will inherit.',
-    category: 'Index', readTime: 6, date: '2026-02-26', image: '/images/journal-budget-festive.jpg', tags: ['Heirloom', 'Saree', 'Buying'],
-    intro: 'An heirloom is defined by repairability: can a new weaver in 25 years fix it, re-dye it, re-alter the blouse without a fight? That test eliminates ninety percent of the market and tells you exactly where the money goes.',
-    sections: [
-      { heading: 'The construction checklist', paras: [
-        'Handloom borders woven in, not stitched on. A selvedge with a visible 3mm reserve at both edges — that reserve is what a future tailor pays for. Blouse fabric included as a full metre of the body fabric, not a "matching" synthetic. And the pallu border must continue around the fall — borders that stop at the hem are production shortcuts.',
-      ] },
-      { heading: 'Where to spend first', paras: [
-        'Within one budget tier: weave density over dyework, dyefastness over motif count, natural fibre over blend. A plain-body Kanchipuram with a real gold-test border outlives a heavily printed imitation in every dimension that matters at a wedding you did not plan.',
-      ] },
-      { heading: 'The 45-minute test', paras: [
-        'In the shop, spend: 10 minutes on the reverse (floats, knots, thread ends longer than 4mm mean rushed weaving); 10 minutes burn-asking for a sample thread (real silk smells of hair, polyester melts into a bead); 10 minutes wet-cotton colourfast check; 15 minutes in the lighting of the venue where you will actually wear it. If the vendor refuses any one of these, walk.',
-      ] },
+    "id": "a14",
+    "slug": "navratri-colour-craft",
+    "title": "Navratri: colour, craft and a skirt that moves",
+    "excerpt": "How to balance Bandhani-inspired patterns, Kutchi embroidery and mirror work.",
+    "category": "Occasion",
+    "image": "/images/journal-garba-night.jpg",
+    "tags": [
+        "Navratri",
+        "Garba",
+        "Chaniya Choli"
     ],
-    rail: { title: 'Built to be inherited', note: 'Heirloom-grade weaves in our edit with full construction notes.', select: (all) => all.filter((p) => /Banarasi|Kanchipuram|Mulberry|Tissue/.test([p.embroidery, p.pattern, p.weave, p.fabric].join(' '))).slice(0, 6) },
-  },
+    "intro": "The outfit should read as Navratri before the caption does. Start with a flared chaniya, a secure choli and a colourful odhani, then let craft and movement do the work.",
+    "sections": [
+        {
+            "heading": "Colour relationships",
+            "paras": [
+                "Black with multicolour embroidery, ivory with red, pink with blue and green with pink all give the eye a clear relationship. Coordinate a couple through one colour echo rather than identical prints."
+            ]
+        },
+        {
+            "heading": "Make movement the fitting test",
+            "paras": [
+                "Lift your arms, take a few side steps and sit down before leaving. The skirt should clear your feet and the odhani should stay secure without restricting your shoulder. Choose footwear you have already worn."
+            ]
+        },
+        {
+            "heading": "Keep the craft honest",
+            "paras": [
+                "Mirror-look sequins are not the same as glass mirror work, and machine embroidery is not hand embroidery. Read the merchant material and construction details rather than relying on the generated styling image."
+            ]
+        }
+    ],
+    "readTime": 3,
+    "date": "2026-09-23"
+},
+
   {
-    id: 'a15', slug: 'first-wedding-guest-manual', title: 'The first wedding guest manual: your own wedding, your friends\' season, the family circuit',
-    excerpt: 'A decision tree for the twenties — what one wedding, one reception and one sangeet budget should actually buy.',
-    category: 'Index', readTime: 5, date: '2026-02-09', image: '/images/occasion-college.jpg', tags: ['College', 'Budget', 'Wedding'],
-    intro: 'In your twenties a wedding season is six events, three cities and one salary instalment. The strategy is a capsule with one luxury: three outfits that mix across day and night, and one investment piece everyone will remember.',
-    sections: [
-      { heading: 'The capsule', paras: [
-        'One deep-tone base (wine or emerald) in a breathable weave that works at a 2pm reception and an 8pm dinner. One light tone (ivory, sage, peach) that photographs in daylight. One pre-draped or co-ord "fast morning" number for the third event. Two pairs of shoes maximum, both worn in before the season, both in the same colour family so a scuffed pair can be swapped invisibly in photographs.',
-      ] },
-      { heading: 'The one luxury', paras: [
-        'Put the extra in earrings and one bag. Metal near the face and leather in the hand are the two places relatives and the camera both look. The ₹800 upgrade to a kurta is invisible at scale; the ₹2,000 potli and jhumka set changes every photograph.',
-      ] },
-      { heading: 'The sharing layer', paras: [
-        'Stoles, belts, maang tikkas and watch straps: borrow from family, swap with friends, return with a thank-you and a dry-clean receipt. The community owns more wardrobe than any individual does, and it costs your friendships nothing.',
-      ] },
+    "id": "a15",
+    "slug": "diwali-budget-edit",
+    "title": "The young Diwali edit: festive without overspending",
+    "excerpt": "A rich colour, a wearable Indian silhouette and one considered finishing detail.",
+    "category": "Styling",
+    "image": "/images/occasion-diwali.jpg",
+    "tags": [
+        "Diwali",
+        "Budget",
+        "Festive Party"
     ],
-    rail: { title: 'Under-₹2,999 capsule picks', note: 'The entire first-wedding-season outfit at once.', select: (all) => all.filter((p) => p.price <= 2999 && p.gender === 'women' && p.category !== 'couple-edit').slice(0, 6) },
-  },
+    "intro": "Diwali dressing can feel special without becoming ceremonial. Start with one useful outfit that you can wear again: a saree, anarkali or kurta set, or a printed festive kurta with comfortable trousers.",
+    "sections": [
+        {
+            "heading": "Warm-light colours",
+            "paras": [
+                "Forest green, navy, wine, ivory and pink work well against warm lights. Try the combination under indoor bulbs, not just bright changing-room lighting. A matte base with one reflective border keeps the outfit legible."
+            ]
+        },
+        {
+            "heading": "Shop the pieces you need",
+            "paras": [
+                "Reuse footwear and jewellery before buying another full outfit. Compare similar fabrics and the number of included pieces. A low kurta-only price should not be compared directly with a three-piece set."
+            ]
+        },
+        {
+            "heading": "Keep comfort and safety in view",
+            "paras": [
+                "Keep loose hems and dupattas away from flames. Choose stable footwear and a bag that closes. Check the retailer for the final price, returns and stock; VIRAAS does not hold inventory."
+            ]
+        }
+    ],
+    "readTime": 3,
+    "date": "2026-09-23"
+},
+
   {
     id: 'a16', slug: 'saree-peticoat-science', title: 'Petticoat science: the garment that decides whether your saree falls or flatters',
     excerpt: 'Pleat hold, hem depth, cord width and the two measurements that make or break a drape — the unglamorous layer explained.',
@@ -307,7 +364,7 @@ export const articles: Article[] = [
         'The petticoat should end 1cm above the saree hem at the back and 3cm below at the front only if you are on heels — never equal all round, that reads like a skirt. The cord at the waist needs 2.5cm width minimum; thin cords cut and roll and force you to re-pleat hourly. Inside the cord, if it is bare twine, thread a 6-inch elastic loop through it as a tensioner.',
       ] },
       { heading: 'Fabric and structure', paras: [
-        'Matte cotton for georgette/chiffon; satin for silk and velvet; organza-line for sheer sarees so light does not read through. For any pre-draped piece: check whether it has its own inner band — a stitched inner waistband means you are not wearing a petticoat, you are wearing a costume, and it will move like one under a saree.',
+        'Matte cotton for georgette/chiffon; satin for silk and velvet; organza-line for sheer sarees so light does not read through. For any pre-draped piece: check whether it has its own inner band — a stitched inner waistband can replace a separate petticoat; check lining, fit and the fastening before buying.',
       ] },
       { heading: 'Colour politics', paras: [
         'Contrast, never match: an ivory-toned petticoat under a deep saree creates the visible hem-lighten effect that makes the border read as intentional. A matching one turns the saree into a floor-length top. With sheer organza or net, the colour is a design decision — tone it against your skin or the saree, never the background.',

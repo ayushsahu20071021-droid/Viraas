@@ -30,7 +30,7 @@ let failures = 0
 const fail = (what: string, e: unknown) => { failures++; console.log(`FAIL ${what}: ${(e as Error)?.message || e}`) }
 const ok = (what: string) => console.log(`OK   ${what}`)
 
-// ── 1. ProductCard for ALL 595 products (the exact crash surface) ────────────
+// ── 1. ProductCard for ALL catalog products (the exact crash surface) ────────────
 let cards = 0
 for (const p of products) {
   try { renderToStaticMarkup(<MemoryRouter><ProductCard product={p} /></MemoryRouter>); cards++ } catch (e) { fail(`ProductCard ${p.id}`, e) }
@@ -76,7 +76,11 @@ const pages: Array<[string, React.ReactElement]> = [
   ['/saved', <SavedPage />],
   ['/try-on', <TryOnPage />],
   ['/occasions', <OccasionsPage />],
-  ['/occasions/diwali', <OccasionsPage />],
+  ['/occasions/diwali', <OccasionsPage occasionId="diwali" />],
+  ['/occasions/garba', <OccasionsPage occasionId="garba" />],
+  ['/occasions/navratri', <OccasionsPage occasionId="navratri" />],
+  ['/occasions/festive-party', <OccasionsPage occasionId="festive-party" />],
+  ['/occasions/college-fest', <OccasionsPage occasionId="college-fest" />],
   ['/journal', <JournalPage />],
   ['/journal/the-organza-decode', <JournalPage />],
   ['/about', <AboutPage />], ['/contact', <ContactPage />], ['/faq', <FAQPage />], ['/privacy', <PrivacyPage />],
@@ -93,7 +97,7 @@ for (const [name, el] of pages) {
     let route = <Route path={name.split('?')[0]} element={el} />
     let initial = name
     if (name === '/search?q=saree') { route = <Route path="/search" element={el} />; initial = '/search?q=saree' }
-    if (name === '/occasions/diwali') { route = <Route path="/occasions/:id" element={el} />; initial = '/occasions/diwali' }
+    if (name.startsWith('/occasions/')) { route = <Route path={name.split('?')[0]} element={el} />; initial = name }
     if (name === '/journal/the-organza-decode') { route = <Route path="/journal/:slug" element={el} />; initial = '/journal/the-organza-decode' }
     const html = renderToStaticMarkup(<MemoryRouter initialEntries={[initial]}><Routes>{route}</Routes></MemoryRouter>)
     if (!html || html.length < 50) fail(`page ${name} (empty output)`, 'too short')
@@ -115,7 +119,7 @@ for (const id of ['w-saree-drape-01', brokenId, 'cp-set-01', products[0].id]) {
 }
 
 // look pages — normal + couple
-for (const lid of [looksJson[0]?.id, 'couple-sage-silk', couplesJson[0]?.id].filter(Boolean)) {
+for (const lid of [looksJson[0]?.id, couplesJson[0]?.id].filter(Boolean)) {
   try {
     renderToStaticMarkup(
       <MemoryRouter initialEntries={[`/look/${lid}`]}>
@@ -125,6 +129,12 @@ for (const lid of [looksJson[0]?.id, 'couple-sage-silk', couplesJson[0]?.id].fil
     ok(`page /look/${lid}`)
   } catch (e) { fail(`page /look/${lid}`, e) }
 }
+
+// Required production priority route: Garba category filter.
+try {
+  renderToStaticMarkup(<MemoryRouter initialEntries={['/men?category=garba-navratri-traditional']}><Routes><Route path="/men" element={<CategoryPage gender="men" title="For Him" subtitle="s" heroImage="/images/hero-men.jpg" />} /></Routes></MemoryRouter>)
+  ok('page /men?category=garba-navratri-traditional')
+} catch (e) { fail('page /men?category=garba-navratri-traditional', e) }
 
 // filtered category page (all query facets at once)
 try {

@@ -1,0 +1,5226 @@
+[
+  {
+    "id": "w-saree-drape-01",
+    "category": "sarees",
+    "price": 999,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "saree",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-saree-drape-02",
+    "category": "sarees",
+    "price": 799,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "saree",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-saree-drape-03",
+    "category": "sarees",
+    "price": 799,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "saree",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-saree-drape-04",
+    "category": "sarees",
+    "price": 999,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "saree",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-saree-drape-05",
+    "category": "sarees",
+    "price": 799,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "saree",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-saree-drape-06",
+    "category": "sarees",
+    "price": 899,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "saree",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-saree-drape-07",
+    "category": "sarees",
+    "price": 999,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "saree",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-saree-drape-08",
+    "category": "sarees",
+    "price": 799,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "saree",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-saree-predrape-satin-01",
+    "category": "pre-draped-saree",
+    "price": 3500,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "pre-draped-saree",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-saree-predrape-satin-02",
+    "category": "pre-draped-saree",
+    "price": 3500,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "pre-draped-saree",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-saree-predrape-satin-03",
+    "category": "pre-draped-saree",
+    "price": 3500,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "pre-draped-saree",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-saree-predrape-satin-04",
+    "category": "pre-draped-saree",
+    "price": 4499,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "pre-draped-saree",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-saree-predrape-satin-05",
+    "category": "pre-draped-saree",
+    "price": 4499,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "pre-draped-saree",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-saree-predrape-net-01",
+    "category": "pre-draped-saree",
+    "price": 3500,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "pre-draped-saree",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-saree-predrape-net-02",
+    "category": "pre-draped-saree",
+    "price": 3500,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "pre-draped-saree",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-saree-predrape-net-03",
+    "category": "pre-draped-saree",
+    "price": 4499,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "pre-draped-saree",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-saree-predrape-net-04",
+    "category": "pre-draped-saree",
+    "price": 3500,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "pre-draped-saree",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-saree-organza-01",
+    "category": "sarees",
+    "price": 799,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "saree",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-saree-organza-02",
+    "category": "sarees",
+    "price": 799,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "saree",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-saree-organza-03",
+    "category": "sarees",
+    "price": 999,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "saree",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-saree-organza-04",
+    "category": "sarees",
+    "price": 799,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "saree",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-saree-organza-05",
+    "category": "sarees",
+    "price": 799,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "saree",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-saree-organza-06",
+    "category": "sarees",
+    "price": 799,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "saree",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-saree-georgette-soft-01",
+    "category": "sarees",
+    "price": 899,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "saree",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-saree-georgette-soft-02",
+    "category": "sarees",
+    "price": 899,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "saree",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-saree-georgette-soft-03",
+    "category": "sarees",
+    "price": 899,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "saree",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-saree-georgette-soft-04",
+    "category": "sarees",
+    "price": 799,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "saree",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-saree-georgette-soft-05",
+    "category": "sarees",
+    "price": 999,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "saree",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-saree-georgette-soft-06",
+    "category": "sarees",
+    "price": 899,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "saree",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-saree-tissue-01",
+    "category": "sarees",
+    "price": 999,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "saree",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-saree-tissue-02",
+    "category": "sarees",
+    "price": 799,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "saree",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-saree-tissue-03",
+    "category": "sarees",
+    "price": 799,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "saree",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-saree-chanderi-01",
+    "category": "sarees",
+    "price": 999,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "saree",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-saree-chanderi-02",
+    "category": "sarees",
+    "price": 899,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "saree",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-saree-chanderi-03",
+    "category": "sarees",
+    "price": 799,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "saree",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-saree-chanderi-04",
+    "category": "sarees",
+    "price": 799,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "saree",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-saree-silk-01",
+    "category": "sarees",
+    "price": 999,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "saree",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-saree-silk-02",
+    "category": "sarees",
+    "price": 799,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "saree",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-saree-silk-03",
+    "category": "sarees",
+    "price": 899,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "saree",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-saree-silk-04",
+    "category": "sarees",
+    "price": 899,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "saree",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-saree-silk-05",
+    "category": "sarees",
+    "price": 799,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "saree",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-saree-satin-slip-01",
+    "category": "sarees",
+    "price": 799,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "saree",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-saree-satin-slip-02",
+    "category": "sarees",
+    "price": 799,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "saree",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-saree-satin-slip-03",
+    "category": "sarees",
+    "price": 799,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "saree",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-saree-satin-slip-04",
+    "category": "sarees",
+    "price": 799,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "saree",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-saree-velvet-01",
+    "category": "sarees",
+    "price": 1149,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "saree",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-saree-velvet-02",
+    "category": "sarees",
+    "price": 799,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "saree",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-saree-velvet-03",
+    "category": "sarees",
+    "price": 1149,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "saree",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-saree-linen-01",
+    "category": "sarees",
+    "price": 799,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "saree",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-saree-linen-02",
+    "category": "sarees",
+    "price": 799,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "saree",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-saree-linen-03",
+    "category": "sarees",
+    "price": 899,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "saree",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-saree-linen-04",
+    "category": "sarees",
+    "price": 899,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "saree",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-saree-hcotton-01",
+    "category": "sarees",
+    "price": 799,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "saree",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-saree-hcotton-02",
+    "category": "sarees",
+    "price": 899,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "saree",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-saree-hcotton-03",
+    "category": "sarees",
+    "price": 899,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "saree",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-saree-hcotton-04",
+    "category": "sarees",
+    "price": 799,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "saree",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-saree-buti-01",
+    "category": "sarees",
+    "price": 899,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "saree",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-saree-buti-02",
+    "category": "sarees",
+    "price": 899,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "saree",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-saree-buti-03",
+    "category": "sarees",
+    "price": 799,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "saree",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-saree-banarasi-01",
+    "category": "sarees",
+    "price": 799,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "saree",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-saree-banarasi-02",
+    "category": "sarees",
+    "price": 999,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "saree",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-saree-banarasi-03",
+    "category": "sarees",
+    "price": 799,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "saree",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-saree-banarasi-04",
+    "category": "sarees",
+    "price": 799,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "saree",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-saree-handloom-ikkat-01",
+    "category": "sarees",
+    "price": 799,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "saree",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-saree-handloom-ikkat-02",
+    "category": "sarees",
+    "price": 799,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "saree",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-saree-handloom-ikkat-03",
+    "category": "sarees",
+    "price": 799,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "saree",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-saree-handloom-ikkat-04",
+    "category": "sarees",
+    "price": 799,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "saree",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-predrape-banarasi-01",
+    "category": "pre-draped-saree",
+    "price": 3500,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "pre-draped-saree",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-predrape-banarasi-02",
+    "category": "pre-draped-saree",
+    "price": 3999,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "pre-draped-saree",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-predrape-banarasi-03",
+    "category": "pre-draped-saree",
+    "price": 3500,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "pre-draped-saree",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-predrape-organza-01",
+    "category": "pre-draped-saree",
+    "price": 3500,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "pre-draped-saree",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-predrape-organza-02",
+    "category": "pre-draped-saree",
+    "price": 3500,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "pre-draped-saree",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-predrape-organza-03",
+    "category": "pre-draped-saree",
+    "price": 3500,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "pre-draped-saree",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-predrape-organza-04",
+    "category": "pre-draped-saree",
+    "price": 3500,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "pre-draped-saree",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-predrape-organza-05",
+    "category": "pre-draped-saree",
+    "price": 3500,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "pre-draped-saree",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-predrape-chiffon-01",
+    "category": "pre-draped-saree",
+    "price": 3799,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "pre-draped-saree",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-predrape-chiffon-02",
+    "category": "pre-draped-saree",
+    "price": 3799,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "pre-draped-saree",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-predrape-chiffon-03",
+    "category": "pre-draped-saree",
+    "price": 3500,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "pre-draped-saree",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-saree-concept-1-01",
+    "category": "pre-draped-saree",
+    "price": 3500,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "pre-draped-saree",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-saree-concept-1-02",
+    "category": "pre-draped-saree",
+    "price": 3500,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "pre-draped-saree",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-saree-concept-1-03",
+    "category": "pre-draped-saree",
+    "price": 4499,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "pre-draped-saree",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-saree-concept-2-01",
+    "category": "sharara",
+    "price": 1249,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "women-set",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-saree-concept-2-02",
+    "category": "gharara",
+    "price": 2149,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "gharara",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-saree-concept-2-03",
+    "category": "anarkali",
+    "price": 2449,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "anarkali",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-saree-concept-3-01",
+    "category": "pre-draped-saree",
+    "price": 3500,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "pre-draped-saree",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-saree-concept-3-02",
+    "category": "pre-draped-saree",
+    "price": 3799,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "pre-draped-saree",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-saree-concept-3-03",
+    "category": "pre-draped-saree",
+    "price": 3500,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "pre-draped-saree",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-saree-gown-01",
+    "category": "pre-draped-saree",
+    "price": 3500,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "pre-draped-saree",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-saree-gown-02",
+    "category": "pre-draped-saree",
+    "price": 3500,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "pre-draped-saree",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-saree-gown-03",
+    "category": "pre-draped-saree",
+    "price": 4499,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "pre-draped-saree",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-kurtiset-anarkali-01",
+    "category": "anarkali",
+    "price": 999,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "anarkali",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-kurtiset-anarkali-02",
+    "category": "anarkali",
+    "price": 1999,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "anarkali",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-kurtiset-anarkali-03",
+    "category": "anarkali",
+    "price": 999,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "anarkali",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-kurtiset-anarkali-04",
+    "category": "anarkali",
+    "price": 2449,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "anarkali",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-kurtiset-anarkali-05",
+    "category": "anarkali",
+    "price": 999,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "anarkali",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-kurtiset-anarkali-06",
+    "category": "anarkali",
+    "price": 999,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "anarkali",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-kurtiset-sharara-01",
+    "category": "sharara",
+    "price": 799,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "women-set",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-kurtiset-sharara-02",
+    "category": "sharara",
+    "price": 799,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "women-set",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-kurtiset-sharara-03",
+    "category": "sharara",
+    "price": 799,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "women-set",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-kurtiset-sharara-04",
+    "category": "sharara",
+    "price": 799,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "women-set",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-kurtiset-gharara-01",
+    "category": "gharara",
+    "price": 2149,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "gharara",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-kurtiset-gharara-02",
+    "category": "gharara",
+    "price": 2149,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "gharara",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-kurtiset-gharara-03",
+    "category": "gharara",
+    "price": 2149,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "gharara",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-kurtiset-palazzo-01",
+    "category": "kurta-sets",
+    "price": 799,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "women-set",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-kurtiset-palazzo-02",
+    "category": "kurta-sets",
+    "price": 999,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "women-set",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-kurtiset-palazzo-03",
+    "category": "kurta-sets",
+    "price": 1249,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "women-set",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-kurtiset-palazzo-04",
+    "category": "kurta-sets",
+    "price": 799,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "women-set",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-kurtiset-palazzo-05",
+    "category": "kurta-sets",
+    "price": 999,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "women-set",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-kurtiset-silk-01",
+    "category": "kurta-sets",
+    "price": 1249,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "women-set",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-kurtiset-silk-02",
+    "category": "kurta-sets",
+    "price": 999,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "women-set",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-kurtiset-silk-03",
+    "category": "kurta-sets",
+    "price": 799,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "women-set",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-kurtiset-silk-04",
+    "category": "kurta-sets",
+    "price": 799,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "women-set",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-kurtiset-straight-01",
+    "category": "kurta-sets",
+    "price": 799,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "women-set",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-kurtiset-straight-02",
+    "category": "kurta-sets",
+    "price": 999,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "women-set",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-kurtiset-straight-03",
+    "category": "kurta-sets",
+    "price": 1249,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "women-set",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-kurtiset-straight-04",
+    "category": "kurta-sets",
+    "price": 1499,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "women-set",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-kurtiset-straight-05",
+    "category": "kurta-sets",
+    "price": 799,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "women-set",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-kurtiset-straight-06",
+    "category": "kurta-sets",
+    "price": 799,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "women-set",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-kurtiset-straight-07",
+    "category": "kurta-sets",
+    "price": 799,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "women-set",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-kurtiset-straight-08",
+    "category": "kurta-sets",
+    "price": 999,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "women-set",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-kurtiset-aline-01",
+    "category": "kurta-sets",
+    "price": 799,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "women-set",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-kurtiset-aline-02",
+    "category": "kurta-sets",
+    "price": 999,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "women-set",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-kurtiset-aline-03",
+    "category": "kurta-sets",
+    "price": 999,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "women-set",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-kurtiset-aline-04",
+    "category": "kurta-sets",
+    "price": 799,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "women-set",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-kurtiset-aline-05",
+    "category": "kurta-sets",
+    "price": 999,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "women-set",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-kurtiset-aline-06",
+    "category": "kurta-sets",
+    "price": 799,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "women-set",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-kurtiset-highlow-01",
+    "category": "anarkali",
+    "price": 999,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "anarkali",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-kurtiset-highlow-02",
+    "category": "anarkali",
+    "price": 999,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "anarkali",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-kurtiset-highlow-03",
+    "category": "anarkali",
+    "price": 1999,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "anarkali",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-kurtiset-highlow-04",
+    "category": "anarkali",
+    "price": 999,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "anarkali",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-kurtiset-asym-01",
+    "category": "kurta-sets",
+    "price": 799,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "women-set",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-kurtiset-asym-02",
+    "category": "kurta-sets",
+    "price": 799,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "women-set",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-kurtiset-asym-03",
+    "category": "kurta-sets",
+    "price": 999,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "women-set",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-kurtiset-asym-04",
+    "category": "kurta-sets",
+    "price": 799,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "women-set",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-kurtiset-dhoti-01",
+    "category": "kurta-sets",
+    "price": 799,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "women-set",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-kurtiset-dhoti-02",
+    "category": "kurta-sets",
+    "price": 1499,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "women-set",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-kurtiset-dhoti-03",
+    "category": "kurta-sets",
+    "price": 999,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "women-set",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-kurtiset-dupatta-01",
+    "category": "kurta-sets",
+    "price": 799,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "women-set",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-kurtiset-dupatta-02",
+    "category": "kurta-sets",
+    "price": 1249,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "women-set",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-kurtiset-dupatta-03",
+    "category": "kurta-sets",
+    "price": 799,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "women-set",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-kurtiset-dupatta-04",
+    "category": "kurta-sets",
+    "price": 799,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "women-set",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-kurtiset-dupatta-05",
+    "category": "kurta-sets",
+    "price": 799,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "women-set",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-kurtiset-print-01",
+    "category": "kurta-sets",
+    "price": 999,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "women-set",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-kurtiset-print-02",
+    "category": "kurta-sets",
+    "price": 999,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "women-set",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-kurtiset-print-03",
+    "category": "kurta-sets",
+    "price": 999,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "women-set",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-kurtiset-print-04",
+    "category": "kurta-sets",
+    "price": 999,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "women-set",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-kurtiset-jacket-01",
+    "category": "kurta-sets",
+    "price": 799,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "women-set",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-kurtiset-jacket-02",
+    "category": "kurta-sets",
+    "price": 1499,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "women-set",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-kurtiset-jacket-03",
+    "category": "kurta-sets",
+    "price": 799,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "women-set",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-kurtiset-jacket-04",
+    "category": "kurta-sets",
+    "price": 799,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "women-set",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-kurtiset-cape-01",
+    "category": "kurta-sets",
+    "price": 799,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "women-set",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-kurtiset-cape-02",
+    "category": "kurta-sets",
+    "price": 799,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "women-set",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-kurtiset-cape-03",
+    "category": "kurta-sets",
+    "price": 799,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "women-set",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-coord-silk-01",
+    "category": "anarkali",
+    "price": 1999,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "anarkali",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-coord-silk-02",
+    "category": "kurta-sets",
+    "price": 1249,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "women-set",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-coord-silk-03",
+    "category": "chaniya-choli",
+    "price": 1349,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "chaniya",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-coord-silk-04",
+    "category": "sharara",
+    "price": 1249,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "women-set",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-coord-rawmango-01",
+    "category": "gharara",
+    "price": 2149,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "gharara",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-coord-rawmango-02",
+    "category": "anarkali",
+    "price": 1999,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "anarkali",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-coord-rawmango-03",
+    "category": "kurta-sets",
+    "price": 1499,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "women-set",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-coord-rawmango-04",
+    "category": "chaniya-choli",
+    "price": 1349,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "chaniya",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-coord-cotton-01",
+    "category": "sharara",
+    "price": 1249,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "women-set",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-coord-cotton-02",
+    "category": "gharara",
+    "price": 2149,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "gharara",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-coord-cotton-03",
+    "category": "anarkali",
+    "price": 2449,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "anarkali",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-coord-cotton-04",
+    "category": "kurta-sets",
+    "price": 1249,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "women-set",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-coord-cotton-05",
+    "category": "chaniya-choli",
+    "price": 1349,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "chaniya",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-coord-viscose-01",
+    "category": "sharara",
+    "price": 1249,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "women-set",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-coord-viscose-02",
+    "category": "gharara",
+    "price": 2149,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "gharara",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-coord-viscose-03",
+    "category": "anarkali",
+    "price": 1999,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "anarkali",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-coord-viscose-04",
+    "category": "kurta-sets",
+    "price": 1249,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "women-set",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-coord-satin-01",
+    "category": "chaniya-choli",
+    "price": 1349,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "chaniya",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-coord-satin-02",
+    "category": "sharara",
+    "price": 1499,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "women-set",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-coord-satin-03",
+    "category": "gharara",
+    "price": 2149,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "gharara",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-coord-linen-01",
+    "category": "anarkali",
+    "price": 1999,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "anarkali",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-coord-linen-02",
+    "category": "kurta-sets",
+    "price": 1249,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "women-set",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-coord-linen-03",
+    "category": "chaniya-choli",
+    "price": 1349,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "chaniya",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-coord-crop-01",
+    "category": "sharara",
+    "price": 1249,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "women-set",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-coord-crop-02",
+    "category": "gharara",
+    "price": 2149,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "gharara",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-coord-crop-03",
+    "category": "anarkali",
+    "price": 1999,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "anarkali",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-coord-palazzo-01",
+    "category": "kurta-sets",
+    "price": 1499,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "women-set",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-coord-palazzo-02",
+    "category": "chaniya-choli",
+    "price": 1349,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "chaniya",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-coord-palazzo-03",
+    "category": "sharara",
+    "price": 1249,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "women-set",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-coord-skirt-01",
+    "category": "gharara",
+    "price": 2149,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "gharara",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-coord-skirt-02",
+    "category": "anarkali",
+    "price": 2449,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "anarkali",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-coord-print-01",
+    "category": "kurta-sets",
+    "price": 1249,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "women-set",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-coord-print-02",
+    "category": "chaniya-choli",
+    "price": 1349,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "chaniya",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-coord-print-03",
+    "category": "sharara",
+    "price": 1249,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "women-set",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-coord-dupatta-01",
+    "category": "gharara",
+    "price": 2149,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "gharara",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-coord-dupatta-02",
+    "category": "anarkali",
+    "price": 1999,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "anarkali",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-coord-dupatta-03",
+    "category": "kurta-sets",
+    "price": 1249,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "women-set",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-leh-classic-01",
+    "category": "lehenga",
+    "price": 1349,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "chaniya",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-leh-classic-02",
+    "category": "lehenga",
+    "price": 999,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "chaniya",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-leh-classic-03",
+    "category": "lehenga",
+    "price": 999,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "chaniya",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-leh-classic-04",
+    "category": "lehenga",
+    "price": 1349,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "chaniya",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-leh-classic-05",
+    "category": "lehenga",
+    "price": 999,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "chaniya",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-leh-classic-06",
+    "category": "lehenga",
+    "price": 1349,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "chaniya",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-leh-net-01",
+    "category": "lehenga",
+    "price": 999,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "chaniya",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-leh-net-02",
+    "category": "lehenga",
+    "price": 999,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "chaniya",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-leh-net-03",
+    "category": "lehenga",
+    "price": 1349,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "chaniya",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-leh-net-04",
+    "category": "lehenga",
+    "price": 1349,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "chaniya",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-leh-net-05",
+    "category": "lehenga",
+    "price": 999,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "chaniya",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-leh-net-06",
+    "category": "lehenga",
+    "price": 999,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "chaniya",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-leh-satin-01",
+    "category": "lehenga",
+    "price": 999,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "chaniya",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-leh-satin-02",
+    "category": "lehenga",
+    "price": 1349,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "chaniya",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-leh-satin-03",
+    "category": "lehenga",
+    "price": 999,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "chaniya",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-leh-satin-04",
+    "category": "lehenga",
+    "price": 999,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "chaniya",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-leh-velvet-01",
+    "category": "lehenga",
+    "price": 1349,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "chaniya",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-leh-velvet-02",
+    "category": "lehenga",
+    "price": 999,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "chaniya",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-leh-velvet-03",
+    "category": "lehenga",
+    "price": 1199,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "chaniya",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-leh-sequin-01",
+    "category": "lehenga",
+    "price": 999,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "chaniya",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-leh-sequin-02",
+    "category": "lehenga",
+    "price": 1349,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "chaniya",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-leh-sequin-03",
+    "category": "lehenga",
+    "price": 1349,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "chaniya",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-leh-sequin-04",
+    "category": "lehenga",
+    "price": 999,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "chaniya",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-leh-sequin-05",
+    "category": "lehenga",
+    "price": 999,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "chaniya",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-leh-print-01",
+    "category": "lehenga",
+    "price": 1099,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "chaniya",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-leh-print-02",
+    "category": "lehenga",
+    "price": 1099,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "chaniya",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-leh-print-03",
+    "category": "lehenga",
+    "price": 1099,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "chaniya",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-leh-skirt-01",
+    "category": "gharara",
+    "price": 2149,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "gharara",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-leh-skirt-02",
+    "category": "anarkali",
+    "price": 1999,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "anarkali",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-leh-skirt-03",
+    "category": "kurta-sets",
+    "price": 1499,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "women-set",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-leh-skirt-04",
+    "category": "chaniya-choli",
+    "price": 1349,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "chaniya",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-leh-modern-01",
+    "category": "sharara",
+    "price": 1249,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "women-set",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-leh-modern-02",
+    "category": "gharara",
+    "price": 2149,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "gharara",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-leh-modern-03",
+    "category": "anarkali",
+    "price": 2449,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "anarkali",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-leh-shortsuit-01",
+    "category": "kurta-sets",
+    "price": 1249,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "women-set",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-leh-shortsuit-02",
+    "category": "chaniya-choli",
+    "price": 1349,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "chaniya",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-leh-shortsuit-03",
+    "category": "sharara",
+    "price": 1249,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "women-set",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-fusion-indowest-01",
+    "category": "gharara",
+    "price": 2149,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "gharara",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-fusion-indowest-02",
+    "category": "anarkali",
+    "price": 1999,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "anarkali",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-fusion-indowest-03",
+    "category": "kurta-sets",
+    "price": 1249,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "women-set",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-fusion-indowest-04",
+    "category": "chaniya-choli",
+    "price": 1349,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "chaniya",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-fusion-indowest-05",
+    "category": "sharara",
+    "price": 1499,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "women-set",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-fusion-indowest-06",
+    "category": "gharara",
+    "price": 2149,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "gharara",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-fusion-kurti-jeans-01",
+    "category": "anarkali",
+    "price": 1999,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "anarkali",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-fusion-kurti-jeans-02",
+    "category": "kurta-sets",
+    "price": 1249,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "women-set",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-fusion-kurti-jeans-03",
+    "category": "chaniya-choli",
+    "price": 1349,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "chaniya",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-fusion-kurti-jeans-04",
+    "category": "sharara",
+    "price": 1249,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "women-set",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-fusion-kurti-jeans-05",
+    "category": "gharara",
+    "price": 2149,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "gharara",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-fusion-gown-01",
+    "category": "anarkali",
+    "price": 1999,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "anarkali",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-fusion-gown-02",
+    "category": "kurta-sets",
+    "price": 1499,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "women-set",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-fusion-gown-03",
+    "category": "chaniya-choli",
+    "price": 1349,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "chaniya",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-fusion-drape-01",
+    "category": "sharara",
+    "price": 1249,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "women-set",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-fusion-drape-02",
+    "category": "gharara",
+    "price": 2149,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "gharara",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-fusion-drape-03",
+    "category": "anarkali",
+    "price": 2449,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "anarkali",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-fusion-pantsuit-01",
+    "category": "kurta-sets",
+    "price": 1249,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "women-set",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-fusion-pantsuit-02",
+    "category": "chaniya-choli",
+    "price": 1349,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "chaniya",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-fusion-pantsuit-03",
+    "category": "sharara",
+    "price": 1249,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "women-set",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-fusion-dhoti-01",
+    "category": "gharara",
+    "price": 2149,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "gharara",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-fusion-dhoti-02",
+    "category": "anarkali",
+    "price": 1999,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "anarkali",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-fusion-dhoti-03",
+    "category": "kurta-sets",
+    "price": 1249,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "women-set",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-fusion-shirt-01",
+    "category": "chaniya-choli",
+    "price": 1349,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "chaniya",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-fusion-shirt-02",
+    "category": "sharara",
+    "price": 1499,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "women-set",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-fusion-shirt-03",
+    "category": "gharara",
+    "price": 2149,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "gharara",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-fusion-shirt-04",
+    "category": "anarkali",
+    "price": 1999,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "anarkali",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-fusion-shirt-05",
+    "category": "kurta-sets",
+    "price": 1249,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "women-set",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-fusion-jacket-01",
+    "category": "chaniya-choli",
+    "price": 1349,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "chaniya",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-fusion-jacket-02",
+    "category": "sharara",
+    "price": 1249,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "women-set",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-fusion-jacket-03",
+    "category": "gharara",
+    "price": 2149,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "gharara",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-kurti-straight-01",
+    "category": "kurta-sets",
+    "price": 799,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "women-set",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-kurti-straight-02",
+    "category": "kurta-sets",
+    "price": 799,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "women-set",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-kurti-straight-03",
+    "category": "kurta-sets",
+    "price": 999,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "women-set",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-kurti-straight-04",
+    "category": "kurta-sets",
+    "price": 1499,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "women-set",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-kurti-straight-05",
+    "category": "kurta-sets",
+    "price": 799,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "women-set",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-kurti-print-01",
+    "category": "kurta-sets",
+    "price": 999,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "women-set",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-kurti-print-02",
+    "category": "kurta-sets",
+    "price": 999,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "women-set",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-kurti-print-03",
+    "category": "kurta-sets",
+    "price": 999,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "women-set",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-kurti-print-04",
+    "category": "kurta-sets",
+    "price": 999,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "women-set",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-kurti-print-05",
+    "category": "kurta-sets",
+    "price": 999,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "women-set",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-kurti-chikan-01",
+    "category": "kurta-sets",
+    "price": 799,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "women-set",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-kurti-chikan-02",
+    "category": "kurta-sets",
+    "price": 799,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "women-set",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-kurti-chikan-03",
+    "category": "kurta-sets",
+    "price": 799,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "women-set",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-kurti-chikan-04",
+    "category": "kurta-sets",
+    "price": 1249,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "women-set",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-kurti-chikan-05",
+    "category": "kurta-sets",
+    "price": 799,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "women-set",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-kurti-chikan-06",
+    "category": "kurta-sets",
+    "price": 799,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "women-set",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-kurti-east-01",
+    "category": "kurta-sets",
+    "price": 799,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "women-set",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-kurti-east-02",
+    "category": "kurta-sets",
+    "price": 799,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "women-set",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-kurti-east-03",
+    "category": "kurta-sets",
+    "price": 799,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "women-set",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-kurti-highlow-01",
+    "category": "kurta-sets",
+    "price": 799,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "women-set",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-kurti-highlow-02",
+    "category": "kurta-sets",
+    "price": 1499,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "women-set",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-kurti-highlow-03",
+    "category": "kurta-sets",
+    "price": 799,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "women-set",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "m-kurtiset-cotton-01",
+    "category": "festive-kurta-set",
+    "price": 1499,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "men-set",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "m-kurtiset-cotton-02",
+    "category": "festive-kurta-set",
+    "price": 1499,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "men-set",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "m-kurtiset-cotton-03",
+    "category": "traditional-kurta",
+    "price": 899,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "men-kurta",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "m-kurtiset-cotton-04",
+    "category": "festive-kurta-set",
+    "price": 1799,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "men-set",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "m-kurtiset-cotton-05",
+    "category": "festive-kurta-set",
+    "price": 1499,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "men-set",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "m-kurtiset-cotton-06",
+    "category": "traditional-kurta",
+    "price": 899,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "men-kurta",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "m-kurtiset-cotton-07",
+    "category": "festive-kurta-set",
+    "price": 1499,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "men-set",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "m-kurtiset-cotton-08",
+    "category": "festive-kurta-set",
+    "price": 1799,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "men-set",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "m-kurtiset-silk-01",
+    "category": "traditional-kurta",
+    "price": 899,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "men-kurta",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "m-kurtiset-silk-02",
+    "category": "festive-kurta-set",
+    "price": 1499,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "men-set",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "m-kurtiset-silk-03",
+    "category": "festive-kurta-set",
+    "price": 1499,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "men-set",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "m-kurtiset-silk-04",
+    "category": "traditional-kurta",
+    "price": 999,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "men-kurta",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "m-kurtiset-silk-05",
+    "category": "festive-kurta-set",
+    "price": 1499,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "men-set",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "m-kurtiset-silk-06",
+    "category": "festive-kurta-set",
+    "price": 1499,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "men-set",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "m-kurtiset-chikankari-01",
+    "category": "traditional-kurta",
+    "price": 899,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "men-kurta",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "m-kurtiset-chikankari-02",
+    "category": "festive-kurta-set",
+    "price": 1799,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "men-set",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "m-kurtiset-chikankari-03",
+    "category": "festive-kurta-set",
+    "price": 1499,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "men-set",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "m-kurtiset-chikankari-04",
+    "category": "traditional-kurta",
+    "price": 899,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "men-kurta",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "m-kurtiset-chikankari-05",
+    "category": "festive-kurta-set",
+    "price": 1499,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "men-set",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "m-kurtiset-printed-01",
+    "category": "festive-kurta-set",
+    "price": 1799,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "men-set",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "m-kurtiset-printed-02",
+    "category": "traditional-kurta",
+    "price": 899,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "men-kurta",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "m-kurtiset-printed-03",
+    "category": "festive-kurta-set",
+    "price": 1499,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "men-set",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "m-kurtiset-printed-04",
+    "category": "festive-kurta-set",
+    "price": 1499,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "men-set",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "m-kurtiset-printed-05",
+    "category": "traditional-kurta",
+    "price": 999,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "men-kurta",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "m-kurtiset-pathani-01",
+    "category": "festive-kurta-set",
+    "price": 1499,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "men-set",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "m-kurtiset-pathani-02",
+    "category": "festive-kurta-set",
+    "price": 1499,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "men-set",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "m-kurtiset-pathani-03",
+    "category": "traditional-kurta",
+    "price": 899,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "men-kurta",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "m-kurtiset-pathani-04",
+    "category": "festive-kurta-set",
+    "price": 1799,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "men-set",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "m-kurtiset-linen-01",
+    "category": "festive-kurta-set",
+    "price": 1499,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "men-set",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "m-kurtiset-linen-02",
+    "category": "traditional-kurta",
+    "price": 899,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "men-kurta",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "m-kurtiset-linen-03",
+    "category": "festive-kurta-set",
+    "price": 1499,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "men-set",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "m-kurtiset-linen-04",
+    "category": "festive-kurta-set",
+    "price": 1799,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "men-set",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "m-kurt-set-jamawar-01",
+    "category": "traditional-kurta",
+    "price": 899,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "men-kurta",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "m-kurt-set-jamawar-02",
+    "category": "festive-kurta-set",
+    "price": 1499,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "men-set",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "m-kurt-set-jamawar-03",
+    "category": "festive-kurta-set",
+    "price": 1499,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "men-set",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "m-kurt-set-brocade-01",
+    "category": "traditional-kurta",
+    "price": 999,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "men-kurta",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "m-kurt-set-brocade-02",
+    "category": "festive-kurta-set",
+    "price": 1499,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "men-set",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "m-kurt-set-brocade-03",
+    "category": "festive-kurta-set",
+    "price": 1499,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "men-set",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "m-kurt-set-jacket-01",
+    "category": "traditional-festive-set",
+    "price": 1499,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "men-set",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "m-kurt-set-jacket-02",
+    "category": "traditional-festive-set",
+    "price": 1799,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "men-set",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "m-kurt-set-jacket-03",
+    "category": "traditional-festive-set",
+    "price": 1499,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "men-set",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "m-kurt-set-jacket-04",
+    "category": "traditional-festive-set",
+    "price": 1499,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "men-set",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "m-kurt-set-jacket-05",
+    "category": "traditional-festive-set",
+    "price": 1499,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "men-set",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "m-kurt-set-dupatta-01",
+    "category": "festive-kurta-set",
+    "price": 1799,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "men-set",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "m-kurt-set-dupatta-02",
+    "category": "traditional-kurta",
+    "price": 899,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "men-kurta",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "m-kurt-set-dupatta-03",
+    "category": "festive-kurta-set",
+    "price": 1499,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "men-set",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "m-kurt-set-dupatta-04",
+    "category": "festive-kurta-set",
+    "price": 1499,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "men-set",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "m-kurt-set-dupatta-05",
+    "category": "traditional-kurta",
+    "price": 999,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "men-kurta",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "m-kurt-set-short-01",
+    "category": "festive-kurta-set",
+    "price": 1499,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "men-set",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "m-kurt-set-short-02",
+    "category": "festive-kurta-set",
+    "price": 1499,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "men-set",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "m-kurt-set-short-03",
+    "category": "traditional-kurta",
+    "price": 899,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "men-kurta",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "m-kurt-set-short-04",
+    "category": "festive-kurta-set",
+    "price": 1799,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "men-set",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "m-jacket-brocade-01",
+    "category": "traditional-festive-set",
+    "price": 1499,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "men-set",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "m-jacket-brocade-02",
+    "category": "traditional-festive-set",
+    "price": 1499,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "men-set",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "m-jacket-brocade-03",
+    "category": "traditional-festive-set",
+    "price": 1499,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "men-set",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "m-jacket-brocade-04",
+    "category": "traditional-festive-set",
+    "price": 1799,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "men-set",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "m-jacket-brocade-05",
+    "category": "traditional-festive-set",
+    "price": 1499,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "men-set",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "m-jacket-velvet-01",
+    "category": "traditional-festive-set",
+    "price": 1499,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "men-set",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "m-jacket-velvet-02",
+    "category": "traditional-festive-set",
+    "price": 1499,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "men-set",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "m-jacket-velvet-03",
+    "category": "traditional-festive-set",
+    "price": 1799,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "men-set",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "m-jacket-velvet-04",
+    "category": "traditional-festive-set",
+    "price": 1499,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "men-set",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "m-jacket-rawmango-01",
+    "category": "traditional-festive-set",
+    "price": 1499,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "men-set",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "m-jacket-rawmango-02",
+    "category": "traditional-festive-set",
+    "price": 1499,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "men-set",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "m-jacket-rawmango-03",
+    "category": "traditional-festive-set",
+    "price": 1799,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "men-set",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "m-bandhgala-silk-01",
+    "category": "traditional-festive-set",
+    "price": 1499,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "men-set",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "m-bandhgala-silk-02",
+    "category": "traditional-festive-set",
+    "price": 1499,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "men-set",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "m-bandhgala-silk-03",
+    "category": "traditional-festive-set",
+    "price": 1499,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "men-set",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "m-bandhgala-silk-04",
+    "category": "traditional-festive-set",
+    "price": 1799,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "men-set",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "m-bandhgala-silk-05",
+    "category": "traditional-festive-set",
+    "price": 1499,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "men-set",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "m-bandhgala-silk-06",
+    "category": "traditional-festive-set",
+    "price": 1499,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "men-set",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "m-sherwani-01",
+    "category": "traditional-festive-set",
+    "price": 1499,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "men-set",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "m-sherwani-02",
+    "category": "traditional-festive-set",
+    "price": 1799,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "men-set",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "m-sherwani-03",
+    "category": "traditional-festive-set",
+    "price": 1499,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "men-set",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "m-sherwani-04",
+    "category": "traditional-festive-set",
+    "price": 1499,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "men-set",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "m-jacket-printed-01",
+    "category": "traditional-festive-set",
+    "price": 1499,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "men-set",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "m-jacket-printed-02",
+    "category": "traditional-festive-set",
+    "price": 1799,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "men-set",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "m-jacket-printed-03",
+    "category": "traditional-festive-set",
+    "price": 1499,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "men-set",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "m-jacket-emb-01",
+    "category": "traditional-festive-set",
+    "price": 1499,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "men-set",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "m-jacket-emb-02",
+    "category": "traditional-festive-set",
+    "price": 1499,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "men-set",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "m-jacket-emb-03",
+    "category": "traditional-festive-set",
+    "price": 1799,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "men-set",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "m-indowest-drape-01",
+    "category": "traditional-kurta",
+    "price": 899,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "men-kurta",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "m-indowest-drape-02",
+    "category": "festive-kurta-set",
+    "price": 1499,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "men-set",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "m-indowest-drape-03",
+    "category": "festive-kurta-set",
+    "price": 1499,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "men-set",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "m-indowest-drape-04",
+    "category": "traditional-kurta",
+    "price": 999,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "men-kurta",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "m-indowest-skirt-01",
+    "category": "festive-kurta-set",
+    "price": 1499,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "men-set",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "m-indowest-skirt-02",
+    "category": "festive-kurta-set",
+    "price": 1499,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "men-set",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "m-indowest-skirt-03",
+    "category": "traditional-kurta",
+    "price": 899,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "men-kurta",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "m-indowest-skirt-04",
+    "category": "festive-kurta-set",
+    "price": 1799,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "men-set",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "m-waistcoat-set-01",
+    "category": "traditional-festive-set",
+    "price": 1499,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "men-set",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "m-waistcoat-set-02",
+    "category": "traditional-festive-set",
+    "price": 1499,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "men-set",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "m-waistcoat-set-03",
+    "category": "traditional-festive-set",
+    "price": 1499,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "men-set",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "m-waistcoat-set-04",
+    "category": "traditional-festive-set",
+    "price": 1799,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "men-set",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "m-waistcoat-set-05",
+    "category": "traditional-festive-set",
+    "price": 1499,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "men-set",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "m-waistcoat-set-06",
+    "category": "traditional-festive-set",
+    "price": 1499,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "men-set",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "m-kurta-jeans-01",
+    "category": "festive-kurta-set",
+    "price": 1499,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "men-set",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "m-kurta-jeans-02",
+    "category": "traditional-kurta",
+    "price": 999,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "men-kurta",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "m-kurta-jeans-03",
+    "category": "festive-kurta-set",
+    "price": 1499,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "men-set",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "m-kurta-jeans-04",
+    "category": "festive-kurta-set",
+    "price": 1499,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "men-set",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "m-shirt-trouser-01",
+    "category": "embroidered-ethnic-shirt",
+    "price": 1899,
+    "basis": "legacy-unverified",
+    "evidenceId": null,
+    "lastChecked": null
+  },
+  {
+    "id": "m-shirt-trouser-02",
+    "category": "printed-ethnic-shirt",
+    "price": 399,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "men-shirt",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "m-shirt-trouser-03",
+    "category": "embroidered-ethnic-shirt",
+    "price": 1299,
+    "basis": "legacy-unverified",
+    "evidenceId": null,
+    "lastChecked": null
+  },
+  {
+    "id": "m-shirt-trouser-04",
+    "category": "printed-ethnic-shirt",
+    "price": 399,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "men-shirt",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "m-coord-suit-01",
+    "category": "embroidered-ethnic-shirt",
+    "price": 3299,
+    "basis": "legacy-unverified",
+    "evidenceId": null,
+    "lastChecked": null
+  },
+  {
+    "id": "m-coord-suit-02",
+    "category": "printed-ethnic-shirt",
+    "price": 399,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "men-shirt",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "m-coord-suit-03",
+    "category": "embroidered-ethnic-shirt",
+    "price": 1899,
+    "basis": "legacy-unverified",
+    "evidenceId": null,
+    "lastChecked": null
+  },
+  {
+    "id": "m-coord-suit-04",
+    "category": "printed-ethnic-shirt",
+    "price": 399,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "men-shirt",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "m-coord-suit-05",
+    "category": "embroidered-ethnic-shirt",
+    "price": 2499,
+    "basis": "legacy-unverified",
+    "evidenceId": null,
+    "lastChecked": null
+  },
+  {
+    "id": "m-coat-set-01",
+    "category": "traditional-festive-set",
+    "price": 1799,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "men-set",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "m-coat-set-02",
+    "category": "traditional-festive-set",
+    "price": 1499,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "men-set",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "m-coat-set-03",
+    "category": "traditional-festive-set",
+    "price": 1499,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "men-set",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "m-asym-coord-01",
+    "category": "embroidered-ethnic-shirt",
+    "price": 2399,
+    "basis": "legacy-unverified",
+    "evidenceId": null,
+    "lastChecked": null
+  },
+  {
+    "id": "m-asym-coord-02",
+    "category": "printed-ethnic-shirt",
+    "price": 399,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "men-shirt",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "m-asym-coord-03",
+    "category": "embroidered-ethnic-shirt",
+    "price": 2899,
+    "basis": "legacy-unverified",
+    "evidenceId": null,
+    "lastChecked": null
+  },
+  {
+    "id": "m-asym-coord-04",
+    "category": "printed-ethnic-shirt",
+    "price": 399,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "men-shirt",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "m-fusion-set-01",
+    "category": "embroidered-ethnic-shirt",
+    "price": 2499,
+    "basis": "legacy-unverified",
+    "evidenceId": null,
+    "lastChecked": null
+  },
+  {
+    "id": "m-fusion-set-02",
+    "category": "printed-ethnic-shirt",
+    "price": 399,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "men-shirt",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "m-fusion-set-03",
+    "category": "embroidered-ethnic-shirt",
+    "price": 2899,
+    "basis": "legacy-unverified",
+    "evidenceId": null,
+    "lastChecked": null
+  },
+  {
+    "id": "m-garba-kediyu-01",
+    "category": "traditional-kurta",
+    "price": 899,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "men-kurta",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "m-garba-kediyu-02",
+    "category": "traditional-kurta",
+    "price": 899,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "men-kurta",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "m-garba-kediyu-03",
+    "category": "garba-navratri-traditional",
+    "price": 1799,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "men-set",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "m-garba-kediyu-04",
+    "category": "traditional-kurta",
+    "price": 899,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "men-kurta",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "m-garba-kediyu-05",
+    "category": "traditional-kurta",
+    "price": 899,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "men-kurta",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "m-garba-kediyu-06",
+    "category": "garba-navratri-traditional",
+    "price": 1499,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "men-set",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "m-garba-kediyu-07",
+    "category": "traditional-kurta",
+    "price": 999,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "men-kurta",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "m-garba-kafni-01",
+    "category": "traditional-kurta",
+    "price": 899,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "men-kurta",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "m-garba-kafni-02",
+    "category": "garba-navratri-traditional",
+    "price": 1499,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "men-set",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "m-garba-kafni-03",
+    "category": "traditional-kurta",
+    "price": 899,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "men-kurta",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "m-garba-kafni-04",
+    "category": "traditional-kurta",
+    "price": 999,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "men-kurta",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "m-garba-vest-01",
+    "category": "garba-navratri-traditional",
+    "price": 1499,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "men-set",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "m-garba-vest-02",
+    "category": "traditional-kurta",
+    "price": 899,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "men-kurta",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "m-garba-vest-03",
+    "category": "traditional-kurta",
+    "price": 899,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "men-kurta",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "m-garba-vest-04",
+    "category": "garba-navratri-traditional",
+    "price": 1799,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "men-set",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "m-coord-linen-01",
+    "category": "embroidered-ethnic-shirt",
+    "price": 1499,
+    "basis": "legacy-unverified",
+    "evidenceId": null,
+    "lastChecked": null
+  },
+  {
+    "id": "m-coord-linen-02",
+    "category": "printed-ethnic-shirt",
+    "price": 399,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "men-shirt",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "m-coord-linen-03",
+    "category": "embroidered-ethnic-shirt",
+    "price": 2399,
+    "basis": "legacy-unverified",
+    "evidenceId": null,
+    "lastChecked": null
+  },
+  {
+    "id": "m-coord-cotton-01",
+    "category": "printed-ethnic-shirt",
+    "price": 399,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "men-shirt",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "m-coord-cotton-02",
+    "category": "embroidered-ethnic-shirt",
+    "price": 1499,
+    "basis": "legacy-unverified",
+    "evidenceId": null,
+    "lastChecked": null
+  },
+  {
+    "id": "m-coord-cotton-03",
+    "category": "printed-ethnic-shirt",
+    "price": 399,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "men-shirt",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "m-coord-silk-01",
+    "category": "embroidered-ethnic-shirt",
+    "price": 2899,
+    "basis": "legacy-unverified",
+    "evidenceId": null,
+    "lastChecked": null
+  },
+  {
+    "id": "m-coord-silk-02",
+    "category": "printed-ethnic-shirt",
+    "price": 399,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "men-shirt",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "m-dhoti-kurta-01",
+    "category": "traditional-kurta",
+    "price": 899,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "men-kurta",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "m-dhoti-kurta-02",
+    "category": "festive-kurta-set",
+    "price": 1499,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "men-set",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "m-dhoti-kurta-03",
+    "category": "festive-kurta-set",
+    "price": 1499,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "men-set",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-ear-jhumka-01",
+    "category": "jewellery",
+    "price": 1299,
+    "basis": "legacy-unverified",
+    "evidenceId": null,
+    "lastChecked": null
+  },
+  {
+    "id": "w-ear-jhumka-02",
+    "category": "jewellery",
+    "price": 1199,
+    "basis": "legacy-unverified",
+    "evidenceId": null,
+    "lastChecked": null
+  },
+  {
+    "id": "w-ear-jhumka-03",
+    "category": "jewellery",
+    "price": 549,
+    "basis": "legacy-unverified",
+    "evidenceId": null,
+    "lastChecked": null
+  },
+  {
+    "id": "w-ear-chandbali-01",
+    "category": "jewellery",
+    "price": 1349,
+    "basis": "legacy-unverified",
+    "evidenceId": null,
+    "lastChecked": null
+  },
+  {
+    "id": "w-ear-chandbali-02",
+    "category": "jewellery",
+    "price": 1099,
+    "basis": "legacy-unverified",
+    "evidenceId": null,
+    "lastChecked": null
+  },
+  {
+    "id": "w-ear-stud-01",
+    "category": "jewellery",
+    "price": 949,
+    "basis": "legacy-unverified",
+    "evidenceId": null,
+    "lastChecked": null
+  },
+  {
+    "id": "w-ear-stud-02",
+    "category": "jewellery",
+    "price": 699,
+    "basis": "legacy-unverified",
+    "evidenceId": null,
+    "lastChecked": null
+  },
+  {
+    "id": "w-ear-hoop-01",
+    "category": "jewellery",
+    "price": 799,
+    "basis": "legacy-unverified",
+    "evidenceId": null,
+    "lastChecked": null
+  },
+  {
+    "id": "w-ear-hoop-02",
+    "category": "jewellery",
+    "price": 799,
+    "basis": "legacy-unverified",
+    "evidenceId": null,
+    "lastChecked": null
+  },
+  {
+    "id": "w-ear-kundan-01",
+    "category": "jewellery",
+    "price": 799,
+    "basis": "legacy-unverified",
+    "evidenceId": null,
+    "lastChecked": null
+  },
+  {
+    "id": "w-ear-kundan-02",
+    "category": "jewellery",
+    "price": 1999,
+    "basis": "legacy-unverified",
+    "evidenceId": null,
+    "lastChecked": null
+  },
+  {
+    "id": "w-ear-polki-01",
+    "category": "jewellery",
+    "price": 1999,
+    "basis": "legacy-unverified",
+    "evidenceId": null,
+    "lastChecked": null
+  },
+  {
+    "id": "w-ear-polki-02",
+    "category": "jewellery",
+    "price": 3299,
+    "basis": "legacy-unverified",
+    "evidenceId": null,
+    "lastChecked": null
+  },
+  {
+    "id": "w-ear-drop-01",
+    "category": "jewellery",
+    "price": 499,
+    "basis": "legacy-unverified",
+    "evidenceId": null,
+    "lastChecked": null
+  },
+  {
+    "id": "w-ear-drop-02",
+    "category": "jewellery",
+    "price": 399,
+    "basis": "legacy-unverified",
+    "evidenceId": null,
+    "lastChecked": null
+  },
+  {
+    "id": "w-ear-thread-01",
+    "category": "jewellery",
+    "price": 1099,
+    "basis": "legacy-unverified",
+    "evidenceId": null,
+    "lastChecked": null
+  },
+  {
+    "id": "w-ear-thread-02",
+    "category": "jewellery",
+    "price": 949,
+    "basis": "legacy-unverified",
+    "evidenceId": null,
+    "lastChecked": null
+  },
+  {
+    "id": "w-ear-cuff-01",
+    "category": "jewellery",
+    "price": 499,
+    "basis": "legacy-unverified",
+    "evidenceId": null,
+    "lastChecked": null
+  },
+  {
+    "id": "w-ear-cuff-02",
+    "category": "jewellery",
+    "price": 399,
+    "basis": "legacy-unverified",
+    "evidenceId": null,
+    "lastChecked": null
+  },
+  {
+    "id": "w-ear-climber-01",
+    "category": "jewellery",
+    "price": 649,
+    "basis": "legacy-unverified",
+    "evidenceId": null,
+    "lastChecked": null
+  },
+  {
+    "id": "w-ear-climber-02",
+    "category": "jewellery",
+    "price": 649,
+    "basis": "legacy-unverified",
+    "evidenceId": null,
+    "lastChecked": null
+  },
+  {
+    "id": "w-neck-choker-01",
+    "category": "jewellery",
+    "price": 3999,
+    "basis": "legacy-unverified",
+    "evidenceId": null,
+    "lastChecked": null
+  },
+  {
+    "id": "w-neck-choker-02",
+    "category": "jewellery",
+    "price": 1799,
+    "basis": "legacy-unverified",
+    "evidenceId": null,
+    "lastChecked": null
+  },
+  {
+    "id": "w-neck-lac-01",
+    "category": "jewellery",
+    "price": 899,
+    "basis": "legacy-unverified",
+    "evidenceId": null,
+    "lastChecked": null
+  },
+  {
+    "id": "w-neck-lac-02",
+    "category": "jewellery",
+    "price": 799,
+    "basis": "legacy-unverified",
+    "evidenceId": null,
+    "lastChecked": null
+  },
+  {
+    "id": "w-neck-long-01",
+    "category": "jewellery",
+    "price": 1899,
+    "basis": "legacy-unverified",
+    "evidenceId": null,
+    "lastChecked": null
+  },
+  {
+    "id": "w-neck-long-02",
+    "category": "jewellery",
+    "price": 1799,
+    "basis": "legacy-unverified",
+    "evidenceId": null,
+    "lastChecked": null
+  },
+  {
+    "id": "w-neck-collar-01",
+    "category": "jewellery",
+    "price": 1299,
+    "basis": "legacy-unverified",
+    "evidenceId": null,
+    "lastChecked": null
+  },
+  {
+    "id": "w-neck-collar-02",
+    "category": "jewellery",
+    "price": 599,
+    "basis": "legacy-unverified",
+    "evidenceId": null,
+    "lastChecked": null
+  },
+  {
+    "id": "w-neck-kundan-01",
+    "category": "jewellery",
+    "price": 2999,
+    "basis": "legacy-unverified",
+    "evidenceId": null,
+    "lastChecked": null
+  },
+  {
+    "id": "w-neck-kundan-02",
+    "category": "jewellery",
+    "price": 3299,
+    "basis": "legacy-unverified",
+    "evidenceId": null,
+    "lastChecked": null
+  },
+  {
+    "id": "w-neck-coin-01",
+    "category": "jewellery",
+    "price": 1349,
+    "basis": "legacy-unverified",
+    "evidenceId": null,
+    "lastChecked": null
+  },
+  {
+    "id": "w-neck-coin-02",
+    "category": "jewellery",
+    "price": 1349,
+    "basis": "legacy-unverified",
+    "evidenceId": null,
+    "lastChecked": null
+  },
+  {
+    "id": "w-neck-thread-01",
+    "category": "jewellery",
+    "price": 749,
+    "basis": "legacy-unverified",
+    "evidenceId": null,
+    "lastChecked": null
+  },
+  {
+    "id": "w-neck-thread-02",
+    "category": "jewellery",
+    "price": 899,
+    "basis": "legacy-unverified",
+    "evidenceId": null,
+    "lastChecked": null
+  },
+  {
+    "id": "w-rings-01",
+    "category": "jewellery",
+    "price": 449,
+    "basis": "legacy-unverified",
+    "evidenceId": null,
+    "lastChecked": null
+  },
+  {
+    "id": "w-rings-02",
+    "category": "jewellery",
+    "price": 549,
+    "basis": "legacy-unverified",
+    "evidenceId": null,
+    "lastChecked": null
+  },
+  {
+    "id": "w-ring-cocktail-01",
+    "category": "jewellery",
+    "price": 1399,
+    "basis": "legacy-unverified",
+    "evidenceId": null,
+    "lastChecked": null
+  },
+  {
+    "id": "w-ring-cocktail-02",
+    "category": "jewellery",
+    "price": 549,
+    "basis": "legacy-unverified",
+    "evidenceId": null,
+    "lastChecked": null
+  },
+  {
+    "id": "w-ring-stack-01",
+    "category": "jewellery",
+    "price": 649,
+    "basis": "legacy-unverified",
+    "evidenceId": null,
+    "lastChecked": null
+  },
+  {
+    "id": "w-ring-stack-02",
+    "category": "jewellery",
+    "price": 599,
+    "basis": "legacy-unverified",
+    "evidenceId": null,
+    "lastChecked": null
+  },
+  {
+    "id": "w-bangles-01",
+    "category": "jewellery",
+    "price": 749,
+    "basis": "legacy-unverified",
+    "evidenceId": null,
+    "lastChecked": null
+  },
+  {
+    "id": "w-bangles-02",
+    "category": "jewellery",
+    "price": 449,
+    "basis": "legacy-unverified",
+    "evidenceId": null,
+    "lastChecked": null
+  },
+  {
+    "id": "w-kada-01",
+    "category": "jewellery",
+    "price": 899,
+    "basis": "legacy-unverified",
+    "evidenceId": null,
+    "lastChecked": null
+  },
+  {
+    "id": "w-kada-02",
+    "category": "jewellery",
+    "price": 449,
+    "basis": "legacy-unverified",
+    "evidenceId": null,
+    "lastChecked": null
+  },
+  {
+    "id": "w-bracelet-01",
+    "category": "jewellery",
+    "price": 899,
+    "basis": "legacy-unverified",
+    "evidenceId": null,
+    "lastChecked": null
+  },
+  {
+    "id": "w-bracelet-02",
+    "category": "jewellery",
+    "price": 449,
+    "basis": "legacy-unverified",
+    "evidenceId": null,
+    "lastChecked": null
+  },
+  {
+    "id": "w-tikka-01",
+    "category": "jewellery",
+    "price": 1999,
+    "basis": "legacy-unverified",
+    "evidenceId": null,
+    "lastChecked": null
+  },
+  {
+    "id": "w-tikka-02",
+    "category": "jewellery",
+    "price": 799,
+    "basis": "legacy-unverified",
+    "evidenceId": null,
+    "lastChecked": null
+  },
+  {
+    "id": "w-patti-01",
+    "category": "jewellery",
+    "price": 699,
+    "basis": "legacy-unverified",
+    "evidenceId": null,
+    "lastChecked": null
+  },
+  {
+    "id": "w-patti-02",
+    "category": "jewellery",
+    "price": 1199,
+    "basis": "legacy-unverified",
+    "evidenceId": null,
+    "lastChecked": null
+  },
+  {
+    "id": "w-passa-01",
+    "category": "jewellery",
+    "price": 649,
+    "basis": "legacy-unverified",
+    "evidenceId": null,
+    "lastChecked": null
+  },
+  {
+    "id": "w-passa-02",
+    "category": "jewellery",
+    "price": 899,
+    "basis": "legacy-unverified",
+    "evidenceId": null,
+    "lastChecked": null
+  },
+  {
+    "id": "w-hairpin-01",
+    "category": "jewellery",
+    "price": 499,
+    "basis": "legacy-unverified",
+    "evidenceId": null,
+    "lastChecked": null
+  },
+  {
+    "id": "w-hairpin-02",
+    "category": "jewellery",
+    "price": 549,
+    "basis": "legacy-unverified",
+    "evidenceId": null,
+    "lastChecked": null
+  },
+  {
+    "id": "w-hair-jassa-01",
+    "category": "jewellery",
+    "price": 649,
+    "basis": "legacy-unverified",
+    "evidenceId": null,
+    "lastChecked": null
+  },
+  {
+    "id": "w-hair-jassa-02",
+    "category": "jewellery",
+    "price": 699,
+    "basis": "legacy-unverified",
+    "evidenceId": null,
+    "lastChecked": null
+  },
+  {
+    "id": "w-brooch-01",
+    "category": "jewellery",
+    "price": 499,
+    "basis": "legacy-unverified",
+    "evidenceId": null,
+    "lastChecked": null
+  },
+  {
+    "id": "w-brooch-02",
+    "category": "jewellery",
+    "price": 599,
+    "basis": "legacy-unverified",
+    "evidenceId": null,
+    "lastChecked": null
+  },
+  {
+    "id": "w-waistbelt-01",
+    "category": "jewellery",
+    "price": 699,
+    "basis": "legacy-unverified",
+    "evidenceId": null,
+    "lastChecked": null
+  },
+  {
+    "id": "w-waistbelt-02",
+    "category": "jewellery",
+    "price": 849,
+    "basis": "legacy-unverified",
+    "evidenceId": null,
+    "lastChecked": null
+  },
+  {
+    "id": "w-potli-01",
+    "category": "bags",
+    "price": 999,
+    "basis": "legacy-unverified",
+    "evidenceId": null,
+    "lastChecked": null
+  },
+  {
+    "id": "w-potli-02",
+    "category": "bags",
+    "price": 599,
+    "basis": "legacy-unverified",
+    "evidenceId": null,
+    "lastChecked": null
+  },
+  {
+    "id": "w-potli-03",
+    "category": "bags",
+    "price": 649,
+    "basis": "legacy-unverified",
+    "evidenceId": null,
+    "lastChecked": null
+  },
+  {
+    "id": "w-clutch-01",
+    "category": "bags",
+    "price": 1299,
+    "basis": "legacy-unverified",
+    "evidenceId": null,
+    "lastChecked": null
+  },
+  {
+    "id": "w-clutch-02",
+    "category": "bags",
+    "price": 1999,
+    "basis": "legacy-unverified",
+    "evidenceId": null,
+    "lastChecked": null
+  },
+  {
+    "id": "w-clutch-cane-01",
+    "category": "bags",
+    "price": 1099,
+    "basis": "legacy-unverified",
+    "evidenceId": null,
+    "lastChecked": null
+  },
+  {
+    "id": "w-clutch-cane-02",
+    "category": "bags",
+    "price": 1199,
+    "basis": "legacy-unverified",
+    "evidenceId": null,
+    "lastChecked": null
+  },
+  {
+    "id": "w-sling-01",
+    "category": "bags",
+    "price": 1399,
+    "basis": "legacy-unverified",
+    "evidenceId": null,
+    "lastChecked": null
+  },
+  {
+    "id": "w-sling-02",
+    "category": "bags",
+    "price": 1599,
+    "basis": "legacy-unverified",
+    "evidenceId": null,
+    "lastChecked": null
+  },
+  {
+    "id": "w-handbag-01",
+    "category": "bags",
+    "price": 1349,
+    "basis": "legacy-unverified",
+    "evidenceId": null,
+    "lastChecked": null
+  },
+  {
+    "id": "w-handbag-02",
+    "category": "bags",
+    "price": 1799,
+    "basis": "legacy-unverified",
+    "evidenceId": null,
+    "lastChecked": null
+  },
+  {
+    "id": "w-bag-emb-01",
+    "category": "bags",
+    "price": 3299,
+    "basis": "legacy-unverified",
+    "evidenceId": null,
+    "lastChecked": null
+  },
+  {
+    "id": "w-bag-emb-02",
+    "category": "bags",
+    "price": 3499,
+    "basis": "legacy-unverified",
+    "evidenceId": null,
+    "lastChecked": null
+  },
+  {
+    "id": "w-bag-embroidered-01",
+    "category": "bags",
+    "price": 949,
+    "basis": "legacy-unverified",
+    "evidenceId": null,
+    "lastChecked": null
+  },
+  {
+    "id": "w-bag-embroidered-02",
+    "category": "bags",
+    "price": 999,
+    "basis": "legacy-unverified",
+    "evidenceId": null,
+    "lastChecked": null
+  },
+  {
+    "id": "w-jutti-01",
+    "category": "footwear",
+    "price": 1499,
+    "basis": "legacy-unverified",
+    "evidenceId": null,
+    "lastChecked": null
+  },
+  {
+    "id": "w-jutti-02",
+    "category": "footwear",
+    "price": 1799,
+    "basis": "legacy-unverified",
+    "evidenceId": null,
+    "lastChecked": null
+  },
+  {
+    "id": "w-shoe-emb-01",
+    "category": "footwear",
+    "price": 1699,
+    "basis": "legacy-unverified",
+    "evidenceId": null,
+    "lastChecked": null
+  },
+  {
+    "id": "w-shoe-emb-02",
+    "category": "footwear",
+    "price": 3999,
+    "basis": "legacy-unverified",
+    "evidenceId": null,
+    "lastChecked": null
+  },
+  {
+    "id": "w-shoe-kolhapuri-01",
+    "category": "footwear",
+    "price": 1699,
+    "basis": "legacy-unverified",
+    "evidenceId": null,
+    "lastChecked": null
+  },
+  {
+    "id": "w-shoe-kolhapuri-02",
+    "category": "footwear",
+    "price": 1349,
+    "basis": "legacy-unverified",
+    "evidenceId": null,
+    "lastChecked": null
+  },
+  {
+    "id": "w-shoe-heeled-01",
+    "category": "footwear",
+    "price": 1999,
+    "basis": "legacy-unverified",
+    "evidenceId": null,
+    "lastChecked": null
+  },
+  {
+    "id": "w-shoe-heeled-02",
+    "category": "footwear",
+    "price": 1899,
+    "basis": "legacy-unverified",
+    "evidenceId": null,
+    "lastChecked": null
+  },
+  {
+    "id": "w-shoe-wedge-01",
+    "category": "footwear",
+    "price": 1699,
+    "basis": "legacy-unverified",
+    "evidenceId": null,
+    "lastChecked": null
+  },
+  {
+    "id": "w-shoe-wedge-02",
+    "category": "footwear",
+    "price": 2199,
+    "basis": "legacy-unverified",
+    "evidenceId": null,
+    "lastChecked": null
+  },
+  {
+    "id": "w-shoe-mule-01",
+    "category": "footwear",
+    "price": 2499,
+    "basis": "legacy-unverified",
+    "evidenceId": null,
+    "lastChecked": null
+  },
+  {
+    "id": "w-shoe-mule-02",
+    "category": "footwear",
+    "price": 1349,
+    "basis": "legacy-unverified",
+    "evidenceId": null,
+    "lastChecked": null
+  },
+  {
+    "id": "w-shoe-festive-01",
+    "category": "footwear",
+    "price": 749,
+    "basis": "legacy-unverified",
+    "evidenceId": null,
+    "lastChecked": null
+  },
+  {
+    "id": "w-shoe-festive-02",
+    "category": "footwear",
+    "price": 1499,
+    "basis": "legacy-unverified",
+    "evidenceId": null,
+    "lastChecked": null
+  },
+  {
+    "id": "m-mojari-01",
+    "category": "footwear",
+    "price": 1399,
+    "basis": "legacy-unverified",
+    "evidenceId": null,
+    "lastChecked": null
+  },
+  {
+    "id": "m-mojari-02",
+    "category": "footwear",
+    "price": 2399,
+    "basis": "legacy-unverified",
+    "evidenceId": null,
+    "lastChecked": null
+  },
+  {
+    "id": "m-mojari-03",
+    "category": "footwear",
+    "price": 2399,
+    "basis": "legacy-unverified",
+    "evidenceId": null,
+    "lastChecked": null
+  },
+  {
+    "id": "m-jutti-01",
+    "category": "footwear",
+    "price": 1699,
+    "basis": "legacy-unverified",
+    "evidenceId": null,
+    "lastChecked": null
+  },
+  {
+    "id": "m-jutti-02",
+    "category": "footwear",
+    "price": 1399,
+    "basis": "legacy-unverified",
+    "evidenceId": null,
+    "lastChecked": null
+  },
+  {
+    "id": "m-kolhapuri-01",
+    "category": "footwear",
+    "price": 1599,
+    "basis": "legacy-unverified",
+    "evidenceId": null,
+    "lastChecked": null
+  },
+  {
+    "id": "m-kolhapuri-02",
+    "category": "footwear",
+    "price": 1799,
+    "basis": "legacy-unverified",
+    "evidenceId": null,
+    "lastChecked": null
+  },
+  {
+    "id": "m-sandal-01",
+    "category": "footwear",
+    "price": 1349,
+    "basis": "legacy-unverified",
+    "evidenceId": null,
+    "lastChecked": null
+  },
+  {
+    "id": "m-sandal-02",
+    "category": "footwear",
+    "price": 1299,
+    "basis": "legacy-unverified",
+    "evidenceId": null,
+    "lastChecked": null
+  },
+  {
+    "id": "m-loafer-01",
+    "category": "footwear",
+    "price": 2499,
+    "basis": "legacy-unverified",
+    "evidenceId": null,
+    "lastChecked": null
+  },
+  {
+    "id": "m-loafer-02",
+    "category": "footwear",
+    "price": 2499,
+    "basis": "legacy-unverified",
+    "evidenceId": null,
+    "lastChecked": null
+  },
+  {
+    "id": "m-watch-01",
+    "category": "accessories",
+    "price": 999,
+    "basis": "legacy-unverified",
+    "evidenceId": null,
+    "lastChecked": null
+  },
+  {
+    "id": "m-watch-02",
+    "category": "accessories",
+    "price": 3999,
+    "basis": "legacy-unverified",
+    "evidenceId": null,
+    "lastChecked": null
+  },
+  {
+    "id": "m-watch-03",
+    "category": "accessories",
+    "price": 5999,
+    "basis": "legacy-unverified",
+    "evidenceId": null,
+    "lastChecked": null
+  },
+  {
+    "id": "m-watch-04",
+    "category": "accessories",
+    "price": 2699,
+    "basis": "legacy-unverified",
+    "evidenceId": null,
+    "lastChecked": null
+  },
+  {
+    "id": "m-bracelet-01",
+    "category": "accessories",
+    "price": 599,
+    "basis": "legacy-unverified",
+    "evidenceId": null,
+    "lastChecked": null
+  },
+  {
+    "id": "m-bracelet-02",
+    "category": "accessories",
+    "price": 999,
+    "basis": "legacy-unverified",
+    "evidenceId": null,
+    "lastChecked": null
+  },
+  {
+    "id": "m-ring-01",
+    "category": "accessories",
+    "price": 1499,
+    "basis": "legacy-unverified",
+    "evidenceId": null,
+    "lastChecked": null
+  },
+  {
+    "id": "m-ring-02",
+    "category": "accessories",
+    "price": 599,
+    "basis": "legacy-unverified",
+    "evidenceId": null,
+    "lastChecked": null
+  },
+  {
+    "id": "m-cufflinks-01",
+    "category": "accessories",
+    "price": 1349,
+    "basis": "legacy-unverified",
+    "evidenceId": null,
+    "lastChecked": null
+  },
+  {
+    "id": "m-cufflinks-02",
+    "category": "accessories",
+    "price": 1799,
+    "basis": "legacy-unverified",
+    "evidenceId": null,
+    "lastChecked": null
+  },
+  {
+    "id": "m-brooch-01",
+    "category": "accessories",
+    "price": 1199,
+    "basis": "legacy-unverified",
+    "evidenceId": null,
+    "lastChecked": null
+  },
+  {
+    "id": "m-brooch-02",
+    "category": "accessories",
+    "price": 1199,
+    "basis": "legacy-unverified",
+    "evidenceId": null,
+    "lastChecked": null
+  },
+  {
+    "id": "m-pocket-01",
+    "category": "accessories",
+    "price": 449,
+    "basis": "legacy-unverified",
+    "evidenceId": null,
+    "lastChecked": null
+  },
+  {
+    "id": "m-pocket-02",
+    "category": "accessories",
+    "price": 449,
+    "basis": "legacy-unverified",
+    "evidenceId": null,
+    "lastChecked": null
+  },
+  {
+    "id": "m-stole-01",
+    "category": "accessories",
+    "price": 2699,
+    "basis": "legacy-unverified",
+    "evidenceId": null,
+    "lastChecked": null
+  },
+  {
+    "id": "m-stole-02",
+    "category": "accessories",
+    "price": 1599,
+    "basis": "legacy-unverified",
+    "evidenceId": null,
+    "lastChecked": null
+  },
+  {
+    "id": "m-stole-03",
+    "category": "accessories",
+    "price": 1299,
+    "basis": "legacy-unverified",
+    "evidenceId": null,
+    "lastChecked": null
+  },
+  {
+    "id": "m-scarf-01",
+    "category": "accessories",
+    "price": 849,
+    "basis": "legacy-unverified",
+    "evidenceId": null,
+    "lastChecked": null
+  },
+  {
+    "id": "m-scarf-02",
+    "category": "accessories",
+    "price": 849,
+    "basis": "legacy-unverified",
+    "evidenceId": null,
+    "lastChecked": null
+  },
+  {
+    "id": "m-belt-01",
+    "category": "accessories",
+    "price": 799,
+    "basis": "legacy-unverified",
+    "evidenceId": null,
+    "lastChecked": null
+  },
+  {
+    "id": "m-belt-02",
+    "category": "accessories",
+    "price": 1799,
+    "basis": "legacy-unverified",
+    "evidenceId": null,
+    "lastChecked": null
+  },
+  {
+    "id": "m-wallet-01",
+    "category": "accessories",
+    "price": 699,
+    "basis": "legacy-unverified",
+    "evidenceId": null,
+    "lastChecked": null
+  },
+  {
+    "id": "m-wallet-02",
+    "category": "accessories",
+    "price": 749,
+    "basis": "legacy-unverified",
+    "evidenceId": null,
+    "lastChecked": null
+  },
+  {
+    "id": "m-sunglasses-01",
+    "category": "accessories",
+    "price": 799,
+    "basis": "legacy-unverified",
+    "evidenceId": null,
+    "lastChecked": null
+  },
+  {
+    "id": "m-sunglasses-02",
+    "category": "accessories",
+    "price": 1099,
+    "basis": "legacy-unverified",
+    "evidenceId": null,
+    "lastChecked": null
+  },
+  {
+    "id": "m-groom-kit-01",
+    "category": "accessories",
+    "price": 1499,
+    "basis": "legacy-unverified",
+    "evidenceId": null,
+    "lastChecked": null
+  },
+  {
+    "id": "m-groom-kit-02",
+    "category": "accessories",
+    "price": 1349,
+    "basis": "legacy-unverified",
+    "evidenceId": null,
+    "lastChecked": null
+  },
+  {
+    "id": "m-safa-01",
+    "category": "accessories",
+    "price": 1199,
+    "basis": "legacy-unverified",
+    "evidenceId": null,
+    "lastChecked": null
+  },
+  {
+    "id": "m-safa-02",
+    "category": "accessories",
+    "price": 999,
+    "basis": "legacy-unverified",
+    "evidenceId": null,
+    "lastChecked": null
+  },
+  {
+    "id": "m-pagdi-01",
+    "category": "accessories",
+    "price": 2199,
+    "basis": "legacy-unverified",
+    "evidenceId": null,
+    "lastChecked": null
+  },
+  {
+    "id": "b-eye-palette-01",
+    "category": "beauty",
+    "price": 749,
+    "basis": "legacy-unverified",
+    "evidenceId": null,
+    "lastChecked": null
+  },
+  {
+    "id": "b-eye-palette-02",
+    "category": "beauty",
+    "price": 499,
+    "basis": "legacy-unverified",
+    "evidenceId": null,
+    "lastChecked": null
+  },
+  {
+    "id": "b-eye-palette-03",
+    "category": "beauty",
+    "price": 699,
+    "basis": "legacy-unverified",
+    "evidenceId": null,
+    "lastChecked": null
+  },
+  {
+    "id": "b-kajal-01",
+    "category": "beauty",
+    "price": 449,
+    "basis": "legacy-unverified",
+    "evidenceId": null,
+    "lastChecked": null
+  },
+  {
+    "id": "b-kajal-02",
+    "category": "beauty",
+    "price": 399,
+    "basis": "legacy-unverified",
+    "evidenceId": null,
+    "lastChecked": null
+  },
+  {
+    "id": "b-bottle-glow-01",
+    "category": "beauty",
+    "price": 949,
+    "basis": "legacy-unverified",
+    "evidenceId": null,
+    "lastChecked": null
+  },
+  {
+    "id": "b-bottle-glow-02",
+    "category": "beauty",
+    "price": 599,
+    "basis": "legacy-unverified",
+    "evidenceId": null,
+    "lastChecked": null
+  },
+  {
+    "id": "b-bottle-makeup-01",
+    "category": "beauty",
+    "price": 799,
+    "basis": "legacy-unverified",
+    "evidenceId": null,
+    "lastChecked": null
+  },
+  {
+    "id": "b-bottle-makeup-02",
+    "category": "beauty",
+    "price": 749,
+    "basis": "legacy-unverified",
+    "evidenceId": null,
+    "lastChecked": null
+  },
+  {
+    "id": "b-bottle-hair-01",
+    "category": "beauty",
+    "price": 1499,
+    "basis": "legacy-unverified",
+    "evidenceId": null,
+    "lastChecked": null
+  },
+  {
+    "id": "b-bottle-hair-02",
+    "category": "beauty",
+    "price": 599,
+    "basis": "legacy-unverified",
+    "evidenceId": null,
+    "lastChecked": null
+  },
+  {
+    "id": "b-bottle-lip-01",
+    "category": "beauty",
+    "price": 699,
+    "basis": "legacy-unverified",
+    "evidenceId": null,
+    "lastChecked": null
+  },
+  {
+    "id": "b-bottle-lip-02",
+    "category": "beauty",
+    "price": 649,
+    "basis": "legacy-unverified",
+    "evidenceId": null,
+    "lastChecked": null
+  },
+  {
+    "id": "b-bottle-body-01",
+    "category": "beauty",
+    "price": 1799,
+    "basis": "legacy-unverified",
+    "evidenceId": null,
+    "lastChecked": null
+  },
+  {
+    "id": "b-bottle-body-02",
+    "category": "beauty",
+    "price": 849,
+    "basis": "legacy-unverified",
+    "evidenceId": null,
+    "lastChecked": null
+  },
+  {
+    "id": "b-kajal-deos-01",
+    "category": "beauty",
+    "price": 549,
+    "basis": "legacy-unverified",
+    "evidenceId": null,
+    "lastChecked": null
+  },
+  {
+    "id": "b-kajal-deos-02",
+    "category": "beauty",
+    "price": 649,
+    "basis": "legacy-unverified",
+    "evidenceId": null,
+    "lastChecked": null
+  },
+  {
+    "id": "b-kajal-deos-03",
+    "category": "beauty",
+    "price": 899,
+    "basis": "legacy-unverified",
+    "evidenceId": null,
+    "lastChecked": null
+  },
+  {
+    "id": "b-kit-brush-01",
+    "category": "beauty",
+    "price": 1349,
+    "basis": "legacy-unverified",
+    "evidenceId": null,
+    "lastChecked": null
+  },
+  {
+    "id": "b-kit-brush-02",
+    "category": "beauty",
+    "price": 799,
+    "basis": "legacy-unverified",
+    "evidenceId": null,
+    "lastChecked": null
+  },
+  {
+    "id": "b-stick-lip-01",
+    "category": "beauty",
+    "price": 449,
+    "basis": "legacy-unverified",
+    "evidenceId": null,
+    "lastChecked": null
+  },
+  {
+    "id": "b-stick-lip-02",
+    "category": "beauty",
+    "price": 499,
+    "basis": "legacy-unverified",
+    "evidenceId": null,
+    "lastChecked": null
+  },
+  {
+    "id": "b-stick-lip-03",
+    "category": "beauty",
+    "price": 549,
+    "basis": "legacy-unverified",
+    "evidenceId": null,
+    "lastChecked": null
+  },
+  {
+    "id": "b-palette-compact-01",
+    "category": "beauty",
+    "price": 449,
+    "basis": "legacy-unverified",
+    "evidenceId": null,
+    "lastChecked": null
+  },
+  {
+    "id": "b-palette-compact-02",
+    "category": "beauty",
+    "price": 1199,
+    "basis": "legacy-unverified",
+    "evidenceId": null,
+    "lastChecked": null
+  },
+  {
+    "id": "w-garba-chaniya-production-01",
+    "category": "chaniya-choli",
+    "price": 1349,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "chaniya",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-garba-chaniya-production-02",
+    "category": "chaniya-choli",
+    "price": 1099,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "chaniya",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-garba-chaniya-production-03",
+    "category": "chaniya-choli",
+    "price": 999,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "chaniya",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-garba-chaniya-production-04",
+    "category": "chaniya-choli",
+    "price": 1199,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "chaniya",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-garba-chaniya-production-05",
+    "category": "chaniya-choli",
+    "price": 999,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "chaniya",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-garba-chaniya-production-06",
+    "category": "chaniya-choli",
+    "price": 1349,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "chaniya",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-garba-chaniya-production-07",
+    "category": "chaniya-choli",
+    "price": 1099,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "chaniya",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-garba-chaniya-production-08",
+    "category": "chaniya-choli",
+    "price": 999,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "chaniya",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-garba-chaniya-production-09",
+    "category": "chaniya-choli",
+    "price": 1199,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "chaniya",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-garba-chaniya-production-10",
+    "category": "chaniya-choli",
+    "price": 999,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "chaniya",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-garba-chaniya-production-11",
+    "category": "chaniya-choli",
+    "price": 1349,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "chaniya",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-garba-chaniya-production-12",
+    "category": "chaniya-choli",
+    "price": 1099,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "chaniya",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-garba-chaniya-production-13",
+    "category": "chaniya-choli",
+    "price": 999,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "chaniya",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-garba-chaniya-production-14",
+    "category": "chaniya-choli",
+    "price": 1199,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "chaniya",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-garba-chaniya-production-15",
+    "category": "chaniya-choli",
+    "price": 999,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "chaniya",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-garba-chaniya-production-16",
+    "category": "chaniya-choli",
+    "price": 1349,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "chaniya",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-garba-chaniya-production-17",
+    "category": "chaniya-choli",
+    "price": 1099,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "chaniya",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-garba-chaniya-production-18",
+    "category": "chaniya-choli",
+    "price": 999,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "chaniya",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-navratri-lehenga-production-01",
+    "category": "chaniya-choli",
+    "price": 1349,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "chaniya",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-navratri-lehenga-production-02",
+    "category": "chaniya-choli",
+    "price": 999,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "chaniya",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-navratri-lehenga-production-03",
+    "category": "chaniya-choli",
+    "price": 999,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "chaniya",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-navratri-lehenga-production-04",
+    "category": "chaniya-choli",
+    "price": 999,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "chaniya",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-navratri-lehenga-production-05",
+    "category": "chaniya-choli",
+    "price": 1199,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "chaniya",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-navratri-lehenga-production-06",
+    "category": "chaniya-choli",
+    "price": 1349,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "chaniya",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-navratri-lehenga-production-07",
+    "category": "chaniya-choli",
+    "price": 999,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "chaniya",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-navratri-lehenga-production-08",
+    "category": "chaniya-choli",
+    "price": 999,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "chaniya",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-navratri-lehenga-production-09",
+    "category": "chaniya-choli",
+    "price": 999,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "chaniya",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-navratri-lehenga-production-10",
+    "category": "chaniya-choli",
+    "price": 1199,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "chaniya",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-navratri-lehenga-production-11",
+    "category": "chaniya-choli",
+    "price": 1349,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "chaniya",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-navratri-lehenga-production-12",
+    "category": "chaniya-choli",
+    "price": 999,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "chaniya",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-navratri-lehenga-production-13",
+    "category": "chaniya-choli",
+    "price": 999,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "chaniya",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "w-navratri-lehenga-production-14",
+    "category": "chaniya-choli",
+    "price": 999,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "chaniya",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "m-garba-kediyu-production-01",
+    "category": "traditional-kurta",
+    "price": 999,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "men-kurta",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "m-garba-kediyu-production-02",
+    "category": "garba-navratri-traditional",
+    "price": 1499,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "men-set",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "m-garba-kediyu-production-03",
+    "category": "traditional-kurta",
+    "price": 899,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "men-kurta",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "m-garba-kediyu-production-04",
+    "category": "traditional-kurta",
+    "price": 899,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "men-kurta",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "m-garba-kediyu-production-05",
+    "category": "garba-navratri-traditional",
+    "price": 1799,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "men-set",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "m-garba-kediyu-production-06",
+    "category": "traditional-kurta",
+    "price": 899,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "men-kurta",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "m-garba-kediyu-production-07",
+    "category": "traditional-kurta",
+    "price": 899,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "men-kurta",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "m-garba-kediyu-production-08",
+    "category": "garba-navratri-traditional",
+    "price": 1499,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "men-set",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "m-garba-kediyu-production-09",
+    "category": "traditional-kurta",
+    "price": 999,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "men-kurta",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "m-garba-kediyu-production-10",
+    "category": "traditional-kurta",
+    "price": 899,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "men-kurta",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "m-garba-kediyu-production-11",
+    "category": "garba-navratri-traditional",
+    "price": 1499,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "men-set",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "m-garba-kediyu-production-12",
+    "category": "traditional-kurta",
+    "price": 899,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "men-kurta",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "m-garba-kediyu-production-13",
+    "category": "traditional-kurta",
+    "price": 999,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "men-kurta",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "m-garba-kediyu-production-14",
+    "category": "garba-navratri-traditional",
+    "price": 1499,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "men-set",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "m-festive-layer-production-01",
+    "category": "traditional-festive-set",
+    "price": 1499,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "men-set",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "m-festive-layer-production-02",
+    "category": "traditional-festive-set",
+    "price": 1499,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "men-set",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "m-festive-layer-production-03",
+    "category": "traditional-festive-set",
+    "price": 1799,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "men-set",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "m-festive-layer-production-04",
+    "category": "traditional-festive-set",
+    "price": 1499,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "men-set",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "m-festive-layer-production-05",
+    "category": "traditional-festive-set",
+    "price": 1499,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "men-set",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "m-festive-layer-production-06",
+    "category": "traditional-festive-set",
+    "price": 1499,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "men-set",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "m-festive-layer-production-07",
+    "category": "traditional-festive-set",
+    "price": 1799,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "men-set",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "m-festive-layer-production-08",
+    "category": "traditional-festive-set",
+    "price": 1499,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "men-set",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "m-festive-layer-production-09",
+    "category": "traditional-festive-set",
+    "price": 1499,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "men-set",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "m-festive-layer-production-10",
+    "category": "traditional-festive-set",
+    "price": 1499,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "men-set",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "m-festive-layer-production-11",
+    "category": "traditional-festive-set",
+    "price": 1799,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "men-set",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "m-festive-layer-production-12",
+    "category": "traditional-festive-set",
+    "price": 1499,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "men-set",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "cp-set-01",
+    "category": "traditional-kurta",
+    "price": 899,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "men-kurta",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "cp-set-02",
+    "category": "chaniya-choli",
+    "price": 1349,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "chaniya",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "cp-set-03",
+    "category": "traditional-kurta",
+    "price": 999,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "men-kurta",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "cp-set-04",
+    "category": "chaniya-choli",
+    "price": 1349,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "chaniya",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "cp-set-05",
+    "category": "traditional-kurta",
+    "price": 899,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "men-kurta",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "cp-set-06",
+    "category": "chaniya-choli",
+    "price": 1349,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "chaniya",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "cp-set-07",
+    "category": "traditional-kurta",
+    "price": 999,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "men-kurta",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "cp-set-08",
+    "category": "chaniya-choli",
+    "price": 1349,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "chaniya",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "cp-set-09",
+    "category": "traditional-kurta",
+    "price": 899,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "men-kurta",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "cp-set-10",
+    "category": "chaniya-choli",
+    "price": 1349,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "chaniya",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "cp-set-11",
+    "category": "traditional-kurta",
+    "price": 999,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "men-kurta",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "cp-set-12",
+    "category": "chaniya-choli",
+    "price": 1349,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "chaniya",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "cp-set-13",
+    "category": "traditional-kurta",
+    "price": 899,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "men-kurta",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "cp-set-14",
+    "category": "chaniya-choli",
+    "price": 1349,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "chaniya",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "cp-set-15",
+    "category": "traditional-kurta",
+    "price": 999,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "men-kurta",
+    "lastChecked": "2026-09-23"
+  },
+  {
+    "id": "cp-set-16",
+    "category": "chaniya-choli",
+    "price": 1349,
+    "basis": "market-comparable-estimate",
+    "evidenceId": "chaniya",
+    "lastChecked": "2026-09-23"
+  }
+]

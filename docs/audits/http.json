@@ -1,0 +1,13 @@
+{
+  "date": "2026-09-23",
+  "base": "http://127.0.0.1:4173",
+  "routes": 890,
+  "uniqueImages": 745,
+  "api": {
+    "method": 405,
+    "missingProduct": 400,
+    "demo": "demo"
+  },
+  "errors": [],
+  "scope": "HTTP app shells, JPEG content and existing demo API; route correctness separately tested in sitemap and Chromium. Merchant checkout not verified."
+}

@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { useSearchParams, Link } from 'react-router-dom';
 import { Search, Layers } from 'lucide-react';
 import { searchProducts, products, categoriesForGender } from '../data/products';
-import { allLooks } from '../data/looks';
+import { allLooks, searchLooks } from '../data/looks';
 import { getOccasion } from '../data/occasions';
 import ProductCard from '../components/ProductCard';
 import TryOnModal from '../components/TryOnModal';
@@ -15,14 +15,9 @@ export default function SearchPage() {
   const [tryOnProduct, setTryOnProduct] = useState<Product | null>(null);
   const q = searchParams.get('q') || '';
   const results = q ? searchProducts(q, 60) : [];
-  const matchedLooks = q
-    ? allLooks.filter((l) => {
-        const hay = `${l.title} ${l.occasions.join(' ')} ${l.mood} ${l.description}`.toLowerCase();
-        return q.toLowerCase().split(/\s+/).filter((t) => t.length > 1).every((t) => hay.includes(t));
-      }).slice(0, 6)
-    : [];
-  const suggestions = ['diwali saree', 'pre-draped', 'wedding guest men', 'chikankari kurti', 'navratri kediyu', 'ivory organza', 'jhumka', 'bandhgala', 'sangeet lehenga', 'under 1500 co-ord'];
-  const occGuess = q ? ['diwali', 'navratri', 'sangeet', 'reception', 'wedding', 'mehendi', 'college-fest'].find((id) => q.toLowerCase().includes(id.replace('-', ' ').split(' ')[0])) : undefined;
+  const matchedLooks = q ? searchLooks(q, 100) : [];
+  const suggestions = ['garba women', 'garba men', 'navratri women', 'navratri men', 'college fest women', 'college fest men', 'diwali outfit', 'festive party', 'chaniya choli', 'pre draped saree', 'black festive kurta', 'garba couple', 'traditional couple'];
+  const occGuess = q ? [['diwali', 'diwali'], ['navratri', 'navratri'], ['garba', 'garba'], ['festive party', 'festive-party'], ['college fest', 'college-fest'], ['college', 'college-fest']].find(([term]) => q.toLowerCase().includes(term))?.[1] : undefined;
 
   const submit = (value: string) => {
     if (value.trim()) {
@@ -43,10 +38,11 @@ export default function SearchPage() {
               <Search size={18} className="text-[#AEB8A0]" />
               <input
                 name="q"
+                key={q}
                 defaultValue={q}
                 placeholder="Search outfits, occasions, colours, crafts…"
                 aria-label="Search VIRAAS"
-                className="flex-1 bg-transparent text-[#171918] placeholder-[#AEB8A0] outline-none text-base"
+                className="min-w-0 flex-1 bg-transparent text-[#171918] placeholder-[#AEB8A0] outline-none text-base"
               />
               <button type="submit" className="text-sm font-semibold text-[#103C35] hover:text-[#D95E3F] transition-colors">Search</button>
             </form>
@@ -56,7 +52,7 @@ export default function SearchPage() {
         <div className="max-w-screen-xl mx-auto px-4 sm:px-8 py-12">
           {!q ? (
             <div>
-              <p className="text-xs font-semibold tracking-[0.3em] text-[#B7945A] uppercase mb-6">Popular Searches</p>
+              <p className="text-xs font-semibold tracking-[0.3em] text-[#B7945A] uppercase mb-6">Explore the edit</p>
               <div className="flex flex-wrap gap-3">
                 {suggestions.map((s) => (
                   <button key={s} onClick={() => submit(s)} className="px-5 py-2.5 bg-white border border-[#E9E1D4] text-sm text-[#171918] rounded-full hover:border-[#103C35] hover:text-[#103C35] transition-colors capitalize">
@@ -73,11 +69,11 @@ export default function SearchPage() {
                 ))}
               </div>
             </div>
-          ) : results.length === 0 ? (
+          ) : (results.length === 0 && matchedLooks.length === 0) ? (
             <div className="text-center py-20">
               <p className="font-playfair text-2xl text-[#171918] mb-4">No results for “{q}”</p>
               <p className="text-[#AEB8A0] mb-8 max-w-md mx-auto text-sm">
-                Search covers {products.filter((p) => p.category !== 'couple-edit').length.toLocaleString('en-IN')} pieces, {allLooks.length} curated looks and every occasion edit. Try a colour (ivory, wine), a craft (chikankari, bandhani), an occasion or a silhouette (anarkali, bandhgala).
+                Search covers {products.filter((p) => p.category !== 'couple-edit').length.toLocaleString('en-IN')} pieces, {allLooks.length} curated looks and every occasion edit. Try a colour (ivory, wine), a craft (chikankari, bandhani), an occasion or a silhouette (anarkali, sharara).
               </p>
               <div className="flex flex-wrap justify-center gap-3">
                 {occGuess && getOccasion(occGuess) && (

@@ -1,4 +1,5 @@
 // Curated looks + couple-edit looks, backed by the generated catalog.
+import { searchIntent, textMatches } from '../utils/search-intent'
 import looksJson from './catalog/looks.json'
 import couplesJson from './catalog/couples.json'
 import { getProductById, isApparel, type Product } from './products'
@@ -36,10 +37,10 @@ export const coupleLooks: Look[] = (couplesJson as unknown as { id: string; titl
   occasions: c.occasions,
   productIds: [...c.herProductIds, ...c.hisProductIds],
   imageUrl: c.imageUrl,
-  price: c.price,
+  price: [...c.herProductIds, ...c.hisProductIds].reduce((sum, id) => sum + (getProductById(id)?.price || 0), 0),
   description: c.description,
   merchantUrls: [...new Set([...c.herProductIds, ...c.hisProductIds].map((id: string) => getProductById(id)?.merchantUrl).filter(Boolean))] as string[],
-  merchantLabels: ['Myntra', 'AJIO'],
+  merchantLabels: [...new Set([...c.herProductIds, ...c.hisProductIds].map(id => getProductById(id)?.merchantLabel).filter(Boolean))] as string[],
   gender: 'couple' as const,
   coupleId: c.coupleId,
   herProductIds: c.herProductIds,
@@ -64,3 +65,15 @@ export const curatedProductIds: ReadonlySet<string> = new Set(allLooks.flatMap((
 
 export const lookItems = (look: Look): Product[] => look.productIds.map((id) => getProductById(id)).filter(Boolean) as Product[]
 export const lookAnchors = (look: Look): Product[] => lookItems(look).filter(isApparel)
+
+export function searchLooks(query: string, limit = 100): Look[] {
+ const intent=searchIntent(query)
+ return allLooks.filter(l=> {
+  if(intent.couple && l.gender!=='couple') return false
+  if(intent.occasion && !l.occasions.includes(intent.occasion)) return false
+  if(intent.gender && l.gender!==intent.gender) return false
+  if(intent.budget!==undefined && l.price>intent.budget) return false
+  const garments=lookItems(l).map(p=>`${p.title} ${p.styleTags.join(' ')}`).join(' ')
+  return textMatches(`${l.title} ${l.occasions.join(' ')} ${l.mood} ${garments}`,intent.tokens)
+ }).slice(0,limit)
+}

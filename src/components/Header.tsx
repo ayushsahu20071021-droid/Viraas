@@ -1,8 +1,8 @@
 import { useState, useEffect, useRef } from 'react';
-import { Link, useNavigate } from 'react-router-dom';
+import { Link, useNavigate, useLocation } from 'react-router-dom';
 import { Search, Heart, Sparkles, Menu, X, ChevronDown } from 'lucide-react';
 import { categoriesForGender, getProductsByOccasion } from '../data/products';
-import { occasions } from '../data/occasions';
+import { featuredOccasions } from '../data/occasions';
 import { BUDGET_RANGES } from '../data/products';
 
 const womenCategories = categoriesForGender('women').map((c) => ({ key: c.key, label: c.label, count: c.count }));
@@ -16,6 +16,9 @@ export default function Header() {
   const [searchQuery, setSearchQuery] = useState('');
   const menuRef = useRef<HTMLDivElement>(null);
   const navigate = useNavigate();
+  const location = useLocation();
+  const solid = scrolled || mobileOpen || location.pathname !== "/";
+  useEffect(() => { setActiveMenu(null); setMobileOpen(false); }, [location.pathname]);
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 40);
@@ -42,12 +45,12 @@ export default function Header() {
     }
   };
 
-  const headerClass = scrolled
+  const headerClass = solid
     ? 'bg-[#F6F0E6]/95 backdrop-blur-md shadow-sm border-b border-[#D95E3F]/10'
     : 'bg-transparent';
 
-  const textColor = scrolled || mobileOpen ? 'text-[#171918]' : 'text-white';
-  const logoColor = scrolled || mobileOpen ? 'text-[#103C35]' : 'text-white';
+  const textColor = solid ? 'text-[#171918]' : 'text-white';
+  const logoColor = solid ? 'text-[#103C35]' : 'text-white';
 
   return (
     <>
@@ -63,7 +66,7 @@ export default function Header() {
             </Link>
 
             {/* Desktop Nav */}
-            <nav className="hidden lg:flex items-center gap-8">
+            <nav className="hidden lg:flex items-center gap-4 xl:gap-8">
               {[
                 { label: 'Women', key: 'women', href: '/women' },
                 { label: 'Men', key: 'men', href: '/men' },
@@ -157,7 +160,7 @@ export default function Header() {
               <div>
                 <p className="text-xs font-semibold tracking-widest text-[#B7945A] uppercase mb-4">Occasions</p>
                 <ul className="space-y-2">
-                  {occasions.slice(0, 9).map(o => (
+                  {featuredOccasions.slice(0, 9).map(o => (
                     <li key={o.id}>
                       <Link
                         to={`/occasions/${o.id}`}
@@ -170,7 +173,7 @@ export default function Header() {
                   ))}
                   <li>
                     <Link to="/occasions" className="text-sm font-semibold text-[#D95E3F] hover:underline" onClick={() => setActiveMenu(null)}>
-                      All 18 occasion edits →
+                      All five occasion edits →
                     </Link>
                   </li>
                 </ul>
@@ -233,7 +236,7 @@ export default function Header() {
               <div>
                 <p className="text-xs font-semibold tracking-widest text-[#B7945A] uppercase mb-4">Occasions</p>
                 <ul className="space-y-2">
-                  {occasions.slice(0, 9).map(o => (
+                  {featuredOccasions.slice(0, 9).map(o => (
                     <li key={o.id}>
                       <Link
                         to={`/occasions/${o.id}`}
@@ -246,7 +249,7 @@ export default function Header() {
                   ))}
                   <li>
                     <Link to="/occasions" className="text-sm font-semibold text-[#D95E3F] hover:underline" onClick={() => setActiveMenu(null)}>
-                      All 18 occasion edits →
+                      All five occasion edits →
                     </Link>
                   </li>
                 </ul>
@@ -291,7 +294,7 @@ export default function Header() {
             <div className="max-w-screen-xl mx-auto px-8 py-8">
               <p className="text-xs font-semibold tracking-widest text-[#B7945A] uppercase mb-6">Shop by Occasion</p>
               <div className="grid grid-cols-4 gap-4">
-                {occasions.map(o => (
+                {featuredOccasions.map(o => (
                   <Link
                     key={o.id}
                     to={`/occasions/${o.id}`}
@@ -365,7 +368,7 @@ export default function Header() {
               </button>
             </form>
             <div className="mt-4 flex flex-wrap gap-2">
-              {['Diwali outfits', 'Pre-draped saree', 'Kurta jacket', 'Navratri look', 'Wedding guest'].map(s => (
+              {['Diwali outfits', 'Pre-draped saree', 'Kurta jacket', 'Navratri look', 'Festive party'].map(s => (
                 <button
                   key={s}
                   onClick={() => {

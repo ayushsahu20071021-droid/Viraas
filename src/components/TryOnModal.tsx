@@ -1,7 +1,8 @@
-import { useState, useRef } from 'react';
+import { useState, useRef, useEffect } from 'react';
 import { X, Upload, Sparkles, Camera, AlertCircle, Download, Share2, ShoppingBag } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { type Product } from '../data/products';
+import { resolveShopUrl } from '../data/affiliate-links';
 import { trackEvent, trackTryOn } from '../utils/analytics';
 import { trackAffiliateClick } from '../utils/analytics';
 import { formatPrice } from '../utils/format';
@@ -22,6 +23,8 @@ export default function TryOnModal({ product, onClose }: Props) {
   const [resultNote, setResultNote] = useState<string>('');
   const [error, setError] = useState<string | null>(null);
   const fileInputRef = useRef<HTMLInputElement>(null);
+
+  useEffect(() => () => { if (previewUrl) URL.revokeObjectURL(previewUrl); }, [previewUrl]);
 
   if (!product) return null;
 
@@ -77,6 +80,7 @@ export default function TryOnModal({ product, onClose }: Props) {
 
       // The photo never persists client-side beyond this session step.
       setUploadedFile(null);
+      setPreviewUrl(null);
 
       if (json.status === 'ok' && json.resultImageUrl) {
         setResultUrl(json.resultImageUrl);
@@ -91,6 +95,7 @@ export default function TryOnModal({ product, onClose }: Props) {
       // Endpoint unreachable (e.g. local dev without netlify functions).
       // Fail honestly — still show a clearly-labelled demo preview, never fake a render.
       setUploadedFile(null);
+      setPreviewUrl(null);
       setResultUrl(null);
       setResultNote('Try-On service is offline right now — showing the product plate as a clearly-labelled demo preview. No photo was processed.');
       trackTryOn(product.id, false);
@@ -118,7 +123,7 @@ export default function TryOnModal({ product, onClose }: Props) {
   };
 
   const handleShop = () => {
-    const url = product.affiliateUrl || product.merchantUrl;
+    const url = resolveShopUrl(product);
     if (url && url !== '#') {
       trackAffiliateClick(product.id, product.merchantLabel, product.category);
       window.open(url, '_blank', 'noopener,noreferrer');
@@ -130,14 +135,14 @@ export default function TryOnModal({ product, onClose }: Props) {
       className="fixed inset-0 z-[70] flex items-end sm:items-center justify-center bg-[#171918]/80 backdrop-blur-sm p-0 sm:p-4"
       onClick={e => { if (e.target === e.currentTarget) onClose(); }}
     >
-      <div className="bg-[#F6F0E6] w-full sm:max-w-lg rounded-t-3xl sm:rounded-3xl overflow-hidden shadow-2xl">
+      <div role="dialog" aria-modal="true" aria-label="Try It On You" className="bg-[#F6F0E6] w-full sm:max-w-lg max-h-[95dvh] overflow-y-auto rounded-t-3xl sm:rounded-3xl shadow-2xl">
         {/* Header */}
         <div className="flex items-center justify-between px-6 py-5 border-b border-[#E9E1D4]">
           <div className="flex items-center gap-2">
             <Sparkles size={18} className="text-[#D95E3F]" />
             <span className="font-playfair text-lg font-medium text-[#171918]">Try It On You</span>
           </div>
-          <button onClick={onClose} className="p-2 text-[#AEB8A0] hover:text-[#171918] transition-colors">
+          <button onClick={onClose} aria-label="Close Try-On" className="p-2 text-[#AEB8A0] hover:text-[#171918] transition-colors">
             <X size={20} />
           </button>
         </div>
@@ -274,7 +279,7 @@ export default function TryOnModal({ product, onClose }: Props) {
             <div>
               <div className="flex items-center gap-2 mb-1">
                 <Sparkles size={16} className="text-[#B7945A]" />
-                <p className="text-xs text-[#B7945A] font-semibold tracking-widest uppercase">Demo Mode</p>
+                <p className="text-xs text-[#B7945A] font-semibold tracking-widest uppercase">{resultUrl ? 'AI Preview' : 'Demo Mode'}</p>
               </div>
               <h3 className="font-playfair text-xl mb-4 text-[#171918]">Your VIRAAS Look</h3>
 
@@ -296,7 +301,7 @@ export default function TryOnModal({ product, onClose }: Props) {
                   Share
                 </button>
                 <a
-                  href={product.imageUrl}
+                  href={resultUrl || product.imageUrl}
                   download={`viraas-look-${product.id}.jpg`}
                   className="flex items-center justify-center gap-2 py-3 border border-[#E9E1D4] text-sm font-medium text-[#171918] rounded-full hover:border-[#103C35] transition-colors"
                 >
@@ -315,8 +320,9 @@ export default function TryOnModal({ product, onClose }: Props) {
                 onClick={() => { setStep('upload'); setPreviewUrl(null); setUploadedFile(null); }}
                 className="w-full mt-2 py-2 text-sm text-[#AEB8A0] hover:text-[#171918] transition-colors"
               >
-                Try Another Outfit
+                Try Another Photo
               </button>
+              <Link to="/try-on" onClick={onClose} className="block text-center mt-2 text-sm font-semibold text-[#103C35]">Try Another Outfit</Link>
             </div>
           )}
 

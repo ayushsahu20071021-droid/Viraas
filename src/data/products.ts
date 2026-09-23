@@ -1,11 +1,13 @@
 // ─────────────────────────────────────────────────────────────────────────────
 // VIRAAS product core — backed by the generated catalog (scripts/generate-catalog.mjs).
-// Every apparel/beauty/accessory entry carries its own metadata and its own
-// original SVG plate; nothing here reuses hero photography as product art.
+// Every catalog entry carries structured metadata and a production raster
+// primary image. Original SVG plates remain on disk as preserved fallbacks,
+// but are never used as the primary product visual.
 // Prices/status are editorial scaffolding marked CHECK until manually verified
 // against the retailer — never presented as live data.
 // ─────────────────────────────────────────────────────────────────────────────
 import catalog from './catalog/products.json'
+import { searchIntent, textMatches } from '../utils/search-intent'
 
 export type Gender = 'women' | 'men' | 'couple'
 
@@ -37,8 +39,11 @@ export interface Product {
   merchantUrl: string
   merchantLabel: string
   status: 'LIVE' | 'CHECK' | 'DRAFT'
-  lastChecked?: string
+  lastChecked?: string | null
   notes?: string
+  priceBasis?: string
+  priceEvidenceId?: string | null
+  visualStatus?: string
   imagePrompt?: string
   herProductId?: string
   hisProductId?: string
@@ -49,7 +54,7 @@ export const products: Product[] = catalog as unknown as Product[]
 const byId = new Map(products.map((p) => [p.id, p]))
 export const getProductById = (id: string): Product | undefined => byId.get(id)
 
-export const APPAREL_CATEGORIES = ['sarees', 'kurta-sets', 'co-ord-sets', 'lehenga', 'garba', 'jackets', 'indowestern']
+export const APPAREL_CATEGORIES = ['sarees', 'pre-draped-saree', 'chaniya-choli', 'lehenga', 'sharara', 'gharara', 'anarkali', 'kurta-sets', 'traditional-kurta', 'festive-kurta-set', 'printed-ethnic-shirt', 'embroidered-ethnic-shirt', 'traditional-festive-set', 'garba-navratri-traditional']
 export const isApparel = (p: Product) => APPAREL_CATEGORIES.includes(p.category)
 export const isCouple = (p: Product) => p.category === 'couple-edit'
 
@@ -66,11 +71,7 @@ export const getProductsByOccasion = (occasionTag: string): Product[] =>
 
 // ── taxonomy for the storefront ───────────────────────────────────────────────
 export const CATEGORY_LABELS: Record<string, string> = {
-  sarees: 'Sarees', 'kurta-sets': 'Kurta & Anarkali Sets', 'co-ord-sets': 'Co-ord Sets',
-  lehenga: 'Lehenga & Chaniya', garba: 'Garba & Navratri', jackets: 'Jackets & Bandhgala',
-  indowestern: 'Indo-Western & Fusion', jewellery: 'Jewellery', bags: 'Bags & Clutches',
-  footwear: 'Footwear', watches: 'Watches', accessories: 'Grooming & Carry',
-  beauty: 'Beauty', 'couple-edit': 'Couple Sets',
+ 'chaniya-choli': 'Chaniya Choli', lehenga: 'Lehenga', sharara: 'Sharara', gharara: 'Gharara', sarees: 'Saree', 'pre-draped-saree': 'Pre-Draped Saree', anarkali: 'Anarkali', 'kurta-sets': 'Kurta Set', jewellery: 'Jewellery', bags: 'Bags', footwear: 'Footwear', beauty: 'Beauty', 'traditional-kurta': 'Traditional Kurta', 'festive-kurta-set': 'Festive Kurta Set', 'printed-ethnic-shirt': 'Printed Ethnic Shirt', 'embroidered-ethnic-shirt': 'Embroidered Ethnic Shirt', 'traditional-festive-set': 'Traditional Festive Set', 'garba-navratri-traditional': 'Garba/Navratri Traditional', accessories: 'Accessories',
 }
 
 /** Categories that actually carry results for a gender — no dead chips. */
@@ -79,15 +80,11 @@ export function categoriesForGender(gender: Gender | 'accessories'): { key: stri
   const counts = new Map<string, number>()
   for (const p of pool) counts.set(p.category, (counts.get(p.category) || 0) + 1)
   return [...counts.entries()]
-    .sort((a, b) => b[1] - a[1])
+    .sort((a, b) => Object.keys(CATEGORY_LABELS).indexOf(a[0]) - Object.keys(CATEGORY_LABELS).indexOf(b[0]))
     .map(([key, count]) => ({ key, label: CATEGORY_LABELS[key] || key.replace(/-/g, ' ').replace(/\b\w/g, (c) => c.toUpperCase()), count }))
 }
 
-export const OCCASION_TAGS = [
-  'Wedding', 'Sangeet', 'Reception', 'Mehendi', 'Festive Party', 'Diwali Party', 'Navratri',
-  'College Fest', 'Work-to-Dinner', 'Night Out', 'Destination Wedding', 'Daywear', 'Puja & Temple',
-  'Engagement', 'Wedding Guest', 'Family Function', 'Date Night', 'Winter Festive',
-] as const
+export const OCCASION_TAGS = ['Garba', 'Navratri', 'Diwali', 'Festive Party', 'College Fest'] as const
 export type OccasionTag = (typeof OCCASION_TAGS)[number]
 
 /** Budget tiles/rail keys — labels are exact product-side copy. */
@@ -118,7 +115,7 @@ export interface FilterParams {
   scope?: Gender | 'accessories'
   gender?: Gender
   category?: string
-  occasion?: string            // occasion tag, e.g. 'Sangeet'
+  occasion?: string            // occasion tag from the five public worlds
   occasionId?: string           // occasion page id — mapped to tag
   colour?: string
   budget?: BudgetKey
@@ -142,17 +139,13 @@ export interface FacetGroup {
   options: { value: string; label: string; count: number }[]
 }
 
-const STOP_WORDS = new Set(['outfit', 'outfits', 'wear', 'look', 'looks', 'clothes', 'dress', 'set', 'sets']);
-const tokens = (q: string) =>
-  q
-    .toLowerCase()
-    .split(/[^a-z0-9₹&]+/i)
-    .filter((t) => t.length > 1 && !STOP_WORDS.has(t));
-
 function matchesQuery(p: Product, q?: string): boolean {
-  if (!q || !q.trim()) return true
-  const hay = `${p.title} ${p.brand} ${p.category} ${p.subCategory} ${p.colour} ${p.fabric} ${p.embroidery || ''} ${p.pattern || ''} ${p.weave || ''} ${p.occasions.join(' ')} ${p.styleTags.join(' ')} ${p.silhouette}`.toLowerCase()
-  return tokens(q).every((t) => hay.includes(t))
+  if (!q?.trim()) return true
+  const intent = searchIntent(q)
+  if (intent.couple || (intent.gender && p.gender !== intent.gender)) return false
+  if (intent.occasion && !p.occasions.includes(intent.occasion)) return false
+  if (intent.budget !== undefined && p.price > intent.budget) return false
+  return textMatches(`${p.title} ${p.brand} ${p.category} ${p.subCategory} ${p.colour} ${p.fabric} ${p.embroidery || ''} ${p.pattern || ''} ${p.weave || ''} ${p.occasions.join(' ')} ${p.styleTags.join(' ')} ${p.silhouette}`, intent.tokens)
 }
 
 function matches(p: Product, f: FilterParams, curatedIds?: ReadonlySet<string>, skip?: FilterParams['scope'] | string): boolean {
@@ -216,7 +209,7 @@ export function filterProducts(
   const groups: { key: FacetGroup['key']; label: string; valueOf: (p: Product) => string[] }[] = [
     { key: 'category', label: 'Category', valueOf: (p) => [p.category] },
     { key: 'occasion', label: 'Occasion', valueOf: (p) => p.occasions },
-    { key: 'budget', label: 'Budget', valueOf: (p) => (budgetTile(p.price) ? [budgetTile(p.price)!] : []) },
+    { key: 'budget', label: 'Budget', valueOf: (p) => BUDGET_RANGES.filter(r => p.price >= r.min && p.price <= r.max).map(r => r.key) },
     { key: 'style', label: 'Style', valueOf: (p) => p.styleTags },
     { key: 'craft', label: 'Craft', valueOf: (p) => [p.embroidery || p.pattern || p.weave].filter(Boolean) as string[] },
     { key: 'age', label: 'Age', valueOf: (p) => [...new Set(p.ageGroup.map((a) => ageBucketOf(a)))] },
@@ -229,7 +222,7 @@ export function filterProducts(
     const base = products.filter((p) => matches(p, cleared, opts.curatedIds, g.key))
     const counts = new Map<string, number>()
     for (const p of base) for (const v of g.valueOf(p)) counts.set(v, (counts.get(v) || 0) + 1)
-    const threshold = opts.facetThreshold ?? (g.key === 'occasion' ? 6 : g.key === 'craft' ? 4 : 3)
+    const threshold = opts.facetThreshold ?? 1
     const options = [...counts.entries()]
       .filter(([v, n]) => n >= threshold || v === (f as Record<string, unknown>)[g.key])
       .sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]))
@@ -238,14 +231,15 @@ export function filterProducts(
     return { key: g.key, label: g.label, options }
   }).filter((g) => g.options.length > 1)
 
+  const occasionPriority = (p: Product) => Math.min(...p.occasions.map(o => ['Garba','Navratri','College Fest','Diwali','Festive Party'].indexOf(o)));
   const sort = f.sort || 'recommended'
   pool.sort((a, b) =>
     sort === 'price-asc' ? a.price - b.price :
     sort === 'price-desc' ? b.price - a.price :
     sort === 'newest' ? (b.styleTags.includes('New In') ? 1 : 0) - (a.styleTags.includes('New In') ? 1 : 0) || b.price - a.price :
-    (b.styleTags.length - a.styleTags.length) || (b.occasions.length - a.occasions.length) || b.price - a.price,
+    Number(!isApparel(a)) - Number(!isApparel(b)) || occasionPriority(a) - occasionPriority(b) || a.id.localeCompare(b.id),
   )
-  const pageSize = opts.pageSize ?? pool.length
+  const pageSize = Math.max(1, opts.pageSize ?? pool.length)
   const pages = Math.max(1, Math.ceil(pool.length / pageSize))
   const page = Math.min(Math.max(1, opts.page ?? 1), pages)
   return { items: pool.slice((page - 1) * pageSize, page * pageSize), total: pool.length, facets, pages }
@@ -253,54 +247,35 @@ export function filterProducts(
 
 // ── occasion page ids ↔ product tags ─────────────────────────────────────────
 export const OCCASION_TAG_BY_ID: Record<string, string> = {
-  wedding: 'Wedding', sangeet: 'Sangeet', reception: 'Reception', mehendi: 'Mehendi',
-  'festive-party': 'Festive Party', diwali: 'Diwali Party', navratri: 'Navratri',
-  'college-fest': 'College Fest', workwear: 'Work-to-Dinner', 'night-out': 'Night Out',
-  'destination-wedding': 'Destination Wedding', daywear: 'Daywear', puja: 'Puja & Temple',
-  engagement: 'Engagement', 'wedding-guest': 'Wedding Guest', 'family-function': 'Family Function',
-  'date-night': 'Date Night', winter: 'Winter Festive',
+  garba: 'Garba',
+  navratri: 'Navratri',
+  diwali: 'Diwali',
+  'festive-party': 'Festive Party',
+  'college-fest': 'College Fest',
 }
 
 // ── search across products, looks & couple edits ─────────────────────────────
 export function searchProducts(q: string, limit = 60): Product[] {
   if (!q.trim()) return []
-  const toks = tokens(q)
-  const scored = products
-    .filter((p) => !isCouple(p))
-    .map((p) => {
-      const title = p.title.toLowerCase(), brand = p.brand.toLowerCase(), cat = `${p.category} ${p.subCategory}`.toLowerCase()
-      const hay = `${title} ${brand} ${cat} ${p.colour} ${p.fabric} ${p.occasions.join(' ')} ${p.styleTags.join(' ')} ${p.embroidery || ''} ${p.pattern || ''} ${p.weave || ''} ${p.description.toLowerCase()}`
-      let score = 0
-      for (const t of toks) {
-        if (title.includes(t)) score += 6
-        if (brand === t) score += 4
-        if (cat.includes(t)) score += 3
-        if (hay.includes(t)) score += 1
-      }
-      return { p, score, hit: toks.every((t) => hay.includes(t)) }
-    })
-    .filter((x) => x.hit)
-    .sort((a, b) => b.score - a.score)
-    .slice(0, limit)
-  return scored.map((s) => s.p)
+  const intent = searchIntent(q)
+  return products.filter(p => !isCouple(p) && matchesQuery(p, q))
+    .sort((a,b) => Number(textMatches(b.title,intent.tokens)) - Number(textMatches(a.title,intent.tokens)))
+    .slice(0,limit)
 }
 
 // ── Complete-the-Look: tag-based pairing ─────────────────────────────────────
 const NEED_BY_CATEGORY: Record<string, string[]> = {
   sarees: ['footwear', 'jewellery', 'bags', 'beauty'],
-  'kurta-sets': ['footwear', 'jewellery', 'bags', 'watches'],
-  'co-ord-sets': ['footwear', 'jewellery', 'bags'],
+  'pre-draped-saree': ['footwear', 'jewellery', 'bags'],
+  'chaniya-choli': ['jewellery', 'footwear', 'bags'],
   lehenga: ['jewellery', 'footwear', 'bags'],
-  garba: ['footwear', 'jewellery'],
-  jackets: ['footwear', 'watches', 'accessories'],
-  indowestern: ['footwear', 'bags', 'watches', 'jewellery'],
-  jewellery: ['footwear', 'bags'],
-  bags: ['footwear', 'jewellery'],
-  footwear: ['jewellery', 'bags'],
-  watches: ['footwear', 'accessories'],
-  accessories: ['footwear', 'watches'],
-  beauty: ['jewellery', 'footwear'],
-  'couple-edit': [],
+  sharara: ['footwear', 'jewellery'], gharara: ['footwear', 'jewellery'],
+  anarkali: ['footwear', 'jewellery'], 'kurta-sets': ['footwear', 'jewellery', 'bags'],
+  'traditional-kurta': ['footwear', 'accessories'], 'festive-kurta-set': ['footwear', 'accessories'],
+  'printed-ethnic-shirt': ['footwear', 'accessories'], 'embroidered-ethnic-shirt': ['footwear', 'accessories'],
+  'traditional-festive-set': ['footwear', 'accessories'], 'garba-navratri-traditional': ['footwear', 'accessories'],
+  jewellery: ['footwear', 'bags'], bags: ['footwear', 'jewellery'],
+  footwear: ['jewellery', 'bags'], accessories: ['footwear'], beauty: ['jewellery', 'footwear'],
 }
 export function completeTheLook(anchor: Product, limit = 4): Product[] {
   const wanted = NEED_BY_CATEGORY[anchor.category] || ['footwear', 'jewellery']
@@ -319,4 +294,4 @@ export function completeTheLook(anchor: Product, limit = 4): Product[] {
 }
 
 /** Trending = editorial-style pools (no fake popularity metrics). */
-export const TRENDING_STYLE_TAGS = ['Pinterest Inspired', 'Statement', 'Modern Luxury', 'Handloom & Artisan', 'Indo-Western', 'New In']
+export const TRENDING_STYLE_TAGS = ['Festive', 'Traditional', 'Printed', 'Statement']

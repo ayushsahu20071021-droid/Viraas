@@ -1,0 +1,329 @@
+{
+  "browser": "Chromium",
+  "date": "2026-09-23",
+  "routes": [
+    {
+      "route": "/",
+      "width": 375,
+      "overflow": false,
+      "images": 43,
+      "broken": [],
+      "h1": "Tradition,reimaginedfor now.",
+      "obsoleteLinks": []
+    },
+    {
+      "route": "/women",
+      "width": 375,
+      "overflow": false,
+      "images": 13,
+      "broken": [],
+      "h1": "For Her",
+      "obsoleteLinks": []
+    },
+    {
+      "route": "/men",
+      "width": 375,
+      "overflow": false,
+      "images": 13,
+      "broken": [],
+      "h1": "For Him",
+      "obsoleteLinks": []
+    },
+    {
+      "route": "/couple-edit",
+      "width": 375,
+      "overflow": false,
+      "images": 300,
+      "broken": [],
+      "h1": "Couple Edit",
+      "obsoleteLinks": []
+    },
+    {
+      "route": "/occasions/garba",
+      "width": 375,
+      "overflow": false,
+      "images": 14,
+      "broken": [],
+      "h1": "Garba",
+      "obsoleteLinks": []
+    },
+    {
+      "route": "/occasions/navratri",
+      "width": 375,
+      "overflow": false,
+      "images": 14,
+      "broken": [],
+      "h1": "Navratri",
+      "obsoleteLinks": []
+    },
+    {
+      "route": "/occasions/college-fest",
+      "width": 375,
+      "overflow": false,
+      "images": 14,
+      "broken": [],
+      "h1": "College Fest",
+      "obsoleteLinks": []
+    },
+    {
+      "route": "/occasions/diwali",
+      "width": 375,
+      "overflow": false,
+      "images": 14,
+      "broken": [],
+      "h1": "Diwali",
+      "obsoleteLinks": []
+    },
+    {
+      "route": "/occasions/festive-party",
+      "width": 375,
+      "overflow": false,
+      "images": 14,
+      "broken": [],
+      "h1": "Festive Party",
+      "obsoleteLinks": []
+    },
+    {
+      "route": "/product/w-saree-drape-01",
+      "width": 375,
+      "overflow": false,
+      "images": 5,
+      "broken": [],
+      "h1": "Wine Saree",
+      "obsoleteLinks": []
+    },
+    {
+      "route": "/product/m-kurtiset-cotton-01",
+      "width": 375,
+      "overflow": false,
+      "images": 3,
+      "broken": [],
+      "h1": "Black Embroidered Festive Kurta Set",
+      "obsoleteLinks": []
+    },
+    {
+      "route": "/look/couple-garba-01",
+      "width": 375,
+      "overflow": false,
+      "images": 5,
+      "broken": [],
+      "h1": "Ivory × Navy · 01",
+      "obsoleteLinks": []
+    },
+    {
+      "route": "/search?q=garba%20men",
+      "width": 375,
+      "overflow": false,
+      "images": 73,
+      "broken": [],
+      "obsoleteLinks": []
+    },
+    {
+      "route": "/search?q=garba%20couple",
+      "width": 375,
+      "overflow": false,
+      "images": 20,
+      "broken": [],
+      "obsoleteLinks": []
+    },
+    {
+      "route": "/journal",
+      "width": 375,
+      "overflow": false,
+      "images": 16,
+      "broken": [],
+      "h1": "Style Stories",
+      "obsoleteLinks": []
+    },
+    {
+      "route": "/saved",
+      "width": 375,
+      "overflow": false,
+      "images": 0,
+      "broken": [],
+      "h1": "No saved pieces yet",
+      "obsoleteLinks": []
+    },
+    {
+      "route": "/trending",
+      "width": 375,
+      "overflow": false,
+      "images": 15,
+      "broken": [],
+      "h1": "Trending Now",
+      "obsoleteLinks": []
+    },
+    {
+      "route": "/accessories",
+      "width": 375,
+      "overflow": false,
+      "images": 13,
+      "broken": [],
+      "h1": "Accessories & Beauty",
+      "obsoleteLinks": []
+    },
+    {
+      "route": "/",
+      "width": 1280,
+      "overflow": false,
+      "images": 43,
+      "broken": [],
+      "h1": "Tradition,reimaginedfor now.",
+      "obsoleteLinks": []
+    },
+    {
+      "route": "/women",
+      "width": 1280,
+      "overflow": false,
+      "images": 13,
+      "broken": [],
+      "h1": "For Her",
+      "obsoleteLinks": []
+    },
+    {
+      "route": "/men",
+      "width": 1280,
+      "overflow": false,
+      "images": 13,
+      "broken": [],
+      "h1": "For Him",
+      "obsoleteLinks": []
+    },
+    {
+      "route": "/couple-edit",
+      "width": 1280,
+      "overflow": false,
+      "images": 300,
+      "broken": [],
+      "h1": "Couple Edit",
+      "obsoleteLinks": []
+    },
+    {
+      "route": "/occasions/garba",
+      "width": 1280,
+      "overflow": false,
+      "images": 14,
+      "broken": [],
+      "h1": "Garba",
+      "obsoleteLinks": []
+    },
+    {
+      "route": "/occasions/navratri",
+      "width": 1280,
+      "overflow": false,
+      "images": 14,
+      "broken": [],
+      "h1": "Navratri",
+      "obsoleteLinks": []
+    },
+    {
+      "route": "/occasions/college-fest",
+      "width": 1280,
+      "overflow": false,
+      "images": 14,
+      "broken": [],
+      "h1": "College Fest",
+      "obsoleteLinks": []
+    },
+    {
+      "route": "/occasions/diwali",
+      "width": 1280,
+      "overflow": false,
+      "images": 14,
+      "broken": [],
+      "h1": "Diwali",
+      "obsoleteLinks": []
+    },
+    {
+      "route": "/occasions/festive-party",
+      "width": 1280,
+      "overflow": false,
+      "images": 14,
+      "broken": [],
+      "h1": "Festive Party",
+      "obsoleteLinks": []
+    },
+    {
+      "route": "/product/w-saree-drape-01",
+      "width": 1280,
+      "overflow": false,
+      "images": 5,
+      "broken": [],
+      "h1": "Wine Saree",
+      "obsoleteLinks": []
+    },
+    {
+      "route": "/product/m-kurtiset-cotton-01",
+      "width": 1280,
+      "overflow": false,
+      "images": 3,
+      "broken": [],
+      "h1": "Black Embroidered Festive Kurta Set",
+      "obsoleteLinks": []
+    },
+    {
+      "route": "/look/couple-garba-01",
+      "width": 1280,
+      "overflow": false,
+      "images": 5,
+      "broken": [],
+      "h1": "Ivory × Navy · 01",
+      "obsoleteLinks": []
+    },
+    {
+      "route": "/search?q=garba%20men",
+      "width": 1280,
+      "overflow": false,
+      "images": 73,
+      "broken": [],
+      "obsoleteLinks": []
+    },
+    {
+      "route": "/search?q=garba%20couple",
+      "width": 1280,
+      "overflow": false,
+      "images": 20,
+      "broken": [],
+      "obsoleteLinks": []
+    },
+    {
+      "route": "/journal",
+      "width": 1280,
+      "overflow": false,
+      "images": 16,
+      "broken": [],
+      "h1": "Style Stories",
+      "obsoleteLinks": []
+    },
+    {
+      "route": "/saved",
+      "width": 1280,
+      "overflow": false,
+      "images": 1,
+      "broken": [],
+      "h1": "My Saved Looks",
+      "obsoleteLinks": []
+    },
+    {
+      "route": "/trending",
+      "width": 1280,
+      "overflow": false,
+      "images": 15,
+      "broken": [],
+      "h1": "Trending Now",
+      "obsoleteLinks": []
+    },
+    {
+      "route": "/accessories",
+      "width": 1280,
+      "overflow": false,
+      "images": 13,
+      "broken": [],
+      "h1": "Accessories & Beauty",
+      "obsoleteLinks": []
+    }
+  ],
+  "errors": [],
+  "visualApproval": false,
+  "scope": "Real DOM, images, responsive overflow, chips, couple search, deleted route; not human fashion acceptance"
+}

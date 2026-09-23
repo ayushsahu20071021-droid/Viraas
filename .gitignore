@@ -5,3 +5,6 @@ dist/
 *.log
 node_modules_check/
 .DS_Store
+.arena/
+playwright-report/
+test-results/

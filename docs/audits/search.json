@@ -1,0 +1,102 @@
+{
+  "cases": [
+    {
+      "query": "garba women",
+      "results": 59,
+      "pass": true
+    },
+    {
+      "query": "garba men",
+      "results": 59,
+      "pass": true
+    },
+    {
+      "query": "navratri women",
+      "results": 63,
+      "pass": true
+    },
+    {
+      "query": "navratri men",
+      "results": 59,
+      "pass": true
+    },
+    {
+      "query": "college fest women",
+      "results": 355,
+      "pass": true
+    },
+    {
+      "query": "college fest men",
+      "results": 179,
+      "pass": true
+    },
+    {
+      "query": "diwali outfit",
+      "results": 414,
+      "pass": true
+    },
+    {
+      "query": "festive party",
+      "results": 537,
+      "pass": true
+    },
+    {
+      "query": "chaniya choli",
+      "results": 55,
+      "pass": true
+    },
+    {
+      "query": "lehenga",
+      "results": 59,
+      "pass": true
+    },
+    {
+      "query": "sharara",
+      "results": 20,
+      "pass": true
+    },
+    {
+      "query": "gharara",
+      "results": 20,
+      "pass": true
+    },
+    {
+      "query": "saree",
+      "results": 87,
+      "pass": true
+    },
+    {
+      "query": "pre draped saree",
+      "results": 29,
+      "pass": true
+    },
+    {
+      "query": "kurta men",
+      "results": 89,
+      "pass": true
+    },
+    {
+      "query": "printed kurta",
+      "results": 125,
+      "pass": true
+    },
+    {
+      "query": "black festive kurta",
+      "results": 12,
+      "pass": true
+    },
+    {
+      "query": "traditional couple",
+      "results": 100,
+      "pass": true
+    },
+    {
+      "query": "garba couple",
+      "results": 20,
+      "pass": true
+    }
+  ],
+  "genderTokenSafe": true,
+  "contextualFacets": true,
+  "productCount": 653
+}
