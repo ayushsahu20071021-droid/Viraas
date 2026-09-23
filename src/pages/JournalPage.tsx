@@ -36,7 +36,7 @@ export default function JournalPage() {
         <div className="max-w-screen-xl mx-auto">
           <p className="text-xs font-semibold tracking-[0.3em] text-[#B7945A] uppercase mb-4">The VIRAAS Journal · {articles.length} stories</p>
           <h1 className="font-playfair text-4xl lg:text-7xl text-white">Style Stories</h1>
-          <p className="text-[#AEB8A0] mt-4 max-w-xl text-sm">Craft guides, fit laws and buying math — written by our styling desk, every product rail linked to the live catalog.</p>
+          <p className="text-[#AEB8A0] mt-4 max-w-xl text-sm">Craft guides, fit laws and buying math — written by our styling desk, every product rail linked to the styling catalog.</p>
         </div>
       </div>
 

@@ -1,3 +1,4 @@
+import ShareLinks from '../components/ShareLinks';
 import { useState } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { ArrowLeft, Sparkles, ShoppingBag, Share2, ExternalLink } from 'lucide-react';
@@ -7,7 +8,7 @@ import ProductCard from '../components/ProductCard';
 import TryOnModal from '../components/TryOnModal';
 import { type Product } from '../data/products';
 import { trackAffiliateClick, trackEvent } from '../utils/analytics';
-import { getAffiliateUrl } from '../data/affiliate-links';
+import { resolveShopUrl } from '../data/affiliate-links';
 import { formatPrice, sumPrices } from '../utils/format';
 
 export default function LookPage() {
@@ -43,7 +44,7 @@ export default function LookPage() {
   };
   const shopItem = (p: Product) => {
     trackAffiliateClick(p.id, p.merchantLabel, p.category);
-    window.open(getAffiliateUrl(p.id) || p.affiliateUrl || p.merchantUrl, '_blank', 'noopener,noreferrer');
+    window.open(resolveShopUrl(p), '_blank', 'noopener,noreferrer');
   };
 
   return (
@@ -51,7 +52,7 @@ export default function LookPage() {
       <div className="min-h-screen bg-[#F6F0E6] pt-16 lg:pt-20">
         {/* Hero */}
         <div className="relative py-14 lg:py-20 bg-[#103C35] overflow-hidden">
-          <div className="absolute inset-0 opacity-25" style={{ backgroundImage: `url(${anchor?.imageUrl})`, backgroundSize: 'cover', backgroundPosition: 'top center' }} aria-hidden />
+          <div className="absolute inset-0 opacity-25" style={{ backgroundImage: `url(${isCouple ? look.imageUrl : anchor?.imageUrl})`, backgroundSize: 'cover', backgroundPosition: 'top center' }} aria-hidden />
           <div className="absolute inset-0 bg-gradient-to-r from-[#103C35]/95 via-[#103C35]/70 to-[#103C35]/30" />
           <div className="relative z-10 max-w-screen-xl mx-auto px-4 sm:px-8">
             <Link to={isCouple ? '/couple-edit' : look.gender === 'men' ? '/men' : '/women'} className="inline-flex items-center gap-2 text-sm text-[#AEB8A0] hover:text-white transition-colors mb-8">
@@ -60,7 +61,7 @@ export default function LookPage() {
             <div className="grid lg:grid-cols-[1fr_320px] gap-10 items-center">
               <div className="max-w-xl">
                 <p className="text-xs font-semibold tracking-[0.3em] text-[#B7945A] uppercase mb-4">
-                  {look.occasions.join(' · ')}{look.mood ? ` · ${look.mood}` : ''}{isCouple ? ' · COUPLE EDIT' : ''}
+                  {look.occasions.join(' · ')}{look.mood && !look.occasions.includes(look.mood) ? ` · ${look.mood}` : ''}{isCouple ? ' · COUPLE EDIT' : ''}
                 </p>
                 <h1 className="font-playfair text-4xl lg:text-5xl text-white mb-4 leading-tight">{look.title}</h1>
                 <p className="text-[#AEB8A0] text-base mb-6 leading-relaxed">{look.description}</p>
@@ -81,8 +82,9 @@ export default function LookPage() {
                     <Share2 size={16} /> SHARE
                   </button>
                 </div>
+                <div className="mt-5 text-white/80"><ShareLinks path={`/look/${look.id}`} title={look.title} /></div>
               </div>
-              <div className="hidden lg:block bg-[#F6F0E6] rounded-3xl overflow-hidden shadow-xl aspect-[3/4]">
+              <div className={`${isCouple ? 'block w-full max-w-sm' : 'hidden lg:block'} bg-[#F6F0E6] rounded-3xl overflow-hidden shadow-xl aspect-[3/4]`}>
                 <img src={look.imageUrl} alt={look.title} className="w-full h-full object-cover object-top" />
               </div>
             </div>
@@ -92,14 +94,14 @@ export default function LookPage() {
         {/* Couple halves */}
         {isCouple && herItems && hisItems && (
           <div className="max-w-screen-xl mx-auto px-4 sm:px-8 pt-14">
-            <div className="grid md:grid-cols-2 gap-6">
-              <div className="bg-white rounded-3xl p-6 border-t-4 border-[#D95E3F]">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+              <div className="min-w-0 bg-white rounded-3xl p-4 sm:p-6 border-t-4 border-[#D95E3F]">
                 <p className="text-xs font-semibold tracking-[0.3em] text-[#D95E3F] uppercase mb-4">For Her</p>
                 <div className="space-y-3">
                   {herItems.map((p) => <RowItem key={p.id} p={p} onShop={() => shopItem(p)} />)}
                 </div>
               </div>
-              <div className="bg-white rounded-3xl p-6 border-t-4 border-[#103C35]">
+              <div className="min-w-0 bg-white rounded-3xl p-4 sm:p-6 border-t-4 border-[#103C35]">
                 <p className="text-xs font-semibold tracking-[0.3em] text-[#103C35] uppercase mb-4">For Him</p>
                 <div className="space-y-3">
                   {hisItems.map((p) => <RowItem key={p.id} p={p} onShop={() => shopItem(p)} />)}
@@ -119,8 +121,8 @@ export default function LookPage() {
             ))}
           </div>
           <p className="mt-6 text-xs text-[#AEB8A0]">
-            Every piece links to its retailer product page. VIRAAS may earn a commission when you shop through selected affiliate links;
-            affiliate links are still being wired up, so buttons currently go directly to {items.length > 0 ? items[0].merchantLabel : 'the retailer'}.
+            Every piece opens a retailer search or a manually configured affiliate link. VIRAAS may earn a commission when you shop through selected affiliate links;
+            affiliate links are still being wired up, so unconfigured buttons currently search {items.length > 0 ? items[0].merchantLabel : 'the retailer'}.
           </p>
         </div>
       </div>
@@ -131,13 +133,13 @@ export default function LookPage() {
 
 function RowItem({ p, onShop }: { p: Product; onShop: () => void }) {
   return (
-    <div className="flex items-center gap-4 bg-[#F6F0E6] rounded-2xl p-3">
+    <div className="min-w-0 flex items-center gap-2 sm:gap-4 bg-[#F6F0E6] rounded-2xl p-3">
       <Link to={`/product/${p.id}`} className="shrink-0">
         <img src={p.imageUrl} alt={p.title} loading="lazy" className="w-16 h-20 object-cover object-top rounded-xl bg-[#E9E1D4]" />
       </Link>
       <div className="min-w-0 flex-1">
         <Link to={`/product/${p.id}`} className="block text-sm font-medium text-[#171918] truncate hover:text-[#103C35]">{p.title}</Link>
-        <p className="text-xs text-[#AEB8A0]">{p.brand} · {p.merchantLabel}</p>
+        <p className="text-xs text-[#AEB8A0]">{p.brand ? `${p.brand} · ` : ''}{p.merchantLabel}</p>
         <p className="text-sm font-bold text-[#103C35] tabular-nums">{formatPrice(p.price)}</p>
       </div>
       <button onClick={onShop} className="shrink-0 flex items-center gap-1.5 px-4 py-2 bg-[#103C35] text-white text-xs font-semibold rounded-full hover:bg-[#D95E3F] transition-colors">

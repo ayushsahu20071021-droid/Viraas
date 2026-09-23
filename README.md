@@ -1,65 +1,61 @@
 # VIRAAS — Rooted in Tradition. Designed for Now.
 
-A festive Indian-fashion discovery platform: **Discover → Try On → Shop**.
-VIRAAS never owns inventory or checkout — it curates, styles, and hands shoppers off to partner retailers via links.
+Existing React 19 / Vite 7 / Tailwind 4 / React Router app, with a Netlify Try-On function. This branch continues PR #6's work without merging it into main or rebuilding the app.
 
-## Stack
+**Status: IN PROGRESS / NOT RELEASE-READY.** The recovered catalog had repeated primary photographs and recoloured couple crops. The strict image and visual-acceptance gates intentionally fail until genuine replacements are generated and approved. See [the audit report](docs/execution-report.md), [reference/calibration blockers](docs/visual-references.md), and [pricing evidence](docs/price-research.md).
 
-React 19 · Vite 7 · Tailwind CSS v4 (`@tailwindcss/vite`) · react-router-dom v7 · lucide-react · deployed on Netlify (SPA + one serverless function).
-
-```bash
-npm install
-npm run dev          # local dev (Try-On degrades honestly when the function isn't running)
-npm run build        # production bundle → dist/
-npx netlify dev      # full local stack incl. /api/try-on function
-```
-
-## Environment variables
-
-Copy `.env.example` → `.env`. **Nothing is required to run the site** — every integration degrades to a safe, clearly-labelled state when unset. We never invent IDs, links, prices, or performance claims.
-
-| Variable | Used by | If unset |
-|---|---|---|
-| `VITE_GA_ID` | GA4 bootstrap (`src/utils/analytics-init.ts`) | No analytics script loads |
-| `VITE_META_PIXEL_ID` | Meta Pixel bootstrap | No pixel loads |
-| `TRYON_MODE` | Netlify function (`netlify/functions/try-on.js`) | Defaults to `demo` |
-| `AI_PROVIDER_API_KEY` etc. | server-side only, when you wire a real provider | Function returns labelled demo response |
-
-The client shows `VITE_TRYON_MODE` as a DEMO MODE / LIVE PROVIDER badge on `/try-on`.
-
-## Catalog (generated, never hand-edited)
-
-`scripts/generate-catalog.mjs` deterministically produces:
-
-- `src/data/catalog/products.json` — **653 products** (women and men apparel/accessories, 25 beauty, 16 couple-set references) with real metadata: fabric, weave, embroidery, silhouette, occasion tags, colour, budget tier, style tags, per-product `imagePrompt`
-- `src/data/catalog/looks.json` — **100 curated looks**, anchor + accessories, priced from the catalog itself
-- `src/data/catalog/couples.json` — **100 Couple Edit looks** with her/his halves and human-couple JPG photography
-- `src/data/catalog/image-manifest.json` — generated raster-primary inventory used by the catalog and HTTP/image audits
-- `public/images/production-products/*.jpg` — 637 raster product primaries for the apparel/accessory catalog; the 16 couple-set product records point to the 100 human-couple JPG primaries, with faceless mannequin apparel photography / accessory still life; original SVG plates remain preserved as fallbacks
-- `public/images/couples-v2/*.jpg` — 100 original human-couple JPG photographs with varied festive pose language
-- `public/sitemap.xml` (derived from the data) and `robots.txt`
+## Run
 
 ```bash
-node scripts/generate-catalog.mjs
-npm run check-catalog
-npm run audit-affiliate
-npm run render-smoke
-npm run audit-http-images
+npm ci
+npm run dev -- --host 0.0.0.0
+npm run build
+npm run preview -- --host 0.0.0.0 --port 4173
 ```
 
-## Honesty policy (enforced in code + data)
+Dev and preview expose the **existing** Netlify `/api/try-on` handler on the same origin. It returns an honest demo response until a server-side provider is configured. The production Netlify redirect and provider abstraction are preserved. No API key belongs in a `VITE_` variable.
 
-- Every product ships `status: "CHECK"` with an honest `lastChecked` date until a human verifies the live retailer page.
-- Affiliate destinations are centralized in `src/data/affiliate-links.ts` and intentionally empty. Paste a real EarnKaro URL there only after manual verification; catalog `affiliateUrl` values stay empty and no tracking URL is fabricated.
-- `merchantUrl`s are retailer **search deep-links** (Myntra / AJIO / Flipkart / Shopsy / Meesho / Nykaa). No Amazon anywhere.
-- No ratings, review counts, "bestseller" badges, stock claims, or discount badges unless verified. ProductCard shows a CHECK badge and a neutral placeholder on image error — never a hero image as fallback.
-- AI Try-On: 18+ confirmation before any upload UI; photos are never stored client-side after generation and never enter analytics; demo results are always labelled "not a rendered try-on".
-- Affiliate disclosure on every outbound surface: "VIRAAS may earn a commission when you shop through selected affiliate links."
+Fonts retain DM Sans / Playfair Display and are locally served. The existing cream, green, orange UI is preserved. Browser bundles omit generation prompts and image-audit metadata; source JSON retains them.
 
-## Routing map
+## Data and generation
 
-`/` home · `/women` `/men` `/accessories` (URL faceting: `category, occasion, colour, budget, style, craft, q, sort, tryon, curated`) · `/product/:id` · `/look/:id` · `/occasions` plus exactly `/occasions/garba`, `/occasions/navratri`, `/occasions/diwali`, `/occasions/festive-party`, `/occasions/college-fest` · `/couple-edit` (100 human-couple looks; `/couple` redirects) · `/trending` · `/journal` + `/journal/:slug` (16 articles) · `/search` (products + looks) · `/saved` · `/try-on` · `/about /contact /faq /privacy /terms /affiliate-disclosure /ai-try-on-privacy`
+- 653 preserved product IDs, including 16 former synthetic bundle IDs deliberately remapped to individual garment concepts (see migration audit).
+- 100 individual styled looks plus exactly 100 couple looks, 20 each for Garba, Navratri, College Fest, Diwali and Festive Party.
+- Only those five public occasion routes, filters and sitemap worlds.
+- `src/data/catalog/generation-queue.json`: 753 metadata-driven image jobs with priority, exact next prompt, hash, target path and review state.
+- Ten original couple calibration candidates are saved but **not published/approved**. The supplied contact sheets were unavailable; reference acceptance has not happened.
+- Legacy images are preserved for recovery and labelled pending in the storefront. Raster-file existence is not proof of visual quality, correct garments or uniqueness.
 
-## Deploying to Netlify
+```bash
+npm run generate-catalog  # normalize current data, no reset and no image copying
+node scripts/register-image.mjs <job-id>
+node scripts/promote-image.mjs path/to/human-review.json
+```
 
-`netlify.toml` handles it: build `npm run build`, publish `dist/`, functions in `netlify/functions/`, `/api/try-on` → function redirect, SPA fallback for route refresh, Node 22. Set the env vars in the Netlify UI (not in git).
+Normalization asserts counts and references before atomic per-file replacement, backs up inputs locally, restores on failure, and is byte-idempotent for an unchanged catalog. Do not restore the old crop/recolour generator to fill missing assets. Git commit `6edbe57328fa667ca35d19fd7f2f167daf5817d8` preserves the recovered input.
+
+## Validation
+
+With the preview running at port 4173:
+
+```bash
+npm run verify
+# For another preview address:
+BASE_URL=http://127.0.0.1:5173 npm run verify
+```
+
+`verify` runs **all** gates, saves `docs/audits/gates.json`, and returns nonzero if any fail. It includes typecheck, catalog, image decoding + byte/pixel/perceptual duplicates, affiliate, SSR smoke, build, five worlds, search, sitemap, actual Chromium, HTTP/API, price coverage and human visual-review state. Browser screenshots are local `.arena/screenshots` artifacts; structured reports persist in `docs/audits`.
+
+Chromium uses Playwright's installed browser, an explicit `CHROMIUM_EXECUTABLE_PATH`, or the packaged Linux fallback. A passing structural browser audit does not imply the fashion/image gate passed.
+
+## Shopping, evidence and privacy
+
+- `src/data/affiliate-links.ts` has exactly one empty key per product. Paste genuine manual EarnKaro URLs here; all Shop CTAs use `resolveShopUrl`. No tracking URL or commission is invented.
+- Merchant fallback URLs are searches, **not exact verified SKUs**. Only Myntra, AJIO, Flipkart, Shopsy, Meesho and Nykaa are permitted. Nykaa is limited to beauty.
+- Research-supported prices are comparable-market estimates; unsupported prices are explicitly unverified. All products remain CHECK. No synthetic ratings, stock or MRP discounts.
+- Product-first Try-On retains the adult gate, photo upload, preview, result, save/share and shopping flow. Uploaded blob URLs are revoked and never sent to analytics.
+- Saved products remain in localStorage; Web Share, explicit Copy Link and WhatsApp links remain available. Legal/privacy routes and analytics environment hooks are preserved.
+
+## Deployment
+
+Netlify configuration remains in `netlify.toml`; `dist/` is the deployment output and `/api/try-on` redirects to the serverless handler. **Do not deploy this work as visually complete or merge the PR while the acceptance gates are blocked.**

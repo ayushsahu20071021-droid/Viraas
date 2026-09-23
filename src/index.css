@@ -1,8 +1,10 @@
 @import "tailwindcss";
+@import "@fontsource-variable/dm-sans/index.css";
+@import "@fontsource-variable/playfair-display/index.css";
 
 /* ── Custom font utilities ─────────────────────────────────────────────── */
 .font-playfair {
-  font-family: 'Playfair Display', Georgia, 'Times New Roman', serif;
+  font-family: 'Playfair Display Variable', Georgia, 'Times New Roman', serif;
 }
 
 /* ── Scrollbar hide ────────────────────────────────────────────────────── */
@@ -20,7 +22,7 @@ html {
 }
 
 body {
-  font-family: 'DM Sans', system-ui, -apple-system, sans-serif;
+  font-family: 'DM Sans Variable', system-ui, -apple-system, sans-serif;
   background-color: #F6F0E6;
   color: #171918;
   -webkit-font-smoothing: antialiased;
@@ -76,7 +78,7 @@ input[type="checkbox"] {
 }
 
 .prose h2 {
-  font-family: 'Playfair Display', Georgia, serif;
+  font-family: 'Playfair Display Variable', Georgia, serif;
   color: #171918;
   font-size: 1.5rem;
   line-height: 1.3;

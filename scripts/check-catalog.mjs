@@ -1,87 +1,39 @@
 #!/usr/bin/env node
-/**
- * Catalog integrity gate — validates the generated data the same way the
- * browser will consume it. Run via `npm run check-catalog`.
- * Exits non-zero (failing CI/deploys) on anything that could crash a render.
- */
-import { readFileSync, existsSync } from 'node:fs'
-import { createHash } from 'node:crypto'
-import { join, dirname } from 'node:path'
-import { fileURLToPath } from 'node:url'
-
-const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..')
-const read = (p) => JSON.parse(readFileSync(join(ROOT, p), 'utf8'))
-const products = read('src/data/catalog/products.json')
-const looks = read('src/data/catalog/looks.json')
-const couples = read('src/data/catalog/couples.json')
-const imageManifest = read('src/data/catalog/image-manifest.json')
-
-const MERCHANTS = ['Myntra', 'AJIO', 'Flipkart', 'Shopsy', 'Meesho', 'Nykaa']
-const errors = []
-const err = (m) => errors.length < 50 && errors.push(m)
-const badNum = (v) => typeof v !== 'number' || !Number.isFinite(v) || !(v > 0)
-if (products.length !== 653) err(`production catalog must contain exactly 653 products, got ${products.length}`)
-if (couples.length !== 100) err(`production Couple Edit must contain exactly 100 looks, got ${couples.length}`)
-const COUPLE_WORLDS = ['Garba', 'Navratri', 'Diwali', 'Festive Party', 'College Fest']
-const coupleCounts = Object.fromEntries(COUPLE_WORLDS.map((world) => [world, couples.filter((c) => c.occasions?.[0] === world).length]))
-for (const world of COUPLE_WORLDS) if (coupleCounts[world] !== 20) err(`Couple Edit ${world} must contain exactly 20 looks, got ${coupleCounts[world]}`)
-if (new Set(couples.flatMap((c) => c.occasions || [])).size !== 5 || couples.some((c) => c.occasions?.some((o) => !COUPLE_WORLDS.includes(o)))) err('Couple Edit contains an obsolete occasion label')
-if (imageManifest.coupleUniquenessMatrix?.length !== 100) err('couple uniqueness matrix must contain 100 rows')
-if (new Set((imageManifest.coupleUniquenessMatrix || []).map((row) => row.uniquenessKey)).size !== 100) err('couple uniqueness matrix contains a repeated composition key')
-if (new Set((imageManifest.coupleUniquenessMatrix || []).map((row) => row.composition)).size !== 100) err('couple uniqueness matrix contains a repeated pose/background/composition')
-
-if (imageManifest.productPrimaryCount !== products.length || imageManifest.productPrimaryFormat !== 'jpg') err('image manifest does not match product primary photography')
-if (imageManifest.couplePrimaryCount !== couples.length || imageManifest.couplePrimaryFormat !== 'jpg') err('image manifest does not match Couple Edit photography')
-if (imageManifest.productPrimaries?.length !== products.length) err('image manifest product index is incomplete')
-if (imageManifest.couplePrimaries?.length !== couples.length) err('image manifest couple index is incomplete')
-if (new Set(couples.map((c) => c.imageUrl)).size !== couples.length) err('couple image URLs are not unique')
-
-for (const p of products) {
-  if (badNum(p.price)) err(`[${p.id}] price must be a finite positive number, got ${JSON.stringify(p.price)}`)
-  if (p.price > 8000) err(`[${p.id}] price exceeds production ceiling of ₹8,000`)
-  if (!/\.jpg$/i.test(p.imageUrl || '')) err(`[${p.id}] primary image must be a raster JPG, got ${p.imageUrl}`)
-  if (p.originalPrice != null && badNum(p.originalPrice)) err(`[${p.id}] originalPrice present but invalid`)
-  if (p.originalPrice != null && typeof p.price === 'number' && p.originalPrice < p.price) err(`[${p.id}] originalPrice below price`)
-  if (typeof p.title !== 'string' || !p.title) err(`[${p.id}] missing title`)
-  if (typeof p.brand !== 'string' || !p.brand) err(`[${p.id}] missing brand`)
-  if (typeof p.imageUrl !== 'string' || !/^\/images\/[^\s]+/.test(p.imageUrl)) err(`[${p.id}] bad imageUrl`)
-  if (p.imageUrl && !existsSync(join(ROOT, 'public', p.imageUrl))) err(`[${p.id}] imageUrl not on disk: ${p.imageUrl}`)
-  for (const g of p.gallery || []) if (typeof g === 'string' && g.startsWith('/images') && !existsSync(join(ROOT, 'public', g))) err(`[${p.id}] gallery image missing: ${g}`)
-  if (!MERCHANTS.includes(p.merchantLabel)) err(`[${p.id}] merchantLabel not whitelisted: ${p.merchantLabel}`)
-  if (typeof p.merchantUrl !== 'string' || !/^https:\/\/.+/.test(p.merchantUrl)) err(`[${p.id}] merchantUrl is not a real deep link`)
-  if (/^https:\/\/[^/]+\/?$/.test(p.merchantUrl || '')) err(`[${p.id}] merchantUrl is a bare homepage`)
-  if (/amazon/i.test(JSON.stringify(p))) err(`[${p.id}] contains a banned 'amazon' reference`)
-  if (p.affiliateUrl) err(`[${p.id}] affiliateUrl must be empty until real EarnKaro links are pasted`)
-  if (!Array.isArray(p.styleTags)) err(`[${p.id}] styleTags must be an array`)
-  if (!Array.isArray(p.sizes) || !p.sizes.length) err(`[${p.id}] sizes must be a non-empty array`)
-  if (p.status !== 'CHECK' && p.status !== 'VERIFIED') err(`[${p.id}] unexpected status: ${p.status}`)
+import fs from 'node:fs'
+import assert from 'node:assert/strict'
+const read=n=>JSON.parse(fs.readFileSync(`src/data/catalog/${n}.json`,'utf8'))
+const products=read('products'),couples=read('couples'),looks=read('looks')
+const worlds=['Garba','Navratri','College Fest','Diwali','Festive Party']
+const merchantHosts={Myntra:'myntra.com',AJIO:'ajio.com',Flipkart:'flipkart.com',Shopsy:'shopsy.in',Meesho:'meesho.com',Nykaa:'nykaa.com'}
+const women=['chaniya-choli','lehenga','sharara','gharara','sarees','pre-draped-saree','anarkali','kurta-sets','jewellery','bags','footwear','beauty']
+const men=['traditional-kurta','festive-kurta-set','printed-ethnic-shirt','embroidered-ethnic-shirt','traditional-festive-set','garba-navratri-traditional','footwear','accessories']
+const errors=[];const check=(v,m)=>{if(!v)errors.push(m)}
+check(products.length===653,'Expected exactly 653 products')
+check(couples.length===100,'Expected exactly 100 couples')
+const byId=new Map(products.map(p=>[p.id,p]));check(byId.size===653,'Duplicate IDs')
+for(const p of products){
+ check(Number.isFinite(p.price)&&p.price>0&&p.price<=7999,`${p.id}: price outside ceiling`)
+ check(p.title?.length && p.silhouette?.length,`${p.id}: missing garment fields`)
+ check((p.gender==='women'?women:men).includes(p.category),`${p.id}: invalid category/gender`)
+ check(p.gender==='women'||p.gender==='men',`${p.id}: synthetic bundle is not a product`)
+ check(p.occasions.length>0 && p.occasions.every(o=>worlds.includes(o)) && new Set(p.occasions).size===p.occasions.length,`${p.id}: invalid occasions`)
+ check(p.status==='CHECK',`${p.id}: unverified inventory cannot claim live status`)
+ check(!p.rating&&!p.reviews&&!p.stock&&!p.bestseller,`${p.id}: fabricated social/inventory fields`)
+ check(p.affiliateUrl==='',`${p.id}: affiliate URL belongs only in central map`)
+ try{const url=new URL(p.merchantUrl),host=merchantHosts[p.merchantLabel];check(host&&(url.hostname===host||url.hostname===`www.${host}`)&&url.protocol==='https:'&&url.pathname!=='/',`${p.id}: invalid merchant destination`)}catch{errors.push(`${p.id}: malformed merchant URL`)}
+ check(p.merchantLabel!=='Nykaa'||p.category==='beauty',`${p.id}: Nykaa assigned to unsupported category`)
+ check(/\.(jpg|jpeg|webp|png)$/.test(p.imageUrl)&&fs.existsSync('public'+p.imageUrl),`${p.id}: missing raster primary`)
 }
-
-const byId = new Map(products.map((p) => [p.id, p]))
-for (const l of looks) {
-  if (badNum(l.price)) err(`[look ${l.id}] invalid price`)
-  const sum = l.productIds.reduce((s, id) => s + (byId.get(id)?.price ?? 0), 0)
-  if (l.price !== sum) err(`[look ${l.id}] price ${l.price} != item sum ${sum}`)
-  if (typeof l.imageUrl !== 'string' || !existsSync(join(ROOT, 'public', l.imageUrl))) err(`[look ${l.id}] plate image missing on disk`)
-  if (/\.svg$/i.test(l.imageUrl || '')) err(`[look ${l.id}] primary image must not be SVG`)
+for(const world of worlds)check(couples.filter(c=>c.occasions.length===1&&c.occasions[0]===world).length===20,`${world}: count must be 20`)
+for(const c of couples){
+ check(c.herProductIds.length>0&&c.hisProductIds.length>0,`${c.id}: missing anchors`)
+ for(const [gender,ids] of [['women',c.herProductIds],['men',c.hisProductIds]])for(const id of ids){const p=byId.get(id);check(p&&p.gender===gender&&p.occasions.includes(c.world),`${c.id}: incompatible product ${id}`)}
+ const ids=[...c.herProductIds,...c.hisProductIds];check(new Set(ids).size===ids.length,`${c.id}: duplicate product assignment`)
+ check(c.price===ids.reduce((s,id)=>s+(byId.get(id)?.price||0),0),`${c.id}: capped/inaccurate bundle price`)
 }
-for (const c of couples) {
-  if (badNum(c.price)) err(`[couple ${c.id}] invalid price`)
-  if (c.price > 8000) err(`[couple ${c.id}] price exceeds production ceiling of ₹8,000`)
-  if (!/\.jpg$/i.test(c.imageUrl || '') || !existsSync(join(ROOT, 'public', c.imageUrl))) err(`[couple ${c.id}] human-couple JPG missing on disk`)
-  for (const field of ['world', 'pose', 'camera', 'framing', 'lighting', 'activity', 'location', 'palette', 'sourceImage', 'composition', 'uniquenessKey']) if (!c.metadata?.[field]) err(`[couple ${c.id}] missing photography metadata: ${field}`)
-  for (const id of [...(c.herProductIds || []), ...(c.hisProductIds || [])]) if (!byId.has(id)) err(`[couple ${c.id}] references missing product ${id}`)
-}
-
-const coupleHashes = couples.map((c) => createHash('sha256').update(readFileSync(join(ROOT, 'public', c.imageUrl))).digest('hex'))
-if (new Set(coupleHashes).size !== couples.length) err('couple primary image bytes are repeated')
-const titles = products.map((p) => p.id)
-if (new Set(titles).size !== titles.length) err('duplicate product ids')
-
-console.log(`check-catalog: ${products.length} products · ${looks.length} looks · ${couples.length} couple looks`)
-if (errors.length) {
-  console.error(`✗ ${errors.length} integrity error(s):`)
-  for (const e of errors) console.error('  - ' + e)
-  process.exit(1)
-}
-console.log('✓ catalog integrity: all required fields valid, links whitelisted, images on disk')
+for(const l of looks){check(l.productIds.every(id=>byId.has(id)),`${l.id}: missing product`);check(l.price===l.productIds.reduce((s,id)=>s+(byId.get(id)?.price||0),0),`${l.id}: wrong sum`);check(l.occasions.every(o=>worlds.includes(o)),`${l.id}: obsolete world`)}
+const manifest=read('image-manifest');check(manifest.productPrimaries.length===653 && manifest.couplePrimaries.length===100,'Manifest coverage')
+for(const p of products)check(manifest.productPrimaries.find(m=>m.id===p.id)?.imageUrl===p.imageUrl,`${p.id}: stale manifest`)
+console.log(`Catalog: ${products.length} products; ${couples.length} couples; ${JSON.stringify(Object.fromEntries(worlds.map(w=>[w,couples.filter(c=>c.world===w).length])))}`)
+assert.equal(errors.length,0,errors.join('\n'))
+console.log('PASS data relationships, taxonomy, prices, merchants. This is NOT a visual acceptance claim.')

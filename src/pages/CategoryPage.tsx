@@ -5,7 +5,7 @@ import { useEffect, useMemo, useState } from 'react';
 import { Link, useLocation, useSearchParams } from 'react-router-dom';
 import { X, SlidersHorizontal, Sparkles, ArrowRight } from 'lucide-react';
 import {
-  BUDGET_RANGES, categoriesForGender, filterProducts, getProductsByGender,
+  BUDGET_RANGES, CATEGORY_LABELS, filterProducts, getProductsByGender,
   OCCASION_TAG_BY_ID, type BudgetKey, type Product,
 } from '../data/products';
 import { curatedProductIds } from '../data/looks';
@@ -73,7 +73,8 @@ export default function CategoryPage({ gender, title, subtitle, heroImage }: Pro
   const shown = items.slice(0, visiblePages * PAGE_SIZE);
   useEffect(() => setVisiblePages(1), [location.search]);
 
-  const cats = categoriesForGender(gender);
+  const categoryPool = filterProducts({ ...f, category: undefined }).items;
+  const cats = [...new Set(categoryPool.map(p => p.category))].sort((a,b) => Object.keys(CATEGORY_LABELS).indexOf(a) - Object.keys(CATEGORY_LABELS).indexOf(b)).map(key => ({key, label: CATEGORY_LABELS[key] || key, count: categoryPool.filter(p => p.category === key).length}));
   const totalScope = getProductsByGender(gender).length;
   const activeChips = [
     f.category && { key: 'category', label: cats.find((c) => c.key === f.category)?.label || f.category },
@@ -222,7 +223,7 @@ export default function CategoryPage({ gender, title, subtitle, heroImage }: Pro
             {total === 0 ? (
               <div className="bg-white rounded-2xl border border-[#E9E1D4] p-8 text-center">
                 <p className="font-playfair text-xl text-[#171918] mb-2">This combination has no pieces yet</p>
-                <p className="text-sm text-[#171918]/60 mb-5">Remove a filter — the counts above show exactly where results live, so every chip below has stock of its own.</p>
+                <p className="text-sm text-[#171918]/60 mb-5">Remove a filter — the counts above show exactly where results live, so every chip below has catalog results.</p>
                 <div className="flex flex-wrap gap-2 justify-center">
                   {activeChips.map((c) => (
                     <button key={c.key} onClick={() => setParam(c.key, undefined)} className="px-3.5 py-2 rounded-full border border-[#B7945A] text-[13px] text-[#103C35] font-medium hover:bg-[#B7945A] hover:text-white transition-colors">

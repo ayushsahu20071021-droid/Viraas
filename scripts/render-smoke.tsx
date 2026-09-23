@@ -30,7 +30,7 @@ let failures = 0
 const fail = (what: string, e: unknown) => { failures++; console.log(`FAIL ${what}: ${(e as Error)?.message || e}`) }
 const ok = (what: string) => console.log(`OK   ${what}`)
 
-// ── 1. ProductCard for ALL 595 products (the exact crash surface) ────────────
+// ── 1. ProductCard for ALL catalog products (the exact crash surface) ────────────
 let cards = 0
 for (const p of products) {
   try { renderToStaticMarkup(<MemoryRouter><ProductCard product={p} /></MemoryRouter>); cards++ } catch (e) { fail(`ProductCard ${p.id}`, e) }
@@ -132,9 +132,9 @@ for (const lid of [looksJson[0]?.id, couplesJson[0]?.id].filter(Boolean)) {
 
 // Required production priority route: Garba category filter.
 try {
-  renderToStaticMarkup(<MemoryRouter initialEntries={['/men?category=garba']}><Routes><Route path="/men" element={<CategoryPage gender="men" title="For Him" subtitle="s" heroImage="/images/hero-men.jpg" />} /></Routes></MemoryRouter>)
-  ok('page /men?category=garba')
-} catch (e) { fail('page /men?category=garba', e) }
+  renderToStaticMarkup(<MemoryRouter initialEntries={['/men?category=garba-navratri-traditional']}><Routes><Route path="/men" element={<CategoryPage gender="men" title="For Him" subtitle="s" heroImage="/images/hero-men.jpg" />} /></Routes></MemoryRouter>)
+  ok('page /men?category=garba-navratri-traditional')
+} catch (e) { fail('page /men?category=garba-navratri-traditional', e) }
 
 // filtered category page (all query facets at once)
 try {

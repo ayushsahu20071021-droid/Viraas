@@ -1,8 +1,9 @@
+import ShareLinks from '../components/ShareLinks';
 import { useEffect, useState } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { Heart, Sparkles, ShoppingBag, ArrowLeft, Share2, ExternalLink, AlertTriangle, Layers } from 'lucide-react';
 import { getProductById, completeTheLook, OCCASION_TAG_BY_ID } from '../data/products';
-import { getAffiliateUrl } from '../data/affiliate-links';
+import { getAffiliateUrl, resolveShopUrl } from '../data/affiliate-links';
 import { getLooksForProduct } from '../data/looks';
 import { toggleSavedLook, isLookSaved } from '../utils/savedLooks';
 import { trackAffiliateClick, trackEvent } from '../utils/analytics';
@@ -57,7 +58,7 @@ export default function ProductPage() {
     );
   }
 
-  const images = [product.imageUrl, ...(product.gallery || [])];
+  const images = [...new Set([product.imageUrl, ...(product.gallery || [])])];
   const coupleHis = product.herProductId && product.hisProductId ? getProductById(product.hisProductId) : undefined;
   const coupleHer = product.herProductId && product.hisProductId ? getProductById(product.herProductId) : undefined;
   const complete = product.category !== 'couple-edit' ? completeTheLook(product) : [];
@@ -70,7 +71,7 @@ export default function ProductPage() {
     if (isNowSaved) trackEvent('save_product', { productId: product.id });
   };
   const handleShop = () => {
-    const url = getAffiliateUrl(product.id) || product.affiliateUrl || product.merchantUrl;
+    const url = resolveShopUrl(product);
     if (url) {
       trackAffiliateClick(product.id, product.merchantLabel, product.category);
       window.open(url, '_blank', 'noopener,noreferrer');
@@ -158,7 +159,7 @@ export default function ProductPage() {
               )}
             </div>
             <p className="text-[11px] text-[#AEB8A0] mb-6">
-              Curated reference price{product.lastChecked ? ` · verified against retailer on ${product.lastChecked}` : ''}. VIRAAS does not hold stock — live price shows on {product.merchantLabel}.
+              {product.priceBasis === 'market-comparable-estimate' ? 'Estimated from comparable marketplace listings' : 'Unverified editorial reference price'}{product.lastChecked ? ` · research date ${product.lastChecked}` : ''}. Not a verified SKU or live offer. Confirm the exact outfit, price and availability on {product.merchantLabel}.
             </p>
 
             <div className="grid grid-cols-2 gap-3 mb-8 text-sm">
@@ -213,6 +214,8 @@ export default function ProductPage() {
               </div>
             )}
 
+            <div className="mb-5 text-[#103C35]"><ShareLinks path={`/product/${product.id}`} title={product.title} /></div>
+            {product.visualStatus !== 'APPROVED' && <p className="mb-5 text-xs text-[#9b4e33]">Visual replacement pending. The legacy illustration may not match this styling concept; confirm the exact garment at the retailer.</p>}
             {/* CTAs */}
             <div className="space-y-3">
               {product.inHouseTryOn && (
@@ -232,8 +235,8 @@ export default function ProductPage() {
                 {product.category === 'couple-edit' ? 'SHOP BOTH HALVES' : `SHOP THIS LOOK ON ${product.merchantLabel.toUpperCase()}`}
                 <ExternalLink size={14} />
               </button>
-              <p className={`text-[11px] text-center ${product.affiliateUrl ? 'text-[#AEB8A0]' : 'text-[#B7945A]'} -mt-1`}>
-                {product.affiliateUrl
+              <p className={`text-[11px] text-center ${getAffiliateUrl(product.id) ? 'text-[#AEB8A0]' : 'text-[#B7945A]'} -mt-1`}>
+                {getAffiliateUrl(product.id)
                   ? 'Opens your affiliate link.'
                   : 'Affiliate link not configured — this button goes straight to the retailer\'s product search. VIRAAS may earn a commission when you shop through selected affiliate links.'}
               </p>

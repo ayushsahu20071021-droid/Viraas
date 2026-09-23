@@ -1,5 +1,5 @@
 import { useState, useEffect, useRef } from 'react';
-import { Link, useNavigate } from 'react-router-dom';
+import { Link, useNavigate, useLocation } from 'react-router-dom';
 import { Search, Heart, Sparkles, Menu, X, ChevronDown } from 'lucide-react';
 import { categoriesForGender, getProductsByOccasion } from '../data/products';
 import { featuredOccasions } from '../data/occasions';
@@ -16,6 +16,9 @@ export default function Header() {
   const [searchQuery, setSearchQuery] = useState('');
   const menuRef = useRef<HTMLDivElement>(null);
   const navigate = useNavigate();
+  const location = useLocation();
+  const solid = scrolled || mobileOpen || location.pathname !== "/";
+  useEffect(() => { setActiveMenu(null); setMobileOpen(false); }, [location.pathname]);
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 40);
@@ -42,12 +45,12 @@ export default function Header() {
     }
   };
 
-  const headerClass = scrolled
+  const headerClass = solid
     ? 'bg-[#F6F0E6]/95 backdrop-blur-md shadow-sm border-b border-[#D95E3F]/10'
     : 'bg-transparent';
 
-  const textColor = scrolled || mobileOpen ? 'text-[#171918]' : 'text-white';
-  const logoColor = scrolled || mobileOpen ? 'text-[#103C35]' : 'text-white';
+  const textColor = solid ? 'text-[#171918]' : 'text-white';
+  const logoColor = solid ? 'text-[#103C35]' : 'text-white';
 
   return (
     <>
@@ -63,7 +66,7 @@ export default function Header() {
             </Link>
 
             {/* Desktop Nav */}
-            <nav className="hidden lg:flex items-center gap-8">
+            <nav className="hidden lg:flex items-center gap-4 xl:gap-8">
               {[
                 { label: 'Women', key: 'women', href: '/women' },
                 { label: 'Men', key: 'men', href: '/men' },

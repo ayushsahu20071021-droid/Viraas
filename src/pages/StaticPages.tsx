@@ -70,7 +70,7 @@ export function AboutPage() {
           <h2 className="font-playfair text-2xl mb-4">Our Audience</h2>
           <p className="text-base leading-relaxed text-[#AEB8A0]">
             VIRAAS is built for young India — the 16–30 audience navigating contemporary ethnic fashion for Diwali,
-            weddings, Navratri, college fests, and every celebration in between. We curate across women, men, couples,
+            Garba, Navratri, College Fest, Diwali and Festive Party. We curate across women, men, couples,
             accessories and beauty. Under-18 shoppers can browse, save, share and shop freely; personal-photo Try-On is
             reserved for adults, because a face deserves consent rules.
           </p>
@@ -120,10 +120,10 @@ export function FAQPage() {
     { q: 'Does VIRAAS sell products directly?', a: 'No. VIRAAS is a fashion discovery and curation platform. We curate and present looks, but the actual purchase happens on the external retailer\'s website (Myntra, AJIO, Flipkart, Shopsy, Meesho, Nykaa).' },
     { q: 'What is the AI Try-On feature?', a: 'AI Try-On lets you upload a photo of yourself and see how a selected VIRAAS outfit might look on your body. It is available for users aged 18 and above, and runs in demo mode until the paid vision provider is connected — the UI always tells you which mode you are in.' },
     { q: 'Is my photo stored by VIRAAS?', a: 'Your uploaded photo is used only to generate the try-on result and is never sent to analytics. Please see our AI Try-On Privacy page for full details.' },
-    { q: 'Why does a product say "Affiliate link not configured"?', a: 'Because honesty beats monetisation. We never paste guessed links. Until a real EarnKaro/retailer affiliate link is added manually per product, the Shop button takes you straight to the retailer\'s product page and the note tells you so.' },
+    { q: 'Why does a product say "Affiliate link not configured"?', a: 'Because honesty beats monetisation. We never paste guessed links. Until a real EarnKaro/retailer affiliate link is added manually per product, the Shop button takes you to the retailer\'s search results and the note tells you so.' },
     { q: 'What does the CHECK badge mean?', a: 'It means the product exists in our editorial catalog but a human has not yet re-verified the retailer listing for price, image rights and stock today. We only remove the badge after manual verification — see the last-checked date on each product.' },
     { q: 'Does VIRAAS earn money from my purchase?', a: 'VIRAAS may earn a commission when you shop through selected affiliate links. This does not affect the price you pay. See our Affiliate Disclosure for details.' },
-    { q: 'Are the prices shown accurate?', a: 'Prices are curated reference points at the listed "last checked" date and may change on the retailer\'s website. Always verify the final price on the retailer\'s checkout.' },
+    { q: 'Are the prices shown accurate?', a: 'Prices supported by research are estimates from comparable listings, not exact SKU quotes. Unresearched prices are marked unverified. Always verify the final price on the retailer\'s checkout.' },
     { q: 'Can I return a product?', a: 'Returns are handled directly by the retailer (Myntra, AJIO, etc.) according to their own return policy.' },
     { q: 'I\'m 17 — can I use VIRAAS?', a: 'Absolutely: browse, save, share and shop without limits. The one boundary is personal-photo AI Try-On, which is 18+ because it involves a real photo of your face.' },
     { q: 'How do I contact VIRAAS?', a: 'WhatsApp us at +91 96444 24865. We\'re happy to help you find the right look.' },
@@ -276,7 +276,7 @@ export function AITryOnPrivacyPage() {
 // ── COUPLE EDIT (canonical /couple-edit) ─────────────────────────────────────
 export function CoupleEditPage() {
   const [occ, setOcc] = useState<string | null>(null);
-  const coupleWorlds = ['Garba', 'Navratri', 'Diwali', 'Festive Party', 'College Fest'] as const;
+  const coupleWorlds = ['Garba', 'Navratri', 'College Fest', 'Diwali', 'Festive Party'] as const;
   const filtered = occ ? coupleLooks.filter((c) => c.occasions.includes(occ)) : coupleLooks;
   const pairSets = products.filter((p) => p.category === 'couple-edit');
 
@@ -296,7 +296,7 @@ export function CoupleEditPage() {
         <div className="flex flex-wrap items-center justify-between gap-4 mb-8">
           <div className="flex flex-wrap gap-2">
             <button onClick={() => setOcc(null)} className={`px-4 py-2 rounded-full text-[13px] font-medium border transition-colors ${!occ ? 'bg-[#103C35] text-[#F6F0E6] border-[#103C35]' : 'bg-white/60 border-[#E9E1D4] text-[#171918]/80 hover:border-[#B7945A]'}`}>
-              ALL PAIRS <span className="opacity-60 tabular-nums">{coupleLooks.length}</span>
+              All <span className="opacity-60 tabular-nums">{coupleLooks.length}</span>
             </button>
             {coupleWorlds.map((world) => {
               const count = coupleLooks.filter((c) => c.occasions.includes(world)).length;
@@ -312,6 +312,7 @@ export function CoupleEditPage() {
           </Link>
         </div>
 
+        <p className="mb-6 text-xs text-[#9b4e33]">Visual refresh in progress: legacy couple images are pending replacement and may not match the linked styling concepts.</p>
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {filtered.map((c) => {
             const her = lookItems({ ...c, productIds: c.herProductIds || [] });
@@ -359,7 +360,7 @@ export function CoupleEditPage() {
         <div className="mt-16 bg-[#103C35] rounded-3xl p-8 md:p-12 text-center">
           <Sparkles size={22} className="text-[#B7945A] mx-auto mb-4" />
           <h2 className="font-playfair text-2xl md:text-3xl text-white mb-3">Want a pair styled for your exact event?</h2>
-          <p className="text-[#AEB8A0] text-sm max-w-md mx-auto mb-6">Send us the occasion, date and colour comfort zone — we'll reply with a her + him board from the live catalog.</p>
+          <p className="text-[#AEB8A0] text-sm max-w-md mx-auto mb-6">Send us the occasion, date and colour comfort zone — we'll reply with a her + him board from the styling catalog.</p>
           <a href={`https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent('Hi VIRAAS, I need help finding a festive outfit for two.')}`} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 px-8 py-3.5 bg-[#25D366] text-white font-semibold rounded-full hover:bg-[#1fba58] transition-colors text-sm">
             <MessageCircle size={16} /> REQUEST A COUPLE BOARD
           </a>
@@ -405,7 +406,7 @@ export function TrendingPage() {
         <div className="max-w-screen-xl mx-auto">
           <p className="text-xs font-semibold tracking-[0.3em] text-[#B7945A] uppercase mb-4">The Edit · no fake hype</p>
           <h1 className="font-playfair text-4xl lg:text-6xl text-white mb-3">Trending Now</h1>
-          <p className="text-[#AEB8A0] text-sm max-w-xl">Trending here means "most styled by VIRAAS editors this season" — every rail below is a real tag across the live catalog, not a manufactured bestseller list.</p>
+          <p className="text-[#AEB8A0] text-sm max-w-xl">Trending here means "our editorial selection" — every rail below is a real tag across the styling catalog, not a manufactured bestseller list.</p>
         </div>
       </div>
 
@@ -434,7 +435,7 @@ export function TrendingPage() {
         {items.length > 12 && (
           <div className="text-center mt-8">
             <Link to={`/women?style=${encodeURIComponent(tag)}`} className="inline-flex items-center gap-2 px-8 py-3 rounded-full bg-[#103C35] text-[#F6F0E6] text-sm font-semibold hover:bg-[#0d3028] transition-colors">
-              Shop all {items.length} <ArrowRight size={15} />
+              Browse women · {items.filter(p => p.gender === 'women').length} <ArrowRight size={15} />
             </Link>
           </div>
         )}
@@ -447,7 +448,7 @@ export function TrendingPage() {
             </div>
             <div className="space-y-3">
               {topColours.map(([colour, n]) => (
-                <Link key={colour} to={`/women?colour=${encodeURIComponent(colour)}`} className="flex items-center gap-3 group">
+                <Link key={colour} to={`/search?q=${encodeURIComponent(colour)}`} className="flex items-center gap-3 group">
                   <span className="w-7 h-7 rounded-full border border-[#E9E1D4]" style={{ backgroundColor: hexOf(colour) }} />
                   <span className="text-sm font-medium text-[#171918] group-hover:text-[#103C35] flex-1">{colour}</span>
                   <span className="text-xs text-[#AEB8A0] tabular-nums">{n} pieces</span>
@@ -472,8 +473,8 @@ export function TrendingPage() {
             </div>
             <div className="mt-5 flex flex-wrap gap-2">
               <Link to="/women?style=Statement" className="px-4 py-2 rounded-full bg-[#F6F0E6] text-xs font-semibold text-[#103C35] hover:bg-[#E9E1D4]">Statement women</Link>
-              <Link to="/men?style=Modern Luxury" className="px-4 py-2 rounded-full bg-[#F6F0E6] text-xs font-semibold text-[#103C35] hover:bg-[#E9E1D4]">Modern luxury men</Link>
-              <Link to="/accessories?style=Handloom & Artisan" className="px-4 py-2 rounded-full bg-[#F6F0E6] text-xs font-semibold text-[#103C35] hover:bg-[#E9E1D4]">Artisan accessories</Link>
+              <Link to="/men?style=Printed" className="px-4 py-2 rounded-full bg-[#F6F0E6] text-xs font-semibold text-[#103C35] hover:bg-[#E9E1D4]">Printed festive men</Link>
+              <Link to="/accessories?style=Festive" className="px-4 py-2 rounded-full bg-[#F6F0E6] text-xs font-semibold text-[#103C35] hover:bg-[#E9E1D4]">Festive accessories</Link>
             </div>
           </div>
         </div>

@@ -1,10 +1,10 @@
 import { useMemo, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { ArrowRight, Sparkles, ChevronDown } from 'lucide-react';
-import { products, BUDGET_RANGES, completeTheLook, type Product } from '../data/products';
+import { products, CATEGORY_LABELS, BUDGET_RANGES, completeTheLook, type Product } from '../data/products';
 import { trackEvent } from '../utils/analytics';
 import { looks, coupleLooks, lookAnchors } from '../data/looks';
-import { occasions } from '../data/occasions';
+import { featuredOccasions as occasions } from '../data/occasions';
 import { articles } from '../data/articles';
 import ProductCard from '../components/ProductCard';
 import TryOnModal from '../components/TryOnModal';
@@ -23,7 +23,7 @@ function pickRail(gender: 'women' | 'men', size: number): Product[] {
     byCat.get(p.category)!.push(p);
   }
   let i = 0;
-  const order = [...byCat.keys()];
+  const order = [...byCat.keys()].sort((a,b) => Object.keys(CATEGORY_LABELS).indexOf(a) - Object.keys(CATEGORY_LABELS).indexOf(b));
   while (out.length < size && out.length < order.length * 4) {
     const cat = order[out.length % order.length];
     const pool = byCat.get(cat)!;
@@ -42,7 +42,7 @@ export default function Home() {
   const womenProducts = useMemo(() => pickRail('women', 6), []);
   const menProducts = useMemo(() => pickRail('men', 6), []);
   const trendingProducts = useMemo(
-    () => products.filter((p) => p.styleTags.includes('Pinterest Inspired') && p.category !== 'couple-edit').slice(20, 24),
+    () => products.filter((p) => p.styleTags.includes('Statement') && p.category !== 'couple-edit').slice(0, 4),
     [],
   );
   const accessoryProducts = useMemo(() => {
@@ -93,7 +93,7 @@ export default function Home() {
         <div className="max-w-screen-xl mx-auto">
           <div className="flex items-end justify-between mb-12">
             <div>
-              <p className="text-xs font-semibold tracking-[0.3em] text-[#B7945A] uppercase mb-3">Shop by Occasion · 18 edits</p>
+              <p className="text-xs font-semibold tracking-[0.3em] text-[#B7945A] uppercase mb-3">Shop by Occasion · 5 worlds</p>
               <h2 className="font-playfair text-3xl lg:text-5xl text-[#171918]">Dress for<br />the Moment</h2>
             </div>
             <Link to="/occasions" className="hidden sm:flex items-center gap-2 text-sm text-[#103C35] font-semibold hover:text-[#D95E3F] transition-colors">
